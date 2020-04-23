@@ -241,8 +241,9 @@ public class VRPNHandler : Element</code></pre>
   
   <a id="Votanic_vIO_VRPN_VRPNHandler_AxisDown_" data-uid="Votanic.vIO.VRPN.VRPNHandler.AxisDown*"></a>
   <h4 id="Votanic_vIO_VRPN_VRPNHandler_AxisDown_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.VRPN.VRPNHandler.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisDown(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
-  <div class="markdown level1 summary"><p>Return true if the axis on axes is pressed.
-<br> 當軸群的軸按下時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if the axis on axes is pressed (Absolute axis value &gt;= Press detect value).
+<br> 當軸群的軸按下時傳回 true（軸絕對值 &gt;= 按下偵測值）。</p>
+<p> AxisDown(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -310,8 +311,9 @@ public class VRPNHandler : Element</code></pre>
   
   <a id="Votanic_vIO_VRPN_VRPNHandler_AxisHold_" data-uid="Votanic.vIO.VRPN.VRPNHandler.AxisHold*"></a>
   <h4 id="Votanic_vIO_VRPN_VRPNHandler_AxisHold_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.VRPN.VRPNHandler.AxisHold(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisHold(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
-  <div class="markdown level1 summary"><p>Return true if the axis on axes is held for a while.
-<br> 當軸群的軸長按一段時間時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if the axis on axes is held for a while (Absolute axis value &gt;= Press detect value).
+<br> 當軸群的軸長按一段時間時傳回 true（軸絕對值 &gt;= 按下偵測值）。</p>
+<p> AxisHold(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -379,8 +381,9 @@ public class VRPNHandler : Element</code></pre>
   
   <a id="Votanic_vIO_VRPN_VRPNHandler_AxisPress_" data-uid="Votanic.vIO.VRPN.VRPNHandler.AxisPress*"></a>
   <h4 id="Votanic_vIO_VRPN_VRPNHandler_AxisPress_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.VRPN.VRPNHandler.AxisPress(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisPress(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
-  <div class="markdown level1 summary"><p>Return true if the axis on axes is pressing.
-<br> 當軸群的軸按住時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if the axis on axes is pressing (Absolute axis value &gt;= Press detect value).
+<br> 當軸群的軸按住時傳回 true（軸絕對值 &gt;= 按下偵測值）。</p>
+<p> AxisPress(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -448,8 +451,9 @@ public class VRPNHandler : Element</code></pre>
   
   <a id="Votanic_vIO_VRPN_VRPNHandler_AxisUp_" data-uid="Votanic.vIO.VRPN.VRPNHandler.AxisUp*"></a>
   <h4 id="Votanic_vIO_VRPN_VRPNHandler_AxisUp_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.VRPN.VRPNHandler.AxisUp(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisUp(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
-  <div class="markdown level1 summary"><p>Return true if the axis on axes is released.
-<br> 當軸群的軸放開時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if the axis on axes is released (Absolute release value &gt;= Press detect value).
+<br> 當軸群的軸放開時傳回 true（釋放絕對值 &gt;= 按下偵測值）。</p>
+<p> AxisUp(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -519,6 +523,7 @@ public class VRPNHandler : Element</code></pre>
   <h4 id="Votanic_vIO_VRPN_VRPNHandler_AxisValue_System_Int32_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.VRPN.VRPNHandler.AxisValue(System.Int32,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisValue(Int32, Int32, Boolean, AssistButtons)</h4>
   <div class="markdown level1 summary"><p>Return the value of an axis on axes.
 <br> 傳回軸群中一個軸的值。</p>
+<p> AxisValue(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -582,6 +587,7 @@ public class VRPNHandler : Element</code></pre>
   <h4 id="Votanic_vIO_VRPN_VRPNHandler_ButtonDown_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VRPN.VRPNHandler.ButtonDown(System.Int32,System.Int32,System.Boolean)">ButtonDown(Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if the button on buttons is pressed.
 <br> 當按鈕群的按鈕按下時傳回 true。</p>
+<p> ButtonDown(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -639,6 +645,7 @@ public class VRPNHandler : Element</code></pre>
   <h4 id="Votanic_vIO_VRPN_VRPNHandler_ButtonHold_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VRPN.VRPNHandler.ButtonHold(System.Int32,System.Int32,System.Boolean)">ButtonHold(Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if the button on buttons is held for a while.
 <br> 當按鈕群的按鈕長按一段時間時傳回 true。</p>
+<p> ButtonHold(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -696,6 +703,7 @@ public class VRPNHandler : Element</code></pre>
   <h4 id="Votanic_vIO_VRPN_VRPNHandler_ButtonPress_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VRPN.VRPNHandler.ButtonPress(System.Int32,System.Int32,System.Boolean)">ButtonPress(Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if the button on buttons is pressing.
 <br> 當按鈕群的按鈕按住時傳回 true。</p>
+<p> ButtonPress(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -753,6 +761,7 @@ public class VRPNHandler : Element</code></pre>
   <h4 id="Votanic_vIO_VRPN_VRPNHandler_ButtonUp_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VRPN.VRPNHandler.ButtonUp(System.Int32,System.Int32,System.Boolean)">ButtonUp(Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if the button on buttons is released.
 <br> 當按鈕群的按鈕放開時傳回 true。</p>
+<p> ButtonUp(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -810,6 +819,7 @@ public class VRPNHandler : Element</code></pre>
   <h4 id="Votanic_vIO_VRPN_VRPNHandler_TrackerAccessible_System_String_" data-uid="Votanic.vIO.VRPN.VRPNHandler.TrackerAccessible(System.String)">TrackerAccessible(String)</h4>
   <div class="markdown level1 summary"><p>Return true if the tracker is accessible.
 <br> 當定位器可讀取時傳回 true。</p>
+<p> TrackerAccessible(&quot;HeadTracker&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -855,6 +865,7 @@ public class VRPNHandler : Element</code></pre>
   <h4 id="Votanic_vIO_VRPN_VRPNHandler_TrackerPosition_System_String_" data-uid="Votanic.vIO.VRPN.VRPNHandler.TrackerPosition(System.String)">TrackerPosition(String)</h4>
   <div class="markdown level1 summary"><p>Get the position of tracker in system.
 <br> 取得系統中的定位器位置。</p>
+<p> TrackerPosition(&quot;HeadTracker&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -900,6 +911,7 @@ public class VRPNHandler : Element</code></pre>
   <h4 id="Votanic_vIO_VRPN_VRPNHandler_TrackerRotation_System_String_" data-uid="Votanic.vIO.VRPN.VRPNHandler.TrackerRotation(System.String)">TrackerRotation(String)</h4>
   <div class="markdown level1 summary"><p>Get the rotation of tracker in system.
 <br> 取得系統中的定位器角度。</p>
+<p> TrackerRotation(&quot;HeadTracker&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

@@ -73,8 +73,8 @@
   
   <h1 id="Votanic_vIO_Buttons" data-uid="Votanic.vIO.Buttons" class="text-break">Class Buttons
   </h1>
-  <div class="markdown level0 summary"><p>Buttons type of device class.
-<br> 按鈕群類型的裝置類別。</p>
+  <div class="markdown level0 summary"><p>The buttons class. Device type that contains group of buttons.
+<br> 按鈕群類別。包含一組按鈕的裝置類型。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -237,6 +237,7 @@
   <h4 id="Votanic_vIO_Buttons_ButtonDown_System_Int32_System_Boolean_" data-uid="Votanic.vIO.Buttons.ButtonDown(System.Int32,System.Boolean)">ButtonDown(Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if the button is pressed.
 <br> 當按鈕按下時傳回 true。</p>
+<p> ButtonDown(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -288,6 +289,7 @@
   <h4 id="Votanic_vIO_Buttons_ButtonHold_System_Int32_System_Boolean_" data-uid="Votanic.vIO.Buttons.ButtonHold(System.Int32,System.Boolean)">ButtonHold(Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if the button is held for a while.
 <br> 當按鈕長按一段時間時傳回 true。</p>
+<p> ButtonHold(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -339,6 +341,7 @@
   <h4 id="Votanic_vIO_Buttons_ButtonPress_System_Int32_System_Boolean_" data-uid="Votanic.vIO.Buttons.ButtonPress(System.Int32,System.Boolean)">ButtonPress(Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if the button is pressing.
 <br> 當按鈕按住時傳回 true。</p>
+<p> ButtonPress(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -390,6 +393,7 @@
   <h4 id="Votanic_vIO_Buttons_ButtonTouch_System_Int32_System_Boolean_" data-uid="Votanic.vIO.Buttons.ButtonTouch(System.Int32,System.Boolean)">ButtonTouch(Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if the button is touched.
 <br> 當按鈕被觸碰時傳回 true。</p>
+<p> ButtonTouch(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -441,6 +445,7 @@
   <h4 id="Votanic_vIO_Buttons_ButtonUp_System_Int32_System_Boolean_" data-uid="Votanic.vIO.Buttons.ButtonUp(System.Int32,System.Boolean)">ButtonUp(Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if the button is released.
 <br> 當按鈕放開時傳回 true。</p>
+<p> ButtonUp(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -490,8 +495,9 @@
   
   <a id="Votanic_vIO_Buttons_SetHoldingDuration_" data-uid="Votanic.vIO.Buttons.SetHoldingDuration*"></a>
   <h4 id="Votanic_vIO_Buttons_SetHoldingDuration_System_Int32_System_Single_" data-uid="Votanic.vIO.Buttons.SetHoldingDuration(System.Int32,System.Single)">SetHoldingDuration(Int32, Single)</h4>
-  <div class="markdown level1 summary"><p>Set holding duration to a button.
+  <div class="markdown level1 summary"><p>Set the holding type target seconds of a button.
 <br> 設定一個按鈕的長按時間。</p>
+<p> SetHoldingDuration(0, 1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -526,8 +532,9 @@
   
   <a id="Votanic_vIO_Buttons_SetHoldingDuration_" data-uid="Votanic.vIO.Buttons.SetHoldingDuration*"></a>
   <h4 id="Votanic_vIO_Buttons_SetHoldingDuration_System_Single_System_Boolean_" data-uid="Votanic.vIO.Buttons.SetHoldingDuration(System.Single,System.Boolean)">SetHoldingDuration(Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Set the target seconds of buttons.
+  <div class="markdown level1 summary"><p>Set the holding type target seconds of buttons.
 <br> 設定按鈕群長按輸入類型所需的目標秒數。</p>
+<p> SetHoldingDuration(1, true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -553,8 +560,8 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">setToAll</span></td>
-        <td><p>Set to all input index if true, else only set to the index with default duration
-<br> 當 true 時設定到所有輸入編號，否則只設定到使用預設值的編號</p>
+        <td><p>Set to all input indices if true, else only set to the index using global value
+<br> 當 true 時設定到所有輸入編號，否則只設定到使用公用值的編號</p>
 </td>
       </tr>
     </tbody>

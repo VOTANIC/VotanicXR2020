@@ -503,6 +503,31 @@ public string configPath</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vXR_vCast_vCast_showReference" data-uid="Votanic.vXR.vCast.vCast.showReference">showReference</h4>
+  <div class="markdown level1 summary"><p>Display reference system config screen in editor. <br> 在編輯器顯示系統配置文件的屏幕。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool showReference</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vXR_vCast_vCast_XRSupport" data-uid="Votanic.vXR.vCast.vCast.XRSupport">XRSupport</h4>
   <div class="markdown level1 summary"><p>Enable Unity XR support for using OpenVR. <br> 啟用 Unity XR Support 以使用 OpenVR。</p>
 </div>
@@ -728,6 +753,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetCamera_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.GetCamera(System.Int32)">GetCamera(Int32)</h4>
   <div class="markdown level1 summary"><p>Get Camera Node by index.
 <br> 根據編號取得相機類節點。</p>
+<p> GetCamera(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -773,6 +799,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetCamera_System_String_" data-uid="Votanic.vXR.vCast.vCast.GetCamera(System.String)">GetCamera(String)</h4>
   <div class="markdown level1 summary"><p>Get Camera Node by name.
 <br> 根據名稱取得相機類節點。</p>
+<p> GetCamera(&quot;FrontScreenCamera&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -845,6 +872,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetController_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.GetController(System.Int32)">GetController(Int32)</h4>
   <div class="markdown level1 summary"><p>Get vCast Controller by index.
 <br> 根據編號取得 vCast 控制器。</p>
+<p> GetController(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -890,6 +918,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetController_System_String_" data-uid="Votanic.vXR.vCast.vCast.GetController(System.String)">GetController(String)</h4>
   <div class="markdown level1 summary"><p>Get vCast Controller by name.
 <br> 根據名稱取得 vCast 控制器。</p>
+<p> GetController(&quot;Controller&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -989,6 +1018,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetEntity_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.GetEntity(System.Int32)">GetEntity(Int32)</h4>
   <div class="markdown level1 summary"><p>Get Entity Node by index.
 <br> 根據編號取得實體類節點。</p>
+<p> GetEntity(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1034,6 +1064,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetEntity_System_String_" data-uid="Votanic.vXR.vCast.vCast.GetEntity(System.String)">GetEntity(String)</h4>
   <div class="markdown level1 summary"><p>Get Entity Node by name.
 <br> 根據名稱取得實體類節點。</p>
+<p> GetEntity(&quot;Head&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1079,6 +1110,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetNode_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.GetNode(System.Int32)">GetNode(Int32)</h4>
   <div class="markdown level1 summary"><p>Get Node by index.
 <br> 根據編號取得節點。</p>
+<p> GetNode(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1124,6 +1156,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetNode_System_String_" data-uid="Votanic.vXR.vCast.vCast.GetNode(System.String)">GetNode(String)</h4>
   <div class="markdown level1 summary"><p>Get Node by name.
 <br> 根據名稱取得節點。</p>
+<p> GetNode(&quot;Head&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1196,6 +1229,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetScreen_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.GetScreen(System.Int32)">GetScreen(Int32)</h4>
   <div class="markdown level1 summary"><p>Get Screen Node by index.
 <br> 根據編號取得屏幕類節點。</p>
+<p> GetScreen(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1241,6 +1275,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetScreen_System_String_" data-uid="Votanic.vXR.vCast.vCast.GetScreen(System.String)">GetScreen(String)</h4>
   <div class="markdown level1 summary"><p>Get Screen Node by name.
 <br> 根據名稱取得屏幕類節點。</p>
+<p> GetScreen(&quot;FrontScreen&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1313,6 +1348,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetSensor_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.GetSensor(System.Int32)">GetSensor(Int32)</h4>
   <div class="markdown level1 summary"><p>Get vCast Sensor by index.
 <br> 根據編號取得 vCast 感應器。</p>
+<p> GetSensor(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1358,6 +1394,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetSensor_System_String_" data-uid="Votanic.vXR.vCast.vCast.GetSensor(System.String)">GetSensor(String)</h4>
   <div class="markdown level1 summary"><p>Get vCast Sensor by name.
 <br> 根據名稱取得 vCast 感應器。</p>
+<p> GetSensor(&quot;Sensor&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1429,6 +1466,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetUser_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.GetUser(System.Int32)">GetUser(Int32)</h4>
   <div class="markdown level1 summary"><p>Get vCast User by index.
 <br> 根據編號取得 vCast 使用者。</p>
+<p> GetUser(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1474,6 +1512,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_GetUser_System_String_" data-uid="Votanic.vXR.vCast.vCast.GetUser(System.String)">GetUser(String)</h4>
   <div class="markdown level1 summary"><p>Get vCast User by name.
 <br> 根據名稱取得 vCast 使用者。</p>
+<p> GetUser(&quot;User&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1546,6 +1585,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_LoadScene_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.LoadScene(System.Int32)">LoadScene(Int32)</h4>
   <div class="markdown level1 summary"><p>Load scene by index.
 <br> 根據編號載入場景。</p>
+<p> LoadScene(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1576,6 +1616,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_LoadScene_System_String_" data-uid="Votanic.vXR.vCast.vCast.LoadScene(System.String)">LoadScene(String)</h4>
   <div class="markdown level1 summary"><p>Load scene by name.
 <br> 根據名稱載入場景。</p>
+<p> LoadScene(&quot;Main&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1618,6 +1659,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_Menu_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Menu(System.Boolean)">Menu(Boolean)</h4>
   <div class="markdown level1 summary"><p>Open or close the bulit-in Menu.
 <br> 打開或關閉內置選單。</p>
+<p> Menu(true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1648,6 +1690,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_Menu_System_Boolean_UnityEngine_Transform_" data-uid="Votanic.vXR.vCast.vCast.Menu(System.Boolean,UnityEngine.Transform)">Menu(Boolean, Transform)</h4>
   <div class="markdown level1 summary"><p>Open or close the bulit-in Menu at an object position and euler angles.
 <br> 在某物件的位置及角度打開或關閉內置選單。</p>
+<p> Menu(true, transform) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1684,6 +1727,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_Menu_System_Boolean_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="Votanic.vXR.vCast.vCast.Menu(System.Boolean,UnityEngine.Vector3,UnityEngine.Vector3)">Menu(Boolean, Vector3, Vector3)</h4>
   <div class="markdown level1 summary"><p>Open or close the bulit-in Menu at target position and euler angles.
 <br> 在目標位置及角度打開或關閉內置選單。</p>
+<p> Menu(true, Vector3.zero, Vector3.zero) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1726,6 +1770,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_Menu_UnityEngine_Transform_" data-uid="Votanic.vXR.vCast.vCast.Menu(UnityEngine.Transform)">Menu(Transform)</h4>
   <div class="markdown level1 summary"><p>Open or close the bulit-in Menu at an object position and euler angles.
 <br> 在某物件的位置及角度打開或關閉內置選單。</p>
+<p> Menu(transform) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1756,6 +1801,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_Menu_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="Votanic.vXR.vCast.vCast.Menu(UnityEngine.Vector3,UnityEngine.Vector3)">Menu(Vector3, Vector3)</h4>
   <div class="markdown level1 summary"><p>Open or close the bulit-in Menu at target position and euler angles.
 <br> 在目標位置及角度打開或關閉內置選單。</p>
+<p> Menu(Vector3.zero, Vector3.zero) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1840,6 +1886,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_SetDebug_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.SetDebug(System.Boolean)">SetDebug(Boolean)</h4>
   <div class="markdown level1 summary"><p>Enable or disable debug.
 <br> 啟用或停用偵錯。</p>
+<p> SetDebug(true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1870,6 +1917,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_SetSoul_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.SetSoul(System.Boolean)">SetSoul(Boolean)</h4>
   <div class="markdown level1 summary"><p>Enable or disable soul.
 <br> 啟用或停用靈魂。</p>
+<p> SetSoul(true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1900,6 +1948,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_SetStereo_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.SetStereo(System.Boolean)">SetStereo(Boolean)</h4>
   <div class="markdown level1 summary"><p>Enable or disable stereo.
 <br> 啟用或停用立體。</p>
+<p> SetStereo(true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1930,6 +1979,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_SetTest3D_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.SetTest3D(System.Boolean,System.Boolean)">SetTest3D(Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Enable or disable test 3D.
 <br> 啟用或停用測試 3D。</p>
+<p> SetStereo(true, false) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1966,6 +2016,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_SetTracking_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.SetTracking(System.Boolean,System.Boolean)">SetTracking(Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Enable or disable tracking.
 <br> 啟用或停用定位。</p>
+<p> SetTracking(true, false) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2002,6 +2053,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_SetTraveler_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.SetTraveler(System.Boolean)">SetTraveler(Boolean)</h4>
   <div class="markdown level1 summary"><p>Enable or disable traveler.
 <br> 啟用或停用旅行者。</p>
+<p> SetTraveler(true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2032,6 +2084,7 @@ public string configPath</code></pre>
   <h4 id="Votanic_vXR_vCast_vCast_SetUserLevel_System_Int32_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.SetUserLevel(System.Int32,System.Int32)">SetUserLevel(Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Set and lock the user level.
 設定及鎖定使用者等級。</p>
+<p> SetUserLevel(3, -1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

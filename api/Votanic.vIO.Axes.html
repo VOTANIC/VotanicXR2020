@@ -73,8 +73,8 @@
   
   <h1 id="Votanic_vIO_Axes" data-uid="Votanic.vIO.Axes" class="text-break">Class Axes
   </h1>
-  <div class="markdown level0 summary"><p>Axes type of device class.
-<br> 軸群類型的裝置類別。</p>
+  <div class="markdown level0 summary"><p>The axes class. Device type that contains group of axis.
+<br> 軸群類別。包含一組軸的裝置類型。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -295,8 +295,9 @@
   
   <a id="Votanic_vIO_Axes_AxisDown_" data-uid="Votanic.vIO.Axes.AxisDown*"></a>
   <h4 id="Votanic_vIO_Axes_AxisDown_System_Int32_Votanic_vIO_AxisDirection_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.Axes.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Boolean,Votanic.vIO.AssistButtons)">AxisDown(Int32, AxisDirection, Boolean, AssistButtons)</h4>
-  <div class="markdown level1 summary"><p>Return true if the axis is pressed.
-<br> 當軸按下時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if the axis is pressed (Absolute axis value &gt;= Press detect value).
+<br> 當軸按下時傳回 true（軸絕對值 &gt;= 按下偵測值）。</p>
+<p> AxisDown(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -358,8 +359,9 @@
   
   <a id="Votanic_vIO_Axes_AxisHold_" data-uid="Votanic.vIO.Axes.AxisHold*"></a>
   <h4 id="Votanic_vIO_Axes_AxisHold_System_Int32_Votanic_vIO_AxisDirection_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.Axes.AxisHold(System.Int32,Votanic.vIO.AxisDirection,System.Boolean,Votanic.vIO.AssistButtons)">AxisHold(Int32, AxisDirection, Boolean, AssistButtons)</h4>
-  <div class="markdown level1 summary"><p>Return true if the axis is held for a while.
-<br> 當軸長按一段時間時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if the axis is held for a while (Absolute axis value &gt;= Press detect value).
+<br> 當軸長按一段時間時傳回 true（軸絕對值 &gt;= 按下偵測值）。</p>
+<p> AxisHold(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -421,8 +423,9 @@
   
   <a id="Votanic_vIO_Axes_AxisPress_" data-uid="Votanic.vIO.Axes.AxisPress*"></a>
   <h4 id="Votanic_vIO_Axes_AxisPress_System_Int32_Votanic_vIO_AxisDirection_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.Axes.AxisPress(System.Int32,Votanic.vIO.AxisDirection,System.Boolean,Votanic.vIO.AssistButtons)">AxisPress(Int32, AxisDirection, Boolean, AssistButtons)</h4>
-  <div class="markdown level1 summary"><p>Return true if the axis is pressing.
-<br> 當軸按住時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if the axis is pressing (Absolute axis value &gt;= Press detect value).
+<br> 當軸按住時傳回 true（軸絕對值 &gt;= 按下偵測值）。</p>
+<p> AxisPress(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -484,8 +487,9 @@
   
   <a id="Votanic_vIO_Axes_AxisUp_" data-uid="Votanic.vIO.Axes.AxisUp*"></a>
   <h4 id="Votanic_vIO_Axes_AxisUp_System_Int32_Votanic_vIO_AxisDirection_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.Axes.AxisUp(System.Int32,Votanic.vIO.AxisDirection,System.Boolean,Votanic.vIO.AssistButtons)">AxisUp(Int32, AxisDirection, Boolean, AssistButtons)</h4>
-  <div class="markdown level1 summary"><p>Return true if the axis is released.
-<br> 當軸放開時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if the axis is released (Absolute release value &gt;= Press detect value).
+<br> 當軸放開時傳回 true（釋放絕對值 &gt;= 按下偵測值）。</p>
+<p> AxisUp(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -549,6 +553,7 @@
   <h4 id="Votanic_vIO_Axes_AxisValue_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.Axes.AxisValue(System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisValue(Int32, Boolean, AssistButtons)</h4>
   <div class="markdown level1 summary"><p>Return the value of an axis.
 <br> 傳回一個軸的值。</p>
+<p> AxisValue(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -604,8 +609,9 @@
   
   <a id="Votanic_vIO_Axes_ReleaseValue_" data-uid="Votanic.vIO.Axes.ReleaseValue*"></a>
   <h4 id="Votanic_vIO_Axes_ReleaseValue_System_Int32_System_Boolean_" data-uid="Votanic.vIO.Axes.ReleaseValue(System.Int32,System.Boolean)">ReleaseValue(Int32, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Return the value of an axis after released.
-<br> 傳回一個軸釋放後的值。</p>
+  <div class="markdown level1 summary"><p>Return the stored maximum value of an axis after released.
+<br> 傳回一個軸釋放後儲存的最大值。</p>
+<p> ReleaseValue(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -657,6 +663,7 @@
   <h4 id="Votanic_vIO_Axes_SetDeadZone_System_Int32_System_Single_" data-uid="Votanic.vIO.Axes.SetDeadZone(System.Int32,System.Single)">SetDeadZone(Int32, Single)</h4>
   <div class="markdown level1 summary"><p>Set the dead zone to an axis.
 <br> 設定一個軸的死區。</p>
+<p> SetDeadZone(0, 0.14f) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -693,6 +700,7 @@
   <h4 id="Votanic_vIO_Axes_SetDeadZone_System_Single_System_Boolean_" data-uid="Votanic.vIO.Axes.SetDeadZone(System.Single,System.Boolean)">SetDeadZone(Single, Boolean)</h4>
   <div class="markdown level1 summary"><p>Set the dead zone of axes.
 <br> 設定軸群的死區。</p>
+<p> SetDeadZone(0.14f, true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -718,8 +726,8 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">setToAll</span></td>
-        <td><p>Set to all input index if true, else only set to the index with default duration
-<br> 當 true 時設定到所有輸入編號，否則只設定到使用預設值的編號</p>
+        <td><p>Set to all input indices if true, else only set to the index using global value
+<br> 當 true 時設定到所有輸入編號，否則只設定到使用公用值的編號</p>
 </td>
       </tr>
     </tbody>
@@ -728,8 +736,9 @@
   
   <a id="Votanic_vIO_Axes_SetHoldingDuration_" data-uid="Votanic.vIO.Axes.SetHoldingDuration*"></a>
   <h4 id="Votanic_vIO_Axes_SetHoldingDuration_System_Int32_System_Single_" data-uid="Votanic.vIO.Axes.SetHoldingDuration(System.Int32,System.Single)">SetHoldingDuration(Int32, Single)</h4>
-  <div class="markdown level1 summary"><p>Set holding duration to to an axis.
+  <div class="markdown level1 summary"><p>Set the holding type target seconds of an axis.
 <br> 設定一個軸的長按時間。</p>
+<p> SetHoldingDuration(0, 1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -764,8 +773,9 @@
   
   <a id="Votanic_vIO_Axes_SetHoldingDuration_" data-uid="Votanic.vIO.Axes.SetHoldingDuration*"></a>
   <h4 id="Votanic_vIO_Axes_SetHoldingDuration_System_Single_System_Boolean_" data-uid="Votanic.vIO.Axes.SetHoldingDuration(System.Single,System.Boolean)">SetHoldingDuration(Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Set the target seconds of axes.
+  <div class="markdown level1 summary"><p>Set the holding type target seconds of axes.
 <br> 設定軸群長按輸入類型所需的目標秒數。</p>
+<p> SetHoldingDuration(1, true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -791,8 +801,8 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">setToAll</span></td>
-        <td><p>Set to all input index if true, else only set to the index with default duration
-<br> 當 true 時設定到所有輸入編號，否則只設定到使用預設值的編號</p>
+        <td><p>Set to all input indices if true, else only set to the index using global value
+<br> 當 true 時設定到所有輸入編號，否則只設定到使用共用值的編號</p>
 </td>
       </tr>
     </tbody>
@@ -803,11 +813,12 @@
   <h4 id="Votanic_vIO_Axes_SetPressDetect_System_Int32_System_Single_" data-uid="Votanic.vIO.Axes.SetPressDetect(System.Int32,System.Single)">SetPressDetect(Int32, Single)</h4>
   <div class="markdown level1 summary"><p>Set the press detect value to an axis.
 <br> 設定一個軸的按下偵測值。</p>
+<p> SetPressDetect(0, 0.7f) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void SetPressDetect(int index, float pressDetect = 0.14F)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void SetPressDetect(int index, float pressDetect = 0.7F)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -839,6 +850,7 @@
   <h4 id="Votanic_vIO_Axes_SetPressDetect_System_Single_System_Boolean_" data-uid="Votanic.vIO.Axes.SetPressDetect(System.Single,System.Boolean)">SetPressDetect(Single, Boolean)</h4>
   <div class="markdown level1 summary"><p>Set the press detect value of axes.
 <br> 設定軸群的按下偵測值。</p>
+<p> SetPressDetect(0.7f, true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -864,8 +876,8 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">setToAll</span></td>
-        <td><p>Set to all input index if true, else only set to the index with default duration
-<br> 當 true 時設定到所有輸入編號，否則只設定到使用預設值的編號</p>
+        <td><p>Set to all input indices if true, else only set to the index using global value
+<br> 當 true 時設定到所有輸入編號，否則只設定到使用共用值的編號</p>
 </td>
       </tr>
     </tbody>

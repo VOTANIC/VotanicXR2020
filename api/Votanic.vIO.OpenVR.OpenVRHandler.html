@@ -339,8 +339,9 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   
   <a id="Votanic_vIO_OpenVR_OpenVRHandler_AxisDown_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.AxisDown*"></a>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_AxisDown_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisDown(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
-  <div class="markdown level1 summary"><p>Return true if an axis on controller is pressed.
-<br> 當控制器的軸按下時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if an axis on controller is pressed (Absolute axis value &gt;= Press detect value).
+<br> 當控制器的軸按下時傳回 true（軸絕對值 &gt;= 按下偵測值）。</p>
+<p> AxisDown(0, AxisDirection.Positive, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -408,8 +409,9 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   
   <a id="Votanic_vIO_OpenVR_OpenVRHandler_AxisHold_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.AxisHold*"></a>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_AxisHold_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.AxisHold(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisHold(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
-  <div class="markdown level1 summary"><p>Return true if an axis on controller is held for a while.
-<br> 當控制器的軸長按一段時間時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if an axis on controller is held for a while (Absolute axis value &gt;= Press detect value).
+<br> 當控制器的軸長按一段時間時傳回 true（軸絕對值 &gt;= 按下偵測值）。</p>
+<p> AxisHold(0, AxisDirection.Positive, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -477,8 +479,9 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   
   <a id="Votanic_vIO_OpenVR_OpenVRHandler_AxisPress_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.AxisPress*"></a>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_AxisPress_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.AxisPress(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisPress(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
-  <div class="markdown level1 summary"><p>Return true if an axis on controller is pressing.
-<br> 當控制器的軸按住時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if an axis on controller is pressing (Absolute axis value &gt;= Press detect value).
+<br> 當控制器的軸按住時傳回 true（軸絕對值 &gt;= 按下偵測值）。</p>
+<p> AxisPress(0, AxisDirection.Positive, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -546,8 +549,9 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   
   <a id="Votanic_vIO_OpenVR_OpenVRHandler_AxisUp_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.AxisUp*"></a>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_AxisUp_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.AxisUp(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisUp(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
-  <div class="markdown level1 summary"><p>Return true if an axis on controller is released.
-<br> 當控制器的軸放開時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if an axis on controller is released (Absolute release value &gt;= Press detect value).
+<br> 當控制器的軸放開時傳回 true（釋放絕對值 &gt;= 按下偵測值）。</p>
+<p> AxisUp(0, AxisDirection.Positive, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -617,6 +621,7 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_AxisValue_System_Int32_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.AxisValue(System.Int32,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisValue(Int32, Int32, Boolean, AssistButtons)</h4>
   <div class="markdown level1 summary"><p>Return the value of an axis on controller.
 <br> 傳回控制器的一個軸的值。</p>
+<p> AxisValue(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -680,6 +685,7 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_ButtonDown_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.ButtonDown(System.Int32,System.Int32,System.Boolean)">ButtonDown(Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if a button on controller is pressed.
 <br> 當控制器的按鈕按下時傳回 true。</p>
+<p> ButtonDown(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -737,6 +743,7 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_ButtonHold_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.ButtonHold(System.Int32,System.Int32,System.Boolean)">ButtonHold(Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if a button on controller is held for a while.
 <br> 當控制器的按鈕長按一段時間時傳回 true。</p>
+<p> ButtonHold(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -794,6 +801,7 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_ButtonPress_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.ButtonPress(System.Int32,System.Int32,System.Boolean)">ButtonPress(Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if a button on controller is pressing.
 <br> 當控制器的按鈕按住時傳回 true。</p>
+<p> ButtonPress(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -851,6 +859,7 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_ButtonTouch_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.ButtonTouch(System.Int32,System.Int32,System.Boolean)">ButtonTouch(Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if a button on controller is touched.
 <br> 當控制器的按鈕被觸碰時傳回 true。</p>
+<p> ButtonTouch(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -908,6 +917,7 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_ButtonUp_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.ButtonUp(System.Int32,System.Int32,System.Boolean)">ButtonUp(Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if a button on controller is released.
 <br> 當控制器的按鈕放開時傳回 true。</p>
+<p> ButtonUp(0, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1011,6 +1021,7 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_SetSkeleton_UnityEngine_Transform_Votanic_vIO_OpenVR_ETrackedControllerRole_Votanic_vIO_OpenVR_EVRSkeletalMotionRange_Votanic_vIO_OpenVR_EVRSkeletalReferencePose_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.SetSkeleton(UnityEngine.Transform,Votanic.vIO.OpenVR.ETrackedControllerRole,Votanic.vIO.OpenVR.EVRSkeletalMotionRange,Votanic.vIO.OpenVR.EVRSkeletalReferencePose)">SetSkeleton(Transform, ETrackedControllerRole, EVRSkeletalMotionRange, EVRSkeletalReferencePose)</h4>
   <div class="markdown level1 summary"><p>Bind the hand skeleton to role.
 <br> 將手骨綁定於角色。</p>
+<p> SetSkeleton(handTransform, ETrackedControllerRole.RightHand, EVRSkeletalMotionRange.WithoutController, EVRSkeletalReferencePose.OpenHand) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1059,6 +1070,7 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_TrackerAccessible_System_String_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.TrackerAccessible(System.String)">TrackerAccessible(String)</h4>
   <div class="markdown level1 summary"><p>Return true if the tracker is accessible.
 <br> 當定位器可讀取時傳回 true。</p>
+<p> TrackerAccessible(&quot;Valve Controller&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1104,6 +1116,7 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_TrackerPosition_System_String_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.TrackerPosition(System.String)">TrackerPosition(String)</h4>
   <div class="markdown level1 summary"><p>Get the position of tracker in system.
 <br> 取得系統中的定位器位置。</p>
+<p> TrackerPosition(&quot;Valve Controller&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1149,6 +1162,7 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_TrackerRotation_System_String_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.TrackerRotation(System.String)">TrackerRotation(String)</h4>
   <div class="markdown level1 summary"><p>Get the rotation of tracker in system.
 <br> 取得系統中的定位器角度。</p>
+<p> TrackerRotation(&quot;Valve Controller&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1204,6 +1218,7 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   <h4 id="Votanic_vIO_OpenVR_OpenVRHandler_Vibrate_System_UInt16_System_Int32_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.Vibrate(System.UInt16,System.Int32)">Vibrate(UInt16, Int32)</h4>
   <div class="markdown level1 summary"><p>Vibrate a controller.
 <br> 使控制器震動。</p>
+<p> Vibrate(1000, 0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

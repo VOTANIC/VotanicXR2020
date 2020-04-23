@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.Element.MonoBehaviour.html",
-          "hash": "L3UzhYkIgvujE6W6xc+D4g=="
+          "hash": "KLje0s83g1TWkZaukyQlkA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.Element.String.html",
-          "hash": "0hhByuVJvw7dz52CLhykEA=="
+          "hash": "6kSFTs1dB5rFPCUVSeEWxA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.Element.html",
-          "hash": "YqdNVf1Nu3iAlYj97gf28g=="
+          "hash": "pudSCRYhnmVCNth3NAt0MA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "V5YCqjoBPJRIOJoBLueKlA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.ReadOnly.html",
-          "hash": "6uGiSDTsxDIys9UmUS8noA=="
+          "hash": "vpkq7m55VRv+w0A83gTpKQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.ReadOnlyOnPlay.html",
-          "hash": "3nEI62e8ndiyay3Pu8sw5w=="
+          "hash": "7pl9NyyT3Qq491Zz4LHZEg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.ReadWrite.html",
-          "hash": "I54PD4lCd1sUKOrnc0ATPg=="
+          "hash": "C3KUbqiXG3OPn1i2JWwDEw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.Util.html",
-          "hash": "I0kcya4K50h8/G7oLvZtFg=="
+          "hash": "G/MRN/PiTiufFhjd6M0YxQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -108,7 +108,7 @@
           "hash": "IldMP7H41LsffWJZIHSWvw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -120,7 +120,7 @@
           "hash": "5NQjCJJEayah+s2BTasuAA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.Axes.html",
-          "hash": "YuNpxDwZf3npqID+jVgZ2g=="
+          "hash": "nFwSEbkf282PkBIZy412vA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.AxisDirection.html",
-          "hash": "B7ycBjqKdJXIWhjq2bdANw=="
+          "hash": "DlJumD73qotTmV54Yn8OYQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.Buttons.html",
-          "hash": "oNw/1HC9EhdXTOXzPMsRkA=="
+          "hash": "LK8eg+8iD3R04oMb+QpLaw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.Device.html",
-          "hash": "KOdc5e6Yx2e5jkfu8sJ0ug=="
+          "hash": "b2M6WVv8Qfmm0BmT21N+mw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.HoldingState.html",
-          "hash": "sfE5LhEKEfZNXtbtG8Ua6w=="
+          "hash": "nIKHRib1J6JJi4PSkhEBZg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.OpenVR.OpenVRAxes.html",
-          "hash": "/O/K8p4OMOnNiL5UTqRKaA=="
+          "hash": "SsMop0HiBuH189I3mz4jPw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.OpenVR.OpenVRButtons.html",
-          "hash": "JL38TJR8UN6WJeYEvKLbYw=="
+          "hash": "RLpJHZ59lR4XXXgxr08H3A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.OpenVR.OpenVRDevice.html",
-          "hash": "qS5PMXvrrXPtCNglSn4fbg=="
+          "hash": "W4w4xzhpWI3birXl7ZCTPg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.OpenVR.OpenVRHandler.html",
-          "hash": "EU5yWzmqtQknCubGFiPk1A=="
+          "hash": "OoG98TWOAyk2aOCPinS92g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.OpenVR.OpenVRManager.html",
-          "hash": "qe5oSzTV6fnB1xBK2o+bzA=="
+          "hash": "+PBHUUUMbGXfbyYHyMNg9g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -252,7 +252,7 @@
           "hash": "gOVVClFU2RoBx4ACWUubkA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.OpenVR.OpenVRTracker.html",
-          "hash": "Qhii2q+I6T6AcucD5IBzXw=="
+          "hash": "siuaZmjzVkI3kCvBUw0ncw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.OpenVR.html",
-          "hash": "teWRGwwMrqIFMNQjORHTSA=="
+          "hash": "Cl+SxInu1Jipye3aBYuIuA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -288,7 +288,7 @@
           "hash": "WyjMzGx8WOdjOiD4weLgIg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.Tracker.html",
-          "hash": "1n7gKFuEe1F7Dk56jHVEbw=="
+          "hash": "zhxGbDtQcTIoOo2siTyJPg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -312,7 +312,7 @@
           "hash": "UT78U/FAoJbX0ZUfCyagWw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -324,7 +324,7 @@
           "hash": "sVDDPZeZjcULqp3RMy3UUg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -333,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VInput.VInputAxes.html",
-          "hash": "kZodCYml1jP9FO1T+InR+Q=="
+          "hash": "jSQP77trOST9Zt33XRxUlQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VInput.VInputButtons.html",
-          "hash": "paShqYVhtT2n7hjXkgpiRA=="
+          "hash": "VuG0QFNmMf31H6CXqiTa4g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VInput.VInputController.html",
-          "hash": "b8LtjBOqWX2cdHPJKMgSOQ=="
+          "hash": "InnV5vR6zK0PO+VdeC2DlQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VInput.VInputHandler.html",
-          "hash": "CNFr1KjTaVkSWgZ5YRjuIA=="
+          "hash": "B2mOdZlwEo16wBdm/t/Acg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VInput.VInputKeyboard.html",
-          "hash": "/T0i4KyJ3oDApnnDejy/Sw=="
+          "hash": "08ZJ4SHXZek0x0u89ffJYA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VInput.VInputManager.html",
-          "hash": "5pzW7Xx0LtZDbCKrPtXgzQ=="
+          "hash": "I6FmtfB3ZWWw2Wn5I9SZCA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VInput.VInputMouse.html",
-          "hash": "4pgY59dan2bzsbOba0ob6g=="
+          "hash": "qXpHYbQ7ldhR0MzBPvvvCw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -417,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VInput.html",
-          "hash": "4YgJLA2eJv47YxpFD9/vdA=="
+          "hash": "KBqGbUNO6Rb1xNTW5yeGeQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -429,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VRPN.VRPNAxes.html",
-          "hash": "yjXvagMY+5s49ox85Ka4yg=="
+          "hash": "jOkstH4T5K3Fg1lkQyR9ew=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -441,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VRPN.VRPNButtons.html",
-          "hash": "R3GJ6Pl5Eqx2dZRO5oqMfg=="
+          "hash": "Xa6+VQt92dSLD3/EvsvpDg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VRPN.VRPNHandler.html",
-          "hash": "YJljdIRE7+5UcY4W50Ld/g=="
+          "hash": "k0mUjWZBgZCPl3o97AURCg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -465,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VRPN.VRPNManager.html",
-          "hash": "7vckGBYnjRLbn+/+zxpTbQ=="
+          "hash": "o8JJBOC/81hJ7+oRozV8zg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -477,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VRPN.VRPNTracker.html",
-          "hash": "zCcQ5IeBV4zWZArToVz06w=="
+          "hash": "Be7zOo8qP94H5/5lSEGA3g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -489,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.VRPN.html",
-          "hash": "S+3ZW/ZoPcvDLZZA0Iv1GQ=="
+          "hash": "xY82XN2TYjtONRasxJcfig=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -501,10 +501,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vIO.html",
-          "hash": "yu0ogK/u6e1xY+7NktO6QQ=="
+          "hash": "nFMkiILAHlumeNp9SElvfg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -516,7 +516,7 @@
           "hash": "XHWQDDVFAZJtzudK8kLZQg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -528,7 +528,7 @@
           "hash": "cXXrsBJQCXgpHhfLj4hmhQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -540,7 +540,7 @@
           "hash": "/tl/jUgYwiEhYSthsQFj1A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -549,10 +549,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vMedia.MediaPlayer.MediaPlayer.html",
-          "hash": "eqpLAOAUmaXj0YKcwUAGBQ=="
+          "hash": "AJEPoOiAocNBmFaJ5r0zdw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -561,10 +561,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html",
-          "hash": "WHPBOHTq+iV8d1rtgHP01g=="
+          "hash": "WRQlxvGZxxPG0i4fxmPRJA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -576,7 +576,7 @@
           "hash": "/ro7yNQ6fesOVOTDG2etIA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -588,7 +588,7 @@
           "hash": "t6LyDZ+tvfhZVgHtBeDc8Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -600,7 +600,7 @@
           "hash": "m/VZdMKTWZpAlzP5gSxwmg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -612,7 +612,283 @@
           "hash": "9zKKyuKPZj75O9u/wDZm3w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.App.html",
+          "hash": "PCCFOqCeGsT0eDhpVajkBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.AppDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.AppDetails.html",
+          "hash": "yBepFvcyHcSVpph3NqjpUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.AppKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.AppKey.html",
+          "hash": "B99ookOJ0HygZRvO6Hu4ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.Comparison.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.Comparison.html",
+          "hash": "H46VtVsIoyeXkXBBtt3zKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.DatabaseHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.DatabaseHandler.html",
+          "hash": "Y6SztCeqheAQhH4PekjJaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.DatabaseManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.DatabaseManager.html",
+          "hash": "A1a/CoQYvPMQSErFOxOhzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.MetaInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.MetaInfo.html",
+          "hash": "YXFC5NKImeP35zH+vePkkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.MetaInfoKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.MetaInfoKey.html",
+          "hash": "lBYbEugPH9pDqxpm2/Fgpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.Role.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.Role.html",
+          "hash": "Eqqu1E3lkPqNu7L/XzWZkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.RoleKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.RoleKey.html",
+          "hash": "l9Mgf3XGVwiznBxCokjezA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.SearchPattern.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.SearchPattern.html",
+          "hash": "0jKheyqVW5jRs+lCXZoCmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.Session.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.Session.html",
+          "hash": "I6McVR0AMENxawPqU68Z4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.SessionDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.SessionDetails.html",
+          "hash": "0mYFBzg/C2j9IX4baRvycw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.SessionDetailsKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.SessionDetailsKey.html",
+          "hash": "l4MQ1UNKip2Ge9n2KB4NyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.SessionKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.SessionKey.html",
+          "hash": "+4nmxWbnRSlDUZVjsUdjIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.TableUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.TableUpdate.html",
+          "hash": "DEBJIuKN05Xbt9xs4m8ixQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.Task.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.Task.html",
+          "hash": "PX07KBMnRcZV39+Nof5f4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.TaskKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.TaskKey.html",
+          "hash": "iu5CCk4+RYVhpQLFX5IVjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.User.html",
+          "hash": "ZnTrrGmFO4ne8a0Y9qWqAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.UserKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.UserKey.html",
+          "hash": "hdZGNBMprQ20Y+TpZO6Rfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.UserSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.UserSession.html",
+          "hash": "3qmhhVBu9dwoRo75vWNDYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.UserSessionKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.UserSessionKey.html",
+          "hash": "p0nF4tG+eYy9cZcGup/1nA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Database.html",
+          "hash": "iDrsj/P76S8LtLrWyVniXw=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -624,7 +900,7 @@
           "hash": "cAa1a5kLbQ0ah8GzbNiS6w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -633,10 +909,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vNet.Messenger.NetworkMessenger.html",
-          "hash": "Ut90qtmQuroRIApksQ5dlg=="
+          "hash": "81tykiTK3sxtBPH1ZkJiPQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -648,7 +924,7 @@
           "hash": "zeXJlwUK2eJsDn60998LgA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -660,7 +936,7 @@
           "hash": "/qxmkzFP52wQhy8ZXb4Dqg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -672,7 +948,7 @@
           "hash": "ihV2OUePeVCA4Q3884tzpg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -681,10 +957,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.Interaction.html",
-          "hash": "nRyC9ZFFzd21IVxwG3HNFA=="
+          "hash": "3ribH5xfbZuTWQKSZgtrSQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -693,10 +969,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.InteractionType.html",
-          "hash": "AT5Ysmjf9SL5wCwXiCyekg=="
+          "hash": "/C0ayPvYaLdFwYY3d0osEg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -708,7 +984,7 @@
           "hash": "bILocbSXaOGaZCNVrmuPPQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -717,10 +993,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.InteractorType.html",
-          "hash": "CP+VN410wk+pHQyysN+bUQ=="
+          "hash": "DOfnalP54ZLir1Y8yWqQCw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -732,7 +1008,7 @@
           "hash": "8UfitBtd59EhGcLUE6I/WQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -744,7 +1020,7 @@
           "hash": "lCM3iLpeITycCTtv175eVQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -756,7 +1032,7 @@
           "hash": "Psp7RtOAtiEr91CbILHRVg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -765,10 +1041,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.Attribute.html",
-          "hash": "xaEtEdAh3qpLuWc+FKDK8g=="
+          "hash": "pJPx6NTD04QbLqYwqfCGgg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -780,7 +1056,7 @@
           "hash": "r4e+SaibEXjBYSCHDhLp1A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -792,7 +1068,7 @@
           "hash": "S6fEldr3QL330YawuS9B7A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -801,10 +1077,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.Core.Camera.html",
-          "hash": "NQFHuzcNIwxxy7sb6u3sVw=="
+          "hash": "qfpQDzwIaO27rrpd61oD2A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -813,10 +1089,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.Core.Console.html",
-          "hash": "SEOLbMKEPacvOjUZekLutQ=="
+          "hash": "DKaRHrvtm7tc4wMpalelJA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -825,10 +1101,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.Core.Entity.html",
-          "hash": "lxcyekXT+/mmfqW01I2Y+w=="
+          "hash": "VtmCJjAeR0uUrHYVa8DErA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -840,7 +1116,7 @@
           "hash": "dDI88AZyHgMqDM4CyeYRzQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -852,7 +1128,7 @@
           "hash": "nZGv1UlL6wGOJGI9iGsahQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -861,10 +1137,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.Core.Node.html",
-          "hash": "3JbhmOxZr+C52+peoJs06Q=="
+          "hash": "zdomCvFr+bKdT6cshyyEMA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -873,10 +1149,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.Core.Screen.html",
-          "hash": "MzVNoq7Z2/AOb/a2Gughug=="
+          "hash": "3/AF6uBTtsUY+W80GuneWw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -888,7 +1164,7 @@
           "hash": "i218Jc8XJnlJKy70jaWoXg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -897,10 +1173,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.Core.Transition.html",
-          "hash": "ladx2BYBE1N0hdjmgT4yAg=="
+          "hash": "WFAAWvEUdCtuQzVhGuS2HQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -912,7 +1188,7 @@
           "hash": "E02BzfhpFqz3hTUeos7p8Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -924,7 +1200,7 @@
           "hash": "mFhaNqSACUvWTcqGaEzXXA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -933,10 +1209,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.Core.html",
-          "hash": "tsshq48ew+mvX4PVI45mDQ=="
+          "hash": "qVZmybNuh30WsAvLAIdtWA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -948,7 +1224,7 @@
           "hash": "6LQsI6NYz7FGLOU7h9v/PQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -960,7 +1236,7 @@
           "hash": "W1gRpKLKP++8PZ+YtZW0QQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -969,10 +1245,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.IO.ControllerTool.html",
-          "hash": "OJUyrO+2WHsi/y/aF0SSqw=="
+          "hash": "rKnT5N+DX9jZ66ZeL/wwPw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -981,10 +1257,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.IO.DeviceClass.html",
-          "hash": "ZzkahauxmOx6+iukiOX8/w=="
+          "hash": "hes0eAeIKszBPhs0AgUIRg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -996,7 +1272,7 @@
           "hash": "Xiv32PwfP4CuRunBrxWSjg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1005,10 +1281,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.IO.vCast_ControllerTool.html",
-          "hash": "EyDn9k6KApFngxOTllgd2A=="
+          "hash": "MCX6pXPtBKXF+y70ZBWRPg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1020,7 +1296,7 @@
           "hash": "O/bOwB9PjTyn39uCbKHtGg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1032,7 +1308,7 @@
           "hash": "13CLrXlWS/CpYY3kjc6UgA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1044,7 +1320,7 @@
           "hash": "7zDyPF95LWCBd/j5R7WWXw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1056,19 +1332,7 @@
           "hash": "tzuDug0yfXfJlfiYaUX0lw=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Votanic.vXR.vCast.TeleportProjectile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Votanic.vXR.vCast.TeleportProjectile.html",
-          "hash": "Sk4KMCu/86Aojvmajums5g=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1080,7 +1344,7 @@
           "hash": "Ny5/Jl5YpGTyr678mhZTrQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1089,10 +1353,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.Cmd.html",
-          "hash": "PSrDB4qnWICNU2J6Ib9+cg=="
+          "hash": "2UTM3Lz2BXql/zCeDE8Mkw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1101,10 +1365,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.ConsoleMode.html",
-          "hash": "qh7ssy2JTrYau/9+LDmEfQ=="
+          "hash": "wX6+UDsRhaTtQ1dGrQ8Igg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1113,10 +1377,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.Ctrl.html",
-          "hash": "MZQhvp04A/xQSTYLdBzWGg=="
+          "hash": "ntZYJ1SShffJWaOqEZe2jw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1125,10 +1389,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.Fader.html",
-          "hash": "UQ/6dgapFcOJIIre9L29aw=="
+          "hash": "W1bYT7infLFzry4dfRL+9Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1137,10 +1401,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.Frame.html",
-          "hash": "PCWQ17SgGhUaBP6tndbM0A=="
+          "hash": "d1aMO4LSzXuVtg80gU31BQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1149,10 +1413,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.Info.html",
-          "hash": "6z6hSaC5/652dK+lie2L3w=="
+          "hash": "nM89bkrs/xeMjkb+dMUhUg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1161,10 +1425,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.Input.html",
-          "hash": "rNHZfnbyzsWElmgcOViT/g=="
+          "hash": "WYaBvaznnBQU3DAXgWxz/g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1173,10 +1437,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.html",
-          "hash": "aTbxLAY8EUQdB9KnfodYSg=="
+          "hash": "eiSeR7YNiBxhCm0xg5+a7Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1185,10 +1449,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast_Controller.html",
-          "hash": "zxg3UzexccmhCJe4uJ0VUA=="
+          "hash": "sU7eZGAinyB8v0JQ5FPPeA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1197,10 +1461,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast_Fader.html",
-          "hash": "0JG8Ep8s3xMQ+13SRPXuXA=="
+          "hash": "VvW2yqMmHAy3gSOWybFaAw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1212,7 +1476,7 @@
           "hash": "42XGrYppErTIHv65NTl6jw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1224,7 +1488,7 @@
           "hash": "cTRN49mtdjriodacu+JrHg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1236,7 +1500,7 @@
           "hash": "3iQtEKHCHVIlMb3EO0NQ3Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1245,10 +1509,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast_Interactables.html",
-          "hash": "4JWAvRGPGWco0jYmZI6X/A=="
+          "hash": "JariI9BKBudR/hIt1X6plA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1257,10 +1521,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast_Menu.html",
-          "hash": "W9i4cXSyJQXBIqaJvaebcw=="
+          "hash": "Fu1M4O20uhA9Ux9cErZqVA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1269,10 +1533,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast_Sensor.html",
-          "hash": "U5Y0W6rAyv8CH2iBcnsXGg=="
+          "hash": "Bp+6wOUgtPsy+WeQhV17KA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1284,7 +1548,7 @@
           "hash": "HVB1FfWUREFrBRs18r+yxg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1293,10 +1557,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast_Teleport.html",
-          "hash": "2Tn4otpPjukki+SXibfefw=="
+          "hash": "wBKsvNkBlf7uP6jC9kBilQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1305,10 +1569,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast_User.html",
-          "hash": "Bs99yzCWUFoKms8f+V920Q=="
+          "hash": "4uQdV0LVh6U0+4nLvwhD8A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1320,7 +1584,7 @@
           "hash": "JxQ7/fVl40lrRPtAoe631w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1332,7 +1596,7 @@
           "hash": "hq0FsQnc1jhccc2GyXSdlA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1344,7 +1608,7 @@
           "hash": "/DHhernldVq2ZUua1S6K4w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1353,10 +1617,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.html",
-          "hash": "1m1/vqBIgubf/YkH1qtUlw=="
+          "hash": "27tpvVcs2o9wk5OGLHwrjw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1368,7 +1632,7 @@
           "hash": "Ry1W8b+y9vfBCZDDM4gqBQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1380,7 +1644,7 @@
           "hash": "5QEo1IFbpG7rz0SO39DIJw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1392,7 +1656,7 @@
           "hash": "lTNy6voqg2YLAzzLnvHOyQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1404,7 +1668,7 @@
           "hash": "QgBYfCHhr8NQXIOfszInEA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1416,7 +1680,7 @@
           "hash": "mDOR+o4YyS28frgQ6BQnUA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1428,7 +1692,7 @@
           "hash": "5mUQxjFcTbdc6JZl+InFtA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1440,7 +1704,7 @@
           "hash": "T3qrFXBmgzgtr1bozG1+BQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1452,7 +1716,7 @@
           "hash": "FGsrMfafnWnvP2aeC0vOZQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1464,7 +1728,7 @@
           "hash": "retRg4yTmkNqWfLB8y9Z2w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1476,7 +1740,7 @@
           "hash": "ZG7VmIw8OnSE/jhLDBb2CA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1485,10 +1749,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.ObjectDetection.html",
-          "hash": "oopBEEGyeEd0A102YtvFfA=="
+          "hash": "QrjM15YoBUBfX85x1IKQkA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1500,7 +1764,7 @@
           "hash": "a7iXSye0FA5vViZgZaFvxQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1512,7 +1776,7 @@
           "hash": "pN3UgqqMdM8WZNhgX/ECIQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1524,7 +1788,7 @@
           "hash": "zMEbVz4ElUW7ULzGEx+nBQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1536,7 +1800,7 @@
           "hash": "06AO1xw8NqZMf8Hwf4oMpg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1548,7 +1812,7 @@
           "hash": "nI+B66SJR5PW3O1EBhe8Zg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1560,7 +1824,7 @@
           "hash": "xQtP0CLkT8uZ8zka/WGo5g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1572,7 +1836,7 @@
           "hash": "x0bVWADjA9K7x2cjoT+WFQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1584,7 +1848,7 @@
           "hash": "55hhsewlI2nEqCW5Gj0jfg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1596,7 +1860,7 @@
           "hash": "twfuBCXN9M4wrFHkW1Z5Bg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1608,7 +1872,7 @@
           "hash": "AAAbiU0Ig+k1zapTJ8wDYw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1620,7 +1884,7 @@
           "hash": "EJIsWRSrPDbXEM/AcIqzdg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1632,7 +1896,7 @@
           "hash": "obe/sGPOBw1QdoWCdBc7Ng=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1644,7 +1908,7 @@
           "hash": "ygDaHkXwNlQyR95q1VbtGA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1656,7 +1920,7 @@
           "hash": "Vq2Xy4kIindStw0ALa2qWg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1665,10 +1929,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.Scenario.MotionDetail.html",
-          "hash": "BE8M73Wfnsq3T6gqYKEtQQ=="
+          "hash": "b9U58xfIQpt2LG/x7a0N0g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1680,7 +1944,7 @@
           "hash": "4kSvv+lVUxLw9Rw9m8QC+g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1692,7 +1956,7 @@
           "hash": "LtG4zFUbX2UWeSPZb+Gi5g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1704,7 +1968,7 @@
           "hash": "JvzkhMYiwu85D7zYDsKD0A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1713,10 +1977,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.UIState.html",
-          "hash": "mfD0XHAIo4eofVTqCwqV8Q=="
+          "hash": "YGsrYCcMyg7KmnfpiFUXIQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1725,10 +1989,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear.Scenario.html",
-          "hash": "3FVs3ugPX9S/wPQzA1b4dw=="
+          "hash": "IgFDZ/DF/4Vl0/UgDOsi4w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1737,10 +2001,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear.html",
-          "hash": "dq/SwVJIXgHYyHmf7/0qoA=="
+          "hash": "MUUG4vC9gCmNispGW0CsYA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1749,10 +2013,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Behaviour.html",
-          "hash": "AHJDoIfLoQogo2B1uWTdpw=="
+          "hash": "nzeF5Th909ApX92y1bHYuw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1761,10 +2025,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_BehaviourManager.html",
-          "hash": "+xuNjk3Uuuza7cLvE1dSDw=="
+          "hash": "OjMkU910pLK6W6LPL5bBlw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1773,10 +2037,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Brush.html",
-          "hash": "a7wpi/58PPRuJFzXjB9I1A=="
+          "hash": "drbwdWu+rEt1hlNwGZuFew=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1785,10 +2049,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Button.html",
-          "hash": "hmY5RAVu0vFpPmxOSFjO8w=="
+          "hash": "bIxOzkwEw3dAvdRwO7nUgw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1800,7 +2064,7 @@
           "hash": "7WN+kgz5EBFGjH1p9tS3Bw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1809,10 +2073,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Controller.html",
-          "hash": "ULqk4rjbuUf7dpllM9qOHg=="
+          "hash": "FaF7DvU5rCL9Xfv1F4uWQw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1821,10 +2085,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Detector.html",
-          "hash": "i5fy4Iz/kb6F5Z4IHhGI9w=="
+          "hash": "nlrmcSrpQM08XjrJPJHKOA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1836,7 +2100,7 @@
           "hash": "+tVdhsuDbeS4ywt69v9ntw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1845,10 +2109,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Interactables.html",
-          "hash": "vKE3MX6+Xrgj5QaWnHoBzA=="
+          "hash": "lSlDY1fBTdUQjqllGX1x1A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1860,55 +2124,7 @@
           "hash": "7H8IKlaMxaymHu8rri9LxA=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Locus.CapMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Votanic.vXR.vGear.vGear_Locus.CapMode.html",
-          "hash": "jSWih84AhtMkw8ttAQwZtQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Locus.NormalMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Votanic.vXR.vGear.vGear_Locus.NormalMode.html",
-          "hash": "K3CDVgp2iY+pLCO0tN9DnQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Locus.Postprocess.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Votanic.vXR.vGear.vGear_Locus.Postprocess.html",
-          "hash": "DsgUJRfzklVrIwrqgMZiHw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Locus.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Votanic.vXR.vGear.vGear_Locus.html",
-          "hash": "sJ/0UpeWZ17qJVXbUHYqjg=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1917,10 +2133,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Magnifier.html",
-          "hash": "IKjZcxbpKx/9reKdw0ScMg=="
+          "hash": "Ns/7A1zBhWHA8d8CpwdoBQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Measurer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Measurer.html",
+          "hash": "l1OvC22SVtFnkG763Pl6SQ=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1932,7 +2160,7 @@
           "hash": "HHpfie6JZnvC5VvB477dRQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1941,10 +2169,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Panel.html",
-          "hash": "V20FCXhSDk3AVEfurXKYoA=="
+          "hash": "3F8Lahq6LNFPSH4//zQdIw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1953,10 +2181,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Positioner.html",
-          "hash": "lFV3/kqLujXIAvhAyvEBMA=="
+          "hash": "5KZ5cBU1FhAy6YtpANVj9A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1968,7 +2196,7 @@
           "hash": "V43kCUEWP5AYUNs8JF3SZg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1977,10 +2205,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Shutter.html",
-          "hash": "+EN5vBSwtSk/379zF+Qt2g=="
+          "hash": "DYbxyhsLPMBST5qyXBd5jA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1992,7 +2220,7 @@
           "hash": "KOGSyBFIMamYsmBR/mVv5g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2001,10 +2229,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Slider.html",
-          "hash": "oWE4FCjAvfIANLXkmNC+1Q=="
+          "hash": "eIrJcHdhDe/ApWSo0W188Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2013,10 +2241,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Teleport.html",
-          "hash": "L6pNv0f+V7Ho92YUltxmuQ=="
+          "hash": "l5FXqKDiiJyD7QJNoD9MZw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2025,10 +2253,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Tool.html",
-          "hash": "476/09NSDL75p4N98gTgfA=="
+          "hash": "85zO2FE+5Y1ZoxFkTu/K3g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2037,10 +2265,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Toolbox.html",
-          "hash": "joWNhb1loEToIIz3Vbv06A=="
+          "hash": "kOlZt1ZRm3uHsU/aVLMDSg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2049,10 +2277,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Transformer.html",
-          "hash": "SiU+guex4dMyb15g1naW9Q=="
+          "hash": "lKt4UvmoiAncuyWB3MJGvA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2061,10 +2289,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_UI.html",
-          "hash": "AvSfDii470+8nTfbGkazhA=="
+          "hash": "KcwbOvWrxpt3ZUwx4arvmA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2073,10 +2301,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_User.html",
-          "hash": "+myKUO9GqW9Eh8AZwoSNNw=="
+          "hash": "k0yJ0H3RwCuE2rADeznGGg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2088,7 +2316,7 @@
           "hash": "aqWyhiVBZ9Ot2YzzdG3Fkw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2100,7 +2328,7 @@
           "hash": "eXl7TpadaaMN1cv60UyCQA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2109,10 +2337,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Waypoint.html",
-          "hash": "SJB6z02I1/3oOEi0w8B8PQ=="
+          "hash": "NFVZ6K7LXt+DRtdz90RL5w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2121,10 +2349,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.html",
-          "hash": "GVNhmkOSJ+DSJpEbmzLxXw=="
+          "hash": "wS7eq9RXPni5kgdITdE/1Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2136,7 +2364,7 @@
           "hash": "7tb2tpdDtS8X3BkVdRcvAg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2145,10 +2373,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.html",
-          "hash": "41/8Q8QMTwQ9DbM10a2oDw=="
+          "hash": "wgS3RPfGriK4pQ8fnpTO0Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2169,7 +2397,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Txtyx6S5DWApMCByqXuKYg=="
+          "hash": "W/5WR9xp9ORn5SBofelzCQ=="
         }
       },
       "is_incremental": false,
@@ -2220,7 +2448,7 @@
           "hash": "wIKuTQgZ1H+wOWRAFeWAow=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2249,13 +2477,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 2
+          "skipped_file_count": 4
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 179,
-          "skipped_file_count": 179
+          "total_file_count": 198,
+          "skipped_file_count": 13
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

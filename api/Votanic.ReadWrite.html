@@ -96,6 +96,7 @@
   <h4 id="Votanic_ReadWrite_CreateDirectory_System_String_" data-uid="Votanic.ReadWrite.CreateDirectory(System.String)">CreateDirectory(String)</h4>
   <div class="markdown level1 summary"><p>Create a directory.
 <br> 創建一個目錄。</p>
+<p> CreateDirectory(&quot;C:/abc/efg&quot;); </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -126,6 +127,7 @@
   <h4 id="Votanic_ReadWrite_DeleteDirectory_System_String_System_Boolean_" data-uid="Votanic.ReadWrite.DeleteDirectory(System.String,System.Boolean)">DeleteDirectory(String, Boolean)</h4>
   <div class="markdown level1 summary"><p>Delete an existed directory.
 <br> 刪除一個存在的目錄。</p>
+<p> DeleteDirectory(&quot;C:/abc/efg&quot;); </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -162,6 +164,7 @@
   <h4 id="Votanic_ReadWrite_DirectoryCount_System_String_System_IO_SearchOption_System_String___" data-uid="Votanic.ReadWrite.DirectoryCount(System.String,System.IO.SearchOption,System.String[])">DirectoryCount(String, SearchOption, String[])</h4>
   <div class="markdown level1 summary"><p>Get directory infos from a path.
 <br> 由路經取得目錄資訊。</p>
+<p> DirectoryInfo[] directories = DirectoryCount(&quot;C:/abc/efg/&quot;, SearchOption.AllDirectories, &quot;xyz&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -219,6 +222,7 @@
   <h4 id="Votanic_ReadWrite_DirectoryExists_System_String_" data-uid="Votanic.ReadWrite.DirectoryExists(System.String)">DirectoryExists(String)</h4>
   <div class="markdown level1 summary"><p>Return true if the directory exists.
 <br> 當目錄存在時傳回 true。</p>
+<p> if (DirectoryExists(&quot;C:/abc/efg&quot;)) ... </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -264,6 +268,7 @@
   <h4 id="Votanic_ReadWrite_DirectoryName_System_String_" data-uid="Votanic.ReadWrite.DirectoryName(System.String)">DirectoryName(String)</h4>
   <div class="markdown level1 summary"><p>Return the directory of a path.
 <br> 傳回路經的目錄。</p>
+<p> DirectoryName(&quot;C:/abc/efg/text.txt&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -309,6 +314,7 @@
   <h4 id="Votanic_ReadWrite_Extension_System_String_" data-uid="Votanic.ReadWrite.Extension(System.String)">Extension(String)</h4>
   <div class="markdown level1 summary"><p>Return the extension of a path.
 <br> 傳回路經的副檔名。</p>
+<p> Extension(&quot;C:/abc/efg/text.txt&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -354,6 +360,7 @@
   <h4 id="Votanic_ReadWrite_FileCount_System_String_System_IO_SearchOption_System_String___" data-uid="Votanic.ReadWrite.FileCount(System.String,System.IO.SearchOption,System.String[])">FileCount(String, SearchOption, String[])</h4>
   <div class="markdown level1 summary"><p>Get file infos from a path.
 <br> 由路經取得檔案資訊。</p>
+<p> FileInfo[] files = FileCount(&quot;C:/abc/efg/&quot;, SearchOption.AllDirectories, &quot;*.txt&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -411,6 +418,7 @@
   <h4 id="Votanic_ReadWrite_FileExists_System_String_" data-uid="Votanic.ReadWrite.FileExists(System.String)">FileExists(String)</h4>
   <div class="markdown level1 summary"><p>Return true if the file exists.
 <br> 當檔案存在時傳回 true。</p>
+<p> if (FileExists(&quot;C:/abc/efg/text.txt&quot;)) ... </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -456,6 +464,7 @@
   <h4 id="Votanic_ReadWrite_FileName_System_String_System_Boolean_" data-uid="Votanic.ReadWrite.FileName(System.String,System.Boolean)">FileName(String, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return the file name of a path.
 <br> 傳回路經的檔案名稱。</p>
+<p> FileName(&quot;C:/abc/efg/text.txt&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -507,6 +516,7 @@
   <h4 id="Votanic_ReadWrite_FullName_System_String_" data-uid="Votanic.ReadWrite.FullName(System.String)">FullName(String)</h4>
   <div class="markdown level1 summary"><p>Return the full name of a path.
 <br> 傳回路經的全名。</p>
+<p> FullName(&quot;C:/abc/efg/text.txt&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -552,6 +562,7 @@
   <h4 id="Votanic_ReadWrite_FullNameToArray_System_String_" data-uid="Votanic.ReadWrite.FullNameToArray(System.String)">FullNameToArray(String)</h4>
   <div class="markdown level1 summary"><p>Return the directory, file name and extension of a path.
 <br> 傳回路經的目錄、檔案名稱及副檔名。</p>
+<p> FullNameToArray(&quot;C:/abc/efg/text.txt&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -597,6 +608,7 @@
   <h4 id="Votanic_ReadWrite_ReadBytes_System_String_" data-uid="Votanic.ReadWrite.ReadBytes(System.String)">ReadBytes(String)</h4>
   <div class="markdown level1 summary"><p>Return the bytes in a file.
 <br> 由檔案傳回字節。</p>
+<p> ReadBytes(&quot;C:/abc/efg/text.txt&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -642,6 +654,7 @@
   <h4 id="Votanic_ReadWrite_ReadLines_System_String_System_Text_Encoding_" data-uid="Votanic.ReadWrite.ReadLines(System.String,System.Text.Encoding)">ReadLines(String, Encoding)</h4>
   <div class="markdown level1 summary"><p>Return the string array in a file.
 <br> 由檔案傳回字串列。</p>
+<p> ReadLines(&quot;C:/abc/efg/text.txt&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -694,6 +707,7 @@
   <h4 id="Votanic_ReadWrite_ReadText_System_String_System_Text_Encoding_" data-uid="Votanic.ReadWrite.ReadText(System.String,System.Text.Encoding)">ReadText(String, Encoding)</h4>
   <div class="markdown level1 summary"><p>Return the string in a file.
 <br> 由檔案傳回字串。</p>
+<p> ReadText(&quot;C:/abc/efg/text.txt&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -746,6 +760,7 @@
   <h4 id="Votanic_ReadWrite_WriteBytes_System_String_System_Byte___" data-uid="Votanic.ReadWrite.WriteBytes(System.String,System.Byte[])">WriteBytes(String, Byte[])</h4>
   <div class="markdown level1 summary"><p>Write bytes to a file.
 <br> 將字節寫入檔案。</p>
+<p> WriteBytes(&quot;C:/abc/efg/text.txt&quot;, byteArray) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -782,6 +797,7 @@
   <h4 id="Votanic_ReadWrite_WriteLines_System_String_System_Collections_Generic_List_System_String__" data-uid="Votanic.ReadWrite.WriteLines(System.String,System.Collections.Generic.List{System.String})">WriteLines(String, List&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Write string lines to a file.
 <br> 將字串列寫入檔案。</p>
+<p> WriteLines(&quot;C:/abc/efg/text.txt&quot;, new List&lt;string>() { &quot;abc&quot;, &quot;efg&quot;, &quot;123&quot; }) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -818,6 +834,7 @@
   <h4 id="Votanic_ReadWrite_WriteLines_System_String_System_String___" data-uid="Votanic.ReadWrite.WriteLines(System.String,System.String[])">WriteLines(String, String[])</h4>
   <div class="markdown level1 summary"><p>Write string lines to a file.
 <br> 將字串列寫入檔案。</p>
+<p> WriteLines(&quot;C:/abc/efg/text.txt&quot;, new string[]{ &quot;abc&quot;, &quot;efg&quot;, &quot;123&quot; }) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -854,7 +871,7 @@
   <h4 id="Votanic_ReadWrite_WriteText_System_String_System_String_" data-uid="Votanic.ReadWrite.WriteText(System.String,System.String)">WriteText(String, String)</h4>
   <div class="markdown level1 summary"><p>Write strings to a file.
 <br> 將字串寫入檔案。</p>
-<p> Example: WriteText(&quot;C:/Folder/File.txt&quot;, data) </p>
+<p> WriteText(&quot;C:/abc/efg/text.txt&quot;, &quot;123&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

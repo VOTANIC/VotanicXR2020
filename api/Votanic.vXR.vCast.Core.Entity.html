@@ -73,8 +73,8 @@
   
   <h1 id="Votanic_vXR_vCast_Core_Entity" data-uid="Votanic.vXR.vCast.Core.Entity" class="text-break">Class Entity
   </h1>
-  <div class="markdown level0 summary"><p>vCast Entity Node.
-<br> vCast 實體節點。</p>
+  <div class="markdown level0 summary"><p>vCast Entity Node for tracking real world object position and rotation.
+<br> vCast 實體節點用於定位真實世界物件的位置及角度。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -211,6 +211,7 @@
   <h4 id="Votanic_vXR_vCast_Core_Entity_EnableTracking_System_Boolean_" data-uid="Votanic.vXR.vCast.Core.Entity.EnableTracking(System.Boolean)">EnableTracking(Boolean)</h4>
   <div class="markdown level1 summary"><p>Enable or disable the tracking function of the entity.
 <br> 啟用或停用實體的定位功能。</p>
+<p> EnableTracking(true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -280,6 +281,7 @@
   <h4 id="Votanic_vXR_vCast_Core_Entity_SetEulerAngles_UnityEngine_Vector3_" data-uid="Votanic.vXR.vCast.Core.Entity.SetEulerAngles(UnityEngine.Vector3)">SetEulerAngles(Vector3)</h4>
   <div class="markdown level1 summary"><p>Set the relative euler angles of entity to its parent.
 <br> 設定實體在母體的相對角度。</p>
+<p> SetEulerAngles(Vector3.zero) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -310,6 +312,7 @@
   <h4 id="Votanic_vXR_vCast_Core_Entity_SetPosition_UnityEngine_Vector3_" data-uid="Votanic.vXR.vCast.Core.Entity.SetPosition(UnityEngine.Vector3)">SetPosition(Vector3)</h4>
   <div class="markdown level1 summary"><p>Set the relative position of entity to its parent.
 <br> 設定實體在母體的相對位置。</p>
+<p> SetPosition(Vector3.zero) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -340,6 +343,7 @@
   <h4 id="Votanic_vXR_vCast_Core_Entity_SetTracker_System_Int32_" data-uid="Votanic.vXR.vCast.Core.Entity.SetTracker(System.Int32)">SetTracker(Int32)</h4>
   <div class="markdown level1 summary"><p>Attach a tracker to the entity.
 <br> 將定位器連上實體。</p>
+<p> SetTracker(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -370,6 +374,7 @@
   <h4 id="Votanic_vXR_vCast_Core_Entity_SetTracker_System_Int32_System_Int32_" data-uid="Votanic.vXR.vCast.Core.Entity.SetTracker(System.Int32,System.Int32)">SetTracker(Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Attach a tracker to the entity.
 <br> 將定位器連上實體。</p>
+<p> SetTracker(0, 2) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -406,6 +411,7 @@
   <h4 id="Votanic_vXR_vCast_Core_Entity_SetTracker_System_String_" data-uid="Votanic.vXR.vCast.Core.Entity.SetTracker(System.String)">SetTracker(String)</h4>
   <div class="markdown level1 summary"><p>Attach a tracker to the entity.
 <br> 將定位器連上實體。</p>
+<p> SetTracker(&quot;Head.Tracker&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -436,6 +442,7 @@
   <h4 id="Votanic_vXR_vCast_Core_Entity_SetTracker_System_String_System_String_" data-uid="Votanic.vXR.vCast.Core.Entity.SetTracker(System.String,System.String)">SetTracker(String, String)</h4>
   <div class="markdown level1 summary"><p>Attach a tracker to the entity.
 <br> 將定位器連上實體。</p>
+<p> SetTracker(&quot;Head.Tracker&quot;, &quot;Head2.Tracker&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -472,6 +479,7 @@
   <h4 id="Votanic_vXR_vCast_Core_Entity_SetTransform_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="Votanic.vXR.vCast.Core.Entity.SetTransform(UnityEngine.Vector3,UnityEngine.Vector3)">SetTransform(Vector3, Vector3)</h4>
   <div class="markdown level1 summary"><p>Set the relative position and euler angles of entity to its parent.
 <br> 設定實體在母體的相對位置及角度。</p>
+<p> SetTransform(Vector3.zero, Vector3.zero) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -508,6 +516,7 @@
   <h4 id="Votanic_vXR_vCast_Core_Entity_TrackPosition_System_Boolean_" data-uid="Votanic.vXR.vCast.Core.Entity.TrackPosition(System.Boolean)">TrackPosition(Boolean)</h4>
   <div class="markdown level1 summary"><p>Enable or disable to track position of tracker.
 <br> 啟用或停用追蹤定位器位置。</p>
+<p> TrackPosition(true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -538,6 +547,7 @@
   <h4 id="Votanic_vXR_vCast_Core_Entity_TrackRotation_System_Boolean_" data-uid="Votanic.vXR.vCast.Core.Entity.TrackRotation(System.Boolean)">TrackRotation(Boolean)</h4>
   <div class="markdown level1 summary"><p>Enable or disable the track rotation of tracker.
 <br> 啟用或停用追蹤定位器角度。</p>
+<p> TrackRotation(true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

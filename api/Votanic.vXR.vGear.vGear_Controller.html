@@ -290,6 +290,32 @@ public class vGear_Controller : vCast_Controller</code></pre>
   </table>
   
   
+  <a id="Votanic_vXR_vGear_vGear_Controller_measurer_" data-uid="Votanic.vXR.vGear.vGear_Controller.measurer*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Controller_measurer" data-uid="Votanic.vXR.vGear.vGear_Controller.measurer">measurer</h4>
+  <div class="markdown level1 summary"><p>The measurer tool of controller. <br> 控制器的測量工具。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public vGear_Measurer measurer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_Measurer.html">vGear_Measurer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vXR_vGear_vGear_Controller_shutter_" data-uid="Votanic.vXR.vGear.vGear_Controller.shutter*"></a>
   <h4 id="Votanic_vXR_vGear_vGear_Controller_shutter" data-uid="Votanic.vXR.vGear.vGear_Controller.shutter">shutter</h4>
   <div class="markdown level1 summary"><p>The shutter tool of controller. <br> 控制器的快門工具。</p>
@@ -374,6 +400,7 @@ public class vGear_Controller : vCast_Controller</code></pre>
   <h4 id="Votanic_vXR_vGear_vGear_Controller_GetMovement_UnityEngine_Transform_Votanic_vXR_vGear_ControllerPart_" data-uid="Votanic.vXR.vGear.vGear_Controller.GetMovement(UnityEngine.Transform,Votanic.vXR.vGear.ControllerPart)">GetMovement(Transform, ControllerPart)</h4>
   <div class="markdown level1 summary"><p>Get the position change of controller from reference point.
 <br> 取得相對於參考點的控制器位置改變。</p>
+<p> GetMovement(referencePoint, ControllerPart.Pivot) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -425,6 +452,7 @@ public class vGear_Controller : vCast_Controller</code></pre>
   <h4 id="Votanic_vXR_vGear_vGear_Controller_GetRotation_UnityEngine_Transform_UnityEngine_Quaternion_Votanic_vXR_vGear_ControllerPart_" data-uid="Votanic.vXR.vGear.vGear_Controller.GetRotation(UnityEngine.Transform,UnityEngine.Quaternion,Votanic.vXR.vGear.ControllerPart)">GetRotation(Transform, Quaternion, ControllerPart)</h4>
   <div class="markdown level1 summary"><p>Get the rotation change of controller from reference point.
 <br> 取得相對於參考點的控制器角度改變。</p>
+<p> GetRotation(referencePoint, originQuaternion, ControllerPart.Pivot) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

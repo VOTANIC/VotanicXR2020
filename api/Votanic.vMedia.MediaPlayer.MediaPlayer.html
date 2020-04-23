@@ -918,6 +918,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_First_System_Single_System_Single_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.First(System.Single,System.Single,System.Boolean)">First(Single, Single, Boolean)</h4>
   <div class="markdown level1 summary"><p>Goto first medium.
 <br> 跳至第一個媒體。</p>
+<p> First(0, -1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -944,6 +945,7 @@ public float volume</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">end</span></td>
         <td><p>End time <br> 結束時間</p>
+<p> Default: -1 = Media length 媒體長度 </p>
 </td>
       </tr>
       <tr>
@@ -960,6 +962,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Last_System_Single_System_Single_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Last(System.Single,System.Single,System.Boolean)">Last(Single, Single, Boolean)</h4>
   <div class="markdown level1 summary"><p>Goto last medium.
 <br> 跳至最後一個媒體。</p>
+<p> Last(0, -1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -986,6 +989,7 @@ public float volume</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">end</span></td>
         <td><p>End time <br> 結束時間</p>
+<p> Default: -1 = Media length 媒體長度 </p>
 </td>
       </tr>
       <tr>
@@ -1002,6 +1006,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_LoadAudio_System_String_System_Int32_UnityEngine_AudioSource_Votanic_vMedia_ExternalAudio_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.LoadAudio(System.String,System.Int32,UnityEngine.AudioSource,Votanic.vMedia.ExternalAudio)">LoadAudio(String, Int32, AudioSource, ExternalAudio)</h4>
   <div class="markdown level1 summary"><p>Load audio.
 <br> 載入音訊。</p>
+<p> LoadAudio(&quot;C:/abc/def.mp3&quot;, 1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1050,6 +1055,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_LoadImage_System_String_System_Single_Votanic_vMedia_ExternalAudio_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.LoadImage(System.String,System.Single,Votanic.vMedia.ExternalAudio)">LoadImage(String, Single, ExternalAudio)</h4>
   <div class="markdown level1 summary"><p>Load image.
 <br> 載入影像。</p>
+<p> LoadImage(&quot;C:/abc/def.jpg&quot;, 3) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1092,6 +1098,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_LoadVideo_System_String_System_Boolean_Votanic_vMedia_ExternalAudio_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.LoadVideo(System.String,System.Boolean,Votanic.vMedia.ExternalAudio)">LoadVideo(String, Boolean, ExternalAudio)</h4>
   <div class="markdown level1 summary"><p>Load video.
 <br> 載入視訊。</p>
+<p> LoadVideo(&quot;C:/abc/def.mp4&quot;, true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1134,6 +1141,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Next_System_Int32_System_Single_System_Single_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Next(System.Int32,System.Single,System.Single,System.Boolean)">Next(Int32, Single, Single, Boolean)</h4>
   <div class="markdown level1 summary"><p>Goto next medium.
 <br> 跳至下個媒體。</p>
+<p> Next(1, 0, -1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1153,7 +1161,7 @@ public float volume</code></pre>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">next</span></td>
-        <td><p>Next to <br> 跳至下個</p>
+        <td><p>Next to <br> 跳至下幾個</p>
 </td>
       </tr>
       <tr>
@@ -1166,6 +1174,7 @@ public float volume</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">end</span></td>
         <td><p>End time <br> 結束時間</p>
+<p> Default: -1 = Media length 媒體長度 </p>
 </td>
       </tr>
       <tr>
@@ -1206,6 +1215,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_Int32_System_Int32_System_Int32_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.Int32,System.Int32,System.Int32,System.Single,System.Single)">Play(Int32, Int32, Int32, Single, Single)</h4>
   <div class="markdown level1 summary"><p>Play media from start time to end time with external audio.
 <br> 由開始時間播放媒體及外置音訊至結束時間。</p>
+<p> Play(0, 1, 0, 0, -1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1250,6 +1260,7 @@ public float volume</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">end</span></td>
         <td><p>End time <br> 結束時間</p>
+<p> Default: -1 = Media length 媒體長度 </p>
 </td>
       </tr>
     </tbody>
@@ -1260,6 +1271,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_Int32_System_Int32_System_String_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.Int32,System.Int32,System.String,System.Single,System.Single)">Play(Int32, Int32, String, Single, Single)</h4>
   <div class="markdown level1 summary"><p>Play media from start time to end time with external audio.
 <br> 由開始時間播放媒體及外置音訊至結束時間。</p>
+<p> Play(0, 1, &quot;def.mp3&quot;, 0, -1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1304,6 +1316,7 @@ public float volume</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">end</span></td>
         <td><p>End time <br> 結束時間</p>
+<p> Default: -1 = Media length 媒體長度 </p>
 </td>
       </tr>
     </tbody>
@@ -1314,6 +1327,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_Int32_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.Int32,System.Single,System.Single)">Play(Int32, Single, Single)</h4>
   <div class="markdown level1 summary"><p>Play media from start time to end time.
 <br> 由開始時間播放媒體至結束時間。</p>
+<p> Play(0, 0, -1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1346,6 +1360,7 @@ public float volume</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">end</span></td>
         <td><p>End time <br> 結束時間</p>
+<p> Default: -1 = Media length 媒體長度 </p>
 </td>
       </tr>
     </tbody>
@@ -1356,6 +1371,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.Single,System.Single)">Play(Single, Single)</h4>
   <div class="markdown level1 summary"><p>Play media from start time to end time.
 <br> 由開始時間播放媒體至結束時間。</p>
+<p> Play(0, -1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1382,6 +1398,7 @@ public float volume</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">end</span></td>
         <td><p>End time <br> 結束時間</p>
+<p> Default: -1 = Media length 媒體長度 </p>
 </td>
       </tr>
     </tbody>
@@ -1392,6 +1409,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_String_System_Int32_System_Int32_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.String,System.Int32,System.Int32,System.Single,System.Single)">Play(String, Int32, Int32, Single, Single)</h4>
   <div class="markdown level1 summary"><p>Play media from start time to end time with external audio.
 <br> 由開始時間播放媒體及外置音訊至結束時間。</p>
+<p> Play(&quot;abc.mp4&quot;, 1, 0, 0, -1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1436,6 +1454,7 @@ public float volume</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">end</span></td>
         <td><p>End time <br> 結束時間</p>
+<p> Default: -1 = Media length 媒體長度 </p>
 </td>
       </tr>
     </tbody>
@@ -1446,6 +1465,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_String_System_Int32_System_String_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.String,System.Int32,System.String,System.Single,System.Single)">Play(String, Int32, String, Single, Single)</h4>
   <div class="markdown level1 summary"><p>Play media from start time to end time with external audio.
 <br> 由開始時間播放媒體及外置音訊至結束時間。</p>
+<p> Play(&quot;abc.mp4&quot;, 1, &quot;def.mp3&quot;, 0, -1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1490,6 +1510,7 @@ public float volume</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">end</span></td>
         <td><p>End time <br> 結束時間</p>
+<p> Default: -1 = Media length 媒體長度 </p>
 </td>
       </tr>
     </tbody>
@@ -1500,6 +1521,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_String_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.String,System.Single,System.Single)">Play(String, Single, Single)</h4>
   <div class="markdown level1 summary"><p>Play media from start time to end time.
 <br> 由開始時間播放媒體至結束時間。</p>
+<p> Play(&quot;abc.mp4&quot;, 0, -1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1532,6 +1554,7 @@ public float volume</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">end</span></td>
         <td><p>End time <br> 結束時間</p>
+<p> Default: -1 = Media length 媒體長度 </p>
 </td>
       </tr>
     </tbody>
@@ -1554,6 +1577,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Previous_System_Int32_System_Single_System_Single_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Previous(System.Int32,System.Single,System.Single,System.Boolean)">Previous(Int32, Single, Single, Boolean)</h4>
   <div class="markdown level1 summary"><p>Goto previous medium.
 <br> 跳至上個媒體。</p>
+<p> Previous(1, 0, -1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1573,7 +1597,7 @@ public float volume</code></pre>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">previous</span></td>
-        <td><p>Previous to <br> 跳至上個</p>
+        <td><p>Previous to <br> 跳至上幾個</p>
 </td>
       </tr>
       <tr>
@@ -1586,6 +1610,7 @@ public float volume</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">end</span></td>
         <td><p>End time <br> 結束時間</p>
+<p> Default: -1 = Media length 媒體長度 </p>
 </td>
       </tr>
       <tr>
@@ -1614,6 +1639,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoNext_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoNext(System.Boolean)">SetAutoNext(Boolean)</h4>
   <div class="markdown level1 summary"><p>Set auto next.
 <br> 設定是否自動跳至下一個媒體。</p>
+<p> SetAutoNext(true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1656,6 +1682,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoPlay_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoPlay(System.Boolean)">SetAutoPlay(Boolean)</h4>
   <div class="markdown level1 summary"><p>Set auto play or not.
 <br> 設定是否自動播放。</p>
+<p> SetAutoPlay(true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1696,8 +1723,9 @@ public float volume</code></pre>
   
   <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetLoop_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetLoop*"></a>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetLoop_Votanic_vMedia_MediaPlayer_Loop_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetLoop(Votanic.vMedia.MediaPlayer.Loop)">SetLoop(Loop)</h4>
-  <div class="markdown level1 summary"><p>Set the loop.
-<br> 設定循環。</p>
+  <div class="markdown level1 summary"><p>Set the loop state.
+<br> 設定循環狀態。</p>
+<p> SetLoop(Loop.One) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1740,6 +1768,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetMute_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetMute(System.Boolean)">SetMute(Boolean)</h4>
   <div class="markdown level1 summary"><p>Set mute or not.
 <br> 設定是否靜音。</p>
+<p> SetMute(true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1769,6 +1798,7 @@ public float volume</code></pre>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetVolume_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetVolume(System.Single)">SetVolume(Single)</h4>
   <div class="markdown level1 summary"><p>Set the volume of media player.
 <br> 設定媒體擋放器音量。</p>
+<p> SetVolume(1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
