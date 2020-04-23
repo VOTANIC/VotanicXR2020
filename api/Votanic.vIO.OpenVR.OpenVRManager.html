@@ -1,0 +1,928 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class OpenVRManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class OpenVRManager
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Votanic.vIO.OpenVR.OpenVRManager">
+  
+  
+  <h1 id="Votanic_vIO_OpenVR_OpenVRManager" data-uid="Votanic.vIO.OpenVR.OpenVRManager" class="text-break">Class OpenVRManager
+  </h1>
+  <div class="markdown level0 summary"><p>Managing OpenVR deivces.
+<br> 管理 OpenVR 裝置。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">OpenVRManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vIO.OpenVR.html">Votanic.vIO.OpenVR</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.vIO.dll</h6>
+  <h5 id="Votanic_vIO_OpenVR_OpenVRManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
+public class OpenVRManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_AxisDown_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.AxisDown*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_AxisDown_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisDown(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
+  <div class="markdown level1 summary"><p>Return true if an axis on controller is pressed.
+<br> 當控制器的軸按下時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AxisDown(int index, AxisDirection direction = AxisDirection.Any, int controller = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AxisDirection.html">AxisDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The axis pressing direction <br> 軸按住的方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse axis value if true <br> 當 true 時反轉軸值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AssistButtons.html">AssistButtons</a></td>
+        <td><span class="parametername">assistButtons</span></td>
+        <td><p>Assist buttons <br> 輔助按鈕</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_AxisHold_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.AxisHold*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_AxisHold_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.AxisHold(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisHold(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
+  <div class="markdown level1 summary"><p>Return true if an axis on controller is held for a while.
+<br> 當控制器的軸長按一段時間時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AxisHold(int index, AxisDirection direction = AxisDirection.Any, int controller = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AxisDirection.html">AxisDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The axis pressing direction <br> 軸按住的方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse axis value if true <br> 當 true 時反轉軸值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AssistButtons.html">AssistButtons</a></td>
+        <td><span class="parametername">assistButtons</span></td>
+        <td><p>Assist buttons <br> 輔助按鈕</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_AxisPress_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.AxisPress*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_AxisPress_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.AxisPress(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisPress(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
+  <div class="markdown level1 summary"><p>Return true if an axis on controller is pressing.
+<br> 當控制器的軸按住時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AxisPress(int index, AxisDirection direction = AxisDirection.Any, int controller = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AxisDirection.html">AxisDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The axis pressing direction <br> 軸按住的方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse axis value if true <br> 當 true 時反轉軸值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AssistButtons.html">AssistButtons</a></td>
+        <td><span class="parametername">assistButtons</span></td>
+        <td><p>Assist buttons <br> 輔助按鈕</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_AxisUp_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.AxisUp*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_AxisUp_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.AxisUp(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisUp(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
+  <div class="markdown level1 summary"><p>Return true if an axis on controller is released.
+<br> 當控制器的軸放開時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AxisUp(int index, AxisDirection direction = AxisDirection.Any, int controller = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AxisDirection.html">AxisDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The axis pressing direction <br> 軸按住的方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse axis value if true <br> 當 true 時反轉軸值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AssistButtons.html">AssistButtons</a></td>
+        <td><span class="parametername">assistButtons</span></td>
+        <td><p>Assist buttons <br> 輔助按鈕</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_AxisValue_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.AxisValue*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_AxisValue_System_Int32_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.AxisValue(System.Int32,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisValue(Int32, Int32, Boolean, AssistButtons)</h4>
+  <div class="markdown level1 summary"><p>Return the value of an axis on controller.
+<br> 傳回控制器的一個軸的值。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AxisValue(int index, int controller = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse axis value if true <br> 當 true 時反轉軸值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AssistButtons.html">AssistButtons</a></td>
+        <td><span class="parametername">assistButtons</span></td>
+        <td><p>Assist buttons <br> 輔助按鈕</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_ButtonDown_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.ButtonDown*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_ButtonDown_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.ButtonDown(System.Int32,System.Int32,System.Boolean)">ButtonDown(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a button on controller is pressed.
+<br> 當控制器的按鈕按下時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ButtonDown(int index, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_ButtonHold_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.ButtonHold*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_ButtonHold_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.ButtonHold(System.Int32,System.Int32,System.Boolean)">ButtonHold(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a button on controller is held for a while.
+<br> 當控制器的按鈕長按一段時間時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ButtonHold(int index, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_ButtonPress_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.ButtonPress*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_ButtonPress_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.ButtonPress(System.Int32,System.Int32,System.Boolean)">ButtonPress(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a button on controller is pressing.
+<br> 當控制器的按鈕按住時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ButtonPress(int index, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_ButtonTouch_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.ButtonTouch*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_ButtonTouch_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.ButtonTouch(System.Int32,System.Int32,System.Boolean)">ButtonTouch(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a button on controller is touched.
+<br> 當控制器的按鈕被觸碰時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ButtonTouch(int index, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_ButtonUp_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.ButtonUp*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_ButtonUp_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.ButtonUp(System.Int32,System.Int32,System.Boolean)">ButtonUp(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a button on controller is released.
+<br> 當控制器的按鈕放開時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ButtonUp(int index, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_TrackerAccessible_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.TrackerAccessible*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_TrackerAccessible_System_String_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.TrackerAccessible(System.String)">TrackerAccessible(String)</h4>
+  <div class="markdown level1 summary"><p>Return true if the tracker is accessible.
+<br> 當定位器可讀取時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TrackerAccessible(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Tracker name  <br> 定位器名稱</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_TrackerPosition_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.TrackerPosition*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_TrackerPosition_System_String_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.TrackerPosition(System.String)">TrackerPosition(String)</h4>
+  <div class="markdown level1 summary"><p>Get the position of tracker in system.
+<br> 取得系統中的定位器位置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 TrackerPosition(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Tracker name  <br> 定位器名稱</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_TrackerRotation_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.TrackerRotation*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_TrackerRotation_System_String_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.TrackerRotation(System.String)">TrackerRotation(String)</h4>
+  <div class="markdown level1 summary"><p>Get the rotation of tracker in system.
+<br> 取得系統中的定位器角度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion TrackerRotation(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Tracker name  <br> 定位器名稱</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_OpenVR_OpenVRManager_Vibrate_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.Vibrate*"></a>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRManager_Vibrate_System_UInt16_System_Int32_" data-uid="Votanic.vIO.OpenVR.OpenVRManager.Vibrate(System.UInt16,System.Int32)">Vibrate(UInt16, Int32)</h4>
+  <div class="markdown level1 summary"><p>Vibrate a controller.
+<br> 使控制器震動。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Vibrate(ushort duration = 500, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Vibrate micro seconds <br> 震動微秒數</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

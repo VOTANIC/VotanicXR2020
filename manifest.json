@@ -1,0 +1,2286 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Andrew.Votanic/project/Votanic.vCore.dll/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.Element.MonoBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.Element.MonoBehaviour.html",
+          "hash": "L3UzhYkIgvujE6W6xc+D4g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.Element.String.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.Element.String.html",
+          "hash": "0hhByuVJvw7dz52CLhykEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.Element.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.Element.html",
+          "hash": "YqdNVf1Nu3iAlYj97gf28g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.HorizontalAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.HorizontalAlignment.html",
+          "hash": "V5YCqjoBPJRIOJoBLueKlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.ReadOnly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.ReadOnly.html",
+          "hash": "6uGiSDTsxDIys9UmUS8noA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.ReadOnlyOnPlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.ReadOnlyOnPlay.html",
+          "hash": "3nEI62e8ndiyay3Pu8sw5w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.ReadWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.ReadWrite.html",
+          "hash": "I54PD4lCd1sUKOrnc0ATPg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.Util.html",
+          "hash": "I0kcya4K50h8/G7oLvZtFg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.VerticalAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.VerticalAlignment.html",
+          "hash": "IldMP7H41LsffWJZIHSWvw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.AssistButtons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.AssistButtons.html",
+          "hash": "5NQjCJJEayah+s2BTasuAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.Axes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.Axes.html",
+          "hash": "YuNpxDwZf3npqID+jVgZ2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.AxisDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.AxisDirection.html",
+          "hash": "B7ycBjqKdJXIWhjq2bdANw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.Buttons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.Buttons.html",
+          "hash": "oNw/1HC9EhdXTOXzPMsRkA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.Device.html",
+          "hash": "KOdc5e6Yx2e5jkfu8sJ0ug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.HoldingState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.HoldingState.html",
+          "hash": "sfE5LhEKEfZNXtbtG8Ua6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.OpenVR.OpenVRAxes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.OpenVR.OpenVRAxes.html",
+          "hash": "/O/K8p4OMOnNiL5UTqRKaA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.OpenVR.OpenVRButtons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.OpenVR.OpenVRButtons.html",
+          "hash": "JL38TJR8UN6WJeYEvKLbYw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.OpenVR.OpenVRDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.OpenVR.OpenVRDevice.html",
+          "hash": "qS5PMXvrrXPtCNglSn4fbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.OpenVR.OpenVRHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.OpenVR.OpenVRHandler.html",
+          "hash": "EU5yWzmqtQknCubGFiPk1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.OpenVR.OpenVRManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.OpenVR.OpenVRManager.html",
+          "hash": "qe5oSzTV6fnB1xBK2o+bzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.OpenVR.OpenVRModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.OpenVR.OpenVRModel.html",
+          "hash": "gOVVClFU2RoBx4ACWUubkA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.OpenVR.OpenVRTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.OpenVR.OpenVRTracker.html",
+          "hash": "Qhii2q+I6T6AcucD5IBzXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.OpenVR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.OpenVR.html",
+          "hash": "teWRGwwMrqIFMNQjORHTSA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.State.html",
+          "hash": "WyjMzGx8WOdjOiD4weLgIg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.Tracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.Tracker.html",
+          "hash": "1n7gKFuEe1F7Dk56jHVEbw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.TrackerDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.TrackerDirection.html",
+          "hash": "UT78U/FAoJbX0ZUfCyagWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VInput.DPadDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VInput.DPadDirection.html",
+          "hash": "sVDDPZeZjcULqp3RMy3UUg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VInput.VInputAxes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VInput.VInputAxes.html",
+          "hash": "kZodCYml1jP9FO1T+InR+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VInput.VInputButtons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VInput.VInputButtons.html",
+          "hash": "paShqYVhtT2n7hjXkgpiRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VInput.VInputController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VInput.VInputController.html",
+          "hash": "b8LtjBOqWX2cdHPJKMgSOQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VInput.VInputHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VInput.VInputHandler.html",
+          "hash": "CNFr1KjTaVkSWgZ5YRjuIA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VInput.VInputKeyboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VInput.VInputKeyboard.html",
+          "hash": "/T0i4KyJ3oDApnnDejy/Sw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VInput.VInputManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VInput.VInputManager.html",
+          "hash": "5pzW7Xx0LtZDbCKrPtXgzQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VInput.VInputMouse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VInput.VInputMouse.html",
+          "hash": "4pgY59dan2bzsbOba0ob6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VInput.html",
+          "hash": "4YgJLA2eJv47YxpFD9/vdA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VRPN.VRPNAxes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VRPN.VRPNAxes.html",
+          "hash": "yjXvagMY+5s49ox85Ka4yg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VRPN.VRPNButtons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VRPN.VRPNButtons.html",
+          "hash": "R3GJ6Pl5Eqx2dZRO5oqMfg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VRPN.VRPNHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VRPN.VRPNHandler.html",
+          "hash": "YJljdIRE7+5UcY4W50Ld/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VRPN.VRPNManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VRPN.VRPNManager.html",
+          "hash": "7vckGBYnjRLbn+/+zxpTbQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VRPN.VRPNTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VRPN.VRPNTracker.html",
+          "hash": "zCcQ5IeBV4zWZArToVz06w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.VRPN.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.VRPN.html",
+          "hash": "S+3ZW/ZoPcvDLZZA0Iv1GQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vIO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vIO.html",
+          "hash": "yu0ogK/u6e1xY+7NktO6QQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vMedia.ExternalAudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vMedia.ExternalAudio.html",
+          "hash": "XHWQDDVFAZJtzudK8kLZQg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vMedia.Media.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vMedia.Media.html",
+          "hash": "cXXrsBJQCXgpHhfLj4hmhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vMedia.MediaPlayer.Loop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vMedia.MediaPlayer.Loop.html",
+          "hash": "/tl/jUgYwiEhYSthsQFj1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vMedia.MediaPlayer.MediaPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vMedia.MediaPlayer.MediaPlayer.html",
+          "hash": "eqpLAOAUmaXj0YKcwUAGBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vMedia.MediaPlayer.MediaPlayer360.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html",
+          "hash": "WHPBOHTq+iV8d1rtgHP01g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vMedia.MediaPlayer.StereoType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vMedia.MediaPlayer.StereoType.html",
+          "hash": "/ro7yNQ6fesOVOTDG2etIA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vMedia.MediaPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vMedia.MediaPlayer.html",
+          "hash": "t6LyDZ+tvfhZVgHtBeDc8Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vMedia.MediaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vMedia.MediaType.html",
+          "hash": "m/VZdMKTWZpAlzP5gSxwmg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vMedia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vMedia.html",
+          "hash": "9zKKyuKPZj75O9u/wDZm3w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Messenger.ConnectionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Messenger.ConnectionState.html",
+          "hash": "cAa1a5kLbQ0ah8GzbNiS6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Messenger.NetworkMessenger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Messenger.NetworkMessenger.html",
+          "hash": "Ut90qtmQuroRIApksQ5dlg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Messenger.Protocol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Messenger.Protocol.html",
+          "hash": "zeXJlwUK2eJsDn60998LgA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Messenger.UserType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Messenger.UserType.html",
+          "hash": "/qxmkzFP52wQhy8ZXb4Dqg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Messenger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Messenger.html",
+          "hash": "ihV2OUePeVCA4Q3884tzpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.Interaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.Interaction.html",
+          "hash": "nRyC9ZFFzd21IVxwG3HNFA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.InteractionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.InteractionType.html",
+          "hash": "AT5Ysmjf9SL5wCwXiCyekg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.Interactor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.Interactor.html",
+          "hash": "bILocbSXaOGaZCNVrmuPPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.InteractorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.InteractorType.html",
+          "hash": "CP+VN410wk+pHQyysN+bUQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.Motion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.Motion.html",
+          "hash": "8UfitBtd59EhGcLUE6I/WQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.MotionParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.MotionParameter.html",
+          "hash": "lCM3iLpeITycCTtv175eVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.TransitionMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.TransitionMethod.html",
+          "hash": "Psp7RtOAtiEr91CbILHRVg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Attribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Attribute.html",
+          "hash": "xaEtEdAh3qpLuWc+FKDK8g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.Batch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.Batch.html",
+          "hash": "r4e+SaibEXjBYSCHDhLp1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.BatchType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.BatchType.html",
+          "hash": "S6fEldr3QL330YawuS9B7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.Camera.html",
+          "hash": "NQFHuzcNIwxxy7sb6u3sVw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.Console.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.Console.html",
+          "hash": "SEOLbMKEPacvOjUZekLutQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.Entity.html",
+          "hash": "lxcyekXT+/mmfqW01I2Y+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.Fader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.Fader.html",
+          "hash": "dDI88AZyHgMqDM4CyeYRzQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.Info.html",
+          "hash": "nZGv1UlL6wGOJGI9iGsahQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.Node.html",
+          "hash": "3JbhmOxZr+C52+peoJs06Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.Screen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.Screen.html",
+          "hash": "MzVNoq7Z2/AOb/a2Gughug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.SystemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.SystemType.html",
+          "hash": "i218Jc8XJnlJKy70jaWoXg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.Transition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.Transition.html",
+          "hash": "ladx2BYBE1N0hdjmgT4yAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.UserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.UserControl.html",
+          "hash": "E02BzfhpFqz3hTUeos7p8Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.XRSupport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.XRSupport.html",
+          "hash": "mFhaNqSACUvWTcqGaEzXXA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.html",
+          "hash": "tsshq48ew+mvX4PVI45mDQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Essential.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Essential.html",
+          "hash": "6LQsI6NYz7FGLOU7h9v/PQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Glove.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Glove.html",
+          "hash": "W1gRpKLKP++8PZ+YtZW0QQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.IO.ControllerTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.IO.ControllerTool.html",
+          "hash": "OJUyrO+2WHsi/y/aF0SSqw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.IO.DeviceClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.IO.DeviceClass.html",
+          "hash": "ZzkahauxmOx6+iukiOX8/w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.IO.SensorPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.IO.SensorPart.html",
+          "hash": "Xiv32PwfP4CuRunBrxWSjg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.IO.vCast_ControllerTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.IO.vCast_ControllerTool.html",
+          "hash": "EyDn9k6KApFngxOTllgd2A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.IO.vCast_Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.IO.vCast_Device.html",
+          "hash": "O/bOwB9PjTyn39uCbKHtGg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.IO.vCast_SensorPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.IO.vCast_SensorPart.html",
+          "hash": "13CLrXlWS/CpYY3kjc6UgA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.IO.html",
+          "hash": "7zDyPF95LWCBd/j5R7WWXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Layer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Layer.html",
+          "hash": "tzuDug0yfXfJlfiYaUX0lw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.TeleportProjectile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.TeleportProjectile.html",
+          "hash": "Sk4KMCu/86Aojvmajums5g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.WandRay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.WandRay.html",
+          "hash": "Ny5/Jl5YpGTyr678mhZTrQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast.Cmd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast.Cmd.html",
+          "hash": "PSrDB4qnWICNU2J6Ib9+cg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast.ConsoleMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast.ConsoleMode.html",
+          "hash": "qh7ssy2JTrYau/9+LDmEfQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast.Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast.Ctrl.html",
+          "hash": "MZQhvp04A/xQSTYLdBzWGg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast.Fader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast.Fader.html",
+          "hash": "UQ/6dgapFcOJIIre9L29aw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast.Frame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast.Frame.html",
+          "hash": "PCWQ17SgGhUaBP6tndbM0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast.Info.html",
+          "hash": "6z6hSaC5/652dK+lie2L3w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast.Input.html",
+          "hash": "rNHZfnbyzsWElmgcOViT/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast.html",
+          "hash": "aTbxLAY8EUQdB9KnfodYSg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_Controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_Controller.html",
+          "hash": "zxg3UzexccmhCJe4uJ0VUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_Fader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_Fader.html",
+          "hash": "0JG8Ep8s3xMQ+13SRPXuXA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_Frame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_Frame.html",
+          "hash": "42XGrYppErTIHv65NTl6jw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_Glove.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_Glove.html",
+          "hash": "cTRN49mtdjriodacu+JrHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_Ground.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_Ground.html",
+          "hash": "3iQtEKHCHVIlMb3EO0NQ3Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_Interactables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_Interactables.html",
+          "hash": "4JWAvRGPGWco0jYmZI6X/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_Menu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_Menu.html",
+          "hash": "W9i4cXSyJQXBIqaJvaebcw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_Sensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_Sensor.html",
+          "hash": "U5Y0W6rAyv8CH2iBcnsXGg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_StartPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_StartPoint.html",
+          "hash": "HVB1FfWUREFrBRs18r+yxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_Teleport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_Teleport.html",
+          "hash": "2Tn4otpPjukki+SXibfefw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_User.html",
+          "hash": "Bs99yzCWUFoKms8f+V920Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_Vision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_Vision.html",
+          "hash": "JxQ7/fVl40lrRPtAoe631w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_Wall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_Wall.html",
+          "hash": "hq0FsQnc1jhccc2GyXSdlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.vCast_Wand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.vCast_Wand.html",
+          "hash": "/DHhernldVq2ZUua1S6K4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.html",
+          "hash": "1m1/vqBIgubf/YkH1qtUlw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Advanced.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Advanced.html",
+          "hash": "Ry1W8b+y9vfBCZDDM4gqBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.ControllerPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.ControllerPart.html",
+          "hash": "5QEo1IFbpG7rz0SO39DIJw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.ControllerTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.ControllerTransform.html",
+          "hash": "lTNy6voqg2YLAzzLnvHOyQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Coordinate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Coordinate.html",
+          "hash": "QgBYfCHhr8NQXIOfszInEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Core.SinglePointRepeat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Core.SinglePointRepeat.html",
+          "hash": "mDOR+o4YyS28frgQ6BQnUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Core.Transformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Core.Transformation.html",
+          "hash": "5mUQxjFcTbdc6JZl+InFtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Core.html",
+          "hash": "T3qrFXBmgzgtr1bozG1+BQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.LocusCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.LocusCollider.html",
+          "hash": "FGsrMfafnWnvP2aeC0vOZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.LocusType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.LocusType.html",
+          "hash": "retRg4yTmkNqWfLB8y9Z2w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.ObjectCharacteristic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.ObjectCharacteristic.html",
+          "hash": "ZG7VmIw8OnSE/jhLDBb2CA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.ObjectDetection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.ObjectDetection.html",
+          "hash": "oopBEEGyeEd0A102YtvFfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.ObjectDetectionConditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.ObjectDetectionConditions.html",
+          "hash": "a7iXSye0FA5vViZgZaFvxQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.ObjectFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.ObjectFilter.html",
+          "hash": "pN3UgqqMdM8WZNhgX/ECIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.Action.html",
+          "hash": "zMEbVz4ElUW7ULzGEx+nBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.ActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.ActionType.html",
+          "hash": "06AO1xw8NqZMf8Hwf4oMpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.Actions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.Actions.html",
+          "hash": "nI+B66SJR5PW3O1EBhe8Zg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.Behaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.Behaviour.html",
+          "hash": "xQtP0CLkT8uZ8zka/WGo5g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.BehaviourLoop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.BehaviourLoop.html",
+          "hash": "x0bVWADjA9K7x2cjoT+WFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.Condition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.Condition.html",
+          "hash": "55hhsewlI2nEqCW5Gj0jfg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.ConditionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.ConditionType.html",
+          "hash": "twfuBCXN9M4wrFHkW1Z5Bg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.Conditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.Conditions.html",
+          "hash": "AAAbiU0Ig+k1zapTJ8wDYw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.InputDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.InputDetail.html",
+          "hash": "EJIsWRSrPDbXEM/AcIqzdg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.InputDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.InputDevice.html",
+          "hash": "obe/sGPOBw1QdoWCdBc7Ng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.InputType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.InputType.html",
+          "hash": "ygDaHkXwNlQyR95q1VbtGA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.MediaPlayerAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.MediaPlayerAction.html",
+          "hash": "Vq2Xy4kIindStw0ALa2qWg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.MotionDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.MotionDetail.html",
+          "hash": "BE8M73Wfnsq3T6gqYKEtQQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Scenario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Scenario.html",
+          "hash": "4kSvv+lVUxLw9Rw9m8QC+g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.StorePoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.StorePoint.html",
+          "hash": "LtG4zFUbX2UWeSPZb+Gi5g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.TeleportPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.TeleportPoint.html",
+          "hash": "JvzkhMYiwu85D7zYDsKD0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.UIState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.UIState.html",
+          "hash": "mfD0XHAIo4eofVTqCwqV8Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear.Scenario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear.Scenario.html",
+          "hash": "3FVs3ugPX9S/wPQzA1b4dw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear.html",
+          "hash": "dq/SwVJIXgHYyHmf7/0qoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Behaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Behaviour.html",
+          "hash": "AHJDoIfLoQogo2B1uWTdpw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_BehaviourManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_BehaviourManager.html",
+          "hash": "+xuNjk3Uuuza7cLvE1dSDw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Brush.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Brush.html",
+          "hash": "a7wpi/58PPRuJFzXjB9I1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Button.html",
+          "hash": "hmY5RAVu0vFpPmxOSFjO8w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Collisioner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Collisioner.html",
+          "hash": "7WN+kgz5EBFGjH1p9tS3Bw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Controller.html",
+          "hash": "ULqk4rjbuUf7dpllM9qOHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Detector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Detector.html",
+          "hash": "i5fy4Iz/kb6F5Z4IHhGI9w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Glove.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Glove.html",
+          "hash": "+tVdhsuDbeS4ywt69v9ntw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Interactables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Interactables.html",
+          "hash": "vKE3MX6+Xrgj5QaWnHoBzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Landing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Landing.html",
+          "hash": "7H8IKlaMxaymHu8rri9LxA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Locus.CapMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Locus.CapMode.html",
+          "hash": "jSWih84AhtMkw8ttAQwZtQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Locus.NormalMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Locus.NormalMode.html",
+          "hash": "K3CDVgp2iY+pLCO0tN9DnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Locus.Postprocess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Locus.Postprocess.html",
+          "hash": "DsgUJRfzklVrIwrqgMZiHw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Locus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Locus.html",
+          "hash": "sJ/0UpeWZ17qJVXbUHYqjg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Magnifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Magnifier.html",
+          "hash": "IKjZcxbpKx/9reKdw0ScMg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Menu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Menu.html",
+          "hash": "HHpfie6JZnvC5VvB477dRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Panel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Panel.html",
+          "hash": "V20FCXhSDk3AVEfurXKYoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Positioner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Positioner.html",
+          "hash": "lFV3/kqLujXIAvhAyvEBMA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Sensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Sensor.html",
+          "hash": "V43kCUEWP5AYUNs8JF3SZg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Shutter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Shutter.html",
+          "hash": "+EN5vBSwtSk/379zF+Qt2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Sketchpad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Sketchpad.html",
+          "hash": "KOGSyBFIMamYsmBR/mVv5g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Slider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Slider.html",
+          "hash": "oWE4FCjAvfIANLXkmNC+1Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Teleport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Teleport.html",
+          "hash": "L6pNv0f+V7Ho92YUltxmuQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Tool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Tool.html",
+          "hash": "476/09NSDL75p4N98gTgfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Toolbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Toolbox.html",
+          "hash": "joWNhb1loEToIIz3Vbv06A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Transformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Transformer.html",
+          "hash": "SiU+guex4dMyb15g1naW9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_UI.html",
+          "hash": "AvSfDii470+8nTfbGkazhA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_User.html",
+          "hash": "+myKUO9GqW9Eh8AZwoSNNw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Vision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Vision.html",
+          "hash": "aqWyhiVBZ9Ot2YzzdG3Fkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Wand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Wand.html",
+          "hash": "eXl7TpadaaMN1cv60UyCQA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Waypoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Waypoint.html",
+          "hash": "SJB6z02I1/3oOEi0w8B8PQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.html",
+          "hash": "GVNhmkOSJ+DSJpEbmzLxXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.html",
+          "hash": "7tb2tpdDtS8X3BkVdRcvAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.html",
+          "hash": "41/8Q8QMTwQ9DbM10a2oDw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "XbVYcUnyhpYS3lY3oV3Xeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Txtyx6S5DWApMCByqXuKYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "eDCeVh/qHVuQTxxC4se8/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "tHZLYaa9zoPOjdiETI7vrQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "readme.html",
+          "hash": "wIKuTQgZ1H+wOWRAFeWAow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "EIhwD2+o19OxxQFCB6JJTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 2
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 179,
+          "skipped_file_count": 179
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

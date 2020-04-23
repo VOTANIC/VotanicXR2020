@@ -1,0 +1,942 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NetworkMessenger
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NetworkMessenger
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Votanic.vNet.Messenger.NetworkMessenger">
+  
+  
+  <h1 id="Votanic_vNet_Messenger_NetworkMessenger" data-uid="Votanic.vNet.Messenger.NetworkMessenger" class="text-break">Class NetworkMessenger
+  </h1>
+  <div class="markdown level0 summary"><p>The network messenger for communication using TCP/UDP.
+<br> 透過 TCP/UDP 溝通的網絡通訊器。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">NetworkMessenger</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vNet.Messenger.html">Votanic.vNet.Messenger</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.vNet.dll</h6>
+  <h5 id="Votanic_vNet_Messenger_NetworkMessenger_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
+public class NetworkMessenger : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_autoConnect" data-uid="Votanic.vNet.Messenger.NetworkMessenger.autoConnect">autoConnect</h4>
+  <div class="markdown level1 summary"><p>Auto start networking on start. <br> 開始時自動連線。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool autoConnect</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_buffer" data-uid="Votanic.vNet.Messenger.NetworkMessenger.buffer">buffer</h4>
+  <div class="markdown level1 summary"><p>Time gap for checking connection state in seconds. <br> 每次檢查連線狀態的時間緩衝（秒數）。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float buffer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_checkConnection" data-uid="Votanic.vNet.Messenger.NetworkMessenger.checkConnection">checkConnection</h4>
+  <div class="markdown level1 summary"><p>Keeping send and receive data to check connection if true. <br> 當 true 時不斷傳送及接收訊息以確認連線。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool checkConnection</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_data" data-uid="Votanic.vNet.Messenger.NetworkMessenger.data">data</h4>
+  <div class="markdown level1 summary"><p>Received data. <br> 已接收的數據。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; data</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_errorMsg" data-uid="Votanic.vNet.Messenger.NetworkMessenger.errorMsg">errorMsg</h4>
+  <div class="markdown level1 summary"><p>Error message list. <br> 錯誤訊息列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] errorMsg</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_extendedASCIIEncoding" data-uid="Votanic.vNet.Messenger.NetworkMessenger.extendedASCIIEncoding">extendedASCIIEncoding</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Gerenal]&quot;)]
+public static Encoding extendedASCIIEncoding</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.Encoding</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_hostMsg" data-uid="Votanic.vNet.Messenger.NetworkMessenger.hostMsg">hostMsg</h4>
+  <div class="markdown level1 summary"><p>Message when start networking. <br> 開始連線的訊息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string hostMsg</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_ip" data-uid="Votanic.vNet.Messenger.NetworkMessenger.ip">ip</h4>
+  <div class="markdown level1 summary"><p>Server IP address. <br> 伺服器 IP 位址。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ip</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_isHosting" data-uid="Votanic.vNet.Messenger.NetworkMessenger.isHosting">isHosting</h4>
+  <div class="markdown level1 summary"><p>Return true if the user type is not client. <br> 當使用者類型不是客戶端時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isHosting</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_joinMsg" data-uid="Votanic.vNet.Messenger.NetworkMessenger.joinMsg">joinMsg</h4>
+  <div class="markdown level1 summary"><p>Message when connect to server. <br> 連至伺服器的訊息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Client]&quot;)]
+public string joinMsg</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_log" data-uid="Votanic.vNet.Messenger.NetworkMessenger.log">log</h4>
+  <div class="markdown level1 summary"><p>Reported data. <br> 已回報的數據。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; log</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_maxConnection" data-uid="Votanic.vNet.Messenger.NetworkMessenger.maxConnection">maxConnection</h4>
+  <div class="markdown level1 summary"><p>Max user count in the connetion. <br> 連線的最大使用者數目。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Server]&quot;)]
+public int maxConnection</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_messageWithName" data-uid="Votanic.vNet.Messenger.NetworkMessenger.messageWithName">messageWithName</h4>
+  <div class="markdown level1 summary"><p>Send message with user name if true. <br> 當 true 時傳送的訊息會顯示使用者名稱。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool messageWithName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_networkName" data-uid="Votanic.vNet.Messenger.NetworkMessenger.networkName">networkName</h4>
+  <div class="markdown level1 summary"><p>Uesr name in connection. <br> 連線用的使用者名稱。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string networkName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_numberOfConnection" data-uid="Votanic.vNet.Messenger.NetworkMessenger.numberOfConnection">numberOfConnection</h4>
+  <div class="markdown level1 summary"><p>Current user count. <br> 目前的使用者數目。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+public int numberOfConnection</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_ownPort" data-uid="Votanic.vNet.Messenger.NetworkMessenger.ownPort">ownPort</h4>
+  <div class="markdown level1 summary"><p>Client port of UDP. <br> UDP 需要的客戶連接埠。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ownPort</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_port" data-uid="Votanic.vNet.Messenger.NetworkMessenger.port">port</h4>
+  <div class="markdown level1 summary"><p>Server port. <br> 伺服器連接埠。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int port</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_protocol" data-uid="Votanic.vNet.Messenger.NetworkMessenger.protocol">protocol</h4>
+  <div class="markdown level1 summary"><p>Communication protocol <br> 通訊協定</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Protocol protocol</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Messenger.Protocol.html">Protocol</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_quitMsg" data-uid="Votanic.vNet.Messenger.NetworkMessenger.quitMsg">quitMsg</h4>
+  <div class="markdown level1 summary"><p>Message when disconnect to server. <br> 離開伺服器的訊息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string quitMsg</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_reconnect" data-uid="Votanic.vNet.Messenger.NetworkMessenger.reconnect">reconnect</h4>
+  <div class="markdown level1 summary"><p>Auto reconnect one time if failed to connect or lost connection. <br> 當連線失敗或失去連線時自動重新連線一次。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool reconnect</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_state" data-uid="Votanic.vNet.Messenger.NetworkMessenger.state">state</h4>
+  <div class="markdown level1 summary"><p>Connection state of networking <br> 網絡連線狀態</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConnectionState state</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Messenger.ConnectionState.html">ConnectionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_stopMsg" data-uid="Votanic.vNet.Messenger.NetworkMessenger.stopMsg">stopMsg</h4>
+  <div class="markdown level1 summary"><p>Message when stop networking. <br> 關閉連線的訊息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string stopMsg</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_timeout" data-uid="Votanic.vNet.Messenger.NetworkMessenger.timeout">timeout</h4>
+  <div class="markdown level1 summary"><p>Times for fail or lost connection. <br> 容許失敗及失去連線的次數。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int timeout</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_type" data-uid="Votanic.vNet.Messenger.NetworkMessenger.type">type</h4>
+  <div class="markdown level1 summary"><p>User type on connection <br> 連線使用者類型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UserType type</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Messenger.UserType.html">UserType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vNet_Messenger_NetworkMessenger_ChangeName_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.ChangeName*"></a>
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_ChangeName_System_String_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.ChangeName(System.String)">ChangeName(String)</h4>
+  <div class="markdown level1 summary"><p>Change the network user name.
+<br> 更改網絡使用者名稱。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>New name <br> 新名稱</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Messenger_NetworkMessenger_Connect_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.Connect*"></a>
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_Connect_System_String_System_Int32_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.Connect(System.String,System.Int32)">Connect(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Connect to server.
+<br> 連至伺服器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Connect(string ip = &quot;localhost&quot;, int port = 7777)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ip</span></td>
+        <td><p>Server IP address <br> 伺服器 IP 位址</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">port</span></td>
+        <td><p>Server port <br> 伺服器連接埠</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Messenger_NetworkMessenger_Disconnect_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.Disconnect*"></a>
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_Disconnect" data-uid="Votanic.vNet.Messenger.NetworkMessenger.Disconnect">Disconnect()</h4>
+  <div class="markdown level1 summary"><p>Disconnect to server.
+<br> 離開伺服器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disconnect()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Messenger_NetworkMessenger_ExternalIPAddress_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.ExternalIPAddress*"></a>
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_ExternalIPAddress" data-uid="Votanic.vNet.Messenger.NetworkMessenger.ExternalIPAddress">ExternalIPAddress()</h4>
+  <div class="markdown level1 summary"><p>Return the external IP address.
+<br> 傳回外部 IP 位址。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ExternalIPAddress()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Messenger_NetworkMessenger_Host_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.Host*"></a>
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_Host" data-uid="Votanic.vNet.Messenger.NetworkMessenger.Host">Host()</h4>
+  <div class="markdown level1 summary"><p>Start networking as a host.
+<br> 作為伺服器及客戶開始連線。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Host()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Messenger_NetworkMessenger_LocalIPAddress_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.LocalIPAddress*"></a>
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_LocalIPAddress" data-uid="Votanic.vNet.Messenger.NetworkMessenger.LocalIPAddress">LocalIPAddress()</h4>
+  <div class="markdown level1 summary"><p>Return the local IP address.
+<br> 傳回本地 IP 位址。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LocalIPAddress()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Messenger_NetworkMessenger_Send_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.Send*"></a>
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_Send_System_String_System_Int32___" data-uid="Votanic.vNet.Messenger.NetworkMessenger.Send(System.String,System.Int32[])">Send(String, Int32[])</h4>
+  <div class="markdown level1 summary"><p>Send message.
+<br> 傳送訊息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Send(string message, params int[] receiver)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message <br> 訊息</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">receiver</span></td>
+        <td><p>Specific users ID <br> 特殊指明的使用者編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Messenger_NetworkMessenger_StartServer_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.StartServer*"></a>
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_StartServer" data-uid="Votanic.vNet.Messenger.NetworkMessenger.StartServer">StartServer()</h4>
+  <div class="markdown level1 summary"><p>Start networking as a server.
+<br> 作為伺服器開始連線。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartServer()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Messenger_NetworkMessenger_StopServer_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.StopServer*"></a>
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_StopServer" data-uid="Votanic.vNet.Messenger.NetworkMessenger.StopServer">StopServer()</h4>
+  <div class="markdown level1 summary"><p>Stop server.
+<br> 關閉連線。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopServer()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

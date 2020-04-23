@@ -1,0 +1,1867 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MediaPlayer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MediaPlayer
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer">
+  
+  
+  <h1 id="Votanic_vMedia_MediaPlayer_MediaPlayer" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer" class="text-break">Class MediaPlayer
+  </h1>
+  <div class="markdown level0 summary"><p>Media player class for playing Audio, Image and Video.
+<br> 媒體播放器類別，用於播放音訊、影像及視訊。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">MediaPlayer</span></div>
+      <div class="level6"><a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer360.html">MediaPlayer360</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vMedia.MediaPlayer.html">Votanic.vMedia.MediaPlayer</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.vMedia.dll</h6>
+  <h5 id="Votanic_vMedia_MediaPlayer_MediaPlayer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
+public class MediaPlayer : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer__autoNextButton" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer._autoNextButton">_autoNextButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;RawImage&gt; _autoNextButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.UI.RawImage</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer__autoPlayButton" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer._autoPlayButton">_autoPlayButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;RawImage&gt; _autoPlayButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.UI.RawImage</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer__loopButton" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer._loopButton">_loopButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;RawImage&gt; _loopButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.UI.RawImage</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer__mesh" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer._mesh">_mesh</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+public List&lt;MeshRenderer&gt; _mesh</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.MeshRenderer</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer__muteButton" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer._muteButton">_muteButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;RawImage&gt; _muteButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.UI.RawImage</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer__playPauseButton" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer._playPauseButton">_playPauseButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;RawImage&gt; _playPauseButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.UI.RawImage</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer__timeBar" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer._timeBar">_timeBar</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Image&gt; _timeBar</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.UI.Image</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer__timeText" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer._timeText">_timeText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Player UI]&quot;)]
+public List&lt;Text&gt; _timeText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.UI.Text</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer__ui" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer._ui">_ui</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;RawImage&gt; _ui</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.UI.RawImage</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer__volumeBar" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer._volumeBar">_volumeBar</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Image&gt; _volumeBar</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.UI.Image</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer__volumeText" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer._volumeText">_volumeText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Text&gt; _volumeText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.UI.Text</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_audios" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.audios">audios</h4>
+  <div class="markdown level1 summary"><p>Audios loaded. <br> 已載入的音訊。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, List&lt;AudioSource&gt;&gt; audios</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.AudioSource</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_autoNext" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.autoNext">autoNext</h4>
+  <div class="markdown level1 summary"><p>Auto open next media if true. <br> 當 true 時自動跳到下一個媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool autoNext</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_autoNextTexture" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.autoNextTexture">autoNextTexture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Texture2D&gt; autoNextTexture</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Texture2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_autoPlay" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.autoPlay">autoPlay</h4>
+  <div class="markdown level1 summary"><p>Auto play media if true. <br> 當 true 時自動播放媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool autoPlay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_autoPlayTexture" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.autoPlayTexture">autoPlayTexture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Texture2D&gt; autoPlayTexture</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Texture2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_current" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.current">current</h4>
+  <div class="markdown level1 summary"><p>The current medium. <br> 目前媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int current</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_defaultTexture" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.defaultTexture">defaultTexture</h4>
+  <div class="markdown level1 summary"><p>Default texture display on UI or Mesh attached. <br> 預設的顯示紋理。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture2D defaultTexture</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_duration" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.duration">duration</h4>
+  <div class="markdown level1 summary"><p>Duration of current medium. <br> 目前媒體的長度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float duration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_images" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.images">images</h4>
+  <div class="markdown level1 summary"><p>Images loaded. <br> 已載入的影像。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Texture2D&gt; images</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Texture2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_initialized" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.initialized">initialized</h4>
+  <div class="markdown level1 summary"><p>Return true if media play is initialized. <br></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+public bool initialized</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_isPaused" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.isPaused">isPaused</h4>
+  <div class="markdown level1 summary"><p>Return true if the media player is paused. <br> 當媒體播放器暫停時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isPaused</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_isPlaying" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.isPlaying">isPlaying</h4>
+  <div class="markdown level1 summary"><p>Return true if the media player is playing. <br> 當媒體播放器播放時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isPlaying</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_loop" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.loop">loop</h4>
+  <div class="markdown level1 summary"><p>Loop setting of media player. <br> 媒體播放器的循環設定。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Loop loop</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vMedia.MediaPlayer.Loop.html">Loop</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_loopTexture" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.loopTexture">loopTexture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Texture2D&gt; loopTexture</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Texture2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_media" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.media">media</h4>
+  <div class="markdown level1 summary"><p>List of media. <br> 媒體列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+public List&lt;Media&gt; media</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vMedia.Media.html">Media</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_mute" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.mute">mute</h4>
+  <div class="markdown level1 summary"><p>Mute media player if true. <br> 當 true 時把媒體靜音。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool mute</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_muteTexture" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.muteTexture">muteTexture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Texture2D&gt; muteTexture</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Texture2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_playPauseTexture" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.playPauseTexture">playPauseTexture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Texture2D&gt; playPauseTexture</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Texture2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_time" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.time">time</h4>
+  <div class="markdown level1 summary"><p>Current time of medium. <br> 媒體目前時間。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double time</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_timeDuration" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.timeDuration">timeDuration</h4>
+  <div class="markdown level1 summary"><p>String of time and duration. <br> 時間及長度字串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string timeDuration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_videos" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.videos">videos</h4>
+  <div class="markdown level1 summary"><p>Video preview images. <br> 視訊預覽影像。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Texture2D&gt; videos</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Texture2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_volume" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.volume">volume</h4>
+  <div class="markdown level1 summary"><p>Volume of media player. <br> 媒體播放器音量。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(0F, 1F)]
+public float volume</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_First_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.First*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_First_System_Single_System_Single_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.First(System.Single,System.Single,System.Boolean)">First(Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Goto first medium.
+<br> 跳至第一個媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void First(float start = 0F, float end = -1F, bool play = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start time <br> 開始時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>End time <br> 結束時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">play</span></td>
+        <td><p>Play the media <br> 播放媒體</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Last_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Last*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Last_System_Single_System_Single_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Last(System.Single,System.Single,System.Boolean)">Last(Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Goto last medium.
+<br> 跳至最後一個媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Last(float start = 0F, float end = -1F, bool play = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start time <br> 開始時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>End time <br> 結束時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">play</span></td>
+        <td><p>Play the media <br> 播放媒體</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_LoadAudio_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.LoadAudio*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_LoadAudio_System_String_System_Int32_UnityEngine_AudioSource_Votanic_vMedia_ExternalAudio_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.LoadAudio(System.String,System.Int32,UnityEngine.AudioSource,Votanic.vMedia.ExternalAudio)">LoadAudio(String, Int32, AudioSource, ExternalAudio)</h4>
+  <div class="markdown level1 summary"><p>Load audio.
+<br> 載入音訊。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadAudio(string path, int channel = 0, AudioSource audioSource = null, ExternalAudio audio = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path of file <br> 檔案路徑</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">channel</span></td>
+        <td><p>Channel of audio type media <br> 音訊類型的媒體頻道</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.AudioSource</span></td>
+        <td><span class="parametername">audioSource</span></td>
+        <td><p>Audio soruce component <br> 音訊源頭組件</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vMedia.ExternalAudio.html">ExternalAudio</a></td>
+        <td><span class="parametername">audio</span></td>
+        <td><p>External audio setting <br> 外置音訊設定</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_LoadImage_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.LoadImage*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_LoadImage_System_String_System_Single_Votanic_vMedia_ExternalAudio_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.LoadImage(System.String,System.Single,Votanic.vMedia.ExternalAudio)">LoadImage(String, Single, ExternalAudio)</h4>
+  <div class="markdown level1 summary"><p>Load image.
+<br> 載入影像。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadImage(string path, float duration = 3F, ExternalAudio audio = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path of file <br> 檔案路徑</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Play duration of image type media <br> 影像類型的媒體播放長度</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vMedia.ExternalAudio.html">ExternalAudio</a></td>
+        <td><span class="parametername">audio</span></td>
+        <td><p>External audio setting <br> 外置音訊設定</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_LoadVideo_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.LoadVideo*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_LoadVideo_System_String_System_Boolean_Votanic_vMedia_ExternalAudio_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.LoadVideo(System.String,System.Boolean,Votanic.vMedia.ExternalAudio)">LoadVideo(String, Boolean, ExternalAudio)</h4>
+  <div class="markdown level1 summary"><p>Load video.
+<br> 載入視訊。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadVideo(string path, bool preview = false, ExternalAudio audio = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path of file <br> 檔案路徑</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">preview</span></td>
+        <td><p>Load preview image of video type media if true <br> 當 true 時載入視訊類型的預覽影像</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vMedia.ExternalAudio.html">ExternalAudio</a></td>
+        <td><span class="parametername">audio</span></td>
+        <td><p>External audio setting <br> 外置音訊設定</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Next_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Next*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Next_System_Int32_System_Single_System_Single_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Next(System.Int32,System.Single,System.Single,System.Boolean)">Next(Int32, Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Goto next medium.
+<br> 跳至下個媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Next(int next = 1, float start = 0F, float end = -1F, bool play = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">next</span></td>
+        <td><p>Next to <br> 跳至下個</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start time <br> 開始時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>End time <br> 結束時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">play</span></td>
+        <td><p>Play the media <br> 播放媒體</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Pause_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Pause*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Pause" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Pause">Pause()</h4>
+  <div class="markdown level1 summary"><p>Pause the media player.
+<br> 暫停媒體播放器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play">Play()</h4>
+  <div class="markdown level1 summary"><p>Play media.
+<br> 播放媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_Int32_System_Int32_System_Int32_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.Int32,System.Int32,System.Int32,System.Single,System.Single)">Play(Int32, Int32, Int32, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Play media from start time to end time with external audio.
+<br> 由開始時間播放媒體及外置音訊至結束時間。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play(int index, int auidoChannel, int audioIndex, float start, float end = -1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Media index <br> 媒體編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">auidoChannel</span></td>
+        <td><p>External audio channel <br> 外置音訊頻道</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">audioIndex</span></td>
+        <td><p>External audio index <br> 外置音訊編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start time <br> 開始時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>End time <br> 結束時間</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_Int32_System_Int32_System_String_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.Int32,System.Int32,System.String,System.Single,System.Single)">Play(Int32, Int32, String, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Play media from start time to end time with external audio.
+<br> 由開始時間播放媒體及外置音訊至結束時間。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play(int index, int auidoChannel, string audioName, float start, float end = -1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Media index <br> 媒體編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">auidoChannel</span></td>
+        <td><p>External audio channel <br> 外置音訊頻道</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">audioName</span></td>
+        <td><p>External audio index <br> 外置音訊名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start time <br> 開始時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>End time <br> 結束時間</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_Int32_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.Int32,System.Single,System.Single)">Play(Int32, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Play media from start time to end time.
+<br> 由開始時間播放媒體至結束時間。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play(int index, float start = 0F, float end = -1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Media index <br> 媒體編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start time <br> 開始時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>End time <br> 結束時間</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.Single,System.Single)">Play(Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Play media from start time to end time.
+<br> 由開始時間播放媒體至結束時間。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play(float start, float end = -1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start time <br> 開始時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>End time <br> 結束時間</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_String_System_Int32_System_Int32_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.String,System.Int32,System.Int32,System.Single,System.Single)">Play(String, Int32, Int32, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Play media from start time to end time with external audio.
+<br> 由開始時間播放媒體及外置音訊至結束時間。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play(string name, int auidoChannel, int audioIndex, float start, float end = -1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Media name <br> 媒體名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">auidoChannel</span></td>
+        <td><p>External audio channel <br> 外置音訊頻道</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">audioIndex</span></td>
+        <td><p>External audio index <br> 外置音訊編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start time <br> 開始時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>End time <br> 結束時間</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_String_System_Int32_System_String_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.String,System.Int32,System.String,System.Single,System.Single)">Play(String, Int32, String, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Play media from start time to end time with external audio.
+<br> 由開始時間播放媒體及外置音訊至結束時間。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play(string name, int auidoChannel, string audioName, float start, float end = -1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Media name <br> 媒體名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">auidoChannel</span></td>
+        <td><p>External audio channel <br> 外置音訊頻道</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">audioName</span></td>
+        <td><p>External audio index <br> 外置音訊名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start time <br> 開始時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>End time <br> 結束時間</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_String_System_Single_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Play(System.String,System.Single,System.Single)">Play(String, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Play media from start time to end time.
+<br> 由開始時間播放媒體至結束時間。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play(string name, float start = 0F, float end = -1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Media name <br> 媒體名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start time <br> 開始時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>End time <br> 結束時間</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_PlayPause_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.PlayPause*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_PlayPause" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.PlayPause">PlayPause()</h4>
+  <div class="markdown level1 summary"><p>Play or pause the media player.
+播放或暫停媒體播放器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayPause()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Previous_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Previous*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Previous_System_Int32_System_Single_System_Single_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Previous(System.Int32,System.Single,System.Single,System.Boolean)">Previous(Int32, Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Goto previous medium.
+<br> 跳至上個媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Previous(int previous = 1, float start = 0F, float end = -1F, bool play = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">previous</span></td>
+        <td><p>Previous to <br> 跳至上個</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start time <br> 開始時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>End time <br> 結束時間</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">play</span></td>
+        <td><p>Play the media <br> 播放媒體</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoNext_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoNext*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoNext" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoNext">SetAutoNext()</h4>
+  <div class="markdown level1 summary"><p>Change auto next setting.
+<br> 更改自動跳至下一個媒體設定。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAutoNext()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoNext_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoNext*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoNext_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoNext(System.Boolean)">SetAutoNext(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Set auto next.
+<br> 設定是否自動跳至下一個媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAutoNext(bool auto)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">auto</span></td>
+        <td><p>Auto next if true <br> 當 true 時自動跳至下一個媒體</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoPlay_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoPlay*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoPlay" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoPlay">SetAutoPlay()</h4>
+  <div class="markdown level1 summary"><p>Change auto play setting.
+<br> 更改自動播放設定。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAutoPlay()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoPlay_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoPlay*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoPlay_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoPlay(System.Boolean)">SetAutoPlay(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Set auto play or not.
+<br> 設定是否自動播放。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAutoPlay(bool auto)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">auto</span></td>
+        <td><p>Auto play if true <br> 當 true 時自動播放</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetLoop_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetLoop*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetLoop" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetLoop">SetLoop()</h4>
+  <div class="markdown level1 summary"><p>Change loop setting.
+<br> 更改循環設定。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLoop()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetLoop_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetLoop*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetLoop_Votanic_vMedia_MediaPlayer_Loop_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetLoop(Votanic.vMedia.MediaPlayer.Loop)">SetLoop(Loop)</h4>
+  <div class="markdown level1 summary"><p>Set the loop.
+<br> 設定循環。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLoop(Loop loop)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vMedia.MediaPlayer.Loop.html">Loop</a></td>
+        <td><span class="parametername">loop</span></td>
+        <td><p>Loop setting <br> 循環設定</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetMute_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetMute*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetMute" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetMute">SetMute()</h4>
+  <div class="markdown level1 summary"><p>Change mute setting.
+<br> 更改靜音設定。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMute()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetMute_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetMute*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetMute_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetMute(System.Boolean)">SetMute(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Set mute or not.
+<br> 設定是否靜音。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMute(bool mute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">mute</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetVolume_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetVolume*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetVolume_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetVolume(System.Single)">SetVolume(Single)</h4>
+  <div class="markdown level1 summary"><p>Set the volume of media player.
+<br> 設定媒體擋放器音量。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetVolume(float volume)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">volume</span></td>
+        <td><p>Volume <br> 音量</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Stop_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Stop*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Stop" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Stop">Stop()</h4>
+  <div class="markdown level1 summary"><p>Stop the current medium.
+<br> 停止播放目前媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_StopAll_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.StopAll*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_StopAll" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.StopAll">StopAll()</h4>
+  <div class="markdown level1 summary"><p>Stop all channels media.
+<br> 停止播放所有頻道媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopAll()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_UnPause_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.UnPause*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_UnPause" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.UnPause">UnPause()</h4>
+  <div class="markdown level1 summary"><p>UnPause the media player.
+<br> 繼續播放媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnPause()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

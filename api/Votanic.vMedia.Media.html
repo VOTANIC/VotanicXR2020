@@ -1,0 +1,695 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Media
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Media
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Votanic.vMedia.Media">
+  
+  
+  <h1 id="Votanic_vMedia_Media" data-uid="Votanic.vMedia.Media" class="text-break">Class Media
+  </h1>
+  <div class="markdown level0 summary"><p>Class of media files.
+<br> 媒體檔案類別。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Votanic.Element.html">Element</a></div>
+    <div class="level2"><span class="xref">Media</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_name">Element.name</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_Equals_System_String_System_Boolean_">Element.Equals(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_Contains_System_String_System_Boolean_">Element.Contains(String, Boolean)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vMedia.html">Votanic.vMedia</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.vMedia.dll</h6>
+  <h5 id="Votanic_vMedia_Media_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class Media : Element</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Votanic_vMedia_Media__ctor_" data-uid="Votanic.vMedia.Media.#ctor*"></a>
+  <h4 id="Votanic_vMedia_Media__ctor_System_String_System_Int32_System_Single_System_Boolean_Votanic_vMedia_ExternalAudio_" data-uid="Votanic.vMedia.Media.#ctor(System.String,System.Int32,System.Single,System.Boolean,Votanic.vMedia.ExternalAudio)">Media(String, Int32, Single, Boolean, ExternalAudio)</h4>
+  <div class="markdown level1 summary"><p>Declare a media.
+<br> 宣告一個媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Media(string path, int audioChannel = 0, float imageDuration = 3F, bool videoPreview = false, ExternalAudio externalAudio = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path of media wanted to read <br> 想讀取的媒體路徑</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">audioChannel</span></td>
+        <td><p>Channel of audio type media <br> 音訊類型的媒體頻道</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">imageDuration</span></td>
+        <td><p>Play duration of image type media <br> 影像類型的媒體播放長度</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">videoPreview</span></td>
+        <td><p>Load preview image of video type media if true <br> 當 true 時載入視訊類型的預覽影像</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vMedia.ExternalAudio.html">ExternalAudio</a></td>
+        <td><span class="parametername">externalAudio</span></td>
+        <td><p>External audio setting <br> 外置音訊設定</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vMedia_Media_audioChannel" data-uid="Votanic.vMedia.Media.audioChannel">audioChannel</h4>
+  <div class="markdown level1 summary"><p>Channel of audio type media. <br> 音訊類型的媒體頻道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int audioChannel</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_Media_externalAudio" data-uid="Votanic.vMedia.Media.externalAudio">externalAudio</h4>
+  <div class="markdown level1 summary"><p>External audio setting. <br> 外置音訊設定。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExternalAudio externalAudio</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vMedia.ExternalAudio.html">ExternalAudio</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_Media_imageDuration" data-uid="Votanic.vMedia.Media.imageDuration">imageDuration</h4>
+  <div class="markdown level1 summary"><p>Play duration of image type media. <br> 影像類型的媒體播放長度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float imageDuration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_Media_path" data-uid="Votanic.vMedia.Media.path">path</h4>
+  <div class="markdown level1 summary"><p>Path of media wanted to read. <br> 想讀取的媒體路徑。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string path</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_Media_type" data-uid="Votanic.vMedia.Media.type">type</h4>
+  <div class="markdown level1 summary"><p>Type of media wanted to read. <br> 想讀取的媒體類型。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MediaType type</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vMedia.MediaType.html">MediaType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_Media_videoPreview" data-uid="Votanic.vMedia.Media.videoPreview">videoPreview</h4>
+  <div class="markdown level1 summary"><p>Load preview image of video type media if true. <br> 當 true 時載入視訊類型的預覽影像。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool videoPreview</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Votanic_vMedia_Media_duration_" data-uid="Votanic.vMedia.Media.duration*"></a>
+  <h4 id="Votanic_vMedia_Media_duration" data-uid="Votanic.vMedia.Media.duration">duration</h4>
+  <div class="markdown level1 summary"><p>Play duration of media. <br> 媒體播放長度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float duration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_Media_mediaIndex_" data-uid="Votanic.vMedia.Media.mediaIndex*"></a>
+  <h4 id="Votanic_vMedia_Media_mediaIndex" data-uid="Votanic.vMedia.Media.mediaIndex">mediaIndex</h4>
+  <div class="markdown level1 summary"><p>Index on media player. <br> 在媒體播放器的編號。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int mediaIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vMedia_Media_LoadAudio_" data-uid="Votanic.vMedia.Media.LoadAudio*"></a>
+  <h4 id="Votanic_vMedia_Media_LoadAudio_System_String_UnityEngine_AudioType_UnityEngine_AudioSource_" data-uid="Votanic.vMedia.Media.LoadAudio(System.String,UnityEngine.AudioType,UnityEngine.AudioSource)">LoadAudio(String, AudioType, AudioSource)</h4>
+  <div class="markdown level1 summary"><p>Load an image from url or file.
+<br> 在網址或檔案載入影像。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerator LoadAudio(string path, AudioType type, AudioSource audioSource)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path <br> 路徑</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.AudioType</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Audo type <br> 音訊種類</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.AudioSource</span></td>
+        <td><span class="parametername">audioSource</span></td>
+        <td><p>Audio soruce component <br> 音訊源頭組件</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_Media_LoadImage_" data-uid="Votanic.vMedia.Media.LoadImage*"></a>
+  <h4 id="Votanic_vMedia_Media_LoadImage_System_String_" data-uid="Votanic.vMedia.Media.LoadImage(System.String)">LoadImage(String)</h4>
+  <div class="markdown level1 summary"><p>Load an image from file.
+<br> 在檔案載入影像。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture2D LoadImage(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path of file <br> 檔案路徑</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_Media_SaveEXR_" data-uid="Votanic.vMedia.Media.SaveEXR*"></a>
+  <h4 id="Votanic_vMedia_Media_SaveEXR_System_String_UnityEngine_Texture2D_" data-uid="Votanic.vMedia.Media.SaveEXR(System.String,UnityEngine.Texture2D)">SaveEXR(String, Texture2D)</h4>
+  <div class="markdown level1 summary"><p>Save an image from Unity to storage as EXR format.
+<br> 將影像儲存為 exr 格式。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaveEXR(string path, Texture2D texture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path of file <br> 檔案路徑</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td><span class="parametername">texture</span></td>
+        <td><p>The image <br> 影像</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_Media_SaveJPG_" data-uid="Votanic.vMedia.Media.SaveJPG*"></a>
+  <h4 id="Votanic_vMedia_Media_SaveJPG_System_String_UnityEngine_Texture2D_" data-uid="Votanic.vMedia.Media.SaveJPG(System.String,UnityEngine.Texture2D)">SaveJPG(String, Texture2D)</h4>
+  <div class="markdown level1 summary"><p>Save an image from Unity to storage as JPG format.
+<br> 將影像儲存為 jpg 格式。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaveJPG(string path, Texture2D texture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path of file <br> 檔案路徑</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td><span class="parametername">texture</span></td>
+        <td><p>The image <br> 影像</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_Media_SavePNG_" data-uid="Votanic.vMedia.Media.SavePNG*"></a>
+  <h4 id="Votanic_vMedia_Media_SavePNG_System_String_UnityEngine_Texture2D_" data-uid="Votanic.vMedia.Media.SavePNG(System.String,UnityEngine.Texture2D)">SavePNG(String, Texture2D)</h4>
+  <div class="markdown level1 summary"><p>Save an image from Unity to storage as PNG format.
+<br> 將影像儲存為 png 格式。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SavePNG(string path, Texture2D texture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path of file <br> 檔案路徑</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td><span class="parametername">texture</span></td>
+        <td><p>The image <br> 影像</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_Media_SaveTGA_" data-uid="Votanic.vMedia.Media.SaveTGA*"></a>
+  <h4 id="Votanic_vMedia_Media_SaveTGA_System_String_UnityEngine_Texture2D_" data-uid="Votanic.vMedia.Media.SaveTGA(System.String,UnityEngine.Texture2D)">SaveTGA(String, Texture2D)</h4>
+  <div class="markdown level1 summary"><p>Save an image from Unity to storage as TGA format.
+<br> 將影像儲存為 tga 格式。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaveTGA(string path, Texture2D texture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path of file <br> 檔案路徑</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td><span class="parametername">texture</span></td>
+        <td><p>The image <br> 影像</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_Media_Type_" data-uid="Votanic.vMedia.Media.Type*"></a>
+  <h4 id="Votanic_vMedia_Media_Type_System_String_" data-uid="Votanic.vMedia.Media.Type(System.String)">Type(String)</h4>
+  <div class="markdown level1 summary"><p>Retrun media type from extension.
+<br> 由副檔名傳回媒體類型。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MediaType Type(string extension)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">extension</span></td>
+        <td><p>Extension <br> 副檔名</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vMedia.MediaType.html">MediaType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

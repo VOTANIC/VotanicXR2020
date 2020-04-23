@@ -1,0 +1,2165 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class VInputHandler
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class VInputHandler
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Votanic.vIO.VInput.VInputHandler">
+  
+  
+  <h1 id="Votanic_vIO_VInput_VInputHandler" data-uid="Votanic.vIO.VInput.VInputHandler" class="text-break">Class VInputHandler
+  </h1>
+  <div class="markdown level0 summary"><p>Handling VInput deivces.
+<br> 處理 VInput 裝置。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Votanic.Element.html">Element</a></div>
+    <div class="level2"><span class="xref">VInputHandler</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_name">Element.name</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_Equals_System_String_System_Boolean_">Element.Equals(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_Contains_System_String_System_Boolean_">Element.Contains(String, Boolean)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vIO.VInput.html">Votanic.vIO.VInput</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.vIO.dll</h6>
+  <h5 id="Votanic_vIO_VInput_VInputHandler_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class VInputHandler : Element</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler__ctor_" data-uid="Votanic.vIO.VInput.VInputHandler.#ctor*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler__ctor_System_Single_System_Single_System_Single_" data-uid="Votanic.vIO.VInput.VInputHandler.#ctor(System.Single,System.Single,System.Single)">VInputHandler(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Declare the VInput handler.
+<br> 宣告 VInput 處理器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VInputHandler(float axesDeadZone = 0.14F, float axesPressDetect = 0.7F, float holdingDuration = 1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">axesDeadZone</span></td>
+        <td><p>Dead zone of axes <br> 軸群的死區</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">axesPressDetect</span></td>
+        <td><p>Press detect value of axes <br> 軸群的按下偵測值</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">holdingDuration</span></td>
+        <td><p>Holding seconds of hold input type <br> 長按輸入類型的長按秒數</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vIO_VInput_VInputHandler_axesDeadZone" data-uid="Votanic.vIO.VInput.VInputHandler.axesDeadZone">axesDeadZone</h4>
+  <div class="markdown level1 summary"><p>Default dead zone of axes. <br> 軸群預設死區。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float axesDeadZone</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vIO_VInput_VInputHandler_axesPressDetect" data-uid="Votanic.vIO.VInput.VInputHandler.axesPressDetect">axesPressDetect</h4>
+  <div class="markdown level1 summary"><p>Default press detect value of axes. <br> 軸群預設按下偵測值。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float axesPressDetect</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vIO_VInput_VInputHandler_holdingDuration" data-uid="Votanic.vIO.VInput.VInputHandler.holdingDuration">holdingDuration</h4>
+  <div class="markdown level1 summary"><p>Default holding seconds of hold input type. <br> 預設長按輸入類型的長按秒數。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float holdingDuration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_keyboard_" data-uid="Votanic.vIO.VInput.VInputHandler.keyboard*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_keyboard" data-uid="Votanic.vIO.VInput.VInputHandler.keyboard">keyboard</h4>
+  <div class="markdown level1 summary"><p>VInput keyboard type of device class. <br> VInput 鍵盤類型的裝置類別。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VInputKeyboard keyboard { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.VInput.VInputKeyboard.html">VInputKeyboard</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_mouse_" data-uid="Votanic.vIO.VInput.VInputHandler.mouse*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_mouse" data-uid="Votanic.vIO.VInput.VInputHandler.mouse">mouse</h4>
+  <div class="markdown level1 summary"><p>VInput mouse type of device class. <br> VInput 滑鼠類型的裝置類別。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VInputMouse mouse { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.VInput.VInputMouse.html">VInputMouse</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_numberOfControllers_" data-uid="Votanic.vIO.VInput.VInputHandler.numberOfControllers*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_numberOfControllers" data-uid="Votanic.vIO.VInput.VInputHandler.numberOfControllers">numberOfControllers</h4>
+  <div class="markdown level1 summary"><p>Number of controllers scanned. <br> 掃瞄到的控制器數目。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numberOfControllers { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_AxisDown_" data-uid="Votanic.vIO.VInput.VInputHandler.AxisDown*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_AxisDown_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.VInput.VInputHandler.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisDown(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
+  <div class="markdown level1 summary"><p>Return true if an axis on controller is pressed.
+<br> 當控制器的軸按下時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AxisDown(int index, AxisDirection direction = AxisDirection.Any, int controller = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AxisDirection.html">AxisDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The axis pressing direction <br> 軸按住的方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse axis value if true <br> 當 true 時反轉軸值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AssistButtons.html">AssistButtons</a></td>
+        <td><span class="parametername">assistButtons</span></td>
+        <td><p>Assist buttons <br> 輔助按鈕</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_AxisHold_" data-uid="Votanic.vIO.VInput.VInputHandler.AxisHold*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_AxisHold_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.VInput.VInputHandler.AxisHold(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisHold(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
+  <div class="markdown level1 summary"><p>Return true if an axis on controller is held for a while.
+<br> 當控制器的軸長按一段時間時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AxisHold(int index, AxisDirection direction = AxisDirection.Any, int controller = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AxisDirection.html">AxisDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The axis pressing direction <br> 軸按住的方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse axis value if true <br> 當 true 時反轉軸值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AssistButtons.html">AssistButtons</a></td>
+        <td><span class="parametername">assistButtons</span></td>
+        <td><p>Assist buttons <br> 輔助按鈕</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_AxisPress_" data-uid="Votanic.vIO.VInput.VInputHandler.AxisPress*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_AxisPress_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.VInput.VInputHandler.AxisPress(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisPress(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
+  <div class="markdown level1 summary"><p>Return true if an axis on controller is pressing.
+<br> 當控制器的軸按住時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AxisPress(int index, AxisDirection direction = AxisDirection.Any, int controller = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AxisDirection.html">AxisDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The axis pressing direction <br> 軸按住的方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse axis value if true <br> 當 true 時反轉軸值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AssistButtons.html">AssistButtons</a></td>
+        <td><span class="parametername">assistButtons</span></td>
+        <td><p>Assist buttons <br> 輔助按鈕</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_AxisUp_" data-uid="Votanic.vIO.VInput.VInputHandler.AxisUp*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_AxisUp_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.VInput.VInputHandler.AxisUp(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisUp(Int32, AxisDirection, Int32, Boolean, AssistButtons)</h4>
+  <div class="markdown level1 summary"><p>Return true if an axis on controller is released.
+<br> 當控制器的軸放開時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AxisUp(int index, AxisDirection direction = AxisDirection.Any, int controller = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AxisDirection.html">AxisDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The axis pressing direction <br> 軸按住的方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse axis value if true <br> 當 true 時反轉軸值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AssistButtons.html">AssistButtons</a></td>
+        <td><span class="parametername">assistButtons</span></td>
+        <td><p>Assist buttons <br> 輔助按鈕</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_AxisValue_" data-uid="Votanic.vIO.VInput.VInputHandler.AxisValue*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_AxisValue_System_Int32_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_" data-uid="Votanic.vIO.VInput.VInputHandler.AxisValue(System.Int32,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)">AxisValue(Int32, Int32, Boolean, AssistButtons)</h4>
+  <div class="markdown level1 summary"><p>Return the value of an axis on controller.
+<br> 傳回控制器的一個軸的值。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AxisValue(int index, int controller = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse axis value if true <br> 當 true 時反轉軸值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.AssistButtons.html">AssistButtons</a></td>
+        <td><span class="parametername">assistButtons</span></td>
+        <td><p>Assist buttons <br> 輔助按鈕</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_ButtonDown_" data-uid="Votanic.vIO.VInput.VInputHandler.ButtonDown*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_ButtonDown_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.ButtonDown(System.Int32,System.Int32,System.Boolean)">ButtonDown(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a button on controller is pressed.
+<br> 當控制器的按鈕按下時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ButtonDown(int index, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_ButtonHold_" data-uid="Votanic.vIO.VInput.VInputHandler.ButtonHold*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_ButtonHold_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.ButtonHold(System.Int32,System.Int32,System.Boolean)">ButtonHold(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a button on controller is held for a while.
+<br> 當控制器的按鈕長按一段時間時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ButtonHold(int index, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_ButtonPress_" data-uid="Votanic.vIO.VInput.VInputHandler.ButtonPress*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_ButtonPress_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.ButtonPress(System.Int32,System.Int32,System.Boolean)">ButtonPress(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a button on controller is pressing.
+<br> 當控制器的按鈕按住時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ButtonPress(int index, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_ButtonUp_" data-uid="Votanic.vIO.VInput.VInputHandler.ButtonUp*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_ButtonUp_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.ButtonUp(System.Int32,System.Int32,System.Boolean)">ButtonUp(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a button on controller is released.
+<br> 當控制器的按鈕放開時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ButtonUp(int index, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_ControllerIndex_" data-uid="Votanic.vIO.VInput.VInputHandler.ControllerIndex*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_ControllerIndex_System_String_" data-uid="Votanic.vIO.VInput.VInputHandler.ControllerIndex(System.String)">ControllerIndex(String)</h4>
+  <div class="markdown level1 summary"><p>Get the controller index by name.
+<br> 以控制器名稱取得控制器編號。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ControllerIndex(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Controller name <br> 控制器名稱</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_DPadDown_" data-uid="Votanic.vIO.VInput.VInputHandler.DPadDown*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_DPadDown_System_Int32_Votanic_vIO_VInput_DPadDirection_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.DPadDown(System.Int32,Votanic.vIO.VInput.DPadDirection,System.Int32,System.Boolean)">DPadDown(Int32, DPadDirection, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a dpad on controller is pressed.
+<br> 當控制器的 DPad 按下時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DPadDown(int index, DPadDirection direction = DPadDirection.Any, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>DPad index <br> DPad 編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.VInput.DPadDirection.html">DPadDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The dpad pressing direction <br> DPad 按住的方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_DPadHold_" data-uid="Votanic.vIO.VInput.VInputHandler.DPadHold*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_DPadHold_System_Int32_Votanic_vIO_VInput_DPadDirection_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.DPadHold(System.Int32,Votanic.vIO.VInput.DPadDirection,System.Int32,System.Boolean)">DPadHold(Int32, DPadDirection, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a dpad on controller is held for a while.
+<br> 當控制器的 DPad 長按一段時間時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DPadHold(int index, DPadDirection direction = DPadDirection.Any, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>DPad index <br> DPad 編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.VInput.DPadDirection.html">DPadDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The dpad pressing direction <br> DPad 按住的方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_DPadPress_" data-uid="Votanic.vIO.VInput.VInputHandler.DPadPress*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_DPadPress_System_Int32_Votanic_vIO_VInput_DPadDirection_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.DPadPress(System.Int32,Votanic.vIO.VInput.DPadDirection,System.Int32,System.Boolean)">DPadPress(Int32, DPadDirection, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a dpad on controller is pressing.
+<br> 當控制器的 DPad 按住時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DPadPress(int index, DPadDirection direction = DPadDirection.Any, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>DPad index <br> DPad 編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.VInput.DPadDirection.html">DPadDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The dpad pressing direction <br> DPad 按住的方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_DPadUp_" data-uid="Votanic.vIO.VInput.VInputHandler.DPadUp*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_DPadUp_System_Int32_Votanic_vIO_VInput_DPadDirection_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.DPadUp(System.Int32,Votanic.vIO.VInput.DPadDirection,System.Int32,System.Boolean)">DPadUp(Int32, DPadDirection, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a dpad on controller is released.
+<br> 當控制器的 DPad 放開時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DPadUp(int index, DPadDirection direction = DPadDirection.Any, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>DPad index <br> DPad 編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.VInput.DPadDirection.html">DPadDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>The dpad pressing direction <br> DPad 按住的方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_DPadValue_" data-uid="Votanic.vIO.VInput.VInputHandler.DPadValue*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_DPadValue_System_Int32_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.DPadValue(System.Int32,System.Int32,System.Boolean)">DPadValue(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return the value of an dpad on controller.
+<br> 傳回控制器的一個 DPad 的值。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 DPadValue(int index, int controller = 0, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>DPad index <br> DPad 編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_GetController_" data-uid="Votanic.vIO.VInput.VInputHandler.GetController*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_GetController_System_Int32_" data-uid="Votanic.vIO.VInput.VInputHandler.GetController(System.Int32)">GetController(Int32)</h4>
+  <div class="markdown level1 summary"><p>Get a controller by index.
+<br> 以編號取得控制器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VInputController GetController(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.VInput.VInputController.html">VInputController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_GetControllers_" data-uid="Votanic.vIO.VInput.VInputHandler.GetControllers*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_GetControllers" data-uid="Votanic.vIO.VInput.VInputHandler.GetControllers">GetControllers()</h4>
+  <div class="markdown level1 summary"><p>Get all VInput controllers.
+<br> 取得所有 VInput controllers。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;VInputController&gt; GetControllers()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vIO.VInput.VInputController.html">VInputController</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_Key_" data-uid="Votanic.vIO.VInput.VInputHandler.Key*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_Key_UnityEngine_KeyCode_" data-uid="Votanic.vIO.VInput.VInputHandler.Key(UnityEngine.KeyCode)">Key(KeyCode)</h4>
+  <div class="markdown level1 summary"><p>Get the key index from keycode.
+<br> 以按鈕編碼取得按鈕編號。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Key(KeyCode keycode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.KeyCode</span></td>
+        <td><span class="parametername">keycode</span></td>
+        <td><p>Keycode <br> 按鈕編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_KeyboardDown_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardDown*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_KeyboardDown_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardDown(System.Int32,System.Boolean)">KeyboardDown(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a key on kerboard is pressed.
+<br> 當鍵盤按鍵按下時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool KeyboardDown(int index, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Key index <br> 按鍵編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_KeyboardDown_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardDown*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_KeyboardDown_UnityEngine_KeyCode_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardDown(UnityEngine.KeyCode,System.Boolean)">KeyboardDown(KeyCode, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a key on kerboard is pressed.
+<br> 當鍵盤按鍵按下時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool KeyboardDown(KeyCode keycode, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.KeyCode</span></td>
+        <td><span class="parametername">keycode</span></td>
+        <td><p>Keycode <br> 按鍵編碼</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_KeyboardHold_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardHold*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_KeyboardHold_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardHold(System.Int32,System.Boolean)">KeyboardHold(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a key on kerboard is held for a while.
+<br> 當鍵盤按鍵長按一段時間時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool KeyboardHold(int index, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Key index <br> 按鍵編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_KeyboardHold_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardHold*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_KeyboardHold_UnityEngine_KeyCode_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardHold(UnityEngine.KeyCode,System.Boolean)">KeyboardHold(KeyCode, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a key on kerboard is held for a while.
+<br> 當鍵盤按鍵長按一段時間時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool KeyboardHold(KeyCode keycode, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.KeyCode</span></td>
+        <td><span class="parametername">keycode</span></td>
+        <td><p>Keycode <br> 按鍵編碼</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_KeyboardPress_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardPress*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_KeyboardPress_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardPress(System.Int32,System.Boolean)">KeyboardPress(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a key on kerboard is pressing.
+<br> 當鍵盤按鍵按住時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool KeyboardPress(int index, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Key index <br> 按鍵編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_KeyboardPress_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardPress*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_KeyboardPress_UnityEngine_KeyCode_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardPress(UnityEngine.KeyCode,System.Boolean)">KeyboardPress(KeyCode, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a key on kerboard is pressing.
+<br> 當鍵盤按鍵按住時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool KeyboardPress(KeyCode keycode, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.KeyCode</span></td>
+        <td><span class="parametername">keycode</span></td>
+        <td><p>Keycode <br> 按鍵編碼</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_KeyboardUp_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardUp*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_KeyboardUp_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardUp(System.Int32,System.Boolean)">KeyboardUp(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a key on kerboard is released.
+<br> 當鍵盤按鍵放開時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool KeyboardUp(int index, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Key index <br> 按鍵編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_KeyboardUp_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardUp*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_KeyboardUp_UnityEngine_KeyCode_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyboardUp(UnityEngine.KeyCode,System.Boolean)">KeyboardUp(KeyCode, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a key on kerboard is released.
+<br> 當鍵盤按鍵放開時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool KeyboardUp(KeyCode keycode, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.KeyCode</span></td>
+        <td><span class="parametername">keycode</span></td>
+        <td><p>Keycode <br> 按鍵編碼</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_KeyName_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyName*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_KeyName_System_Int32_" data-uid="Votanic.vIO.VInput.VInputHandler.KeyName(System.Int32)">KeyName(Int32)</h4>
+  <div class="markdown level1 summary"><p>Get the keycode from key index.
+<br> 以按鈕編號取得按鈕編碼。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static KeyCode KeyName(int key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key index <br> 按鈕編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.KeyCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_MouseAxis_" data-uid="Votanic.vIO.VInput.VInputHandler.MouseAxis*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_MouseAxis_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.MouseAxis(System.Int32,System.Boolean)">MouseAxis(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return the value of an axis on mouse.
+<br> 傳回滑鼠的一個軸的值。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MouseAxis(int index, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Key index <br> 軸編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse axis value if true <br> 當 true 時反轉軸值</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_MouseDown_" data-uid="Votanic.vIO.VInput.VInputHandler.MouseDown*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_MouseDown_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.MouseDown(System.Int32,System.Boolean)">MouseDown(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a key on mouse is pressed.
+<br> 當滑鼠按鍵按下時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool MouseDown(int index, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Key index <br> 按鍵編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_MouseHold_" data-uid="Votanic.vIO.VInput.VInputHandler.MouseHold*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_MouseHold_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.MouseHold(System.Int32,System.Boolean)">MouseHold(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a key on mouse is held for a while.
+<br> 當滑鼠按鍵長按一段時間時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool MouseHold(int index, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Key index <br> 按鍵編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_MousePress_" data-uid="Votanic.vIO.VInput.VInputHandler.MousePress*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_MousePress_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.MousePress(System.Int32,System.Boolean)">MousePress(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a key on mouse is pressing.
+<br> 當滑鼠按鍵按住時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool MousePress(int index, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Key index <br> 按鍵編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_MouseUp_" data-uid="Votanic.vIO.VInput.VInputHandler.MouseUp*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_MouseUp_System_Int32_System_Boolean_" data-uid="Votanic.vIO.VInput.VInputHandler.MouseUp(System.Int32,System.Boolean)">MouseUp(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Return true if a key on mouse is released.
+<br> 當滑鼠按鍵放開時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool MouseUp(int index, bool reversed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Key index <br> 按鍵編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reversed</span></td>
+        <td><p>Reverse the result if true <br> 當 true 時反轉結果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_ReleaseInput_" data-uid="Votanic.vIO.VInput.VInputHandler.ReleaseInput*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_ReleaseInput" data-uid="Votanic.vIO.VInput.VInputHandler.ReleaseInput">ReleaseInput()</h4>
+  <div class="markdown level1 summary"><p>Release VInput when stop application.
+<br> 當停止應用程式時釋放 VInput。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReleaseInput()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_Scan_" data-uid="Votanic.vIO.VInput.VInputHandler.Scan*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_Scan" data-uid="Votanic.vIO.VInput.VInputHandler.Scan">Scan()</h4>
+  <div class="markdown level1 summary"><p>Scan controllers from this equipment.
+<br> 掃瞄這個設備的控制器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Scan()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_Update_" data-uid="Votanic.vIO.VInput.VInputHandler.Update*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_Update" data-uid="Votanic.vIO.VInput.VInputHandler.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_Vibrate_" data-uid="Votanic.vIO.VInput.VInputHandler.Vibrate*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_Vibrate_System_Single_System_Single_System_Int32_" data-uid="Votanic.vIO.VInput.VInputHandler.Vibrate(System.Single,System.Single,System.Int32)">Vibrate(Single, Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>Vibrate a controller.
+<br> 使控制器震動。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Vibrate(float left, float right, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>Left side strength <br> 左邊強度</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>Right side strength <br> 右邊強度</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

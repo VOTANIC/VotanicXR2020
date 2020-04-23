@@ -1,0 +1,813 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MediaPlayer360
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MediaPlayer360
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360">
+  
+  
+  <h1 id="Votanic_vMedia_MediaPlayer_MediaPlayer360" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360" class="text-break">Class MediaPlayer360
+  </h1>
+  <div class="markdown level0 summary"><p>Media player class for playing Audio, Image and Video with 360 degree.
+<br> 媒體播放器類別，用於 360 角度播放音訊、影像及視訊。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html">MediaPlayer</a></div>
+    <div class="level6"><span class="xref">MediaPlayer360</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_media">MediaPlayer.media</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_autoPlay">MediaPlayer.autoPlay</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_autoNext">MediaPlayer.autoNext</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_loop">MediaPlayer.loop</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_volume">MediaPlayer.volume</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_mute">MediaPlayer.mute</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_defaultTexture">MediaPlayer.defaultTexture</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer__mesh">MediaPlayer._mesh</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer__ui">MediaPlayer._ui</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer__timeText">MediaPlayer._timeText</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer__timeBar">MediaPlayer._timeBar</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer__volumeText">MediaPlayer._volumeText</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer__volumeBar">MediaPlayer._volumeBar</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer__playPauseButton">MediaPlayer._playPauseButton</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer__loopButton">MediaPlayer._loopButton</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer__muteButton">MediaPlayer._muteButton</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer__autoPlayButton">MediaPlayer._autoPlayButton</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer__autoNextButton">MediaPlayer._autoNextButton</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_playPauseTexture">MediaPlayer.playPauseTexture</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_loopTexture">MediaPlayer.loopTexture</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_muteTexture">MediaPlayer.muteTexture</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_autoPlayTexture">MediaPlayer.autoPlayTexture</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_autoNextTexture">MediaPlayer.autoNextTexture</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_initialized">MediaPlayer.initialized</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_current">MediaPlayer.current</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_time">MediaPlayer.time</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_duration">MediaPlayer.duration</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_timeDuration">MediaPlayer.timeDuration</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_isPlaying">MediaPlayer.isPlaying</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_isPaused">MediaPlayer.isPaused</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_audios">MediaPlayer.audios</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_images">MediaPlayer.images</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_videos">MediaPlayer.videos</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Play">MediaPlayer.Play()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_Single_System_Single_">MediaPlayer.Play(Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_Int32_System_Single_System_Single_">MediaPlayer.Play(Int32, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_String_System_Single_System_Single_">MediaPlayer.Play(String, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_Int32_System_Int32_System_Int32_System_Single_System_Single_">MediaPlayer.Play(Int32, Int32, Int32, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_String_System_Int32_System_Int32_System_Single_System_Single_">MediaPlayer.Play(String, Int32, Int32, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_Int32_System_Int32_System_String_System_Single_System_Single_">MediaPlayer.Play(Int32, Int32, String, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Play_System_String_System_Int32_System_String_System_Single_System_Single_">MediaPlayer.Play(String, Int32, String, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Stop">MediaPlayer.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_StopAll">MediaPlayer.StopAll()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Pause">MediaPlayer.Pause()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_UnPause">MediaPlayer.UnPause()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_PlayPause">MediaPlayer.PlayPause()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Next_System_Int32_System_Single_System_Single_System_Boolean_">MediaPlayer.Next(Int32, Single, Single, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Last_System_Single_System_Single_System_Boolean_">MediaPlayer.Last(Single, Single, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Previous_System_Int32_System_Single_System_Single_System_Boolean_">MediaPlayer.Previous(Int32, Single, Single, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_First_System_Single_System_Single_System_Boolean_">MediaPlayer.First(Single, Single, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetLoop">MediaPlayer.SetLoop()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetLoop_Votanic_vMedia_MediaPlayer_Loop_">MediaPlayer.SetLoop(Loop)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetVolume_System_Single_">MediaPlayer.SetVolume(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetMute">MediaPlayer.SetMute()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetMute_System_Boolean_">MediaPlayer.SetMute(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoPlay">MediaPlayer.SetAutoPlay()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoPlay_System_Boolean_">MediaPlayer.SetAutoPlay(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoNext">MediaPlayer.SetAutoNext()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoNext_System_Boolean_">MediaPlayer.SetAutoNext(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_LoadAudio_System_String_System_Int32_UnityEngine_AudioSource_Votanic_vMedia_ExternalAudio_">MediaPlayer.LoadAudio(String, Int32, AudioSource, ExternalAudio)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_LoadImage_System_String_System_Single_Votanic_vMedia_ExternalAudio_">MediaPlayer.LoadImage(String, Single, ExternalAudio)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_LoadVideo_System_String_System_Boolean_Votanic_vMedia_ExternalAudio_">MediaPlayer.LoadVideo(String, Boolean, ExternalAudio)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vMedia.MediaPlayer.html">Votanic.vMedia.MediaPlayer</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.vMedia.dll</h6>
+  <h5 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
+public class MediaPlayer360 : MediaPlayer</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_calibrateFactor" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.calibrateFactor">calibrateFactor</h4>
+  <div class="markdown level1 summary"><p>Calibrate factor for calibrator. <br> 校正的因子。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float calibrateFactor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_calibrator" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.calibrator">calibrator</h4>
+  <div class="markdown level1 summary"><p>Transform for calibrating content angles. <br> 用作校正內容角度的 Transform。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform calibrator</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_dataPath" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.dataPath">dataPath</h4>
+  <div class="markdown level1 summary"><p>Path of json file which store the media data in the path. <br> 儲存與 path 有關的媒體數據的 Json 文件路經。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[360]&quot;)]
+public string dataPath</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_rotater" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.rotater">rotater</h4>
+  <div class="markdown level1 summary"><p>Transform for rotate. <br> 用作旋轉的 Transform。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform rotater</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_rotateSpeed" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.rotateSpeed">rotateSpeed</h4>
+  <div class="markdown level1 summary"><p>Rotate speed of rotater. <br> 旋轉的速度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float rotateSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_scale" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.scale">scale</h4>
+  <div class="markdown level1 summary"><p>Size of scaler. <br> 調整的大小。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float scale</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_scaler" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.scaler">scaler</h4>
+  <div class="markdown level1 summary"><p>Transform for scaling the size of Sphere Inverted Normal. <br> 用作調整法線反轉球面大小的 Transform。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform scaler</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_zoom" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.zoom">zoom</h4>
+  <div class="markdown level1 summary"><p>Cuurent zoom level. <br> 目前放大等級。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int zoom</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_zoomer" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.zoomer">zoomer</h4>
+  <div class="markdown level1 summary"><p>Transform for zoom. <br> 用作放大的 Transform。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform zoomer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_zoomSpeed" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.zoomSpeed">zoomSpeed</h4>
+  <div class="markdown level1 summary"><p>Zoom speed of zoomer. <br> 放大的速度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float zoomSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_Pitch_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.Pitch*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_Pitch_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.Pitch(System.Single)">Pitch(Single)</h4>
+  <div class="markdown level1 summary"><p>Calibrate the pitch angle of current medium.
+<br> 校正目前媒體的俯仰角。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Pitch(float angle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">angle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_ResetAngles_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.ResetAngles*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_ResetAngles" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.ResetAngles">ResetAngles()</h4>
+  <div class="markdown level1 summary"><p>Reset the angles of calibrator.
+<br> 重置校正角度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetAngles()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_ResetZoom_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.ResetZoom*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_ResetZoom" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.ResetZoom">ResetZoom()</h4>
+  <div class="markdown level1 summary"><p>Reset zoom setting of current medium.
+<br> 重置目標媒體放大設定。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetZoom()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_Roll_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.Roll*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_Roll_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.Roll(System.Single)">Roll(Single)</h4>
+  <div class="markdown level1 summary"><p>Calibrate the roll angle of current medium.
+<br> 校正目前媒體的翻滾角。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Roll(float angle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">angle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_Save_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.Save*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_Save" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.Save">Save()</h4>
+  <div class="markdown level1 summary"><p>Save data of media player and media.
+儲存播放器及媒體資料。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_SetLayers_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.SetLayers*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_SetLayers_System_Int32_System_Int32_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.SetLayers(System.Int32,System.Int32)">SetLayers(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set left and right eye display layers.
+<br> 設定左右眼顯示層級。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLayers(int left, int right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>Left layer <br> 左層級</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>Right layer <br> 右層級</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_SetStereoType_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.SetStereoType*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_SetStereoType" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.SetStereoType">SetStereoType()</h4>
+  <div class="markdown level1 summary"><p>Change the stereo type of current medium.
+<br> 更改目前媒體的立體類型。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetStereoType()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_SetStereoType_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.SetStereoType*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_SetStereoType_Votanic_vMedia_MediaPlayer_StereoType_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.SetStereoType(Votanic.vMedia.MediaPlayer.StereoType)">SetStereoType(StereoType)</h4>
+  <div class="markdown level1 summary"><p>Set the stereo type of current medium.
+<br> 設定目前媒體的立體類型。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetStereoType(StereoType stereoType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vMedia.MediaPlayer.StereoType.html">StereoType</a></td>
+        <td><span class="parametername">stereoType</span></td>
+        <td><p>Stereo Type <br> 立體類型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_Yaw_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.Yaw*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_Yaw_System_Single_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.Yaw(System.Single)">Yaw(Single)</h4>
+  <div class="markdown level1 summary"><p>Calibrate the yaw angle of current medium.
+<br> 校正目前媒體的偏擺角。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Yaw(float angle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">angle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_Zoom_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.Zoom*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_Zoom_System_Int32_UnityEngine_Vector3_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.Zoom(System.Int32,UnityEngine.Vector3)">Zoom(Int32, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Change zoom setting of current medium.
+<br> 放大或縮小目前媒體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Zoom(int level, Vector3 direction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">level</span></td>
+        <td><p>Zoom level <br> 放大等級</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Zoom direction <br> 放大方向</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

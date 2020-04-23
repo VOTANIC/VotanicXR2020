@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>VotanicXR 2020 API Documentation by docfx </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="VotanicXR 2020 API Documentation by docfx ">
     <meta name="generator" content="docfx 2.52.0.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -60,8 +60,31 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="votanicxr-2020-api-documentation-by-docfx">VotanicXR 2020 API Documentation by docfx</h1>
 
-<meta http-equiv="refresh" content="0; url=./api/index.html">
+<h2 id="install-docfx-by-chocolatey">Install docfx by chocolatey</h2>
+<ol>
+<li>install docfx in cmd (admin right)
+<pre><code>choco install docfx -y
+</code></pre>
+</li>
+<li>create a sample project
+<pre><code>docfx init -q -o Documentation
+</code></pre>
+</li>
+<li>edit <code>docfx.json</code> and <code>filterConfig.yml</code> for detail</li>
+</ol>
+<h2 id="build-the-api-documentation">Build the API documentation</h2>
+<ol>
+<li><p>build website</p>
+<pre><code>docfx --serve
+</code></pre>
+</li>
+<li><p>build pdf</p>
+<pre><code>docfx pdf
+</code></pre>
+</li>
+</ol>
 </article>
           </div>
           
