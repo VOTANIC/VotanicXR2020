@@ -95,6 +95,411 @@
     <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
 public class vGear_Shutter : vCast_ControllerTool</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_cam" data-uid="Votanic.vXR.vGear.vGear_Shutter.cam">cam</h4>
+  <div class="markdown level1 summary"><p>The camera component of shutter tool. <br> 快門工具的相機組件。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+public Camera cam</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Camera</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_cameraAngle" data-uid="Votanic.vXR.vGear.vGear_Shutter.cameraAngle">cameraAngle</h4>
+  <div class="markdown level1 summary"><p>Angle of camera lens. <br> 鏡頭角度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(15F, 120F)]
+public float cameraAngle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_isRealTime" data-uid="Votanic.vXR.vGear.vGear_Shutter.isRealTime">isRealTime</h4>
+  <div class="markdown level1 summary"><p>Return true if the view finder is real time rendering. <br> 當取景器實時取景時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isRealTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_isShowing" data-uid="Votanic.vXR.vGear.vGear_Shutter.isShowing">isShowing</h4>
+  <div class="markdown level1 summary"><p>Return true if the shutter tool is showing. <br> 當快門工具顯示時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isShowing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_outputDirectory" data-uid="Votanic.vXR.vGear.vGear_Shutter.outputDirectory">outputDirectory</h4>
+  <div class="markdown level1 summary"><p>Directory for storing captured images. <br> 儲存已拍攝的影像。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+public string outputDirectory</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_textureSize" data-uid="Votanic.vXR.vGear.vGear_Shutter.textureSize">textureSize</h4>
+  <div class="markdown level1 summary"><p>Size of texture on shutter planes. <br> 快門工具平面的紋理大小。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2Int textureSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2Int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_viewFinder" data-uid="Votanic.vXR.vGear.vGear_Shutter.viewFinder">viewFinder</h4>
+  <div class="markdown level1 summary"><p>The view finder of camera. <br> 相機的取景器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MeshRenderer viewFinder</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.MeshRenderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_zoom" data-uid="Votanic.vXR.vGear.vGear_Shutter.zoom">zoom</h4>
+  <div class="markdown level1 summary"><p>Zoom value of shutter tool. <br> 快門工具變焦值。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+public float zoom</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_zoomSpeed" data-uid="Votanic.vXR.vGear.vGear_Shutter.zoomSpeed">zoomSpeed</h4>
+  <div class="markdown level1 summary"><p>Zooming speed of the camera. <br> 變焦速度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float zoomSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Shutter_Capture_" data-uid="Votanic.vXR.vGear.vGear_Shutter.Capture*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_Capture" data-uid="Votanic.vXR.vGear.vGear_Shutter.Capture">Capture()</h4>
+  <div class="markdown level1 summary"><p>Capture image.
+<br> 拍攝影像。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Capture()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Shutter_Mount_" data-uid="Votanic.vXR.vGear.vGear_Shutter.Mount*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_Mount_UnityEngine_Transform_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Shutter.Mount(UnityEngine.Transform,System.Boolean,System.Boolean)">Mount(Transform, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Mount the shutter tool to target transform.
+<br> 將快門工具依附在目標 Transform。</p>
+<p> Mount(transform, true, false) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Mount(Transform target, bool show = true, bool realTime = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Target transform <br> 目標 Transform</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">show</span></td>
+        <td><p>Show if true <br> 當 true 時顯示</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">realTime</span></td>
+        <td><p>Turn on view finder if true <br> 當 true 時打開取景器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Shutter_Mount_" data-uid="Votanic.vXR.vGear.vGear_Shutter.Mount*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_Mount_UnityEngine_Vector3_UnityEngine_Vector3_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Shutter.Mount(UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,System.Boolean)">Mount(Vector3, Vector3, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Mount the shutter tool to target posiiton and euler angles.
+<br> 將快門工具依附在目標位置及角度。</p>
+<p> Mount(Vector3.zero, Vector3.zero, true, false) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Mount(Vector3 position, Vector3 eulerAngles, bool show = true, bool realTime = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Target position <br> 目標位置</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">eulerAngles</span></td>
+        <td><p>Target euler angles <br> 目標角度</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">show</span></td>
+        <td><p>Show if true <br> 當 true 時顯示</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">realTime</span></td>
+        <td><p>Turn on view finder if true <br> 當 true 時打開取景器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Shutter_Show_" data-uid="Votanic.vXR.vGear.vGear_Shutter.Show*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_Show_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Shutter.Show(System.Boolean,System.Boolean)">Show(Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Show or hide shutter tool.
+<br> 顯示或隱藏快門工具。</p>
+<p> Show(true, false) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Show(bool show = true, bool realTime = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">show</span></td>
+        <td><p>Show if true <br> 當 true 時顯示</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">realTime</span></td>
+        <td><p>Turn on view finder if true <br> 當 true 時打開取景器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Shutter_ViewFinder_" data-uid="Votanic.vXR.vGear.vGear_Shutter.ViewFinder*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Shutter_ViewFinder_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Shutter.ViewFinder(System.Boolean)">ViewFinder(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Turn on or off the view finder.
+<br> 開啟或關閉取景器。</p>
+<p> ViewFinder(true) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ViewFinder(bool turnOn = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">turnOn</span></td>
+        <td><p>Turn on if true <br> 當 true 時打開</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

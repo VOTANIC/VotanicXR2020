@@ -95,6 +95,187 @@
     <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
 public class vGear_Measurer : vCast_ControllerTool</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_continuity" data-uid="Votanic.vXR.vGear.vGear_Measurer.continuity">continuity</h4>
+  <div class="markdown level1 summary"><p>Continue to mark measure point or not. <br> 是否連續標記測量點。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+public bool continuity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_isMeasuring" data-uid="Votanic.vXR.vGear.vGear_Measurer.isMeasuring">isMeasuring</h4>
+  <div class="markdown level1 summary"><p>Return true if measuring. <br> 當測量時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+public bool isMeasuring</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_linePrefab" data-uid="Votanic.vXR.vGear.vGear_Measurer.linePrefab">linePrefab</h4>
+  <div class="markdown level1 summary"><p>Prefab for measurement. <br> 測量用預載體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+public GameObject linePrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_records" data-uid="Votanic.vXR.vGear.vGear_Measurer.records">records</h4>
+  <div class="markdown level1 summary"><p>The recorded measure lines. <br> 已記錄的測量線。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;GameObject&gt; records</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.GameObject</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Measurer_Mark_" data-uid="Votanic.vXR.vGear.vGear_Measurer.Mark*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_Mark" data-uid="Votanic.vXR.vGear.vGear_Measurer.Mark">Mark()</h4>
+  <div class="markdown level1 summary"><p>Mark the measure point.
+<br> 標記測量點。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Mark()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Measurer_Remove_" data-uid="Votanic.vXR.vGear.vGear_Measurer.Remove*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_Remove_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Measurer.Remove(System.Boolean)">Remove(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Remove the record.
+<br> 移除記錄。</p>
+<p> Remove(false) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove(bool isAll)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isAll</span></td>
+        <td><p>Remove all if true <br> 當 true 時移除所有</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Measurer_SetContinuity_" data-uid="Votanic.vXR.vGear.vGear_Measurer.SetContinuity*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_SetContinuity_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Measurer.SetContinuity(System.Boolean)">SetContinuity(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Set the continuity of measurer tool.
+<br> 設定測量工具的連續性。</p>
+<p> SetContinuity(false) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetContinuity(bool continuity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">continuity</span></td>
+        <td><p>Continue to mark measure point or not <br> 是否連續標記測量點</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

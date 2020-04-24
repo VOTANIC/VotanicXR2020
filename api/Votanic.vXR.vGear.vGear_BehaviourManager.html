@@ -94,6 +94,228 @@
 [DefaultExecutionOrder(-7)]
 public class vGear_BehaviourManager : MonoBehaviour</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_BehaviourManager_behaviourPrefab" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.behaviourPrefab">behaviourPrefab</h4>
+  <div class="markdown level1 summary"><p>Behaviour object prefab. <br> 行為物件預載體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public vGear_Behaviour behaviourPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_Behaviour.html">vGear_Behaviour</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_BehaviourManager_behaviours" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.behaviours">behaviours</h4>
+  <div class="markdown level1 summary"><p>List of behaviour objects. <br> 行為物件列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Behaviours]&quot;)]
+public List&lt;vGear_Behaviour&gt; behaviours</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.vGear_Behaviour.html">vGear_Behaviour</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_BehaviourManager_playOnStart" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.playOnStart">playOnStart</h4>
+  <div class="markdown level1 summary"><p>Play behaviours on start if true. <br> 當 true 時在開始執行所有行為。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+public bool playOnStart</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_BehaviourManager_Add_" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Add*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_BehaviourManager_Add" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Add">Add()</h4>
+  <div class="markdown level1 summary"><p>Add a new behaviour object into the manager.
+<br> 在管理員中新增一個行為物件。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Add()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_BehaviourManager_Pause_" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Pause*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_BehaviourManager_Pause" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Pause">Pause()</h4>
+  <div class="markdown level1 summary"><p>Pause all behaviours. <br> 暫停所有行為。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Pause()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_BehaviourManager_Play_" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Play*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_BehaviourManager_Play" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Play">Play()</h4>
+  <div class="markdown level1 summary"><p>Play all behaviours. <br> 執行所有行為。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Play()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_BehaviourManager_Remove_" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Remove*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_BehaviourManager_Remove" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Remove">Remove()</h4>
+  <div class="markdown level1 summary"><p>Remove a behaviour object in the manager.
+<br> 在管理員中移除一個行為物件。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Remove()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_BehaviourManager_Remove_" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Remove*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_BehaviourManager_Remove_System_Int32_" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Remove(System.Int32)">Remove(Int32)</h4>
+  <div class="markdown level1 summary"><p>Remove a behaviour object in the manager.
+<br> 在管理員中移除一個行為物件。</p>
+<p> Remove(0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Remove(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Object index <br> 物件編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_BehaviourManager_Remove_" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Remove*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_BehaviourManager_Remove_System_String_" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Remove(System.String)">Remove(String)</h4>
+  <div class="markdown level1 summary"><p>Remove a behaviour object in the manager.
+<br> 在管理員中移除一個行為物件。</p>
+<p> Remove(&quot;GameObject&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Remove(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Object name <br> 物件名稱</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_BehaviourManager_Reset_" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Reset*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_BehaviourManager_Reset" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Reset all behaviours. <br> 重置所有行為。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Reset()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_BehaviourManager_Stop_" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Stop*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_BehaviourManager_Stop" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.Stop">Stop()</h4>
+  <div class="markdown level1 summary"><p>Stop all behaviours. <br> 停止所有行為。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Stop()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_BehaviourManager_UnPause_" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.UnPause*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_BehaviourManager_UnPause" data-uid="Votanic.vXR.vGear.vGear_BehaviourManager.UnPause">UnPause()</h4>
+  <div class="markdown level1 summary"><p>UnPause all behaviours. <br> 取消暫停所有行為。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void UnPause()</code></pre>
+  </div>
 </article>
           </div>
           

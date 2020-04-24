@@ -94,6 +94,118 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class vGear_Detector : MonoBehaviour</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Detector_detectedObjects" data-uid="Votanic.vXR.vGear.vGear_Detector.detectedObjects">detectedObjects</h4>
+  <div class="markdown level1 summary"><p>List of detected objects. <br> 被偵測的物件列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+public List&lt;Transform&gt; detectedObjects</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Transform</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Detector_detectTargets" data-uid="Votanic.vXR.vGear.vGear_Detector.detectTargets">detectTargets</h4>
+  <div class="markdown level1 summary"><p>Object detection setting. <br> 偵測物件設定。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+public ObjectDetection detectTargets</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.ObjectDetection.html">ObjectDetection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Detector_specificTargets" data-uid="Votanic.vXR.vGear.vGear_Detector.specificTargets">specificTargets</h4>
+  <div class="markdown level1 summary"><p>The objects are considered. <br> 被考慮的物件。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Transform&gt; specificTargets</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Transform</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Detector_SetTargets_" data-uid="Votanic.vXR.vGear.vGear_Detector.SetTargets*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Detector_SetTargets_UnityEngine_Transform___" data-uid="Votanic.vXR.vGear.vGear_Detector.SetTargets(UnityEngine.Transform[])">SetTargets(Transform[])</h4>
+  <div class="markdown level1 summary"><p>Set the target objects as specific targets.
+<br> 設定目標物件為指定物件。</p>
+<p> SetTargets(transforms) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetTargets(params Transform[] targets)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span>[]</td>
+        <td><span class="parametername">targets</span></td>
+        <td><p>Objects <br> 物件</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

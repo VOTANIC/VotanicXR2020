@@ -92,7 +92,25 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_cancelToolAngle">vCast_Teleport.cancelToolAngle</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_projectile">vCast_Teleport.projectile</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_isApplying">vCast_Teleport.isApplying</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_isHitGround">vCast_Teleport.isHitGround</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_outOfRange">vCast_Teleport.outOfRange</a>
+    </div>
+    <div>
       <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_targetPoint">vCast_Teleport.targetPoint</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_Apply_System_Boolean_">vCast_Teleport.Apply(Boolean)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.html">Votanic.vXR.vGear</a></h6>
@@ -102,6 +120,95 @@
     <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
 public class vGear_Teleport : vCast_Teleport</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Teleport_onlyTeleportWaypoint" data-uid="Votanic.vXR.vGear.vGear_Teleport.onlyTeleportWaypoint">onlyTeleportWaypoint</h4>
+  <div class="markdown level1 summary"><p>Only waypoint can teleport if true. <br> 當 true 時只能在傳送點進行傳送。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool onlyTeleportWaypoint</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Teleport_CanStand_" data-uid="Votanic.vXR.vGear.vGear_Teleport.CanStand*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Teleport_CanStand" data-uid="Votanic.vXR.vGear.vGear_Teleport.CanStand">CanStand()</h4>
+  <div class="markdown level1 summary"><p>Return true if the destination can be stand.
+<br> 當目的地可站立時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanStand()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_CanStand">vCast_Teleport.CanStand()</a></div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Teleport_SetWaypointOnly_" data-uid="Votanic.vXR.vGear.vGear_Teleport.SetWaypointOnly*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Teleport_SetWaypointOnly_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Teleport.SetWaypointOnly(System.Boolean)">SetWaypointOnly(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Set only teleport waypoint or not.
+<br> 設定是否只限於傅送點進行傳送。</p>
+<p> SetWaypointOnly(true) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetWaypointOnly(bool isOnly = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isOnly</span></td>
+        <td><p>Only teleport waypoint if true <br> 當 true 時限於傅送點進行傳送</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

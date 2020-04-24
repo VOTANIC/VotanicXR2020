@@ -94,6 +94,320 @@
 [DefaultExecutionOrder(-8)]
 public class vGear_Behaviour : MonoBehaviour</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_branches" data-uid="Votanic.vXR.vGear.vGear_Behaviour.branches">branches</h4>
+  <div class="markdown level1 summary"><p>List of behaviour branches may be triggered. <br> 可能被觸發的行為分支列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Behaviour&gt; branches</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.Scenario.Behaviour.html">Behaviour</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_enableOnPlay" data-uid="Votanic.vXR.vGear.vGear_Behaviour.enableOnPlay">enableOnPlay</h4>
+  <div class="markdown level1 summary"><p>Enable behaviour when start playing scenario. <br> 當劇情開始時啟用行為。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool enableOnPlay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_isDisabled" data-uid="Votanic.vXR.vGear.vGear_Behaviour.isDisabled">isDisabled</h4>
+  <div class="markdown level1 summary"><p>Return true if the behaviour is disabled. <br> 當行為停用時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isDisabled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_isPaused" data-uid="Votanic.vXR.vGear.vGear_Behaviour.isPaused">isPaused</h4>
+  <div class="markdown level1 summary"><p>Return true if the behaviour is paused. <br> 當行為暫停時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isPaused</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_isPlaying" data-uid="Votanic.vXR.vGear.vGear_Behaviour.isPlaying">isPlaying</h4>
+  <div class="markdown level1 summary"><p>Return true if the behaviour is playing. <br> 當行為執行時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isPlaying</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_triggeredTimes" data-uid="Votanic.vXR.vGear.vGear_Behaviour.triggeredTimes">triggeredTimes</h4>
+  <div class="markdown level1 summary"><p>Return the times of the behaviour object are triggered. <br></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+public int triggeredTimes</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Behaviour_Pause_" data-uid="Votanic.vXR.vGear.vGear_Behaviour.Pause*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_Pause" data-uid="Votanic.vXR.vGear.vGear_Behaviour.Pause">Pause()</h4>
+  <div class="markdown level1 summary"><p>Pause the behaviour.
+<br> 暫停行為。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Behaviour_Play_" data-uid="Votanic.vXR.vGear.vGear_Behaviour.Play*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_Play" data-uid="Votanic.vXR.vGear.vGear_Behaviour.Play">Play()</h4>
+  <div class="markdown level1 summary"><p>Play and enable the behaviour.
+<br> 執行及啟用行為。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Behaviour_StartAction_" data-uid="Votanic.vXR.vGear.vGear_Behaviour.StartAction*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_StartAction_System_Int32_System_Int32_System_Int32_" data-uid="Votanic.vXR.vGear.vGear_Behaviour.StartAction(System.Int32,System.Int32,System.Int32)">StartAction(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Force start an action on a plan of a branch.
+<br> 強制開始某分支某計劃的m一個動作。</p>
+<p> StartAction(0, 0, 0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartAction(int behaviour, int plan, int action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">behaviour</span></td>
+        <td><p>Branch index <br> 分支編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">plan</span></td>
+        <td><p>Plan index <br> 計劃編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Action index <br> 動作編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Behaviour_StartActions_" data-uid="Votanic.vXR.vGear.vGear_Behaviour.StartActions*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_StartActions_System_Int32_" data-uid="Votanic.vXR.vGear.vGear_Behaviour.StartActions(System.Int32)">StartActions(Int32)</h4>
+  <div class="markdown level1 summary"><p>Force start all actions on a plan of a branch.
+<br> 強制開始某分支某計劃的所有動作。</p>
+<p> StartActions(0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartActions(int behaviour)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">behaviour</span></td>
+        <td><p>Branch index <br> 分支編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Behaviour_StartActions_" data-uid="Votanic.vXR.vGear.vGear_Behaviour.StartActions*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_StartActions_System_Int32_System_Int32_" data-uid="Votanic.vXR.vGear.vGear_Behaviour.StartActions(System.Int32,System.Int32)">StartActions(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Force start all actions on a plan of a branch.
+<br> 強制開始某分支某計劃的所有動作。</p>
+<p> StartActions(0, 0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartActions(int behaviour, int plan)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">behaviour</span></td>
+        <td><p>Branch index <br> 分支編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">plan</span></td>
+        <td><p>Plan index <br> 計劃編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Behaviour_Stop_" data-uid="Votanic.vXR.vGear.vGear_Behaviour.Stop*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_Stop" data-uid="Votanic.vXR.vGear.vGear_Behaviour.Stop">Stop()</h4>
+  <div class="markdown level1 summary"><p>Stop the behaviour.
+<br> 停止行為。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Behaviour_UnPause_" data-uid="Votanic.vXR.vGear.vGear_Behaviour.UnPause*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Behaviour_UnPause" data-uid="Votanic.vXR.vGear.vGear_Behaviour.UnPause">UnPause()</h4>
+  <div class="markdown level1 summary"><p>UnPause the behaviour.
+<br> 取消暫停行為。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnPause()</code></pre>
+  </div>
 </article>
           </div>
           
