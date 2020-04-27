@@ -953,6 +953,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.GrabSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.GrabSetting.html",
+          "hash": "vpqqEPw+Q7IVTSNS/YmmgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Votanic.vXR.Interaction.yml",
       "output": {
         ".html": {
@@ -1509,7 +1521,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast_Interactables.html",
-          "hash": "JariI9BKBudR/hIt1X6plA=="
+          "hash": "06l4CSi5lGwJbHWZ7nj1Ig=="
         }
       },
       "is_incremental": false,
@@ -2361,7 +2373,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.html",
-          "hash": "7tb2tpdDtS8X3BkVdRcvAg=="
+          "hash": "nrBX/uJoa1nsBvp7usDntw=="
         }
       },
       "is_incremental": false,
@@ -2388,7 +2400,7 @@
           "hash": "XbVYcUnyhpYS3lY3oV3Xeg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2397,7 +2409,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "W/5WR9xp9ORn5SBofelzCQ=="
+          "hash": "A0Mxa6FQPK9MLaPdi9PShQ=="
         }
       },
       "is_incremental": false,
@@ -2482,8 +2494,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 198,
-          "skipped_file_count": 14
+          "total_file_count": 199,
+          "skipped_file_count": 197
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

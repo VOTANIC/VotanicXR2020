@@ -6832,6 +6832,54 @@ references:
   commentId: N:Votanic.vXR
   fullName: Votanic.vXR
   nameWithType: Votanic.vXR
+- uid: Votanic.vXR.GrabSetting
+  name: GrabSetting
+  href: api/Votanic.vXR.GrabSetting.html
+  commentId: T:Votanic.vXR.GrabSetting
+  fullName: Votanic.vXR.GrabSetting
+  nameWithType: GrabSetting
+- uid: Votanic.vXR.GrabSetting.fixedJoint
+  name: fixedJoint
+  href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_fixedJoint
+  commentId: F:Votanic.vXR.GrabSetting.fixedJoint
+  fullName: Votanic.vXR.GrabSetting.fixedJoint
+  nameWithType: GrabSetting.fixedJoint
+- uid: Votanic.vXR.GrabSetting.grabbable
+  name: grabbable
+  href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_grabbable
+  commentId: F:Votanic.vXR.GrabSetting.grabbable
+  fullName: Votanic.vXR.GrabSetting.grabbable
+  nameWithType: GrabSetting.grabbable
+- uid: Votanic.vXR.GrabSetting.kinematic
+  name: kinematic
+  href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_kinematic
+  commentId: F:Votanic.vXR.GrabSetting.kinematic
+  fullName: Votanic.vXR.GrabSetting.kinematic
+  nameWithType: GrabSetting.kinematic
+- uid: Votanic.vXR.GrabSetting.parentToController
+  name: parentToController
+  href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_parentToController
+  commentId: F:Votanic.vXR.GrabSetting.parentToController
+  fullName: Votanic.vXR.GrabSetting.parentToController
+  nameWithType: GrabSetting.parentToController
+- uid: Votanic.vXR.GrabSetting.positionOffset
+  name: positionOffset
+  href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_positionOffset
+  commentId: F:Votanic.vXR.GrabSetting.positionOffset
+  fullName: Votanic.vXR.GrabSetting.positionOffset
+  nameWithType: GrabSetting.positionOffset
+- uid: Votanic.vXR.GrabSetting.rotationOffset
+  name: rotationOffset
+  href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_rotationOffset
+  commentId: F:Votanic.vXR.GrabSetting.rotationOffset
+  fullName: Votanic.vXR.GrabSetting.rotationOffset
+  nameWithType: GrabSetting.rotationOffset
+- uid: Votanic.vXR.GrabSetting.zeroTransform
+  name: zeroTransform
+  href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_zeroTransform
+  commentId: F:Votanic.vXR.GrabSetting.zeroTransform
+  fullName: Votanic.vXR.GrabSetting.zeroTransform
+  nameWithType: GrabSetting.zeroTransform
 - uid: Votanic.vXR.Interaction
   name: Interaction
   href: api/Votanic.vXR.Interaction.html
