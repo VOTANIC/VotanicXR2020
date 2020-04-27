@@ -3496,6 +3496,12 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.autoNext
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.autoNext
   nameWithType: MediaPlayer.autoNext
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.autoNextButton
+  name: autoNextButton
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_autoNextButton
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.autoNextButton
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.autoNextButton
+  nameWithType: MediaPlayer.autoNextButton
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.autoNextTexture
   name: autoNextTexture
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_autoNextTexture
@@ -3508,6 +3514,12 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.autoPlay
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.autoPlay
   nameWithType: MediaPlayer.autoPlay
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.autoPlayButton
+  name: autoPlayButton
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_autoPlayButton
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.autoPlayButton
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.autoPlayButton
+  nameWithType: MediaPlayer.autoPlayButton
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.autoPlayTexture
   name: autoPlayTexture
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_autoPlayTexture
@@ -3627,6 +3639,12 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.loop
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.loop
   nameWithType: MediaPlayer.loop
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.loopButton
+  name: loopButton
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_loopButton
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.loopButton
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.loopButton
+  nameWithType: MediaPlayer.loopButton
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.loopTexture
   name: loopTexture
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_loopTexture
@@ -3645,6 +3663,12 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.mute
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.mute
   nameWithType: MediaPlayer.mute
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.muteButton
+  name: muteButton
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_muteButton
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.muteButton
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.muteButton
+  nameWithType: MediaPlayer.muteButton
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.muteTexture
   name: muteTexture
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_muteTexture
@@ -3664,6 +3688,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.Next
   nameWithType: MediaPlayer.Next
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.objectsMesh
+  name: objectsMesh
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_objectsMesh
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.objectsMesh
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.objectsMesh
+  nameWithType: MediaPlayer.objectsMesh
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.Pause
   name: Pause()
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Pause
@@ -3745,6 +3775,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.PlayPause
   nameWithType: MediaPlayer.PlayPause
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.playPauseButton
+  name: playPauseButton
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_playPauseButton
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.playPauseButton
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.playPauseButton
+  nameWithType: MediaPlayer.playPauseButton
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.playPauseTexture
   name: playPauseTexture
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_playPauseTexture
@@ -3885,12 +3921,30 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.time
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.time
   nameWithType: MediaPlayer.time
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.timeBar
+  name: timeBar
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_timeBar
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.timeBar
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.timeBar
+  nameWithType: MediaPlayer.timeBar
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.timeDuration
   name: timeDuration
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_timeDuration
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.timeDuration
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.timeDuration
   nameWithType: MediaPlayer.timeDuration
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.timeText
+  name: timeText
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_timeText
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.timeText
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.timeText
+  nameWithType: MediaPlayer.timeText
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.uiElements
+  name: uiElements
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_uiElements
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.uiElements
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.uiElements
+  nameWithType: MediaPlayer.uiElements
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.UnPause
   name: UnPause()
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_UnPause
@@ -3916,6 +3970,18 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.volume
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.volume
   nameWithType: MediaPlayer.volume
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.volumeBar
+  name: volumeBar
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_volumeBar
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.volumeBar
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.volumeBar
+  nameWithType: MediaPlayer.volumeBar
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.volumeText
+  name: volumeText
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_volumeText
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.volumeText
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.volumeText
+  nameWithType: MediaPlayer.volumeText
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer360
   name: MediaPlayer360
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html
@@ -8652,6 +8718,12 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast.directory
   fullName: Votanic.vXR.vCast.vCast.directory
   nameWithType: vCast.directory
+- uid: Votanic.vXR.vCast.vCast.essential
+  name: essential
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_essential
+  commentId: F:Votanic.vXR.vCast.vCast.essential
+  fullName: Votanic.vXR.vCast.vCast.essential
+  nameWithType: vCast.essential
 - uid: Votanic.vXR.vCast.vCast.Fader
   name: vCast.Fader
   href: api/Votanic.vXR.vCast.vCast.Fader.html
@@ -8754,6 +8826,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Fader.IsFading
   nameWithType: vCast.Fader.IsFading
+- uid: Votanic.vXR.vCast.vCast.forceQuality
+  name: forceQuality
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_forceQuality
+  commentId: F:Votanic.vXR.vCast.vCast.forceQuality
+  fullName: Votanic.vXR.vCast.vCast.forceQuality
+  nameWithType: vCast.forceQuality
 - uid: Votanic.vXR.vCast.vCast.frame
   name: frame
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_frame
@@ -10240,6 +10318,12 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast.showReference
   fullName: Votanic.vXR.vCast.vCast.showReference
   nameWithType: vCast.showReference
+- uid: Votanic.vXR.vCast.vCast.targetFrameRate
+  name: targetFrameRate
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_targetFrameRate
+  commentId: F:Votanic.vXR.vCast.vCast.targetFrameRate
+  fullName: Votanic.vXR.vCast.vCast.targetFrameRate
+  nameWithType: vCast.targetFrameRate
 - uid: Votanic.vXR.vCast.vCast.XRSupport
   name: XRSupport
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_XRSupport
@@ -13010,6 +13094,12 @@ references:
   commentId: T:Votanic.vXR.vGear.vGear
   fullName: Votanic.vXR.vGear.vGear
   nameWithType: vGear
+- uid: Votanic.vXR.vGear.vGear.advanced
+  name: advanced
+  href: api/Votanic.vXR.vGear.vGear.html#Votanic_vXR_vGear_vGear_advanced
+  commentId: F:Votanic.vXR.vGear.vGear.advanced
+  fullName: Votanic.vXR.vGear.vGear.advanced
+  nameWithType: vGear.advanced
 - uid: Votanic.vXR.vGear.vGear.EnableWaypoints(System.Boolean)
   name: EnableWaypoints(Boolean)
   href: api/Votanic.vXR.vGear.vGear.html#Votanic_vXR_vGear_vGear_EnableWaypoints_System_Boolean_
