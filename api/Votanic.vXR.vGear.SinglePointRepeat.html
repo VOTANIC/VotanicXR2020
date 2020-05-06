@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum MediaPlayerAction
+    <title>Enum SinglePointRepeat
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum MediaPlayerAction
+    <meta name="title" content="Enum SinglePointRepeat
    ">
     <meta name="generator" content="docfx 2.52.0.0">
     
@@ -68,21 +68,21 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.Scenario.MediaPlayerAction">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.SinglePointRepeat">
   
   
-  <h1 id="Votanic_vXR_vGear_Scenario_MediaPlayerAction" data-uid="Votanic.vXR.vGear.Scenario.MediaPlayerAction" class="text-break">Enum MediaPlayerAction
+  <h1 id="Votanic_vXR_vGear_SinglePointRepeat" data-uid="Votanic.vXR.vGear.SinglePointRepeat" class="text-break">Enum SinglePointRepeat
   </h1>
-  <div class="markdown level0 summary"><p>Media player setting of action in behaviour.
-<br> 行為中動作的媒體抽放器設定。</p>
+  <div class="markdown level0 summary"><p>Repeat action setting of a transformer that transform within 1 target point.
+<br> 變換器重複動作設定，限於一個目標地點以內的變換。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.Scenario.html">Votanic.vXR.vGear.Scenario</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.html">Votanic.vXR.vGear</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_syntax">Syntax</h5>
+  <h5 id="Votanic_vXR_vGear_SinglePointRepeat_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public enum MediaPlayerAction</code></pre>
+public enum SinglePointRepeat</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -95,83 +95,23 @@ public enum MediaPlayerAction</code></pre>
     <thead>
     <tbody>
       <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_AutoNext">AutoNext</td>
-        <td><p>Change auto next setting of media player. <br> 改變媒體播放器自動跳到下一個媒體設定。</p>
+        <td id="Votanic_vXR_vGear_SinglePointRepeat_Continue">Continue</td>
+        <td><p>Continue the action. <br> 繼續動作。</p>
 </td>
       </tr>
       <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_AutoPlay">AutoPlay</td>
-        <td><p>Change auto play setting of media player. <br> 改變媒體播放器自動播放設定。</p>
+        <td id="Votanic_vXR_vGear_SinglePointRepeat_None">None</td>
+        <td><p>No repeat. <br> 不重複。</p>
 </td>
       </tr>
       <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_First">First</td>
-        <td><p>Play the first medium. <br> 播放第一個媒體。</p>
+        <td id="Votanic_vXR_vGear_SinglePointRepeat_PingPong">PingPong</td>
+        <td><p>Reverse the action. <br> 顛倒動作。</p>
 </td>
       </tr>
       <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_Last">Last</td>
-        <td><p>Play the last medium. <br> 播放最後一個媒體。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_Loop">Loop</td>
-        <td><p>Change loop setting of media player. <br> 改變媒體播放器循環設定。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_Mute">Mute</td>
-        <td><p>Change mute setting of media player. <br> 改變媒體播放器靜音設定。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_Next">Next</td>
-        <td><p>Play the next medium. <br> 播放下一個媒體。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_None">None</td>
-        <td><p>No action. <br> 沒有動作。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_Pause">Pause</td>
-        <td><p>Pause media player. <br> 暫停媒體播放器。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_Play">Play</td>
-        <td><p>Play medium. <br> 播放媒體。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_PlayPause">PlayPause</td>
-        <td><p>Play or pause media player. <br> 播放或暫停媒體播放器。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_Previous">Previous</td>
-        <td><p>Play the previous medium. <br> 播放上一個媒體。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_Random">Random</td>
-        <td><p>Change random setting of media player. <br> 改變媒體播放器隨機設定。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_Stop">Stop</td>
-        <td><p>Stop current medium. <br> 停止播放當前媒體。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_StopAll">StopAll</td>
-        <td><p>Stop media player. <br> 停止媒體播放器。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vXR_vGear_Scenario_MediaPlayerAction_UnPause">UnPause</td>
-        <td><p>UnPause media player. <br> 取消暫停媒體播放器。</p>
+        <td id="Votanic_vXR_vGear_SinglePointRepeat_Simple">Simple</td>
+        <td><p>Repeat the same action. <br> 重複相同動作。</p>
 </td>
       </tr>
     </tbody>

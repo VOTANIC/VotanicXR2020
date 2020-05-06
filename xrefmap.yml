@@ -3800,6 +3800,24 @@ references:
   isSpec: "True"
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.Previous
   nameWithType: MediaPlayer.Previous
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.random
+  name: random
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_random
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.random
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.random
+  nameWithType: MediaPlayer.random
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.randomButton
+  name: randomButton
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_randomButton
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.randomButton
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.randomButton
+  nameWithType: MediaPlayer.randomButton
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.randomTexture
+  name: randomTexture
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_randomTexture
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.randomTexture
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.randomTexture
+  nameWithType: MediaPlayer.randomTexture
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoNext
   name: SetAutoNext()
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoNext
@@ -3876,6 +3894,25 @@ references:
   isSpec: "True"
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.SetMute
   nameWithType: MediaPlayer.SetMute
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.SetRandom
+  name: SetRandom()
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetRandom
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer.SetRandom
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.SetRandom()
+  nameWithType: MediaPlayer.SetRandom()
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.SetRandom(System.Boolean)
+  name: SetRandom(Boolean)
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetRandom_System_Boolean_
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer.SetRandom(System.Boolean)
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.SetRandom(System.Boolean)
+  nameWithType: MediaPlayer.SetRandom(Boolean)
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.SetRandom*
+  name: SetRandom
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetRandom_
+  commentId: Overload:Votanic.vMedia.MediaPlayer.MediaPlayer.SetRandom
+  isSpec: "True"
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.SetRandom
+  nameWithType: MediaPlayer.SetRandom
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.SetVolume(System.Single)
   name: SetVolume(Single)
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetVolume_System_Single_
@@ -6832,6 +6869,114 @@ references:
   commentId: N:Votanic.vXR
   fullName: Votanic.vXR
   nameWithType: Votanic.vXR
+- uid: Votanic.vXR.Editor
+  name: Votanic.vXR.Editor
+  href: api/Votanic.vXR.Editor.html
+  commentId: N:Votanic.vXR.Editor
+  fullName: Votanic.vXR.Editor
+  nameWithType: Votanic.vXR.Editor
+- uid: Votanic.vXR.Editor.Axisype
+  name: Axisype
+  href: api/Votanic.vXR.Editor.Axisype.html
+  commentId: T:Votanic.vXR.Editor.Axisype
+  fullName: Votanic.vXR.Editor.Axisype
+  nameWithType: Axisype
+- uid: Votanic.vXR.Editor.Axisype.Down
+  name: Down
+  href: api/Votanic.vXR.Editor.Axisype.html#Votanic_vXR_Editor_Axisype_Down
+  commentId: F:Votanic.vXR.Editor.Axisype.Down
+  fullName: Votanic.vXR.Editor.Axisype.Down
+  nameWithType: Axisype.Down
+- uid: Votanic.vXR.Editor.Axisype.Hold
+  name: Hold
+  href: api/Votanic.vXR.Editor.Axisype.html#Votanic_vXR_Editor_Axisype_Hold
+  commentId: F:Votanic.vXR.Editor.Axisype.Hold
+  fullName: Votanic.vXR.Editor.Axisype.Hold
+  nameWithType: Axisype.Hold
+- uid: Votanic.vXR.Editor.Axisype.Press
+  name: Press
+  href: api/Votanic.vXR.Editor.Axisype.html#Votanic_vXR_Editor_Axisype_Press
+  commentId: F:Votanic.vXR.Editor.Axisype.Press
+  fullName: Votanic.vXR.Editor.Axisype.Press
+  nameWithType: Axisype.Press
+- uid: Votanic.vXR.Editor.Axisype.Up
+  name: Up
+  href: api/Votanic.vXR.Editor.Axisype.html#Votanic_vXR_Editor_Axisype_Up
+  commentId: F:Votanic.vXR.Editor.Axisype.Up
+  fullName: Votanic.vXR.Editor.Axisype.Up
+  nameWithType: Axisype.Up
+- uid: Votanic.vXR.Editor.Axisype.Value
+  name: Value
+  href: api/Votanic.vXR.Editor.Axisype.html#Votanic_vXR_Editor_Axisype_Value
+  commentId: F:Votanic.vXR.Editor.Axisype.Value
+  fullName: Votanic.vXR.Editor.Axisype.Value
+  nameWithType: Axisype.Value
+- uid: Votanic.vXR.Editor.ButtonType
+  name: ButtonType
+  href: api/Votanic.vXR.Editor.ButtonType.html
+  commentId: T:Votanic.vXR.Editor.ButtonType
+  fullName: Votanic.vXR.Editor.ButtonType
+  nameWithType: ButtonType
+- uid: Votanic.vXR.Editor.ButtonType.Down
+  name: Down
+  href: api/Votanic.vXR.Editor.ButtonType.html#Votanic_vXR_Editor_ButtonType_Down
+  commentId: F:Votanic.vXR.Editor.ButtonType.Down
+  fullName: Votanic.vXR.Editor.ButtonType.Down
+  nameWithType: ButtonType.Down
+- uid: Votanic.vXR.Editor.ButtonType.Hold
+  name: Hold
+  href: api/Votanic.vXR.Editor.ButtonType.html#Votanic_vXR_Editor_ButtonType_Hold
+  commentId: F:Votanic.vXR.Editor.ButtonType.Hold
+  fullName: Votanic.vXR.Editor.ButtonType.Hold
+  nameWithType: ButtonType.Hold
+- uid: Votanic.vXR.Editor.ButtonType.Press
+  name: Press
+  href: api/Votanic.vXR.Editor.ButtonType.html#Votanic_vXR_Editor_ButtonType_Press
+  commentId: F:Votanic.vXR.Editor.ButtonType.Press
+  fullName: Votanic.vXR.Editor.ButtonType.Press
+  nameWithType: ButtonType.Press
+- uid: Votanic.vXR.Editor.ButtonType.Touch
+  name: Touch
+  href: api/Votanic.vXR.Editor.ButtonType.html#Votanic_vXR_Editor_ButtonType_Touch
+  commentId: F:Votanic.vXR.Editor.ButtonType.Touch
+  fullName: Votanic.vXR.Editor.ButtonType.Touch
+  nameWithType: ButtonType.Touch
+- uid: Votanic.vXR.Editor.ButtonType.Up
+  name: Up
+  href: api/Votanic.vXR.Editor.ButtonType.html#Votanic_vXR_Editor_ButtonType_Up
+  commentId: F:Votanic.vXR.Editor.ButtonType.Up
+  fullName: Votanic.vXR.Editor.ButtonType.Up
+  nameWithType: ButtonType.Up
+- uid: Votanic.vXR.Editor.MKType
+  name: MKType
+  href: api/Votanic.vXR.Editor.MKType.html
+  commentId: T:Votanic.vXR.Editor.MKType
+  fullName: Votanic.vXR.Editor.MKType
+  nameWithType: MKType
+- uid: Votanic.vXR.Editor.MKType.Down
+  name: Down
+  href: api/Votanic.vXR.Editor.MKType.html#Votanic_vXR_Editor_MKType_Down
+  commentId: F:Votanic.vXR.Editor.MKType.Down
+  fullName: Votanic.vXR.Editor.MKType.Down
+  nameWithType: MKType.Down
+- uid: Votanic.vXR.Editor.MKType.Hold
+  name: Hold
+  href: api/Votanic.vXR.Editor.MKType.html#Votanic_vXR_Editor_MKType_Hold
+  commentId: F:Votanic.vXR.Editor.MKType.Hold
+  fullName: Votanic.vXR.Editor.MKType.Hold
+  nameWithType: MKType.Hold
+- uid: Votanic.vXR.Editor.MKType.Press
+  name: Press
+  href: api/Votanic.vXR.Editor.MKType.html#Votanic_vXR_Editor_MKType_Press
+  commentId: F:Votanic.vXR.Editor.MKType.Press
+  fullName: Votanic.vXR.Editor.MKType.Press
+  nameWithType: MKType.Press
+- uid: Votanic.vXR.Editor.MKType.Up
+  name: Up
+  href: api/Votanic.vXR.Editor.MKType.html#Votanic_vXR_Editor_MKType_Up
+  commentId: F:Votanic.vXR.Editor.MKType.Up
+  fullName: Votanic.vXR.Editor.MKType.Up
+  nameWithType: MKType.Up
 - uid: Votanic.vXR.GrabSetting
   name: GrabSetting
   href: api/Votanic.vXR.GrabSetting.html
@@ -8311,6 +8456,12 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast.autoApplySetting
   fullName: Votanic.vXR.vCast.vCast.autoApplySetting
   nameWithType: vCast.autoApplySetting
+- uid: Votanic.vXR.vCast.vCast.autoKill
+  name: autoKill
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_autoKill
+  commentId: F:Votanic.vXR.vCast.vCast.autoKill
+  fullName: Votanic.vXR.vCast.vCast.autoKill
+  nameWithType: vCast.autoKill
 - uid: Votanic.vXR.vCast.vCast.batches
   name: batches
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_batches
@@ -11914,103 +12065,6 @@ references:
   commentId: F:Votanic.vXR.vGear.Coordinate.scale
   fullName: Votanic.vXR.vGear.Coordinate.scale
   nameWithType: Coordinate.scale
-- uid: Votanic.vXR.vGear.Core
-  name: Votanic.vXR.vGear.Core
-  href: api/Votanic.vXR.vGear.Core.html
-  commentId: N:Votanic.vXR.vGear.Core
-  fullName: Votanic.vXR.vGear.Core
-  nameWithType: Votanic.vXR.vGear.Core
-- uid: Votanic.vXR.vGear.Core.SinglePointRepeat
-  name: SinglePointRepeat
-  href: api/Votanic.vXR.vGear.Core.SinglePointRepeat.html
-  commentId: T:Votanic.vXR.vGear.Core.SinglePointRepeat
-  fullName: Votanic.vXR.vGear.Core.SinglePointRepeat
-  nameWithType: SinglePointRepeat
-- uid: Votanic.vXR.vGear.Core.SinglePointRepeat.Continue
-  name: Continue
-  href: api/Votanic.vXR.vGear.Core.SinglePointRepeat.html#Votanic_vXR_vGear_Core_SinglePointRepeat_Continue
-  commentId: F:Votanic.vXR.vGear.Core.SinglePointRepeat.Continue
-  fullName: Votanic.vXR.vGear.Core.SinglePointRepeat.Continue
-  nameWithType: SinglePointRepeat.Continue
-- uid: Votanic.vXR.vGear.Core.SinglePointRepeat.None
-  name: None
-  href: api/Votanic.vXR.vGear.Core.SinglePointRepeat.html#Votanic_vXR_vGear_Core_SinglePointRepeat_None
-  commentId: F:Votanic.vXR.vGear.Core.SinglePointRepeat.None
-  fullName: Votanic.vXR.vGear.Core.SinglePointRepeat.None
-  nameWithType: SinglePointRepeat.None
-- uid: Votanic.vXR.vGear.Core.SinglePointRepeat.PingPong
-  name: PingPong
-  href: api/Votanic.vXR.vGear.Core.SinglePointRepeat.html#Votanic_vXR_vGear_Core_SinglePointRepeat_PingPong
-  commentId: F:Votanic.vXR.vGear.Core.SinglePointRepeat.PingPong
-  fullName: Votanic.vXR.vGear.Core.SinglePointRepeat.PingPong
-  nameWithType: SinglePointRepeat.PingPong
-- uid: Votanic.vXR.vGear.Core.SinglePointRepeat.Simple
-  name: Simple
-  href: api/Votanic.vXR.vGear.Core.SinglePointRepeat.html#Votanic_vXR_vGear_Core_SinglePointRepeat_Simple
-  commentId: F:Votanic.vXR.vGear.Core.SinglePointRepeat.Simple
-  fullName: Votanic.vXR.vGear.Core.SinglePointRepeat.Simple
-  nameWithType: SinglePointRepeat.Simple
-- uid: Votanic.vXR.vGear.Core.Transformation
-  name: Transformation
-  href: api/Votanic.vXR.vGear.Core.Transformation.html
-  commentId: T:Votanic.vXR.vGear.Core.Transformation
-  fullName: Votanic.vXR.vGear.Core.Transformation
-  nameWithType: Transformation
-- uid: Votanic.vXR.vGear.Core.Transformation.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat)
-  name: Transformation(Single, Single, Single, Single, Single, MotionParameter, SinglePointRepeat)
-  href: api/Votanic.vXR.vGear.Core.Transformation.html#Votanic_vXR_vGear_Core_Transformation__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_Core_SinglePointRepeat_
-  commentId: M:Votanic.vXR.vGear.Core.Transformation.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat)
-  fullName: Votanic.vXR.vGear.Core.Transformation.Transformation(System.Single, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.Core.SinglePointRepeat)
-  nameWithType: Transformation.Transformation(Single, Single, Single, Single, Single, MotionParameter, SinglePointRepeat)
-- uid: Votanic.vXR.vGear.Core.Transformation.#ctor*
-  name: Transformation
-  href: api/Votanic.vXR.vGear.Core.Transformation.html#Votanic_vXR_vGear_Core_Transformation__ctor_
-  commentId: Overload:Votanic.vXR.vGear.Core.Transformation.#ctor
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.Core.Transformation.Transformation
-  nameWithType: Transformation.Transformation
-- uid: Votanic.vXR.vGear.Core.Transformation.accelerationFactor
-  name: accelerationFactor
-  href: api/Votanic.vXR.vGear.Core.Transformation.html#Votanic_vXR_vGear_Core_Transformation_accelerationFactor
-  commentId: F:Votanic.vXR.vGear.Core.Transformation.accelerationFactor
-  fullName: Votanic.vXR.vGear.Core.Transformation.accelerationFactor
-  nameWithType: Transformation.accelerationFactor
-- uid: Votanic.vXR.vGear.Core.Transformation.decelerationFactor
-  name: decelerationFactor
-  href: api/Votanic.vXR.vGear.Core.Transformation.html#Votanic_vXR_vGear_Core_Transformation_decelerationFactor
-  commentId: F:Votanic.vXR.vGear.Core.Transformation.decelerationFactor
-  fullName: Votanic.vXR.vGear.Core.Transformation.decelerationFactor
-  nameWithType: Transformation.decelerationFactor
-- uid: Votanic.vXR.vGear.Core.Transformation.parameter
-  name: parameter
-  href: api/Votanic.vXR.vGear.Core.Transformation.html#Votanic_vXR_vGear_Core_Transformation_parameter
-  commentId: F:Votanic.vXR.vGear.Core.Transformation.parameter
-  fullName: Votanic.vXR.vGear.Core.Transformation.parameter
-  nameWithType: Transformation.parameter
-- uid: Votanic.vXR.vGear.Core.Transformation.rotationRatio
-  name: rotationRatio
-  href: api/Votanic.vXR.vGear.Core.Transformation.html#Votanic_vXR_vGear_Core_Transformation_rotationRatio
-  commentId: F:Votanic.vXR.vGear.Core.Transformation.rotationRatio
-  fullName: Votanic.vXR.vGear.Core.Transformation.rotationRatio
-  nameWithType: Transformation.rotationRatio
-- uid: Votanic.vXR.vGear.Core.Transformation.scalingRatio
-  name: scalingRatio
-  href: api/Votanic.vXR.vGear.Core.Transformation.html#Votanic_vXR_vGear_Core_Transformation_scalingRatio
-  commentId: F:Votanic.vXR.vGear.Core.Transformation.scalingRatio
-  fullName: Votanic.vXR.vGear.Core.Transformation.scalingRatio
-  nameWithType: Transformation.scalingRatio
-- uid: Votanic.vXR.vGear.Core.Transformation.singlePointRepeat
-  name: singlePointRepeat
-  href: api/Votanic.vXR.vGear.Core.Transformation.html#Votanic_vXR_vGear_Core_Transformation_singlePointRepeat
-  commentId: F:Votanic.vXR.vGear.Core.Transformation.singlePointRepeat
-  fullName: Votanic.vXR.vGear.Core.Transformation.singlePointRepeat
-  nameWithType: Transformation.singlePointRepeat
-- uid: Votanic.vXR.vGear.Core.Transformation.transformFactor
-  name: transformFactor
-  href: api/Votanic.vXR.vGear.Core.Transformation.html#Votanic_vXR_vGear_Core_Transformation_transformFactor
-  commentId: F:Votanic.vXR.vGear.Core.Transformation.transformFactor
-  fullName: Votanic.vXR.vGear.Core.Transformation.transformFactor
-  nameWithType: Transformation.transformFactor
 - uid: Votanic.vXR.vGear.LocusCollider
   name: LocusCollider
   href: api/Votanic.vXR.vGear.LocusCollider.html
@@ -12924,6 +12978,12 @@ references:
   commentId: F:Votanic.vXR.vGear.Scenario.MediaPlayerAction.Previous
   fullName: Votanic.vXR.vGear.Scenario.MediaPlayerAction.Previous
   nameWithType: MediaPlayerAction.Previous
+- uid: Votanic.vXR.vGear.Scenario.MediaPlayerAction.Random
+  name: Random
+  href: api/Votanic.vXR.vGear.Scenario.MediaPlayerAction.html#Votanic_vXR_vGear_Scenario_MediaPlayerAction_Random
+  commentId: F:Votanic.vXR.vGear.Scenario.MediaPlayerAction.Random
+  fullName: Votanic.vXR.vGear.Scenario.MediaPlayerAction.Random
+  nameWithType: MediaPlayerAction.Random
 - uid: Votanic.vXR.vGear.Scenario.MediaPlayerAction.Stop
   name: Stop
   href: api/Votanic.vXR.vGear.Scenario.MediaPlayerAction.html#Votanic_vXR_vGear_Scenario_MediaPlayerAction_Stop
@@ -13026,6 +13086,36 @@ references:
   commentId: F:Votanic.vXR.vGear.Scenario.MotionDetail.singlePointRepeat
   fullName: Votanic.vXR.vGear.Scenario.MotionDetail.singlePointRepeat
   nameWithType: MotionDetail.singlePointRepeat
+- uid: Votanic.vXR.vGear.SinglePointRepeat
+  name: SinglePointRepeat
+  href: api/Votanic.vXR.vGear.SinglePointRepeat.html
+  commentId: T:Votanic.vXR.vGear.SinglePointRepeat
+  fullName: Votanic.vXR.vGear.SinglePointRepeat
+  nameWithType: SinglePointRepeat
+- uid: Votanic.vXR.vGear.SinglePointRepeat.Continue
+  name: Continue
+  href: api/Votanic.vXR.vGear.SinglePointRepeat.html#Votanic_vXR_vGear_SinglePointRepeat_Continue
+  commentId: F:Votanic.vXR.vGear.SinglePointRepeat.Continue
+  fullName: Votanic.vXR.vGear.SinglePointRepeat.Continue
+  nameWithType: SinglePointRepeat.Continue
+- uid: Votanic.vXR.vGear.SinglePointRepeat.None
+  name: None
+  href: api/Votanic.vXR.vGear.SinglePointRepeat.html#Votanic_vXR_vGear_SinglePointRepeat_None
+  commentId: F:Votanic.vXR.vGear.SinglePointRepeat.None
+  fullName: Votanic.vXR.vGear.SinglePointRepeat.None
+  nameWithType: SinglePointRepeat.None
+- uid: Votanic.vXR.vGear.SinglePointRepeat.PingPong
+  name: PingPong
+  href: api/Votanic.vXR.vGear.SinglePointRepeat.html#Votanic_vXR_vGear_SinglePointRepeat_PingPong
+  commentId: F:Votanic.vXR.vGear.SinglePointRepeat.PingPong
+  fullName: Votanic.vXR.vGear.SinglePointRepeat.PingPong
+  nameWithType: SinglePointRepeat.PingPong
+- uid: Votanic.vXR.vGear.SinglePointRepeat.Simple
+  name: Simple
+  href: api/Votanic.vXR.vGear.SinglePointRepeat.html#Votanic_vXR_vGear_SinglePointRepeat_Simple
+  commentId: F:Votanic.vXR.vGear.SinglePointRepeat.Simple
+  fullName: Votanic.vXR.vGear.SinglePointRepeat.Simple
+  nameWithType: SinglePointRepeat.Simple
 - uid: Votanic.vXR.vGear.StorePoint
   name: StorePoint
   href: api/Votanic.vXR.vGear.StorePoint.html
@@ -13087,6 +13177,67 @@ references:
   commentId: F:Votanic.vXR.vGear.TeleportPoint.Next
   fullName: Votanic.vXR.vGear.TeleportPoint.Next
   nameWithType: TeleportPoint.Next
+- uid: Votanic.vXR.vGear.Transformation
+  name: Transformation
+  href: api/Votanic.vXR.vGear.Transformation.html
+  commentId: T:Votanic.vXR.vGear.Transformation
+  fullName: Votanic.vXR.vGear.Transformation
+  nameWithType: Transformation
+- uid: Votanic.vXR.vGear.Transformation.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat)
+  name: Transformation(Single, Single, Single, Single, Single, MotionParameter, SinglePointRepeat)
+  href: api/Votanic.vXR.vGear.Transformation.html#Votanic_vXR_vGear_Transformation__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_SinglePointRepeat_
+  commentId: M:Votanic.vXR.vGear.Transformation.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat)
+  fullName: Votanic.vXR.vGear.Transformation.Transformation(System.Single, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.SinglePointRepeat)
+  nameWithType: Transformation.Transformation(Single, Single, Single, Single, Single, MotionParameter, SinglePointRepeat)
+- uid: Votanic.vXR.vGear.Transformation.#ctor*
+  name: Transformation
+  href: api/Votanic.vXR.vGear.Transformation.html#Votanic_vXR_vGear_Transformation__ctor_
+  commentId: Overload:Votanic.vXR.vGear.Transformation.#ctor
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.Transformation.Transformation
+  nameWithType: Transformation.Transformation
+- uid: Votanic.vXR.vGear.Transformation.accelerationFactor
+  name: accelerationFactor
+  href: api/Votanic.vXR.vGear.Transformation.html#Votanic_vXR_vGear_Transformation_accelerationFactor
+  commentId: F:Votanic.vXR.vGear.Transformation.accelerationFactor
+  fullName: Votanic.vXR.vGear.Transformation.accelerationFactor
+  nameWithType: Transformation.accelerationFactor
+- uid: Votanic.vXR.vGear.Transformation.decelerationFactor
+  name: decelerationFactor
+  href: api/Votanic.vXR.vGear.Transformation.html#Votanic_vXR_vGear_Transformation_decelerationFactor
+  commentId: F:Votanic.vXR.vGear.Transformation.decelerationFactor
+  fullName: Votanic.vXR.vGear.Transformation.decelerationFactor
+  nameWithType: Transformation.decelerationFactor
+- uid: Votanic.vXR.vGear.Transformation.parameter
+  name: parameter
+  href: api/Votanic.vXR.vGear.Transformation.html#Votanic_vXR_vGear_Transformation_parameter
+  commentId: F:Votanic.vXR.vGear.Transformation.parameter
+  fullName: Votanic.vXR.vGear.Transformation.parameter
+  nameWithType: Transformation.parameter
+- uid: Votanic.vXR.vGear.Transformation.rotationRatio
+  name: rotationRatio
+  href: api/Votanic.vXR.vGear.Transformation.html#Votanic_vXR_vGear_Transformation_rotationRatio
+  commentId: F:Votanic.vXR.vGear.Transformation.rotationRatio
+  fullName: Votanic.vXR.vGear.Transformation.rotationRatio
+  nameWithType: Transformation.rotationRatio
+- uid: Votanic.vXR.vGear.Transformation.scalingRatio
+  name: scalingRatio
+  href: api/Votanic.vXR.vGear.Transformation.html#Votanic_vXR_vGear_Transformation_scalingRatio
+  commentId: F:Votanic.vXR.vGear.Transformation.scalingRatio
+  fullName: Votanic.vXR.vGear.Transformation.scalingRatio
+  nameWithType: Transformation.scalingRatio
+- uid: Votanic.vXR.vGear.Transformation.singlePointRepeat
+  name: singlePointRepeat
+  href: api/Votanic.vXR.vGear.Transformation.html#Votanic_vXR_vGear_Transformation_singlePointRepeat
+  commentId: F:Votanic.vXR.vGear.Transformation.singlePointRepeat
+  fullName: Votanic.vXR.vGear.Transformation.singlePointRepeat
+  nameWithType: Transformation.singlePointRepeat
+- uid: Votanic.vXR.vGear.Transformation.transformFactor
+  name: transformFactor
+  href: api/Votanic.vXR.vGear.Transformation.html#Votanic_vXR_vGear_Transformation_transformFactor
+  commentId: F:Votanic.vXR.vGear.Transformation.transformFactor
+  fullName: Votanic.vXR.vGear.Transformation.transformFactor
+  nameWithType: Transformation.transformFactor
 - uid: Votanic.vXR.vGear.UIState
   name: UIState
   href: api/Votanic.vXR.vGear.UIState.html
@@ -15086,11 +15237,11 @@ references:
   commentId: M:Votanic.vXR.vGear.vGear_Transformer.Move(UnityEngine.Vector3,System.Int32,System.Single)
   fullName: Votanic.vXR.vGear.vGear_Transformer.Move(UnityEngine.Vector3, System.Int32, System.Single)
   nameWithType: vGear_Transformer.Move(Vector3, Int32, Single)
-- uid: Votanic.vXR.vGear.vGear_Transformer.Move(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
+- uid: Votanic.vXR.vGear.vGear_Transformer.Move(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
   name: Move(Vector3, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
-  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_Move_UnityEngine_Vector3_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_Core_SinglePointRepeat_System_Int32_System_Single_
-  commentId: M:Votanic.vXR.vGear.vGear_Transformer.Move(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
-  fullName: Votanic.vXR.vGear.vGear_Transformer.Move(UnityEngine.Vector3, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.Core.SinglePointRepeat, System.Int32, System.Single)
+  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_Move_UnityEngine_Vector3_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_SinglePointRepeat_System_Int32_System_Single_
+  commentId: M:Votanic.vXR.vGear.vGear_Transformer.Move(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
+  fullName: Votanic.vXR.vGear.vGear_Transformer.Move(UnityEngine.Vector3, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.SinglePointRepeat, System.Int32, System.Single)
   nameWithType: vGear_Transformer.Move(Vector3, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
 - uid: Votanic.vXR.vGear.vGear_Transformer.Move*
   name: Move
@@ -15105,11 +15256,11 @@ references:
   commentId: M:Votanic.vXR.vGear.vGear_Transformer.MoveTo(UnityEngine.Vector3,System.Int32,System.Single)
   fullName: Votanic.vXR.vGear.vGear_Transformer.MoveTo(UnityEngine.Vector3, System.Int32, System.Single)
   nameWithType: vGear_Transformer.MoveTo(Vector3, Int32, Single)
-- uid: Votanic.vXR.vGear.vGear_Transformer.MoveTo(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
+- uid: Votanic.vXR.vGear.vGear_Transformer.MoveTo(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
   name: MoveTo(Vector3, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
-  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_MoveTo_UnityEngine_Vector3_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_Core_SinglePointRepeat_System_Int32_System_Single_
-  commentId: M:Votanic.vXR.vGear.vGear_Transformer.MoveTo(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
-  fullName: Votanic.vXR.vGear.vGear_Transformer.MoveTo(UnityEngine.Vector3, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.Core.SinglePointRepeat, System.Int32, System.Single)
+  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_MoveTo_UnityEngine_Vector3_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_SinglePointRepeat_System_Int32_System_Single_
+  commentId: M:Votanic.vXR.vGear.vGear_Transformer.MoveTo(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
+  fullName: Votanic.vXR.vGear.vGear_Transformer.MoveTo(UnityEngine.Vector3, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.SinglePointRepeat, System.Int32, System.Single)
   nameWithType: vGear_Transformer.MoveTo(Vector3, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
 - uid: Votanic.vXR.vGear.vGear_Transformer.MoveTo*
   name: MoveTo
@@ -15137,11 +15288,11 @@ references:
   commentId: M:Votanic.vXR.vGear.vGear_Transformer.Rotate(UnityEngine.Vector3,System.Int32,System.Single)
   fullName: Votanic.vXR.vGear.vGear_Transformer.Rotate(UnityEngine.Vector3, System.Int32, System.Single)
   nameWithType: vGear_Transformer.Rotate(Vector3, Int32, Single)
-- uid: Votanic.vXR.vGear.vGear_Transformer.Rotate(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
+- uid: Votanic.vXR.vGear.vGear_Transformer.Rotate(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
   name: Rotate(Vector3, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
-  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_Rotate_UnityEngine_Vector3_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_Core_SinglePointRepeat_System_Int32_System_Single_
-  commentId: M:Votanic.vXR.vGear.vGear_Transformer.Rotate(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
-  fullName: Votanic.vXR.vGear.vGear_Transformer.Rotate(UnityEngine.Vector3, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.Core.SinglePointRepeat, System.Int32, System.Single)
+  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_Rotate_UnityEngine_Vector3_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_SinglePointRepeat_System_Int32_System_Single_
+  commentId: M:Votanic.vXR.vGear.vGear_Transformer.Rotate(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
+  fullName: Votanic.vXR.vGear.vGear_Transformer.Rotate(UnityEngine.Vector3, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.SinglePointRepeat, System.Int32, System.Single)
   nameWithType: vGear_Transformer.Rotate(Vector3, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
 - uid: Votanic.vXR.vGear.vGear_Transformer.Rotate*
   name: Rotate
@@ -15156,11 +15307,11 @@ references:
   commentId: M:Votanic.vXR.vGear.vGear_Transformer.RotateTo(UnityEngine.Vector3,System.Int32,System.Single)
   fullName: Votanic.vXR.vGear.vGear_Transformer.RotateTo(UnityEngine.Vector3, System.Int32, System.Single)
   nameWithType: vGear_Transformer.RotateTo(Vector3, Int32, Single)
-- uid: Votanic.vXR.vGear.vGear_Transformer.RotateTo(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
+- uid: Votanic.vXR.vGear.vGear_Transformer.RotateTo(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
   name: RotateTo(Vector3, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
-  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_RotateTo_UnityEngine_Vector3_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_Core_SinglePointRepeat_System_Int32_System_Single_
-  commentId: M:Votanic.vXR.vGear.vGear_Transformer.RotateTo(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
-  fullName: Votanic.vXR.vGear.vGear_Transformer.RotateTo(UnityEngine.Vector3, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.Core.SinglePointRepeat, System.Int32, System.Single)
+  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_RotateTo_UnityEngine_Vector3_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_SinglePointRepeat_System_Int32_System_Single_
+  commentId: M:Votanic.vXR.vGear.vGear_Transformer.RotateTo(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
+  fullName: Votanic.vXR.vGear.vGear_Transformer.RotateTo(UnityEngine.Vector3, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.SinglePointRepeat, System.Int32, System.Single)
   nameWithType: vGear_Transformer.RotateTo(Vector3, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
 - uid: Votanic.vXR.vGear.vGear_Transformer.RotateTo*
   name: RotateTo
@@ -15175,11 +15326,11 @@ references:
   commentId: M:Votanic.vXR.vGear.vGear_Transformer.Scale(UnityEngine.Vector3,System.Int32,System.Single)
   fullName: Votanic.vXR.vGear.vGear_Transformer.Scale(UnityEngine.Vector3, System.Int32, System.Single)
   nameWithType: vGear_Transformer.Scale(Vector3, Int32, Single)
-- uid: Votanic.vXR.vGear.vGear_Transformer.Scale(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
+- uid: Votanic.vXR.vGear.vGear_Transformer.Scale(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
   name: Scale(Vector3, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
-  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_Scale_UnityEngine_Vector3_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_Core_SinglePointRepeat_System_Int32_System_Single_
-  commentId: M:Votanic.vXR.vGear.vGear_Transformer.Scale(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
-  fullName: Votanic.vXR.vGear.vGear_Transformer.Scale(UnityEngine.Vector3, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.Core.SinglePointRepeat, System.Int32, System.Single)
+  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_Scale_UnityEngine_Vector3_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_SinglePointRepeat_System_Int32_System_Single_
+  commentId: M:Votanic.vXR.vGear.vGear_Transformer.Scale(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
+  fullName: Votanic.vXR.vGear.vGear_Transformer.Scale(UnityEngine.Vector3, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.SinglePointRepeat, System.Int32, System.Single)
   nameWithType: vGear_Transformer.Scale(Vector3, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
 - uid: Votanic.vXR.vGear.vGear_Transformer.Scale*
   name: Scale
@@ -15194,11 +15345,11 @@ references:
   commentId: M:Votanic.vXR.vGear.vGear_Transformer.ScaleTo(UnityEngine.Vector3,System.Int32,System.Single)
   fullName: Votanic.vXR.vGear.vGear_Transformer.ScaleTo(UnityEngine.Vector3, System.Int32, System.Single)
   nameWithType: vGear_Transformer.ScaleTo(Vector3, Int32, Single)
-- uid: Votanic.vXR.vGear.vGear_Transformer.ScaleTo(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
+- uid: Votanic.vXR.vGear.vGear_Transformer.ScaleTo(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
   name: ScaleTo(Vector3, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
-  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_ScaleTo_UnityEngine_Vector3_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_Core_SinglePointRepeat_System_Int32_System_Single_
-  commentId: M:Votanic.vXR.vGear.vGear_Transformer.ScaleTo(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
-  fullName: Votanic.vXR.vGear.vGear_Transformer.ScaleTo(UnityEngine.Vector3, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.Core.SinglePointRepeat, System.Int32, System.Single)
+  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_ScaleTo_UnityEngine_Vector3_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_SinglePointRepeat_System_Int32_System_Single_
+  commentId: M:Votanic.vXR.vGear.vGear_Transformer.ScaleTo(UnityEngine.Vector3,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
+  fullName: Votanic.vXR.vGear.vGear_Transformer.ScaleTo(UnityEngine.Vector3, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.SinglePointRepeat, System.Int32, System.Single)
   nameWithType: vGear_Transformer.ScaleTo(Vector3, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
 - uid: Votanic.vXR.vGear.vGear_Transformer.ScaleTo*
   name: ScaleTo
@@ -15229,13 +15380,13 @@ references:
   fullName.vb: Votanic.vXR.vGear.vGear_Transformer.Transform(System.Collections.Generic.List(Of Votanic.vXR.vGear.Coordinate), System.Int32, System.Single)
   nameWithType: vGear_Transformer.Transform(List<Coordinate>, Int32, Single)
   nameWithType.vb: vGear_Transformer.Transform(List(Of Coordinate), Int32, Single)
-- uid: Votanic.vXR.vGear.vGear_Transformer.Transform(System.Collections.Generic.List{Votanic.vXR.vGear.Coordinate},System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
+- uid: Votanic.vXR.vGear.vGear_Transformer.Transform(System.Collections.Generic.List{Votanic.vXR.vGear.Coordinate},System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
   name: Transform(List<Coordinate>, Single, Single, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
-  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_Transform_System_Collections_Generic_List_Votanic_vXR_vGear_Coordinate__System_Single_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_Core_SinglePointRepeat_System_Int32_System_Single_
-  commentId: M:Votanic.vXR.vGear.vGear_Transformer.Transform(System.Collections.Generic.List{Votanic.vXR.vGear.Coordinate},System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
+  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_Transform_System_Collections_Generic_List_Votanic_vXR_vGear_Coordinate__System_Single_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_SinglePointRepeat_System_Int32_System_Single_
+  commentId: M:Votanic.vXR.vGear.vGear_Transformer.Transform(System.Collections.Generic.List{Votanic.vXR.vGear.Coordinate},System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
   name.vb: Transform(List(Of Coordinate), Single, Single, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
-  fullName: Votanic.vXR.vGear.vGear_Transformer.Transform(System.Collections.Generic.List<Votanic.vXR.vGear.Coordinate>, System.Single, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.Core.SinglePointRepeat, System.Int32, System.Single)
-  fullName.vb: Votanic.vXR.vGear.vGear_Transformer.Transform(System.Collections.Generic.List(Of Votanic.vXR.vGear.Coordinate), System.Single, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.Core.SinglePointRepeat, System.Int32, System.Single)
+  fullName: Votanic.vXR.vGear.vGear_Transformer.Transform(System.Collections.Generic.List<Votanic.vXR.vGear.Coordinate>, System.Single, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.SinglePointRepeat, System.Int32, System.Single)
+  fullName.vb: Votanic.vXR.vGear.vGear_Transformer.Transform(System.Collections.Generic.List(Of Votanic.vXR.vGear.Coordinate), System.Single, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.SinglePointRepeat, System.Int32, System.Single)
   nameWithType: vGear_Transformer.Transform(List<Coordinate>, Single, Single, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
   nameWithType.vb: vGear_Transformer.Transform(List(Of Coordinate), Single, Single, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
 - uid: Votanic.vXR.vGear.vGear_Transformer.Transform(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Single)
@@ -15244,11 +15395,11 @@ references:
   commentId: M:Votanic.vXR.vGear.vGear_Transformer.Transform(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Single)
   fullName: Votanic.vXR.vGear.vGear_Transformer.Transform(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, System.Int32, System.Single)
   nameWithType: vGear_Transformer.Transform(Vector3, Vector3, Vector3, Int32, Single)
-- uid: Votanic.vXR.vGear.vGear_Transformer.Transform(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
+- uid: Votanic.vXR.vGear.vGear_Transformer.Transform(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
   name: Transform(Vector3, Vector3, Vector3, Single, Single, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
-  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_Transform_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_Core_SinglePointRepeat_System_Int32_System_Single_
-  commentId: M:Votanic.vXR.vGear.vGear_Transformer.Transform(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.Core.SinglePointRepeat,System.Int32,System.Single)
-  fullName: Votanic.vXR.vGear.vGear_Transformer.Transform(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.Core.SinglePointRepeat, System.Int32, System.Single)
+  href: api/Votanic.vXR.vGear.vGear_Transformer.html#Votanic_vXR_vGear_vGear_Transformer_Transform_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_vGear_SinglePointRepeat_System_Int32_System_Single_
+  commentId: M:Votanic.vXR.vGear.vGear_Transformer.Transform(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.vGear.SinglePointRepeat,System.Int32,System.Single)
+  fullName: Votanic.vXR.vGear.vGear_Transformer.Transform(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.vGear.SinglePointRepeat, System.Int32, System.Single)
   nameWithType: vGear_Transformer.Transform(Vector3, Vector3, Vector3, Single, Single, Single, Single, Single, MotionParameter, SinglePointRepeat, Int32, Single)
 - uid: Votanic.vXR.vGear.vGear_Transformer.Transform*
   name: Transform
