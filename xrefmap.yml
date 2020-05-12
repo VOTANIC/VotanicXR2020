@@ -3544,6 +3544,12 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.duration
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.duration
   nameWithType: MediaPlayer.duration
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.First
+  name: First()
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_First
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer.First
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.First()
+  nameWithType: MediaPlayer.First()
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.First(System.Single,System.Single,System.Boolean)
   name: First(Single, Single, Boolean)
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_First_System_Single_System_Single_System_Boolean_
@@ -3581,6 +3587,12 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.isPlaying
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.isPlaying
   nameWithType: MediaPlayer.isPlaying
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.Last
+  name: Last()
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Last
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer.Last
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.Last()
+  nameWithType: MediaPlayer.Last()
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.Last(System.Single,System.Single,System.Boolean)
   name: Last(Single, Single, Boolean)
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Last_System_Single_System_Single_System_Boolean_
@@ -3675,6 +3687,12 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.muteTexture
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.muteTexture
   nameWithType: MediaPlayer.muteTexture
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.Next
+  name: Next()
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Next
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer.Next
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.Next()
+  nameWithType: MediaPlayer.Next()
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.Next(System.Int32,System.Single,System.Single,System.Boolean)
   name: Next(Int32, Single, Single, Boolean)
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Next_System_Int32_System_Single_System_Single_System_Boolean_
@@ -3787,6 +3805,12 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.playPauseTexture
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.playPauseTexture
   nameWithType: MediaPlayer.playPauseTexture
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.Previous
+  name: Previous()
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Previous
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer.Previous
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.Previous()
+  nameWithType: MediaPlayer.Previous()
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.Previous(System.Int32,System.Single,System.Single,System.Boolean)
   name: Previous(Int32, Single, Single, Boolean)
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Previous_System_Int32_System_Single_System_Single_System_Boolean_
@@ -3913,6 +3937,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.SetRandom
   nameWithType: MediaPlayer.SetRandom
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.SetVolume
+  name: SetVolume()
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetVolume
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer.SetVolume
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.SetVolume()
+  nameWithType: MediaPlayer.SetVolume()
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.SetVolume(System.Single)
   name: SetVolume(Single)
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetVolume_System_Single_
@@ -4013,6 +4043,12 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.volumeBar
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.volumeBar
   nameWithType: MediaPlayer.volumeBar
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.volumeControl
+  name: volumeControl
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_volumeControl
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.volumeControl
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.volumeControl
+  nameWithType: MediaPlayer.volumeControl
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.volumeText
   name: volumeText
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_volumeText
@@ -4244,6 +4280,48 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.StereoType.UpDown
   fullName: Votanic.vMedia.MediaPlayer.StereoType.UpDown
   nameWithType: StereoType.UpDown
+- uid: Votanic.vMedia.MediaPlayer.VolumeControl
+  name: VolumeControl
+  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html
+  commentId: T:Votanic.vMedia.MediaPlayer.VolumeControl
+  fullName: Votanic.vMedia.MediaPlayer.VolumeControl
+  nameWithType: VolumeControl
+- uid: Votanic.vMedia.MediaPlayer.VolumeControl.multiplier
+  name: multiplier
+  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html#Votanic_vMedia_MediaPlayer_VolumeControl_multiplier
+  commentId: F:Votanic.vMedia.MediaPlayer.VolumeControl.multiplier
+  fullName: Votanic.vMedia.MediaPlayer.VolumeControl.multiplier
+  nameWithType: VolumeControl.multiplier
+- uid: Votanic.vMedia.MediaPlayer.VolumeControl.volumeHandler
+  name: volumeHandler
+  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html#Votanic_vMedia_MediaPlayer_VolumeControl_volumeHandler
+  commentId: F:Votanic.vMedia.MediaPlayer.VolumeControl.volumeHandler
+  fullName: Votanic.vMedia.MediaPlayer.VolumeControl.volumeHandler
+  nameWithType: VolumeControl.volumeHandler
+- uid: Votanic.vMedia.MediaPlayer.VolumeControl.x
+  name: x
+  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html#Votanic_vMedia_MediaPlayer_VolumeControl_x
+  commentId: F:Votanic.vMedia.MediaPlayer.VolumeControl.x
+  fullName: Votanic.vMedia.MediaPlayer.VolumeControl.x
+  nameWithType: VolumeControl.x
+- uid: Votanic.vMedia.MediaPlayer.VolumeControl.y
+  name: y
+  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html#Votanic_vMedia_MediaPlayer_VolumeControl_y
+  commentId: F:Votanic.vMedia.MediaPlayer.VolumeControl.y
+  fullName: Votanic.vMedia.MediaPlayer.VolumeControl.y
+  nameWithType: VolumeControl.y
+- uid: Votanic.vMedia.MediaPlayer.VolumeControl.z
+  name: z
+  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html#Votanic_vMedia_MediaPlayer_VolumeControl_z
+  commentId: F:Votanic.vMedia.MediaPlayer.VolumeControl.z
+  fullName: Votanic.vMedia.MediaPlayer.VolumeControl.z
+  nameWithType: VolumeControl.z
+- uid: Votanic.vMedia.MediaPlayer.VolumeControl.zeroPosition
+  name: zeroPosition
+  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html#Votanic_vMedia_MediaPlayer_VolumeControl_zeroPosition
+  commentId: F:Votanic.vMedia.MediaPlayer.VolumeControl.zeroPosition
+  fullName: Votanic.vMedia.MediaPlayer.VolumeControl.zeroPosition
+  nameWithType: VolumeControl.zeroPosition
 - uid: Votanic.vMedia.MediaType
   name: MediaType
   href: api/Votanic.vMedia.MediaType.html
@@ -7043,6 +7121,12 @@ references:
   commentId: F:Votanic.vXR.Interaction.interactionType
   fullName: Votanic.vXR.Interaction.interactionType
   nameWithType: Interaction.interactionType
+- uid: Votanic.vXR.Interaction.unityEvent
+  name: unityEvent
+  href: api/Votanic.vXR.Interaction.html#Votanic_vXR_Interaction_unityEvent
+  commentId: F:Votanic.vXR.Interaction.unityEvent
+  fullName: Votanic.vXR.Interaction.unityEvent
+  nameWithType: Interaction.unityEvent
 - uid: Votanic.vXR.Interaction.user
   name: user
   href: api/Votanic.vXR.Interaction.html#Votanic_vXR_Interaction_user
@@ -7303,6 +7387,36 @@ references:
   commentId: N:Votanic.vXR.vCast.Core
   fullName: Votanic.vXR.vCast.Core
   nameWithType: Votanic.vXR.vCast.Core
+- uid: Votanic.vXR.vCast.Core.AutoReceiveCommand
+  name: AutoReceiveCommand
+  href: api/Votanic.vXR.vCast.Core.AutoReceiveCommand.html
+  commentId: T:Votanic.vXR.vCast.Core.AutoReceiveCommand
+  fullName: Votanic.vXR.vCast.Core.AutoReceiveCommand
+  nameWithType: AutoReceiveCommand
+- uid: Votanic.vXR.vCast.Core.AutoReceiveCommand.Both
+  name: Both
+  href: api/Votanic.vXR.vCast.Core.AutoReceiveCommand.html#Votanic_vXR_vCast_Core_AutoReceiveCommand_Both
+  commentId: F:Votanic.vXR.vCast.Core.AutoReceiveCommand.Both
+  fullName: Votanic.vXR.vCast.Core.AutoReceiveCommand.Both
+  nameWithType: AutoReceiveCommand.Both
+- uid: Votanic.vXR.vCast.Core.AutoReceiveCommand.BuiltIn
+  name: BuiltIn
+  href: api/Votanic.vXR.vCast.Core.AutoReceiveCommand.html#Votanic_vXR_vCast_Core_AutoReceiveCommand_BuiltIn
+  commentId: F:Votanic.vXR.vCast.Core.AutoReceiveCommand.BuiltIn
+  fullName: Votanic.vXR.vCast.Core.AutoReceiveCommand.BuiltIn
+  nameWithType: AutoReceiveCommand.BuiltIn
+- uid: Votanic.vXR.vCast.Core.AutoReceiveCommand.Custom
+  name: Custom
+  href: api/Votanic.vXR.vCast.Core.AutoReceiveCommand.html#Votanic_vXR_vCast_Core_AutoReceiveCommand_Custom
+  commentId: F:Votanic.vXR.vCast.Core.AutoReceiveCommand.Custom
+  fullName: Votanic.vXR.vCast.Core.AutoReceiveCommand.Custom
+  nameWithType: AutoReceiveCommand.Custom
+- uid: Votanic.vXR.vCast.Core.AutoReceiveCommand.None
+  name: None
+  href: api/Votanic.vXR.vCast.Core.AutoReceiveCommand.html#Votanic_vXR_vCast_Core_AutoReceiveCommand_None
+  commentId: F:Votanic.vXR.vCast.Core.AutoReceiveCommand.None
+  fullName: Votanic.vXR.vCast.Core.AutoReceiveCommand.None
+  nameWithType: AutoReceiveCommand.None
 - uid: Votanic.vXR.vCast.Core.Batch
   name: Batch
   href: api/Votanic.vXR.vCast.Core.Batch.html
@@ -7351,24 +7465,6 @@ references:
   commentId: F:Votanic.vXR.vCast.Core.BatchType.CAVE
   fullName: Votanic.vXR.vCast.Core.BatchType.CAVE
   nameWithType: BatchType.CAVE
-- uid: Votanic.vXR.vCast.Core.BatchType.CAVE_2D
-  name: CAVE_2D
-  href: api/Votanic.vXR.vCast.Core.BatchType.html#Votanic_vXR_vCast_Core_BatchType_CAVE_2D
-  commentId: F:Votanic.vXR.vCast.Core.BatchType.CAVE_2D
-  fullName: Votanic.vXR.vCast.Core.BatchType.CAVE_2D
-  nameWithType: BatchType.CAVE_2D
-- uid: Votanic.vXR.vCast.Core.BatchType.CAVE_2D_FixPoint
-  name: CAVE_2D_FixPoint
-  href: api/Votanic.vXR.vCast.Core.BatchType.html#Votanic_vXR_vCast_Core_BatchType_CAVE_2D_FixPoint
-  commentId: F:Votanic.vXR.vCast.Core.BatchType.CAVE_2D_FixPoint
-  fullName: Votanic.vXR.vCast.Core.BatchType.CAVE_2D_FixPoint
-  nameWithType: BatchType.CAVE_2D_FixPoint
-- uid: Votanic.vXR.vCast.Core.BatchType.CAVE_FixPoint
-  name: CAVE_FixPoint
-  href: api/Votanic.vXR.vCast.Core.BatchType.html#Votanic_vXR_vCast_Core_BatchType_CAVE_FixPoint
-  commentId: F:Votanic.vXR.vCast.Core.BatchType.CAVE_FixPoint
-  fullName: Votanic.vXR.vCast.Core.BatchType.CAVE_FixPoint
-  nameWithType: BatchType.CAVE_FixPoint
 - uid: Votanic.vXR.vCast.Core.BatchType.CUSTOM
   name: CUSTOM
   href: api/Votanic.vXR.vCast.Core.BatchType.html#Votanic_vXR_vCast_Core_BatchType_CUSTOM
@@ -7381,30 +7477,12 @@ references:
   commentId: F:Votanic.vXR.vCast.Core.BatchType.DOME
   fullName: Votanic.vXR.vCast.Core.BatchType.DOME
   nameWithType: BatchType.DOME
-- uid: Votanic.vXR.vCast.Core.BatchType.DOME_Full
-  name: DOME_Full
-  href: api/Votanic.vXR.vCast.Core.BatchType.html#Votanic_vXR_vCast_Core_BatchType_DOME_Full
-  commentId: F:Votanic.vXR.vCast.Core.BatchType.DOME_Full
-  fullName: Votanic.vXR.vCast.Core.BatchType.DOME_Full
-  nameWithType: BatchType.DOME_Full
 - uid: Votanic.vXR.vCast.Core.BatchType.HMD
   name: HMD
   href: api/Votanic.vXR.vCast.Core.BatchType.html#Votanic_vXR_vCast_Core_BatchType_HMD
   commentId: F:Votanic.vXR.vCast.Core.BatchType.HMD
   fullName: Votanic.vXR.vCast.Core.BatchType.HMD
   nameWithType: BatchType.HMD
-- uid: Votanic.vXR.vCast.Core.BatchType.HTCVIVE
-  name: HTCVIVE
-  href: api/Votanic.vXR.vCast.Core.BatchType.html#Votanic_vXR_vCast_Core_BatchType_HTCVIVE
-  commentId: F:Votanic.vXR.vCast.Core.BatchType.HTCVIVE
-  fullName: Votanic.vXR.vCast.Core.BatchType.HTCVIVE
-  nameWithType: BatchType.HTCVIVE
-- uid: Votanic.vXR.vCast.Core.BatchType.OCULUS
-  name: OCULUS
-  href: api/Votanic.vXR.vCast.Core.BatchType.html#Votanic_vXR_vCast_Core_BatchType_OCULUS
-  commentId: F:Votanic.vXR.vCast.Core.BatchType.OCULUS
-  fullName: Votanic.vXR.vCast.Core.BatchType.OCULUS
-  nameWithType: BatchType.OCULUS
 - uid: Votanic.vXR.vCast.Core.BatchType.PC
   name: PC
   href: api/Votanic.vXR.vCast.Core.BatchType.html#Votanic_vXR_vCast_Core_BatchType_PC
@@ -7417,12 +7495,6 @@ references:
   commentId: F:Votanic.vXR.vCast.Core.BatchType.PC_3D
   fullName: Votanic.vXR.vCast.Core.BatchType.PC_3D
   nameWithType: BatchType.PC_3D
-- uid: Votanic.vXR.vCast.Core.BatchType.VALVE
-  name: VALVE
-  href: api/Votanic.vXR.vCast.Core.BatchType.html#Votanic_vXR_vCast_Core_BatchType_VALVE
-  commentId: F:Votanic.vXR.vCast.Core.BatchType.VALVE
-  fullName: Votanic.vXR.vCast.Core.BatchType.VALVE
-  nameWithType: BatchType.VALVE
 - uid: Votanic.vXR.vCast.Core.Camera
   name: Camera
   href: api/Votanic.vXR.vCast.Core.Camera.html
@@ -8010,6 +8082,36 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.Core.Screen.width
   nameWithType: Screen.width
+- uid: Votanic.vXR.vCast.Core.ShowReference
+  name: ShowReference
+  href: api/Votanic.vXR.vCast.Core.ShowReference.html
+  commentId: T:Votanic.vXR.vCast.Core.ShowReference
+  fullName: Votanic.vXR.vCast.Core.ShowReference
+  nameWithType: ShowReference
+- uid: Votanic.vXR.vCast.Core.ShowReference.Anytime
+  name: Anytime
+  href: api/Votanic.vXR.vCast.Core.ShowReference.html#Votanic_vXR_vCast_Core_ShowReference_Anytime
+  commentId: F:Votanic.vXR.vCast.Core.ShowReference.Anytime
+  fullName: Votanic.vXR.vCast.Core.ShowReference.Anytime
+  nameWithType: ShowReference.Anytime
+- uid: Votanic.vXR.vCast.Core.ShowReference.Disable
+  name: Disable
+  href: api/Votanic.vXR.vCast.Core.ShowReference.html#Votanic_vXR_vCast_Core_ShowReference_Disable
+  commentId: F:Votanic.vXR.vCast.Core.ShowReference.Disable
+  fullName: Votanic.vXR.vCast.Core.ShowReference.Disable
+  nameWithType: ShowReference.Disable
+- uid: Votanic.vXR.vCast.Core.ShowReference.EditMode
+  name: EditMode
+  href: api/Votanic.vXR.vCast.Core.ShowReference.html#Votanic_vXR_vCast_Core_ShowReference_EditMode
+  commentId: F:Votanic.vXR.vCast.Core.ShowReference.EditMode
+  fullName: Votanic.vXR.vCast.Core.ShowReference.EditMode
+  nameWithType: ShowReference.EditMode
+- uid: Votanic.vXR.vCast.Core.ShowReference.PlayMode
+  name: PlayMode
+  href: api/Votanic.vXR.vCast.Core.ShowReference.html#Votanic_vXR_vCast_Core_ShowReference_PlayMode
+  commentId: F:Votanic.vXR.vCast.Core.ShowReference.PlayMode
+  fullName: Votanic.vXR.vCast.Core.ShowReference.PlayMode
+  nameWithType: ShowReference.PlayMode
 - uid: Votanic.vXR.vCast.Core.SystemType
   name: SystemType
   href: api/Votanic.vXR.vCast.Core.SystemType.html
@@ -8180,6 +8282,12 @@ references:
   commentId: F:Votanic.vXR.vCast.Essential.faderPrefab
   fullName: Votanic.vXR.vCast.Essential.faderPrefab
   nameWithType: Essential.faderPrefab
+- uid: Votanic.vXR.vCast.Essential.fisheye
+  name: fisheye
+  href: api/Votanic.vXR.vCast.Essential.html#Votanic_vXR_vCast_Essential_fisheye
+  commentId: F:Votanic.vXR.vCast.Essential.fisheye
+  fullName: Votanic.vXR.vCast.Essential.fisheye
+  nameWithType: Essential.fisheye
 - uid: Votanic.vXR.vCast.Essential.info
   name: info
   href: api/Votanic.vXR.vCast.Essential.html#Votanic_vXR_vCast_Essential_info
@@ -8462,6 +8570,12 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast.autoKill
   fullName: Votanic.vXR.vCast.vCast.autoKill
   nameWithType: vCast.autoKill
+- uid: Votanic.vXR.vCast.vCast.autoReceiveCommand
+  name: autoReceiveCommand
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_autoReceiveCommand
+  commentId: F:Votanic.vXR.vCast.vCast.autoReceiveCommand
+  fullName: Votanic.vXR.vCast.vCast.autoReceiveCommand
+  nameWithType: vCast.autoReceiveCommand
 - uid: Votanic.vXR.vCast.vCast.batches
   name: batches
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_batches
@@ -10887,6 +11001,18 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_Controller.wand
   nameWithType: vCast_Controller.wand
+- uid: Votanic.vXR.vCast.vCast_Dome
+  name: vCast_Dome
+  href: api/Votanic.vXR.vCast.vCast_Dome.html
+  commentId: T:Votanic.vXR.vCast.vCast_Dome
+  fullName: Votanic.vXR.vCast.vCast_Dome
+  nameWithType: vCast_Dome
+- uid: Votanic.vXR.vCast.vCast_Dome.displayUI
+  name: displayUI
+  href: api/Votanic.vXR.vCast.vCast_Dome.html#Votanic_vXR_vCast_vCast_Dome_displayUI
+  commentId: F:Votanic.vXR.vCast.vCast_Dome.displayUI
+  fullName: Votanic.vXR.vCast.vCast_Dome.displayUI
+  nameWithType: vCast_Dome.displayUI
 - uid: Votanic.vXR.vCast.vCast_Fader
   name: vCast_Fader
   href: api/Votanic.vXR.vCast.vCast_Fader.html
@@ -12349,6 +12475,12 @@ references:
   commentId: F:Votanic.vXR.vGear.Scenario.Action.type
   fullName: Votanic.vXR.vGear.Scenario.Action.type
   nameWithType: Action.type
+- uid: Votanic.vXR.vGear.Scenario.Action.unityEvent
+  name: unityEvent
+  href: api/Votanic.vXR.vGear.Scenario.Action.html#Votanic_vXR_vGear_Scenario_Action_unityEvent
+  commentId: F:Votanic.vXR.vGear.Scenario.Action.unityEvent
+  fullName: Votanic.vXR.vGear.Scenario.Action.unityEvent
+  nameWithType: Action.unityEvent
 - uid: Votanic.vXR.vGear.Scenario.Action.value
   name: value
   href: api/Votanic.vXR.vGear.Scenario.Action.html#Votanic_vXR_vGear_Scenario_Action_value
@@ -12494,6 +12626,12 @@ references:
   commentId: F:Votanic.vXR.vGear.Scenario.ActionType.UI
   fullName: Votanic.vXR.vGear.Scenario.ActionType.UI
   nameWithType: ActionType.UI
+- uid: Votanic.vXR.vGear.Scenario.ActionType.UnityEvent
+  name: UnityEvent
+  href: api/Votanic.vXR.vGear.Scenario.ActionType.html#Votanic_vXR_vGear_Scenario_ActionType_UnityEvent
+  commentId: F:Votanic.vXR.vGear.Scenario.ActionType.UnityEvent
+  fullName: Votanic.vXR.vGear.Scenario.ActionType.UnityEvent
+  nameWithType: ActionType.UnityEvent
 - uid: Votanic.vXR.vGear.Scenario.Behaviour
   name: Behaviour
   href: api/Votanic.vXR.vGear.Scenario.Behaviour.html
@@ -14306,18 +14444,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Interactables.LateUpdate
   nameWithType: vGear_Interactables.LateUpdate
-- uid: Votanic.vXR.vGear.vGear_Interactables.mediaPlayer
-  name: mediaPlayer
-  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_mediaPlayer
-  commentId: F:Votanic.vXR.vGear.vGear_Interactables.mediaPlayer
-  fullName: Votanic.vXR.vGear.vGear_Interactables.mediaPlayer
-  nameWithType: vGear_Interactables.mediaPlayer
-- uid: Votanic.vXR.vGear.vGear_Interactables.panel
-  name: panel
-  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_panel
-  commentId: F:Votanic.vXR.vGear.vGear_Interactables.panel
-  fullName: Votanic.vXR.vGear.vGear_Interactables.panel
-  nameWithType: vGear_Interactables.panel
 - uid: Votanic.vXR.vGear.vGear_Landing
   name: vGear_Landing
   href: api/Votanic.vXR.vGear.vGear_Landing.html
