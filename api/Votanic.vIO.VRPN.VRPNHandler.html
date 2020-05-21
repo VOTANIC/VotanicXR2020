@@ -248,7 +248,7 @@ public class VRPNHandler : Element</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AxisDown(int index, AxisDirection direction = AxisDirection.Any, int axes = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AxisDown(int index, AxisDirection direction = AxisDirection.Any, int deviceIndex = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -274,7 +274,7 @@ public class VRPNHandler : Element</code></pre>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">axes</span></td>
+        <td><span class="parametername">deviceIndex</span></td>
         <td><p>Axes index <br> 軸群編號</p>
 </td>
       </tr>
@@ -318,7 +318,7 @@ public class VRPNHandler : Element</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AxisHold(int index, AxisDirection direction = AxisDirection.Any, int axes = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AxisHold(int index, AxisDirection direction = AxisDirection.Any, int deviceIndex = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -344,7 +344,7 @@ public class VRPNHandler : Element</code></pre>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">axes</span></td>
+        <td><span class="parametername">deviceIndex</span></td>
         <td><p>Axes index <br> 軸群編號</p>
 </td>
       </tr>
@@ -388,7 +388,7 @@ public class VRPNHandler : Element</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AxisPress(int index, AxisDirection direction = AxisDirection.Any, int axes = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AxisPress(int index, AxisDirection direction = AxisDirection.Any, int deviceIndex = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -414,7 +414,7 @@ public class VRPNHandler : Element</code></pre>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">axes</span></td>
+        <td><span class="parametername">deviceIndex</span></td>
         <td><p>Axes index <br> 軸群編號</p>
 </td>
       </tr>
@@ -458,7 +458,7 @@ public class VRPNHandler : Element</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AxisUp(int index, AxisDirection direction = AxisDirection.Any, int axes = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AxisUp(int index, AxisDirection direction = AxisDirection.Any, int deviceIndex = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -484,7 +484,7 @@ public class VRPNHandler : Element</code></pre>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">axes</span></td>
+        <td><span class="parametername">deviceIndex</span></td>
         <td><p>Axes index <br> 軸群編號</p>
 </td>
       </tr>
@@ -528,7 +528,7 @@ public class VRPNHandler : Element</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float AxisValue(int index, int axes = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public float AxisValue(int index, int deviceIndex = 0, bool reversed = false, AssistButtons assistButtons = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -548,7 +548,7 @@ public class VRPNHandler : Element</code></pre>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">axes</span></td>
+        <td><span class="parametername">deviceIndex</span></td>
         <td><p>Axes index <br> 軸群編號</p>
 </td>
       </tr>
@@ -592,7 +592,7 @@ public class VRPNHandler : Element</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ButtonDown(int index, int buttons = 0, bool reversed = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ButtonDown(int index, int deviceIndex = 0, bool reversed = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -612,7 +612,7 @@ public class VRPNHandler : Element</code></pre>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">buttons</span></td>
+        <td><span class="parametername">deviceIndex</span></td>
         <td><p>Buttons index <br> 按鈕群編號</p>
 </td>
       </tr>
@@ -650,7 +650,7 @@ public class VRPNHandler : Element</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ButtonHold(int index, int buttons = 0, bool reversed = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ButtonHold(int index, int deviceIndex = 0, bool reversed = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -670,7 +670,7 @@ public class VRPNHandler : Element</code></pre>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">buttons</span></td>
+        <td><span class="parametername">deviceIndex</span></td>
         <td><p>Buttons index <br> 按鈕群編號</p>
 </td>
       </tr>
@@ -708,7 +708,7 @@ public class VRPNHandler : Element</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ButtonPress(int index, int buttons = 0, bool reversed = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ButtonPress(int index, int deviceIndex = 0, bool reversed = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -728,7 +728,7 @@ public class VRPNHandler : Element</code></pre>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">buttons</span></td>
+        <td><span class="parametername">deviceIndex</span></td>
         <td><p>Buttons index <br> 按鈕群編號</p>
 </td>
       </tr>
@@ -766,7 +766,7 @@ public class VRPNHandler : Element</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ButtonUp(int index, int buttons = 0, bool reversed = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ButtonUp(int index, int deviceIndex = 0, bool reversed = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -786,7 +786,7 @@ public class VRPNHandler : Element</code></pre>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">buttons</span></td>
+        <td><span class="parametername">deviceIndex</span></td>
         <td><p>Buttons index <br> 按鈕群編號</p>
 </td>
       </tr>

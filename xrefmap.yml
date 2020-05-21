@@ -6947,6 +6947,36 @@ references:
   commentId: N:Votanic.vXR
   fullName: Votanic.vXR
   nameWithType: Votanic.vXR
+- uid: Votanic.vXR.CustomDuration
+  name: CustomDuration
+  href: api/Votanic.vXR.CustomDuration.html
+  commentId: T:Votanic.vXR.CustomDuration
+  fullName: Votanic.vXR.CustomDuration
+  nameWithType: CustomDuration
+- uid: Votanic.vXR.CustomDuration.customForInteractor
+  name: customForInteractor
+  href: api/Votanic.vXR.CustomDuration.html#Votanic_vXR_CustomDuration_customForInteractor
+  commentId: F:Votanic.vXR.CustomDuration.customForInteractor
+  fullName: Votanic.vXR.CustomDuration.customForInteractor
+  nameWithType: CustomDuration.customForInteractor
+- uid: Votanic.vXR.CustomDuration.customForVision
+  name: customForVision
+  href: api/Votanic.vXR.CustomDuration.html#Votanic_vXR_CustomDuration_customForVision
+  commentId: F:Votanic.vXR.CustomDuration.customForVision
+  fullName: Votanic.vXR.CustomDuration.customForVision
+  nameWithType: CustomDuration.customForVision
+- uid: Votanic.vXR.CustomDuration.interactorDuration
+  name: interactorDuration
+  href: api/Votanic.vXR.CustomDuration.html#Votanic_vXR_CustomDuration_interactorDuration
+  commentId: F:Votanic.vXR.CustomDuration.interactorDuration
+  fullName: Votanic.vXR.CustomDuration.interactorDuration
+  nameWithType: CustomDuration.interactorDuration
+- uid: Votanic.vXR.CustomDuration.visionDuration
+  name: visionDuration
+  href: api/Votanic.vXR.CustomDuration.html#Votanic_vXR_CustomDuration_visionDuration
+  commentId: F:Votanic.vXR.CustomDuration.visionDuration
+  fullName: Votanic.vXR.CustomDuration.visionDuration
+  nameWithType: CustomDuration.visionDuration
 - uid: Votanic.vXR.GrabSetting
   name: GrabSetting
   href: api/Votanic.vXR.GrabSetting.html
@@ -8660,12 +8690,12 @@ references:
   commentId: T:Votanic.vXR.vCast.vCast.Ctrl
   fullName: Votanic.vXR.vCast.vCast.Ctrl
   nameWithType: vCast.Ctrl
-- uid: Votanic.vXR.vCast.vCast.Ctrl.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Int32)
-  name: AxisDown(Int32, AxisDirection, Int32)
-  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisDown_System_Int32_Votanic_vIO_AxisDirection_System_Int32_
-  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Int32)
-  fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisDown(System.Int32, Votanic.vIO.AxisDirection, System.Int32)
-  nameWithType: vCast.Ctrl.AxisDown(Int32, AxisDirection, Int32)
+- uid: Votanic.vXR.vCast.vCast.Ctrl.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean)
+  name: AxisDown(Int32, AxisDirection, Int32, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisDown_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisDown(System.Int32, Votanic.vIO.AxisDirection, System.Int32, System.Boolean)
+  nameWithType: vCast.Ctrl.AxisDown(Int32, AxisDirection, Int32, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Ctrl.AxisDown*
   name: AxisDown
   href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisDown_
@@ -8673,12 +8703,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisDown
   nameWithType: vCast.Ctrl.AxisDown
-- uid: Votanic.vXR.vCast.vCast.Ctrl.AxisHold(System.Int32,Votanic.vIO.AxisDirection,System.Int32)
-  name: AxisHold(Int32, AxisDirection, Int32)
-  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisHold_System_Int32_Votanic_vIO_AxisDirection_System_Int32_
-  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.AxisHold(System.Int32,Votanic.vIO.AxisDirection,System.Int32)
-  fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisHold(System.Int32, Votanic.vIO.AxisDirection, System.Int32)
-  nameWithType: vCast.Ctrl.AxisHold(Int32, AxisDirection, Int32)
+- uid: Votanic.vXR.vCast.vCast.Ctrl.AxisHold(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean)
+  name: AxisHold(Int32, AxisDirection, Int32, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisHold_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.AxisHold(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisHold(System.Int32, Votanic.vIO.AxisDirection, System.Int32, System.Boolean)
+  nameWithType: vCast.Ctrl.AxisHold(Int32, AxisDirection, Int32, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Ctrl.AxisHold*
   name: AxisHold
   href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisHold_
@@ -8686,12 +8716,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisHold
   nameWithType: vCast.Ctrl.AxisHold
-- uid: Votanic.vXR.vCast.vCast.Ctrl.AxisPress(System.Int32,Votanic.vIO.AxisDirection,System.Int32)
-  name: AxisPress(Int32, AxisDirection, Int32)
-  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisPress_System_Int32_Votanic_vIO_AxisDirection_System_Int32_
-  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.AxisPress(System.Int32,Votanic.vIO.AxisDirection,System.Int32)
-  fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisPress(System.Int32, Votanic.vIO.AxisDirection, System.Int32)
-  nameWithType: vCast.Ctrl.AxisPress(Int32, AxisDirection, Int32)
+- uid: Votanic.vXR.vCast.vCast.Ctrl.AxisPress(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean)
+  name: AxisPress(Int32, AxisDirection, Int32, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisPress_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.AxisPress(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisPress(System.Int32, Votanic.vIO.AxisDirection, System.Int32, System.Boolean)
+  nameWithType: vCast.Ctrl.AxisPress(Int32, AxisDirection, Int32, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Ctrl.AxisPress*
   name: AxisPress
   href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisPress_
@@ -8699,12 +8729,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisPress
   nameWithType: vCast.Ctrl.AxisPress
-- uid: Votanic.vXR.vCast.vCast.Ctrl.AxisUp(System.Int32,Votanic.vIO.AxisDirection,System.Int32)
-  name: AxisUp(Int32, AxisDirection, Int32)
-  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisUp_System_Int32_Votanic_vIO_AxisDirection_System_Int32_
-  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.AxisUp(System.Int32,Votanic.vIO.AxisDirection,System.Int32)
-  fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisUp(System.Int32, Votanic.vIO.AxisDirection, System.Int32)
-  nameWithType: vCast.Ctrl.AxisUp(Int32, AxisDirection, Int32)
+- uid: Votanic.vXR.vCast.vCast.Ctrl.AxisUp(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean)
+  name: AxisUp(Int32, AxisDirection, Int32, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisUp_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.AxisUp(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisUp(System.Int32, Votanic.vIO.AxisDirection, System.Int32, System.Boolean)
+  nameWithType: vCast.Ctrl.AxisUp(Int32, AxisDirection, Int32, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Ctrl.AxisUp*
   name: AxisUp
   href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisUp_
@@ -8712,12 +8742,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisUp
   nameWithType: vCast.Ctrl.AxisUp
-- uid: Votanic.vXR.vCast.vCast.Ctrl.AxisValue(System.Int32,System.Int32)
-  name: AxisValue(Int32, Int32)
-  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisValue_System_Int32_System_Int32_
-  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.AxisValue(System.Int32,System.Int32)
-  fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisValue(System.Int32, System.Int32)
-  nameWithType: vCast.Ctrl.AxisValue(Int32, Int32)
+- uid: Votanic.vXR.vCast.vCast.Ctrl.AxisValue(System.Int32,System.Int32,System.Boolean)
+  name: AxisValue(Int32, Int32, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisValue_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.AxisValue(System.Int32,System.Int32,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisValue(System.Int32, System.Int32, System.Boolean)
+  nameWithType: vCast.Ctrl.AxisValue(Int32, Int32, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Ctrl.AxisValue*
   name: AxisValue
   href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_AxisValue_
@@ -8725,12 +8755,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Ctrl.AxisValue
   nameWithType: vCast.Ctrl.AxisValue
-- uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonDown(System.Int32,System.Int32)
-  name: ButtonDown(Int32, Int32)
-  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonDown_System_Int32_System_Int32_
-  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.ButtonDown(System.Int32,System.Int32)
-  fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonDown(System.Int32, System.Int32)
-  nameWithType: vCast.Ctrl.ButtonDown(Int32, Int32)
+- uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonDown(System.Int32,System.Int32,System.Boolean)
+  name: ButtonDown(Int32, Int32, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonDown_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.ButtonDown(System.Int32,System.Int32,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonDown(System.Int32, System.Int32, System.Boolean)
+  nameWithType: vCast.Ctrl.ButtonDown(Int32, Int32, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonDown*
   name: ButtonDown
   href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonDown_
@@ -8738,12 +8768,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonDown
   nameWithType: vCast.Ctrl.ButtonDown
-- uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonHold(System.Int32,System.Int32)
-  name: ButtonHold(Int32, Int32)
-  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonHold_System_Int32_System_Int32_
-  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.ButtonHold(System.Int32,System.Int32)
-  fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonHold(System.Int32, System.Int32)
-  nameWithType: vCast.Ctrl.ButtonHold(Int32, Int32)
+- uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonHold(System.Int32,System.Int32,System.Boolean)
+  name: ButtonHold(Int32, Int32, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonHold_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.ButtonHold(System.Int32,System.Int32,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonHold(System.Int32, System.Int32, System.Boolean)
+  nameWithType: vCast.Ctrl.ButtonHold(Int32, Int32, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonHold*
   name: ButtonHold
   href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonHold_
@@ -8751,12 +8781,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonHold
   nameWithType: vCast.Ctrl.ButtonHold
-- uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonPress(System.Int32,System.Int32)
-  name: ButtonPress(Int32, Int32)
-  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonPress_System_Int32_System_Int32_
-  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.ButtonPress(System.Int32,System.Int32)
-  fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonPress(System.Int32, System.Int32)
-  nameWithType: vCast.Ctrl.ButtonPress(Int32, Int32)
+- uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonPress(System.Int32,System.Int32,System.Boolean)
+  name: ButtonPress(Int32, Int32, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonPress_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.ButtonPress(System.Int32,System.Int32,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonPress(System.Int32, System.Int32, System.Boolean)
+  nameWithType: vCast.Ctrl.ButtonPress(Int32, Int32, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonPress*
   name: ButtonPress
   href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonPress_
@@ -8764,12 +8794,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonPress
   nameWithType: vCast.Ctrl.ButtonPress
-- uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonTouch(System.Int32,System.Int32)
-  name: ButtonTouch(Int32, Int32)
-  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonTouch_System_Int32_System_Int32_
-  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.ButtonTouch(System.Int32,System.Int32)
-  fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonTouch(System.Int32, System.Int32)
-  nameWithType: vCast.Ctrl.ButtonTouch(Int32, Int32)
+- uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonTouch(System.Int32,System.Int32,System.Boolean)
+  name: ButtonTouch(Int32, Int32, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonTouch_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.ButtonTouch(System.Int32,System.Int32,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonTouch(System.Int32, System.Int32, System.Boolean)
+  nameWithType: vCast.Ctrl.ButtonTouch(Int32, Int32, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonTouch*
   name: ButtonTouch
   href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonTouch_
@@ -8777,12 +8807,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonTouch
   nameWithType: vCast.Ctrl.ButtonTouch
-- uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonUp(System.Int32,System.Int32)
-  name: ButtonUp(Int32, Int32)
-  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonUp_System_Int32_System_Int32_
-  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.ButtonUp(System.Int32,System.Int32)
-  fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonUp(System.Int32, System.Int32)
-  nameWithType: vCast.Ctrl.ButtonUp(Int32, Int32)
+- uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonUp(System.Int32,System.Int32,System.Boolean)
+  name: ButtonUp(Int32, Int32, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonUp_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Ctrl.ButtonUp(System.Int32,System.Int32,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Ctrl.ButtonUp(System.Int32, System.Int32, System.Boolean)
+  nameWithType: vCast.Ctrl.ButtonUp(Int32, Int32, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Ctrl.ButtonUp*
   name: ButtonUp
   href: api/Votanic.vXR.vCast.vCast.Ctrl.html#Votanic_vXR_vCast_vCast_Ctrl_ButtonUp_
@@ -11091,6 +11121,12 @@ references:
   commentId: T:Votanic.vXR.vCast.vCast_Interactables
   fullName: Votanic.vXR.vCast.vCast_Interactables
   nameWithType: vCast_Interactables
+- uid: Votanic.vXR.vCast.vCast_Interactables.customDuration
+  name: customDuration
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_customDuration
+  commentId: F:Votanic.vXR.vCast.vCast_Interactables.customDuration
+  fullName: Votanic.vXR.vCast.vCast_Interactables.customDuration
+  nameWithType: vCast_Interactables.customDuration
 - uid: Votanic.vXR.vCast.vCast_Interactables.grabbables
   name: grabbables
   href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_grabbables
@@ -11224,6 +11260,25 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_Interactables.OnTriggerExit
   nameWithType: vCast_Interactables.OnTriggerExit
+- uid: Votanic.vXR.vCast.vCast_Interactables.SetParent(UnityEngine.Transform)
+  name: SetParent(Transform)
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_SetParent_UnityEngine_Transform_
+  commentId: M:Votanic.vXR.vCast.vCast_Interactables.SetParent(UnityEngine.Transform)
+  fullName: Votanic.vXR.vCast.vCast_Interactables.SetParent(UnityEngine.Transform)
+  nameWithType: vCast_Interactables.SetParent(Transform)
+- uid: Votanic.vXR.vCast.vCast_Interactables.SetParent(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+  name: SetParent(Transform, Vector3, Vector3)
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_SetParent_UnityEngine_Transform_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:Votanic.vXR.vCast.vCast_Interactables.SetParent(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+  fullName: Votanic.vXR.vCast.vCast_Interactables.SetParent(UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: vCast_Interactables.SetParent(Transform, Vector3, Vector3)
+- uid: Votanic.vXR.vCast.vCast_Interactables.SetParent*
+  name: SetParent
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_SetParent_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Interactables.SetParent
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Interactables.SetParent
+  nameWithType: vCast_Interactables.SetParent
 - uid: Votanic.vXR.vCast.vCast_Interactables.Start
   name: Start()
   href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Start
@@ -14317,6 +14372,12 @@ references:
   commentId: T:Votanic.vXR.vGear.vGear_Interactables
   fullName: Votanic.vXR.vGear.vGear_Interactables
   nameWithType: vGear_Interactables
+- uid: Votanic.vXR.vGear.vGear_Interactables.colliderDetection
+  name: colliderDetection
+  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_colliderDetection
+  commentId: F:Votanic.vXR.vGear.vGear_Interactables.colliderDetection
+  fullName: Votanic.vXR.vGear.vGear_Interactables.colliderDetection
+  nameWithType: vGear_Interactables.colliderDetection
 - uid: Votanic.vXR.vGear.vGear_Interactables.interactions
   name: interactions
   href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_interactions
@@ -14336,6 +14397,58 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Interactables.LateUpdate
   nameWithType: vGear_Interactables.LateUpdate
+- uid: Votanic.vXR.vGear.vGear_Interactables.OnCollisionEnter(UnityEngine.Collision)
+  name: OnCollisionEnter(Collision)
+  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_OnCollisionEnter_UnityEngine_Collision_
+  commentId: M:Votanic.vXR.vGear.vGear_Interactables.OnCollisionEnter(UnityEngine.Collision)
+  fullName: Votanic.vXR.vGear.vGear_Interactables.OnCollisionEnter(UnityEngine.Collision)
+  nameWithType: vGear_Interactables.OnCollisionEnter(Collision)
+- uid: Votanic.vXR.vGear.vGear_Interactables.OnCollisionEnter*
+  name: OnCollisionEnter
+  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_OnCollisionEnter_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Interactables.OnCollisionEnter
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Interactables.OnCollisionEnter
+  nameWithType: vGear_Interactables.OnCollisionEnter
+- uid: Votanic.vXR.vGear.vGear_Interactables.OnCollisionExit(UnityEngine.Collision)
+  name: OnCollisionExit(Collision)
+  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_OnCollisionExit_UnityEngine_Collision_
+  commentId: M:Votanic.vXR.vGear.vGear_Interactables.OnCollisionExit(UnityEngine.Collision)
+  fullName: Votanic.vXR.vGear.vGear_Interactables.OnCollisionExit(UnityEngine.Collision)
+  nameWithType: vGear_Interactables.OnCollisionExit(Collision)
+- uid: Votanic.vXR.vGear.vGear_Interactables.OnCollisionExit*
+  name: OnCollisionExit
+  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_OnCollisionExit_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Interactables.OnCollisionExit
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Interactables.OnCollisionExit
+  nameWithType: vGear_Interactables.OnCollisionExit
+- uid: Votanic.vXR.vGear.vGear_Interactables.OnTriggerEnter(UnityEngine.Collider)
+  name: OnTriggerEnter(Collider)
+  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_OnTriggerEnter_UnityEngine_Collider_
+  commentId: M:Votanic.vXR.vGear.vGear_Interactables.OnTriggerEnter(UnityEngine.Collider)
+  fullName: Votanic.vXR.vGear.vGear_Interactables.OnTriggerEnter(UnityEngine.Collider)
+  nameWithType: vGear_Interactables.OnTriggerEnter(Collider)
+- uid: Votanic.vXR.vGear.vGear_Interactables.OnTriggerEnter*
+  name: OnTriggerEnter
+  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_OnTriggerEnter_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Interactables.OnTriggerEnter
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Interactables.OnTriggerEnter
+  nameWithType: vGear_Interactables.OnTriggerEnter
+- uid: Votanic.vXR.vGear.vGear_Interactables.OnTriggerExit(UnityEngine.Collider)
+  name: OnTriggerExit(Collider)
+  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_OnTriggerExit_UnityEngine_Collider_
+  commentId: M:Votanic.vXR.vGear.vGear_Interactables.OnTriggerExit(UnityEngine.Collider)
+  fullName: Votanic.vXR.vGear.vGear_Interactables.OnTriggerExit(UnityEngine.Collider)
+  nameWithType: vGear_Interactables.OnTriggerExit(Collider)
+- uid: Votanic.vXR.vGear.vGear_Interactables.OnTriggerExit*
+  name: OnTriggerExit
+  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_OnTriggerExit_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Interactables.OnTriggerExit
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Interactables.OnTriggerExit
+  nameWithType: vGear_Interactables.OnTriggerExit
 - uid: Votanic.vXR.vGear.vGear_Landing
   name: vGear_Landing
   href: api/Votanic.vXR.vGear.vGear_Landing.html
@@ -14621,6 +14734,18 @@ references:
   commentId: M:Votanic.vXR.vGear.vGear_Panel.Open
   fullName: Votanic.vXR.vGear.vGear_Panel.Open()
   nameWithType: vGear_Panel.Open()
+- uid: Votanic.vXR.vGear.vGear_Panel.Open(UnityEngine.Transform)
+  name: Open(Transform)
+  href: api/Votanic.vXR.vGear.vGear_Panel.html#Votanic_vXR_vGear_vGear_Panel_Open_UnityEngine_Transform_
+  commentId: M:Votanic.vXR.vGear.vGear_Panel.Open(UnityEngine.Transform)
+  fullName: Votanic.vXR.vGear.vGear_Panel.Open(UnityEngine.Transform)
+  nameWithType: vGear_Panel.Open(Transform)
+- uid: Votanic.vXR.vGear.vGear_Panel.Open(UnityEngine.Vector3,UnityEngine.Vector3)
+  name: Open(Vector3, Vector3)
+  href: api/Votanic.vXR.vGear.vGear_Panel.html#Votanic_vXR_vGear_vGear_Panel_Open_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:Votanic.vXR.vGear.vGear_Panel.Open(UnityEngine.Vector3,UnityEngine.Vector3)
+  fullName: Votanic.vXR.vGear.vGear_Panel.Open(UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: vGear_Panel.Open(Vector3, Vector3)
 - uid: Votanic.vXR.vGear.vGear_Panel.Open*
   name: Open
   href: api/Votanic.vXR.vGear.vGear_Panel.html#Votanic_vXR_vGear_vGear_Panel_Open_
@@ -14767,12 +14892,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Positioner.SetTargets
   nameWithType: vGear_Positioner.SetTargets
-- uid: Votanic.vXR.vGear.vGear_Positioner.Show
-  name: Show()
-  href: api/Votanic.vXR.vGear.vGear_Positioner.html#Votanic_vXR_vGear_vGear_Positioner_Show
-  commentId: M:Votanic.vXR.vGear.vGear_Positioner.Show
-  fullName: Votanic.vXR.vGear.vGear_Positioner.Show()
-  nameWithType: vGear_Positioner.Show()
+- uid: Votanic.vXR.vGear.vGear_Positioner.Show(System.Boolean)
+  name: Show(Boolean)
+  href: api/Votanic.vXR.vGear.vGear_Positioner.html#Votanic_vXR_vGear_vGear_Positioner_Show_System_Boolean_
+  commentId: M:Votanic.vXR.vGear.vGear_Positioner.Show(System.Boolean)
+  fullName: Votanic.vXR.vGear.vGear_Positioner.Show(System.Boolean)
+  nameWithType: vGear_Positioner.Show(Boolean)
 - uid: Votanic.vXR.vGear.vGear_Positioner.Show(UnityEngine.Transform,System.Boolean)
   name: Show(Transform, Boolean)
   href: api/Votanic.vXR.vGear.vGear_Positioner.html#Votanic_vXR_vGear_vGear_Positioner_Show_UnityEngine_Transform_System_Boolean_
