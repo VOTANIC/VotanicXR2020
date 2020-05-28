@@ -155,7 +155,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Move(Vector3 position, bool resetUserToFrame = true, bool setUserToGround = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Move(Vector3 position, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,8 +181,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setUserToGround</span></td>
-        <td><p>Adjust user height level to destination ground <br> 將使用者高度調整至目標地面</p>
+        <td><span class="parametername">setUserToFloor</span></td>
+        <td><p>Adjust user height level to destination floor <br> 將使用者高度調整至目標地板</p>
 </td>
       </tr>
       <tr>
@@ -204,7 +204,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Move(Vector3 position, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToGround = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Move(Vector3 position, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -266,8 +266,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setUserToGround</span></td>
-        <td><p>Adjust user height level to destination ground <br> 將使用者高度調整至目標地面</p>
+        <td><span class="parametername">setUserToFloor</span></td>
+        <td><p>Adjust user height level to destination floor <br> 將使用者高度調整至目標地板</p>
 </td>
       </tr>
       <tr>
@@ -289,7 +289,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Move(Vector3 position, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToGround = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Move(Vector3 position, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -327,8 +327,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setUserToGround</span></td>
-        <td><p>Adjust user height level to destination ground <br> 將使用者高度調整至目標地面</p>
+        <td><span class="parametername">setUserToFloor</span></td>
+        <td><p>Adjust user height level to destination floor <br> 將使用者高度調整至目標地板</p>
 </td>
       </tr>
       <tr>
@@ -362,7 +362,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Rotate(float angle, bool resetUserToFrame = true, bool setUserToGround = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Rotate(float angle, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -388,8 +388,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setUserToGround</span></td>
-        <td><p>Adjust user height level to destination ground <br> 將使用者高度調整至目標地面</p>
+        <td><span class="parametername">setUserToFloor</span></td>
+        <td><p>Adjust user height level to destination floor <br> 將使用者高度調整至目標地板</p>
 </td>
       </tr>
       <tr>
@@ -411,7 +411,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Rotate(float angle, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToGround = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Rotate(float angle, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -473,8 +473,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setUserToGround</span></td>
-        <td><p>Adjust user height level to destination ground <br> 將使用者高度調整至目標地面</p>
+        <td><span class="parametername">setUserToFloor</span></td>
+        <td><p>Adjust user height level to destination floor <br> 將使用者高度調整至目標地板</p>
 </td>
       </tr>
       <tr>
@@ -496,7 +496,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Rotate(float angle, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToGround = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Rotate(float angle, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -534,8 +534,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setUserToGround</span></td>
-        <td><p>Adjust user height level to destination ground <br> 將使用者高度調整至目標地面</p>
+        <td><span class="parametername">setUserToFloor</span></td>
+        <td><p>Adjust user height level to destination floor <br> 將使用者高度調整至目標地板</p>
 </td>
       </tr>
       <tr>
@@ -587,7 +587,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Transform(Transform target, bool resetUserToFrame = true, bool setUserToGround = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Transform(Transform target, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -613,8 +613,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setUserToGround</span></td>
-        <td><p>Adjust user height level to destination ground <br> 將使用者高度調整至目標地面</p>
+        <td><span class="parametername">setUserToFloor</span></td>
+        <td><p>Adjust user height level to destination floor <br> 將使用者高度調整至目標地板</p>
 </td>
       </tr>
       <tr>
@@ -636,7 +636,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Transform(Transform target, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToGround = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Transform(Transform target, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -698,8 +698,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setUserToGround</span></td>
-        <td><p>Adjust user height level to destination ground <br> 將使用者高度調整至目標地面</p>
+        <td><span class="parametername">setUserToFloor</span></td>
+        <td><p>Adjust user height level to destination floor <br> 將使用者高度調整至目標地板</p>
 </td>
       </tr>
       <tr>
@@ -721,7 +721,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Transform(Transform target, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToGround = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Transform(Transform target, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -759,8 +759,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setUserToGround</span></td>
-        <td><p>Adjust user height level to destination ground <br> 將使用者高度調整至目標地面</p>
+        <td><span class="parametername">setUserToFloor</span></td>
+        <td><p>Adjust user height level to destination floor <br> 將使用者高度調整至目標地板</p>
 </td>
       </tr>
       <tr>
@@ -782,7 +782,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Transform(Vector3 position, Vector3 eulerAngles, bool resetUserToFrame = true, bool setUserToGround = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Transform(Vector3 position, Vector3 eulerAngles, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -814,8 +814,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setUserToGround</span></td>
-        <td><p>Adjust user height level to destination ground <br> 將使用者高度調整至目標地面</p>
+        <td><span class="parametername">setUserToFloor</span></td>
+        <td><p>Adjust user height level to destination floor <br> 將使用者高度調整至目標地板</p>
 </td>
       </tr>
       <tr>
@@ -837,7 +837,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Transform(Vector3 position, Vector3 eulerAngles, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToGround = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Transform(Vector3 position, Vector3 eulerAngles, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -905,8 +905,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setUserToGround</span></td>
-        <td><p>Adjust user height level to destination ground <br> 將使用者高度調整至目標地面</p>
+        <td><span class="parametername">setUserToFloor</span></td>
+        <td><p>Adjust user height level to destination floor <br> 將使用者高度調整至目標地板</p>
 </td>
       </tr>
       <tr>
@@ -928,7 +928,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Transform(Vector3 position, Vector3 eulerAngles, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToGround = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Transform(Vector3 position, Vector3 eulerAngles, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -972,8 +972,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setUserToGround</span></td>
-        <td><p>Adjust user height level to destination ground <br> 將使用者高度調整至目標地面</p>
+        <td><span class="parametername">setUserToFloor</span></td>
+        <td><p>Adjust user height level to destination floor <br> 將使用者高度調整至目標地板</p>
 </td>
       </tr>
       <tr>

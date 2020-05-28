@@ -124,6 +124,32 @@ public class vCast_Interactables : MonoBehaviour</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vXR_vCast_vCast_Interactables_grabbables" data-uid="Votanic.vXR.vCast.vCast_Interactables.grabbables">grabbables</h4>
+  <div class="markdown level1 summary"><p>The grabble object when the interactables is grabbed. <br> 交互物被抓起時的被抓起物。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public Transform grabbables</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vXR_vCast_vCast_Interactables_grabSetting" data-uid="Votanic.vXR.vCast.vCast_Interactables.grabSetting">grabSetting</h4>
   <div class="markdown level1 summary"><p>Grab setting. <br> 抓起設定。</p>
 </div>
@@ -200,13 +226,13 @@ public class vCast_Interactables : MonoBehaviour</code></pre>
   
   
   <h4 id="Votanic_vXR_vCast_vCast_Interactables_interactive" data-uid="Votanic.vXR.vCast.vCast_Interactables.interactive">interactive</h4>
-  <div class="markdown level1 summary"><p>Return true if the interactables is interactive. <br> 當交互物可互動時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Interactive type of interactables. <br> 交互物的可互動類型。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
-public bool interactive</code></pre>
+public Interactive interactive</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -218,32 +244,7 @@ public bool interactive</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vCast_vCast_Interactables_isDisabled" data-uid="Votanic.vXR.vCast.vCast_Interactables.isDisabled">isDisabled</h4>
-  <div class="markdown level1 summary"><p>Return true if the interaction of interactables is disabled. <br> 當交互物不能互動時傳回 true。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isDisabled</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="Votanic.vXR.Interactive.html">Interactive</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -295,34 +296,6 @@ public bool isGrabbed</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Votanic_vXR_vCast_vCast_Interactables_grabbables_" data-uid="Votanic.vXR.vCast.vCast_Interactables.grabbables*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Interactables_grabbables" data-uid="Votanic.vXR.vCast.vCast_Interactables.grabbables">grabbables</h4>
-  <div class="markdown level1 summary"><p>The grabble object when the interactables is grabbed. <br> 交互物被抓起時的被抓起物。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform grabbables { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.Transform</span></td>
         <td></td>
       </tr>
     </tbody>

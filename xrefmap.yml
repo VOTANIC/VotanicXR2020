@@ -4079,6 +4079,18 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer360.dataPath
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.dataPath
   nameWithType: MediaPlayer360.dataPath
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.logo
+  name: logo
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_logo
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer360.logo
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.logo
+  nameWithType: MediaPlayer360.logo
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.logoElement
+  name: logoElement
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_logoElement
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer360.logoElement
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.logoElement
+  nameWithType: MediaPlayer360.logoElement
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.Pitch(System.Single)
   name: Pitch(Single)
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_Pitch_System_Single_
@@ -4092,6 +4104,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.Pitch
   nameWithType: MediaPlayer360.Pitch
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.pitcher
+  name: pitcher
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_pitcher
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer360.pitcher
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.pitcher
+  nameWithType: MediaPlayer360.pitcher
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.ResetAngles
   name: ResetAngles()
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_ResetAngles
@@ -4143,6 +4161,12 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer360.rotateSpeed
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.rotateSpeed
   nameWithType: MediaPlayer360.rotateSpeed
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.rotation
+  name: rotation
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_rotation
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer360.rotation
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.rotation
+  nameWithType: MediaPlayer360.rotation
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.Save
   name: Save()
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_Save
@@ -4181,6 +4205,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.SetLayers
   nameWithType: MediaPlayer360.SetLayers
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.SetRotation(System.Boolean)
+  name: SetRotation(Boolean)
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_SetRotation_System_Boolean_
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer360.SetRotation(System.Boolean)
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.SetRotation(System.Boolean)
+  nameWithType: MediaPlayer360.SetRotation(Boolean)
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.SetRotation*
+  name: SetRotation
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_SetRotation_
+  commentId: Overload:Votanic.vMedia.MediaPlayer.MediaPlayer360.SetRotation
+  isSpec: "True"
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.SetRotation
+  nameWithType: MediaPlayer360.SetRotation
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.SetStereoType
   name: SetStereoType()
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_SetStereoType
@@ -4200,6 +4237,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.SetStereoType
   nameWithType: MediaPlayer360.SetStereoType
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.ShowLogo(System.Boolean)
+  name: ShowLogo(Boolean)
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_ShowLogo_System_Boolean_
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer360.ShowLogo(System.Boolean)
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.ShowLogo(System.Boolean)
+  nameWithType: MediaPlayer360.ShowLogo(Boolean)
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.ShowLogo*
+  name: ShowLogo
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_ShowLogo_
+  commentId: Overload:Votanic.vMedia.MediaPlayer.MediaPlayer360.ShowLogo
+  isSpec: "True"
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.ShowLogo
+  nameWithType: MediaPlayer360.ShowLogo
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.Yaw(System.Single)
   name: Yaw(Single)
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_Yaw_System_Single_
@@ -7151,6 +7201,30 @@ references:
   commentId: F:Votanic.vXR.InteractionType.Up
   fullName: Votanic.vXR.InteractionType.Up
   nameWithType: InteractionType.Up
+- uid: Votanic.vXR.Interactive
+  name: Interactive
+  href: api/Votanic.vXR.Interactive.html
+  commentId: T:Votanic.vXR.Interactive
+  fullName: Votanic.vXR.Interactive
+  nameWithType: Interactive
+- uid: Votanic.vXR.Interactive.Detectable
+  name: Detectable
+  href: api/Votanic.vXR.Interactive.html#Votanic_vXR_Interactive_Detectable
+  commentId: F:Votanic.vXR.Interactive.Detectable
+  fullName: Votanic.vXR.Interactive.Detectable
+  nameWithType: Interactive.Detectable
+- uid: Votanic.vXR.Interactive.Disable
+  name: Disable
+  href: api/Votanic.vXR.Interactive.html#Votanic_vXR_Interactive_Disable
+  commentId: F:Votanic.vXR.Interactive.Disable
+  fullName: Votanic.vXR.Interactive.Disable
+  nameWithType: Interactive.Disable
+- uid: Votanic.vXR.Interactive.Functional
+  name: Functional
+  href: api/Votanic.vXR.Interactive.html#Votanic_vXR_Interactive_Functional
+  commentId: F:Votanic.vXR.Interactive.Functional
+  fullName: Votanic.vXR.Interactive.Functional
+  nameWithType: Interactive.Functional
 - uid: Votanic.vXR.Interactor
   name: Interactor
   href: api/Votanic.vXR.Interactor.html
@@ -7792,6 +7866,30 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.Core.Info.fps
   nameWithType: Info.fps
+- uid: Votanic.vXR.vCast.Core.InitialFading
+  name: InitialFading
+  href: api/Votanic.vXR.vCast.Core.InitialFading.html
+  commentId: T:Votanic.vXR.vCast.Core.InitialFading
+  fullName: Votanic.vXR.vCast.Core.InitialFading
+  nameWithType: InitialFading
+- uid: Votanic.vXR.vCast.Core.InitialFading.FadedOnly
+  name: FadedOnly
+  href: api/Votanic.vXR.vCast.Core.InitialFading.html#Votanic_vXR_vCast_Core_InitialFading_FadedOnly
+  commentId: F:Votanic.vXR.vCast.Core.InitialFading.FadedOnly
+  fullName: Votanic.vXR.vCast.Core.InitialFading.FadedOnly
+  nameWithType: InitialFading.FadedOnly
+- uid: Votanic.vXR.vCast.Core.InitialFading.FadeIn
+  name: FadeIn
+  href: api/Votanic.vXR.vCast.Core.InitialFading.html#Votanic_vXR_vCast_Core_InitialFading_FadeIn
+  commentId: F:Votanic.vXR.vCast.Core.InitialFading.FadeIn
+  fullName: Votanic.vXR.vCast.Core.InitialFading.FadeIn
+  nameWithType: InitialFading.FadeIn
+- uid: Votanic.vXR.vCast.Core.InitialFading.None
+  name: None
+  href: api/Votanic.vXR.vCast.Core.InitialFading.html#Votanic_vXR_vCast_Core_InitialFading_None
+  commentId: F:Votanic.vXR.vCast.Core.InitialFading.None
+  fullName: Votanic.vXR.vCast.Core.InitialFading.None
+  nameWithType: InitialFading.None
 - uid: Votanic.vXR.vCast.Core.Node
   name: Node
   href: api/Votanic.vXR.vCast.Core.Node.html
@@ -8431,12 +8529,12 @@ references:
   commentId: F:Votanic.vXR.vCast.Layer.core
   fullName: Votanic.vXR.vCast.Layer.core
   nameWithType: Layer.core
-- uid: Votanic.vXR.vCast.Layer.ground
-  name: ground
-  href: api/Votanic.vXR.vCast.Layer.html#Votanic_vXR_vCast_Layer_ground
-  commentId: F:Votanic.vXR.vCast.Layer.ground
-  fullName: Votanic.vXR.vCast.Layer.ground
-  nameWithType: Layer.ground
+- uid: Votanic.vXR.vCast.Layer.floor
+  name: floor
+  href: api/Votanic.vXR.vCast.Layer.html#Votanic_vXR_vCast_Layer_floor
+  commentId: F:Votanic.vXR.vCast.Layer.floor
+  fullName: Votanic.vXR.vCast.Layer.floor
+  nameWithType: Layer.floor
 - uid: Votanic.vXR.vCast.Layer.interactables
   name: interactables
   href: api/Votanic.vXR.vCast.Layer.html#Votanic_vXR_vCast_Layer_interactables
@@ -9539,12 +9637,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Info.ClearPrintLog
   nameWithType: vCast.Info.ClearPrintLog
-- uid: Votanic.vXR.vCast.vCast.Info.DebugLog(System.Object,System.Boolean)
-  name: DebugLog(Object, Boolean)
-  href: api/Votanic.vXR.vCast.vCast.Info.html#Votanic_vXR_vCast_vCast_Info_DebugLog_System_Object_System_Boolean_
-  commentId: M:Votanic.vXR.vCast.vCast.Info.DebugLog(System.Object,System.Boolean)
-  fullName: Votanic.vXR.vCast.vCast.Info.DebugLog(System.Object, System.Boolean)
-  nameWithType: vCast.Info.DebugLog(Object, Boolean)
+- uid: Votanic.vXR.vCast.vCast.Info.DebugLog(System.Object,System.Boolean,System.Boolean)
+  name: DebugLog(Object, Boolean, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Info.html#Votanic_vXR_vCast_vCast_Info_DebugLog_System_Object_System_Boolean_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Info.DebugLog(System.Object,System.Boolean,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Info.DebugLog(System.Object, System.Boolean, System.Boolean)
+  nameWithType: vCast.Info.DebugLog(Object, Boolean, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Info.DebugLog*
   name: DebugLog
   href: api/Votanic.vXR.vCast.vCast.Info.html#Votanic_vXR_vCast_vCast_Info_DebugLog_
@@ -9656,12 +9754,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Info.FPS
   nameWithType: vCast.Info.FPS
-- uid: Votanic.vXR.vCast.vCast.Info.Print(System.Object,System.Boolean)
-  name: Print(Object, Boolean)
-  href: api/Votanic.vXR.vCast.vCast.Info.html#Votanic_vXR_vCast_vCast_Info_Print_System_Object_System_Boolean_
-  commentId: M:Votanic.vXR.vCast.vCast.Info.Print(System.Object,System.Boolean)
-  fullName: Votanic.vXR.vCast.vCast.Info.Print(System.Object, System.Boolean)
-  nameWithType: vCast.Info.Print(Object, Boolean)
+- uid: Votanic.vXR.vCast.vCast.Info.Print(System.Object,System.Boolean,System.Boolean)
+  name: Print(Object, Boolean, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Info.html#Votanic_vXR_vCast_vCast_Info_Print_System_Object_System_Boolean_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Info.Print(System.Object,System.Boolean,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Info.Print(System.Object, System.Boolean, System.Boolean)
+  nameWithType: vCast.Info.Print(Object, Boolean, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Info.Print*
   name: Print
   href: api/Votanic.vXR.vCast.vCast.Info.html#Votanic_vXR_vCast_vCast_Info_Print_
@@ -9708,6 +9806,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Info.WaterMark
   nameWithType: vCast.Info.WaterMark
+- uid: Votanic.vXR.vCast.vCast.initialFading
+  name: initialFading
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_initialFading
+  commentId: F:Votanic.vXR.vCast.vCast.initialFading
+  fullName: Votanic.vXR.vCast.vCast.initialFading
+  nameWithType: vCast.initialFading
 - uid: Votanic.vXR.vCast.vCast.initialized
   name: initialized
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_initialized
@@ -11055,6 +11159,24 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_Fader.UnPause
   nameWithType: vCast_Fader.UnPause
+- uid: Votanic.vXR.vCast.vCast_Floor
+  name: vCast_Floor
+  href: api/Votanic.vXR.vCast.vCast_Floor.html
+  commentId: T:Votanic.vXR.vCast.vCast_Floor
+  fullName: Votanic.vXR.vCast.vCast_Floor
+  nameWithType: vCast_Floor
+- uid: Votanic.vXR.vCast.vCast_Floor.marker
+  name: marker
+  href: api/Votanic.vXR.vCast.vCast_Floor.html#Votanic_vXR_vCast_vCast_Floor_marker
+  commentId: F:Votanic.vXR.vCast.vCast_Floor.marker
+  fullName: Votanic.vXR.vCast.vCast_Floor.marker
+  nameWithType: vCast_Floor.marker
+- uid: Votanic.vXR.vCast.vCast_Floor.parentToFloor
+  name: parentToFloor
+  href: api/Votanic.vXR.vCast.vCast_Floor.html#Votanic_vXR_vCast_vCast_Floor_parentToFloor
+  commentId: F:Votanic.vXR.vCast.vCast_Floor.parentToFloor
+  fullName: Votanic.vXR.vCast.vCast_Floor.parentToFloor
+  nameWithType: vCast_Floor.parentToFloor
 - uid: Votanic.vXR.vCast.vCast_Frame
   name: vCast_Frame
   href: api/Votanic.vXR.vCast.vCast_Frame.html
@@ -11097,24 +11219,6 @@ references:
   commentId: T:Votanic.vXR.vCast.vCast_Glove
   fullName: Votanic.vXR.vCast.vCast_Glove
   nameWithType: vCast_Glove
-- uid: Votanic.vXR.vCast.vCast_Ground
-  name: vCast_Ground
-  href: api/Votanic.vXR.vCast.vCast_Ground.html
-  commentId: T:Votanic.vXR.vCast.vCast_Ground
-  fullName: Votanic.vXR.vCast.vCast_Ground
-  nameWithType: vCast_Ground
-- uid: Votanic.vXR.vCast.vCast_Ground.marker
-  name: marker
-  href: api/Votanic.vXR.vCast.vCast_Ground.html#Votanic_vXR_vCast_vCast_Ground_marker
-  commentId: F:Votanic.vXR.vCast.vCast_Ground.marker
-  fullName: Votanic.vXR.vCast.vCast_Ground.marker
-  nameWithType: vCast_Ground.marker
-- uid: Votanic.vXR.vCast.vCast_Ground.parentToGround
-  name: parentToGround
-  href: api/Votanic.vXR.vCast.vCast_Ground.html#Votanic_vXR_vCast_vCast_Ground_parentToGround
-  commentId: F:Votanic.vXR.vCast.vCast_Ground.parentToGround
-  fullName: Votanic.vXR.vCast.vCast_Ground.parentToGround
-  nameWithType: vCast_Ground.parentToGround
 - uid: Votanic.vXR.vCast.vCast_Interactables
   name: vCast_Interactables
   href: api/Votanic.vXR.vCast.vCast_Interactables.html
@@ -11130,14 +11234,7 @@ references:
 - uid: Votanic.vXR.vCast.vCast_Interactables.grabbables
   name: grabbables
   href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_grabbables
-  commentId: P:Votanic.vXR.vCast.vCast_Interactables.grabbables
-  fullName: Votanic.vXR.vCast.vCast_Interactables.grabbables
-  nameWithType: vCast_Interactables.grabbables
-- uid: Votanic.vXR.vCast.vCast_Interactables.grabbables*
-  name: grabbables
-  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_grabbables_
-  commentId: Overload:Votanic.vXR.vCast.vCast_Interactables.grabbables
-  isSpec: "True"
+  commentId: F:Votanic.vXR.vCast.vCast_Interactables.grabbables
   fullName: Votanic.vXR.vCast.vCast_Interactables.grabbables
   nameWithType: vCast_Interactables.grabbables
 - uid: Votanic.vXR.vCast.vCast_Interactables.grabSetting
@@ -11164,12 +11261,6 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast_Interactables.interactive
   fullName: Votanic.vXR.vCast.vCast_Interactables.interactive
   nameWithType: vCast_Interactables.interactive
-- uid: Votanic.vXR.vCast.vCast_Interactables.isDisabled
-  name: isDisabled
-  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_isDisabled
-  commentId: F:Votanic.vXR.vCast.vCast_Interactables.isDisabled
-  fullName: Votanic.vXR.vCast.vCast_Interactables.isDisabled
-  nameWithType: vCast_Interactables.isDisabled
 - uid: Votanic.vXR.vCast.vCast_Interactables.isGrabbed
   name: isGrabbed
   href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_isGrabbed
@@ -11404,12 +11495,12 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast_Teleport.isApplying
   fullName: Votanic.vXR.vCast.vCast_Teleport.isApplying
   nameWithType: vCast_Teleport.isApplying
-- uid: Votanic.vXR.vCast.vCast_Teleport.isHitGround
-  name: isHitGround
-  href: api/Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_isHitGround
-  commentId: F:Votanic.vXR.vCast.vCast_Teleport.isHitGround
-  fullName: Votanic.vXR.vCast.vCast_Teleport.isHitGround
-  nameWithType: vCast_Teleport.isHitGround
+- uid: Votanic.vXR.vCast.vCast_Teleport.isHitFloor
+  name: isHitFloor
+  href: api/Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_isHitFloor
+  commentId: F:Votanic.vXR.vCast.vCast_Teleport.isHitFloor
+  fullName: Votanic.vXR.vCast.vCast_Teleport.isHitFloor
+  nameWithType: vCast_Teleport.isHitFloor
 - uid: Votanic.vXR.vCast.vCast_Teleport.outOfRange
   name: outOfRange
   href: api/Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_outOfRange
@@ -11422,6 +11513,19 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast_Teleport.projectile
   fullName: Votanic.vXR.vCast.vCast_Teleport.projectile
   nameWithType: vCast_Teleport.projectile
+- uid: Votanic.vXR.vCast.vCast_Teleport.SetVelocity(System.Single)
+  name: SetVelocity(Single)
+  href: api/Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_SetVelocity_System_Single_
+  commentId: M:Votanic.vXR.vCast.vCast_Teleport.SetVelocity(System.Single)
+  fullName: Votanic.vXR.vCast.vCast_Teleport.SetVelocity(System.Single)
+  nameWithType: vCast_Teleport.SetVelocity(Single)
+- uid: Votanic.vXR.vCast.vCast_Teleport.SetVelocity*
+  name: SetVelocity
+  href: api/Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_SetVelocity_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Teleport.SetVelocity
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Teleport.SetVelocity
+  nameWithType: vCast_Teleport.SetVelocity
 - uid: Votanic.vXR.vCast.vCast_Teleport.targetPoint
   name: targetPoint
   href: api/Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_targetPoint
@@ -11472,19 +11576,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_User.eulerAngles
   nameWithType: vCast_User.eulerAngles
-- uid: Votanic.vXR.vCast.vCast_User.ground
-  name: ground
-  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_ground
-  commentId: P:Votanic.vXR.vCast.vCast_User.ground
-  fullName: Votanic.vXR.vCast.vCast_User.ground
-  nameWithType: vCast_User.ground
-- uid: Votanic.vXR.vCast.vCast_User.ground*
-  name: ground
-  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_ground_
-  commentId: Overload:Votanic.vXR.vCast.vCast_User.ground
+- uid: Votanic.vXR.vCast.vCast_User.floor
+  name: floor
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_floor
+  commentId: P:Votanic.vXR.vCast.vCast_User.floor
+  fullName: Votanic.vXR.vCast.vCast_User.floor
+  nameWithType: vCast_User.floor
+- uid: Votanic.vXR.vCast.vCast_User.floor*
+  name: floor
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_floor_
+  commentId: Overload:Votanic.vXR.vCast.vCast_User.floor
   isSpec: "True"
-  fullName: Votanic.vXR.vCast.vCast_User.ground
-  nameWithType: vCast_User.ground
+  fullName: Votanic.vXR.vCast.vCast_User.floor
+  nameWithType: vCast_User.floor
 - uid: Votanic.vXR.vCast.vCast_User.isPaused
   name: isPaused
   href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_isPaused
@@ -13159,12 +13263,12 @@ references:
   commentId: F:Votanic.vXR.vGear.Scenario.MotionDetail.scalingRatio
   fullName: Votanic.vXR.vGear.Scenario.MotionDetail.scalingRatio
   nameWithType: MotionDetail.scalingRatio
-- uid: Votanic.vXR.vGear.Scenario.MotionDetail.setUserToGround
-  name: setUserToGround
-  href: api/Votanic.vXR.vGear.Scenario.MotionDetail.html#Votanic_vXR_vGear_Scenario_MotionDetail_setUserToGround
-  commentId: F:Votanic.vXR.vGear.Scenario.MotionDetail.setUserToGround
-  fullName: Votanic.vXR.vGear.Scenario.MotionDetail.setUserToGround
-  nameWithType: MotionDetail.setUserToGround
+- uid: Votanic.vXR.vGear.Scenario.MotionDetail.setUserToFloor
+  name: setUserToFloor
+  href: api/Votanic.vXR.vGear.Scenario.MotionDetail.html#Votanic_vXR_vGear_Scenario_MotionDetail_setUserToFloor
+  commentId: F:Votanic.vXR.vGear.Scenario.MotionDetail.setUserToFloor
+  fullName: Votanic.vXR.vGear.Scenario.MotionDetail.setUserToFloor
+  nameWithType: MotionDetail.setUserToFloor
 - uid: Votanic.vXR.vGear.Scenario.MotionDetail.singlePointRepeat
   name: singlePointRepeat
   href: api/Votanic.vXR.vGear.Scenario.MotionDetail.html#Votanic_vXR_vGear_Scenario_MotionDetail_singlePointRepeat
@@ -14384,19 +14488,6 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Interactables.interactions
   fullName: Votanic.vXR.vGear.vGear_Interactables.interactions
   nameWithType: vGear_Interactables.interactions
-- uid: Votanic.vXR.vGear.vGear_Interactables.LateUpdate
-  name: LateUpdate()
-  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_LateUpdate
-  commentId: M:Votanic.vXR.vGear.vGear_Interactables.LateUpdate
-  fullName: Votanic.vXR.vGear.vGear_Interactables.LateUpdate()
-  nameWithType: vGear_Interactables.LateUpdate()
-- uid: Votanic.vXR.vGear.vGear_Interactables.LateUpdate*
-  name: LateUpdate
-  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_LateUpdate_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Interactables.LateUpdate
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Interactables.LateUpdate
-  nameWithType: vGear_Interactables.LateUpdate
 - uid: Votanic.vXR.vGear.vGear_Interactables.OnCollisionEnter(UnityEngine.Collision)
   name: OnCollisionEnter(Collision)
   href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_OnCollisionEnter_UnityEngine_Collision_
@@ -14715,6 +14806,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Panel.Enable
   nameWithType: vGear_Panel.Enable
+- uid: Votanic.vXR.vGear.vGear_Panel.grabWithButtons
+  name: grabWithButtons
+  href: api/Votanic.vXR.vGear.vGear_Panel.html#Votanic_vXR_vGear_vGear_Panel_grabWithButtons
+  commentId: F:Votanic.vXR.vGear.vGear_Panel.grabWithButtons
+  fullName: Votanic.vXR.vGear.vGear_Panel.grabWithButtons
+  nameWithType: vGear_Panel.grabWithButtons
 - uid: Votanic.vXR.vGear.vGear_Panel.isOpened
   name: isOpened
   href: api/Votanic.vXR.vGear.vGear_Panel.html#Votanic_vXR_vGear_vGear_Panel_isOpened
@@ -15200,12 +15297,38 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Teleport.CanStand
   nameWithType: vGear_Teleport.CanStand
+- uid: Votanic.vXR.vGear.vGear_Teleport.CollisionMode(System.Boolean)
+  name: CollisionMode(Boolean)
+  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_CollisionMode_System_Boolean_
+  commentId: M:Votanic.vXR.vGear.vGear_Teleport.CollisionMode(System.Boolean)
+  fullName: Votanic.vXR.vGear.vGear_Teleport.CollisionMode(System.Boolean)
+  nameWithType: vGear_Teleport.CollisionMode(Boolean)
+- uid: Votanic.vXR.vGear.vGear_Teleport.CollisionMode*
+  name: CollisionMode
+  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_CollisionMode_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Teleport.CollisionMode
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Teleport.CollisionMode
+  nameWithType: vGear_Teleport.CollisionMode
 - uid: Votanic.vXR.vGear.vGear_Teleport.onlyTeleportWaypoint
   name: onlyTeleportWaypoint
   href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_onlyTeleportWaypoint
   commentId: F:Votanic.vXR.vGear.vGear_Teleport.onlyTeleportWaypoint
   fullName: Votanic.vXR.vGear.vGear_Teleport.onlyTeleportWaypoint
   nameWithType: vGear_Teleport.onlyTeleportWaypoint
+- uid: Votanic.vXR.vGear.vGear_Teleport.SetHeightOffset(System.Single)
+  name: SetHeightOffset(Single)
+  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_SetHeightOffset_System_Single_
+  commentId: M:Votanic.vXR.vGear.vGear_Teleport.SetHeightOffset(System.Single)
+  fullName: Votanic.vXR.vGear.vGear_Teleport.SetHeightOffset(System.Single)
+  nameWithType: vGear_Teleport.SetHeightOffset(Single)
+- uid: Votanic.vXR.vGear.vGear_Teleport.SetHeightOffset*
+  name: SetHeightOffset
+  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_SetHeightOffset_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Teleport.SetHeightOffset
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Teleport.SetHeightOffset
+  nameWithType: vGear_Teleport.SetHeightOffset
 - uid: Votanic.vXR.vGear.vGear_Teleport.SetWaypointOnly(System.Boolean)
   name: SetWaypointOnly(Boolean)
   href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_SetWaypointOnly_System_Boolean_

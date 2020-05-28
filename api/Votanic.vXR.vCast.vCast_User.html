@@ -125,7 +125,7 @@ public UserControl control</code></pre>
   
   
   <h4 id="Votanic_vXR_vCast_vCast_User_enableRaising" data-uid="Votanic.vXR.vCast.vCast_User.enableRaising">enableRaising</h4>
-  <div class="markdown level1 summary"><p>User can auto raise to upper touched ground if true. <br> 當 true 時使用者可自動升上已觸碰的上層地面。</p>
+  <div class="markdown level1 summary"><p>User can auto raise to upper touched floor if true. <br> 當 true 時使用者可自動升上已觸碰的上層地板。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -151,7 +151,7 @@ public bool enableRaising</code></pre>
   
   
   <h4 id="Votanic_vXR_vCast_vCast_User_enableSinking" data-uid="Votanic.vXR.vCast.vCast_User.enableSinking">enableSinking</h4>
-  <div class="markdown level1 summary"><p>User can sink to lower ground by controller if true. <br> 當 true 時使用者可透過控制器降落至下層地面。</p>
+  <div class="markdown level1 summary"><p>User can sink to lower floor by controller if true. <br> 當 true 時使用者可透過控制器降落至下層地板。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -301,7 +301,7 @@ public bool enableRaising</code></pre>
   
   
   <h4 id="Votanic_vXR_vCast_vCast_User_startAsGround" data-uid="Votanic.vXR.vCast.vCast_User.startAsGround">startAsGround</h4>
-  <div class="markdown level1 summary"><p>Determine zero height as ground if no ground is detected. <br> 當沒有地面被偵測時，判斷高度零為地面。</p>
+  <div class="markdown level1 summary"><p>Determine start point height as ground if no floor is detected. <br> 當沒有地板被偵測時，判斷起點高度為地面。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -455,14 +455,14 @@ public Transform synchronizer</code></pre>
   </table>
   
   
-  <a id="Votanic_vXR_vCast_vCast_User_ground_" data-uid="Votanic.vXR.vCast.vCast_User.ground*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_User_ground" data-uid="Votanic.vXR.vCast.vCast_User.ground">ground</h4>
-  <div class="markdown level1 summary"><p>The current ground that user is standing. <br> 使用者目前站立的地面。</p>
+  <a id="Votanic_vXR_vCast_vCast_User_floor_" data-uid="Votanic.vXR.vCast.vCast_User.floor*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_floor" data-uid="Votanic.vXR.vCast.vCast_User.floor">floor</h4>
+  <div class="markdown level1 summary"><p>The current floor that user is standing. <br> 使用者目前站立的地板。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform ground { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Transform floor { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

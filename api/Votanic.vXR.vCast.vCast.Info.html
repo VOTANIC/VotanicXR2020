@@ -152,7 +152,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_DebugLog_" data-uid="Votanic.vXR.vCast.vCast.Info.DebugLog*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_DebugLog_System_Object_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.DebugLog(System.Object,System.Boolean)">DebugLog(Object, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_DebugLog_System_Object_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.DebugLog(System.Object,System.Boolean,System.Boolean)">DebugLog(Object, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Add a message to custom debug message at current frame.
 <br> 在當前幀增加一句自訂偵錯訊息。</p>
 <p> DebugLog(&quot;abc&quot;, true) </p>
@@ -160,7 +160,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DebugLog(object message, bool clear = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DebugLog(object message, bool clear = false, bool hideTitle = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,6 +182,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">clear</span></td>
         <td><p>Clear previous message <br> 清除先前訊息</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">hideTitle</span></td>
+        <td><p>Hide [Debug] this frame if true once <br> 當 true 時當前幀將隱藏 [Debug]</p>
 </td>
       </tr>
     </tbody>
@@ -433,7 +439,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_Print_" data-uid="Votanic.vXR.vCast.vCast.Info.Print*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_Print_System_Object_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.Print(System.Object,System.Boolean)">Print(Object, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_Print_System_Object_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.Print(System.Object,System.Boolean,System.Boolean)">Print(Object, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Add a message to custom message at current frame.
 <br> 在當前幀增加一句自訂訊息。</p>
 <p> Print(&quot;abc&quot;, true) </p>
@@ -441,7 +447,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Print(object message, bool clear = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Print(object message, bool clear = false, bool hideTitle = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -463,6 +469,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">clear</span></td>
         <td><p>Clear previous message <br> 清除先前訊息</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">hideTitle</span></td>
+        <td><p>Hide [Print] this frame if true once <br> 當 true 時當前幀將隱藏 [Print]</p>
 </td>
       </tr>
     </tbody>

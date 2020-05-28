@@ -101,7 +101,7 @@
       <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_isApplying">vCast_Teleport.isApplying</a>
     </div>
     <div>
-      <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_isHitGround">vCast_Teleport.isHitGround</a>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_isHitFloor">vCast_Teleport.isHitFloor</a>
     </div>
     <div>
       <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_outOfRange">vCast_Teleport.outOfRange</a>
@@ -111,6 +111,9 @@
     </div>
     <div>
       <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_Apply_System_Boolean_">vCast_Teleport.Apply(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_SetVelocity_System_Single_">vCast_Teleport.SetVelocity(Single)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.html">Votanic.vXR.vGear</a></h6>
@@ -178,6 +181,66 @@ public class vGear_Teleport : vCast_Teleport</code></pre>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_CanStand">vCast_Teleport.CanStand()</a></div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Teleport_CollisionMode_" data-uid="Votanic.vXR.vGear.vGear_Teleport.CollisionMode*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Teleport_CollisionMode_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Teleport.CollisionMode(System.Boolean)">CollisionMode(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Switch on or off the collision mode.
+<br> 開啟或關閉碰撞模式。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CollisionMode(bool isOn = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isOn</span></td>
+        <td><p>Switch on if true <br> 當 true 時開啟</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Teleport_SetHeightOffset_" data-uid="Votanic.vXR.vGear.vGear_Teleport.SetHeightOffset*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Teleport_SetHeightOffset_System_Single_" data-uid="Votanic.vXR.vGear.vGear_Teleport.SetHeightOffset(System.Single)">SetHeightOffset(Single)</h4>
+  <div class="markdown level1 summary"><p>Set the target point height offset of user on Non-collision Mode.
+<br> 設定在非碰撞模式下，目標位置與使用者高度的偏移。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHeightOffset(float offset = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>Offset value <br> 偏移值</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Votanic_vXR_vGear_vGear_Teleport_SetWaypointOnly_" data-uid="Votanic.vXR.vGear.vGear_Teleport.SetWaypointOnly*"></a>

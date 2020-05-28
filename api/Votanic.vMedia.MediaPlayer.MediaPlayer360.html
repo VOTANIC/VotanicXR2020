@@ -346,7 +346,7 @@ public class MediaPlayer360 : MediaPlayer</code></pre>
   
   
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_calibrator" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.calibrator">calibrator</h4>
-  <div class="markdown level1 summary"><p>Transform for calibrating content angles. <br> 用作校正內容角度的 Transform。</p>
+  <div class="markdown level1 summary"><p>Transform for yaw and roll angles. <br> 用作校正偏擺及翻滾角度的 Transform。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -390,6 +390,81 @@ public string dataPath</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_logo" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.logo">logo</h4>
+  <div class="markdown level1 summary"><p>Display logo element. <br> 顯示 Logo 元素。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool logo</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_logoElement" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.logoElement">logoElement</h4>
+  <div class="markdown level1 summary"><p>Logo Element for hiding top and bottom of 360 medium. <br> 用作隱藏 360 媒體頂及底部的 Logo 元素。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject logoElement</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_pitcher" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.pitcher">pitcher</h4>
+  <div class="markdown level1 summary"><p>Transform for pitch angle. <br> 用作校正俯仰角度的 Transform。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform pitcher</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -440,6 +515,31 @@ public string dataPath</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_rotation" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.rotation">rotation</h4>
+  <div class="markdown level1 summary"><p>Rotate with rotate speed if true. <br> 當 true 時根據旋轉速度旋轉。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool rotation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -708,6 +808,36 @@ public string dataPath</code></pre>
   </table>
   
   
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_SetRotation_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.SetRotation*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_SetRotation_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.SetRotation(System.Boolean)">SetRotation(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Set rotation of media player.
+<br> 設定媒體播放器的旋轉功能。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRotation(bool rorate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">rorate</span></td>
+        <td><p>Rotate if true <br> 當 true 時旋轉</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_SetStereoType_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.SetStereoType*"></a>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_SetStereoType" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.SetStereoType">SetStereoType()</h4>
   <div class="markdown level1 summary"><p>Change the stereo type of current medium.
@@ -745,6 +875,36 @@ public string dataPath</code></pre>
         <td><a class="xref" href="Votanic.vMedia.MediaPlayer.StereoType.html">StereoType</a></td>
         <td><span class="parametername">stereoType</span></td>
         <td><p>Stereo Type <br> 立體類型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer360_ShowLogo_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.ShowLogo*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_ShowLogo_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.ShowLogo(System.Boolean)">ShowLogo(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Show or Hide logo element.
+<br> 顯示或隱藏 Logo 元素。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowLogo(bool show = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">show</span></td>
+        <td><p>Show if true <br> 當 true 時顯示</p>
 </td>
       </tr>
     </tbody>
