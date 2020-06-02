@@ -10663,6 +10663,19 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast.targetFrameRate
   fullName: Votanic.vXR.vCast.vCast.targetFrameRate
   nameWithType: vCast.targetFrameRate
+- uid: Votanic.vXR.vCast.vCast.user
+  name: user
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_user
+  commentId: P:Votanic.vXR.vCast.vCast.user
+  fullName: Votanic.vXR.vCast.vCast.user
+  nameWithType: vCast.user
+- uid: Votanic.vXR.vCast.vCast.user*
+  name: user
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_user_
+  commentId: Overload:Votanic.vXR.vCast.vCast.user
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.user
+  nameWithType: vCast.user
 - uid: Votanic.vXR.vCast.vCast.XRSupport
   name: XRSupport
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_XRSupport
@@ -11351,6 +11364,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_Interactables.OnTriggerExit
   nameWithType: vCast_Interactables.OnTriggerExit
+- uid: Votanic.vXR.vCast.vCast_Interactables.SetGrabbables(UnityEngine.Transform)
+  name: SetGrabbables(Transform)
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_SetGrabbables_UnityEngine_Transform_
+  commentId: M:Votanic.vXR.vCast.vCast_Interactables.SetGrabbables(UnityEngine.Transform)
+  fullName: Votanic.vXR.vCast.vCast_Interactables.SetGrabbables(UnityEngine.Transform)
+  nameWithType: vCast_Interactables.SetGrabbables(Transform)
+- uid: Votanic.vXR.vCast.vCast_Interactables.SetGrabbables*
+  name: SetGrabbables
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_SetGrabbables_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Interactables.SetGrabbables
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Interactables.SetGrabbables
+  nameWithType: vCast_Interactables.SetGrabbables
 - uid: Votanic.vXR.vCast.vCast_Interactables.SetParent(UnityEngine.Transform)
   name: SetParent(Transform)
   href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_SetParent_UnityEngine_Transform_
@@ -11886,6 +11912,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_User.Transform
   nameWithType: vCast_User.Transform
+- uid: Votanic.vXR.vCast.vCast_User.TransformPoint(System.Single,System.Single,System.Single)
+  name: TransformPoint(Single, Single, Single)
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_TransformPoint_System_Single_System_Single_System_Single_
+  commentId: M:Votanic.vXR.vCast.vCast_User.TransformPoint(System.Single,System.Single,System.Single)
+  fullName: Votanic.vXR.vCast.vCast_User.TransformPoint(System.Single, System.Single, System.Single)
+  nameWithType: vCast_User.TransformPoint(Single, Single, Single)
+- uid: Votanic.vXR.vCast.vCast_User.TransformPoint*
+  name: TransformPoint
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_TransformPoint_
+  commentId: Overload:Votanic.vXR.vCast.vCast_User.TransformPoint
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_User.TransformPoint
+  nameWithType: vCast_User.TransformPoint
 - uid: Votanic.vXR.vCast.vCast_User.transition
   name: transition
   href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_transition
