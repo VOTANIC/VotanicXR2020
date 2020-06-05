@@ -193,7 +193,8 @@ public class ControllerTool : Element</code></pre>
   
   
   <h4 id="Votanic_vXR_vCast_IO_ControllerTool_autoSwitch" data-uid="Votanic.vXR.vCast.IO.ControllerTool.autoSwitch">autoSwitch</h4>
-  <div class="markdown level1 summary"><p>Enable auto switch tool if true. <br> 當 true 時啟用自動切換工具。</p>
+  <div class="markdown level1 summary"><p>When current tool is this tool, all the tools which apply &quot;Enable Scan&quot; will scan objects and auto switch to the first detected tool.
+<br> 當這個工具為目前使用的工具時，所有使用了「啟用掃瞄」的工具將會掃瞄物件，並且在偵測到第一個應轉換的工具時自動轉換。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -243,7 +244,8 @@ public class ControllerTool : Element</code></pre>
   
   
   <h4 id="Votanic_vXR_vCast_IO_ControllerTool_enableScan" data-uid="Votanic.vXR.vCast.IO.ControllerTool.enableScan">enableScan</h4>
-  <div class="markdown level1 summary"><p>Scan objects to determine this tool should be applied or not. <br> 掃描物件以判斷當前應否使用的這個工具。</p>
+  <div class="markdown level1 summary"><p>When current tool applies &quot;Auto Switch&quot;, scan objects and determine this tool should be switched on or not.
+<br> 當目前使用的工具使用「自動轉換」時，掃描物件並且判斷應否轉換為這個工具。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

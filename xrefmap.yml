@@ -3563,6 +3563,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.First
   nameWithType: MediaPlayer.First
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.ignoreList
+  name: ignoreList
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_ignoreList
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.ignoreList
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.ignoreList
+  nameWithType: MediaPlayer.ignoreList
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.images
   name: images
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_images
@@ -14174,6 +14180,19 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Brush.destroyLocusScript
   fullName: Votanic.vXR.vGear.vGear_Brush.destroyLocusScript
   nameWithType: vGear_Brush.destroyLocusScript
+- uid: Votanic.vXR.vGear.vGear_Brush.drawn
+  name: drawn
+  href: api/Votanic.vXR.vGear.vGear_Brush.html#Votanic_vXR_vGear_vGear_Brush_drawn
+  commentId: P:Votanic.vXR.vGear.vGear_Brush.drawn
+  fullName: Votanic.vXR.vGear.vGear_Brush.drawn
+  nameWithType: vGear_Brush.drawn
+- uid: Votanic.vXR.vGear.vGear_Brush.drawn*
+  name: drawn
+  href: api/Votanic.vXR.vGear.vGear_Brush.html#Votanic_vXR_vGear_vGear_Brush_drawn_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Brush.drawn
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Brush.drawn
+  nameWithType: vGear_Brush.drawn
 - uid: Votanic.vXR.vGear.vGear_Brush.isDrawing
   name: isDrawing
   href: api/Votanic.vXR.vGear.vGear_Brush.html#Votanic_vXR_vGear_vGear_Brush_isDrawing
@@ -14701,6 +14720,19 @@ references:
   commentId: T:Votanic.vXR.vGear.vGear_Measurer
   fullName: Votanic.vXR.vGear.vGear_Measurer
   nameWithType: vGear_Measurer
+- uid: Votanic.vXR.vGear.vGear_Measurer.Clear
+  name: Clear()
+  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_Clear
+  commentId: M:Votanic.vXR.vGear.vGear_Measurer.Clear
+  fullName: Votanic.vXR.vGear.vGear_Measurer.Clear()
+  nameWithType: vGear_Measurer.Clear()
+- uid: Votanic.vXR.vGear.vGear_Measurer.Clear*
+  name: Clear
+  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_Clear_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Measurer.Clear
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Measurer.Clear
+  nameWithType: vGear_Measurer.Clear
 - uid: Votanic.vXR.vGear.vGear_Measurer.continuity
   name: continuity
   href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_continuity
@@ -14732,18 +14764,31 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Measurer.Mark
   nameWithType: vGear_Measurer.Mark
-- uid: Votanic.vXR.vGear.vGear_Measurer.records
-  name: records
-  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_records
-  commentId: F:Votanic.vXR.vGear.vGear_Measurer.records
-  fullName: Votanic.vXR.vGear.vGear_Measurer.records
-  nameWithType: vGear_Measurer.records
-- uid: Votanic.vXR.vGear.vGear_Measurer.Remove(System.Boolean)
-  name: Remove(Boolean)
-  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_Remove_System_Boolean_
-  commentId: M:Votanic.vXR.vGear.vGear_Measurer.Remove(System.Boolean)
-  fullName: Votanic.vXR.vGear.vGear_Measurer.Remove(System.Boolean)
-  nameWithType: vGear_Measurer.Remove(Boolean)
+- uid: Votanic.vXR.vGear.vGear_Measurer.measured
+  name: measured
+  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_measured
+  commentId: P:Votanic.vXR.vGear.vGear_Measurer.measured
+  fullName: Votanic.vXR.vGear.vGear_Measurer.measured
+  nameWithType: vGear_Measurer.measured
+- uid: Votanic.vXR.vGear.vGear_Measurer.measured*
+  name: measured
+  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_measured_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Measurer.measured
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Measurer.measured
+  nameWithType: vGear_Measurer.measured
+- uid: Votanic.vXR.vGear.vGear_Measurer.pointPrefab
+  name: pointPrefab
+  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_pointPrefab
+  commentId: F:Votanic.vXR.vGear.vGear_Measurer.pointPrefab
+  fullName: Votanic.vXR.vGear.vGear_Measurer.pointPrefab
+  nameWithType: vGear_Measurer.pointPrefab
+- uid: Votanic.vXR.vGear.vGear_Measurer.Remove(System.Int32)
+  name: Remove(Int32)
+  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_Remove_System_Int32_
+  commentId: M:Votanic.vXR.vGear.vGear_Measurer.Remove(System.Int32)
+  fullName: Votanic.vXR.vGear.vGear_Measurer.Remove(System.Int32)
+  nameWithType: vGear_Measurer.Remove(Int32)
 - uid: Votanic.vXR.vGear.vGear_Measurer.Remove*
   name: Remove
   href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_Remove_
@@ -15738,6 +15783,12 @@ references:
   commentId: T:Votanic.vXR.vGear.vGear_UI
   fullName: Votanic.vXR.vGear.vGear_UI
   nameWithType: vGear_UI
+- uid: Votanic.vXR.vGear.vGear_UI.colorField
+  name: colorField
+  href: api/Votanic.vXR.vGear.vGear_UI.html#Votanic_vXR_vGear_vGear_UI_colorField
+  commentId: F:Votanic.vXR.vGear.vGear_UI.colorField
+  fullName: Votanic.vXR.vGear.vGear_UI.colorField
+  nameWithType: vGear_UI.colorField
 - uid: Votanic.vXR.vGear.vGear_UI.disable
   name: disable
   href: api/Votanic.vXR.vGear.vGear_UI.html#Votanic_vXR_vGear_vGear_UI_disable

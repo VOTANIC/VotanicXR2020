@@ -152,13 +152,12 @@ public bool isMeasuring</code></pre>
   
   
   <h4 id="Votanic_vXR_vGear_vGear_Measurer_linePrefab" data-uid="Votanic.vXR.vGear.vGear_Measurer.linePrefab">linePrefab</h4>
-  <div class="markdown level1 summary"><p>Prefab for measurement. <br> 測量用預載體。</p>
+  <div class="markdown level1 summary"><p>Prefab for measurement line. <br> 測量線預載體。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
-public GameObject linePrefab</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject linePrefab</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,13 +176,14 @@ public GameObject linePrefab</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Measurer_records" data-uid="Votanic.vXR.vGear.vGear_Measurer.records">records</h4>
-  <div class="markdown level1 summary"><p>The recorded measure lines. <br> 已記錄的測量線。</p>
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_pointPrefab" data-uid="Votanic.vXR.vGear.vGear_Measurer.pointPrefab">pointPrefab</h4>
+  <div class="markdown level1 summary"><p>Prefab for measurement point. <br> 測量點預載體。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;GameObject&gt; records</code></pre>
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+public GameObject pointPrefab</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -195,13 +195,53 @@ public GameObject linePrefab</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.GameObject</span>&gt;</td>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Measurer_measured_" data-uid="Votanic.vXR.vGear.vGear_Measurer.measured*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_measured" data-uid="Votanic.vXR.vGear.vGear_Measurer.measured">measured</h4>
+  <div class="markdown level1 summary"><p>Number of measured distance. <br> 已測量的距離數目。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int measured { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Measurer_Clear_" data-uid="Votanic.vXR.vGear.vGear_Measurer.Clear*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_Clear" data-uid="Votanic.vXR.vGear.vGear_Measurer.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Remove all the records.
+<br> 移除所有記錄。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
   
   
   <a id="Votanic_vXR_vGear_vGear_Measurer_Mark_" data-uid="Votanic.vXR.vGear.vGear_Measurer.Mark*"></a>
@@ -217,15 +257,15 @@ public GameObject linePrefab</code></pre>
   
   
   <a id="Votanic_vXR_vGear_vGear_Measurer_Remove_" data-uid="Votanic.vXR.vGear.vGear_Measurer.Remove*"></a>
-  <h4 id="Votanic_vXR_vGear_vGear_Measurer_Remove_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Measurer.Remove(System.Boolean)">Remove(Boolean)</h4>
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_Remove_System_Int32_" data-uid="Votanic.vXR.vGear.vGear_Measurer.Remove(System.Int32)">Remove(Int32)</h4>
   <div class="markdown level1 summary"><p>Remove the record.
 <br> 移除記錄。</p>
-<p> Remove(false) </p>
+<p> Remove(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Remove(bool isAll)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Remove(int index)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -238,9 +278,9 @@ public GameObject linePrefab</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">isAll</span></td>
-        <td><p>Remove all if true <br> 當 true 時移除所有</p>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of measure line <br> 測量線編號</p>
 </td>
       </tr>
     </tbody>
