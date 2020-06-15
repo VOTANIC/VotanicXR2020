@@ -196,7 +196,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Frame_Move_" data-uid="Votanic.vXR.vCast.vCast.Frame.Move*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Frame_Move_UnityEngine_Vector3_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Move(UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean)">Move(Vector3, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Frame_Move_UnityEngine_Vector3_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Move(UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">Move(Vector3, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Move frame to the target position by custom custom calculation parameter and transition method.
 <br> 以自定義的過場計算參數及過場方法將框架移動到目標位置。</p>
 <p> Move(Vector3.zero, 8, 0, 0, 45, MotionParameter.Velocity, TransitionMethod.Fade, true, true, true) </p>
@@ -204,7 +204,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Move(Vector3 position, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Move(Vector3 position, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true, bool unscaledDeltaTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -276,12 +276,18 @@
         <td><p>Lock user navigation when transforming <br> 變換時封鎖使用者導航</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">unscaledDeltaTime</span></td>
+        <td><p>Using unscaled delta time if true <br> 當 true 時使用未縮放的時間變化</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_Frame_Move_" data-uid="Votanic.vXR.vCast.vCast.Frame.Move*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Frame_Move_UnityEngine_Vector3_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Move(UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean)">Move(Vector3, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Frame_Move_UnityEngine_Vector3_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Move(UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">Move(Vector3, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Move frame to the target position by custom custom calculation parameter and transition method.
 <br> 以自定義的過場計算參數及過場方法參數將框架移動到目標位置。</p>
 <p> Move(Vector3.zero, MotionParameter.Velocity, TransitionMethod.Fade, true, true, true) </p>
@@ -289,7 +295,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Move(Vector3 position, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Move(Vector3 position, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true, bool unscaledDeltaTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -335,6 +341,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">lockUserNavigation</span></td>
         <td><p>Lock user navigation when transforming <br> 變換時封鎖使用者導航</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">unscaledDeltaTime</span></td>
+        <td><p>Using unscaled delta time if true <br> 當 true 時使用未縮放的時間變化</p>
 </td>
       </tr>
     </tbody>
@@ -403,7 +415,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Frame_Rotate_" data-uid="Votanic.vXR.vCast.vCast.Frame.Rotate*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Frame_Rotate_System_Single_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Rotate(System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean)">Rotate(Single, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Frame_Rotate_System_Single_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Rotate(System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">Rotate(Single, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Rotate frame by a horizontal angle with custom calculation parameter and transition method.
 <br> 以自定義的過場計算參數及過場方法將框架水平旋轉。</p>
 <p> Rotate(90, 8, 0, 0, 45, MotionParameter.Velocity, TransitionMethod.Fade, true, true, true) </p>
@@ -411,7 +423,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Rotate(float angle, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Rotate(float angle, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true, bool unscaledDeltaTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -483,12 +495,18 @@
         <td><p>Lock user navigation when transforming <br> 變換時封鎖使用者導航</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">unscaledDeltaTime</span></td>
+        <td><p>Using unscaled delta time if true <br> 當 true 時使用未縮放的時間變化</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_Frame_Rotate_" data-uid="Votanic.vXR.vCast.vCast.Frame.Rotate*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Frame_Rotate_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Rotate(System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean)">Rotate(Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Frame_Rotate_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Rotate(System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">Rotate(Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Rotate frame by a horizontal angle with custom calculation parameter and transition method.
 <br> 以自定義的過場計算參數及過場方法將框架水平旋轉。</p>
 <p> Rotate(90, MotionParameter.Velocity, TransitionMethod.Fade, true, true, true) </p>
@@ -496,7 +514,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Rotate(float angle, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Rotate(float angle, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true, bool unscaledDeltaTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -542,6 +560,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">lockUserNavigation</span></td>
         <td><p>Lock user navigation when transforming <br> 變換時封鎖使用者導航</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">unscaledDeltaTime</span></td>
+        <td><p>Using unscaled delta time if true <br> 當 true 時使用未縮放的時間變化</p>
 </td>
       </tr>
     </tbody>
@@ -628,7 +652,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Frame_Transform_" data-uid="Votanic.vXR.vCast.vCast.Frame.Transform*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Transform_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean)">Transform(Transform, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Transform_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">Transform(Transform, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Transform frame to the target point by custom calculation parameter and transition method.
 <br> 以自定義的過場計算參數及過場方法將框架變換到目標地點。</p>
 <p> Transform(transform, 8, 0, 0, 45, MotionParameter.Velocity, TransitionMethod.Fade, true, true, true) </p>
@@ -636,7 +660,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Transform(Transform target, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Transform(Transform target, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true, bool unscaledDeltaTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -708,12 +732,18 @@
         <td><p>Lock user navigation when transforming <br> 變換時封鎖使用者導航</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">unscaledDeltaTime</span></td>
+        <td><p>Using unscaled delta time if true <br> 當 true 時使用未縮放的時間變化</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_Frame_Transform_" data-uid="Votanic.vXR.vCast.vCast.Frame.Transform*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Transform_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean)">Transform(Transform, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Transform_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">Transform(Transform, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Transform frame to the target point by custom custom calculation parameter and transition method.
 <br> 以自定義的過場計算參數及過場方法將框架變換到目標地點。</p>
 <p> Transform(transform, MotionParameter.Velocity, TransitionMethod.Fade, true, true, true) </p>
@@ -721,7 +751,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Transform(Transform target, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Transform(Transform target, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true, bool unscaledDeltaTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -767,6 +797,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">lockUserNavigation</span></td>
         <td><p>Lock user navigation when transforming <br> 變換時封鎖使用者導航</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">unscaledDeltaTime</span></td>
+        <td><p>Using unscaled delta time if true <br> 當 true 時使用未縮放的時間變化</p>
 </td>
       </tr>
     </tbody>
@@ -829,7 +865,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Frame_Transform_" data-uid="Votanic.vXR.vCast.vCast.Frame.Transform*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean)">Transform(Vector3, Vector3, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">Transform(Vector3, Vector3, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Transform frame to the target position and euler angles by custom calculation parameter and transition method.
 <br> 以自定義的過場計算參數及過場方法將框架變換到目標位置及角度。</p>
 <p> Transform(Vector3.zero, Vector3.zero, 8, 0, 0, 45, MotionParameter.Velocity, TransitionMethod.Fade, true, true, true) </p>
@@ -837,7 +873,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Transform(Vector3 position, Vector3 eulerAngles, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Transform(Vector3 position, Vector3 eulerAngles, float factor, float accel, float decel, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Translation, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true, bool unscaledDeltaTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -915,12 +951,18 @@
         <td><p>Lock user navigation when transforming <br> 變換時封鎖使用者導航</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">unscaledDeltaTime</span></td>
+        <td><p>Using unscaled delta time if true <br> 當 true 時使用未縮放的時間變化</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_Frame_Transform_" data-uid="Votanic.vXR.vCast.vCast.Frame.Transform*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Vector3_UnityEngine_Vector3_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean)">Transform(Vector3, Vector3, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Vector3_UnityEngine_Vector3_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">Transform(Vector3, Vector3, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Transform frame to the target position and euler angles by custom custom calculation parameter and transition method.
 <br> 以自定義的過場計算參數及過場方法將框架變換到目標位置及角度。</p>
 <p> Transform(Vector3.zero, Vector3.zero, MotionParameter.Velocity, TransitionMethod.Fade, true, true, true) </p>
@@ -928,7 +970,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Transform(Vector3 position, Vector3 eulerAngles, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Transform(Vector3 position, Vector3 eulerAngles, MotionParameter parameter, TransitionMethod method, bool resetUserToFrame = true, bool setUserToFloor = true, bool lockUserNavigation = true, bool unscaledDeltaTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -980,6 +1022,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">lockUserNavigation</span></td>
         <td><p>Lock user navigation when transforming <br> 變換時封鎖使用者導航</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">unscaledDeltaTime</span></td>
+        <td><p>Using unscaled delta time if true <br> 當 true 時使用未縮放的時間變化</p>
 </td>
       </tr>
     </tbody>

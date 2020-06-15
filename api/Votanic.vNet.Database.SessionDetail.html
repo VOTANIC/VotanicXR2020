@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Role
+    <title>Class SessionDetail
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Role
+    <meta name="title" content="Class SessionDetail
    ">
     <meta name="generator" content="docfx 2.52.0.0">
     
@@ -68,59 +68,33 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vNet.Database.Role">
+            <article class="content wrap" id="_content" data-uid="Votanic.vNet.Database.SessionDetail">
   
   
-  <h1 id="Votanic_vNet_Database_Role" data-uid="Votanic.vNet.Database.Role" class="text-break">Class Role
+  <h1 id="Votanic_vNet_Database_SessionDetail" data-uid="Votanic.vNet.Database.SessionDetail" class="text-break">Class SessionDetail
   </h1>
-  <div class="markdown level0 summary"><p>Role Table of Database.
-<br> 數據庳的角色表格。</p>
+  <div class="markdown level0 summary"><p>Session Detail Table of Application Database.
+<br> 應用程式數據庳的場節詳述表格。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Role</span></div>
+    <div class="level1"><span class="xref">SessionDetail</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vNet.Database.html">Votanic.vNet.Database</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vNet.dll</h6>
-  <h5 id="Votanic_vNet_Database_Role_syntax">Syntax</h5>
+  <h5 id="Votanic_vNet_Database_SessionDetail_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Role</code></pre>
+    <pre><code class="lang-csharp hljs">public class SessionDetail</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Votanic_vNet_Database_Role_Description_" data-uid="Votanic.vNet.Database.Role.Description*"></a>
-  <h4 id="Votanic_vNet_Database_Role_Description" data-uid="Votanic.vNet.Database.Role.Description">Description</h4>
-  <div class="markdown level1 summary"><p>Role Description. <br> 角色描述。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Description { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Votanic_vNet_Database_Role_ID_" data-uid="Votanic.vNet.Database.Role.ID*"></a>
-  <h4 id="Votanic_vNet_Database_Role_ID" data-uid="Votanic.vNet.Database.Role.ID">ID</h4>
-  <div class="markdown level1 summary"><p>Role unique ID. <br> 角色唯一識別碼。</p>
+  <a id="Votanic_vNet_Database_SessionDetail_ID_" data-uid="Votanic.vNet.Database.SessionDetail.ID*"></a>
+  <h4 id="Votanic_vNet_Database_SessionDetail_ID" data-uid="Votanic.vNet.Database.SessionDetail.ID">ID</h4>
+  <div class="markdown level1 summary"><p>Session Detail unique ID. <br> 場節詳述唯一識別碼。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -144,14 +118,118 @@
   </table>
   
   
-  <a id="Votanic_vNet_Database_Role_Name_" data-uid="Votanic.vNet.Database.Role.Name*"></a>
-  <h4 id="Votanic_vNet_Database_Role_Name" data-uid="Votanic.vNet.Database.Role.Name">Name</h4>
-  <div class="markdown level1 summary"><p>Role name. <br> 角色名稱。</p>
+  <a id="Votanic_vNet_Database_SessionDetail_Index_" data-uid="Votanic.vNet.Database.SessionDetail.Index*"></a>
+  <h4 id="Votanic_vNet_Database_SessionDetail_Index" data-uid="Votanic.vNet.Database.SessionDetail.Index">Index</h4>
+  <div class="markdown level1 summary"><p>Session Detail index. <br> 場節詳述編號。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int Index { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_SessionDetail_PlayerSessionID_" data-uid="Votanic.vNet.Database.SessionDetail.PlayerSessionID*"></a>
+  <h4 id="Votanic_vNet_Database_SessionDetail_PlayerSessionID" data-uid="Votanic.vNet.Database.SessionDetail.PlayerSessionID">PlayerSessionID</h4>
+  <div class="markdown level1 summary"><p>Related player session ID. <br> 相關玩家場節識別碼。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PlayerSessionID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_SessionDetail_TaskID_" data-uid="Votanic.vNet.Database.SessionDetail.TaskID*"></a>
+  <h4 id="Votanic_vNet_Database_SessionDetail_TaskID" data-uid="Votanic.vNet.Database.SessionDetail.TaskID">TaskID</h4>
+  <div class="markdown level1 summary"><p>Task ID. <br> 任務識別碼。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TaskID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_SessionDetail_TaskResult_" data-uid="Votanic.vNet.Database.SessionDetail.TaskResult*"></a>
+  <h4 id="Votanic_vNet_Database_SessionDetail_TaskResult" data-uid="Votanic.vNet.Database.SessionDetail.TaskResult">TaskResult</h4>
+  <div class="markdown level1 summary"><p>Task result. <br> 任務結果。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TaskResult { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_SessionDetail_Timestamp_" data-uid="Votanic.vNet.Database.SessionDetail.Timestamp*"></a>
+  <h4 id="Votanic_vNet_Database_SessionDetail_Timestamp" data-uid="Votanic.vNet.Database.SessionDetail.Timestamp">Timestamp</h4>
+  <div class="markdown level1 summary"><p>The date time when the task is recorded. <br> 任務被記錄的日期時間。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Timestamp { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

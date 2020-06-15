@@ -95,14 +95,14 @@ public class Transition : Motion</code></pre>
   
   
   <a id="Votanic_vXR_vCast_Core_Transition__ctor_" data-uid="Votanic.vXR.vCast.Core.Transition.#ctor*"></a>
-  <h4 id="Votanic_vXR_vCast_Core_Transition__ctor_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_" data-uid="Votanic.vXR.vCast.Core.Transition.#ctor(System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod)">Transition(Single, Single, Single, Single, MotionParameter, TransitionMethod)</h4>
+  <h4 id="Votanic_vXR_vCast_Core_Transition__ctor_System_Single_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_" data-uid="Votanic.vXR.vCast.Core.Transition.#ctor(System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)">Transition(Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean)</h4>
   <div class="markdown level1 summary"><p>Declare the transition.
 <br> 宣告過場。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transition(float factor = 1F, float accel = 0F, float decel = 0F, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Fade)</code></pre>
+    <pre><code class="lang-csharp hljs">public Transition(float factor = 1F, float accel = 0F, float decel = 0F, float rotationRatio = 45F, MotionParameter parameter = MotionParameter.Velocity, TransitionMethod method = TransitionMethod.Fade, bool unscaledDeltaTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -148,6 +148,12 @@ public class Transition : Motion</code></pre>
         <td><a class="xref" href="Votanic.vXR.TransitionMethod.html">TransitionMethod</a></td>
         <td><span class="parametername">method</span></td>
         <td><p>Transition method <br> 過場方法</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">unscaledDeltaTime</span></td>
+        <td><p>Using unscaled delta time if true <br> 當 true 時使用未縮放的時間變化</p>
 </td>
       </tr>
     </tbody>
@@ -325,6 +331,31 @@ public class Transition : Motion</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vCast_Core_Transition_unscaledDeltaTime" data-uid="Votanic.vXR.vCast.Core.Transition.unscaledDeltaTime">unscaledDeltaTime</h4>
+  <div class="markdown level1 summary"><p>Using unscaled delta time if true. <br> 當 true 時使用未縮放的時間變化。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool unscaledDeltaTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>

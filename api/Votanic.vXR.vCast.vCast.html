@@ -1451,6 +1451,176 @@ public bool forceQuality</code></pre>
   </table>
   
   
+  <a id="Votanic_vXR_vCast_vCast_GetTransform_" data-uid="Votanic.vXR.vCast.vCast.GetTransform*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_GetTransform_System_String_" data-uid="Votanic.vXR.vCast.vCast.GetTransform(System.String)">GetTransform(String)</h4>
+  <div class="markdown level1 summary"><p>Get a transform under frame.
+<br> 取得框架內的一個 Transform.</p>
+<p> GetTransform(&quot;Head&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform GetTransform(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Transform name <br> Transform 名稱</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_GetTransform_" data-uid="Votanic.vXR.vCast.vCast.GetTransform*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_GetTransform_UnityEngine_Transform_System_String_" data-uid="Votanic.vXR.vCast.vCast.GetTransform(UnityEngine.Transform,System.String)">GetTransform(Transform, String)</h4>
+  <div class="markdown level1 summary"><p>Get a transform under frame.
+<br> 取得母物件 Transform 內的一個 Transform.</p>
+<p> GetTransform(transform, &quot;Head&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform GetTransform(Transform parent, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>Parent transform <br> 母物件 Transform</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Transform name <br> Transform 名稱</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_GetTransforms_" data-uid="Votanic.vXR.vCast.vCast.GetTransforms*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_GetTransforms" data-uid="Votanic.vXR.vCast.vCast.GetTransforms">GetTransforms()</h4>
+  <div class="markdown level1 summary"><p>Get all transforms under frame.
+<br> 取得框架內所有 Transform.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Transform&gt; GetTransforms()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Transform</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_GetTransforms_" data-uid="Votanic.vXR.vCast.vCast.GetTransforms*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_GetTransforms_UnityEngine_Transform_" data-uid="Votanic.vXR.vCast.vCast.GetTransforms(UnityEngine.Transform)">GetTransforms(Transform)</h4>
+  <div class="markdown level1 summary"><p>Get all transforms under a parent transform.
+<br> 取得母物件 Transform 內所有 Transform.</p>
+<p> GetTransforms(transform) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Transform&gt; GetTransforms(Transform parent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Transform</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vXR_vCast_vCast_GetUser_" data-uid="Votanic.vXR.vCast.vCast.GetUser*"></a>
   <h4 id="Votanic_vXR_vCast_vCast_GetUser_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.GetUser(System.Int32)">GetUser(Int32)</h4>
   <div class="markdown level1 summary"><p>Get vCast User by index.

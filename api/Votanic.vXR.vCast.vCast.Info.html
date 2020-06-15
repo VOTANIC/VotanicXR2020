@@ -93,7 +93,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_Align_" data-uid="Votanic.vXR.vCast.vCast.Info.Align*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_Align_Votanic_HorizontalAlignment_Votanic_VerticalAlignment_" data-uid="Votanic.vXR.vCast.vCast.Info.Align(Votanic.HorizontalAlignment,Votanic.VerticalAlignment)">Align(HorizontalAlignment, VerticalAlignment)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_Align_Votanic_HorizontalAlignment_Votanic_VerticalAlignment_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.Align(Votanic.HorizontalAlignment,Votanic.VerticalAlignment,System.Int32)">Align(HorizontalAlignment, VerticalAlignment, Int32)</h4>
   <div class="markdown level1 summary"><p>Set the align of Information on Info Wall.
 <br> 設定資訊牆中的資訊排版。</p>
 <p> Align(HorizontalAlignment.Right, VerticalAlignment.Top) </p>
@@ -101,7 +101,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Align(HorizontalAlignment horizontal, VerticalAlignment vertical)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Align(HorizontalAlignment horizontal, VerticalAlignment vertical, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -125,34 +125,80 @@
         <td><p>Vertical Alignment <br> 垂直對齊</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_ClearDebugLog_" data-uid="Votanic.vXR.vCast.vCast.Info.ClearDebugLog*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_ClearDebugLog" data-uid="Votanic.vXR.vCast.vCast.Info.ClearDebugLog">ClearDebugLog()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ClearDebugLog()</code></pre>
-  </div>
-  
-  
-  <a id="Votanic_vXR_vCast_vCast_Info_ClearPrintLog_" data-uid="Votanic.vXR.vCast.vCast.Info.ClearPrintLog*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_ClearPrintLog" data-uid="Votanic.vXR.vCast.vCast.Info.ClearPrintLog">ClearPrintLog()</h4>
-  <div class="markdown level1 summary"><p>Clear custom message.
-<br> 清除自訂訊息。</p>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_ClearDebugLog_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.ClearDebugLog(System.Int32)">ClearDebugLog(Int32)</h4>
+  <div class="markdown level1 summary"><p>Clear custom debug message.
+<br> 清除自訂偵錯訊息。</p>
+<p> ClearDebugLog() </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ClearPrintLog()</code></pre>
+    <pre><code class="lang-csharp hljs">public static void ClearDebugLog(int index = 0)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Info_ClearPrintLog_" data-uid="Votanic.vXR.vCast.vCast.Info.ClearPrintLog*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_ClearPrintLog_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.ClearPrintLog(System.Int32)">ClearPrintLog(Int32)</h4>
+  <div class="markdown level1 summary"><p>Clear custom message.
+<br> 清除自訂訊息。</p>
+<p> ClearPrintLog() </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearPrintLog(int index = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_DebugLog_" data-uid="Votanic.vXR.vCast.vCast.Info.DebugLog*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_DebugLog_System_Object_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.DebugLog(System.Object,System.Boolean,System.Boolean)">DebugLog(Object, Boolean, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_DebugLog_System_Object_System_Boolean_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.DebugLog(System.Object,System.Boolean,System.Boolean,System.Int32)">DebugLog(Object, Boolean, Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Add a message to custom debug message at current frame.
 <br> 在當前幀增加一句自訂偵錯訊息。</p>
 <p> DebugLog(&quot;abc&quot;, true) </p>
@@ -160,7 +206,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DebugLog(object message, bool clear = false, bool hideTitle = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DebugLog(object message, bool clear = false, bool hideTitle = false, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -190,12 +236,18 @@
         <td><p>Hide [Debug] this frame if true once <br> 當 true 時當前幀將隱藏 [Debug]</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_DisplayCompanyName_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayCompanyName*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayCompanyName_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayCompanyName(System.Boolean)">DisplayCompanyName(Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayCompanyName_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayCompanyName(System.Boolean,System.Int32)">DisplayCompanyName(Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Show or hide the Company Name of the application.
 <br> 顯示或隱藏應用程式的公司名稱。</p>
 <p> DisplayCompanyName(true) </p>
@@ -203,7 +255,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DisplayCompanyName(bool display)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DisplayCompanyName(bool display, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -219,6 +271,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">display</span></td>
         <td><p>Show if true <br> 當 true 時顯示</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
 </td>
       </tr>
     </tbody>
@@ -226,7 +284,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_DisplayDebugLog_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayDebugLog*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayDebugLog_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayDebugLog(System.Boolean)">DisplayDebugLog(Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayDebugLog_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayDebugLog(System.Boolean,System.Int32)">DisplayDebugLog(Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Show or hide the debug message.
 <br> 顯示或隱藏偵錯訊息。</p>
 <p> DisplayDebugLog(true) </p>
@@ -234,7 +292,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DisplayDebugLog(bool display)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DisplayDebugLog(bool display, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -250,6 +308,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">display</span></td>
         <td><p>Show if true <br> 當 true 時顯示</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
 </td>
       </tr>
     </tbody>
@@ -257,7 +321,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_DisplayFPS_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayFPS*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayFPS_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayFPS(System.Boolean)">DisplayFPS(Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayFPS_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayFPS(System.Boolean,System.Int32)">DisplayFPS(Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Show or hide the FPS of the application.
 <br> 顯示或隱藏應用程式的幀數。</p>
 <p> DisplayFPS(true) </p>
@@ -265,7 +329,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DisplayFPS(bool display)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DisplayFPS(bool display, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -281,6 +345,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">display</span></td>
         <td><p>Show if true <br> 當 true 時顯示</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
 </td>
       </tr>
     </tbody>
@@ -288,7 +358,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_DisplayPrintLog_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayPrintLog*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayPrintLog_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayPrintLog(System.Boolean)">DisplayPrintLog(Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayPrintLog_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayPrintLog(System.Boolean,System.Int32)">DisplayPrintLog(Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Show or hide the custom message.
 <br> 顯示或隱藏自訂訊息。</p>
 <p> DisplayPrintLog(true) </p>
@@ -296,7 +366,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DisplayPrintLog(bool display)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DisplayPrintLog(bool display, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -312,6 +382,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">display</span></td>
         <td><p>Show if true <br> 當 true 時顯示</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
 </td>
       </tr>
     </tbody>
@@ -319,7 +395,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_DisplayProductName_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayProductName*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayProductName_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayProductName(System.Boolean)">DisplayProductName(Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayProductName_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayProductName(System.Boolean,System.Int32)">DisplayProductName(Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Show or hide the Product Name of the application.
 <br> 顯示或隱藏應用程式的產品名稱。</p>
 <p> DisplayProductName(true) </p>
@@ -327,7 +403,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DisplayProductName(bool display)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DisplayProductName(bool display, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -343,6 +419,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">display</span></td>
         <td><p>Show if true <br> 當 true 時顯示</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
 </td>
       </tr>
     </tbody>
@@ -350,7 +432,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_DisplayVersion_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayVersion*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayVersion_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayVersion(System.Boolean)">DisplayVersion(Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayVersion_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayVersion(System.Boolean,System.Int32)">DisplayVersion(Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Show or hide the Version of the application.
 <br> 顯示或隱藏應用程式的版本。</p>
 <p> DisplayVersion(true) </p>
@@ -358,7 +440,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DisplayVersion(bool display)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DisplayVersion(bool display, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -376,12 +458,18 @@
         <td><p>Show if true <br> 當 true 時顯示</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_Enable_" data-uid="Votanic.vXR.vCast.vCast.Info.Enable*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_Enable_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.Enable(System.Boolean)">Enable(Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_Enable_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.Enable(System.Boolean,System.Int32)">Enable(Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Enable or disable the Info Wall.
 <br> 啟用或停用資訊牆。</p>
 <p> Enable(true) </p>
@@ -389,7 +477,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Enable(bool enable)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Enable(bool enable, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -407,20 +495,45 @@
         <td><p>Enable if true <br> 當 true 時啟用</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_FPS_" data-uid="Votanic.vXR.vCast.vCast.Info.FPS*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_FPS" data-uid="Votanic.vXR.vCast.vCast.Info.FPS">FPS()</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_FPS_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.FPS(System.Int32)">FPS(Int32)</h4>
   <div class="markdown level1 summary"><p>Return the FPS of the application.
 <br> 傳回應用程式的幀數。</p>
+<p> FPS() </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float FPS()</code></pre>
+    <pre><code class="lang-csharp hljs">public static float FPS(int index = 0)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -439,7 +552,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_Print_" data-uid="Votanic.vXR.vCast.vCast.Info.Print*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_Print_System_Object_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.Print(System.Object,System.Boolean,System.Boolean)">Print(Object, Boolean, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_Print_System_Object_System_Boolean_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.Print(System.Object,System.Boolean,System.Boolean,System.Int32)">Print(Object, Boolean, Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Add a message to custom message at current frame.
 <br> 在當前幀增加一句自訂訊息。</p>
 <p> Print(&quot;abc&quot;, true) </p>
@@ -447,7 +560,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Print(object message, bool clear = false, bool hideTitle = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Print(object message, bool clear = false, bool hideTitle = false, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -477,24 +590,49 @@
         <td><p>Hide [Print] this frame if true once <br> 當 true 時當前幀將隱藏 [Print]</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_ResetInfo_" data-uid="Votanic.vXR.vCast.vCast.Info.ResetInfo*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_ResetInfo" data-uid="Votanic.vXR.vCast.vCast.Info.ResetInfo">ResetInfo()</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_ResetInfo_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.ResetInfo(System.Int32)">ResetInfo(Int32)</h4>
   <div class="markdown level1 summary"><p>Reset the Info Wall setting.
 <br> 重設資訊牆。</p>
+<p> ResetInfo() </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ResetInfo()</code></pre>
+    <pre><code class="lang-csharp hljs">public static void ResetInfo(int index = 0)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_Text_" data-uid="Votanic.vXR.vCast.vCast.Info.Text*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_Text_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.Text(System.Boolean)">Text(Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_Text_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.Text(System.Boolean,System.Int32)">Text(Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Enable or disable the Text part.
 <br> 啟用或停用文字部份。</p>
 <p> Text(true) </p>
@@ -502,7 +640,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Text(bool enable)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Text(bool enable, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -520,12 +658,18 @@
         <td><p>Enable if true <br> 當 true 時啟用</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_WaterMark_" data-uid="Votanic.vXR.vCast.vCast.Info.WaterMark*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_WaterMark_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.Info.WaterMark(System.Boolean)">WaterMark(Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_WaterMark_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.WaterMark(System.Boolean,System.Int32)">WaterMark(Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Enable or disable the Watermark part.
 <br> 啟用或停用水印部份。</p>
 <p> WaterMark(true) </p>
@@ -533,7 +677,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WaterMark(bool enable)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void WaterMark(bool enable, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -549,6 +693,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">enable</span></td>
         <td><p>Enable if true <br> 當 true 時啟用</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
 </td>
       </tr>
     </tbody>

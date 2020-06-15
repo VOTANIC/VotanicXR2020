@@ -372,6 +372,7 @@ public class Media : Element</code></pre>
   <h4 id="Votanic_vMedia_Media_LoadAudio_System_String_UnityEngine_AudioType_UnityEngine_AudioSource_" data-uid="Votanic.vMedia.Media.LoadAudio(System.String,UnityEngine.AudioType,UnityEngine.AudioSource)">LoadAudio(String, AudioType, AudioSource)</h4>
   <div class="markdown level1 summary"><p>Load an image from url or file.
 <br> 在網址或檔案載入影像。</p>
+<p> StartCoroutine(LoadAudio(&quot;../Resources/Audio/abc.mp3&quot;, AudioType.MPEG, audioSource)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -429,6 +430,7 @@ public class Media : Element</code></pre>
   <h4 id="Votanic_vMedia_Media_LoadImage_System_String_" data-uid="Votanic.vMedia.Media.LoadImage(System.String)">LoadImage(String)</h4>
   <div class="markdown level1 summary"><p>Load an image from file.
 <br> 在檔案載入影像。</p>
+<p> Texture2D t = LoadImage(&quot;../Resources/Image/abc.png&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -474,6 +476,7 @@ public class Media : Element</code></pre>
   <h4 id="Votanic_vMedia_Media_SaveEXR_System_String_UnityEngine_Texture2D_" data-uid="Votanic.vMedia.Media.SaveEXR(System.String,UnityEngine.Texture2D)">SaveEXR(String, Texture2D)</h4>
   <div class="markdown level1 summary"><p>Save an image from Unity to storage as EXR format.
 <br> 將影像儲存為 exr 格式。</p>
+<p> SaveTGA(&quot;../Resources/Image/abc.exr&quot;, texture) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -510,6 +513,7 @@ public class Media : Element</code></pre>
   <h4 id="Votanic_vMedia_Media_SaveJPG_System_String_UnityEngine_Texture2D_" data-uid="Votanic.vMedia.Media.SaveJPG(System.String,UnityEngine.Texture2D)">SaveJPG(String, Texture2D)</h4>
   <div class="markdown level1 summary"><p>Save an image from Unity to storage as JPG format.
 <br> 將影像儲存為 jpg 格式。</p>
+<p> SaveJPG(&quot;../Resources/Image/abc.jpg&quot;, texture) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -546,6 +550,7 @@ public class Media : Element</code></pre>
   <h4 id="Votanic_vMedia_Media_SavePNG_System_String_UnityEngine_Texture2D_" data-uid="Votanic.vMedia.Media.SavePNG(System.String,UnityEngine.Texture2D)">SavePNG(String, Texture2D)</h4>
   <div class="markdown level1 summary"><p>Save an image from Unity to storage as PNG format.
 <br> 將影像儲存為 png 格式。</p>
+<p> SavePNG(&quot;../Resources/Image/abc.png&quot;, texture) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -582,6 +587,7 @@ public class Media : Element</code></pre>
   <h4 id="Votanic_vMedia_Media_SaveTGA_System_String_UnityEngine_Texture2D_" data-uid="Votanic.vMedia.Media.SaveTGA(System.String,UnityEngine.Texture2D)">SaveTGA(String, Texture2D)</h4>
   <div class="markdown level1 summary"><p>Save an image from Unity to storage as TGA format.
 <br> 將影像儲存為 tga 格式。</p>
+<p> SaveTGA(&quot;../Resources/Image/abc.tga&quot;, texture) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -618,6 +624,7 @@ public class Media : Element</code></pre>
   <h4 id="Votanic_vMedia_Media_Type_System_String_" data-uid="Votanic.vMedia.Media.Type(System.String)">Type(String)</h4>
   <div class="markdown level1 summary"><p>Retrun media type from extension.
 <br> 由副檔名傳回媒體類型。</p>
+<p> Type(&quot;.mp3&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

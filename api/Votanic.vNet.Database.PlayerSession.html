@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum TaskKey
+    <title>Class PlayerSession
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum TaskKey
+    <meta name="title" content="Class PlayerSession
    ">
     <meta name="generator" content="docfx 2.52.0.0">
     
@@ -68,63 +68,132 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vNet.Database.TaskKey">
+            <article class="content wrap" id="_content" data-uid="Votanic.vNet.Database.PlayerSession">
   
   
-  <h1 id="Votanic_vNet_Database_TaskKey" data-uid="Votanic.vNet.Database.TaskKey" class="text-break">Enum TaskKey
+  <h1 id="Votanic_vNet_Database_PlayerSession" data-uid="Votanic.vNet.Database.PlayerSession" class="text-break">Class PlayerSession
   </h1>
-  <div class="markdown level0 summary"><p>Attribute type for searching tasks.
-<br> 搜尋任務的屬性類型。</p>
+  <div class="markdown level0 summary"><p>Player Session Table of Applcation Database.
+<br> 應用程式數據庳的使用者場節表格。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PlayerSession</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vNet.Database.html">Votanic.vNet.Database</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vNet.dll</h6>
-  <h5 id="Votanic_vNet_Database_TaskKey_syntax">Syntax</h5>
+  <h5 id="Votanic_vNet_Database_PlayerSession_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum TaskKey</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerSession</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="Votanic_vNet_Database_PlayerSession_ID_" data-uid="Votanic.vNet.Database.PlayerSession.ID*"></a>
+  <h4 id="Votanic_vNet_Database_PlayerSession_ID" data-uid="Votanic.vNet.Database.PlayerSession.ID">ID</h4>
+  <div class="markdown level1 summary"><p>Player Session unique ID. <br> 玩家場節唯一識別碼。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="Votanic_vNet_Database_TaskKey_Any">Any</td>
-        <td><p>Any attribute/ <br> 任何屬性。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vNet_Database_TaskKey_Description">Description</td>
-        <td><p>Task Description. <br> 任務描述。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vNet_Database_TaskKey_ID">ID</td>
-        <td><p>Task ID/ <br> 任務識別碼。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vNet_Database_TaskKey_Index">Index</td>
-        <td><p>Task Index/ <br> 任務編號。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vNet_Database_TaskKey_Name">Name</td>
-        <td><p>Task Name/ <br> 任務名稱。</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Votanic_vNet_Database_TaskKey_Score">Score</td>
-        <td><p>Task Score/ <br> 任務得分。</p>
-</td>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_PlayerSession_PlayerID_" data-uid="Votanic.vNet.Database.PlayerSession.PlayerID*"></a>
+  <h4 id="Votanic_vNet_Database_PlayerSession_PlayerID" data-uid="Votanic.vNet.Database.PlayerSession.PlayerID">PlayerID</h4>
+  <div class="markdown level1 summary"><p>Player identifier. <br> 玩家識別碼。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PlayerID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_PlayerSession_SessionID_" data-uid="Votanic.vNet.Database.PlayerSession.SessionID*"></a>
+  <h4 id="Votanic_vNet_Database_PlayerSession_SessionID" data-uid="Votanic.vNet.Database.PlayerSession.SessionID">SessionID</h4>
+  <div class="markdown level1 summary"><p>Session identifier. <br> 場節識別碼。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SessionID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_PlayerSession_UserID_" data-uid="Votanic.vNet.Database.PlayerSession.UserID*"></a>
+  <h4 id="Votanic_vNet_Database_PlayerSession_UserID" data-uid="Votanic.vNet.Database.PlayerSession.UserID">UserID</h4>
+  <div class="markdown level1 summary"><p>User identifier. <br> 使用者識別碼。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UserID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

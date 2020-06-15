@@ -88,8 +88,110 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class DatabaseHandler</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_currentUser_" data-uid="Votanic.vNet.Database.DatabaseHandler.currentUser*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_currentUser" data-uid="Votanic.vNet.Database.DatabaseHandler.currentUser">currentUser</h4>
+  <div class="markdown level1 summary"><p>Return the current login user.
+<br> 傳回目前登入的使用者。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public User currentUser { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.User.html">User</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_hasAuthority_" data-uid="Votanic.vNet.Database.DatabaseHandler.hasAuthority*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_hasAuthority" data-uid="Votanic.vNet.Database.DatabaseHandler.hasAuthority">hasAuthority</h4>
+  <div class="markdown level1 summary"><p>Return the authority for fully access database.
+<br> 傳回資料庫的完全存取權限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasAuthority { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_AccessAuthority_" data-uid="Votanic.vNet.Database.DatabaseHandler.AccessAuthority*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_AccessAuthority_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.AccessAuthority(System.String)">AccessAuthority(String)</h4>
+  <div class="markdown level1 summary"><p>Set the access authority for fully access database.
+<br> 設定資料庫的完全存取權限。</p>
+<p> AccessAuthority(&quot;Authority&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AccessAuthority(string identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>Unqiue identifier <br> 唯一識別碼</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Votanic_vNet_Database_DatabaseHandler_Clear_" data-uid="Votanic.vNet.Database.DatabaseHandler.Clear*"></a>
@@ -106,8 +208,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_CreateApp_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateApp*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_CreateApp_System_String_System_String_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateApp(System.String,System.String,System.String,System.String)">CreateApp(String, String, String, String)</h4>
-  <div class="markdown level1 summary"><p>Create app or get the existing app from app table in environment database.
-<br> 在環境數據庫中的應用程式表格創造應用程式或取得已存在應用程式。</p>
+  <div class="markdown level1 summary"><p>Create app or get the existing app from app table in system database.
+<br> 在系統數據庫中的應用程式表格創造應用程式或取得已存在應用程式。</p>
 <p> CreateApp(&quot;QWERTYUIOP&quot;, &quot;VotanicXR&quot;, &quot;Votanic Project&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -172,12 +274,12 @@
   <h4 id="Votanic_vNet_Database_DatabaseHandler_CreateDB_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateDB(System.String,System.String)">CreateDB(String, String)</h4>
   <div class="markdown level1 summary"><p>Create environment and application database if the paths do not exist.
 <br> 當指定的路徑不存在時創造環境及應用程式數據庫。</p>
-<p> CreateDB(&quot;../Resources/Database/envDB.db&quot;, &quot;../Resources/Database/appDB.db&quot;) </p>
+<p> CreateDB(&quot;../Resources/Database/sysDB.db&quot;, &quot;../Resources/Database/appDB.db&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CreateDB(string envDBPath, string appDBPath)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CreateDB(string sysDBPath, string appDBPath)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -191,8 +293,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">envDBPath</span></td>
-        <td><p>Path of environment database <br> 環境數據庫路徑</p>
+        <td><span class="parametername">sysDBPath</span></td>
+        <td><p>Path of system database <br> 系統數據庫路徑</p>
 </td>
       </tr>
       <tr>
@@ -205,10 +307,68 @@
   </table>
   
   
+  <a id="Votanic_vNet_Database_DatabaseHandler_CreateEnrollment_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateEnrollment*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_CreateEnrollment_System_Int32_System_Int32_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateEnrollment(System.Int32,System.Int32,System.String)">CreateEnrollment(Int32, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Create enrollment or get the existing enrollment from enrollment table in system database.
+<br> 在系統數據庫中的登記表格創造登記或取得已存在登記。</p>
+<p> CreateEnrollment(&quot;Chan Tai Man&quot;, &quot;Chan Siu Man&quot;, &quot;Votanic Project&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Enrollment CreateEnrollment(int userID, int playerID, string appID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userID</span></td>
+        <td><p>User ID <br> 使用者識別碼</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td><p>Player ID <br> 玩家識別碼</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">appID</span></td>
+        <td><p>Application ID <br> 應用程式識別碼</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.Enrollment.html">Enrollment</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vNet_Database_DatabaseHandler_CreateMetaInfo_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateMetaInfo*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_CreateMetaInfo_System_String_System_Int32_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateMetaInfo(System.String,System.Int32,System.String,System.String)">CreateMetaInfo(String, Int32, String, String)</h4>
-  <div class="markdown level1 summary"><p>Create metaInfo or get the existing metaInfo from metaInfo table in application database.
-<br> 在應用程式數據庫中的表格數據詳述表格創造表格數據詳述或取得已存在表格數據詳述。</p>
+  <div class="markdown level1 summary"><p>Create metaInfo or get the existing meta info from meta info table in application database.
+<br> 在應用程式數據庫中的元信息表格創造元信息或取得已存在元信息。</p>
 <p> CreateMetaInfo(&quot;Task&quot;, 1, &quot;Event&quot;, &quot;ABC&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -235,7 +395,7 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">refID</span></td>
-        <td><p>ID on the table <br> 在該按格中的識別碼</p>
+        <td><p>ID on the table <br> 在該表格中的識別碼</p>
 </td>
       </tr>
       <tr>
@@ -247,7 +407,7 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">value</span></td>
-        <td><p>Content <br> 內容</p>
+        <td><p>Content of attribute <br> 屬性內容</p>
 </td>
       </tr>
     </tbody>
@@ -269,10 +429,138 @@
   </table>
   
   
+  <a id="Votanic_vNet_Database_DatabaseHandler_CreatePlayer_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreatePlayer*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_CreatePlayer_System_String_System_String_System_String_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreatePlayer(System.String,System.String,System.String,System.String,System.String)">CreatePlayer(String, String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Create player or get the existing player from player table in system database.
+<br> 在系統數據庫中的玩家表格創造玩家或取得已存在玩家。</p>
+<p> CreatePlayer(&quot;AC1234&quot;, &quot;********&quot;, &quot;123456789&quot;, &quot;Chan Tai Man&quot;, &quot;ABC&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Player CreatePlayer(string account, string password, string smartID = &quot;&quot;, string fullName = &quot;&quot;, string remark = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">account</span></td>
+        <td><p>Player account for joining the session <br> 加入場節的玩家帳戶</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>Password for joining the session <br> 加入場節的密碼</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">smartID</span></td>
+        <td><p>Smart identifier for joining the session <br> 加入場節的智能識別碼</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fullName</span></td>
+        <td><p>Full name of player <br> 玩家全名</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">remark</span></td>
+        <td><p>Remark of player <br> 玩家備註</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.Player.html">Player</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_CreatePlayerSession_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreatePlayerSession*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_CreatePlayerSession_System_Int32_System_Int32_System_Int32_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreatePlayerSession(System.Int32,System.Int32,System.Int32)">CreatePlayerSession(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Create player session or get the existing player session from player session table in application database.
+<br> 在應用程式數據庫中的玩家場節表格創造玩家場節或取得已存在玩家場節。</p>
+<p> CreatePlayerSession(0, &quot;AC1234&quot;, &quot;PY5678&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerSession CreatePlayerSession(int sessionID, int userID, int playerID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sessionID</span></td>
+        <td><p>Seesion ID <br> 場節識別碼</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userID</span></td>
+        <td><p>User ID <br> 使用者識別碼</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td><p>Player ID <br> 玩家識別碼</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.PlayerSession.html">PlayerSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vNet_Database_DatabaseHandler_CreateRole_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateRole*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_CreateRole_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateRole(System.String,System.String)">CreateRole(String, String)</h4>
-  <div class="markdown level1 summary"><p>Create role or get the existing role from role table in environment database.
-<br> 在環境數據庫中的角色表格創造角色或取得已存在角色。</p>
+  <div class="markdown level1 summary"><p>Create role or get the existing role from role table in system database.
+<br> 在系統數據庫中的角色表格創造角色或取得已存在角色。</p>
 <p> CreateRole(&quot;RoleA&quot;, &quot;ABC&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -322,15 +610,15 @@
   
   
   <a id="Votanic_vNet_Database_DatabaseHandler_CreateSession_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateSession*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_CreateSession_System_String_System_String_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateSession(System.String,System.String,System.String,System.String)">CreateSession(String, String, String, String)</h4>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_CreateSession_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateSession(System.String,System.String)">CreateSession(String, String)</h4>
   <div class="markdown level1 summary"><p>Create session or get the existing session from session table in application database.
 <br> 在應用程式數據庫中的場節表格創造場節或取得已存在場節。</p>
-<p> CreateSession(&quot;QWERTYUIOP&quot;, &quot;31/05/2020&quot;, &quot;07:01:33&quot;, &quot;07:02:44&quot;) </p>
+<p> CreateSession(&quot;31/05/2020 07:01:33&quot;, &quot;31/05/2020 07:02:44&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Session CreateSession(string app, string date, string start, string end)</code></pre>
+    <pre><code class="lang-csharp hljs">public Session CreateSession(string start, string end)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -344,26 +632,14 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">app</span></td>
-        <td><p>App ID or Name <br> 應用程式識別碼或名稱</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">date</span></td>
-        <td><p>Data of this session <br> 本場節日期</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">start</span></td>
-        <td><p>Start time of this session <br> 本場節開始時間</p>
+        <td><p>Start time of session <br> 場節開始時間時間</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">end</span></td>
-        <td><p>End time of this session <br> 本場節結束時間</p>
+        <td><p>End time of session <br> 場節結束時間時間</p>
 </td>
       </tr>
     </tbody>
@@ -385,16 +661,16 @@
   </table>
   
   
-  <a id="Votanic_vNet_Database_DatabaseHandler_CreateSessionDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateSessionDetails*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_CreateSessionDetails_System_Int32_System_Int32_System_Int32_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateSessionDetails(System.Int32,System.Int32,System.Int32,System.String,System.String)">CreateSessionDetails(Int32, Int32, Int32, String, String)</h4>
+  <a id="Votanic_vNet_Database_DatabaseHandler_CreateSessionDetail_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateSessionDetail*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_CreateSessionDetail_System_Int32_System_Int32_System_Int32_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateSessionDetail(System.Int32,System.Int32,System.Int32,System.String,System.String)">CreateSessionDetail(Int32, Int32, Int32, String, String)</h4>
   <div class="markdown level1 summary"><p>Create session or get the existing session from session table in application database.
 <br> 在應用程式數據庫中的場節詳述表格創造場節詳述或取得已存在場節詳述。</p>
-<p> CreateSessionDetails(0, &quot;AC1234&quot;) </p>
+<p> CreateSessionDetail(0, 0, 0, &quot;ABC&quot;, &quot;31/05/2020 07:05:55&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SessionDetails CreateSessionDetails(int index, int userSessionID, int taskID, string taskResult, string timestamp)</code></pre>
+    <pre><code class="lang-csharp hljs">public SessionDetail CreateSessionDetail(int playerSessionID, int index, int taskID, string taskResult, string timestamp)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -408,14 +684,14 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td><p>Session Details Index <br> 場節詳述編號</p>
+        <td><span class="parametername">playerSessionID</span></td>
+        <td><p>Player session ID <br> 玩家場節識別碼</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">userSessionID</span></td>
-        <td><p>User Session ID <br> 使用者場節識別碼</p>
+        <td><span class="parametername">index</span></td>
+        <td><p>Session Details Index <br> 場節詳述編號</p>
 </td>
       </tr>
       <tr>
@@ -433,7 +709,7 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">timestamp</span></td>
-        <td><p>Spend time duration <br> 花費時間長度</p>
+        <td><p>Date time when the task is recorded <br> 任務被記錄的日期時間</p>
 </td>
       </tr>
     </tbody>
@@ -448,7 +724,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.SessionDetails.html">SessionDetails</a></td>
+        <td><a class="xref" href="Votanic.vNet.Database.SessionDetail.html">SessionDetail</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -521,8 +797,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_CreateUser_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateUser*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_CreateUser_System_String_System_String_System_String_System_String_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateUser(System.String,System.String,System.String,System.String,System.String,System.String)">CreateUser(String, String, String, String, String, String)</h4>
-  <div class="markdown level1 summary"><p>Create user or get the existing user from user table in environment database.
-<br> 在環境數據庫中的使用者表格創造使用者或取得已存在使用者。</p>
+  <div class="markdown level1 summary"><p>Create user or get the existing user from user table in system database.
+<br> 在系統數據庫中的使用者表格創造使用者或取得已存在使用者。</p>
 <p> CreateUser(&quot;AC1234&quot;, &quot;********&quot;, &quot;123456789&quot;, &quot;Chan Tai Man&quot;, &quot;RoleA&quot;, &quot;ABC&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -573,7 +849,7 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">remark</span></td>
-        <td><p>Remark <br> 註解</p>
+        <td><p>Remark of user <br> 使用者備註</p>
 </td>
       </tr>
     </tbody>
@@ -595,62 +871,10 @@
   </table>
   
   
-  <a id="Votanic_vNet_Database_DatabaseHandler_CreateUserSession_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateUserSession*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_CreateUserSession_System_Int32_System_String_" data-uid="Votanic.vNet.Database.DatabaseHandler.CreateUserSession(System.Int32,System.String)">CreateUserSession(Int32, String)</h4>
-  <div class="markdown level1 summary"><p>Create user session or get the existing user session from user session table in application database.
-<br> 在應用程式數據庫中的使用者場節表格創造使用者場節或取得已存在使用者場節。</p>
-<p> CreateUserSession(0, &quot;AC1234&quot;) </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UserSession CreateUserSession(int sessionID, string user)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">sessionID</span></td>
-        <td><p>Seesion ID <br> 場節識別碼</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">user</span></td>
-        <td><p>User ID, User Name, Smart ID or Full Name <br> 使用者識別碼、名稱、智能識別碼或全名</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.UserSession.html">UserSession</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Votanic_vNet_Database_DatabaseHandler_DeleteAllApps_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllApps*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteAllApps" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllApps">DeleteAllApps()</h4>
-  <div class="markdown level1 summary"><p>Delete all apps from app table in environment database.
-<br> 在環境數據庫中的應用程式表格刪除所有應用程式。</p>
+  <div class="markdown level1 summary"><p>Delete all apps from app table in system database.
+<br> 在系統數據庫中的應用程式表格刪除所有應用程式。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -659,10 +883,22 @@
   </div>
   
   
+  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteAllEnrollments_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllEnrollments*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteAllEnrollments" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllEnrollments">DeleteAllEnrollments()</h4>
+  <div class="markdown level1 summary"><p>Delete all enrollments from enrollment table in system database.
+<br> 在系統數據庫中的登記表格刪除所有登記。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteAllEnrollments()</code></pre>
+  </div>
+  
+  
   <a id="Votanic_vNet_Database_DatabaseHandler_DeleteAllMetaInfos_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllMetaInfos*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteAllMetaInfos" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllMetaInfos">DeleteAllMetaInfos()</h4>
-  <div class="markdown level1 summary"><p>Delete all metaInfos from metaInfo table in application database.
-<br> 在應用程式數據庫中的表格數據詳述表格刪除所有表格數據詳述。</p>
+  <div class="markdown level1 summary"><p>Delete all meta infos from meta info table in application database.
+<br> 在應用程式數據庫中的元信息表格刪除所有元信息。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -671,15 +907,51 @@
   </div>
   
   
+  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteAllPlayers_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllPlayers*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteAllPlayers" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllPlayers">DeleteAllPlayers()</h4>
+  <div class="markdown level1 summary"><p>Delete all players from player table in system database.
+<br> 在系統數據庫中的玩家表格刪除所有玩家。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteAllPlayers()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteAllPlayerSessions_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllPlayerSessions*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteAllPlayerSessions" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllPlayerSessions">DeleteAllPlayerSessions()</h4>
+  <div class="markdown level1 summary"><p>Delete all player sessions from player session table in application database.
+<br> 在應用程式數據庫中的玩家場節表格刪除所有玩家場節。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteAllPlayerSessions()</code></pre>
+  </div>
+  
+  
   <a id="Votanic_vNet_Database_DatabaseHandler_DeleteAllRoles_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllRoles*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteAllRoles" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllRoles">DeleteAllRoles()</h4>
-  <div class="markdown level1 summary"><p>Delete all roles from role table in environment database.
-<br> 在環境數據庫中的角色表格刪除所有角色。</p>
+  <div class="markdown level1 summary"><p>Delete all roles from role table in system database.
+<br> 在系統數據庫中的角色表格刪除所有角色。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DeleteAllRoles()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteAllSessionDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllSessionDetails*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteAllSessionDetails" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllSessionDetails">DeleteAllSessionDetails()</h4>
+  <div class="markdown level1 summary"><p>Delete all session details from session details table in application database.
+<br> 在應用程式數據庫中的場節詳述表格刪除所有場節詳述。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteAllSessionDetails()</code></pre>
   </div>
   
   
@@ -692,18 +964,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DeleteAllSessions()</code></pre>
-  </div>
-  
-  
-  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteAllSessionsDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllSessionsDetails*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteAllSessionsDetails" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllSessionsDetails">DeleteAllSessionsDetails()</h4>
-  <div class="markdown level1 summary"><p>Delete all sessions details from session details table in application database.
-<br> 在應用程式數據庫中的場節詳述表格刪除所有場節詳述。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DeleteAllSessionsDetails()</code></pre>
   </div>
   
   
@@ -721,8 +981,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_DeleteAllUsers_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllUsers*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteAllUsers" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllUsers">DeleteAllUsers()</h4>
-  <div class="markdown level1 summary"><p>Delete all users from user table in environment database.
-<br> 在環境數據庫中的使用者表格刪除所有使用者。</p>
+  <div class="markdown level1 summary"><p>Delete all users from user table in system database.
+<br> 在系統數據庫中的使用者表格刪除所有使用者。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -731,22 +991,10 @@
   </div>
   
   
-  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteAllUserSessions_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllUserSessions*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteAllUserSessions" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteAllUserSessions">DeleteAllUserSessions()</h4>
-  <div class="markdown level1 summary"><p>Delete all user sessions from user session table in application database.
-<br> 在應用程式數據庫中的使用者場節表格刪除所有使用者場節。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DeleteAllUserSessions()</code></pre>
-  </div>
-  
-  
   <a id="Votanic_vNet_Database_DatabaseHandler_DeleteApp_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteApp*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteApp_Votanic_vNet_Database_App_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteApp(Votanic.vNet.Database.App)">DeleteApp(App)</h4>
-  <div class="markdown level1 summary"><p>Delete the target user from user table in environment database.
-<br> 在環境數據庫中的應用程式表格刪除指定單一應用程式。</p>
+  <div class="markdown level1 summary"><p>Delete the target app from app table in system database.
+<br> 在系統數據庫中的應用程式表格刪除指定單一應用程式。</p>
 <p> DeleteApp(GetApp()) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -776,8 +1024,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_DeleteApps_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteApps*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteApps_System_Collections_Generic_List_Votanic_vNet_Database_App__" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteApps(System.Collections.Generic.List{Votanic.vNet.Database.App})">DeleteApps(List&lt;App&gt;)</h4>
-  <div class="markdown level1 summary"><p>Delete the target apps from app table in environment database.
-<br> 在環境數據庫中的應用程式表格刪除指定應用程式。</p>
+  <div class="markdown level1 summary"><p>Delete the target apps from app table in system database.
+<br> 在系統數據庫中的應用程式表格刪除指定應用程式。</p>
 <p> DeleteApps(GetApps()) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -805,10 +1053,72 @@
   </table>
   
   
+  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteEnrollment_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteEnrollment*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteEnrollment_Votanic_vNet_Database_Enrollment_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteEnrollment(Votanic.vNet.Database.Enrollment)">DeleteEnrollment(Enrollment)</h4>
+  <div class="markdown level1 summary"><p>Delete the target enrollment from enrollment table in system database.
+<br> 在系統數據庫中的登記表格刪除指定單一登記。</p>
+<p> DeleteEnrollment(GetEnrollment()) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteEnrollment(Enrollment enrollment)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.Enrollment.html">Enrollment</a></td>
+        <td><span class="parametername">enrollment</span></td>
+        <td><p>Enrollment <br> 登記</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteEnrollments_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteEnrollments*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteEnrollments_System_Collections_Generic_List_Votanic_vNet_Database_Enrollment__" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteEnrollments(System.Collections.Generic.List{Votanic.vNet.Database.Enrollment})">DeleteEnrollments(List&lt;Enrollment&gt;)</h4>
+  <div class="markdown level1 summary"><p>Delete the target enrollments from enrollment table in system database.
+<br> 在系統數據庫中的登記表格刪除指定登記。</p>
+<p> DeleteEnrollments(GetEnrollments()) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteEnrollments(List&lt;Enrollment&gt; enrollments)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.Enrollment.html">Enrollment</a>&gt;</td>
+        <td><span class="parametername">enrollments</span></td>
+        <td><p>Enrollment list <br> 登記列表</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vNet_Database_DatabaseHandler_DeleteMetaInfo_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteMetaInfo*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteMetaInfo_Votanic_vNet_Database_MetaInfo_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteMetaInfo(Votanic.vNet.Database.MetaInfo)">DeleteMetaInfo(MetaInfo)</h4>
-  <div class="markdown level1 summary"><p>Delete the target metaInfo from metaInfo table in application database.
-<br> 在應用程式數據庫中的表格數據詳述表格刪除指定單一表格數據詳述。</p>
+  <div class="markdown level1 summary"><p>Delete the target meta info from meta info table in application database.
+<br> 在應用程式數據庫中的元信息表格刪除指定單一元信息。</p>
 <p> DeleteMetaInfo(GetMetaInfo()) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -829,7 +1139,7 @@
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.MetaInfo.html">MetaInfo</a></td>
         <td><span class="parametername">metaInfo</span></td>
-        <td><p>MetaInfo <br> 表格數據詳述</p>
+        <td><p>Meta info <br> 元信息</p>
 </td>
       </tr>
     </tbody>
@@ -838,8 +1148,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_DeleteMetaInfos_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteMetaInfos*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteMetaInfos_System_Collections_Generic_List_Votanic_vNet_Database_MetaInfo__" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteMetaInfos(System.Collections.Generic.List{Votanic.vNet.Database.MetaInfo})">DeleteMetaInfos(List&lt;MetaInfo&gt;)</h4>
-  <div class="markdown level1 summary"><p>Delete the target metaInfos from metaInfo table in application database.
-<br> 在應用程式數據庫中的表格數據詳述表格刪除指定表格數據詳述。</p>
+  <div class="markdown level1 summary"><p>Delete the target meta infos from meta info table in application database.
+<br> 在應用程式數據庫中的元信息表格刪除指定元信息。</p>
 <p> DeleteMetaInfos(GetMetaInfos()) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -860,7 +1170,131 @@
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.MetaInfo.html">MetaInfo</a>&gt;</td>
         <td><span class="parametername">metaInfos</span></td>
-        <td><p>MetaInfo list <br> 表格數據詳述列表</p>
+        <td><p>Meta info list <br> 元信息列表</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_DeletePlayer_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeletePlayer*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeletePlayer_Votanic_vNet_Database_Player_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeletePlayer(Votanic.vNet.Database.Player)">DeletePlayer(Player)</h4>
+  <div class="markdown level1 summary"><p>Delete the target player from player table in system database.
+<br> 在系統數據庫中的玩家表格刪除指定單一玩家。</p>
+<p> DeletePlayer(GetPlayer()) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeletePlayer(Player player)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.Player.html">Player</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>Player <br> 玩家</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_DeletePlayers_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeletePlayers*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeletePlayers_System_Collections_Generic_List_Votanic_vNet_Database_Player__" data-uid="Votanic.vNet.Database.DatabaseHandler.DeletePlayers(System.Collections.Generic.List{Votanic.vNet.Database.Player})">DeletePlayers(List&lt;Player&gt;)</h4>
+  <div class="markdown level1 summary"><p>Delete the target players from player table in system database.
+<br> 在系統數據庫中的玩家表格刪除指定玩家。</p>
+<p> DeletePlayers(GetPlayers()) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeletePlayers(List&lt;Player&gt; players)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.Player.html">Player</a>&gt;</td>
+        <td><span class="parametername">players</span></td>
+        <td><p>Player list <br> 玩家列表</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_DeletePlayerSession_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeletePlayerSession*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeletePlayerSession_Votanic_vNet_Database_PlayerSession_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeletePlayerSession(Votanic.vNet.Database.PlayerSession)">DeletePlayerSession(PlayerSession)</h4>
+  <div class="markdown level1 summary"><p>Delete the target player session from player session table in application database.
+<br> 在應用程式數據庫中的玩家場節表格刪除指定單一玩家場節。</p>
+<p> DeletePlayerSession(GetPlayerSession()) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeletePlayerSession(PlayerSession session)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.PlayerSession.html">PlayerSession</a></td>
+        <td><span class="parametername">session</span></td>
+        <td><p>Player session <br> 玩家場節</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_DeletePlayerSessions_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeletePlayerSessions*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeletePlayerSessions_System_Collections_Generic_List_Votanic_vNet_Database_PlayerSession__" data-uid="Votanic.vNet.Database.DatabaseHandler.DeletePlayerSessions(System.Collections.Generic.List{Votanic.vNet.Database.PlayerSession})">DeletePlayerSessions(List&lt;PlayerSession&gt;)</h4>
+  <div class="markdown level1 summary"><p>Delete the target player sessions from player session table in application database.
+<br> 在應用程式數據庫中的玩家場節表格刪除指定玩家場節。</p>
+<p> DeletePlayerSessions(GetPlayerSessions()) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeletePlayerSessions(List&lt;PlayerSession&gt; sessions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.PlayerSession.html">PlayerSession</a>&gt;</td>
+        <td><span class="parametername">sessions</span></td>
+        <td><p>Player session list <br> 玩家場節列表</p>
 </td>
       </tr>
     </tbody>
@@ -869,8 +1303,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_DeleteRole_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteRole*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteRole_Votanic_vNet_Database_Role_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteRole(Votanic.vNet.Database.Role)">DeleteRole(Role)</h4>
-  <div class="markdown level1 summary"><p>Delete the target role from role table in environment database.
-<br> 在環境數據庫中的角色表格刪除指定單一角色。</p>
+  <div class="markdown level1 summary"><p>Delete the target role from role table in system database.
+<br> 在系統數據庫中的角色表格刪除指定單一角色。</p>
 <p> DeleteRole(GetRole()) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -900,8 +1334,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_DeleteRoles_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteRoles*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteRoles_System_Collections_Generic_List_Votanic_vNet_Database_Role__" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteRoles(System.Collections.Generic.List{Votanic.vNet.Database.Role})">DeleteRoles(List&lt;Role&gt;)</h4>
-  <div class="markdown level1 summary"><p>Delete the target roles from role table in environment database.
-<br> 在環境數據庫中的角色表格刪除指定角色。</p>
+  <div class="markdown level1 summary"><p>Delete the target roles from role table in system database.
+<br> 在系統數據庫中的角色表格刪除指定角色。</p>
 <p> DeleteRoles(GetRoles()) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -960,16 +1394,16 @@
   </table>
   
   
-  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteSessionDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteSessionDetails*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteSessionDetails_Votanic_vNet_Database_SessionDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteSessionDetails(Votanic.vNet.Database.SessionDetails)">DeleteSessionDetails(SessionDetails)</h4>
-  <div class="markdown level1 summary"><p>Delete the target session details from session details table in application database.
+  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteSessionDetail_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteSessionDetail*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteSessionDetail_Votanic_vNet_Database_SessionDetail_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteSessionDetail(Votanic.vNet.Database.SessionDetail)">DeleteSessionDetail(SessionDetail)</h4>
+  <div class="markdown level1 summary"><p>Delete the target session detail from session details table in application database.
 <br> 在應用程式數據庫中的場節詳述表格刪除指定單一場節詳述。</p>
-<p> DeleteSessionDetails(GetSessionDetails()) </p>
+<p> DeleteSessionDetail(GetSessionDetail()) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DeleteSessionDetails(SessionDetails sessionDetails)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DeleteSessionDetail(SessionDetail sessionDetail)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -982,9 +1416,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.SessionDetails.html">SessionDetails</a></td>
-        <td><span class="parametername">sessionDetails</span></td>
-        <td><p>Session Details <br> 場節詳述</p>
+        <td><a class="xref" href="Votanic.vNet.Database.SessionDetail.html">SessionDetail</a></td>
+        <td><span class="parametername">sessionDetail</span></td>
+        <td><p>Session detail <br> 場節詳述</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteSessionDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteSessionDetails*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteSessionDetails_System_Collections_Generic_List_Votanic_vNet_Database_SessionDetail__" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteSessionDetails(System.Collections.Generic.List{Votanic.vNet.Database.SessionDetail})">DeleteSessionDetails(List&lt;SessionDetail&gt;)</h4>
+  <div class="markdown level1 summary"><p>Delete the target session details from session details table in application database.
+<br> 在應用程式數據庫中的場節詳述表格刪除指定場節詳述。</p>
+<p> DeleteSessionDetails(GetSessionDetails()) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteSessionDetails(List&lt;SessionDetail&gt; sessionsDetails)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.SessionDetail.html">SessionDetail</a>&gt;</td>
+        <td><span class="parametername">sessionsDetails</span></td>
+        <td><p>Session detail list <br> 場節詳述列表</p>
 </td>
       </tr>
     </tbody>
@@ -1016,37 +1481,6 @@
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.Session.html">Session</a>&gt;</td>
         <td><span class="parametername">sessions</span></td>
         <td><p>Session list <br> 場節列表</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteSessionsDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteSessionsDetails*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteSessionsDetails_System_Collections_Generic_List_Votanic_vNet_Database_SessionDetails__" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteSessionsDetails(System.Collections.Generic.List{Votanic.vNet.Database.SessionDetails})">DeleteSessionsDetails(List&lt;SessionDetails&gt;)</h4>
-  <div class="markdown level1 summary"><p>Delete the target sessions details from session details table in application database.
-<br> 在應用程式數據庫中的場節詳述表格刪除指定場節詳述。</p>
-<p> DeleteSessionsDetails(GetSessionsDetails()) </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DeleteSessionsDetails(List&lt;SessionDetails&gt; sessionsDetails)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.SessionDetails.html">SessionDetails</a>&gt;</td>
-        <td><span class="parametername">sessionsDetails</span></td>
-        <td><p>Session Details list <br> 場節詳述列表</p>
 </td>
       </tr>
     </tbody>
@@ -1117,8 +1551,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_DeleteUser_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteUser*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteUser_Votanic_vNet_Database_User_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteUser(Votanic.vNet.Database.User)">DeleteUser(User)</h4>
-  <div class="markdown level1 summary"><p>Delete the target user from user table in environment database.
-<br> 在環境數據庫中的使用者表格刪除指定單一使用者。</p>
+  <div class="markdown level1 summary"><p>Delete the target user from user table in system database.
+<br> 在系統數據庫中的使用者表格刪除指定單一使用者。</p>
 <p> DeleteUser(GetUser()) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1148,8 +1582,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_DeleteUsers_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteUsers*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteUsers_System_Collections_Generic_List_Votanic_vNet_Database_User__" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteUsers(System.Collections.Generic.List{Votanic.vNet.Database.User})">DeleteUsers(List&lt;User&gt;)</h4>
-  <div class="markdown level1 summary"><p>Delete the target users from user table in environment database.
-<br> 在環境數據庫中的使用者表格刪除指定使用者。</p>
+  <div class="markdown level1 summary"><p>Delete the target users from user table in system database.
+<br> 在系統數據庫中的使用者表格刪除指定使用者。</p>
 <p> DeleteUsers(GetUsers()) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1177,72 +1611,10 @@
   </table>
   
   
-  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteUserSession_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteUserSession*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteUserSession_Votanic_vNet_Database_UserSession_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteUserSession(Votanic.vNet.Database.UserSession)">DeleteUserSession(UserSession)</h4>
-  <div class="markdown level1 summary"><p>Delete the target user session from user session table in application database.
-<br> 在應用程式數據庫中的使用者場節表格刪除指定單一使用者場節。</p>
-<p> DeleteUserSession(GetUserSession()) </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DeleteUserSession(UserSession session)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.UserSession.html">UserSession</a></td>
-        <td><span class="parametername">session</span></td>
-        <td><p>User Session <br> 使用者場節</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Votanic_vNet_Database_DatabaseHandler_DeleteUserSessions_" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteUserSessions*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_DeleteUserSessions_System_Collections_Generic_List_Votanic_vNet_Database_UserSession__" data-uid="Votanic.vNet.Database.DatabaseHandler.DeleteUserSessions(System.Collections.Generic.List{Votanic.vNet.Database.UserSession})">DeleteUserSessions(List&lt;UserSession&gt;)</h4>
-  <div class="markdown level1 summary"><p>Delete the target user sessions from user session table in application database.
-<br> 在應用程式數據庫中的使用者場節表格刪除指定使用者場節。</p>
-<p> DeleteUserSessions(GetUserSessions()) </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DeleteUserSessions(List&lt;UserSession&gt; sessions)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.UserSession.html">UserSession</a>&gt;</td>
-        <td><span class="parametername">sessions</span></td>
-        <td><p>User Session list <br> 使用者場節列表</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Votanic_vNet_Database_DatabaseHandler_GetAllApps_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllApps*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_GetAllApps" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllApps">GetAllApps()</h4>
-  <div class="markdown level1 summary"><p>Get all the apps from app table in environment database.
-<br> 在環境數據庫中的應用程式表格取得所有應用程式。</p>
+  <div class="markdown level1 summary"><p>Get all the apps from app table in system database.
+<br> 在系統數據庫中的應用程式表格取得所有應用程式。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1266,10 +1638,37 @@
   </table>
   
   
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetAllEnrollments_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllEnrollments*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetAllEnrollments" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllEnrollments">GetAllEnrollments()</h4>
+  <div class="markdown level1 summary"><p>Get all the enrollments from enrollment table in system database.
+<br> 在系統數據庫中的登記表格取得所有登記。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Enrollment&gt; GetAllEnrollments()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.Enrollment.html">Enrollment</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vNet_Database_DatabaseHandler_GetAllMetaInfos_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllMetaInfos*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_GetAllMetaInfos" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllMetaInfos">GetAllMetaInfos()</h4>
-  <div class="markdown level1 summary"><p>Get all the metaInfos from metaInfo table in application database.
-<br> 在應用程式數據庫中的表格數據詳述表格取得所有表格數據詳述。</p>
+  <div class="markdown level1 summary"><p>Get all the meta infos from meta info table in application database.
+<br> 在應用程式數據庫中的所有元信息。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1293,10 +1692,64 @@
   </table>
   
   
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetAllPlayers_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllPlayers*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetAllPlayers" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllPlayers">GetAllPlayers()</h4>
+  <div class="markdown level1 summary"><p>Get all the players from player table in system database.
+<br> 在系統數據庫中的玩家表格取得所有玩家。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Player&gt; GetAllPlayers()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.Player.html">Player</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetAllPlayerSessions_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllPlayerSessions*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetAllPlayerSessions" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllPlayerSessions">GetAllPlayerSessions()</h4>
+  <div class="markdown level1 summary"><p>Get all the player sessions from player session table in application database.
+<br> 在應用程式數據庫中的玩家場節表格取得所有玩家場節。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;PlayerSession&gt; GetAllPlayerSessions()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.PlayerSession.html">PlayerSession</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vNet_Database_DatabaseHandler_GetAllRoles_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllRoles*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_GetAllRoles" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllRoles">GetAllRoles()</h4>
-  <div class="markdown level1 summary"><p>Get all the roles from role table in environment database.
-<br> 在環境數據庫中的角色表格取得所有角色。</p>
+  <div class="markdown level1 summary"><p>Get all the roles from role table in system database.
+<br> 在系統數據庫中的角色表格取得所有角色。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1314,6 +1767,33 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.Role.html">Role</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetAllSessionDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllSessionDetails*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetAllSessionDetails" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllSessionDetails">GetAllSessionDetails()</h4>
+  <div class="markdown level1 summary"><p>Get all the session details from session details table in application database.
+<br> 在應用程式數據庫中的場節詳述表格取得所有場節詳述。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;SessionDetail&gt; GetAllSessionDetails()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.SessionDetail.html">SessionDetail</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1341,33 +1821,6 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.Session.html">Session</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Votanic_vNet_Database_DatabaseHandler_GetAllSessionsDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllSessionsDetails*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetAllSessionsDetails" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllSessionsDetails">GetAllSessionsDetails()</h4>
-  <div class="markdown level1 summary"><p>Get all the sessions details from session details table in application database.
-<br> 在應用程式數據庫中的場節詳述表格取得所有場節詳述。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;SessionDetails&gt; GetAllSessionsDetails()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.SessionDetails.html">SessionDetails</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1403,8 +1856,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_GetAllUsers_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllUsers*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_GetAllUsers" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllUsers">GetAllUsers()</h4>
-  <div class="markdown level1 summary"><p>Get all the users from user table in environment database.
-<br> 在環境數據庫中的使用者表格取得所有使用者。</p>
+  <div class="markdown level1 summary"><p>Get all the users from user table in system database.
+<br> 在系統數據庫中的使用者表格取得所有使用者。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1428,43 +1881,16 @@
   </table>
   
   
-  <a id="Votanic_vNet_Database_DatabaseHandler_GetAllUserSessions_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllUserSessions*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetAllUserSessions" data-uid="Votanic.vNet.Database.DatabaseHandler.GetAllUserSessions">GetAllUserSessions()</h4>
-  <div class="markdown level1 summary"><p>Get all the user sessions from user session table in application database.
-<br> 在應用程式數據庫中的使用者場節表格取得所有使用者場節。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;UserSession&gt; GetAllUserSessions()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.UserSession.html">UserSession</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Votanic_vNet_Database_DatabaseHandler_GetApp_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetApp*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_GetApp_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetApp(Votanic.vNet.Database.SearchPattern[])">GetApp(SearchPattern[])</h4>
-  <div class="markdown level1 summary"><p>Get the first app by conditions from app table in environment database.
-<br> 在環境數據庫中的應用程式表格根據條件取得首個應用程式。</p>
+  <div class="markdown level1 summary"><p>Get the first app by conditions from app table in system database.
+<br> 在系統數據庫中的應用程式表格根據條件取得首個應用程式。</p>
 <p> GetApp(new SearchPattern(AppKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public App GetApp(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public App GetApp(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1478,7 +1904,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -1503,14 +1929,14 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_GetApps_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetApps*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_GetApps_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetApps(Votanic.vNet.Database.SearchPattern[])">GetApps(SearchPattern[])</h4>
-  <div class="markdown level1 summary"><p>Get the apps by conditions from app table in environment database.
-<br> 在環境數據庫中的應用程式表格根據條件取得應用程式。</p>
+  <div class="markdown level1 summary"><p>Get the apps by conditions from app table in system database.
+<br> 在系統數據庫中的應用程式表格根據條件取得應用程式。</p>
 <p> GetApps(new SearchPattern(AppKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;App&gt; GetApps(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;App&gt; GetApps(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1524,7 +1950,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -1547,16 +1973,16 @@
   </table>
   
   
-  <a id="Votanic_vNet_Database_DatabaseHandler_GetMetaInfo_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetMetaInfo*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetMetaInfo_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetMetaInfo(Votanic.vNet.Database.SearchPattern[])">GetMetaInfo(SearchPattern[])</h4>
-  <div class="markdown level1 summary"><p>Get the first metaInfo by conditions from metaInfo table in application database.
-<br> 在應用程式數據庫中的表格數據詳述表格根據條件取得首個表格數據詳述。</p>
-<p> GetMetaInfo(new SearchPattern(MetaInfoKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetEnrollment_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetEnrollment*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetEnrollment_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetEnrollment(Votanic.vNet.Database.SearchPattern[])">GetEnrollment(SearchPattern[])</h4>
+  <div class="markdown level1 summary"><p>Get the first enrollment by conditions from enrollment table in system database.
+<br> 在系統數據庫中的登記表格根據條件取得首個登記。</p>
+<p> GetEnrollment(new SearchPattern(EnrollmentKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MetaInfo GetMetaInfo(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public Enrollment GetEnrollment(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1570,7 +1996,99 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
+        <td><p>Search Pattern <br> 搜索模式</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.Enrollment.html">Enrollment</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetEnrollments_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetEnrollments*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetEnrollments_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetEnrollments(Votanic.vNet.Database.SearchPattern[])">GetEnrollments(SearchPattern[])</h4>
+  <div class="markdown level1 summary"><p>Get the enrollments by conditions from enrollment table in system database.
+<br> 在系統數據庫中的登記表格根據條件取得登記。</p>
+<p> GetEnrollments(new SearchPattern(EnrollmentKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Enrollment&gt; GetEnrollments(params SearchPattern[] searchPatterns)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
+        <td><span class="parametername">searchPatterns</span></td>
+        <td><p>Search Pattern <br> 搜索模式</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.Enrollment.html">Enrollment</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetMetaInfo_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetMetaInfo*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetMetaInfo_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetMetaInfo(Votanic.vNet.Database.SearchPattern[])">GetMetaInfo(SearchPattern[])</h4>
+  <div class="markdown level1 summary"><p>Get the first meta info by conditions from meta info table in application database.
+<br> 在應用程式數據庫中的元信息表格根據條件取得首個元信息。</p>
+<p> GetMetaInfo(new SearchPattern(MetaInfoKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MetaInfo GetMetaInfo(params SearchPattern[] searchPatterns)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -1595,14 +2113,14 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_GetMetaInfos_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetMetaInfos*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_GetMetaInfos_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetMetaInfos(Votanic.vNet.Database.SearchPattern[])">GetMetaInfos(SearchPattern[])</h4>
-  <div class="markdown level1 summary"><p>Get the metaInfos by conditions from metaInfo table in application database.
-<br> 在應用程式數據庫中的表格數據詳述表格根據條件取得表格數據詳述。</p>
+  <div class="markdown level1 summary"><p>Get the meta infos by conditions from meta info table in application database.
+<br> 在應用程式數據庫中的元信息表格根據條件取得元信息。</p>
 <p> GetMetaInfos(new SearchPattern(MetaInfoKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;MetaInfo&gt; GetMetaInfos(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;MetaInfo&gt; GetMetaInfos(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1616,7 +2134,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -1639,16 +2157,16 @@
   </table>
   
   
-  <a id="Votanic_vNet_Database_DatabaseHandler_GetRole_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetRole*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetRole_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetRole(Votanic.vNet.Database.SearchPattern[])">GetRole(SearchPattern[])</h4>
-  <div class="markdown level1 summary"><p>Get the first role by conditions from role table in environment database.
-<br> 在環境數據庫中的角色表格根據條件取得首個角色。</p>
-<p> GetRole(new SearchPattern(RoleKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetPlayer_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetPlayer*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetPlayer_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetPlayer(Votanic.vNet.Database.SearchPattern[])">GetPlayer(SearchPattern[])</h4>
+  <div class="markdown level1 summary"><p>Get the first player by conditions from player table in system database.
+<br> 在系統數據庫中的玩家表格根據條件取得首個玩家。</p>
+<p> GetPlayer(new SearchPattern(PlayerKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Role GetRole(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public Player GetPlayer(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1662,7 +2180,191 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
+        <td><p>Search Pattern <br> 搜索模式</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.Player.html">Player</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetPlayers_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetPlayers*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetPlayers_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetPlayers(Votanic.vNet.Database.SearchPattern[])">GetPlayers(SearchPattern[])</h4>
+  <div class="markdown level1 summary"><p>Get the players by conditions from player table in system database.
+<br> 在系統數據庫中的玩家表格根據條件取得玩家。</p>
+<p> GetPlayers(new SearchPattern(PlayerKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Player&gt; GetPlayers(params SearchPattern[] searchPatterns)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
+        <td><span class="parametername">searchPatterns</span></td>
+        <td><p>Search Pattern <br> 搜索模式</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.Player.html">Player</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetPlayerSession_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetPlayerSession*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetPlayerSession_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetPlayerSession(Votanic.vNet.Database.SearchPattern[])">GetPlayerSession(SearchPattern[])</h4>
+  <div class="markdown level1 summary"><p>Get the first player session by conditions from player session table in application database.
+<br> 在應用程式數據庫中的玩家場節表格根據條件取得首個玩家場節。</p>
+<p> GetPlayerSession(new SearchPattern(PlayerSessionKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerSession GetPlayerSession(params SearchPattern[] searchPatterns)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
+        <td><span class="parametername">searchPatterns</span></td>
+        <td><p>Search Pattern <br> 搜索模式</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.PlayerSession.html">PlayerSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetPlayerSessions_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetPlayerSessions*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetPlayerSessions_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetPlayerSessions(Votanic.vNet.Database.SearchPattern[])">GetPlayerSessions(SearchPattern[])</h4>
+  <div class="markdown level1 summary"><p>Get the player sessions by conditions from player session table in application database.
+<br> 在應用程式數據庫中的玩家場節表格根據條件取得玩家場節。</p>
+<p> GetPlayerSessions(new SearchPattern(PlayerSessionKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;PlayerSession&gt; GetPlayerSessions(params SearchPattern[] searchPatterns)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
+        <td><span class="parametername">searchPatterns</span></td>
+        <td><p>Search Pattern <br> 搜索模式</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.PlayerSession.html">PlayerSession</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetRole_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetRole*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetRole_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetRole(Votanic.vNet.Database.SearchPattern[])">GetRole(SearchPattern[])</h4>
+  <div class="markdown level1 summary"><p>Get the first role by conditions from role table in system database.
+<br> 在系統數據庫中的角色表格根據條件取得首個角色。</p>
+<p> GetRole(new SearchPattern(RoleKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Role GetRole(params SearchPattern[] searchPatterns)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -1687,14 +2389,14 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_GetRoles_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetRoles*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_GetRoles_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetRoles(Votanic.vNet.Database.SearchPattern[])">GetRoles(SearchPattern[])</h4>
-  <div class="markdown level1 summary"><p>Get the roles by conditions from role table in environment database.
-<br> 在環境數據庫中的角色表格根據條件取得角色。</p>
+  <div class="markdown level1 summary"><p>Get the roles by conditions from role table in system database.
+<br> 在系統數據庫中的角色表格根據條件取得角色。</p>
 <p> GetRoles(new SearchPattern(RoleKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;Role&gt; GetRoles(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;Role&gt; GetRoles(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1708,7 +2410,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -1740,7 +2442,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Session GetSession(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public Session GetSession(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1754,7 +2456,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -1777,16 +2479,16 @@
   </table>
   
   
-  <a id="Votanic_vNet_Database_DatabaseHandler_GetSessionDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetSessionDetails*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetSessionDetails_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetSessionDetails(Votanic.vNet.Database.SearchPattern[])">GetSessionDetails(SearchPattern[])</h4>
-  <div class="markdown level1 summary"><p>Get the first session details by conditions from session details table in application database.
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetSessionDetail_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetSessionDetail*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetSessionDetail_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetSessionDetail(Votanic.vNet.Database.SearchPattern[])">GetSessionDetail(SearchPattern[])</h4>
+  <div class="markdown level1 summary"><p>Get the first session detail by conditions from session details table in application database.
 <br> 在應用程式數據庫中的場節詳述表格根據條件取得首個場節詳述。</p>
-<p> GetSessionDetails(new SearchPattern(SessionDetailsKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
+<p> GetSessionDetail(new SearchPattern(SessionDetailKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SessionDetails GetSessionDetails(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public SessionDetail GetSessionDetail(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1800,7 +2502,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -1816,7 +2518,53 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.SessionDetails.html">SessionDetails</a></td>
+        <td><a class="xref" href="Votanic.vNet.Database.SessionDetail.html">SessionDetail</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_GetSessionDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetSessionDetails*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetSessionDetails_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetSessionDetails(Votanic.vNet.Database.SearchPattern[])">GetSessionDetails(SearchPattern[])</h4>
+  <div class="markdown level1 summary"><p>Get the session details by conditions from session details table in application database.
+<br> 在應用程式數據庫中的場節詳述表格根據條件取得場節詳述。</p>
+<p> GetSessionDetails(new SearchPattern(SessionDetailKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;SessionDetail&gt; GetSessionDetails(params SearchPattern[] searchPatterns)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
+        <td><span class="parametername">searchPatterns</span></td>
+        <td><p>Search Pattern <br> 搜索模式</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.SessionDetail.html">SessionDetail</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1832,7 +2580,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;Session&gt; GetSessions(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;Session&gt; GetSessions(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1846,7 +2594,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -1869,52 +2617,6 @@
   </table>
   
   
-  <a id="Votanic_vNet_Database_DatabaseHandler_GetSessionsDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetSessionsDetails*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetSessionsDetails_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetSessionsDetails(Votanic.vNet.Database.SearchPattern[])">GetSessionsDetails(SearchPattern[])</h4>
-  <div class="markdown level1 summary"><p>Get the sessions details by conditions from session details table in application database.
-<br> 在應用程式數據庫中的場節詳述表格根據條件取得場節詳述。</p>
-<p> GetSessionsDetails(new SearchPattern(SessionDetailsKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;SessionDetails&gt; GetSessionsDetails(params SearchPattern[] searchPattern)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
-        <td><p>Search Pattern <br> 搜索模式</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.SessionDetails.html">SessionDetails</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Votanic_vNet_Database_DatabaseHandler_GetTask_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetTask*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_GetTask_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetTask(Votanic.vNet.Database.SearchPattern[])">GetTask(SearchPattern[])</h4>
   <div class="markdown level1 summary"><p>Get the first task by conditions from task table in application database.
@@ -1924,7 +2626,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task GetTask(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task GetTask(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1938,7 +2640,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -1970,7 +2672,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;Task&gt; GetTasks(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;Task&gt; GetTasks(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1984,7 +2686,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -2009,14 +2711,14 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_GetUser_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetUser*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_GetUser_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetUser(Votanic.vNet.Database.SearchPattern[])">GetUser(SearchPattern[])</h4>
-  <div class="markdown level1 summary"><p>Get the first user by conditions from user table in environment database.
-<br> 在環境數據庫中的使用者表格根據條件取得首個使用者。</p>
+  <div class="markdown level1 summary"><p>Get the first user by conditions from user table in system database.
+<br> 在系統數據庫中的使用者表格根據條件取得首個使用者。</p>
 <p> GetUser(new SearchPattern(UserKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public User GetUser(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public User GetUser(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2030,7 +2732,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -2055,14 +2757,14 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_GetUsers_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetUsers*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_GetUsers_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetUsers(Votanic.vNet.Database.SearchPattern[])">GetUsers(SearchPattern[])</h4>
-  <div class="markdown level1 summary"><p>Get the users by conditions from user table in environment database.
-<br> 在環境數據庫中的使用者表格根據條件取得使用者。</p>
+  <div class="markdown level1 summary"><p>Get the users by conditions from user table in system database.
+<br> 在系統數據庫中的使用者表格根據條件取得使用者。</p>
 <p> GetUsers(new SearchPattern(UserKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;User&gt; GetUsers(params SearchPattern[] searchPattern)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;User&gt; GetUsers(params SearchPattern[] searchPatterns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2076,7 +2778,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
+        <td><span class="parametername">searchPatterns</span></td>
         <td><p>Search Pattern <br> 搜索模式</p>
 </td>
       </tr>
@@ -2093,98 +2795,6 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.User.html">User</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Votanic_vNet_Database_DatabaseHandler_GetUserSession_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetUserSession*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetUserSession_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetUserSession(Votanic.vNet.Database.SearchPattern[])">GetUserSession(SearchPattern[])</h4>
-  <div class="markdown level1 summary"><p>Get the first user session by conditions from user session table in application database.
-<br> 在應用程式數據庫中的使用者場節表格根據條件取得首個使用者場節。</p>
-<p> GetUserSession(new SearchPattern(UserSessionKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UserSession GetUserSession(params SearchPattern[] searchPattern)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
-        <td><p>Search Pattern <br> 搜索模式</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.UserSession.html">UserSession</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Votanic_vNet_Database_DatabaseHandler_GetUserSessions_" data-uid="Votanic.vNet.Database.DatabaseHandler.GetUserSessions*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_GetUserSessions_Votanic_vNet_Database_SearchPattern___" data-uid="Votanic.vNet.Database.DatabaseHandler.GetUserSessions(Votanic.vNet.Database.SearchPattern[])">GetUserSessions(SearchPattern[])</h4>
-  <div class="markdown level1 summary"><p>Get the user sessions by conditions from user session table in application database.
-<br> 在應用程式數據庫中的使用者場節表格根據條件取得使用者場節。</p>
-<p> GetUserSessions(new SearchPattern(UserSessionKey.ID, Comparison.Equals, &quot;1&quot;, false)) </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;UserSession&gt; GetUserSessions(params SearchPattern[] searchPattern)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.SearchPattern.html">SearchPattern</a>[]</td>
-        <td><span class="parametername">searchPattern</span></td>
-        <td><p>Search Pattern <br> 搜索模式</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.UserSession.html">UserSession</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2289,10 +2899,22 @@
   </table>
   
   
+  <a id="Votanic_vNet_Database_DatabaseHandler_Logout_" data-uid="Votanic.vNet.Database.DatabaseHandler.Logout*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_Logout" data-uid="Votanic.vNet.Database.DatabaseHandler.Logout">Logout()</h4>
+  <div class="markdown level1 summary"><p>Logout current user.
+<br> 登出目前使用者。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Logout()</code></pre>
+  </div>
+  
+  
   <a id="Votanic_vNet_Database_DatabaseHandler_UpdateApp_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateApp*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateApp_Votanic_vNet_Database_App_Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateApp(Votanic.vNet.Database.App,Votanic.vNet.Database.TableUpdate[])">UpdateApp(App, TableUpdate[])</h4>
-  <div class="markdown level1 summary"><p>Update the data of an app from app table in environment database.
-在環境數據庫中的應用程式表格更新單一應用程式的數據。</p>
+  <div class="markdown level1 summary"><p>Update the data of an app from app table in system database.
+在系統數據庫中的應用程式表格更新單一應用程式的數據。</p>
 <p> UpdateApp(GetApp(), new TableUpdate(AppKey.Name, &quot;ABC&quot;)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2328,8 +2950,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_UpdateApps_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateApps*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateApps_System_Collections_Generic_List_Votanic_vNet_Database_App__Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateApps(System.Collections.Generic.List{Votanic.vNet.Database.App},Votanic.vNet.Database.TableUpdate[])">UpdateApps(List&lt;App&gt;, TableUpdate[])</h4>
-  <div class="markdown level1 summary"><p>Update the data of apps from app table in environment database.
-在環境數據庫中的應用程式表格更新應用程式的數據。</p>
+  <div class="markdown level1 summary"><p>Update the data of apps from app table in system database.
+在系統數據庫中的應用程式表格更新應用程式的數據。</p>
 <p> UpdateApps(GetApps(), new TableUpdate(AppKey.Name, &quot;ABC&quot;)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2363,10 +2985,84 @@
   </table>
   
   
+  <a id="Votanic_vNet_Database_DatabaseHandler_UpdateEnrollment_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateEnrollment*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateEnrollment_Votanic_vNet_Database_Enrollment_Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateEnrollment(Votanic.vNet.Database.Enrollment,Votanic.vNet.Database.TableUpdate[])">UpdateEnrollment(Enrollment, TableUpdate[])</h4>
+  <div class="markdown level1 summary"><p>Update the data of an enrollment from enrollment table in system database.
+在系統數據庫中的登記表格更新單一登記的數據。</p>
+<p> UpdateEnrollment(GetEnrollment(), new TableUpdate(EnrollmentKey.UserID, 1)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateEnrollment(Enrollment enrollment, params TableUpdate[] updates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.Enrollment.html">Enrollment</a></td>
+        <td><span class="parametername">enrollment</span></td>
+        <td><p>Enrollment <br> 登記</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.TableUpdate.html">TableUpdate</a>[]</td>
+        <td><span class="parametername">updates</span></td>
+        <td><p>Update attributes <br> 更新的屬性</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_UpdateEnrollments_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateEnrollments*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateEnrollments_System_Collections_Generic_List_Votanic_vNet_Database_Enrollment__Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateEnrollments(System.Collections.Generic.List{Votanic.vNet.Database.Enrollment},Votanic.vNet.Database.TableUpdate[])">UpdateEnrollments(List&lt;Enrollment&gt;, TableUpdate[])</h4>
+  <div class="markdown level1 summary"><p>Update the data of enrollments from enrollment table in system database.
+在系統數據庫中的登記表格更新登記的數據。</p>
+<p> UpdateEnrollments(GetEnrollments(), new TableUpdate(EnrollmentKey.UserID, 1)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateEnrollments(List&lt;Enrollment&gt; enrollments, params TableUpdate[] updates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.Enrollment.html">Enrollment</a>&gt;</td>
+        <td><span class="parametername">enrollments</span></td>
+        <td><p>Enrollment list <br> 登記列表</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.TableUpdate.html">TableUpdate</a>[]</td>
+        <td><span class="parametername">updates</span></td>
+        <td><p>Update attributes <br> 更新的屬性</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vNet_Database_DatabaseHandler_UpdateMetaInfo_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateMetaInfo*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateMetaInfo_Votanic_vNet_Database_MetaInfo_Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateMetaInfo(Votanic.vNet.Database.MetaInfo,Votanic.vNet.Database.TableUpdate[])">UpdateMetaInfo(MetaInfo, TableUpdate[])</h4>
-  <div class="markdown level1 summary"><p>Update the data of a metaInfo from metaInfo table in application database.
-在應用程式數據庫中的表格數據詳述表格更新單一表格數據詳述的數據。</p>
+  <div class="markdown level1 summary"><p>Update the data of a meta info from meta info table in application database.
+在應用程式數據庫中的元信息表格更新單一元信息的數據。</p>
 <p> UpdateMetaInfo(GetMetaInfo(), new TableUpdate(MetaInfoKey.Value, &quot;ABC&quot;)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2387,7 +3083,7 @@
       <tr>
         <td><a class="xref" href="Votanic.vNet.Database.MetaInfo.html">MetaInfo</a></td>
         <td><span class="parametername">metaInfo</span></td>
-        <td><p>MetaInfo <br> 表格數據詳述</p>
+        <td><p>Meta info <br> 元信息</p>
 </td>
       </tr>
       <tr>
@@ -2402,8 +3098,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_UpdateMetaInfos_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateMetaInfos*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateMetaInfos_System_Collections_Generic_List_Votanic_vNet_Database_MetaInfo__Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateMetaInfos(System.Collections.Generic.List{Votanic.vNet.Database.MetaInfo},Votanic.vNet.Database.TableUpdate[])">UpdateMetaInfos(List&lt;MetaInfo&gt;, TableUpdate[])</h4>
-  <div class="markdown level1 summary"><p>Update the data of metaInfos from metaInfo table in application database.
-在應用程式數據庫中的表格數據詳述表格更新表格數據詳述的數據。</p>
+  <div class="markdown level1 summary"><p>Update the data of meta infos from meta info table in application database.
+在應用程式數據庫中的元信息表格更新元信息的數據。</p>
 <p> UpdateMetaInfos(GetMetaInfos(), new TableUpdate(MetaInfoKey.Value, &quot;ABC&quot;)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2424,7 +3120,155 @@
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.MetaInfo.html">MetaInfo</a>&gt;</td>
         <td><span class="parametername">metaInfos</span></td>
-        <td><p>MetaInfo list <br> 表格數據詳述列表</p>
+        <td><p>Meta info list <br> 元信息列表</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.TableUpdate.html">TableUpdate</a>[]</td>
+        <td><span class="parametername">updates</span></td>
+        <td><p>Update attributes <br> 更新的屬性</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_UpdatePlayer_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdatePlayer*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdatePlayer_Votanic_vNet_Database_Player_Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdatePlayer(Votanic.vNet.Database.Player,Votanic.vNet.Database.TableUpdate[])">UpdatePlayer(Player, TableUpdate[])</h4>
+  <div class="markdown level1 summary"><p>Update the data of an player from player table in system database.
+在系統數據庫中的玩家表格更新單一玩家的數據。</p>
+<p> UpdatePlayer(GetPlayer(), new TableUpdate(PlayerKey.FullName, &quot;ABC&quot;)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdatePlayer(Player player, params TableUpdate[] updates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.Player.html">Player</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>Player <br> 玩家</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.TableUpdate.html">TableUpdate</a>[]</td>
+        <td><span class="parametername">updates</span></td>
+        <td><p>Update attributes <br> 更新的屬性</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_UpdatePlayers_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdatePlayers*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdatePlayers_System_Collections_Generic_List_Votanic_vNet_Database_Player__Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdatePlayers(System.Collections.Generic.List{Votanic.vNet.Database.Player},Votanic.vNet.Database.TableUpdate[])">UpdatePlayers(List&lt;Player&gt;, TableUpdate[])</h4>
+  <div class="markdown level1 summary"><p>Update the data of players from player table in system database.
+在系統數據庫中的玩家表格更新玩家的數據。</p>
+<p> UpdatePlayers(GetPlayers(), new TableUpdate(PlayerKey.FullName, &quot;ABC&quot;)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdatePlayers(List&lt;Player&gt; players, params TableUpdate[] updates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.Player.html">Player</a>&gt;</td>
+        <td><span class="parametername">players</span></td>
+        <td><p>Player list <br> 玩家列表</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.TableUpdate.html">TableUpdate</a>[]</td>
+        <td><span class="parametername">updates</span></td>
+        <td><p>Update attributes <br> 更新的屬性</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_UpdatePlayerSession_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdatePlayerSession*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdatePlayerSession_Votanic_vNet_Database_PlayerSession_Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdatePlayerSession(Votanic.vNet.Database.PlayerSession,Votanic.vNet.Database.TableUpdate[])">UpdatePlayerSession(PlayerSession, TableUpdate[])</h4>
+  <div class="markdown level1 summary"><p>Update the data of an player session from player session table in application database.
+在應用程式數據庫中的玩家場節表格更新單一玩家場節的數據。</p>
+<p> UpdatePlayerSession(GetPlayerSession(), new TableUpdate(PlayerSessionKey.UserID, 1)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdatePlayerSession(PlayerSession session, params TableUpdate[] updates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.PlayerSession.html">PlayerSession</a></td>
+        <td><span class="parametername">session</span></td>
+        <td><p>Player session <br> 玩家場節</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.TableUpdate.html">TableUpdate</a>[]</td>
+        <td><span class="parametername">updates</span></td>
+        <td><p>Update attributes <br> 更新的屬性</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_UpdatePlayerSessions_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdatePlayerSessions*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdatePlayerSessions_System_Collections_Generic_List_Votanic_vNet_Database_PlayerSession__Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdatePlayerSessions(System.Collections.Generic.List{Votanic.vNet.Database.PlayerSession},Votanic.vNet.Database.TableUpdate[])">UpdatePlayerSessions(List&lt;PlayerSession&gt;, TableUpdate[])</h4>
+  <div class="markdown level1 summary"><p>Update the data of player sessions from player session table in application database.
+在應用程式數據庫中的玩家場節表格更新玩家場節的數據。</p>
+<p> UpdatePlayerSessions(GetPlayerSessions(), new TableUpdate(PlayerSessionKey.UserID, 1)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdatePlayerSessions(List&lt;PlayerSession&gt; sessions, params TableUpdate[] updates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.PlayerSession.html">PlayerSession</a>&gt;</td>
+        <td><span class="parametername">sessions</span></td>
+        <td><p>Player session list <br> 玩家場節列表</p>
 </td>
       </tr>
       <tr>
@@ -2439,8 +3283,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_UpdateRole_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateRole*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateRole_Votanic_vNet_Database_Role_Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateRole(Votanic.vNet.Database.Role,Votanic.vNet.Database.TableUpdate[])">UpdateRole(Role, TableUpdate[])</h4>
-  <div class="markdown level1 summary"><p>Update the data of a role from role table in environment database.
-在環境數據庫中的角色表格更新單一角色的數據。</p>
+  <div class="markdown level1 summary"><p>Update the data of a role from role table in system database.
+在系統數據庫中的角色表格更新單一角色的數據。</p>
 <p> UpdateRole(GetRole(), new TableUpdate(RoleKey.Name, &quot;ABC&quot;)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2476,8 +3320,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_UpdateRoles_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateRoles*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateRoles_System_Collections_Generic_List_Votanic_vNet_Database_Role__Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateRoles(System.Collections.Generic.List{Votanic.vNet.Database.Role},Votanic.vNet.Database.TableUpdate[])">UpdateRoles(List&lt;Role&gt;, TableUpdate[])</h4>
-  <div class="markdown level1 summary"><p>Update the data of roles from role table in environment database.
-在環境數據庫中的角色表格更新角色的數據。</p>
+  <div class="markdown level1 summary"><p>Update the data of roles from role table in system database.
+在系統數據庫中的角色表格更新角色的數據。</p>
 <p> UpdateRoles(GetRoles(), new TableUpdate(RoleKey.Name, &quot;ABC&quot;)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2515,7 +3359,7 @@
   <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateSession_Votanic_vNet_Database_Session_Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateSession(Votanic.vNet.Database.Session,Votanic.vNet.Database.TableUpdate[])">UpdateSession(Session, TableUpdate[])</h4>
   <div class="markdown level1 summary"><p>Update the data of a session from session table in application database.
 在應用程式數據庫中的場節表格更新單一場節的數據。</p>
-<p> UpdateSession(GetSession(), new TableUpdate(SessionKey.Date, &quot;29/02/2020&quot;)) </p>
+<p> UpdateSession(GetSession(), new TableUpdate(SessionKey.Start, &quot;31/05/2020 07:02:44&quot;)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2548,16 +3392,16 @@
   </table>
   
   
-  <a id="Votanic_vNet_Database_DatabaseHandler_UpdateSessionDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateSessionDetails*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateSessionDetails_Votanic_vNet_Database_SessionDetails_Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateSessionDetails(Votanic.vNet.Database.SessionDetails,Votanic.vNet.Database.TableUpdate[])">UpdateSessionDetails(SessionDetails, TableUpdate[])</h4>
-  <div class="markdown level1 summary"><p>Update the data of a session details from session details table in application database.
+  <a id="Votanic_vNet_Database_DatabaseHandler_UpdateSessionDetail_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateSessionDetail*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateSessionDetail_Votanic_vNet_Database_SessionDetail_Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateSessionDetail(Votanic.vNet.Database.SessionDetail,Votanic.vNet.Database.TableUpdate[])">UpdateSessionDetail(SessionDetail, TableUpdate[])</h4>
+  <div class="markdown level1 summary"><p>Update the data of a session detail from session details table in application database.
 在應用程式數據庫中的場節詳述表格更新單一場節詳述的數據。</p>
-<p> UpdateSessionDetails(GetSessionDetails(), new TableUpdate(SessionDetailsKey.TaskID, &quot;1&quot;)) </p>
+<p> UpdateSessionDetail(GetSessionDetail(), new TableUpdate(SessionDetailKey.TaskID, 1)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateSessionDetails(SessionDetails sessionDetails, params TableUpdate[] updates)</code></pre>
+    <pre><code class="lang-csharp hljs">public void UpdateSessionDetail(SessionDetail sessionDetail, params TableUpdate[] updates)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2570,9 +3414,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.SessionDetails.html">SessionDetails</a></td>
-        <td><span class="parametername">sessionDetails</span></td>
-        <td><p>Session Details <br> 場節詳述</p>
+        <td><a class="xref" href="Votanic.vNet.Database.SessionDetail.html">SessionDetail</a></td>
+        <td><span class="parametername">sessionDetail</span></td>
+        <td><p>Session detail <br> 場節詳述</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.TableUpdate.html">TableUpdate</a>[]</td>
+        <td><span class="parametername">updates</span></td>
+        <td><p>Update attributes <br> 更新的屬性</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseHandler_UpdateSessionDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateSessionDetails*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateSessionDetails_System_Collections_Generic_List_Votanic_vNet_Database_SessionDetail__Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateSessionDetails(System.Collections.Generic.List{Votanic.vNet.Database.SessionDetail},Votanic.vNet.Database.TableUpdate[])">UpdateSessionDetails(List&lt;SessionDetail&gt;, TableUpdate[])</h4>
+  <div class="markdown level1 summary"><p>Update the data of session details from session details table in application database.
+在應用程式數據庫中的場節詳述表格更新場節詳述的數據。</p>
+<p> UpdateSessionDetails(GetSessionDetails(), new TableUpdate(SessionDetailKey.TaskID, 1)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateSessionDetails(List&lt;SessionDetail&gt; sessionsDetails, params TableUpdate[] updates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.SessionDetail.html">SessionDetail</a>&gt;</td>
+        <td><span class="parametername">sessionsDetails</span></td>
+        <td><p>Session detail list <br> 場節詳述列表</p>
 </td>
       </tr>
       <tr>
@@ -2589,7 +3470,7 @@
   <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateSessions_System_Collections_Generic_List_Votanic_vNet_Database_Session__Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateSessions(System.Collections.Generic.List{Votanic.vNet.Database.Session},Votanic.vNet.Database.TableUpdate[])">UpdateSessions(List&lt;Session&gt;, TableUpdate[])</h4>
   <div class="markdown level1 summary"><p>Update the data of sessions from session table in application database.
 在應用程式數據庫中的場節表格更新場節的數據。</p>
-<p> UpdateSessions(GetSessions(), new TableUpdate(SessionKey.Date, &quot;29/02/2020&quot;)) </p>
+<p> UpdateSessions(GetSessions(), new TableUpdate(SessionKey.Start, &quot;31/05/2020 07:02:44&quot;)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2610,43 +3491,6 @@
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.Session.html">Session</a>&gt;</td>
         <td><span class="parametername">sessions</span></td>
         <td><p>Session list <br> 場節列表</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.TableUpdate.html">TableUpdate</a>[]</td>
-        <td><span class="parametername">updates</span></td>
-        <td><p>Update attributes <br> 更新的屬性</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Votanic_vNet_Database_DatabaseHandler_UpdateSessionsDetails_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateSessionsDetails*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateSessionsDetails_System_Collections_Generic_List_Votanic_vNet_Database_SessionDetails__Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateSessionsDetails(System.Collections.Generic.List{Votanic.vNet.Database.SessionDetails},Votanic.vNet.Database.TableUpdate[])">UpdateSessionsDetails(List&lt;SessionDetails&gt;, TableUpdate[])</h4>
-  <div class="markdown level1 summary"><p>Update the data of sessions details from session details table in application database.
-在應用程式數據庫中的場節詳述表格更新場節詳述的數據。</p>
-<p> UpdateSessionsDetails(GetSessionsDetails(), new TableUpdate(SessionDetailsKey.TaskID, &quot;1&quot;)) </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateSessionsDetails(List&lt;SessionDetails&gt; sessionsDetails, params TableUpdate[] updates)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.SessionDetails.html">SessionDetails</a>&gt;</td>
-        <td><span class="parametername">sessionsDetails</span></td>
-        <td><p>Session Details list <br> 場節詳述列表</p>
 </td>
       </tr>
       <tr>
@@ -2735,8 +3579,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_UpdateUser_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateUser*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateUser_Votanic_vNet_Database_User_Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateUser(Votanic.vNet.Database.User,Votanic.vNet.Database.TableUpdate[])">UpdateUser(User, TableUpdate[])</h4>
-  <div class="markdown level1 summary"><p>Update the data of an user from user table in environment database.
-在環境數據庫中的使用者表格更新單一使用者的數據。</p>
+  <div class="markdown level1 summary"><p>Update the data of an user from user table in system database.
+在系統數據庫中的使用者表格更新單一使用者的數據。</p>
 <p> UpdateUser(GetUser(), new TableUpdate(UserKey.FullName, &quot;ABC&quot;)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2772,8 +3616,8 @@
   
   <a id="Votanic_vNet_Database_DatabaseHandler_UpdateUsers_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateUsers*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateUsers_System_Collections_Generic_List_Votanic_vNet_Database_User__Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateUsers(System.Collections.Generic.List{Votanic.vNet.Database.User},Votanic.vNet.Database.TableUpdate[])">UpdateUsers(List&lt;User&gt;, TableUpdate[])</h4>
-  <div class="markdown level1 summary"><p>Update the data of users from user table in environment database.
-在環境數據庫中的使用者表格更新使用者的數據。</p>
+  <div class="markdown level1 summary"><p>Update the data of users from user table in system database.
+在系統數據庫中的使用者表格更新使用者的數據。</p>
 <p> UpdateUsers(GetUsers(), new TableUpdate(UserKey.FullName, &quot;ABC&quot;)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2795,80 +3639,6 @@
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.User.html">User</a>&gt;</td>
         <td><span class="parametername">users</span></td>
         <td><p>User list <br> 使用者列表</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.TableUpdate.html">TableUpdate</a>[]</td>
-        <td><span class="parametername">updates</span></td>
-        <td><p>Update attributes <br> 更新的屬性</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Votanic_vNet_Database_DatabaseHandler_UpdateUserSession_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateUserSession*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateUserSession_Votanic_vNet_Database_UserSession_Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateUserSession(Votanic.vNet.Database.UserSession,Votanic.vNet.Database.TableUpdate[])">UpdateUserSession(UserSession, TableUpdate[])</h4>
-  <div class="markdown level1 summary"><p>Update the data of an user session from user session table in application database.
-在應用程式數據庫中的使用者場節表格更新單一使用者場節的數據。</p>
-<p> UpdateUserSession(GetUserSession(), new TableUpdate(UserSessionKey.User, &quot;ABC&quot;)) </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateUserSession(UserSession session, params TableUpdate[] updates)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.UserSession.html">UserSession</a></td>
-        <td><span class="parametername">session</span></td>
-        <td><p>User Session <br> 使用者場節</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Votanic.vNet.Database.TableUpdate.html">TableUpdate</a>[]</td>
-        <td><span class="parametername">updates</span></td>
-        <td><p>Update attributes <br> 更新的屬性</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Votanic_vNet_Database_DatabaseHandler_UpdateUserSessions_" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateUserSessions*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseHandler_UpdateUserSessions_System_Collections_Generic_List_Votanic_vNet_Database_UserSession__Votanic_vNet_Database_TableUpdate___" data-uid="Votanic.vNet.Database.DatabaseHandler.UpdateUserSessions(System.Collections.Generic.List{Votanic.vNet.Database.UserSession},Votanic.vNet.Database.TableUpdate[])">UpdateUserSessions(List&lt;UserSession&gt;, TableUpdate[])</h4>
-  <div class="markdown level1 summary"><p>Update the data of user sessions from user session table in application database.
-在應用程式數據庫中的使用者場節表格更新使用者場節的數據。</p>
-<p> UpdateUserSessions(GetUserSessions(), new TableUpdate(UserSessionKey.User, &quot;ABC&quot;)) </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateUserSessions(List&lt;UserSession&gt; sessions, params TableUpdate[] updates)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.UserSession.html">UserSession</a>&gt;</td>
-        <td><span class="parametername">sessions</span></td>
-        <td><p>User Session list <br> 使用者場節列表</p>
 </td>
       </tr>
       <tr>
