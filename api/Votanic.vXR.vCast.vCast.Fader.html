@@ -73,8 +73,8 @@
   
   <h1 id="Votanic_vXR_vCast_vCast_Fader" data-uid="Votanic.vXR.vCast.vCast.Fader" class="text-break">Class vCast.Fader
   </h1>
-  <div class="markdown level0 summary"><p>Class of Global Faders related functions.
-<br> 公用過場器相關的功能類別。</p>
+  <div class="markdown level0 summary"><p>Class of World Faders related functions.
+<br> 世界過場器相關的功能類別。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -155,7 +155,7 @@
   
   <a id="Votanic_vXR_vCast_vCast_Fader_Fade_" data-uid="Votanic.vXR.vCast.vCast.Fader.Fade*"></a>
   <h4 id="Votanic_vXR_vCast_vCast_Fader_Fade_UnityEngine_Color_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_" data-uid="Votanic.vXR.vCast.vCast.Fader.Fade(UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)">Fade(Color, Single, Single, Single, MotionParameter)</h4>
-  <div class="markdown level1 summary"><p>Apply Custom Fade of all faders.
+  <div class="markdown level1 summary"><p>Apply Custom Fade of all worldFaders.
 <br> 使用所有過場器的自定義過場效果。</p>
 <p> Fade(Color.black, 8, 0, 0, MotionParameter.Velocity) </p>
 </div>
@@ -210,7 +210,7 @@
   
   <a id="Votanic_vXR_vCast_vCast_Fader_FadeIn_" data-uid="Votanic.vXR.vCast.vCast.Fader.FadeIn*"></a>
   <h4 id="Votanic_vXR_vCast_vCast_Fader_FadeIn" data-uid="Votanic.vXR.vCast.vCast.Fader.FadeIn">FadeIn()</h4>
-  <div class="markdown level1 summary"><p>Apply Fade In of all faders.
+  <div class="markdown level1 summary"><p>Apply Fade In of all worldFaders.
 <br> 使用所有過場器的淡入。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -253,7 +253,7 @@
   
   <a id="Votanic_vXR_vCast_vCast_Fader_FadeOut_" data-uid="Votanic.vXR.vCast.vCast.Fader.FadeOut*"></a>
   <h4 id="Votanic_vXR_vCast_vCast_Fader_FadeOut" data-uid="Votanic.vXR.vCast.vCast.Fader.FadeOut">FadeOut()</h4>
-  <div class="markdown level1 summary"><p>Apply Fade Out of all faders.
+  <div class="markdown level1 summary"><p>Apply Fade Out of all worldFaders.
 <br> 使用所有過場器的淡出。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -389,6 +389,190 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Fader_SetColor_" data-uid="Votanic.vXR.vCast.vCast.Fader.SetColor*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Fader_SetColor_System_Int32_UnityEngine_Color_" data-uid="Votanic.vXR.vCast.vCast.Fader.SetColor(System.Int32,UnityEngine.Color)">SetColor(Int32, Color)</h4>
+  <div class="markdown level1 summary"><p>Set the default fader color to target world fader.
+<br> 為目標世界過場器設定預設過場顏色。</p>
+<p> SetColor(0, Color.black) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetColor(int index, Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Fader Index <br> 過場器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Target Color <br> 目標顏色</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Fader_SetColor_" data-uid="Votanic.vXR.vCast.vCast.Fader.SetColor*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Fader_SetColor_UnityEngine_Color_" data-uid="Votanic.vXR.vCast.vCast.Fader.SetColor(UnityEngine.Color)">SetColor(Color)</h4>
+  <div class="markdown level1 summary"><p>Set the default fader color to all world faders.
+<br> 為所有世界過場器設定預設過場顏色。</p>
+<p> SetColor(Color.black) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetColor(Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Target Color <br> 目標顏色</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Fader_SetFader_" data-uid="Votanic.vXR.vCast.vCast.Fader.SetFader*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Fader_SetFader_System_Int32_UnityEngine_Color_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_" data-uid="Votanic.vXR.vCast.vCast.Fader.SetFader(System.Int32,UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)">SetFader(Int32, Color, Single, Single, Single, MotionParameter)</h4>
+  <div class="markdown level1 summary"><p>Set the world fader transition effect.
+<br> 設定世界淡出淡入效果。</p>
+<p> SetFader(0, Color.black, 8, 0, 0, MotionParameter.Velocity) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFader(int index, Color color, float factor, float accel, float decel, MotionParameter parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Fader Index <br> 過場器編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Target Color <br> 目標顏色</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">factor</span></td>
+        <td><p>Transition factor value <br> 過場因子</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">accel</span></td>
+        <td><p>Transition accelerating value <br> 過場加速值</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">decel</span></td>
+        <td><p>Transition decelerating value <br> 過場減速值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.MotionParameter.html">MotionParameter</a></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Transition calculation parameter <br> 過場計算參數</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Fader_SetFader_" data-uid="Votanic.vXR.vCast.vCast.Fader.SetFader*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Fader_SetFader_UnityEngine_Color_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_" data-uid="Votanic.vXR.vCast.vCast.Fader.SetFader(UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)">SetFader(Color, Single, Single, Single, MotionParameter)</h4>
+  <div class="markdown level1 summary"><p>Set the world fader transition effect.
+<br> 設定世界淡出淡入效果。</p>
+<p> SetFader(Color.black, 8, 0, 0, MotionParameter.Velocity) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFader(Color color, float factor, float accel, float decel, MotionParameter parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Target Color <br> 目標顏色</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">factor</span></td>
+        <td><p>Transition factor value <br> 過場因子</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">accel</span></td>
+        <td><p>Transition accelerating value <br> 過場加速值</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">decel</span></td>
+        <td><p>Transition decelerating value <br> 過場減速值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.MotionParameter.html">MotionParameter</a></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Transition calculation parameter <br> 過場計算參數</p>
+</td>
       </tr>
     </tbody>
   </table>

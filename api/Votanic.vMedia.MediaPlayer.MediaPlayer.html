@@ -424,6 +424,31 @@ public bool initialized</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_isFinished" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.isFinished">isFinished</h4>
+  <div class="markdown level1 summary"><p>Return true if the media player is totally finished playing. <br> 當媒體播放器完全播放結束時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isFinished</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_isPaused" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.isPaused">isPaused</h4>
   <div class="markdown level1 summary"><p>Return true if the media player is paused. <br> 當媒體播放器暫停時傳回 true。</p>
 </div>
@@ -851,6 +876,31 @@ public List&lt;MeshRenderer&gt; objectsMesh</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_timeControl" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.timeControl">timeControl</h4>
+  <div class="markdown level1 summary"><p>Time control element. <br> 時間控制元素。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SliderControl timeControl</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vMedia.MediaPlayer.SliderControl.html">SliderControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_timeDuration" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.timeDuration">timeDuration</h4>
   <div class="markdown level1 summary"><p>String of time and duration. <br> 時間及長度字串。</p>
 </div>
@@ -1009,7 +1059,7 @@ public float volume</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VolumeControl volumeControl</code></pre>
+    <pre><code class="lang-csharp hljs">public SliderControl volumeControl</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1021,7 +1071,7 @@ public float volume</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vMedia.MediaPlayer.VolumeControl.html">VolumeControl</a></td>
+        <td><a class="xref" href="Votanic.vMedia.MediaPlayer.SliderControl.html">SliderControl</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1812,6 +1862,49 @@ public float volume</code></pre>
   </table>
   
   
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Seek_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Seek*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Seek" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Seek">Seek()</h4>
+  <div class="markdown level1 summary"><p>Seek the time of media by time control slider.
+<br> 根據時間控制滑動器尋找媒體時間。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Seek()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Seek_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Seek*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Seek_System_Boolean_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Seek(System.Boolean)">Seek(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Seek the time of media by time control slider.
+<br> 根據時間控制滑動器尋找媒體時間。</p>
+<p> Seek() </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Seek(bool play)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">play</span></td>
+        <td><p>Play after seek <br> 在尋找完成後播放</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoNext_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoNext*"></a>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoNext" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoNext">SetAutoNext()</h4>
   <div class="markdown level1 summary"><p>Change auto next setting.
@@ -2028,8 +2121,8 @@ public float volume</code></pre>
   
   <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetVolume_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetVolume*"></a>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_SetVolume" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.SetVolume">SetVolume()</h4>
-  <div class="markdown level1 summary"><p>Set the volume of media player.
-<br> 設定媒體擋放器音量。</p>
+  <div class="markdown level1 summary"><p>Set the volume of media player by volume control slider.
+<br> 根據音樂控制滑動器設定媒體擋放器音量。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

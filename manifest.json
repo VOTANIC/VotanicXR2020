@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.Util.html",
-          "hash": "G/MRN/PiTiufFhjd6M0YxQ=="
+          "hash": "EdmuCl43Wm9UcDRsHenuNQ=="
         }
       },
       "is_incremental": false,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vMedia.MediaPlayer.MediaPlayer.html",
-          "hash": "drsw/C81/UBbGVrCDSQMTA=="
+          "hash": "NHwIzDFzDLPuTA0E7nOrkQ=="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html",
-          "hash": "MApJEkvp6BPnw0wv5fBzOg=="
+          "hash": "UMvCB2fAA91c4s8JBW/bPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vMedia.MediaPlayer.SliderControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vMedia.MediaPlayer.SliderControl.html",
+          "hash": "W5euX3QecOOIZNZdfMi2XA=="
         }
       },
       "is_incremental": false,
@@ -581,23 +593,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Votanic.vMedia.MediaPlayer.VolumeControl.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Votanic.vMedia.MediaPlayer.VolumeControl.html",
-          "hash": "8Rl9s4Rx3m4m5oFCBdgU6w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Votanic.vMedia.MediaPlayer.yml",
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vMedia.MediaPlayer.html",
-          "hash": "TW6rfgs1IvqTOkFcGD1yYQ=="
+          "hash": "LHbcCOS8FFOuiIcfYNH8Gw=="
         }
       },
       "is_incremental": false,
@@ -1557,7 +1557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.Fader.html",
-          "hash": "W1bYT7infLFzry4dfRL+9Q=="
+          "hash": "QmLNDQ+SdpSAskpQmg5R8g=="
         }
       },
       "is_incremental": false,
@@ -1569,7 +1569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.Frame.html",
-          "hash": "DSOiiuCgovZatFwC6eBILQ=="
+          "hash": "fHSxAL10gdGv/3jbGsUdjA=="
         }
       },
       "is_incremental": false,
@@ -1749,7 +1749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast_User.html",
-          "hash": "Mr9bqfPGGIf5wZ8KrYCjwQ=="
+          "hash": "3FDg3pDXjEv1yABV9dC/pg=="
         }
       },
       "is_incremental": false,
@@ -1797,7 +1797,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.html",
-          "hash": "Njx1PPjd+DGq1tyK+X+bAw=="
+          "hash": "cqRjWhyLn7vvyd0SHuAWAA=="
         }
       },
       "is_incremental": false,
@@ -2397,7 +2397,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Slider.html",
-          "hash": "n3fhiAYeIk/Ah6yqSLiU4Q=="
+          "hash": "bB9Jkjv4uix7CqLJT+u/WQ=="
         }
       },
       "is_incremental": false,
@@ -2409,7 +2409,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Teleport.html",
-          "hash": "C1lRQmGOiqiDeUZZ8pdv1A=="
+          "hash": "Zem6ZPrVqBw24OUGSmolXw=="
         }
       },
       "is_incremental": false,
@@ -2469,7 +2469,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_User.html",
-          "hash": "4W5CMkSiEhiu3ecD1DZUWw=="
+          "hash": "4NvkEaD1oadYwbeSUz8Z6w=="
         }
       },
       "is_incremental": false,
@@ -2565,7 +2565,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "pGHKKLbX5WgBnGwfVJp2VA=="
+          "hash": "ZOFhOE1OXb7/IB3Fi5hRYQ=="
         }
       },
       "is_incremental": false,
@@ -2651,7 +2651,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 212,
-          "skipped_file_count": 122
+          "skipped_file_count": 164
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

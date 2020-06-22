@@ -615,7 +615,7 @@ public Transform synchronizer</code></pre>
   
   
   <a id="Votanic_vXR_vCast_vCast_User_Move_" data-uid="Votanic.vXR.vCast.vCast_User.Move*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_User_Move_UnityEngine_Vector3_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast_User.Move(UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)">Move(Vector3, MotionParameter, TransitionMethod, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_User_Move_UnityEngine_Vector3_Votanic_vXR_TransitionMethod_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast_User.Move(UnityEngine.Vector3,Votanic.vXR.TransitionMethod,System.Boolean)">Move(Vector3, TransitionMethod, Boolean)</h4>
   <div class="markdown level1 summary"><p>Move user to the target position by custom calculation parameter and transition method.
 <br> 以自定義的過場計算參數及過場方法將使用者移動到目標位置。</p>
 <p> Move(new Vector3(0, 0, 1), MotionParameter.Time, TransitionMethod.Translation) </p>
@@ -623,7 +623,7 @@ public Transform synchronizer</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Move(Vector3 position, MotionParameter parameter, TransitionMethod method, bool unscaledDeltaTime = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Move(Vector3 position, TransitionMethod method, bool unscaledDeltaTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -639,12 +639,6 @@ public Transform synchronizer</code></pre>
         <td><span class="xref">UnityEngine.Vector3</span></td>
         <td><span class="parametername">position</span></td>
         <td><p>Target position <br> 目標位置</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Votanic.vXR.MotionParameter.html">MotionParameter</a></td>
-        <td><span class="parametername">parameter</span></td>
-        <td><p>Transition calculation parameter <br> 過場計算參數</p>
 </td>
       </tr>
       <tr>
@@ -897,8 +891,8 @@ public Transform synchronizer</code></pre>
   
   <a id="Votanic_vXR_vCast_vCast_User_SetFadeColor_" data-uid="Votanic.vXR.vCast.vCast_User.SetFadeColor*"></a>
   <h4 id="Votanic_vXR_vCast_vCast_User_SetFadeColor_UnityEngine_Color_" data-uid="Votanic.vXR.vCast.vCast_User.SetFadeColor(UnityEngine.Color)">SetFadeColor(Color)</h4>
-  <div class="markdown level1 summary"><p>Set the fade color of fade transition.
-<br> 設定淡出淡入效果的顏色。</p>
+  <div class="markdown level1 summary"><p>Set the user fade color of fade transition.
+<br> 設定使用者淡出淡入效果的顏色。</p>
 <p> SetFadeColor(Color.black) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -920,6 +914,61 @@ public Transform synchronizer</code></pre>
         <td><span class="xref">UnityEngine.Color</span></td>
         <td><span class="parametername">color</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_SetFader_" data-uid="Votanic.vXR.vCast.vCast_User.SetFader*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_SetFader_UnityEngine_Color_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_" data-uid="Votanic.vXR.vCast.vCast_User.SetFader(UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)">SetFader(Color, Single, Single, Single, MotionParameter)</h4>
+  <div class="markdown level1 summary"><p>Set the user fader transition effect.
+<br> 設定使用者淡出淡入效果。</p>
+<p> SetFader(Color.black, 8, 0, 0, MotionParameter.Velocity) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFader(Color color, float factor, float accel, float decel, MotionParameter parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Target Color <br> 目標顏色</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">factor</span></td>
+        <td><p>Transition factor value <br> 過場因子</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">accel</span></td>
+        <td><p>Transition accelerating value <br> 過場加速值</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">decel</span></td>
+        <td><p>Transition decelerating value <br> 過場減速值</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.MotionParameter.html">MotionParameter</a></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Transition calculation parameter <br> 過場計算參數</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1185,7 +1234,7 @@ public Transform synchronizer</code></pre>
   
   
   <a id="Votanic_vXR_vCast_vCast_User_Transform_" data-uid="Votanic.vXR.vCast.vCast_User.Transform*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_User_Transform_UnityEngine_Transform_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Transform,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)">Transform(Transform, MotionParameter, TransitionMethod, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_User_Transform_UnityEngine_Transform_Votanic_vXR_TransitionMethod_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Transform,Votanic.vXR.TransitionMethod,System.Boolean)">Transform(Transform, TransitionMethod, Boolean)</h4>
   <div class="markdown level1 summary"><p>Transform user to the target point by custom calculation parameter and transition method.
 <br> 以自定義的過場計算參數及過場方法將使用者變換到目標地點。</p>
 <p> Transform(transform, MotionParameter.Time, TransitionMethod.Translation) </p>
@@ -1193,7 +1242,7 @@ public Transform synchronizer</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Transform(Transform target, MotionParameter parameter, TransitionMethod method, bool unscaledDeltaTime = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Transform(Transform target, TransitionMethod method, bool unscaledDeltaTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1209,12 +1258,6 @@ public Transform synchronizer</code></pre>
         <td><span class="xref">UnityEngine.Transform</span></td>
         <td><span class="parametername">target</span></td>
         <td><p>Target transform <br> 目標的 Transform</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Votanic.vXR.MotionParameter.html">MotionParameter</a></td>
-        <td><span class="parametername">parameter</span></td>
-        <td><p>Transition calculation parameter <br> 過場計算參數</p>
 </td>
       </tr>
       <tr>
@@ -1350,7 +1393,7 @@ public Transform synchronizer</code></pre>
   
   
   <a id="Votanic_vXR_vCast_vCast_User_Transform_" data-uid="Votanic.vXR.vCast.vCast_User.Transform*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_User_Transform_UnityEngine_Vector3_UnityEngine_Vector3_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)">Transform(Vector3, Vector3, MotionParameter, TransitionMethod, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_User_Transform_UnityEngine_Vector3_UnityEngine_Vector3_Votanic_vXR_TransitionMethod_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.TransitionMethod,System.Boolean)">Transform(Vector3, Vector3, TransitionMethod, Boolean)</h4>
   <div class="markdown level1 summary"><p>Transform user to the target position and euler angles by custom calculation parameter and transition method.
 <br> 以自定義的過場計算參數及過場方法將使用者變換到目標位置及角度。</p>
 <p> Transform(new Vector3(0, 0, 1), Vector3.zero, MotionParameter.Time, TransitionMethod.Translation) </p>
@@ -1358,7 +1401,7 @@ public Transform synchronizer</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Transform(Vector3 position, Vector3 eulerAngles, MotionParameter parameter, TransitionMethod method, bool unscaledDeltaTime = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Transform(Vector3 position, Vector3 eulerAngles, TransitionMethod method, bool unscaledDeltaTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1380,12 +1423,6 @@ public Transform synchronizer</code></pre>
         <td><span class="xref">UnityEngine.Vector3</span></td>
         <td><span class="parametername">eulerAngles</span></td>
         <td><p>Target euler angles <br> 目標角度</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Votanic.vXR.MotionParameter.html">MotionParameter</a></td>
-        <td><span class="parametername">parameter</span></td>
-        <td><p>Transition calculation parameter <br> 過場計算參數</p>
 </td>
       </tr>
       <tr>

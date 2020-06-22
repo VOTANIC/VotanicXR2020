@@ -3581,6 +3581,12 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.initialized
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.initialized
   nameWithType: MediaPlayer.initialized
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.isFinished
+  name: isFinished
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_isFinished
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.isFinished
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.isFinished
+  nameWithType: MediaPlayer.isFinished
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.isPaused
   name: isPaused
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_isPaused
@@ -3848,6 +3854,25 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.randomTexture
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.randomTexture
   nameWithType: MediaPlayer.randomTexture
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.Seek
+  name: Seek()
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Seek
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer.Seek
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.Seek()
+  nameWithType: MediaPlayer.Seek()
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.Seek(System.Boolean)
+  name: Seek(Boolean)
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Seek_System_Boolean_
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer.Seek(System.Boolean)
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.Seek(System.Boolean)
+  nameWithType: MediaPlayer.Seek(Boolean)
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.Seek*
+  name: Seek
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_Seek_
+  commentId: Overload:Votanic.vMedia.MediaPlayer.MediaPlayer.Seek
+  isSpec: "True"
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.Seek
+  nameWithType: MediaPlayer.Seek
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.SetAutoNext
   name: SetAutoNext()
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_SetAutoNext
@@ -4000,6 +4025,12 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.timeBar
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.timeBar
   nameWithType: MediaPlayer.timeBar
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.timeControl
+  name: timeControl
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_timeControl
+  commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.timeControl
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.timeControl
+  nameWithType: MediaPlayer.timeControl
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.timeDuration
   name: timeDuration
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_timeDuration
@@ -4300,6 +4331,48 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer360.zoomSpeed
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.zoomSpeed
   nameWithType: MediaPlayer360.zoomSpeed
+- uid: Votanic.vMedia.MediaPlayer.SliderControl
+  name: SliderControl
+  href: api/Votanic.vMedia.MediaPlayer.SliderControl.html
+  commentId: T:Votanic.vMedia.MediaPlayer.SliderControl
+  fullName: Votanic.vMedia.MediaPlayer.SliderControl
+  nameWithType: SliderControl
+- uid: Votanic.vMedia.MediaPlayer.SliderControl.handler
+  name: handler
+  href: api/Votanic.vMedia.MediaPlayer.SliderControl.html#Votanic_vMedia_MediaPlayer_SliderControl_handler
+  commentId: F:Votanic.vMedia.MediaPlayer.SliderControl.handler
+  fullName: Votanic.vMedia.MediaPlayer.SliderControl.handler
+  nameWithType: SliderControl.handler
+- uid: Votanic.vMedia.MediaPlayer.SliderControl.maxPoint
+  name: maxPoint
+  href: api/Votanic.vMedia.MediaPlayer.SliderControl.html#Votanic_vMedia_MediaPlayer_SliderControl_maxPoint
+  commentId: F:Votanic.vMedia.MediaPlayer.SliderControl.maxPoint
+  fullName: Votanic.vMedia.MediaPlayer.SliderControl.maxPoint
+  nameWithType: SliderControl.maxPoint
+- uid: Votanic.vMedia.MediaPlayer.SliderControl.minPoint
+  name: minPoint
+  href: api/Votanic.vMedia.MediaPlayer.SliderControl.html#Votanic_vMedia_MediaPlayer_SliderControl_minPoint
+  commentId: F:Votanic.vMedia.MediaPlayer.SliderControl.minPoint
+  fullName: Votanic.vMedia.MediaPlayer.SliderControl.minPoint
+  nameWithType: SliderControl.minPoint
+- uid: Votanic.vMedia.MediaPlayer.SliderControl.x
+  name: x
+  href: api/Votanic.vMedia.MediaPlayer.SliderControl.html#Votanic_vMedia_MediaPlayer_SliderControl_x
+  commentId: F:Votanic.vMedia.MediaPlayer.SliderControl.x
+  fullName: Votanic.vMedia.MediaPlayer.SliderControl.x
+  nameWithType: SliderControl.x
+- uid: Votanic.vMedia.MediaPlayer.SliderControl.y
+  name: y
+  href: api/Votanic.vMedia.MediaPlayer.SliderControl.html#Votanic_vMedia_MediaPlayer_SliderControl_y
+  commentId: F:Votanic.vMedia.MediaPlayer.SliderControl.y
+  fullName: Votanic.vMedia.MediaPlayer.SliderControl.y
+  nameWithType: SliderControl.y
+- uid: Votanic.vMedia.MediaPlayer.SliderControl.z
+  name: z
+  href: api/Votanic.vMedia.MediaPlayer.SliderControl.html#Votanic_vMedia_MediaPlayer_SliderControl_z
+  commentId: F:Votanic.vMedia.MediaPlayer.SliderControl.z
+  fullName: Votanic.vMedia.MediaPlayer.SliderControl.z
+  nameWithType: SliderControl.z
 - uid: Votanic.vMedia.MediaPlayer.StereoType
   name: StereoType
   href: api/Votanic.vMedia.MediaPlayer.StereoType.html
@@ -4336,48 +4409,6 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.StereoType.UpDown
   fullName: Votanic.vMedia.MediaPlayer.StereoType.UpDown
   nameWithType: StereoType.UpDown
-- uid: Votanic.vMedia.MediaPlayer.VolumeControl
-  name: VolumeControl
-  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html
-  commentId: T:Votanic.vMedia.MediaPlayer.VolumeControl
-  fullName: Votanic.vMedia.MediaPlayer.VolumeControl
-  nameWithType: VolumeControl
-- uid: Votanic.vMedia.MediaPlayer.VolumeControl.multiplier
-  name: multiplier
-  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html#Votanic_vMedia_MediaPlayer_VolumeControl_multiplier
-  commentId: F:Votanic.vMedia.MediaPlayer.VolumeControl.multiplier
-  fullName: Votanic.vMedia.MediaPlayer.VolumeControl.multiplier
-  nameWithType: VolumeControl.multiplier
-- uid: Votanic.vMedia.MediaPlayer.VolumeControl.volumeHandler
-  name: volumeHandler
-  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html#Votanic_vMedia_MediaPlayer_VolumeControl_volumeHandler
-  commentId: F:Votanic.vMedia.MediaPlayer.VolumeControl.volumeHandler
-  fullName: Votanic.vMedia.MediaPlayer.VolumeControl.volumeHandler
-  nameWithType: VolumeControl.volumeHandler
-- uid: Votanic.vMedia.MediaPlayer.VolumeControl.x
-  name: x
-  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html#Votanic_vMedia_MediaPlayer_VolumeControl_x
-  commentId: F:Votanic.vMedia.MediaPlayer.VolumeControl.x
-  fullName: Votanic.vMedia.MediaPlayer.VolumeControl.x
-  nameWithType: VolumeControl.x
-- uid: Votanic.vMedia.MediaPlayer.VolumeControl.y
-  name: y
-  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html#Votanic_vMedia_MediaPlayer_VolumeControl_y
-  commentId: F:Votanic.vMedia.MediaPlayer.VolumeControl.y
-  fullName: Votanic.vMedia.MediaPlayer.VolumeControl.y
-  nameWithType: VolumeControl.y
-- uid: Votanic.vMedia.MediaPlayer.VolumeControl.z
-  name: z
-  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html#Votanic_vMedia_MediaPlayer_VolumeControl_z
-  commentId: F:Votanic.vMedia.MediaPlayer.VolumeControl.z
-  fullName: Votanic.vMedia.MediaPlayer.VolumeControl.z
-  nameWithType: VolumeControl.z
-- uid: Votanic.vMedia.MediaPlayer.VolumeControl.zeroPosition
-  name: zeroPosition
-  href: api/Votanic.vMedia.MediaPlayer.VolumeControl.html#Votanic_vMedia_MediaPlayer_VolumeControl_zeroPosition
-  commentId: F:Votanic.vMedia.MediaPlayer.VolumeControl.zeroPosition
-  fullName: Votanic.vMedia.MediaPlayer.VolumeControl.zeroPosition
-  nameWithType: VolumeControl.zeroPosition
 - uid: Votanic.vMedia.MediaType
   name: MediaType
   href: api/Votanic.vMedia.MediaType.html
@@ -10129,6 +10160,44 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Fader.IsFading
   nameWithType: vCast.Fader.IsFading
+- uid: Votanic.vXR.vCast.vCast.Fader.SetColor(System.Int32,UnityEngine.Color)
+  name: SetColor(Int32, Color)
+  href: api/Votanic.vXR.vCast.vCast.Fader.html#Votanic_vXR_vCast_vCast_Fader_SetColor_System_Int32_UnityEngine_Color_
+  commentId: M:Votanic.vXR.vCast.vCast.Fader.SetColor(System.Int32,UnityEngine.Color)
+  fullName: Votanic.vXR.vCast.vCast.Fader.SetColor(System.Int32, UnityEngine.Color)
+  nameWithType: vCast.Fader.SetColor(Int32, Color)
+- uid: Votanic.vXR.vCast.vCast.Fader.SetColor(UnityEngine.Color)
+  name: SetColor(Color)
+  href: api/Votanic.vXR.vCast.vCast.Fader.html#Votanic_vXR_vCast_vCast_Fader_SetColor_UnityEngine_Color_
+  commentId: M:Votanic.vXR.vCast.vCast.Fader.SetColor(UnityEngine.Color)
+  fullName: Votanic.vXR.vCast.vCast.Fader.SetColor(UnityEngine.Color)
+  nameWithType: vCast.Fader.SetColor(Color)
+- uid: Votanic.vXR.vCast.vCast.Fader.SetColor*
+  name: SetColor
+  href: api/Votanic.vXR.vCast.vCast.Fader.html#Votanic_vXR_vCast_vCast_Fader_SetColor_
+  commentId: Overload:Votanic.vXR.vCast.vCast.Fader.SetColor
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.Fader.SetColor
+  nameWithType: vCast.Fader.SetColor
+- uid: Votanic.vXR.vCast.vCast.Fader.SetFader(System.Int32,UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)
+  name: SetFader(Int32, Color, Single, Single, Single, MotionParameter)
+  href: api/Votanic.vXR.vCast.vCast.Fader.html#Votanic_vXR_vCast_vCast_Fader_SetFader_System_Int32_UnityEngine_Color_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_
+  commentId: M:Votanic.vXR.vCast.vCast.Fader.SetFader(System.Int32,UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)
+  fullName: Votanic.vXR.vCast.vCast.Fader.SetFader(System.Int32, UnityEngine.Color, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter)
+  nameWithType: vCast.Fader.SetFader(Int32, Color, Single, Single, Single, MotionParameter)
+- uid: Votanic.vXR.vCast.vCast.Fader.SetFader(UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)
+  name: SetFader(Color, Single, Single, Single, MotionParameter)
+  href: api/Votanic.vXR.vCast.vCast.Fader.html#Votanic_vXR_vCast_vCast_Fader_SetFader_UnityEngine_Color_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_
+  commentId: M:Votanic.vXR.vCast.vCast.Fader.SetFader(UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)
+  fullName: Votanic.vXR.vCast.vCast.Fader.SetFader(UnityEngine.Color, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter)
+  nameWithType: vCast.Fader.SetFader(Color, Single, Single, Single, MotionParameter)
+- uid: Votanic.vXR.vCast.vCast.Fader.SetFader*
+  name: SetFader
+  href: api/Votanic.vXR.vCast.vCast.Fader.html#Votanic_vXR_vCast_vCast_Fader_SetFader_
+  commentId: Overload:Votanic.vXR.vCast.vCast.Fader.SetFader
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.Fader.SetFader
+  nameWithType: vCast.Fader.SetFader
 - uid: Votanic.vXR.vCast.vCast.forceQuality
   name: forceQuality
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_forceQuality
@@ -10192,12 +10261,12 @@ references:
   commentId: M:Votanic.vXR.vCast.vCast.Frame.Move(UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
   fullName: Votanic.vXR.vCast.vCast.Frame.Move(UnityEngine.Vector3, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
   nameWithType: vCast.Frame.Move(Vector3, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
-- uid: Votanic.vXR.vCast.vCast.Frame.Move(UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  name: Move(Vector3, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
-  href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Move_UnityEngine_Vector3_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
-  commentId: M:Votanic.vXR.vCast.vCast.Frame.Move(UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  fullName: Votanic.vXR.vCast.vCast.Frame.Move(UnityEngine.Vector3, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
-  nameWithType: vCast.Frame.Move(Vector3, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
+- uid: Votanic.vXR.vCast.vCast.Frame.Move(UnityEngine.Vector3,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: Move(Vector3, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Move_UnityEngine_Vector3_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Frame.Move(UnityEngine.Vector3,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Frame.Move(UnityEngine.Vector3, Votanic.vXR.TransitionMethod, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: vCast.Frame.Move(Vector3, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Frame.Move*
   name: Move
   href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Move_
@@ -10230,12 +10299,12 @@ references:
   commentId: M:Votanic.vXR.vCast.vCast.Frame.Rotate(System.Single,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
   fullName: Votanic.vXR.vCast.vCast.Frame.Rotate(System.Single, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
   nameWithType: vCast.Frame.Rotate(Single, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
-- uid: Votanic.vXR.vCast.vCast.Frame.Rotate(System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  name: Rotate(Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
-  href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Rotate_System_Single_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
-  commentId: M:Votanic.vXR.vCast.vCast.Frame.Rotate(System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  fullName: Votanic.vXR.vCast.vCast.Frame.Rotate(System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
-  nameWithType: vCast.Frame.Rotate(Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
+- uid: Votanic.vXR.vCast.vCast.Frame.Rotate(System.Single,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: Rotate(Single, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Rotate_System_Single_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Frame.Rotate(System.Single,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Frame.Rotate(System.Single, Votanic.vXR.TransitionMethod, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: vCast.Frame.Rotate(Single, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Frame.Rotate*
   name: Rotate
   href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Rotate_
@@ -10256,6 +10325,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Frame.SetFadeColor
   nameWithType: vCast.Frame.SetFadeColor
+- uid: Votanic.vXR.vCast.vCast.Frame.SetFader(UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)
+  name: SetFader(Color, Single, Single, Single, MotionParameter)
+  href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_SetFader_UnityEngine_Color_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_
+  commentId: M:Votanic.vXR.vCast.vCast.Frame.SetFader(UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)
+  fullName: Votanic.vXR.vCast.vCast.Frame.SetFader(UnityEngine.Color, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter)
+  nameWithType: vCast.Frame.SetFader(Color, Single, Single, Single, MotionParameter)
+- uid: Votanic.vXR.vCast.vCast.Frame.SetFader*
+  name: SetFader
+  href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_SetFader_
+  commentId: Overload:Votanic.vXR.vCast.vCast.Frame.SetFader
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.Frame.SetFader
+  nameWithType: vCast.Frame.SetFader
 - uid: Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform,System.Boolean,System.Boolean,System.Boolean)
   name: Transform(Transform, Boolean, Boolean, Boolean)
   href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Transform_System_Boolean_System_Boolean_System_Boolean_
@@ -10268,12 +10350,12 @@ references:
   commentId: M:Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
   fullName: Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
   nameWithType: vCast.Frame.Transform(Transform, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
-- uid: Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  name: Transform(Transform, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
-  href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Transform_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
-  commentId: M:Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  fullName: Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
-  nameWithType: vCast.Frame.Transform(Transform, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
+- uid: Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: Transform(Transform, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Transform_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Transform, Votanic.vXR.TransitionMethod, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: vCast.Frame.Transform(Transform, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,System.Boolean,System.Boolean)
   name: Transform(Vector3, Vector3, Boolean, Boolean, Boolean)
   href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Vector3_UnityEngine_Vector3_System_Boolean_System_Boolean_System_Boolean_
@@ -10286,12 +10368,12 @@ references:
   commentId: M:Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
   fullName: Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
   nameWithType: vCast.Frame.Transform(Vector3, Vector3, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
-- uid: Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  name: Transform(Vector3, Vector3, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
-  href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Vector3_UnityEngine_Vector3_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
-  commentId: M:Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  fullName: Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3, UnityEngine.Vector3, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
-  nameWithType: vCast.Frame.Transform(Vector3, Vector3, MotionParameter, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
+- uid: Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: Transform(Vector3, Vector3, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Transform_UnityEngine_Vector3_UnityEngine_Vector3_Votanic_vXR_TransitionMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.TransitionMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.Frame.Transform(UnityEngine.Vector3, UnityEngine.Vector3, Votanic.vXR.TransitionMethod, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: vCast.Frame.Transform(Vector3, Vector3, TransitionMethod, Boolean, Boolean, Boolean, Boolean)
 - uid: Votanic.vXR.vCast.vCast.Frame.Transform*
   name: Transform
   href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_Transform_
@@ -12647,12 +12729,12 @@ references:
   commentId: M:Votanic.vXR.vCast.vCast_User.Move(UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)
   fullName: Votanic.vXR.vCast.vCast_User.Move(UnityEngine.Vector3, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean)
   nameWithType: vCast_User.Move(Vector3, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean)
-- uid: Votanic.vXR.vCast.vCast_User.Move(UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)
-  name: Move(Vector3, MotionParameter, TransitionMethod, Boolean)
-  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_Move_UnityEngine_Vector3_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_
-  commentId: M:Votanic.vXR.vCast.vCast_User.Move(UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)
-  fullName: Votanic.vXR.vCast.vCast_User.Move(UnityEngine.Vector3, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean)
-  nameWithType: vCast_User.Move(Vector3, MotionParameter, TransitionMethod, Boolean)
+- uid: Votanic.vXR.vCast.vCast_User.Move(UnityEngine.Vector3,Votanic.vXR.TransitionMethod,System.Boolean)
+  name: Move(Vector3, TransitionMethod, Boolean)
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_Move_UnityEngine_Vector3_Votanic_vXR_TransitionMethod_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast_User.Move(UnityEngine.Vector3,Votanic.vXR.TransitionMethod,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast_User.Move(UnityEngine.Vector3, Votanic.vXR.TransitionMethod, System.Boolean)
+  nameWithType: vCast_User.Move(Vector3, TransitionMethod, Boolean)
 - uid: Votanic.vXR.vCast.vCast_User.Move*
   name: Move
   href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_Move_
@@ -12794,6 +12876,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_User.SetFadeColor
   nameWithType: vCast_User.SetFadeColor
+- uid: Votanic.vXR.vCast.vCast_User.SetFader(UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)
+  name: SetFader(Color, Single, Single, Single, MotionParameter)
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_SetFader_UnityEngine_Color_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_
+  commentId: M:Votanic.vXR.vCast.vCast_User.SetFader(UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)
+  fullName: Votanic.vXR.vCast.vCast_User.SetFader(UnityEngine.Color, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter)
+  nameWithType: vCast_User.SetFader(Color, Single, Single, Single, MotionParameter)
+- uid: Votanic.vXR.vCast.vCast_User.SetFader*
+  name: SetFader
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_SetFader_
+  commentId: Overload:Votanic.vXR.vCast.vCast_User.SetFader
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_User.SetFader
+  nameWithType: vCast_User.SetFader
 - uid: Votanic.vXR.vCast.vCast_User.SetHeight(System.Single)
   name: SetHeight(Single)
   href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_SetHeight_System_Single_
@@ -12889,12 +12984,12 @@ references:
   commentId: M:Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Transform,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)
   fullName: Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Transform, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean)
   nameWithType: vCast_User.Transform(Transform, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean)
-- uid: Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Transform,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)
-  name: Transform(Transform, MotionParameter, TransitionMethod, Boolean)
-  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_Transform_UnityEngine_Transform_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_
-  commentId: M:Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Transform,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)
-  fullName: Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Transform, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean)
-  nameWithType: vCast_User.Transform(Transform, MotionParameter, TransitionMethod, Boolean)
+- uid: Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Transform,Votanic.vXR.TransitionMethod,System.Boolean)
+  name: Transform(Transform, TransitionMethod, Boolean)
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_Transform_UnityEngine_Transform_Votanic_vXR_TransitionMethod_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Transform,Votanic.vXR.TransitionMethod,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Transform, Votanic.vXR.TransitionMethod, System.Boolean)
+  nameWithType: vCast_User.Transform(Transform, TransitionMethod, Boolean)
 - uid: Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Vector3,UnityEngine.Vector3)
   name: Transform(Vector3, Vector3)
   href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_Transform_UnityEngine_Vector3_UnityEngine_Vector3_
@@ -12907,12 +13002,12 @@ references:
   commentId: M:Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)
   fullName: Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Single, System.Single, System.Single, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean)
   nameWithType: vCast_User.Transform(Vector3, Vector3, Single, Single, Single, Single, MotionParameter, TransitionMethod, Boolean)
-- uid: Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)
-  name: Transform(Vector3, Vector3, MotionParameter, TransitionMethod, Boolean)
-  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_Transform_UnityEngine_Vector3_UnityEngine_Vector3_Votanic_vXR_MotionParameter_Votanic_vXR_TransitionMethod_System_Boolean_
-  commentId: M:Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.MotionParameter,Votanic.vXR.TransitionMethod,System.Boolean)
-  fullName: Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Vector3, UnityEngine.Vector3, Votanic.vXR.MotionParameter, Votanic.vXR.TransitionMethod, System.Boolean)
-  nameWithType: vCast_User.Transform(Vector3, Vector3, MotionParameter, TransitionMethod, Boolean)
+- uid: Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.TransitionMethod,System.Boolean)
+  name: Transform(Vector3, Vector3, TransitionMethod, Boolean)
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_Transform_UnityEngine_Vector3_UnityEngine_Vector3_Votanic_vXR_TransitionMethod_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.TransitionMethod,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast_User.Transform(UnityEngine.Vector3, UnityEngine.Vector3, Votanic.vXR.TransitionMethod, System.Boolean)
+  nameWithType: vCast_User.Transform(Vector3, Vector3, TransitionMethod, Boolean)
 - uid: Votanic.vXR.vCast.vCast_User.Transform*
   name: Transform
   href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_Transform_
@@ -16376,6 +16471,19 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Slider.syncSlider
   fullName: Votanic.vXR.vGear.vGear_Slider.syncSlider
   nameWithType: vGear_Slider.syncSlider
+- uid: Votanic.vXR.vGear.vGear_Slider.SyncValue
+  name: SyncValue()
+  href: api/Votanic.vXR.vGear.vGear_Slider.html#Votanic_vXR_vGear_vGear_Slider_SyncValue
+  commentId: M:Votanic.vXR.vGear.vGear_Slider.SyncValue
+  fullName: Votanic.vXR.vGear.vGear_Slider.SyncValue()
+  nameWithType: vGear_Slider.SyncValue()
+- uid: Votanic.vXR.vGear.vGear_Slider.SyncValue*
+  name: SyncValue
+  href: api/Votanic.vXR.vGear.vGear_Slider.html#Votanic_vXR_vGear_vGear_Slider_SyncValue_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Slider.SyncValue
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Slider.SyncValue
+  nameWithType: vGear_Slider.SyncValue
 - uid: Votanic.vXR.vGear.vGear_Slider.valueRange
   name: valueRange
   href: api/Votanic.vXR.vGear.vGear_Slider.html#Votanic_vXR_vGear_vGear_Slider_valueRange
@@ -16414,6 +16522,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Teleport.CollisionMode
   nameWithType: vGear_Teleport.CollisionMode
+- uid: Votanic.vXR.vGear.vGear_Teleport.defaultCollisionMode
+  name: defaultCollisionMode
+  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_defaultCollisionMode
+  commentId: F:Votanic.vXR.vGear.vGear_Teleport.defaultCollisionMode
+  fullName: Votanic.vXR.vGear.vGear_Teleport.defaultCollisionMode
+  nameWithType: vGear_Teleport.defaultCollisionMode
 - uid: Votanic.vXR.vGear.vGear_Teleport.onlyTeleportWaypoint
   name: onlyTeleportWaypoint
   href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_onlyTeleportWaypoint
