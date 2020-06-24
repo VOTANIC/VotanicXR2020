@@ -13047,6 +13047,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_User.UnPauseTransform
   nameWithType: vCast_User.UnPauseTransform
+- uid: Votanic.vXR.vCast.vCast_User.unscaledDeltaTime
+  name: unscaledDeltaTime
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_unscaledDeltaTime
+  commentId: F:Votanic.vXR.vCast.vCast_User.unscaledDeltaTime
+  fullName: Votanic.vXR.vCast.vCast_User.unscaledDeltaTime
+  nameWithType: vCast_User.unscaledDeltaTime
 - uid: Votanic.vXR.vCast.vCast_User.walls
   name: walls
   href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_walls
@@ -15539,19 +15545,19 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Controller.pickedTool
   fullName: Votanic.vXR.vGear.vGear_Controller.pickedTool
   nameWithType: vGear_Controller.pickedTool
-- uid: Votanic.vXR.vGear.vGear_Controller.shutter
-  name: shutter
-  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_shutter
-  commentId: P:Votanic.vXR.vGear.vGear_Controller.shutter
-  fullName: Votanic.vXR.vGear.vGear_Controller.shutter
-  nameWithType: vGear_Controller.shutter
-- uid: Votanic.vXR.vGear.vGear_Controller.shutter*
-  name: shutter
-  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_shutter_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Controller.shutter
+- uid: Votanic.vXR.vGear.vGear_Controller.reporter
+  name: reporter
+  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_reporter
+  commentId: P:Votanic.vXR.vGear.vGear_Controller.reporter
+  fullName: Votanic.vXR.vGear.vGear_Controller.reporter
+  nameWithType: vGear_Controller.reporter
+- uid: Votanic.vXR.vGear.vGear_Controller.reporter*
+  name: reporter
+  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_reporter_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Controller.reporter
   isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Controller.shutter
-  nameWithType: vGear_Controller.shutter
+  fullName: Votanic.vXR.vGear.vGear_Controller.reporter
+  nameWithType: vGear_Controller.reporter
 - uid: Votanic.vXR.vGear.vGear_Controller.teleport
   name: teleport
   href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_teleport
@@ -16219,6 +16225,155 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Positioner.zeroHeight
   fullName: Votanic.vXR.vGear.vGear_Positioner.zeroHeight
   nameWithType: vGear_Positioner.zeroHeight
+- uid: Votanic.vXR.vGear.vGear_Reporter
+  name: vGear_Reporter
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html
+  commentId: T:Votanic.vXR.vGear.vGear_Reporter
+  fullName: Votanic.vXR.vGear.vGear_Reporter
+  nameWithType: vGear_Reporter
+- uid: Votanic.vXR.vGear.vGear_Reporter.cam
+  name: cam
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_cam
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.cam
+  fullName: Votanic.vXR.vGear.vGear_Reporter.cam
+  nameWithType: vGear_Reporter.cam
+- uid: Votanic.vXR.vGear.vGear_Reporter.cameraAngle
+  name: cameraAngle
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_cameraAngle
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.cameraAngle
+  fullName: Votanic.vXR.vGear.vGear_Reporter.cameraAngle
+  nameWithType: vGear_Reporter.cameraAngle
+- uid: Votanic.vXR.vGear.vGear_Reporter.Capture
+  name: Capture()
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_Capture
+  commentId: M:Votanic.vXR.vGear.vGear_Reporter.Capture
+  fullName: Votanic.vXR.vGear.vGear_Reporter.Capture()
+  nameWithType: vGear_Reporter.Capture()
+- uid: Votanic.vXR.vGear.vGear_Reporter.Capture*
+  name: Capture
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_Capture_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Reporter.Capture
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Reporter.Capture
+  nameWithType: vGear_Reporter.Capture
+- uid: Votanic.vXR.vGear.vGear_Reporter.captureSFX
+  name: captureSFX
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_captureSFX
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.captureSFX
+  fullName: Votanic.vXR.vGear.vGear_Reporter.captureSFX
+  nameWithType: vGear_Reporter.captureSFX
+- uid: Votanic.vXR.vGear.vGear_Reporter.GenerateReport
+  name: GenerateReport()
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_GenerateReport
+  commentId: M:Votanic.vXR.vGear.vGear_Reporter.GenerateReport
+  fullName: Votanic.vXR.vGear.vGear_Reporter.GenerateReport()
+  nameWithType: vGear_Reporter.GenerateReport()
+- uid: Votanic.vXR.vGear.vGear_Reporter.GenerateReport*
+  name: GenerateReport
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_GenerateReport_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Reporter.GenerateReport
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Reporter.GenerateReport
+  nameWithType: vGear_Reporter.GenerateReport
+- uid: Votanic.vXR.vGear.vGear_Reporter.isRealTime
+  name: isRealTime
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_isRealTime
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.isRealTime
+  fullName: Votanic.vXR.vGear.vGear_Reporter.isRealTime
+  nameWithType: vGear_Reporter.isRealTime
+- uid: Votanic.vXR.vGear.vGear_Reporter.isShowing
+  name: isShowing
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_isShowing
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.isShowing
+  fullName: Votanic.vXR.vGear.vGear_Reporter.isShowing
+  nameWithType: vGear_Reporter.isShowing
+- uid: Votanic.vXR.vGear.vGear_Reporter.Mount(UnityEngine.Transform,System.Boolean,System.Boolean)
+  name: Mount(Transform, Boolean, Boolean)
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_Mount_UnityEngine_Transform_System_Boolean_System_Boolean_
+  commentId: M:Votanic.vXR.vGear.vGear_Reporter.Mount(UnityEngine.Transform,System.Boolean,System.Boolean)
+  fullName: Votanic.vXR.vGear.vGear_Reporter.Mount(UnityEngine.Transform, System.Boolean, System.Boolean)
+  nameWithType: vGear_Reporter.Mount(Transform, Boolean, Boolean)
+- uid: Votanic.vXR.vGear.vGear_Reporter.Mount(UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,System.Boolean)
+  name: Mount(Vector3, Vector3, Boolean, Boolean)
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_Mount_UnityEngine_Vector3_UnityEngine_Vector3_System_Boolean_System_Boolean_
+  commentId: M:Votanic.vXR.vGear.vGear_Reporter.Mount(UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,System.Boolean)
+  fullName: Votanic.vXR.vGear.vGear_Reporter.Mount(UnityEngine.Vector3, UnityEngine.Vector3, System.Boolean, System.Boolean)
+  nameWithType: vGear_Reporter.Mount(Vector3, Vector3, Boolean, Boolean)
+- uid: Votanic.vXR.vGear.vGear_Reporter.Mount*
+  name: Mount
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_Mount_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Reporter.Mount
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Reporter.Mount
+  nameWithType: vGear_Reporter.Mount
+- uid: Votanic.vXR.vGear.vGear_Reporter.outputDirectory
+  name: outputDirectory
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_outputDirectory
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.outputDirectory
+  fullName: Votanic.vXR.vGear.vGear_Reporter.outputDirectory
+  nameWithType: vGear_Reporter.outputDirectory
+- uid: Votanic.vXR.vGear.vGear_Reporter.reportSFX
+  name: reportSFX
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_reportSFX
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.reportSFX
+  fullName: Votanic.vXR.vGear.vGear_Reporter.reportSFX
+  nameWithType: vGear_Reporter.reportSFX
+- uid: Votanic.vXR.vGear.vGear_Reporter.reportTitle
+  name: reportTitle
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_reportTitle
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.reportTitle
+  fullName: Votanic.vXR.vGear.vGear_Reporter.reportTitle
+  nameWithType: vGear_Reporter.reportTitle
+- uid: Votanic.vXR.vGear.vGear_Reporter.Show(System.Boolean,System.Boolean)
+  name: Show(Boolean, Boolean)
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_Show_System_Boolean_System_Boolean_
+  commentId: M:Votanic.vXR.vGear.vGear_Reporter.Show(System.Boolean,System.Boolean)
+  fullName: Votanic.vXR.vGear.vGear_Reporter.Show(System.Boolean, System.Boolean)
+  nameWithType: vGear_Reporter.Show(Boolean, Boolean)
+- uid: Votanic.vXR.vGear.vGear_Reporter.Show*
+  name: Show
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_Show_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Reporter.Show
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Reporter.Show
+  nameWithType: vGear_Reporter.Show
+- uid: Votanic.vXR.vGear.vGear_Reporter.textureSize
+  name: textureSize
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_textureSize
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.textureSize
+  fullName: Votanic.vXR.vGear.vGear_Reporter.textureSize
+  nameWithType: vGear_Reporter.textureSize
+- uid: Votanic.vXR.vGear.vGear_Reporter.viewFinder
+  name: viewFinder
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_viewFinder
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.viewFinder
+  fullName: Votanic.vXR.vGear.vGear_Reporter.viewFinder
+  nameWithType: vGear_Reporter.viewFinder
+- uid: Votanic.vXR.vGear.vGear_Reporter.ViewFinder(System.Boolean)
+  name: ViewFinder(Boolean)
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_ViewFinder_System_Boolean_
+  commentId: M:Votanic.vXR.vGear.vGear_Reporter.ViewFinder(System.Boolean)
+  fullName: Votanic.vXR.vGear.vGear_Reporter.ViewFinder(System.Boolean)
+  nameWithType: vGear_Reporter.ViewFinder(Boolean)
+- uid: Votanic.vXR.vGear.vGear_Reporter.ViewFinder*
+  name: ViewFinder
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_ViewFinder_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Reporter.ViewFinder
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Reporter.ViewFinder
+  nameWithType: vGear_Reporter.ViewFinder
+- uid: Votanic.vXR.vGear.vGear_Reporter.zoom
+  name: zoom
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_zoom
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.zoom
+  fullName: Votanic.vXR.vGear.vGear_Reporter.zoom
+  nameWithType: vGear_Reporter.zoom
+- uid: Votanic.vXR.vGear.vGear_Reporter.zoomSpeed
+  name: zoomSpeed
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_zoomSpeed
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.zoomSpeed
+  fullName: Votanic.vXR.vGear.vGear_Reporter.zoomSpeed
+  nameWithType: vGear_Reporter.zoomSpeed
 - uid: Votanic.vXR.vGear.vGear_Sensor
   name: vGear_Sensor
   href: api/Votanic.vXR.vGear.vGear_Sensor.html
@@ -16238,124 +16393,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Sensor.vision
   nameWithType: vGear_Sensor.vision
-- uid: Votanic.vXR.vGear.vGear_Shutter
-  name: vGear_Shutter
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html
-  commentId: T:Votanic.vXR.vGear.vGear_Shutter
-  fullName: Votanic.vXR.vGear.vGear_Shutter
-  nameWithType: vGear_Shutter
-- uid: Votanic.vXR.vGear.vGear_Shutter.cam
-  name: cam
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_cam
-  commentId: F:Votanic.vXR.vGear.vGear_Shutter.cam
-  fullName: Votanic.vXR.vGear.vGear_Shutter.cam
-  nameWithType: vGear_Shutter.cam
-- uid: Votanic.vXR.vGear.vGear_Shutter.cameraAngle
-  name: cameraAngle
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_cameraAngle
-  commentId: F:Votanic.vXR.vGear.vGear_Shutter.cameraAngle
-  fullName: Votanic.vXR.vGear.vGear_Shutter.cameraAngle
-  nameWithType: vGear_Shutter.cameraAngle
-- uid: Votanic.vXR.vGear.vGear_Shutter.Capture
-  name: Capture()
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_Capture
-  commentId: M:Votanic.vXR.vGear.vGear_Shutter.Capture
-  fullName: Votanic.vXR.vGear.vGear_Shutter.Capture()
-  nameWithType: vGear_Shutter.Capture()
-- uid: Votanic.vXR.vGear.vGear_Shutter.Capture*
-  name: Capture
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_Capture_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Shutter.Capture
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Shutter.Capture
-  nameWithType: vGear_Shutter.Capture
-- uid: Votanic.vXR.vGear.vGear_Shutter.isRealTime
-  name: isRealTime
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_isRealTime
-  commentId: F:Votanic.vXR.vGear.vGear_Shutter.isRealTime
-  fullName: Votanic.vXR.vGear.vGear_Shutter.isRealTime
-  nameWithType: vGear_Shutter.isRealTime
-- uid: Votanic.vXR.vGear.vGear_Shutter.isShowing
-  name: isShowing
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_isShowing
-  commentId: F:Votanic.vXR.vGear.vGear_Shutter.isShowing
-  fullName: Votanic.vXR.vGear.vGear_Shutter.isShowing
-  nameWithType: vGear_Shutter.isShowing
-- uid: Votanic.vXR.vGear.vGear_Shutter.Mount(UnityEngine.Transform,System.Boolean,System.Boolean)
-  name: Mount(Transform, Boolean, Boolean)
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_Mount_UnityEngine_Transform_System_Boolean_System_Boolean_
-  commentId: M:Votanic.vXR.vGear.vGear_Shutter.Mount(UnityEngine.Transform,System.Boolean,System.Boolean)
-  fullName: Votanic.vXR.vGear.vGear_Shutter.Mount(UnityEngine.Transform, System.Boolean, System.Boolean)
-  nameWithType: vGear_Shutter.Mount(Transform, Boolean, Boolean)
-- uid: Votanic.vXR.vGear.vGear_Shutter.Mount(UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,System.Boolean)
-  name: Mount(Vector3, Vector3, Boolean, Boolean)
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_Mount_UnityEngine_Vector3_UnityEngine_Vector3_System_Boolean_System_Boolean_
-  commentId: M:Votanic.vXR.vGear.vGear_Shutter.Mount(UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,System.Boolean)
-  fullName: Votanic.vXR.vGear.vGear_Shutter.Mount(UnityEngine.Vector3, UnityEngine.Vector3, System.Boolean, System.Boolean)
-  nameWithType: vGear_Shutter.Mount(Vector3, Vector3, Boolean, Boolean)
-- uid: Votanic.vXR.vGear.vGear_Shutter.Mount*
-  name: Mount
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_Mount_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Shutter.Mount
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Shutter.Mount
-  nameWithType: vGear_Shutter.Mount
-- uid: Votanic.vXR.vGear.vGear_Shutter.outputDirectory
-  name: outputDirectory
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_outputDirectory
-  commentId: F:Votanic.vXR.vGear.vGear_Shutter.outputDirectory
-  fullName: Votanic.vXR.vGear.vGear_Shutter.outputDirectory
-  nameWithType: vGear_Shutter.outputDirectory
-- uid: Votanic.vXR.vGear.vGear_Shutter.Show(System.Boolean,System.Boolean)
-  name: Show(Boolean, Boolean)
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_Show_System_Boolean_System_Boolean_
-  commentId: M:Votanic.vXR.vGear.vGear_Shutter.Show(System.Boolean,System.Boolean)
-  fullName: Votanic.vXR.vGear.vGear_Shutter.Show(System.Boolean, System.Boolean)
-  nameWithType: vGear_Shutter.Show(Boolean, Boolean)
-- uid: Votanic.vXR.vGear.vGear_Shutter.Show*
-  name: Show
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_Show_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Shutter.Show
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Shutter.Show
-  nameWithType: vGear_Shutter.Show
-- uid: Votanic.vXR.vGear.vGear_Shutter.textureSize
-  name: textureSize
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_textureSize
-  commentId: F:Votanic.vXR.vGear.vGear_Shutter.textureSize
-  fullName: Votanic.vXR.vGear.vGear_Shutter.textureSize
-  nameWithType: vGear_Shutter.textureSize
-- uid: Votanic.vXR.vGear.vGear_Shutter.viewFinder
-  name: viewFinder
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_viewFinder
-  commentId: F:Votanic.vXR.vGear.vGear_Shutter.viewFinder
-  fullName: Votanic.vXR.vGear.vGear_Shutter.viewFinder
-  nameWithType: vGear_Shutter.viewFinder
-- uid: Votanic.vXR.vGear.vGear_Shutter.ViewFinder(System.Boolean)
-  name: ViewFinder(Boolean)
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_ViewFinder_System_Boolean_
-  commentId: M:Votanic.vXR.vGear.vGear_Shutter.ViewFinder(System.Boolean)
-  fullName: Votanic.vXR.vGear.vGear_Shutter.ViewFinder(System.Boolean)
-  nameWithType: vGear_Shutter.ViewFinder(Boolean)
-- uid: Votanic.vXR.vGear.vGear_Shutter.ViewFinder*
-  name: ViewFinder
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_ViewFinder_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Shutter.ViewFinder
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Shutter.ViewFinder
-  nameWithType: vGear_Shutter.ViewFinder
-- uid: Votanic.vXR.vGear.vGear_Shutter.zoom
-  name: zoom
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_zoom
-  commentId: F:Votanic.vXR.vGear.vGear_Shutter.zoom
-  fullName: Votanic.vXR.vGear.vGear_Shutter.zoom
-  nameWithType: vGear_Shutter.zoom
-- uid: Votanic.vXR.vGear.vGear_Shutter.zoomSpeed
-  name: zoomSpeed
-  href: api/Votanic.vXR.vGear.vGear_Shutter.html#Votanic_vXR_vGear_vGear_Shutter_zoomSpeed
-  commentId: F:Votanic.vXR.vGear.vGear_Shutter.zoomSpeed
-  fullName: Votanic.vXR.vGear.vGear_Shutter.zoomSpeed
-  nameWithType: vGear_Shutter.zoomSpeed
 - uid: Votanic.vXR.vGear.vGear_Sketchpad
   name: vGear_Sketchpad
   href: api/Votanic.vXR.vGear.vGear_Sketchpad.html

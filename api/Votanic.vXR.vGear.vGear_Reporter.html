@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class vGear_Magnifier
+    <title>Class vGear_Reporter
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class vGear_Magnifier
+    <meta name="title" content="Class vGear_Reporter
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,13 +68,13 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.vGear_Magnifier">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.vGear_Reporter">
   
   
-  <h1 id="Votanic_vXR_vGear_vGear_Magnifier" data-uid="Votanic.vXR.vGear.vGear_Magnifier" class="text-break">Class vGear_Magnifier
+  <h1 id="Votanic_vXR_vGear_vGear_Reporter" data-uid="Votanic.vXR.vGear.vGear_Reporter" class="text-break">Class vGear_Reporter
   </h1>
-  <div class="markdown level0 summary"><p>Magnifier tool of vGear controller.
-<br> vGear 控制器的放大鏡工具。</p>
+  <div class="markdown level0 summary"><p>Reporter tool of vGear controller.
+<br> vGear 控制器的報告工具。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -86,27 +86,52 @@
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
     <div class="level5"><a class="xref" href="Votanic.vXR.vCast.IO.vCast_Device.html">vCast_Device</a></div>
     <div class="level6"><a class="xref" href="Votanic.vXR.vCast.IO.vCast_ControllerTool.html">vCast_ControllerTool</a></div>
-    <div class="level7"><span class="xref">vGear_Magnifier</span></div>
+    <div class="level7"><span class="xref">vGear_Reporter</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.html">Votanic.vXR.vGear</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_vGear_vGear_Magnifier_syntax">Syntax</h5>
+  <h5 id="Votanic_vXR_vGear_vGear_Reporter_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
-public class vGear_Magnifier : vCast_ControllerTool</code></pre>
+public class vGear_Reporter : vCast_ControllerTool</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Magnifier_cameraAngle" data-uid="Votanic.vXR.vGear.vGear_Magnifier.cameraAngle">cameraAngle</h4>
-  <div class="markdown level1 summary"><p>Angle of magnifier lens. <br> 放大鏡角度。</p>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_cam" data-uid="Votanic.vXR.vGear.vGear_Reporter.cam">cam</h4>
+  <div class="markdown level1 summary"><p>The camera component of reporter tool. <br> 報告工具的相機組件。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
-[Range(5F, 60F)]
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+public Camera cam</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Camera</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_cameraAngle" data-uid="Votanic.vXR.vGear.vGear_Reporter.cameraAngle">cameraAngle</h4>
+  <div class="markdown level1 summary"><p>Angle of camera lens. <br> 鏡頭角度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(15F, 120F)]
 public float cameraAngle</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -126,14 +151,13 @@ public float cameraAngle</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Magnifier_cameras" data-uid="Votanic.vXR.vGear.vGear_Magnifier.cameras">cameras</h4>
-  <div class="markdown level1 summary"><p>The cameras component of magnifier tool. <br> 放大鏡工具的相機組件。</p>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_captureSFX" data-uid="Votanic.vXR.vGear.vGear_Reporter.captureSFX">captureSFX</h4>
+  <div class="markdown level1 summary"><p>Sound effect of capture action. <br> 捕捉畫面時的音效。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
-public Camera[] cameras</code></pre>
+    <pre><code class="lang-csharp hljs">public AudioSource captureSFX</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,15 +169,15 @@ public Camera[] cameras</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Camera</span>[]</td>
+        <td><span class="xref">UnityEngine.AudioSource</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Magnifier_isRealTime" data-uid="Votanic.vXR.vGear.vGear_Magnifier.isRealTime">isRealTime</h4>
-  <div class="markdown level1 summary"><p>Return true if the magnifier tool rendering is real time. <br> 當放大鏡實時渲染時傳回 true。</p>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_isRealTime" data-uid="Votanic.vXR.vGear.vGear_Reporter.isRealTime">isRealTime</h4>
+  <div class="markdown level1 summary"><p>Return true if the view finder is real time rendering. <br> 當取景器實時取景時傳回 true。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -177,8 +201,8 @@ public Camera[] cameras</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Magnifier_isShowing" data-uid="Votanic.vXR.vGear.vGear_Magnifier.isShowing">isShowing</h4>
-  <div class="markdown level1 summary"><p>Return true if the magnifier tool is showing. <br> 當放大鏡工具顯示時傳回 true。</p>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_isShowing" data-uid="Votanic.vXR.vGear.vGear_Reporter.isShowing">isShowing</h4>
+  <div class="markdown level1 summary"><p>Return true if the reporter tool is showing. <br> 當報告工具顯示時傳回 true。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -202,8 +226,84 @@ public Camera[] cameras</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Magnifier_textureSize" data-uid="Votanic.vXR.vGear.vGear_Magnifier.textureSize">textureSize</h4>
-  <div class="markdown level1 summary"><p>Size of texture on magnifier planes. <br> 放大鏡工具平面的紋理大小。</p>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_outputDirectory" data-uid="Votanic.vXR.vGear.vGear_Reporter.outputDirectory">outputDirectory</h4>
+  <div class="markdown level1 summary"><p>Directory for storing captured images. <br> 儲存已拍攝的影像。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+public string outputDirectory</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_reportSFX" data-uid="Votanic.vXR.vGear.vGear_Reporter.reportSFX">reportSFX</h4>
+  <div class="markdown level1 summary"><p>Sound effect of report action. <br> 產生報告時的音效。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioSource reportSFX</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.AudioSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_reportTitle" data-uid="Votanic.vXR.vGear.vGear_Reporter.reportTitle">reportTitle</h4>
+  <div class="markdown level1 summary"><p>Title of report. <br> 報告標題。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string reportTitle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_textureSize" data-uid="Votanic.vXR.vGear.vGear_Reporter.textureSize">textureSize</h4>
+  <div class="markdown level1 summary"><p>Size of texture on reporter planes. <br> 報告工具平面的紋理大小。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -227,13 +327,13 @@ public Camera[] cameras</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Magnifier_views" data-uid="Votanic.vXR.vGear.vGear_Magnifier.views">views</h4>
-  <div class="markdown level1 summary"><p>The mesh renderer component of magnifier tool. <br> 放大鏡工具的渲染器組件。</p>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_viewFinder" data-uid="Votanic.vXR.vGear.vGear_Reporter.viewFinder">viewFinder</h4>
+  <div class="markdown level1 summary"><p>The view finder of camera. <br> 相機的取景器。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MeshRenderer[] views</code></pre>
+    <pre><code class="lang-csharp hljs">public MeshRenderer viewFinder</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -245,15 +345,15 @@ public Camera[] cameras</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.MeshRenderer</span>[]</td>
+        <td><span class="xref">UnityEngine.MeshRenderer</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Magnifier_zoom" data-uid="Votanic.vXR.vGear.vGear_Magnifier.zoom">zoom</h4>
-  <div class="markdown level1 summary"><p>Zoom value of magnifier tool. <br> 放大鏡工具變焦值。</p>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_zoom" data-uid="Votanic.vXR.vGear.vGear_Reporter.zoom">zoom</h4>
+  <div class="markdown level1 summary"><p>Zoom value of reporter tool. <br> 報告工具變焦值。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -278,7 +378,7 @@ public float zoom</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Magnifier_zoomSpeed" data-uid="Votanic.vXR.vGear.vGear_Magnifier.zoomSpeed">zoomSpeed</h4>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_zoomSpeed" data-uid="Votanic.vXR.vGear.vGear_Reporter.zoomSpeed">zoomSpeed</h4>
   <div class="markdown level1 summary"><p>Zooming speed of the camera. <br> 變焦速度。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -305,16 +405,40 @@ public float zoom</code></pre>
   </h3>
   
   
-  <a id="Votanic_vXR_vGear_vGear_Magnifier_Mount_" data-uid="Votanic.vXR.vGear.vGear_Magnifier.Mount*"></a>
-  <h4 id="Votanic_vXR_vGear_vGear_Magnifier_Mount_UnityEngine_Transform_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Magnifier.Mount(UnityEngine.Transform,System.Boolean,System.Boolean)">Mount(Transform, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Mount the magnifier tool to target transform.
-<br> 將放大鏡工具依附在目標 Transform。</p>
-<p> Mount(transform, true, true) </p>
+  <a id="Votanic_vXR_vGear_vGear_Reporter_Capture_" data-uid="Votanic.vXR.vGear.vGear_Reporter.Capture*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_Capture" data-uid="Votanic.vXR.vGear.vGear_Reporter.Capture">Capture()</h4>
+  <div class="markdown level1 summary"><p>Capture image.
+<br> 拍攝影像。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Mount(Transform target, bool show = true, bool realTime = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Capture()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Reporter_GenerateReport_" data-uid="Votanic.vXR.vGear.vGear_Reporter.GenerateReport*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_GenerateReport" data-uid="Votanic.vXR.vGear.vGear_Reporter.GenerateReport">GenerateReport()</h4>
+  <div class="markdown level1 summary"><p>Generate a PDF report of current session.
+<br> 為這次場節產生一個報告。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GenerateReport()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Reporter_Mount_" data-uid="Votanic.vXR.vGear.vGear_Reporter.Mount*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_Mount_UnityEngine_Transform_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Reporter.Mount(UnityEngine.Transform,System.Boolean,System.Boolean)">Mount(Transform, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Mount the reporter tool to target transform.
+<br> 將報告工具依附在目標 Transform。</p>
+<p> Mount(transform, true, false) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Mount(Transform target, bool show = true, bool realTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -348,16 +472,16 @@ public float zoom</code></pre>
   </table>
   
   
-  <a id="Votanic_vXR_vGear_vGear_Magnifier_Mount_" data-uid="Votanic.vXR.vGear.vGear_Magnifier.Mount*"></a>
-  <h4 id="Votanic_vXR_vGear_vGear_Magnifier_Mount_UnityEngine_Vector3_UnityEngine_Vector3_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Magnifier.Mount(UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,System.Boolean)">Mount(Vector3, Vector3, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Mount the magnifier tool to target posiiton and euler angles.
-<br> 將放大鏡工具依附在目標位置及角度。</p>
-<p> Mount(Vector3.zero, Vector3.zero, true, true) </p>
+  <a id="Votanic_vXR_vGear_vGear_Reporter_Mount_" data-uid="Votanic.vXR.vGear.vGear_Reporter.Mount*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_Mount_UnityEngine_Vector3_UnityEngine_Vector3_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Reporter.Mount(UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,System.Boolean)">Mount(Vector3, Vector3, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Mount the reporter tool to target posiiton and euler angles.
+<br> 將報告工具依附在目標位置及角度。</p>
+<p> Mount(Vector3.zero, Vector3.zero, true, false) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Mount(Vector3 position, Vector3 eulerAngles, bool show = true, bool realTime = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Mount(Vector3 position, Vector3 eulerAngles, bool show = true, bool realTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -397,16 +521,16 @@ public float zoom</code></pre>
   </table>
   
   
-  <a id="Votanic_vXR_vGear_vGear_Magnifier_Show_" data-uid="Votanic.vXR.vGear.vGear_Magnifier.Show*"></a>
-  <h4 id="Votanic_vXR_vGear_vGear_Magnifier_Show_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Magnifier.Show(System.Boolean,System.Boolean)">Show(Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Show or hide magnifier tool.
-<br> 顯示或隱藏放大鏡工具。</p>
-<p> Show(true, true) </p>
+  <a id="Votanic_vXR_vGear_vGear_Reporter_Show_" data-uid="Votanic.vXR.vGear.vGear_Reporter.Show*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_Show_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Reporter.Show(System.Boolean,System.Boolean)">Show(Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Show or hide reporter tool.
+<br> 顯示或隱藏報告工具。</p>
+<p> Show(true, false) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Show(bool show = true, bool realTime = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Show(bool show = true, bool realTime = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -428,6 +552,37 @@ public float zoom</code></pre>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">realTime</span></td>
         <td><p>Turn on view finder if true <br> 當 true 時打開取景器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Reporter_ViewFinder_" data-uid="Votanic.vXR.vGear.vGear_Reporter.ViewFinder*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_ViewFinder_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Reporter.ViewFinder(System.Boolean)">ViewFinder(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Turn on or off the view finder.
+<br> 開啟或關閉取景器。</p>
+<p> ViewFinder(true) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ViewFinder(bool turnOn = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">turnOn</span></td>
+        <td><p>Turn on if true <br> 當 true 時打開</p>
 </td>
       </tr>
     </tbody>
