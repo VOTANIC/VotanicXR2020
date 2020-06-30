@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Interaction
+    <title>Class NetworkAddress
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Interaction
+    <meta name="title" content="Class NetworkAddress
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,40 +68,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.Interaction">
+            <article class="content wrap" id="_content" data-uid="Votanic.vNet.NetworkAddress">
   
   
-  <h1 id="Votanic_vXR_Interaction" data-uid="Votanic.vXR.Interaction" class="text-break">Class Interaction
+  <h1 id="Votanic_vNet_NetworkAddress" data-uid="Votanic.vNet.NetworkAddress" class="text-break">Class NetworkAddress
   </h1>
-  <div class="markdown level0 summary"><p>Interaction settings of interactables.
-<br> 交互物的互動設定。</p>
+  <div class="markdown level0 summary"><p>Network address static functions.
+<br> 網絡位址靜態功能。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Interaction</span></div>
+    <div class="level1"><span class="xref">NetworkAddress</span></div>
+      <div class="level2"><a class="xref" href="Votanic.vXR.vGear.Networking.NetworkAddress.html">NetworkAddress</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.html">Votanic.vXR</a></h6>
-  <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_Interaction_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vNet.html">Votanic.vNet</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.vNet.dll</h6>
+  <h5 id="Votanic_vNet_NetworkAddress_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class Interaction</code></pre>
+    <pre><code class="lang-csharp hljs">public class NetworkAddress</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="Votanic_vXR_Interaction_command" data-uid="Votanic.vXR.Interaction.command">command</h4>
-  <div class="markdown level1 summary"><p>The command to send when the interaction has done. <br> 互動完成時傳送的指令。</p>
+  <a id="Votanic_vNet_NetworkAddress_external_" data-uid="Votanic.vNet.NetworkAddress.external*"></a>
+  <h4 id="Votanic_vNet_NetworkAddress_external" data-uid="Votanic.vNet.NetworkAddress.external">external</h4>
+  <div class="markdown level1 summary"><p>Return the external IP address.
+<br> 傳回外部 IP 位址。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string command</code></pre>
+    <pre><code class="lang-csharp hljs">public static string external { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -118,15 +120,17 @@ public class Interaction</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_Interaction_interactionType" data-uid="Votanic.vXR.Interaction.interactionType">interactionType</h4>
-  <div class="markdown level1 summary"><p>The interaction method of interactables. <br> 與交互物產生互動的方法。</p>
+  <a id="Votanic_vNet_NetworkAddress_local_" data-uid="Votanic.vNet.NetworkAddress.local*"></a>
+  <h4 id="Votanic_vNet_NetworkAddress_local" data-uid="Votanic.vNet.NetworkAddress.local">local</h4>
+  <div class="markdown level1 summary"><p>Return the local IP address.
+<br> 傳回本地 IP 位址。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InteractionType interactionType</code></pre>
+    <pre><code class="lang-csharp hljs">public static string local { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -136,82 +140,7 @@ public class Interaction</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vXR.InteractionType.html">InteractionType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_Interaction_unityEvent" data-uid="Votanic.vXR.Interaction.unityEvent">unityEvent</h4>
-  <div class="markdown level1 summary"><p>The event needed to be called or passed parameters. <br> 需要呼叫或傳遞參數的事件。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ParameterEvent unityEvent</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.ParameterEvent.html">ParameterEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_Interaction_user" data-uid="Votanic.vXR.Interaction.user">user</h4>
-  <div class="markdown level1 summary"><p>Target user for the command. <br> 指令的目標使用者。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int user</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_Interaction_value" data-uid="Votanic.vXR.Interaction.value">value</h4>
-  <div class="markdown level1 summary"><p>The floating value of command. <br> 指令浮點值。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float value</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>

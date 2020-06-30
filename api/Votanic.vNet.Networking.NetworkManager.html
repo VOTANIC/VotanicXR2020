@@ -1,0 +1,1251 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NetworkManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NetworkManager
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Votanic.vNet.Networking.NetworkManager">
+  
+  
+  <h1 id="Votanic_vNet_Networking_NetworkManager" data-uid="Votanic.vNet.Networking.NetworkManager" class="text-break">Class NetworkManager
+  </h1>
+  <div class="markdown level0 summary"><p>The network manager for multiplayer.
+<br> 多人連線的網絡管理員。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">NetworkManager</span></div>
+      <div class="level6"><a class="xref" href="Votanic.vXR.vGear.Networking.vGear_Networking.html">vGear_Networking</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vNet.Networking.html">Votanic.vNet.Networking</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.vNet.dll</h6>
+  <h5 id="Votanic_vNet_Networking_NetworkManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
+public class NetworkManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_address" data-uid="Votanic.vNet.Networking.NetworkManager.address">address</h4>
+  <div class="markdown level1 summary"><p>Address of connection. <br> 連線位址。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string address</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_autoConnect" data-uid="Votanic.vNet.Networking.NetworkManager.autoConnect">autoConnect</h4>
+  <div class="markdown level1 summary"><p>Auto start connection on start if true. <br> 當 true 時在開始時自動開始連線。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool autoConnect</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_connectingBuffer" data-uid="Votanic.vNet.Networking.NetworkManager.connectingBuffer">connectingBuffer</h4>
+  <div class="markdown level1 summary"><p>Buffer for connection. <br> 連線緩衝。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float connectingBuffer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_errorLog" data-uid="Votanic.vNet.Networking.NetworkManager.errorLog">errorLog</h4>
+  <div class="markdown level1 summary"><p>Error log of connection. <br> 連線錯誤訊息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string errorLog</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_hostMsg" data-uid="Votanic.vNet.Networking.NetworkManager.hostMsg">hostMsg</h4>
+  <div class="markdown level1 summary"><p>Start hosting message. <br> 開始主持訊息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Host]&quot;)]
+public string hostMsg</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_joinMsg" data-uid="Votanic.vNet.Networking.NetworkManager.joinMsg">joinMsg</h4>
+  <div class="markdown level1 summary"><p>Joined connection message. <br> 加入連線的訊息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Client]&quot;)]
+public string joinMsg</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_maxConnections" data-uid="Votanic.vNet.Networking.NetworkManager.maxConnections">maxConnections</h4>
+  <div class="markdown level1 summary"><p>Maximum number of users. <br> 最大使用者數目。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int maxConnections</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_messages" data-uid="Votanic.vNet.Networking.NetworkManager.messages">messages</h4>
+  <div class="markdown level1 summary"><p>All received messages. <br> 所以已接收訊息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; messages</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_networkID" data-uid="Votanic.vNet.Networking.NetworkManager.networkID">networkID</h4>
+  <div class="markdown level1 summary"><p>Network ID of current connection. <br> 目前連線使用的識別碼。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint networkID</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_networkName" data-uid="Votanic.vNet.Networking.NetworkManager.networkName">networkName</h4>
+  <div class="markdown level1 summary"><p>Network user name. <br> 網絡使用者名稱。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string networkName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_numOfUsers" data-uid="Votanic.vNet.Networking.NetworkManager.numOfUsers">numOfUsers</h4>
+  <div class="markdown level1 summary"><p>Number of users. <br> 使用者數目。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numOfUsers</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_port" data-uid="Votanic.vNet.Networking.NetworkManager.port">port</h4>
+  <div class="markdown level1 summary"><p>Port of connection. <br> 連線埠。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int port</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_quitMsg" data-uid="Votanic.vNet.Networking.NetworkManager.quitMsg">quitMsg</h4>
+  <div class="markdown level1 summary"><p>Quit connection message. <br> 離開連線的訊息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string quitMsg</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_ReceivedMessage" data-uid="Votanic.vNet.Networking.NetworkManager.ReceivedMessage">ReceivedMessage</h4>
+  <div class="markdown level1 summary"><p>The delegate function. <br> 委託的功能。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetworkManager.OnReceived ReceivedMessage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Networking.NetworkManager.OnReceived.html">NetworkManager.OnReceived</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_reconnect" data-uid="Votanic.vNet.Networking.NetworkManager.reconnect">reconnect</h4>
+  <div class="markdown level1 summary"><p>Auto reconnect times when connection is failed. <br> 當連線失敗時的自動重連次數。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int reconnect</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_spawnPrefabs" data-uid="Votanic.vNet.Networking.NetworkManager.spawnPrefabs">spawnPrefabs</h4>
+  <div class="markdown level1 summary"><p>Networking spawnable prefabes. <br> 網絡可生成的預載體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;GameObject&gt; spawnPrefabs</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.GameObject</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_state" data-uid="Votanic.vNet.Networking.NetworkManager.state">state</h4>
+  <div class="markdown level1 summary"><p>Connection state of networking. <br> 網絡連線狀態。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+public ConnectionState state</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.ConnectionState.html">ConnectionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_stopMsg" data-uid="Votanic.vNet.Networking.NetworkManager.stopMsg">stopMsg</h4>
+  <div class="markdown level1 summary"><p>Stop hosting message. <br> 結束主持訊息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string stopMsg</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_type" data-uid="Votanic.vNet.Networking.NetworkManager.type">type</h4>
+  <div class="markdown level1 summary"><p>User type of current connection. <br> 目前連線的使用者類型。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+public UserType type</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Networking.UserType.html">UserType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_userPrefab" data-uid="Votanic.vNet.Networking.NetworkManager.userPrefab">userPrefab</h4>
+  <div class="markdown level1 summary"><p>User prefab for networking. <br> 網絡使用者預載體。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+public GameObject userPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_uNetManager_" data-uid="Votanic.vNet.Networking.NetworkManager.uNetManager*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_uNetManager" data-uid="Votanic.vNet.Networking.NetworkManager.uNetManager">uNetManager</h4>
+  <div class="markdown level1 summary"><p>The Unity Network Manager component. <br> Unity 網絡管理員組件。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetworkManager uNetManager { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Networking.NetworkManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_AddNetworkMessage_" data-uid="Votanic.vNet.Networking.NetworkManager.AddNetworkMessage*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_AddNetworkMessage_System_Int16_UnityEngine_Networking_NetworkMessageDelegate_" data-uid="Votanic.vNet.Networking.NetworkManager.AddNetworkMessage(System.Int16,UnityEngine.Networking.NetworkMessageDelegate)">AddNetworkMessage(Int16, NetworkMessageDelegate)</h4>
+  <div class="markdown level1 summary"><p>Add custom network message handler.
+<br> 新增自定義網絡訊息處理器。</p>
+<p> AddNetworkMessage(300, OnReceivedCustom) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddNetworkMessage(short channel, NetworkMessageDelegate handler)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">channel</span></td>
+        <td><p>Message channel, please choose from 1000 <br> 訊息頻道，請由 1000 開始選擇</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Networking.NetworkMessageDelegate</span></td>
+        <td><span class="parametername">handler</span></td>
+        <td><p>The handler of message. <br> 訊息處理器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_ChangeName_" data-uid="Votanic.vNet.Networking.NetworkManager.ChangeName*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_ChangeName_System_String_System_Boolean_" data-uid="Votanic.vNet.Networking.NetworkManager.ChangeName(System.String,System.Boolean)">ChangeName(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Change the own network user name.
+<br> 更改自身網絡使用者名稱。</p>
+<p> ChangeName(&quot;UserB&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ChangeName(string name, bool message = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>New name <br> 新名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Show message if true <br> 當 true 時顯示訊息</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_ChangeScene_" data-uid="Votanic.vNet.Networking.NetworkManager.ChangeScene*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_ChangeScene_System_Int32_" data-uid="Votanic.vNet.Networking.NetworkManager.ChangeScene(System.Int32)">ChangeScene(Int32)</h4>
+  <div class="markdown level1 summary"><p>Change all users' scene by name.</p>
+<p> ChangeScene(0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeScene(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Scene index <br> 場景編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_ChangeScene_" data-uid="Votanic.vNet.Networking.NetworkManager.ChangeScene*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_ChangeScene_System_String_" data-uid="Votanic.vNet.Networking.NetworkManager.ChangeScene(System.String)">ChangeScene(String)</h4>
+  <div class="markdown level1 summary"><p>Change all users' scene by name.</p>
+<p> ChangeScene(&quot;Scene1&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeScene(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Scene name <br> 場景名稱</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_Connect_" data-uid="Votanic.vNet.Networking.NetworkManager.Connect*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_Connect" data-uid="Votanic.vNet.Networking.NetworkManager.Connect">Connect()</h4>
+  <div class="markdown level1 summary"><p>Connect to server.
+<br> 連線至伺服器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Connect()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_Connect_" data-uid="Votanic.vNet.Networking.NetworkManager.Connect*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_Connect_System_String_System_Int32_" data-uid="Votanic.vNet.Networking.NetworkManager.Connect(System.String,System.Int32)">Connect(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Connect to server.
+<br> 連線至伺服器。</p>
+<p> Connect(&quot;localhost&quot;, 7777) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Connect(string address, int port = 7777)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">address</span></td>
+        <td><p>IP address <br> IP 位址</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">port</span></td>
+        <td><p>Port <br> 連接埠</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_Disconnect_" data-uid="Votanic.vNet.Networking.NetworkManager.Disconnect*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_Disconnect" data-uid="Votanic.vNet.Networking.NetworkManager.Disconnect">Disconnect()</h4>
+  <div class="markdown level1 summary"><p>Disconnect to server.
+<br> 中斷連線。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disconnect()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_GetAllNetworkIdentities_" data-uid="Votanic.vNet.Networking.NetworkManager.GetAllNetworkIdentities*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_GetAllNetworkIdentities" data-uid="Votanic.vNet.Networking.NetworkManager.GetAllNetworkIdentities">GetAllNetworkIdentities()</h4>
+  <div class="markdown level1 summary"><p>Get all Network Identity compnoents.
+<br> 取得所有網絡識別器組件。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;NetworkIdentity&gt; GetAllNetworkIdentities()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Networking.NetworkIdentity</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_GetAllNetworkTransforms_" data-uid="Votanic.vNet.Networking.NetworkManager.GetAllNetworkTransforms*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_GetAllNetworkTransforms" data-uid="Votanic.vNet.Networking.NetworkManager.GetAllNetworkTransforms">GetAllNetworkTransforms()</h4>
+  <div class="markdown level1 summary"><p>Get all Votanic Network Transform compnoent.
+<br> 取得所有 Votanic 網絡 Transform 組件。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;NetworkTransform&gt; GetAllNetworkTransforms()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Networking.NetworkTransform.html">NetworkTransform</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_GetAllNetworkUsers_" data-uid="Votanic.vNet.Networking.NetworkManager.GetAllNetworkUsers*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_GetAllNetworkUsers" data-uid="Votanic.vNet.Networking.NetworkManager.GetAllNetworkUsers">GetAllNetworkUsers()</h4>
+  <div class="markdown level1 summary"><p>Get all Network Users in connection.
+<br> 取得連線中的所有網絡使用者。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;NetworkUser&gt; GetAllNetworkUsers()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Networking.NetworkUser.html">NetworkUser</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_GetNetworkIdentity_" data-uid="Votanic.vNet.Networking.NetworkManager.GetNetworkIdentity*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_GetNetworkIdentity_System_UInt32_" data-uid="Votanic.vNet.Networking.NetworkManager.GetNetworkIdentity(System.UInt32)">GetNetworkIdentity(UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the Network Identity compnoent.
+<br> 取得網絡識別器組件。</p>
+<p> GetNetworkIdentity(0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetworkIdentity GetNetworkIdentity(uint netID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">netID</span></td>
+        <td><p>Network ID of object <br> 物件網絡識別碼</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Networking.NetworkIdentity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_GetNetworkTransform_" data-uid="Votanic.vNet.Networking.NetworkManager.GetNetworkTransform*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_GetNetworkTransform_System_UInt32_" data-uid="Votanic.vNet.Networking.NetworkManager.GetNetworkTransform(System.UInt32)">GetNetworkTransform(UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the Votanic Network Transform compnoent.
+<br> 取得 Votanic 網絡 Transform 組件。</p>
+<p> GetNetworkTransform(0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetworkTransform GetNetworkTransform(uint netID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">netID</span></td>
+        <td><p>Network ID of object <br> 物件網絡識別碼</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Networking.NetworkTransform.html">NetworkTransform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_GetNetworkUser_" data-uid="Votanic.vNet.Networking.NetworkManager.GetNetworkUser*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_GetNetworkUser_System_UInt32_" data-uid="Votanic.vNet.Networking.NetworkManager.GetNetworkUser(System.UInt32)">GetNetworkUser(UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the Network User in connection.
+<br> 取得連線中的網絡使用者。</p>
+<p> GetNetworkUser(0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetworkUser GetNetworkUser(uint netID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">netID</span></td>
+        <td><p>Network ID of user <br> 使用者網絡識別碼</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Networking.NetworkUser.html">NetworkUser</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_Host_" data-uid="Votanic.vNet.Networking.NetworkManager.Host*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_Host" data-uid="Votanic.vNet.Networking.NetworkManager.Host">Host()</h4>
+  <div class="markdown level1 summary"><p>Start hosting.
+<br> 開始主持。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Host()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_Initialize_" data-uid="Votanic.vNet.Networking.NetworkManager.Initialize*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_Initialize" data-uid="Votanic.vNet.Networking.NetworkManager.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"><p>Initialization of network manager.
+<br> 網絡管理員初始化功能。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Initialize()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_OnApplicationQuit_" data-uid="Votanic.vNet.Networking.NetworkManager.OnApplicationQuit*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_OnApplicationQuit" data-uid="Votanic.vNet.Networking.NetworkManager.OnApplicationQuit">OnApplicationQuit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnApplicationQuit()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_OnDestroy_" data-uid="Votanic.vNet.Networking.NetworkManager.OnDestroy*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_OnDestroy" data-uid="Votanic.vNet.Networking.NetworkManager.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnDestroy()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_Send_" data-uid="Votanic.vNet.Networking.NetworkManager.Send*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_Send_System_String_System_Boolean_System_Boolean_System_Int32___" data-uid="Votanic.vNet.Networking.NetworkManager.Send(System.String,System.Boolean,System.Boolean,System.Int32[])">Send(String, Boolean, Boolean, Int32[])</h4>
+  <div class="markdown level1 summary"><p>Send message.
+<br> 傳送訊息。</p>
+<p> Send(&quot;Hello World!&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Send(string message, bool withName = true, bool withID = false, params int[] usersID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Content <br> 內容</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">withName</span></td>
+        <td><p>Display [Name] <br> 顯示 [名稱]</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">withID</span></td>
+        <td><p>Display (ID) <br> 顯示 (識別碼)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">usersID</span></td>
+        <td><p>Specific users ID <br> 指定的使用者識別碼</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_SetAuthority_" data-uid="Votanic.vNet.Networking.NetworkManager.SetAuthority*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_SetAuthority_UnityEngine_Networking_NetworkIdentity_" data-uid="Votanic.vNet.Networking.NetworkManager.SetAuthority(UnityEngine.Networking.NetworkIdentity)">SetAuthority(NetworkIdentity)</h4>
+  <div class="markdown level1 summary"><p>Set the authority of a network object as own user.
+設定一個網絡物件的控制者為自身使用者。</p>
+<p> SetAuthority(gameObject.GetComponent(&quot;NetworkIdentity&quot;)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAuthority(NetworkIdentity identity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Networking.NetworkIdentity</span></td>
+        <td><span class="parametername">identity</span></td>
+        <td><p>Network object identity component <br> 網絡物件識別元件</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_Start_" data-uid="Votanic.vNet.Networking.NetworkManager.Start*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_Start" data-uid="Votanic.vNet.Networking.NetworkManager.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Start()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_Stop_" data-uid="Votanic.vNet.Networking.NetworkManager.Stop*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_Stop" data-uid="Votanic.vNet.Networking.NetworkManager.Stop">Stop()</h4>
+  <div class="markdown level1 summary"><p>Stop hosting.
+<br> 結束主持。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_SyncUsers_" data-uid="Votanic.vNet.Networking.NetworkManager.SyncUsers*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_SyncUsers" data-uid="Votanic.vNet.Networking.NetworkManager.SyncUsers">SyncUsers()</h4>
+  <div class="markdown level1 summary"><p>Sync users information.
+<br> 同步使用者資訊。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SyncUsers()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_Update_" data-uid="Votanic.vNet.Networking.NetworkManager.Update*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_Update" data-uid="Votanic.vNet.Networking.NetworkManager.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Update()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

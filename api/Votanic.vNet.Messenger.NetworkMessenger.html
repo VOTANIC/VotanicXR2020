@@ -374,14 +374,14 @@ public string joinMsg</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_maxConnection" data-uid="Votanic.vNet.Messenger.NetworkMessenger.maxConnection">maxConnection</h4>
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_maxConnections" data-uid="Votanic.vNet.Messenger.NetworkMessenger.maxConnections">maxConnections</h4>
   <div class="markdown level1 summary"><p>Max user count in the connetion. <br> 連線的最大使用者數目。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Server]&quot;)]
-public int maxConnection</code></pre>
+public int maxConnections</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -619,7 +619,7 @@ public int numberOfConnection</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vNet.Messenger.ConnectionState.html">ConnectionState</a></td>
+        <td><a class="xref" href="Votanic.vNet.ConnectionState.html">ConnectionState</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -704,15 +704,15 @@ public int numberOfConnection</code></pre>
   
   
   <a id="Votanic_vNet_Messenger_NetworkMessenger_ChangeName_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.ChangeName*"></a>
-  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_ChangeName_System_String_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.ChangeName(System.String)">ChangeName(String)</h4>
-  <div class="markdown level1 summary"><p>Change the network user name.
-<br> 更改網絡使用者名稱。</p>
+  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_ChangeName_System_String_System_Boolean_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.ChangeName(System.String,System.Boolean)">ChangeName(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Change the own network user name.
+<br> 更改自身網絡使用者名稱。</p>
 <p> ChangeName(&quot;UserB&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ChangeName(string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ChangeName(string name, bool message = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -728,6 +728,12 @@ public int numberOfConnection</code></pre>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
         <td><p>New name <br> 新名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Show message if true <br> 當 true 時顯示訊息</p>
 </td>
       </tr>
     </tbody>
@@ -783,33 +789,6 @@ public int numberOfConnection</code></pre>
   </div>
   
   
-  <a id="Votanic_vNet_Messenger_NetworkMessenger_ExternalIPAddress_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.ExternalIPAddress*"></a>
-  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_ExternalIPAddress" data-uid="Votanic.vNet.Messenger.NetworkMessenger.ExternalIPAddress">ExternalIPAddress()</h4>
-  <div class="markdown level1 summary"><p>Return the external IP address.
-<br> 傳回外部 IP 位址。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ExternalIPAddress()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Votanic_vNet_Messenger_NetworkMessenger_Host_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.Host*"></a>
   <h4 id="Votanic_vNet_Messenger_NetworkMessenger_Host" data-uid="Votanic.vNet.Messenger.NetworkMessenger.Host">Host()</h4>
   <div class="markdown level1 summary"><p>Start networking as a host.
@@ -820,33 +799,6 @@ public int numberOfConnection</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Host()</code></pre>
   </div>
-  
-  
-  <a id="Votanic_vNet_Messenger_NetworkMessenger_LocalIPAddress_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.LocalIPAddress*"></a>
-  <h4 id="Votanic_vNet_Messenger_NetworkMessenger_LocalIPAddress" data-uid="Votanic.vNet.Messenger.NetworkMessenger.LocalIPAddress">LocalIPAddress()</h4>
-  <div class="markdown level1 summary"><p>Return the local IP address.
-<br> 傳回本地 IP 位址。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string LocalIPAddress()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="Votanic_vNet_Messenger_NetworkMessenger_Send_" data-uid="Votanic.vNet.Messenger.NetworkMessenger.Send*"></a>

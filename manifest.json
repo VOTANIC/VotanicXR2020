@@ -53,6 +53,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.Parameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.Parameter.html",
+          "hash": "feom/k10tNEq3qEoKo2vdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.ParameterEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.ParameterEvent.html",
+          "hash": "zesU0W++aL5utqnZAC11LA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Votanic.ReadOnly.yml",
       "output": {
         ".html": {
@@ -549,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vMedia.MediaPlayer.MediaPlayer.html",
-          "hash": "O5paOd+ykJNAp++t6lNadA=="
+          "hash": "d2oLQx20/I3ncTFYe9sLKw=="
         }
       },
       "is_incremental": false,
@@ -561,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html",
-          "hash": "xUetpJLb231P1D3hrIW3PA=="
+          "hash": "8FY2kyGnLVkoP7o3xmBI+Q=="
         }
       },
       "is_incremental": false,
@@ -622,6 +646,18 @@
         ".html": {
           "relative_path": "api/Votanic.vMedia.html",
           "hash": "GJp0Hdh+e3CTrLoXdlP2dQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.ConnectionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.ConnectionState.html",
+          "hash": "doEf4lbAXkQscvUmy83qpQ=="
         }
       },
       "is_incremental": false,
@@ -965,23 +1001,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Votanic.vNet.Messenger.ConnectionState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Votanic.vNet.Messenger.ConnectionState.html",
-          "hash": "u1tPIqxBTPutJ+o57dKw0g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Votanic.vNet.Messenger.NetworkMessenger.yml",
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vNet.Messenger.NetworkMessenger.html",
-          "hash": "GKeWSr/ARIJI5nsLU2rDlw=="
+          "hash": "PKz44lARBEhA0qpP3oeRDg=="
         }
       },
       "is_incremental": false,
@@ -1017,7 +1041,139 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vNet.Messenger.html",
-          "hash": "6eSAiD+jtY9YLs9tMTmiOA=="
+          "hash": "+qVl6Wy9S3ZAcRn0ZV7/Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.NetworkAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.NetworkAddress.html",
+          "hash": "dMXHrFLsRJHGCFHhpcgNcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Networking.AutoAddTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Networking.AutoAddTransform.html",
+          "hash": "tZ+SGgfllIzDj1UXJlgrdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Networking.NetworkManager.OnReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Networking.NetworkManager.OnReceived.html",
+          "hash": "CqSM2BCUjQhKTe8YS4/qeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Networking.NetworkManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Networking.NetworkManager.html",
+          "hash": "WgRkOFz3c19y0HP1ZASVrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Networking.NetworkTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Networking.NetworkTransform.html",
+          "hash": "ilqZL8BSm35XhMjN8bKGuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Networking.NetworkUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Networking.NetworkUser.html",
+          "hash": "Bdco3u9FhkmXBLVd+mcyMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Networking.SyncPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Networking.SyncPart.html",
+          "hash": "1RbXQ4W6kRx3qid1nTRAqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Networking.SyncTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Networking.SyncTransform.html",
+          "hash": "ucobBWaoxBfmx4zCrc2Bxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Networking.UserType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Networking.UserType.html",
+          "hash": "9w7/CLHq6PdAhhhRn/VTGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.Networking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.Networking.html",
+          "hash": "BitNP2GVarKP0Yl7VI7RBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vNet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vNet.html",
+          "hash": "uAXIi7q1gbV3ZLgVgz+KeA=="
         }
       },
       "is_incremental": false,
@@ -1053,7 +1209,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.Interaction.html",
-          "hash": "lBt9K9pTZCZTuLGiXiEmVQ=="
+          "hash": "h7C3jIZq6I2gK+x3BVWr+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.InteractionParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.InteractionParameter.html",
+          "hash": "3EK9oWXsWSzSXqjNYPJQdg=="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.InteractorType.html",
-          "hash": "3hOP79OHSejAeUuBR1GZqQ=="
+          "hash": "ogSOe5wvbQ4s4B4VYZcsyg=="
         }
       },
       "is_incremental": false,
@@ -1521,7 +1689,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.Cmd.html",
-          "hash": "x4wAgw89SbFTfnbLrPgnOA=="
+          "hash": "5qSTiIvBYRZlNqUUyO1pbA=="
         }
       },
       "is_incremental": false,
@@ -1605,7 +1773,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.html",
-          "hash": "iASzvFN1Yf+nJmj+ZXj2pQ=="
+          "hash": "UVOHwAtNQw+8IwPU/+tR0A=="
         }
       },
       "is_incremental": false,
@@ -1877,6 +2045,90 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Networking.EntityDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Networking.EntityDisplay.html",
+          "hash": "0QUE/44U2131R2X4t2/ikA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Networking.EntityType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Networking.EntityType.html",
+          "hash": "HLzLjogsAfYW7EgJqrGVBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Networking.IdentityDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Networking.IdentityDisplay.html",
+          "hash": "tKST8RlOqVeGZTUOE2DM8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Networking.NetworkAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Networking.NetworkAddress.html",
+          "hash": "UohMga8RN3MbZZ/mFi6iYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Networking.vGear_NetworkUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Networking.vGear_NetworkUser.html",
+          "hash": "6i0aWmr5sGPP1YVoFUC68Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Networking.vGear_Networking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Networking.vGear_Networking.html",
+          "hash": "pXAcQeaNaYRngKmOYnq0yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Networking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Networking.html",
+          "hash": "QufU1W2YGVx8snrV1uz9EQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Votanic.vXR.vGear.ObjectCharacteristic.yml",
       "output": {
         ".html": {
@@ -1929,7 +2181,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.Scenario.Action.html",
-          "hash": "UzC13JhfNRVpnU0TN0wmYw=="
+          "hash": "z46lcr8gkBWp3LcIPmTyrQ=="
         }
       },
       "is_incremental": false,
@@ -2169,7 +2421,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear.html",
-          "hash": "l9URT8/0PBSVU3Ab/Eok2Q=="
+          "hash": "df9ZOlH1E/CtGsHbwwZf0w=="
         }
       },
       "is_incremental": false,
@@ -2529,7 +2781,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.html",
-          "hash": "B3CpjNcl1pdurj4d5ZC/fw=="
+          "hash": "CjIWR4hW8xPuz05+Zq8P+Q=="
         }
       },
       "is_incremental": false,
@@ -2541,7 +2793,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.html",
-          "hash": "4na2Ndc4FSnP3MwjsY2LHQ=="
+          "hash": "e+ySSXT41x2ZUfeGWsSwKA=="
         }
       },
       "is_incremental": false,
@@ -2565,7 +2817,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "p+RC/WVyvQS31fjxcPJhvw=="
+          "hash": "6QgPxMxg3t5tuiYNnFr1Yw=="
         }
       },
       "is_incremental": false,
@@ -2650,8 +2902,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 212,
-          "skipped_file_count": 193
+          "total_file_count": 233,
+          "skipped_file_count": 176
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
