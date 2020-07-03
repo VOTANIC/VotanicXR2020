@@ -102,13 +102,13 @@ public struct SyncPart</code></pre>
   
   
   <h4 id="Votanic_vNet_Networking_SyncPart_compression" data-uid="Votanic.vNet.Networking.SyncPart.compression">compression</h4>
-  <div class="markdown level1 summary"><p>Enable compression if true.
-<br> 當 true 時啟用壓縮。</p>
+  <div class="markdown level1 summary"><p>Enable compression if true. <br> 當 true 時啟用壓縮。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool compression</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Enable compression.\n&#21855;&#29992;&#22739;&#32302;&#12290;&quot;)]
+public bool compression</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -128,13 +128,13 @@ public struct SyncPart</code></pre>
   
   
   <h4 id="Votanic_vNet_Networking_SyncPart_decimalPlaces" data-uid="Votanic.vNet.Networking.SyncPart.decimalPlaces">decimalPlaces</h4>
-  <div class="markdown level1 summary"><p>Number of decimal places.
-<br> 小數位數目。</p>
+  <div class="markdown level1 summary"><p>Number of decimal places. <br> 小數位數目。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Range(0F, 9F)]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Number of decimal places.\n&#23567;&#25976;&#20301;&#25976;&#30446;&#12290;&quot;)]
+[Range(0F, 9F)]
 public byte decimalPlaces</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -160,7 +160,8 @@ public byte decimalPlaces</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool sync</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Sync the part of transform.\n&#21516;&#27493;&#36889;&#20491; Transform &#37096;&#20221;&#12290;&quot;)]
+public bool sync</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

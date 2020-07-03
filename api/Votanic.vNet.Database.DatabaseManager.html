@@ -98,11 +98,13 @@ public class DatabaseManager : MonoBehaviour</code></pre>
   
   
   <h4 id="Votanic_vNet_Database_DatabaseManager_account" data-uid="Votanic.vNet.Database.DatabaseManager.account">account</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Account input field. <br> 帳戶輸入欄。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Inputs]&quot;)]
+[Tooltip(&quot;Account input field.\n&#24115;&#25142;&#36664;&#20837;&#27396;&#12290;&quot;)]
 public InputField account</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -128,7 +130,8 @@ public InputField account</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AppDetails appDetails</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Details of this application.\n&#25033;&#29992;&#31243;&#24335;&#35443;&#36848;&#12290;&quot;)]
+public AppDetails appDetails</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -153,7 +156,8 @@ public InputField account</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string application</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Path of application database.\n&#25033;&#29992;&#31243;&#24335;&#25976;&#25818;&#24243;&#30340;&#36335;&#24465;&#12290;&quot;)]
+public string application</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,7 +182,8 @@ public InputField account</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool autoGenID</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Auto generate identifier if identifier is empty.\n&#30070;&#35672;&#21029;&#30908;&#28858;&#31354;&#26178;&#33258;&#21205;&#29986;&#29983;&#35672;&#21029;&#30908;&#12290;&quot;)]
+public bool autoGenID</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -204,6 +209,7 @@ public InputField account</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+[Tooltip(&quot;Path of json file which store the database information.\n&#20786;&#23384;&#25976;&#25818;&#24235;&#36039;&#35338;&#30340; Json &#25991;&#20214;&#36335;&#32147;&quot;)]
 public string infoPath</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -224,13 +230,13 @@ public string infoPath</code></pre>
   
   
   <h4 id="Votanic_vNet_Database_DatabaseManager_isStarted" data-uid="Votanic.vNet.Database.DatabaseManager.isStarted">isStarted</h4>
-  <div class="markdown level1 summary"><p>Return true if a session is started.
-<br> 當一個場節開始時傳回 true。</p>
+  <div class="markdown level1 summary"><p>Return true if a session is started. <br> 當一個場節開始時傳回 true。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+[Tooltip(&quot;Return true if a session is started.\n&#30070;&#19968;&#20491;&#22580;&#31680;&#38283;&#22987;&#26178;&#20659;&#22238; true&quot;)]
 public bool isStarted</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -251,11 +257,13 @@ public bool isStarted</code></pre>
   
   
   <h4 id="Votanic_vNet_Database_DatabaseManager_password" data-uid="Votanic.vNet.Database.DatabaseManager.password">password</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Password input field. <br> 密碼輸入欄。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InputField password</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Password input field.\n&#23494;&#30908;&#36664;&#20837;&#27396;&#12290;&quot;)]
+public InputField password</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -275,11 +283,13 @@ public bool isStarted</code></pre>
   
   
   <h4 id="Votanic_vNet_Database_DatabaseManager_smartID" data-uid="Votanic.vNet.Database.DatabaseManager.smartID">smartID</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Smart ID input field. <br> 智能識別碼輸入欄。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InputField smartID</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Smart ID input field.\n&#26234;&#33021;&#35672;&#21029;&#30908;&#36664;&#20837;&#27396;&#12290;&quot;)]
+public InputField smartID</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -304,7 +314,8 @@ public bool isStarted</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string system</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Path of system database.\n&#31995;&#32113;&#25976;&#25818;&#24243;&#30340;&#36335;&#24465;&#12290;&quot;)]
+public string system</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -329,7 +340,8 @@ public bool isStarted</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;TaskSetting&gt; tasks</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;List of task.\n&#20219;&#21209;&#21015;&#34920;&#12290;&quot;)]
+public List&lt;TaskSetting&gt; tasks</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

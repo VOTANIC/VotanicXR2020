@@ -344,7 +344,8 @@ public class MediaPlayer360 : MediaPlayer</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float calibrateFactor</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Calibrate factor for calibrator.\n&#26657;&#27491;&#30340;&#22240;&#23376;&#12290;&quot;)]
+public float calibrateFactor</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -369,7 +370,8 @@ public class MediaPlayer360 : MediaPlayer</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform calibrator</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Transform for yaw and roll angles.\n&#29992;&#20316;&#26657;&#27491;&#20559;&#25850;&#21450;&#32763;&#28414;&#35282;&#24230;&#30340; Transform&#12290;&quot;)]
+public Transform calibrator</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -395,6 +397,7 @@ public class MediaPlayer360 : MediaPlayer</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[360]&quot;)]
+[Tooltip(&quot;Path of json file which store the media data in the path.\n&#20786;&#23384;&#33287; path &#26377;&#38364;&#30340;&#23186;&#39636;&#25976;&#25818;&#30340; Json &#25991;&#20214;&#36335;&#32147;&#12290;&quot;)]
 public string dataPath</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -420,7 +423,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool logo</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot; Display logo element.\n&#39023;&#31034; Logo &#20803;&#32032;&#12290;&quot;)]
+public bool logo</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -445,7 +449,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject logoElement</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Logo Element for hiding top and bottom of 360 medium.\n&#29992;&#20316;&#38577;&#34255; 360 &#23186;&#39636;&#38914;&#21450;&#24213;&#37096;&#30340; Logo &#20803;&#32032;&#12290;&quot;)]
+public GameObject logoElement</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -470,7 +475,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform pitcher</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Transform for pitch angle.\n&#29992;&#20316;&#26657;&#27491;&#20463;&#20208;&#35282;&#24230;&#30340; Transform&#12290;&quot;)]
+public Transform pitcher</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -495,7 +501,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform rotater</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Transform for rotate.\n&#29992;&#20316;&#26059;&#36681;&#30340; Transform&#12290;&quot;)]
+public Transform rotater</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -520,7 +527,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float rotateSpeed</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Rotate speed of rotater.\n&#26059;&#36681;&#30340;&#36895;&#24230;&#12290;&quot;)]
+public float rotateSpeed</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -545,7 +553,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool rotation</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Rotate with rotate speed.\n&#26681;&#25818;&#26059;&#36681;&#36895;&#24230;&#26059;&#36681;&#12290;&quot;)]
+public bool rotation</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -565,12 +574,13 @@ public string dataPath</code></pre>
   
   
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer360_scale" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer360.scale">scale</h4>
-  <div class="markdown level1 summary"><p>Size of scaler. <br> 調整的大小。</p>
+  <div class="markdown level1 summary"><p>Size of sphere. <br> 球體的大小。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float scale</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Size of sphere.\n&#29699;&#39636;&#30340;&#22823;&#23567;&#12290;&quot;)]
+public float scale</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -595,7 +605,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform scaler</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Transform for scaling the size of Sphere Inverted Normal.\n&#29992;&#20316;&#35519;&#25972;&#27861;&#32218;&#21453;&#36681;&#29699;&#38754;&#22823;&#23567;&#30340; Transform&#12290;&quot;)]
+public Transform scaler</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -620,7 +631,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int zoom</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Cuurent zoom level.\n&#30446;&#21069;&#25918;&#22823;&#31561;&#32026;&#12290;&quot;)]
+public int zoom</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -645,7 +657,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform zoomer</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Transform for zoom.\n&#29992;&#20316;&#25918;&#22823;&#30340; Transform&#12290;&quot;)]
+public Transform zoomer</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -670,7 +683,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float zoomSpeed</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Zoom speed of zoomer.\n&#25918;&#22823;&#30340;&#36895;&#24230;&#12290;&quot;)]
+public float zoomSpeed</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

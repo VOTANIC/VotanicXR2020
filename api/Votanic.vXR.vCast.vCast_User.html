@@ -105,6 +105,7 @@ public class vCast_User : MonoBehaviour</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+[Tooltip(&quot;User control data.\n&#20351;&#29992;&#32773;&#25511;&#21046;&#25976;&#25818;&#12290;&quot;)]
 public UserControl control</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -131,6 +132,7 @@ public UserControl control</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+[Tooltip(&quot;User can auto raise to upper touched floor.\n&#20351;&#29992;&#32773;&#21487;&#33258;&#21205;&#21319;&#19978;&#24050;&#35320;&#30896;&#30340;&#19978;&#23652;&#22320;&#26495;&#12290;&quot;)]
 public bool enableRaising</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -156,7 +158,8 @@ public bool enableRaising</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool enableSinking</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;User can sink to lower floor by controller.\n&#20351;&#29992;&#32773;&#21487;&#36879;&#36942;&#25511;&#21046;&#22120;&#38477;&#33853;&#33267;&#19979;&#23652;&#22320;&#26495;&#12290;&quot;)]
+public bool enableSinking</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,7 +184,8 @@ public bool enableRaising</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isPaused</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return true if the transformation is paused.\n&#30070;&#35722;&#25563;&#26283;&#20572;&#26178;&#20659;&#22238; true&#12290;&quot;)]
+public bool isPaused</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -206,7 +210,8 @@ public bool enableRaising</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isTransforming</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return true if user is transforming.\n&#30070;&#20351;&#29992;&#32773;&#35722;&#25563;&#26178;&#20659;&#22238; true&#12290;&quot;)]
+public bool isTransforming</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -231,7 +236,8 @@ public bool enableRaising</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool navigateInWall</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;User can navigate by controller in wall.\n&#20351;&#29992;&#32773;&#21487;&#22312;&#29254;&#22721;&#20839;&#20197;&#25511;&#21046;&#22120;&#23566;&#33322;&#12290;&quot;)]
+public bool navigateInWall</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,7 +262,8 @@ public bool enableRaising</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform navigator</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The transform for checking user navigation direction.\n&#29992;&#20316;&#27298;&#26597;&#20351;&#29992;&#32773;&#23566;&#33322;&#26041;&#21521;&#30340; Transform&#12290;&quot;)]
+public Transform navigator</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -281,7 +288,8 @@ public bool enableRaising</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SettingNavigator navigatorSetting</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Navigator setting.\n&#23566;&#33322;&#22120;&#35373;&#23450;&#12290;&quot;)]
+public SettingNavigator navigatorSetting</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -306,7 +314,8 @@ public bool enableRaising</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool startAsGround</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Determine start point height as ground if no floor is detected.\n&#30070;&#27794;&#26377;&#22320;&#26495;&#34987;&#20597;&#28204;&#26178;&#65292;&#21028;&#26039;&#36215;&#40670;&#39640;&#24230;&#28858;&#22320;&#38754;&#12290;&quot;)]
+public bool startAsGround</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -332,6 +341,7 @@ public bool enableRaising</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+[Tooltip(&quot;The transform for checking user position and euler angles.\n&#29992;&#20316;&#27298;&#26597;&#20351;&#29992;&#32773;&#20301;&#32622;&#21450;&#35282;&#24230;&#30340; Transform&#12290;&quot;)]
 public Transform synchronizer</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -357,7 +367,8 @@ public Transform synchronizer</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SettingSynchronizer synchronizerSetting</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Synchronizer setting.\n&#21516;&#27493;&#22120;&#35373;&#23450;&#12290;&quot;)]
+public SettingSynchronizer synchronizerSetting</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -382,7 +393,8 @@ public Transform synchronizer</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transition transition</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Transition of user transformation.\n&#20351;&#29992;&#32773;&#35722;&#25563;&#30340;&#36942;&#22580;&#12290;&quot;)]
+public Transition transition</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -407,7 +419,8 @@ public Transform synchronizer</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool unscaledDeltaTime</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Using unscaled delta time for height calculation.\n&#20351;&#29992;&#26410;&#32302;&#25918;&#30340;&#26178;&#38291;&#35722;&#21270;&#26044;&#39640;&#24230;&#35336;&#31639;&#12290;&quot;)]
+public bool unscaledDeltaTime</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -432,7 +445,8 @@ public Transform synchronizer</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;vCast_Wall&gt; walls</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The walls touched by user.\n&#20351;&#29992;&#32773;&#35320;&#30896;&#21040;&#30340;&#29254;&#22721;&#12290;&quot;)]
+public List&lt;vCast_Wall&gt; walls</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -938,7 +952,39 @@ public Transform synchronizer</code></pre>
       <tr>
         <td><span class="xref">UnityEngine.Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>Target color <br> 目標顏色</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_SetFadedDuration_" data-uid="Votanic.vXR.vCast.vCast_User.SetFadedDuration*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_SetFadedDuration_System_Single_" data-uid="Votanic.vXR.vCast.vCast_User.SetFadedDuration(System.Single)">SetFadedDuration(Single)</h4>
+  <div class="markdown level1 summary"><p>Set the user faded out duration.
+<br> 設定使用者淡出持續時間。</p>
+<p> SetFadedDuration(0.1f) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFadedDuration(float duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Target duration <br> 目標持續時間</p>
+</td>
       </tr>
     </tbody>
   </table>

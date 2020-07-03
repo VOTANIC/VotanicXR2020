@@ -104,7 +104,8 @@ public class NetworkManager : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string address</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Address of connection.\n&#36899;&#32218;&#20301;&#22336;&#12290;&quot;)]
+public string address</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -129,7 +130,8 @@ public class NetworkManager : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool autoConnect</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Auto start connection on start.\n&#22312;&#38283;&#22987;&#26178;&#33258;&#21205;&#38283;&#22987;&#36899;&#32218;&#12290;&quot;)]
+public bool autoConnect</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -154,7 +156,8 @@ public class NetworkManager : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float connectingBuffer</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Buffer for connection.\n&#36899;&#32218;&#32233;&#34909;&#12290;&quot;)]
+public float connectingBuffer</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -179,7 +182,8 @@ public class NetworkManager : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string errorLog</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Error log of connection.\n&#36899;&#32218;&#37679;&#35492;&#35338;&#24687;&#12290;&quot;)]
+public string errorLog</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -205,6 +209,7 @@ public class NetworkManager : MonoBehaviour</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Host]&quot;)]
+[Tooltip(&quot;Start hosting message.\n&#38283;&#22987;&#20027;&#25345;&#35338;&#24687;&#12290;&quot;)]
 public string hostMsg</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -231,6 +236,7 @@ public string hostMsg</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Client]&quot;)]
+[Tooltip(&quot;Joined connection message.\n&#21152;&#20837;&#36899;&#32218;&#30340;&#35338;&#24687;&#12290;&quot;)]
 public string joinMsg</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -256,7 +262,8 @@ public string joinMsg</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int maxConnections</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Maximum number of users.\n&#26368;&#22823;&#20351;&#29992;&#32773;&#25976;&#30446;&#12290;&quot;)]
+public int maxConnections</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -276,12 +283,13 @@ public string joinMsg</code></pre>
   
   
   <h4 id="Votanic_vNet_Networking_NetworkManager_messages" data-uid="Votanic.vNet.Networking.NetworkManager.messages">messages</h4>
-  <div class="markdown level1 summary"><p>All received messages. <br> 所以已接收訊息。</p>
+  <div class="markdown level1 summary"><p>All received messages. <br> 所有已接收訊息。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;string&gt; messages</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;All received messages.\n&#25152;&#26377;&#24050;&#25509;&#25910;&#35338;&#24687;&#12290;&quot;)]
+public List&lt;string&gt; messages</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -306,7 +314,8 @@ public string joinMsg</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint networkID</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Network ID of current connection.\n&#30446;&#21069;&#36899;&#32218;&#20351;&#29992;&#30340;&#35672;&#21029;&#30908;&#12290;&quot;)]
+public uint networkID</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -331,7 +340,8 @@ public string joinMsg</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string networkName</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Network user name.\n&#32178;&#32097;&#20351;&#29992;&#32773;&#21517;&#31281;&#12290;&quot;)]
+public string networkName</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -356,7 +366,8 @@ public string joinMsg</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int numOfUsers</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Number of users.\n&#20351;&#29992;&#32773;&#25976;&#30446;&#12290;&quot;)]
+public int numOfUsers</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -376,12 +387,13 @@ public string joinMsg</code></pre>
   
   
   <h4 id="Votanic_vNet_Networking_NetworkManager_port" data-uid="Votanic.vNet.Networking.NetworkManager.port">port</h4>
-  <div class="markdown level1 summary"><p>Port of connection. <br> 連線埠。</p>
+  <div class="markdown level1 summary"><p>Port of connection. <br> 連接埠。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int port</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Port of connection.\n&#36899;&#25509;&#22496;&#12290;&quot;)]
+public int port</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -406,7 +418,8 @@ public string joinMsg</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string quitMsg</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Quit connection message.\n&#38626;&#38283;&#36899;&#32218;&#30340;&#35338;&#24687;&#12290;&quot;)]
+public string quitMsg</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -456,7 +469,8 @@ public string joinMsg</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int reconnect</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Auto reconnect times when connection is failed.\n&#30070;&#36899;&#32218;&#22833;&#25943;&#26178;&#30340;&#33258;&#21205;&#37325;&#36899;&#27425;&#25976;&#12290;&quot;)]
+public int reconnect</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -481,7 +495,8 @@ public string joinMsg</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;GameObject&gt; spawnPrefabs</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Networking spawnable prefabes.\n&#32178;&#32097;&#21487;&#29983;&#25104;&#30340;&#38928;&#36617;&#39636;&#12290;&quot;)]
+public List&lt;GameObject&gt; spawnPrefabs</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -507,6 +522,7 @@ public string joinMsg</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+[Tooltip(&quot;Connection state of networking.\n&#32178;&#32097;&#36899;&#32218;&#29376;&#24907;&#12290;&quot;)]
 public ConnectionState state</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -532,7 +548,8 @@ public ConnectionState state</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string stopMsg</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Stop hosting message.\n&#32080;&#26463;&#20027;&#25345;&#35338;&#24687;&#12290;&quot;)]
+public string stopMsg</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -558,6 +575,7 @@ public ConnectionState state</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+[Tooltip(&quot;User type of current connection.\n&#30446;&#21069;&#36899;&#32218;&#30340;&#20351;&#29992;&#32773;&#39006;&#22411;&#12290;&quot;)]
 public UserType type</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -584,6 +602,7 @@ public UserType type</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+[Tooltip(&quot;User prefab for networking.\n&#32178;&#32097;&#20351;&#29992;&#32773;&#38928;&#36617;&#39636;&#12290;&quot;)]
 public GameObject userPrefab</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -855,15 +874,15 @@ public GameObject userPrefab</code></pre>
   </table>
   
   
-  <a id="Votanic_vNet_Networking_NetworkManager_GetAllNetworkTransforms_" data-uid="Votanic.vNet.Networking.NetworkManager.GetAllNetworkTransforms*"></a>
-  <h4 id="Votanic_vNet_Networking_NetworkManager_GetAllNetworkTransforms" data-uid="Votanic.vNet.Networking.NetworkManager.GetAllNetworkTransforms">GetAllNetworkTransforms()</h4>
-  <div class="markdown level1 summary"><p>Get all Votanic Network Transform compnoent.
-<br> 取得所有 Votanic 網絡 Transform 組件。</p>
+  <a id="Votanic_vNet_Networking_NetworkManager_GetAllNetworkObjects_" data-uid="Votanic.vNet.Networking.NetworkManager.GetAllNetworkObjects*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_GetAllNetworkObjects" data-uid="Votanic.vNet.Networking.NetworkManager.GetAllNetworkObjects">GetAllNetworkObjects()</h4>
+  <div class="markdown level1 summary"><p>Get all Network Object compnoents.
+<br> 取得所有網絡物件。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;NetworkTransform&gt; GetAllNetworkTransforms()</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;NetworkObject&gt; GetAllNetworkObjects()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -875,7 +894,7 @@ public GameObject userPrefab</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Networking.NetworkTransform.html">NetworkTransform</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Networking.NetworkObject.html">NetworkObject</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -955,16 +974,16 @@ public GameObject userPrefab</code></pre>
   </table>
   
   
-  <a id="Votanic_vNet_Networking_NetworkManager_GetNetworkTransform_" data-uid="Votanic.vNet.Networking.NetworkManager.GetNetworkTransform*"></a>
-  <h4 id="Votanic_vNet_Networking_NetworkManager_GetNetworkTransform_System_UInt32_" data-uid="Votanic.vNet.Networking.NetworkManager.GetNetworkTransform(System.UInt32)">GetNetworkTransform(UInt32)</h4>
-  <div class="markdown level1 summary"><p>Get the Votanic Network Transform compnoent.
-<br> 取得 Votanic 網絡 Transform 組件。</p>
-<p> GetNetworkTransform(0) </p>
+  <a id="Votanic_vNet_Networking_NetworkManager_GetNetworkObject_" data-uid="Votanic.vNet.Networking.NetworkManager.GetNetworkObject*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_GetNetworkObject_System_UInt32_" data-uid="Votanic.vNet.Networking.NetworkManager.GetNetworkObject(System.UInt32)">GetNetworkObject(UInt32)</h4>
+  <div class="markdown level1 summary"><p>Get the Network Object compnoent.
+<br> 取得網絡物件。</p>
+<p> GetNetworkObject(0) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NetworkTransform GetNetworkTransform(uint netID)</code></pre>
+    <pre><code class="lang-csharp hljs">public NetworkObject GetNetworkObject(uint netID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -994,7 +1013,7 @@ public GameObject userPrefab</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vNet.Networking.NetworkTransform.html">NetworkTransform</a></td>
+        <td><a class="xref" href="Votanic.vNet.Networking.NetworkObject.html">NetworkObject</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1077,7 +1096,8 @@ public GameObject userPrefab</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnApplicationQuit()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = true)]
+public virtual void OnApplicationQuit()</code></pre>
   </div>
   
   
@@ -1087,7 +1107,8 @@ public GameObject userPrefab</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnDestroy()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = true)]
+public virtual void OnDestroy()</code></pre>
   </div>
   
   
@@ -1141,7 +1162,7 @@ public GameObject userPrefab</code></pre>
   
   
   <a id="Votanic_vNet_Networking_NetworkManager_SetAuthority_" data-uid="Votanic.vNet.Networking.NetworkManager.SetAuthority*"></a>
-  <h4 id="Votanic_vNet_Networking_NetworkManager_SetAuthority_UnityEngine_Networking_NetworkIdentity_" data-uid="Votanic.vNet.Networking.NetworkManager.SetAuthority(UnityEngine.Networking.NetworkIdentity)">SetAuthority(NetworkIdentity)</h4>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_SetAuthority_UnityEngine_Networking_NetworkIdentity_System_Boolean_" data-uid="Votanic.vNet.Networking.NetworkManager.SetAuthority(UnityEngine.Networking.NetworkIdentity,System.Boolean)">SetAuthority(NetworkIdentity, Boolean)</h4>
   <div class="markdown level1 summary"><p>Set the authority of a network object as own user.
 設定一個網絡物件的控制者為自身使用者。</p>
 <p> SetAuthority(gameObject.GetComponent(&quot;NetworkIdentity&quot;)) </p>
@@ -1149,7 +1170,7 @@ public GameObject userPrefab</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetAuthority(NetworkIdentity identity)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetAuthority(NetworkIdentity identity, bool forceSyncTransform = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1164,7 +1185,13 @@ public GameObject userPrefab</code></pre>
       <tr>
         <td><span class="xref">UnityEngine.Networking.NetworkIdentity</span></td>
         <td><span class="parametername">identity</span></td>
-        <td><p>Network object identity component <br> 網絡物件識別元件</p>
+        <td><p>Network identity component <br> 網絡識別器</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">forceSyncTransform</span></td>
+        <td><p>Force instantly sync network object transform <br> 強制馬上同步網絡物件的 Transform</p>
 </td>
       </tr>
     </tbody>
@@ -1177,7 +1204,8 @@ public GameObject userPrefab</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Start()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = true)]
+public virtual void Start()</code></pre>
   </div>
   
   
@@ -1211,7 +1239,8 @@ public GameObject userPrefab</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Update()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = true)]
+public virtual void Update()</code></pre>
   </div>
 </article>
           </div>

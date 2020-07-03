@@ -107,6 +107,7 @@ public class vGear_Magnifier : vCast_ControllerTool</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
 [Range(5F, 60F)]
+[Tooltip(&quot;Angle of magnifier lens.\n&#25918;&#22823;&#37857;&#35282;&#24230;&#12290;&quot;)]
 public float cameraAngle</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -133,6 +134,7 @@ public float cameraAngle</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+[Tooltip(&quot;The cameras component of magnifier tool.\n&#25918;&#22823;&#37857;&#24037;&#20855;&#30340;&#30456;&#27231;&#32068;&#20214;&#12290;&quot;)]
 public Camera[] cameras</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -158,7 +160,8 @@ public Camera[] cameras</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isRealTime</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return true if the magnifier tool rendering is real time.\n&#30070;&#25918;&#22823;&#37857;&#23526;&#26178;&#28210;&#26579;&#26178;&#20659;&#22238; true&#12290;&quot;)]
+public bool isRealTime</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -183,7 +186,8 @@ public Camera[] cameras</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isShowing</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return true if the magnifier tool is showing.\n&#30070;&#25918;&#22823;&#37857;&#24037;&#20855;&#39023;&#31034;&#26178;&#20659;&#22238; true&#12290;&quot;)]
+public bool isShowing</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -208,7 +212,8 @@ public Camera[] cameras</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2Int textureSize</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Size of texture on magnifier planes.\n&#25918;&#22823;&#37857;&#24037;&#20855;&#24179;&#38754;&#30340;&#32011;&#29702;&#22823;&#23567;&#12290;&quot;)]
+public Vector2Int textureSize</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -233,7 +238,8 @@ public Camera[] cameras</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MeshRenderer[] views</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The mesh renderer component of magnifier tool.\n&#25918;&#22823;&#37857;&#24037;&#20855;&#30340;&#28210;&#26579;&#22120;&#32068;&#20214;&#12290;&quot;)]
+public MeshRenderer[] views</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -259,6 +265,7 @@ public Camera[] cameras</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+[Tooltip(&quot;Zoom value of magnifier tool.\n&#25918;&#22823;&#37857;&#24037;&#20855;&#35722;&#28966;&#20540;&#12290;&quot;)]
 public float zoom</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -284,7 +291,8 @@ public float zoom</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float zoomSpeed</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Zooming speed of the camera.\n&#35722;&#28966;&#36895;&#24230;&#12290;&quot;)]
+public float zoomSpeed</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -105,6 +105,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+[Tooltip(&quot;List of detected objects.\n&#34987;&#20597;&#28204;&#30340;&#29289;&#20214;&#21015;&#34920;&#12290;&quot;)]
 public List&lt;Transform&gt; detectedObjects</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -131,6 +132,7 @@ public List&lt;Transform&gt; detectedObjects</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+[Tooltip(&quot;Object detection setting.\n&#20597;&#28204;&#29289;&#20214;&#35373;&#23450;&#12290;&quot;)]
 public ObjectDetection detectTargets</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -156,7 +158,8 @@ public ObjectDetection detectTargets</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;Transform&gt; specificTargets</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The objects are considered.\n&#34987;&#32771;&#24942;&#30340;&#29289;&#20214;&#12290;&quot;)]
+public List&lt;Transform&gt; specificTargets</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

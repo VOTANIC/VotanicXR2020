@@ -103,7 +103,8 @@ public class NetworkMessenger : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool autoConnect</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Auto start networking on start.\n&#38283;&#22987;&#26178;&#33258;&#21205;&#36899;&#32218;&#12290;&quot;)]
+public bool autoConnect</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -128,7 +129,8 @@ public class NetworkMessenger : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float buffer</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Time gap for checking connection state in seconds.\n&#27599;&#27425;&#27298;&#26597;&#36899;&#32218;&#29376;&#24907;&#30340;&#26178;&#38291;&#32233;&#34909;&#65288;&#31186;&#25976;&#65289;&#12290;&quot;)]
+public float buffer</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -153,7 +155,8 @@ public class NetworkMessenger : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool checkConnection</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Keeping send and receive data to check connection.\n&#19981;&#26039;&#20659;&#36865;&#21450;&#25509;&#25910;&#35338;&#24687;&#20197;&#30906;&#35469;&#36899;&#32218;&#12290;&quot;)]
+public bool checkConnection</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,7 +181,8 @@ public class NetworkMessenger : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;string&gt; data</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Received data.\n&#24050;&#25509;&#25910;&#30340;&#25976;&#25818;&#12290;&quot;)]
+public List&lt;string&gt; data</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -203,7 +207,8 @@ public class NetworkMessenger : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] errorMsg</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Error message list.\n&#37679;&#35492;&#35338;&#24687;&#21015;&#34920;&#12290;&quot;)]
+public string[] errorMsg</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -229,6 +234,7 @@ public class NetworkMessenger : MonoBehaviour</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Gerenal]&quot;)]
+[Tooltip(&quot;Encode method.\n&#35299;&#30908;&#26041;&#27861;&#12290;&quot;)]
 public static Encoding extendedASCIIEncoding</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -254,7 +260,8 @@ public static Encoding extendedASCIIEncoding</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string hostMsg</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Message when start networking.\n&#38283;&#22987;&#36899;&#32218;&#30340;&#35338;&#24687;&#12290;&quot;)]
+public string hostMsg</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -279,7 +286,8 @@ public static Encoding extendedASCIIEncoding</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ip</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Server IP address.\n&#20282;&#26381;&#22120; IP &#20301;&#22336;&#12290;&quot;)]
+public string ip</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -304,7 +312,8 @@ public static Encoding extendedASCIIEncoding</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isHosting</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return true if the user type is not client.\n&#30070;&#20351;&#29992;&#32773;&#39006;&#22411;&#19981;&#26159;&#23458;&#25142;&#31471;&#26178;&#20659;&#22238; true&#12290;&quot;)]
+public bool isHosting</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -330,6 +339,7 @@ public static Encoding extendedASCIIEncoding</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Client]&quot;)]
+[Tooltip(&quot;Message when connect to server.\n&#36899;&#33267;&#20282;&#26381;&#22120;&#30340;&#35338;&#24687;&#12290;&quot;)]
 public string joinMsg</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -355,7 +365,8 @@ public string joinMsg</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;string&gt; log</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Reported data.\n&#24050;&#22238;&#22577;&#30340;&#25976;&#25818;&#12290;&quot;)]
+public List&lt;string&gt; log</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -381,6 +392,7 @@ public string joinMsg</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Server]&quot;)]
+[Tooltip(&quot;Max user count in the connetion.\n&#36899;&#32218;&#30340;&#26368;&#22823;&#20351;&#29992;&#32773;&#25976;&#30446;&#12290;&quot;)]
 public int maxConnections</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -406,7 +418,8 @@ public int maxConnections</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool messageWithName</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Send message with user name.\n&#20659;&#36865;&#30340;&#35338;&#24687;&#26371;&#39023;&#31034;&#20351;&#29992;&#32773;&#21517;&#31281;&#12290;&quot;)]
+public bool messageWithName</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -431,7 +444,8 @@ public int maxConnections</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string networkName</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Uesr name in connection.\n&#36899;&#32218;&#29992;&#30340;&#20351;&#29992;&#32773;&#21517;&#31281;&#12290;&quot;)]
+public string networkName</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -457,6 +471,7 @@ public int maxConnections</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+[Tooltip(&quot;Current user count.\n&#30446;&#21069;&#30340;&#20351;&#29992;&#32773;&#25976;&#30446;&#12290;&quot;)]
 public int numberOfConnection</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -482,7 +497,8 @@ public int numberOfConnection</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ownPort</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Client port of UDP.\nUDP &#38656;&#35201;&#30340;&#23458;&#25142;&#36899;&#25509;&#22496;&#12290;&quot;)]
+public int ownPort</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -507,7 +523,8 @@ public int numberOfConnection</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int port</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Server port.\n&#20282;&#26381;&#22120;&#36899;&#25509;&#22496;&#12290;&quot;)]
+public int port</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -532,7 +549,8 @@ public int numberOfConnection</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Protocol protocol</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Communication protocol.\n&#36890;&#35338;&#21332;&#23450;&#12290;&quot;)]
+public Protocol protocol</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -557,7 +575,8 @@ public int numberOfConnection</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string quitMsg</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Message when disconnect to server.\n&#38626;&#38283;&#20282;&#26381;&#22120;&#30340;&#35338;&#24687;&#12290;&quot;)]
+public string quitMsg</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -582,7 +601,8 @@ public int numberOfConnection</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool reconnect</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Auto reconnect one time if failed to connect or lost connection.\n&#30070;&#36899;&#32218;&#22833;&#25943;&#25110;&#22833;&#21435;&#36899;&#32218;&#26178;&#33258;&#21205;&#37325;&#26032;&#36899;&#32218;&#19968;&#27425;&#12290;&quot;)]
+public bool reconnect</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -607,7 +627,8 @@ public int numberOfConnection</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ConnectionState state</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Connection state of networking.\n&#32178;&#32097;&#36899;&#32218;&#29376;&#24907;&#12290;&quot;)]
+public ConnectionState state</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -632,7 +653,8 @@ public int numberOfConnection</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string stopMsg</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Message when stop networking.\n&#38364;&#38281;&#36899;&#32218;&#30340;&#35338;&#24687;&#12290;&quot;)]
+public string stopMsg</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -657,7 +679,8 @@ public int numberOfConnection</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int timeout</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Times for fail or lost connection.\n&#23481;&#35377;&#22833;&#25943;&#21450;&#22833;&#21435;&#36899;&#32218;&#30340;&#27425;&#25976;&#12290;&quot;)]
+public int timeout</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -682,7 +705,8 @@ public int numberOfConnection</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UserType type</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;User type on connection.\n&#36899;&#32218;&#20351;&#29992;&#32773;&#39006;&#22411;&#12290;&quot;)]
+public UserType type</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

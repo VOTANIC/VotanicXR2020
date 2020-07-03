@@ -103,7 +103,8 @@ public class vCast_Fader : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Color fadeColor</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The default color when fade out.\n&#38928;&#35373;&#28129;&#20986;&#38991;&#33394;&#12290;&quot;)]
+public Color fadeColor</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -129,6 +130,7 @@ public class vCast_Fader : MonoBehaviour</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+[Tooltip(&quot;Return true if transiting.\n&#30070;&#36942;&#22580;&#26178;&#20659;&#22238; true&#12290;&quot;)]
 public bool isFading</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -154,7 +156,8 @@ public bool isFading</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isPaused</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return true if the transition is paused.\n&#30070;&#36942;&#22580;&#34987;&#26283;&#20572;&#26178;&#20659;&#22238; true&#12290;&quot;)]
+public bool isPaused</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -179,7 +182,8 @@ public bool isFading</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isRendering</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return true if fader is displaying.\n&#30070;&#36942;&#22580;&#22120;&#28858;&#39023;&#31034;&#29376;&#24907;&#26178;&#20659;&#22238; true&#12290;&quot;)]
+public bool isRendering</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -204,7 +208,8 @@ public bool isFading</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int renderQueue</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The Render Queue of fader materials.\n&#36942;&#22580;&#22120;&#29289;&#26009;&#28210;&#26579;&#38538;&#21015;&#12290;&quot;)]
+public int renderQueue</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -230,6 +235,7 @@ public bool isFading</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+[Tooltip(&quot;Transition setting.\n&#36942;&#22580;&#35373;&#23450;&#12290;&quot;)]
 public Fader transition</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>

@@ -189,10 +189,10 @@
       <a class="xref" href="Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetAllNetworkIdentities">NetworkManager.GetAllNetworkIdentities()</a>
     </div>
     <div>
-      <a class="xref" href="Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetNetworkTransform_System_UInt32_">NetworkManager.GetNetworkTransform(UInt32)</a>
+      <a class="xref" href="Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetNetworkObject_System_UInt32_">NetworkManager.GetNetworkObject(UInt32)</a>
     </div>
     <div>
-      <a class="xref" href="Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetAllNetworkTransforms">NetworkManager.GetAllNetworkTransforms()</a>
+      <a class="xref" href="Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetAllNetworkObjects">NetworkManager.GetAllNetworkObjects()</a>
     </div>
     <div>
       <a class="xref" href="Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_Send_System_String_System_Boolean_System_Boolean_System_Int32___">NetworkManager.Send(String, Boolean, Boolean, Int32[])</a>
@@ -201,7 +201,7 @@
       <a class="xref" href="Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_ChangeName_System_String_System_Boolean_">NetworkManager.ChangeName(String, Boolean)</a>
     </div>
     <div>
-      <a class="xref" href="Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_SetAuthority_UnityEngine_Networking_NetworkIdentity_">NetworkManager.SetAuthority(NetworkIdentity)</a>
+      <a class="xref" href="Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_SetAuthority_UnityEngine_Networking_NetworkIdentity_System_Boolean_">NetworkManager.SetAuthority(NetworkIdentity, Boolean)</a>
     </div>
     <div>
       <a class="xref" href="Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_ChangeScene_System_String_">NetworkManager.ChangeScene(String)</a>
@@ -215,6 +215,7 @@
   <h5 id="Votanic_vXR_vGear_Networking_vGear_Networking_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
+[Obfuscation(Exclude = true)]
 public class vGear_Networking : NetworkManager</code></pre>
   </div>
   <h3 id="fields">Fields
@@ -228,6 +229,7 @@ public class vGear_Networking : NetworkManager</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[XR Settings]&quot;)]
+[Tooltip(&quot;External networking setting file path of XR system.\nXR &#31995;&#32113;&#22806;&#32622;&#32178;&#32097;&#35373;&#32622;&#30340;&#25991;&#20214;&#36335;&#24465;&#12290;&quot;)]
 public string dataPath</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -253,7 +255,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntityDisplay entityDisplay</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Entity type of user part.\n&#20351;&#29992;&#32773;&#37096;&#20301;&#23526;&#39636;&#39006;&#22411;&#12290;&quot;)]
+public EntityDisplay entityDisplay</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -278,7 +281,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string headEntity</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Head entity name.\n&#38957;&#37096;&#23526;&#39636;&#21517;&#31281;&#12290;&quot;)]
+public string headEntity</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -303,7 +307,8 @@ public string dataPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int headIndex</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Default head entity model index.\n&#38928;&#35373;&#38957;&#37096;&#27169;&#22411;&#32232;&#34399;&#12290;&quot;)]
+public int headIndex</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -329,6 +334,7 @@ public string dataPath</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[XR Components]&quot;)]
+[Tooltip(&quot;Networking head prefabes.\n&#32178;&#32097;&#38957;&#37096;&#38928;&#36617;&#39636;&#12290;&quot;)]
 public List&lt;GameObject&gt; headPrefabs</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -354,7 +360,8 @@ public List&lt;GameObject&gt; headPrefabs</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IdentityDisplay identityDisplay</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Identity display option.\n&#35672;&#21029;&#22120;&#39023;&#31034;&#36984;&#38917;&#12290;&quot;)]
+public IdentityDisplay identityDisplay</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -379,7 +386,8 @@ public List&lt;GameObject&gt; headPrefabs</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string leftHandEntity</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Left hand entity model index.\n&#24038;&#25163;&#23526;&#39636;&#21517;&#31281;&#12290;&quot;)]
+public string leftHandEntity</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -404,7 +412,8 @@ public List&lt;GameObject&gt; headPrefabs</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int leftHandIndex</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Default left hand entity model index.\n&#38928;&#35373;&#24038;&#25163;&#27169;&#22411;&#32232;&#34399;&#12290;&quot;)]
+public int leftHandIndex</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -429,7 +438,8 @@ public List&lt;GameObject&gt; headPrefabs</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;GameObject&gt; leftHandPrefabs</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Networking left hand prefabes.\n&#32178;&#32097;&#24038;&#25163;&#38928;&#36617;&#39636;&#12290;&quot;)]
+public List&lt;GameObject&gt; leftHandPrefabs</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -454,7 +464,8 @@ public List&lt;GameObject&gt; headPrefabs</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string rightHandEntity</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Right hand entity model index.\n&#21491;&#25163;&#23526;&#39636;&#21517;&#31281;&#12290;&quot;)]
+public string rightHandEntity</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -479,7 +490,8 @@ public List&lt;GameObject&gt; headPrefabs</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int rightHandIndex</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Default right hand entity model index.\n&#38928;&#35373;&#21491;&#25163;&#27169;&#22411;&#32232;&#34399;&#12290;&quot;)]
+public int rightHandIndex</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -504,7 +516,8 @@ public List&lt;GameObject&gt; headPrefabs</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;GameObject&gt; rightHandPrefabs</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Networking right hand prefabes.\n&#32178;&#32097;&#21491;&#25163;&#38928;&#36617;&#39636;&#12290;&quot;)]
+public List&lt;GameObject&gt; rightHandPrefabs</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

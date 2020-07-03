@@ -107,6 +107,7 @@ public class vCast_Teleport : vCast_ControllerTool</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+[Tooltip(&quot;Tilt angle to auto switch default tool.\n&#33258;&#21205;&#36681;&#22238;&#38928;&#35373;&#24037;&#20855;&#30340;&#20208;&#35282;&#12290;&quot;)]
 public float cancelToolAngle</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -133,6 +134,7 @@ public float cancelToolAngle</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+[Tooltip(&quot;Return true if the tool is applying.\n&#30070;&#24037;&#20855;&#20351;&#29992;&#26178;&#20659;&#22238; true&#12290;&quot;)]
 public bool isApplying</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -158,7 +160,8 @@ public bool isApplying</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isHitFloor</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return true if the teleport line hits floor.\n&#30070;&#20659;&#36865;&#32218;&#25171;&#20013;&#22320;&#26495;&#26178;&#20659;&#22238; true&#12290;&quot;)]
+public bool isHitFloor</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -183,7 +186,8 @@ public bool isApplying</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool outOfRange</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return true if tilt angle is larger than cancelToolAngle.\n&#30070;&#20208;&#35282;&#22823;&#26044; cancelToolAngle &#26178;&#20659;&#22238; true&#12290;&quot;)]
+public bool outOfRange</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -208,7 +212,8 @@ public bool isApplying</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TeleportProjectile projectile</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Teleport line setting.\n&#20659;&#36865;&#32218;&#35373;&#23450;&#12290;&quot;)]
+public TeleportProjectile projectile</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

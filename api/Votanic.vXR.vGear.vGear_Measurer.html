@@ -106,6 +106,7 @@ public class vGear_Measurer : vCast_ControllerTool</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+[Tooltip(&quot;Continue to mark measure point or not.\n&#26159;&#21542;&#36899;&#32396;&#27161;&#35352;&#28204;&#37327;&#40670;&#12290;&quot;)]
 public bool continuity</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -132,6 +133,7 @@ public bool continuity</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+[Tooltip(&quot;Return true if measuring.\n&#30070;&#28204;&#37327;&#26178;&#20659;&#22238; true&#12290;&quot;)]
 public bool isMeasuring</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -157,7 +159,8 @@ public bool isMeasuring</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject linePrefab</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Prefab for measurement line.\n&#28204;&#37327;&#32218;&#38928;&#36617;&#39636;&#12290;&quot;)]
+public GameObject linePrefab</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -183,6 +186,7 @@ public bool isMeasuring</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+[Tooltip(&quot;Prefab for measurement point.\n&#28204;&#37327;&#40670;&#38928;&#36617;&#39636;&#12290;&quot;)]
 public GameObject pointPrefab</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>

@@ -94,6 +94,12 @@
     <div>
       <a class="xref" href="Votanic.Parameter.html#Votanic_Parameter_text">Parameter.text</a>
     </div>
+    <div>
+      <a class="xref" href="Votanic.Parameter.html#Votanic_Parameter_objectList">Parameter.objectList</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.Parameter.html#Votanic_Parameter_unityObjectList">Parameter.unityObjectList</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.html">Votanic.vXR</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
@@ -106,14 +112,14 @@
   
   
   <a id="Votanic_vXR_InteractionParameter__ctor_" data-uid="Votanic.vXR.InteractionParameter.#ctor*"></a>
-  <h4 id="Votanic_vXR_InteractionParameter__ctor_System_Int32_System_Single_System_String_System_Int32_Votanic_vXR_InteractorType_" data-uid="Votanic.vXR.InteractionParameter.#ctor(System.Int32,System.Single,System.String,System.Int32,Votanic.vXR.InteractorType)">InteractionParameter(Int32, Single, String, Int32, InteractorType)</h4>
+  <h4 id="Votanic_vXR_InteractionParameter__ctor_System_String_System_Single_System_Int32_System_Int32_Votanic_vXR_InteractorType_" data-uid="Votanic.vXR.InteractionParameter.#ctor(System.String,System.Single,System.Int32,System.Int32,Votanic.vXR.InteractorType)">InteractionParameter(String, Single, Int32, Int32, InteractorType)</h4>
   <div class="markdown level1 summary"><p>Delcare an interaction parameter.
 <br> 宣告一個互動參數。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InteractionParameter(int integer = 0, float single = 0F, string text = &quot;&quot;, int interactor = 0, InteractorType type = InteractorType.Wand)</code></pre>
+    <pre><code class="lang-csharp hljs">public InteractionParameter(string command, float value, int user, int interactor, InteractorType type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,21 +132,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">integer</span></td>
-        <td><p>Integer parameter <br> 整數參數</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">command</span></td>
+        <td><p>Pass Command as String parameter <br> 以字串參數傳遞指令</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">single</span></td>
-        <td><p>Float parameter <br> 浮點數參數</p>
+        <td><span class="parametername">value</span></td>
+        <td><p>Pass Command Value as Float parameter <br> 以浮點數參數傳遞指令浮點值</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">text</span></td>
-        <td><p>String parameter <br> 字串參數</p>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>Pass User Index as Integer parameter <br> 以整數參數傳遞使用者編號</p>
 </td>
       </tr>
       <tr>
@@ -167,7 +173,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int interactor</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The interactor index.\n&#20132;&#20114;&#22120;&#32232;&#34399;&#12290;&quot;)]
+public int interactor</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,7 +199,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InteractorType type</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The interactor type.\n&#20132;&#20114;&#22120;&#31278;&#39006;&#12290;&quot;)]
+public InteractorType type</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

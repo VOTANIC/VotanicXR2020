@@ -158,12 +158,72 @@ references:
   commentId: T:Votanic.Parameter
   fullName: Votanic.Parameter
   nameWithType: Parameter
+- uid: Votanic.Parameter.#ctor
+  name: Parameter()
+  href: api/Votanic.Parameter.html#Votanic_Parameter__ctor
+  commentId: M:Votanic.Parameter.#ctor
+  fullName: Votanic.Parameter.Parameter()
+  nameWithType: Parameter.Parameter()
+- uid: Votanic.Parameter.#ctor(System.Collections.Generic.List{System.Object})
+  name: Parameter(List<Object>)
+  href: api/Votanic.Parameter.html#Votanic_Parameter__ctor_System_Collections_Generic_List_System_Object__
+  commentId: M:Votanic.Parameter.#ctor(System.Collections.Generic.List{System.Object})
+  name.vb: Parameter(List(Of Object))
+  fullName: Votanic.Parameter.Parameter(System.Collections.Generic.List<System.Object>)
+  fullName.vb: Votanic.Parameter.Parameter(System.Collections.Generic.List(Of System.Object))
+  nameWithType: Parameter.Parameter(List<Object>)
+  nameWithType.vb: Parameter.Parameter(List(Of Object))
+- uid: Votanic.Parameter.#ctor(System.Collections.Generic.List{System.Object},System.Collections.Generic.List{UnityEngine.Object})
+  name: Parameter(List<Object>, List<Object>)
+  href: api/Votanic.Parameter.html#Votanic_Parameter__ctor_System_Collections_Generic_List_System_Object__System_Collections_Generic_List_UnityEngine_Object__
+  commentId: M:Votanic.Parameter.#ctor(System.Collections.Generic.List{System.Object},System.Collections.Generic.List{UnityEngine.Object})
+  name.vb: Parameter(List(Of Object), List(Of Object))
+  fullName: Votanic.Parameter.Parameter(System.Collections.Generic.List<System.Object>, System.Collections.Generic.List<UnityEngine.Object>)
+  fullName.vb: Votanic.Parameter.Parameter(System.Collections.Generic.List(Of System.Object), System.Collections.Generic.List(Of UnityEngine.Object))
+  nameWithType: Parameter.Parameter(List<Object>, List<Object>)
+  nameWithType.vb: Parameter.Parameter(List(Of Object), List(Of Object))
+- uid: Votanic.Parameter.#ctor(System.Collections.Generic.List{UnityEngine.Object})
+  name: Parameter(List<Object>)
+  href: api/Votanic.Parameter.html#Votanic_Parameter__ctor_System_Collections_Generic_List_UnityEngine_Object__
+  commentId: M:Votanic.Parameter.#ctor(System.Collections.Generic.List{UnityEngine.Object})
+  name.vb: Parameter(List(Of Object))
+  fullName: Votanic.Parameter.Parameter(System.Collections.Generic.List<UnityEngine.Object>)
+  fullName.vb: Votanic.Parameter.Parameter(System.Collections.Generic.List(Of UnityEngine.Object))
+  nameWithType: Parameter.Parameter(List<Object>)
+  nameWithType.vb: Parameter.Parameter(List(Of Object))
+- uid: Votanic.Parameter.#ctor(System.Int32)
+  name: Parameter(Int32)
+  href: api/Votanic.Parameter.html#Votanic_Parameter__ctor_System_Int32_
+  commentId: M:Votanic.Parameter.#ctor(System.Int32)
+  fullName: Votanic.Parameter.Parameter(System.Int32)
+  nameWithType: Parameter.Parameter(Int32)
 - uid: Votanic.Parameter.#ctor(System.Int32,System.Single,System.String)
   name: Parameter(Int32, Single, String)
   href: api/Votanic.Parameter.html#Votanic_Parameter__ctor_System_Int32_System_Single_System_String_
   commentId: M:Votanic.Parameter.#ctor(System.Int32,System.Single,System.String)
   fullName: Votanic.Parameter.Parameter(System.Int32, System.Single, System.String)
   nameWithType: Parameter.Parameter(Int32, Single, String)
+- uid: Votanic.Parameter.#ctor(System.Int32,System.Single,System.String,System.Collections.Generic.List{System.Object},System.Collections.Generic.List{UnityEngine.Object})
+  name: Parameter(Int32, Single, String, List<Object>, List<Object>)
+  href: api/Votanic.Parameter.html#Votanic_Parameter__ctor_System_Int32_System_Single_System_String_System_Collections_Generic_List_System_Object__System_Collections_Generic_List_UnityEngine_Object__
+  commentId: M:Votanic.Parameter.#ctor(System.Int32,System.Single,System.String,System.Collections.Generic.List{System.Object},System.Collections.Generic.List{UnityEngine.Object})
+  name.vb: Parameter(Int32, Single, String, List(Of Object), List(Of Object))
+  fullName: Votanic.Parameter.Parameter(System.Int32, System.Single, System.String, System.Collections.Generic.List<System.Object>, System.Collections.Generic.List<UnityEngine.Object>)
+  fullName.vb: Votanic.Parameter.Parameter(System.Int32, System.Single, System.String, System.Collections.Generic.List(Of System.Object), System.Collections.Generic.List(Of UnityEngine.Object))
+  nameWithType: Parameter.Parameter(Int32, Single, String, List<Object>, List<Object>)
+  nameWithType.vb: Parameter.Parameter(Int32, Single, String, List(Of Object), List(Of Object))
+- uid: Votanic.Parameter.#ctor(System.Single)
+  name: Parameter(Single)
+  href: api/Votanic.Parameter.html#Votanic_Parameter__ctor_System_Single_
+  commentId: M:Votanic.Parameter.#ctor(System.Single)
+  fullName: Votanic.Parameter.Parameter(System.Single)
+  nameWithType: Parameter.Parameter(Single)
+- uid: Votanic.Parameter.#ctor(System.String)
+  name: Parameter(String)
+  href: api/Votanic.Parameter.html#Votanic_Parameter__ctor_System_String_
+  commentId: M:Votanic.Parameter.#ctor(System.String)
+  fullName: Votanic.Parameter.Parameter(System.String)
+  nameWithType: Parameter.Parameter(String)
 - uid: Votanic.Parameter.#ctor*
   name: Parameter
   href: api/Votanic.Parameter.html#Votanic_Parameter__ctor_
@@ -177,6 +237,12 @@ references:
   commentId: F:Votanic.Parameter.integer
   fullName: Votanic.Parameter.integer
   nameWithType: Parameter.integer
+- uid: Votanic.Parameter.objectList
+  name: objectList
+  href: api/Votanic.Parameter.html#Votanic_Parameter_objectList
+  commentId: F:Votanic.Parameter.objectList
+  fullName: Votanic.Parameter.objectList
+  nameWithType: Parameter.objectList
 - uid: Votanic.Parameter.single
   name: single
   href: api/Votanic.Parameter.html#Votanic_Parameter_single
@@ -189,12 +255,100 @@ references:
   commentId: F:Votanic.Parameter.text
   fullName: Votanic.Parameter.text
   nameWithType: Parameter.text
+- uid: Votanic.Parameter.unityObjectList
+  name: unityObjectList
+  href: api/Votanic.Parameter.html#Votanic_Parameter_unityObjectList
+  commentId: F:Votanic.Parameter.unityObjectList
+  fullName: Votanic.Parameter.unityObjectList
+  nameWithType: Parameter.unityObjectList
 - uid: Votanic.ParameterEvent
   name: ParameterEvent
   href: api/Votanic.ParameterEvent.html
   commentId: T:Votanic.ParameterEvent
   fullName: Votanic.ParameterEvent
   nameWithType: ParameterEvent
+- uid: Votanic.ParameterEvent.AddListener(UnityEngine.Events.UnityAction)
+  name: AddListener(UnityAction)
+  href: api/Votanic.ParameterEvent.html#Votanic_ParameterEvent_AddListener_UnityEngine_Events_UnityAction_
+  commentId: M:Votanic.ParameterEvent.AddListener(UnityEngine.Events.UnityAction)
+  fullName: Votanic.ParameterEvent.AddListener(UnityEngine.Events.UnityAction)
+  nameWithType: ParameterEvent.AddListener(UnityAction)
+- uid: Votanic.ParameterEvent.AddListener(UnityEngine.Events.UnityAction{Votanic.Parameter})
+  name: AddListener(UnityAction<Parameter>)
+  href: api/Votanic.ParameterEvent.html#Votanic_ParameterEvent_AddListener_UnityEngine_Events_UnityAction_Votanic_Parameter__
+  commentId: M:Votanic.ParameterEvent.AddListener(UnityEngine.Events.UnityAction{Votanic.Parameter})
+  name.vb: AddListener(UnityAction(Of Parameter))
+  fullName: Votanic.ParameterEvent.AddListener(UnityEngine.Events.UnityAction<Votanic.Parameter>)
+  fullName.vb: Votanic.ParameterEvent.AddListener(UnityEngine.Events.UnityAction(Of Votanic.Parameter))
+  nameWithType: ParameterEvent.AddListener(UnityAction<Parameter>)
+  nameWithType.vb: ParameterEvent.AddListener(UnityAction(Of Parameter))
+- uid: Votanic.ParameterEvent.AddListener*
+  name: AddListener
+  href: api/Votanic.ParameterEvent.html#Votanic_ParameterEvent_AddListener_
+  commentId: Overload:Votanic.ParameterEvent.AddListener
+  isSpec: "True"
+  fullName: Votanic.ParameterEvent.AddListener
+  nameWithType: ParameterEvent.AddListener
+- uid: Votanic.ParameterEvent.Invoke(System.Boolean,Votanic.Parameter)
+  name: Invoke(Boolean, Parameter)
+  href: api/Votanic.ParameterEvent.html#Votanic_ParameterEvent_Invoke_System_Boolean_Votanic_Parameter_
+  commentId: M:Votanic.ParameterEvent.Invoke(System.Boolean,Votanic.Parameter)
+  fullName: Votanic.ParameterEvent.Invoke(System.Boolean, Votanic.Parameter)
+  nameWithType: ParameterEvent.Invoke(Boolean, Parameter)
+- uid: Votanic.ParameterEvent.Invoke(Votanic.Parameter)
+  name: Invoke(Parameter)
+  href: api/Votanic.ParameterEvent.html#Votanic_ParameterEvent_Invoke_Votanic_Parameter_
+  commentId: M:Votanic.ParameterEvent.Invoke(Votanic.Parameter)
+  fullName: Votanic.ParameterEvent.Invoke(Votanic.Parameter)
+  nameWithType: ParameterEvent.Invoke(Parameter)
+- uid: Votanic.ParameterEvent.Invoke*
+  name: Invoke
+  href: api/Votanic.ParameterEvent.html#Votanic_ParameterEvent_Invoke_
+  commentId: Overload:Votanic.ParameterEvent.Invoke
+  isSpec: "True"
+  fullName: Votanic.ParameterEvent.Invoke
+  nameWithType: ParameterEvent.Invoke
+- uid: Votanic.ParameterEvent.RemoveAllListeners
+  name: RemoveAllListeners()
+  href: api/Votanic.ParameterEvent.html#Votanic_ParameterEvent_RemoveAllListeners
+  commentId: M:Votanic.ParameterEvent.RemoveAllListeners
+  fullName: Votanic.ParameterEvent.RemoveAllListeners()
+  nameWithType: ParameterEvent.RemoveAllListeners()
+- uid: Votanic.ParameterEvent.RemoveAllListeners(System.Boolean,System.Boolean)
+  name: RemoveAllListeners(Boolean, Boolean)
+  href: api/Votanic.ParameterEvent.html#Votanic_ParameterEvent_RemoveAllListeners_System_Boolean_System_Boolean_
+  commentId: M:Votanic.ParameterEvent.RemoveAllListeners(System.Boolean,System.Boolean)
+  fullName: Votanic.ParameterEvent.RemoveAllListeners(System.Boolean, System.Boolean)
+  nameWithType: ParameterEvent.RemoveAllListeners(Boolean, Boolean)
+- uid: Votanic.ParameterEvent.RemoveAllListeners*
+  name: RemoveAllListeners
+  href: api/Votanic.ParameterEvent.html#Votanic_ParameterEvent_RemoveAllListeners_
+  commentId: Overload:Votanic.ParameterEvent.RemoveAllListeners
+  isSpec: "True"
+  fullName: Votanic.ParameterEvent.RemoveAllListeners
+  nameWithType: ParameterEvent.RemoveAllListeners
+- uid: Votanic.ParameterEvent.RemoveListener(UnityEngine.Events.UnityAction)
+  name: RemoveListener(UnityAction)
+  href: api/Votanic.ParameterEvent.html#Votanic_ParameterEvent_RemoveListener_UnityEngine_Events_UnityAction_
+  commentId: M:Votanic.ParameterEvent.RemoveListener(UnityEngine.Events.UnityAction)
+  fullName: Votanic.ParameterEvent.RemoveListener(UnityEngine.Events.UnityAction)
+  nameWithType: ParameterEvent.RemoveListener(UnityAction)
+- uid: Votanic.ParameterEvent.RemoveListener(UnityEngine.Events.UnityAction{Votanic.Parameter})
+  name: RemoveListener(UnityAction<Parameter>)
+  href: api/Votanic.ParameterEvent.html#Votanic_ParameterEvent_RemoveListener_UnityEngine_Events_UnityAction_Votanic_Parameter__
+  commentId: M:Votanic.ParameterEvent.RemoveListener(UnityEngine.Events.UnityAction{Votanic.Parameter})
+  name.vb: RemoveListener(UnityAction(Of Parameter))
+  fullName: Votanic.ParameterEvent.RemoveListener(UnityEngine.Events.UnityAction<Votanic.Parameter>)
+  fullName.vb: Votanic.ParameterEvent.RemoveListener(UnityEngine.Events.UnityAction(Of Votanic.Parameter))
+  nameWithType: ParameterEvent.RemoveListener(UnityAction<Parameter>)
+  nameWithType.vb: ParameterEvent.RemoveListener(UnityAction(Of Parameter))
+- uid: Votanic.ParameterEvent.RemoveListener*
+  name: RemoveListener
+  href: api/Votanic.ParameterEvent.html#Votanic_ParameterEvent_RemoveListener_
+  commentId: Overload:Votanic.ParameterEvent.RemoveListener
+  isSpec: "True"
+  fullName: Votanic.ParameterEvent.RemoveListener
+  nameWithType: ParameterEvent.RemoveListener
 - uid: Votanic.ReadOnly
   name: ReadOnly
   href: api/Votanic.ReadOnly.html
@@ -8112,19 +8266,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Networking.NetworkManager.GetAllNetworkIdentities
   nameWithType: NetworkManager.GetAllNetworkIdentities
-- uid: Votanic.vNet.Networking.NetworkManager.GetAllNetworkTransforms
-  name: GetAllNetworkTransforms()
-  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetAllNetworkTransforms
-  commentId: M:Votanic.vNet.Networking.NetworkManager.GetAllNetworkTransforms
-  fullName: Votanic.vNet.Networking.NetworkManager.GetAllNetworkTransforms()
-  nameWithType: NetworkManager.GetAllNetworkTransforms()
-- uid: Votanic.vNet.Networking.NetworkManager.GetAllNetworkTransforms*
-  name: GetAllNetworkTransforms
-  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetAllNetworkTransforms_
-  commentId: Overload:Votanic.vNet.Networking.NetworkManager.GetAllNetworkTransforms
+- uid: Votanic.vNet.Networking.NetworkManager.GetAllNetworkObjects
+  name: GetAllNetworkObjects()
+  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetAllNetworkObjects
+  commentId: M:Votanic.vNet.Networking.NetworkManager.GetAllNetworkObjects
+  fullName: Votanic.vNet.Networking.NetworkManager.GetAllNetworkObjects()
+  nameWithType: NetworkManager.GetAllNetworkObjects()
+- uid: Votanic.vNet.Networking.NetworkManager.GetAllNetworkObjects*
+  name: GetAllNetworkObjects
+  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetAllNetworkObjects_
+  commentId: Overload:Votanic.vNet.Networking.NetworkManager.GetAllNetworkObjects
   isSpec: "True"
-  fullName: Votanic.vNet.Networking.NetworkManager.GetAllNetworkTransforms
-  nameWithType: NetworkManager.GetAllNetworkTransforms
+  fullName: Votanic.vNet.Networking.NetworkManager.GetAllNetworkObjects
+  nameWithType: NetworkManager.GetAllNetworkObjects
 - uid: Votanic.vNet.Networking.NetworkManager.GetAllNetworkUsers
   name: GetAllNetworkUsers()
   href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetAllNetworkUsers
@@ -8151,19 +8305,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Networking.NetworkManager.GetNetworkIdentity
   nameWithType: NetworkManager.GetNetworkIdentity
-- uid: Votanic.vNet.Networking.NetworkManager.GetNetworkTransform(System.UInt32)
-  name: GetNetworkTransform(UInt32)
-  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetNetworkTransform_System_UInt32_
-  commentId: M:Votanic.vNet.Networking.NetworkManager.GetNetworkTransform(System.UInt32)
-  fullName: Votanic.vNet.Networking.NetworkManager.GetNetworkTransform(System.UInt32)
-  nameWithType: NetworkManager.GetNetworkTransform(UInt32)
-- uid: Votanic.vNet.Networking.NetworkManager.GetNetworkTransform*
-  name: GetNetworkTransform
-  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetNetworkTransform_
-  commentId: Overload:Votanic.vNet.Networking.NetworkManager.GetNetworkTransform
+- uid: Votanic.vNet.Networking.NetworkManager.GetNetworkObject(System.UInt32)
+  name: GetNetworkObject(UInt32)
+  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetNetworkObject_System_UInt32_
+  commentId: M:Votanic.vNet.Networking.NetworkManager.GetNetworkObject(System.UInt32)
+  fullName: Votanic.vNet.Networking.NetworkManager.GetNetworkObject(System.UInt32)
+  nameWithType: NetworkManager.GetNetworkObject(UInt32)
+- uid: Votanic.vNet.Networking.NetworkManager.GetNetworkObject*
+  name: GetNetworkObject
+  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetNetworkObject_
+  commentId: Overload:Votanic.vNet.Networking.NetworkManager.GetNetworkObject
   isSpec: "True"
-  fullName: Votanic.vNet.Networking.NetworkManager.GetNetworkTransform
-  nameWithType: NetworkManager.GetNetworkTransform
+  fullName: Votanic.vNet.Networking.NetworkManager.GetNetworkObject
+  nameWithType: NetworkManager.GetNetworkObject
 - uid: Votanic.vNet.Networking.NetworkManager.GetNetworkUser(System.UInt32)
   name: GetNetworkUser(UInt32)
   href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_GetNetworkUser_System_UInt32_
@@ -8317,12 +8471,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Networking.NetworkManager.Send
   nameWithType: NetworkManager.Send
-- uid: Votanic.vNet.Networking.NetworkManager.SetAuthority(UnityEngine.Networking.NetworkIdentity)
-  name: SetAuthority(NetworkIdentity)
-  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_SetAuthority_UnityEngine_Networking_NetworkIdentity_
-  commentId: M:Votanic.vNet.Networking.NetworkManager.SetAuthority(UnityEngine.Networking.NetworkIdentity)
-  fullName: Votanic.vNet.Networking.NetworkManager.SetAuthority(UnityEngine.Networking.NetworkIdentity)
-  nameWithType: NetworkManager.SetAuthority(NetworkIdentity)
+- uid: Votanic.vNet.Networking.NetworkManager.SetAuthority(UnityEngine.Networking.NetworkIdentity,System.Boolean)
+  name: SetAuthority(NetworkIdentity, Boolean)
+  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_SetAuthority_UnityEngine_Networking_NetworkIdentity_System_Boolean_
+  commentId: M:Votanic.vNet.Networking.NetworkManager.SetAuthority(UnityEngine.Networking.NetworkIdentity,System.Boolean)
+  fullName: Votanic.vNet.Networking.NetworkManager.SetAuthority(UnityEngine.Networking.NetworkIdentity, System.Boolean)
+  nameWithType: NetworkManager.SetAuthority(NetworkIdentity, Boolean)
 - uid: Votanic.vNet.Networking.NetworkManager.SetAuthority*
   name: SetAuthority
   href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_SetAuthority_
@@ -8425,134 +8579,146 @@ references:
   commentId: F:Votanic.vNet.Networking.NetworkManager.userPrefab
   fullName: Votanic.vNet.Networking.NetworkManager.userPrefab
   nameWithType: NetworkManager.userPrefab
-- uid: Votanic.vNet.Networking.NetworkTransform
-  name: NetworkTransform
-  href: api/Votanic.vNet.Networking.NetworkTransform.html
-  commentId: T:Votanic.vNet.Networking.NetworkTransform
-  fullName: Votanic.vNet.Networking.NetworkTransform
-  nameWithType: NetworkTransform
-- uid: Votanic.vNet.Networking.NetworkTransform.angleBeforeSnap
+- uid: Votanic.vNet.Networking.NetworkObject
+  name: NetworkObject
+  href: api/Votanic.vNet.Networking.NetworkObject.html
+  commentId: T:Votanic.vNet.Networking.NetworkObject
+  fullName: Votanic.vNet.Networking.NetworkObject
+  nameWithType: NetworkObject
+- uid: Votanic.vNet.Networking.NetworkObject.angleBeforeSnap
   name: angleBeforeSnap
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_angleBeforeSnap
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.angleBeforeSnap
-  fullName: Votanic.vNet.Networking.NetworkTransform.angleBeforeSnap
-  nameWithType: NetworkTransform.angleBeforeSnap
-- uid: Votanic.vNet.Networking.NetworkTransform.angleThreshold
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_angleBeforeSnap
+  commentId: F:Votanic.vNet.Networking.NetworkObject.angleBeforeSnap
+  fullName: Votanic.vNet.Networking.NetworkObject.angleBeforeSnap
+  nameWithType: NetworkObject.angleBeforeSnap
+- uid: Votanic.vNet.Networking.NetworkObject.angleThreshold
   name: angleThreshold
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_angleThreshold
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.angleThreshold
-  fullName: Votanic.vNet.Networking.NetworkTransform.angleThreshold
-  nameWithType: NetworkTransform.angleThreshold
-- uid: Votanic.vNet.Networking.NetworkTransform.autoAddTransform
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_angleThreshold
+  commentId: F:Votanic.vNet.Networking.NetworkObject.angleThreshold
+  fullName: Votanic.vNet.Networking.NetworkObject.angleThreshold
+  nameWithType: NetworkObject.angleThreshold
+- uid: Votanic.vNet.Networking.NetworkObject.autoAddTransform
   name: autoAddTransform
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_autoAddTransform
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.autoAddTransform
-  fullName: Votanic.vNet.Networking.NetworkTransform.autoAddTransform
-  nameWithType: NetworkTransform.autoAddTransform
-- uid: Votanic.vNet.Networking.NetworkTransform.distanceBeforeSnap
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_autoAddTransform
+  commentId: F:Votanic.vNet.Networking.NetworkObject.autoAddTransform
+  fullName: Votanic.vNet.Networking.NetworkObject.autoAddTransform
+  nameWithType: NetworkObject.autoAddTransform
+- uid: Votanic.vNet.Networking.NetworkObject.distanceBeforeSnap
   name: distanceBeforeSnap
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_distanceBeforeSnap
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.distanceBeforeSnap
-  fullName: Votanic.vNet.Networking.NetworkTransform.distanceBeforeSnap
-  nameWithType: NetworkTransform.distanceBeforeSnap
-- uid: Votanic.vNet.Networking.NetworkTransform.FixedUpdate
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_distanceBeforeSnap
+  commentId: F:Votanic.vNet.Networking.NetworkObject.distanceBeforeSnap
+  fullName: Votanic.vNet.Networking.NetworkObject.distanceBeforeSnap
+  nameWithType: NetworkObject.distanceBeforeSnap
+- uid: Votanic.vNet.Networking.NetworkObject.FixedUpdate
   name: FixedUpdate()
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_FixedUpdate
-  commentId: M:Votanic.vNet.Networking.NetworkTransform.FixedUpdate
-  fullName: Votanic.vNet.Networking.NetworkTransform.FixedUpdate()
-  nameWithType: NetworkTransform.FixedUpdate()
-- uid: Votanic.vNet.Networking.NetworkTransform.FixedUpdate*
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_FixedUpdate
+  commentId: M:Votanic.vNet.Networking.NetworkObject.FixedUpdate
+  fullName: Votanic.vNet.Networking.NetworkObject.FixedUpdate()
+  nameWithType: NetworkObject.FixedUpdate()
+- uid: Votanic.vNet.Networking.NetworkObject.FixedUpdate*
   name: FixedUpdate
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_FixedUpdate_
-  commentId: Overload:Votanic.vNet.Networking.NetworkTransform.FixedUpdate
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_FixedUpdate_
+  commentId: Overload:Votanic.vNet.Networking.NetworkObject.FixedUpdate
   isSpec: "True"
-  fullName: Votanic.vNet.Networking.NetworkTransform.FixedUpdate
-  nameWithType: NetworkTransform.FixedUpdate
-- uid: Votanic.vNet.Networking.NetworkTransform.movementInterpolation
+  fullName: Votanic.vNet.Networking.NetworkObject.FixedUpdate
+  nameWithType: NetworkObject.FixedUpdate
+- uid: Votanic.vNet.Networking.NetworkObject.movementInterpolation
   name: movementInterpolation
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_movementInterpolation
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.movementInterpolation
-  fullName: Votanic.vNet.Networking.NetworkTransform.movementInterpolation
-  nameWithType: NetworkTransform.movementInterpolation
-- uid: Votanic.vNet.Networking.NetworkTransform.movementThreshold
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_movementInterpolation
+  commentId: F:Votanic.vNet.Networking.NetworkObject.movementInterpolation
+  fullName: Votanic.vNet.Networking.NetworkObject.movementInterpolation
+  nameWithType: NetworkObject.movementInterpolation
+- uid: Votanic.vNet.Networking.NetworkObject.movementThreshold
   name: movementThreshold
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_movementThreshold
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.movementThreshold
-  fullName: Votanic.vNet.Networking.NetworkTransform.movementThreshold
-  nameWithType: NetworkTransform.movementThreshold
-- uid: Votanic.vNet.Networking.NetworkTransform.rotationInterpolation
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_movementThreshold
+  commentId: F:Votanic.vNet.Networking.NetworkObject.movementThreshold
+  fullName: Votanic.vNet.Networking.NetworkObject.movementThreshold
+  nameWithType: NetworkObject.movementThreshold
+- uid: Votanic.vNet.Networking.NetworkObject.OnSync
+  name: NetworkObject.OnSync
+  href: api/Votanic.vNet.Networking.NetworkObject.OnSync.html
+  commentId: T:Votanic.vNet.Networking.NetworkObject.OnSync
+  fullName: Votanic.vNet.Networking.NetworkObject.OnSync
+  nameWithType: NetworkObject.OnSync
+- uid: Votanic.vNet.Networking.NetworkObject.rotationInterpolation
   name: rotationInterpolation
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_rotationInterpolation
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.rotationInterpolation
-  fullName: Votanic.vNet.Networking.NetworkTransform.rotationInterpolation
-  nameWithType: NetworkTransform.rotationInterpolation
-- uid: Votanic.vNet.Networking.NetworkTransform.scaleBeforeSnap
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_rotationInterpolation
+  commentId: F:Votanic.vNet.Networking.NetworkObject.rotationInterpolation
+  fullName: Votanic.vNet.Networking.NetworkObject.rotationInterpolation
+  nameWithType: NetworkObject.rotationInterpolation
+- uid: Votanic.vNet.Networking.NetworkObject.scaleBeforeSnap
   name: scaleBeforeSnap
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_scaleBeforeSnap
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.scaleBeforeSnap
-  fullName: Votanic.vNet.Networking.NetworkTransform.scaleBeforeSnap
-  nameWithType: NetworkTransform.scaleBeforeSnap
-- uid: Votanic.vNet.Networking.NetworkTransform.scaleInterpolation
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_scaleBeforeSnap
+  commentId: F:Votanic.vNet.Networking.NetworkObject.scaleBeforeSnap
+  fullName: Votanic.vNet.Networking.NetworkObject.scaleBeforeSnap
+  nameWithType: NetworkObject.scaleBeforeSnap
+- uid: Votanic.vNet.Networking.NetworkObject.scaleInterpolation
   name: scaleInterpolation
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_scaleInterpolation
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.scaleInterpolation
-  fullName: Votanic.vNet.Networking.NetworkTransform.scaleInterpolation
-  nameWithType: NetworkTransform.scaleInterpolation
-- uid: Votanic.vNet.Networking.NetworkTransform.scaleThreshold
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_scaleInterpolation
+  commentId: F:Votanic.vNet.Networking.NetworkObject.scaleInterpolation
+  fullName: Votanic.vNet.Networking.NetworkObject.scaleInterpolation
+  nameWithType: NetworkObject.scaleInterpolation
+- uid: Votanic.vNet.Networking.NetworkObject.scaleThreshold
   name: scaleThreshold
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_scaleThreshold
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.scaleThreshold
-  fullName: Votanic.vNet.Networking.NetworkTransform.scaleThreshold
-  nameWithType: NetworkTransform.scaleThreshold
-- uid: Votanic.vNet.Networking.NetworkTransform.sendFrameGap
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_scaleThreshold
+  commentId: F:Votanic.vNet.Networking.NetworkObject.scaleThreshold
+  fullName: Votanic.vNet.Networking.NetworkObject.scaleThreshold
+  nameWithType: NetworkObject.scaleThreshold
+- uid: Votanic.vNet.Networking.NetworkObject.sendFrameGap
   name: sendFrameGap
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_sendFrameGap
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.sendFrameGap
-  fullName: Votanic.vNet.Networking.NetworkTransform.sendFrameGap
-  nameWithType: NetworkTransform.sendFrameGap
-- uid: Votanic.vNet.Networking.NetworkTransform.Start
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_sendFrameGap
+  commentId: F:Votanic.vNet.Networking.NetworkObject.sendFrameGap
+  fullName: Votanic.vNet.Networking.NetworkObject.sendFrameGap
+  nameWithType: NetworkObject.sendFrameGap
+- uid: Votanic.vNet.Networking.NetworkObject.Start
   name: Start()
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_Start
-  commentId: M:Votanic.vNet.Networking.NetworkTransform.Start
-  fullName: Votanic.vNet.Networking.NetworkTransform.Start()
-  nameWithType: NetworkTransform.Start()
-- uid: Votanic.vNet.Networking.NetworkTransform.Start*
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_Start
+  commentId: M:Votanic.vNet.Networking.NetworkObject.Start
+  fullName: Votanic.vNet.Networking.NetworkObject.Start()
+  nameWithType: NetworkObject.Start()
+- uid: Votanic.vNet.Networking.NetworkObject.Start*
   name: Start
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_Start_
-  commentId: Overload:Votanic.vNet.Networking.NetworkTransform.Start
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_Start_
+  commentId: Overload:Votanic.vNet.Networking.NetworkObject.Start
   isSpec: "True"
-  fullName: Votanic.vNet.Networking.NetworkTransform.Start
-  nameWithType: NetworkTransform.Start
-- uid: Votanic.vNet.Networking.NetworkTransform.syncTransform
+  fullName: Votanic.vNet.Networking.NetworkObject.Start
+  nameWithType: NetworkObject.Start
+- uid: Votanic.vNet.Networking.NetworkObject.Sync
+  name: Sync
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_Sync
+  commentId: F:Votanic.vNet.Networking.NetworkObject.Sync
+  fullName: Votanic.vNet.Networking.NetworkObject.Sync
+  nameWithType: NetworkObject.Sync
+- uid: Votanic.vNet.Networking.NetworkObject.syncTransform
   name: syncTransform
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_syncTransform
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.syncTransform
-  fullName: Votanic.vNet.Networking.NetworkTransform.syncTransform
-  nameWithType: NetworkTransform.syncTransform
-- uid: Votanic.vNet.Networking.NetworkTransform.target
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_syncTransform
+  commentId: F:Votanic.vNet.Networking.NetworkObject.syncTransform
+  fullName: Votanic.vNet.Networking.NetworkObject.syncTransform
+  nameWithType: NetworkObject.syncTransform
+- uid: Votanic.vNet.Networking.NetworkObject.target
   name: target
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_target
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.target
-  fullName: Votanic.vNet.Networking.NetworkTransform.target
-  nameWithType: NetworkTransform.target
-- uid: Votanic.vNet.Networking.NetworkTransform.thresholdMovementPrediction
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_target
+  commentId: F:Votanic.vNet.Networking.NetworkObject.target
+  fullName: Votanic.vNet.Networking.NetworkObject.target
+  nameWithType: NetworkObject.target
+- uid: Votanic.vNet.Networking.NetworkObject.thresholdMovementPrediction
   name: thresholdMovementPrediction
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_thresholdMovementPrediction
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.thresholdMovementPrediction
-  fullName: Votanic.vNet.Networking.NetworkTransform.thresholdMovementPrediction
-  nameWithType: NetworkTransform.thresholdMovementPrediction
-- uid: Votanic.vNet.Networking.NetworkTransform.thresholdRotationPrediction
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_thresholdMovementPrediction
+  commentId: F:Votanic.vNet.Networking.NetworkObject.thresholdMovementPrediction
+  fullName: Votanic.vNet.Networking.NetworkObject.thresholdMovementPrediction
+  nameWithType: NetworkObject.thresholdMovementPrediction
+- uid: Votanic.vNet.Networking.NetworkObject.thresholdRotationPrediction
   name: thresholdRotationPrediction
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_thresholdRotationPrediction
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.thresholdRotationPrediction
-  fullName: Votanic.vNet.Networking.NetworkTransform.thresholdRotationPrediction
-  nameWithType: NetworkTransform.thresholdRotationPrediction
-- uid: Votanic.vNet.Networking.NetworkTransform.thresholdScalePrediction
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_thresholdRotationPrediction
+  commentId: F:Votanic.vNet.Networking.NetworkObject.thresholdRotationPrediction
+  fullName: Votanic.vNet.Networking.NetworkObject.thresholdRotationPrediction
+  nameWithType: NetworkObject.thresholdRotationPrediction
+- uid: Votanic.vNet.Networking.NetworkObject.thresholdScalePrediction
   name: thresholdScalePrediction
-  href: api/Votanic.vNet.Networking.NetworkTransform.html#Votanic_vNet_Networking_NetworkTransform_thresholdScalePrediction
-  commentId: F:Votanic.vNet.Networking.NetworkTransform.thresholdScalePrediction
-  fullName: Votanic.vNet.Networking.NetworkTransform.thresholdScalePrediction
-  nameWithType: NetworkTransform.thresholdScalePrediction
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_thresholdScalePrediction
+  commentId: F:Votanic.vNet.Networking.NetworkObject.thresholdScalePrediction
+  fullName: Votanic.vNet.Networking.NetworkObject.thresholdScalePrediction
+  nameWithType: NetworkObject.thresholdScalePrediction
 - uid: Votanic.vNet.Networking.NetworkUser
   name: NetworkUser
   href: api/Votanic.vNet.Networking.NetworkUser.html
@@ -8789,12 +8955,12 @@ references:
   commentId: T:Votanic.vXR.InteractionParameter
   fullName: Votanic.vXR.InteractionParameter
   nameWithType: InteractionParameter
-- uid: Votanic.vXR.InteractionParameter.#ctor(System.Int32,System.Single,System.String,System.Int32,Votanic.vXR.InteractorType)
-  name: InteractionParameter(Int32, Single, String, Int32, InteractorType)
-  href: api/Votanic.vXR.InteractionParameter.html#Votanic_vXR_InteractionParameter__ctor_System_Int32_System_Single_System_String_System_Int32_Votanic_vXR_InteractorType_
-  commentId: M:Votanic.vXR.InteractionParameter.#ctor(System.Int32,System.Single,System.String,System.Int32,Votanic.vXR.InteractorType)
-  fullName: Votanic.vXR.InteractionParameter.InteractionParameter(System.Int32, System.Single, System.String, System.Int32, Votanic.vXR.InteractorType)
-  nameWithType: InteractionParameter.InteractionParameter(Int32, Single, String, Int32, InteractorType)
+- uid: Votanic.vXR.InteractionParameter.#ctor(System.String,System.Single,System.Int32,System.Int32,Votanic.vXR.InteractorType)
+  name: InteractionParameter(String, Single, Int32, Int32, InteractorType)
+  href: api/Votanic.vXR.InteractionParameter.html#Votanic_vXR_InteractionParameter__ctor_System_String_System_Single_System_Int32_System_Int32_Votanic_vXR_InteractorType_
+  commentId: M:Votanic.vXR.InteractionParameter.#ctor(System.String,System.Single,System.Int32,System.Int32,Votanic.vXR.InteractorType)
+  fullName: Votanic.vXR.InteractionParameter.InteractionParameter(System.String, System.Single, System.Int32, System.Int32, Votanic.vXR.InteractorType)
+  nameWithType: InteractionParameter.InteractionParameter(String, Single, Int32, Int32, InteractorType)
 - uid: Votanic.vXR.InteractionParameter.#ctor*
   name: InteractionParameter
   href: api/Votanic.vXR.InteractionParameter.html#Votanic_vXR_InteractionParameter__ctor_
@@ -9611,6 +9777,78 @@ references:
   commentId: F:Votanic.vXR.vCast.Core.InitialFading.None
   fullName: Votanic.vXR.vCast.Core.InitialFading.None
   nameWithType: InitialFading.None
+- uid: Votanic.vXR.vCast.Core.Launcher
+  name: Launcher
+  href: api/Votanic.vXR.vCast.Core.Launcher.html
+  commentId: T:Votanic.vXR.vCast.Core.Launcher
+  fullName: Votanic.vXR.vCast.Core.Launcher
+  nameWithType: Launcher
+- uid: Votanic.vXR.vCast.Core.Launcher.Category
+  name: Category
+  href: api/Votanic.vXR.vCast.Core.Launcher.html#Votanic_vXR_vCast_Core_Launcher_Category
+  commentId: F:Votanic.vXR.vCast.Core.Launcher.Category
+  fullName: Votanic.vXR.vCast.Core.Launcher.Category
+  nameWithType: Launcher.Category
+- uid: Votanic.vXR.vCast.Core.LauncherApp
+  name: LauncherApp
+  href: api/Votanic.vXR.vCast.Core.LauncherApp.html
+  commentId: T:Votanic.vXR.vCast.Core.LauncherApp
+  fullName: Votanic.vXR.vCast.Core.LauncherApp
+  nameWithType: LauncherApp
+- uid: Votanic.vXR.vCast.Core.LauncherApp.Icon
+  name: Icon
+  href: api/Votanic.vXR.vCast.Core.LauncherApp.html#Votanic_vXR_vCast_Core_LauncherApp_Icon
+  commentId: F:Votanic.vXR.vCast.Core.LauncherApp.Icon
+  fullName: Votanic.vXR.vCast.Core.LauncherApp.Icon
+  nameWithType: LauncherApp.Icon
+- uid: Votanic.vXR.vCast.Core.LauncherApp.Name
+  name: Name
+  href: api/Votanic.vXR.vCast.Core.LauncherApp.html#Votanic_vXR_vCast_Core_LauncherApp_Name
+  commentId: F:Votanic.vXR.vCast.Core.LauncherApp.Name
+  fullName: Votanic.vXR.vCast.Core.LauncherApp.Name
+  nameWithType: LauncherApp.Name
+- uid: Votanic.vXR.vCast.Core.LauncherApp.Path
+  name: Path
+  href: api/Votanic.vXR.vCast.Core.LauncherApp.html#Votanic_vXR_vCast_Core_LauncherApp_Path
+  commentId: F:Votanic.vXR.vCast.Core.LauncherApp.Path
+  fullName: Votanic.vXR.vCast.Core.LauncherApp.Path
+  nameWithType: LauncherApp.Path
+- uid: Votanic.vXR.vCast.Core.LauncherApp.Remark
+  name: Remark
+  href: api/Votanic.vXR.vCast.Core.LauncherApp.html#Votanic_vXR_vCast_Core_LauncherApp_Remark
+  commentId: F:Votanic.vXR.vCast.Core.LauncherApp.Remark
+  fullName: Votanic.vXR.vCast.Core.LauncherApp.Remark
+  nameWithType: LauncherApp.Remark
+- uid: Votanic.vXR.vCast.Core.LauncherApp.TurnOffDevice
+  name: TurnOffDevice
+  href: api/Votanic.vXR.vCast.Core.LauncherApp.html#Votanic_vXR_vCast_Core_LauncherApp_TurnOffDevice
+  commentId: F:Votanic.vXR.vCast.Core.LauncherApp.TurnOffDevice
+  fullName: Votanic.vXR.vCast.Core.LauncherApp.TurnOffDevice
+  nameWithType: LauncherApp.TurnOffDevice
+- uid: Votanic.vXR.vCast.Core.LauncherApp.TurnOnDevice
+  name: TurnOnDevice
+  href: api/Votanic.vXR.vCast.Core.LauncherApp.html#Votanic_vXR_vCast_Core_LauncherApp_TurnOnDevice
+  commentId: F:Votanic.vXR.vCast.Core.LauncherApp.TurnOnDevice
+  fullName: Votanic.vXR.vCast.Core.LauncherApp.TurnOnDevice
+  nameWithType: LauncherApp.TurnOnDevice
+- uid: Votanic.vXR.vCast.Core.LauncherCategory
+  name: LauncherCategory
+  href: api/Votanic.vXR.vCast.Core.LauncherCategory.html
+  commentId: T:Votanic.vXR.vCast.Core.LauncherCategory
+  fullName: Votanic.vXR.vCast.Core.LauncherCategory
+  nameWithType: LauncherCategory
+- uid: Votanic.vXR.vCast.Core.LauncherCategory.Application
+  name: Application
+  href: api/Votanic.vXR.vCast.Core.LauncherCategory.html#Votanic_vXR_vCast_Core_LauncherCategory_Application
+  commentId: F:Votanic.vXR.vCast.Core.LauncherCategory.Application
+  fullName: Votanic.vXR.vCast.Core.LauncherCategory.Application
+  nameWithType: LauncherCategory.Application
+- uid: Votanic.vXR.vCast.Core.LauncherCategory.Name
+  name: Name
+  href: api/Votanic.vXR.vCast.Core.LauncherCategory.html#Votanic_vXR_vCast_Core_LauncherCategory_Name
+  commentId: F:Votanic.vXR.vCast.Core.LauncherCategory.Name
+  fullName: Votanic.vXR.vCast.Core.LauncherCategory.Name
+  nameWithType: LauncherCategory.Name
 - uid: Votanic.vXR.vCast.Core.LostTracking
   name: LostTracking
   href: api/Votanic.vXR.vCast.Core.LostTracking.html
@@ -9993,6 +10231,12 @@ references:
   commentId: F:Votanic.vXR.vCast.Core.Transition.fadeColor
   fullName: Votanic.vXR.vCast.Core.Transition.fadeColor
   nameWithType: Transition.fadeColor
+- uid: Votanic.vXR.vCast.Core.Transition.fadedDuration
+  name: fadedDuration
+  href: api/Votanic.vXR.vCast.Core.Transition.html#Votanic_vXR_vCast_Core_Transition_fadedDuration
+  commentId: F:Votanic.vXR.vCast.Core.Transition.fadedDuration
+  fullName: Votanic.vXR.vCast.Core.Transition.fadedDuration
+  nameWithType: Transition.fadedDuration
 - uid: Votanic.vXR.vCast.Core.Transition.method
   name: method
   href: api/Votanic.vXR.vCast.Core.Transition.html#Votanic_vXR_vCast_Core_Transition_method
@@ -10421,6 +10665,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Cmd.AllReceived
   nameWithType: vCast.Cmd.AllReceived
+- uid: Votanic.vXR.vCast.vCast.Cmd.Command(System.String)
+  name: Command(String)
+  href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_Command_System_String_
+  commentId: M:Votanic.vXR.vCast.vCast.Cmd.Command(System.String)
+  fullName: Votanic.vXR.vCast.vCast.Cmd.Command(System.String)
+  nameWithType: vCast.Cmd.Command(String)
+- uid: Votanic.vXR.vCast.vCast.Cmd.Command*
+  name: Command
+  href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_Command_
+  commentId: Overload:Votanic.vXR.vCast.vCast.Cmd.Command
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.Cmd.Command
+  nameWithType: vCast.Cmd.Command
 - uid: Votanic.vXR.vCast.vCast.Cmd.Interactor(System.String)
   name: Interactor(String)
   href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_Interactor_System_String_
@@ -11150,6 +11407,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Frame.SetFadeColor
   nameWithType: vCast.Frame.SetFadeColor
+- uid: Votanic.vXR.vCast.vCast.Frame.SetFadedDuration(System.Single)
+  name: SetFadedDuration(Single)
+  href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_SetFadedDuration_System_Single_
+  commentId: M:Votanic.vXR.vCast.vCast.Frame.SetFadedDuration(System.Single)
+  fullName: Votanic.vXR.vCast.vCast.Frame.SetFadedDuration(System.Single)
+  nameWithType: vCast.Frame.SetFadedDuration(Single)
+- uid: Votanic.vXR.vCast.vCast.Frame.SetFadedDuration*
+  name: SetFadedDuration
+  href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_SetFadedDuration_
+  commentId: Overload:Votanic.vXR.vCast.vCast.Frame.SetFadedDuration
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.Frame.SetFadedDuration
+  nameWithType: vCast.Frame.SetFadedDuration
 - uid: Votanic.vXR.vCast.vCast.Frame.SetFader(UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)
   name: SetFader(Color, Single, Single, Single, MotionParameter)
   href: api/Votanic.vXR.vCast.vCast.Frame.html#Votanic_vXR_vCast_vCast_Frame_SetFader_UnityEngine_Color_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_
@@ -11283,6 +11553,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.GetControllers
   nameWithType: vCast.GetControllers
+- uid: Votanic.vXR.vCast.vCast.GetDebug
+  name: GetDebug()
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetDebug
+  commentId: M:Votanic.vXR.vCast.vCast.GetDebug
+  fullName: Votanic.vXR.vCast.vCast.GetDebug()
+  nameWithType: vCast.GetDebug()
+- uid: Votanic.vXR.vCast.vCast.GetDebug*
+  name: GetDebug
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetDebug_
+  commentId: Overload:Votanic.vXR.vCast.vCast.GetDebug
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.GetDebug
+  nameWithType: vCast.GetDebug
 - uid: Votanic.vXR.vCast.vCast.GetEntities
   name: GetEntities()
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetEntities
@@ -11411,6 +11694,58 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.GetSensors
   nameWithType: vCast.GetSensors
+- uid: Votanic.vXR.vCast.vCast.GetSoul
+  name: GetSoul()
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetSoul
+  commentId: M:Votanic.vXR.vCast.vCast.GetSoul
+  fullName: Votanic.vXR.vCast.vCast.GetSoul()
+  nameWithType: vCast.GetSoul()
+- uid: Votanic.vXR.vCast.vCast.GetSoul*
+  name: GetSoul
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetSoul_
+  commentId: Overload:Votanic.vXR.vCast.vCast.GetSoul
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.GetSoul
+  nameWithType: vCast.GetSoul
+- uid: Votanic.vXR.vCast.vCast.GetStereo
+  name: GetStereo()
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetStereo
+  commentId: M:Votanic.vXR.vCast.vCast.GetStereo
+  fullName: Votanic.vXR.vCast.vCast.GetStereo()
+  nameWithType: vCast.GetStereo()
+- uid: Votanic.vXR.vCast.vCast.GetStereo*
+  name: GetStereo
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetStereo_
+  commentId: Overload:Votanic.vXR.vCast.vCast.GetStereo
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.GetStereo
+  nameWithType: vCast.GetStereo
+- uid: Votanic.vXR.vCast.vCast.GetTest3D
+  name: GetTest3D()
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetTest3D
+  commentId: M:Votanic.vXR.vCast.vCast.GetTest3D
+  fullName: Votanic.vXR.vCast.vCast.GetTest3D()
+  nameWithType: vCast.GetTest3D()
+- uid: Votanic.vXR.vCast.vCast.GetTest3D*
+  name: GetTest3D
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetTest3D_
+  commentId: Overload:Votanic.vXR.vCast.vCast.GetTest3D
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.GetTest3D
+  nameWithType: vCast.GetTest3D
+- uid: Votanic.vXR.vCast.vCast.GetTracking
+  name: GetTracking()
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetTracking
+  commentId: M:Votanic.vXR.vCast.vCast.GetTracking
+  fullName: Votanic.vXR.vCast.vCast.GetTracking()
+  nameWithType: vCast.GetTracking()
+- uid: Votanic.vXR.vCast.vCast.GetTracking*
+  name: GetTracking
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetTracking_
+  commentId: Overload:Votanic.vXR.vCast.vCast.GetTracking
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.GetTracking
+  nameWithType: vCast.GetTracking
 - uid: Votanic.vXR.vCast.vCast.GetTransform(System.String)
   name: GetTransform(String)
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetTransform_System_String_
@@ -11449,6 +11784,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.GetTransforms
   nameWithType: vCast.GetTransforms
+- uid: Votanic.vXR.vCast.vCast.GetTraveler
+  name: GetTraveler()
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetTraveler
+  commentId: M:Votanic.vXR.vCast.vCast.GetTraveler
+  fullName: Votanic.vXR.vCast.vCast.GetTraveler()
+  nameWithType: vCast.GetTraveler()
+- uid: Votanic.vXR.vCast.vCast.GetTraveler*
+  name: GetTraveler
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetTraveler_
+  commentId: Overload:Votanic.vXR.vCast.vCast.GetTraveler
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.GetTraveler
+  nameWithType: vCast.GetTraveler
 - uid: Votanic.vXR.vCast.vCast.GetUser(System.Int32)
   name: GetUser(Int32)
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetUser_System_Int32_
@@ -11468,6 +11816,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.GetUser
   nameWithType: vCast.GetUser
+- uid: Votanic.vXR.vCast.vCast.GetUserLevel(System.Int32)
+  name: GetUserLevel(Int32)
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetUserLevel_System_Int32_
+  commentId: M:Votanic.vXR.vCast.vCast.GetUserLevel(System.Int32)
+  fullName: Votanic.vXR.vCast.vCast.GetUserLevel(System.Int32)
+  nameWithType: vCast.GetUserLevel(Int32)
+- uid: Votanic.vXR.vCast.vCast.GetUserLevel*
+  name: GetUserLevel
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetUserLevel_
+  commentId: Overload:Votanic.vXR.vCast.vCast.GetUserLevel
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.GetUserLevel
+  nameWithType: vCast.GetUserLevel
 - uid: Votanic.vXR.vCast.vCast.GetUsers
   name: GetUsers()
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetUsers
@@ -12456,6 +12817,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.ResetUsers
   nameWithType: vCast.ResetUsers
+- uid: Votanic.vXR.vCast.vCast.sceneIndex
+  name: sceneIndex
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_sceneIndex
+  commentId: P:Votanic.vXR.vCast.vCast.sceneIndex
+  fullName: Votanic.vXR.vCast.vCast.sceneIndex
+  nameWithType: vCast.sceneIndex
+- uid: Votanic.vXR.vCast.vCast.sceneIndex*
+  name: sceneIndex
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_sceneIndex_
+  commentId: Overload:Votanic.vXR.vCast.vCast.sceneIndex
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.sceneIndex
+  nameWithType: vCast.sceneIndex
 - uid: Votanic.vXR.vCast.vCast.separator
   name: separator
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_separator
@@ -13701,6 +14075,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_User.SetFadeColor
   nameWithType: vCast_User.SetFadeColor
+- uid: Votanic.vXR.vCast.vCast_User.SetFadedDuration(System.Single)
+  name: SetFadedDuration(Single)
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_SetFadedDuration_System_Single_
+  commentId: M:Votanic.vXR.vCast.vCast_User.SetFadedDuration(System.Single)
+  fullName: Votanic.vXR.vCast.vCast_User.SetFadedDuration(System.Single)
+  nameWithType: vCast_User.SetFadedDuration(Single)
+- uid: Votanic.vXR.vCast.vCast_User.SetFadedDuration*
+  name: SetFadedDuration
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_SetFadedDuration_
+  commentId: Overload:Votanic.vXR.vCast.vCast_User.SetFadedDuration
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_User.SetFadedDuration
+  nameWithType: vCast_User.SetFadedDuration
 - uid: Votanic.vXR.vCast.vCast_User.SetFader(UnityEngine.Color,System.Single,System.Single,System.Single,Votanic.vXR.MotionParameter)
   name: SetFader(Color, Single, Single, Single, MotionParameter)
   href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_SetFader_UnityEngine_Color_System_Single_System_Single_System_Single_Votanic_vXR_MotionParameter_
@@ -15612,6 +15999,12 @@ references:
   commentId: F:Votanic.vXR.vGear.Scenario.MotionDetail.fadeColor
   fullName: Votanic.vXR.vGear.Scenario.MotionDetail.fadeColor
   nameWithType: MotionDetail.fadeColor
+- uid: Votanic.vXR.vGear.Scenario.MotionDetail.fadedDuration
+  name: fadedDuration
+  href: api/Votanic.vXR.vGear.Scenario.MotionDetail.html#Votanic_vXR_vGear_Scenario_MotionDetail_fadedDuration
+  commentId: F:Votanic.vXR.vGear.Scenario.MotionDetail.fadedDuration
+  fullName: Votanic.vXR.vGear.Scenario.MotionDetail.fadedDuration
+  nameWithType: MotionDetail.fadedDuration
 - uid: Votanic.vXR.vGear.Scenario.MotionDetail.lockUserNavigation
   name: lockUserNavigation
   href: api/Votanic.vXR.vGear.Scenario.MotionDetail.html#Votanic_vXR_vGear_Scenario_MotionDetail_lockUserNavigation
@@ -16910,6 +17303,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Interactables.interactions
   fullName: Votanic.vXR.vGear.vGear_Interactables.interactions
   nameWithType: vGear_Interactables.interactions
+- uid: Votanic.vXR.vGear.vGear_Interactables.networkCommands
+  name: networkCommands
+  href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_networkCommands
+  commentId: F:Votanic.vXR.vGear.vGear_Interactables.networkCommands
+  fullName: Votanic.vXR.vGear.vGear_Interactables.networkCommands
+  nameWithType: vGear_Interactables.networkCommands
 - uid: Votanic.vXR.vGear.vGear_Interactables.OnCollisionEnter(UnityEngine.Collision)
   name: OnCollisionEnter(Collision)
   href: api/Votanic.vXR.vGear.vGear_Interactables.html#Votanic_vXR_vGear_vGear_Interactables_OnCollisionEnter_UnityEngine_Collision_
@@ -17913,19 +18312,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Tool.Start
   nameWithType: vGear_Tool.Start
-- uid: Votanic.vXR.vGear.vGear_Tool.Update
-  name: Update()
-  href: api/Votanic.vXR.vGear.vGear_Tool.html#Votanic_vXR_vGear_vGear_Tool_Update
-  commentId: M:Votanic.vXR.vGear.vGear_Tool.Update
-  fullName: Votanic.vXR.vGear.vGear_Tool.Update()
-  nameWithType: vGear_Tool.Update()
-- uid: Votanic.vXR.vGear.vGear_Tool.Update*
-  name: Update
-  href: api/Votanic.vXR.vGear.vGear_Tool.html#Votanic_vXR_vGear_vGear_Tool_Update_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Tool.Update
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Tool.Update
-  nameWithType: vGear_Tool.Update
 - uid: Votanic.vXR.vGear.vGear_Toolbox
   name: vGear_Toolbox
   href: api/Votanic.vXR.vGear.vGear_Toolbox.html

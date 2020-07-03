@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class vGear_Brush
+    <title>Class NetworkObject
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class vGear_Brush
+    <meta name="title" content="Class NetworkObject
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,13 +68,13 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.vGear_Brush">
+            <article class="content wrap" id="_content" data-uid="Votanic.vNet.Networking.NetworkObject">
   
   
-  <h1 id="Votanic_vXR_vGear_vGear_Brush" data-uid="Votanic.vXR.vGear.vGear_Brush" class="text-break">Class vGear_Brush
+  <h1 id="Votanic_vNet_Networking_NetworkObject" data-uid="Votanic.vNet.Networking.NetworkObject" class="text-break">Class NetworkObject
   </h1>
-  <div class="markdown level0 summary"><p>Brush tool of vGear controller.
-<br> vGear 控制器的畫筆工具。</p>
+  <div class="markdown level0 summary"><p>The Network Object synchronizes the transform of gameObject across the network.
+<br> 網絡物件，用作在網絡中同步遊戲物件的 Transform。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -84,267 +84,30 @@
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><a class="xref" href="Votanic.vXR.vCast.IO.vCast_Device.html">vCast_Device</a></div>
-    <div class="level6"><a class="xref" href="Votanic.vXR.vCast.IO.vCast_ControllerTool.html">vCast_ControllerTool</a></div>
-    <div class="level7"><span class="xref">vGear_Brush</span></div>
+    <div class="level5"><span class="xref">UnityEngine.Networking.NetworkBehaviour</span></div>
+    <div class="level6"><span class="xref">NetworkObject</span></div>
+      <div class="level7"><a class="xref" href="Votanic.vNet.Networking.NetworkUser.html">NetworkUser</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.html">Votanic.vXR.vGear</a></h6>
-  <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_vGear_vGear_Brush_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vNet.Networking.html">Votanic.vNet.Networking</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.vNet.dll</h6>
+  <h5 id="Votanic_vNet_Networking_NetworkObject_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
-public class vGear_Brush : vCast_ControllerTool</code></pre>
+public class NetworkObject : NetworkBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_colliderType" data-uid="Votanic.vXR.vGear.vGear_Brush.colliderType">colliderType</h4>
-  <div class="markdown level1 summary"><p>Locus collider setting. <br> 筆跡碰撞器設定。</p>
+  <h4 id="Votanic_vNet_Networking_NetworkObject_angleBeforeSnap" data-uid="Votanic.vNet.Networking.NetworkObject.angleBeforeSnap">angleBeforeSnap</h4>
+  <div class="markdown level1 summary"><p>The angle change before snap. <br> 最大平滑變動角度。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Locus collider setting.\n&#31558;&#36321;&#30896;&#25758;&#22120;&#35373;&#23450;&#12290;&quot;)]
-public LocusCollider colliderType</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vXR.vGear.LocusCollider.html">LocusCollider</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_color" data-uid="Votanic.vXR.vGear.vGear_Brush.color">color</h4>
-  <div class="markdown level1 summary"><p>Current brush color. <br> 目前畫筆顏色。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
-[Tooltip(&quot;Current brush color.\n&#30446;&#21069;&#30059;&#31558;&#38991;&#33394;&#12290;&quot;)]
-public Color color</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.Color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_destroyLocusScript" data-uid="Votanic.vXR.vGear.vGear_Brush.destroyLocusScript">destroyLocusScript</h4>
-  <div class="markdown level1 summary"><p>Destroy locus script after drawing. <br> 完成繪畫後移除畫筆腳本。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Destroy locus script after drawing.\n&#23436;&#25104;&#32362;&#30059;&#24460;&#31227;&#38500;&#30059;&#31558;&#33139;&#26412;&#12290;&quot;)]
-public bool destroyLocusScript</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_isDrawing" data-uid="Votanic.vXR.vGear.vGear_Brush.isDrawing">isDrawing</h4>
-  <div class="markdown level1 summary"><p>Return true if drawing. <br> 當正在繪畫時傳回 true。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
-[Tooltip(&quot;Return true if drawing.\n&#30070;&#27491;&#22312;&#32362;&#30059;&#26178;&#20659;&#22238; true&#12290;&quot;)]
-public bool isDrawing</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_isKinematic" data-uid="Votanic.vXR.vGear.vGear_Brush.isKinematic">isKinematic</h4>
-  <div class="markdown level1 summary"><p>Set the locus object rigidbody is kinematic or not. <br> 筆跡剛體是否運動學的。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Set the locus object rigidbody is kinematic or not.\n&#31558;&#36321;&#21083;&#39636;&#26159;&#21542;&#36939;&#21205;&#23416;&#30340;&#12290;&quot;)]
-public bool isKinematic</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_lightProbe" data-uid="Votanic.vXR.vGear.vGear_Brush.lightProbe">lightProbe</h4>
-  <div class="markdown level1 summary"><p>The locus object light probe setting. <br> 筆跡光探測設定。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The locus object light probe setting.\n&#31558;&#36321;&#20809;&#25506;&#28204;&#35373;&#23450;&#12290;&quot;)]
-public LightProbeUsage lightProbe</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.Rendering.LightProbeUsage</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_locusPrefab" data-uid="Votanic.vXR.vGear.vGear_Brush.locusPrefab">locusPrefab</h4>
-  <div class="markdown level1 summary"><p>Locus object prefab. <br> 筆跡預載體。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Locus object prefab.\n&#31558;&#36321;&#38928;&#36617;&#39636;&#12290;&quot;)]
-public vGear_Locus locusPrefab</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Votanic.vXR.vGear.vGear_Locus</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_locusType" data-uid="Votanic.vXR.vGear.vGear_Brush.locusType">locusType</h4>
-  <div class="markdown level1 summary"><p>Locus interaction type. <br> 筆跡互動類型。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[Locus]&quot;)]
-[Tooltip(&quot;Locus interaction type.\n&#31558;&#36321;&#20114;&#21205;&#39006;&#22411;&#12290;&quot;)]
-public LocusType locusType</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vXR.vGear.LocusType.html">LocusType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_material" data-uid="Votanic.vXR.vGear.vGear_Brush.material">material</h4>
-  <div class="markdown level1 summary"><p>Material of brush. <br> 畫筆材質。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
-[Tooltip(&quot;Material of brush.\n&#30059;&#31558;&#26448;&#36074;&#12290;&quot;)]
-public Material material</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.Material</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_minDistance" data-uid="Votanic.vXR.vGear.vGear_Brush.minDistance">minDistance</h4>
-  <div class="markdown level1 summary"><p>Minimum distance to draw locus from point to point. <br> 畫筆繪畫的兩點最短距離。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Minimum distance to draw locus from point to point.\n&#30059;&#31558;&#32362;&#30059;&#30340;&#20841;&#40670;&#26368;&#30701;&#36317;&#38626;&#12290;&quot;)]
-public float minDistance</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The angle change before snap.\n&#26368;&#22823;&#24179;&#28369;&#35722;&#21205;&#35282;&#24230;&#12290;&quot;)]
+[Range(0F, 90F)]
+public float angleBeforeSnap</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -363,14 +126,259 @@ public float minDistance</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_opacity" data-uid="Votanic.vXR.vGear.vGear_Brush.opacity">opacity</h4>
-  <div class="markdown level1 summary"><p>Current bursh opacity. <br> 目前畫筆透明度。</p>
+  <h4 id="Votanic_vNet_Networking_NetworkObject_angleThreshold" data-uid="Votanic.vNet.Networking.NetworkObject.angleThreshold">angleThreshold</h4>
+  <div class="markdown level1 summary"><p>Angle threshold. <br> 角度閾值。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Current bursh opacity.\n&#30446;&#21069;&#30059;&#31558;&#36879;&#26126;&#24230;&#12290;&quot;)]
-public int opacity</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Angle threshold.\n&#35282;&#24230;&#38334;&#20540;&#12290;&quot;)]
+[Range(0F, 30F)]
+public float angleThreshold</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkObject_autoAddTransform" data-uid="Votanic.vNet.Networking.NetworkObject.autoAddTransform">autoAddTransform</h4>
+  <div class="markdown level1 summary"><p>Auto add target transform setting. <br> 自動加入目標 Transform 設定。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Auto add target transform setting.\n&#33258;&#21205;&#21152;&#20837;&#30446;&#27161; Transform &#35373;&#23450;&#12290;&quot;)]
+public AutoAddTransform autoAddTransform</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Networking.AutoAddTransform.html">AutoAddTransform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkObject_distanceBeforeSnap" data-uid="Votanic.vNet.Networking.NetworkObject.distanceBeforeSnap">distanceBeforeSnap</h4>
+  <div class="markdown level1 summary"><p>The distance change before snap. <br> 最大平滑變動距離。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The distance change before snap.\n&#26368;&#22823;&#24179;&#28369;&#35722;&#21205;&#36317;&#38626;&#12290;&quot;)]
+[Range(0F, 10F)]
+public float distanceBeforeSnap</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkObject_movementInterpolation" data-uid="Votanic.vNet.Networking.NetworkObject.movementInterpolation">movementInterpolation</h4>
+  <div class="markdown level1 summary"><p>Movement interpolation. <br> 移動插補。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Interpolation]&quot;)]
+[Tooltip(&quot;Movement interpolation.\n&#31227;&#21205;&#25554;&#35036;&#12290;&quot;)]
+[Range(0F, 1F)]
+public float movementInterpolation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkObject_movementThreshold" data-uid="Votanic.vNet.Networking.NetworkObject.movementThreshold">movementThreshold</h4>
+  <div class="markdown level1 summary"><p>Movement threshold. <br> 移動閾值。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Movement threshold.\n&#31227;&#21205;&#38334;&#20540;&#12290;&quot;)]
+[Range(0F, 2F)]
+public float movementThreshold</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkObject_rotationInterpolation" data-uid="Votanic.vNet.Networking.NetworkObject.rotationInterpolation">rotationInterpolation</h4>
+  <div class="markdown level1 summary"><p>Rotation interpolation. <br> 旋轉插補。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Rotation interpolation.\n&#26059;&#36681;&#25554;&#35036;&#12290;&quot;)]
+[Range(0F, 1F)]
+public float rotationInterpolation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkObject_scaleBeforeSnap" data-uid="Votanic.vNet.Networking.NetworkObject.scaleBeforeSnap">scaleBeforeSnap</h4>
+  <div class="markdown level1 summary"><p>The scale change before snap. <br> 最大平滑變動大小。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The scale change before snap.\n&#26368;&#22823;&#24179;&#28369;&#35722;&#21205;&#22823;&#23567;&#12290;&quot;)]
+[Range(0F, 10F)]
+public float scaleBeforeSnap</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkObject_scaleInterpolation" data-uid="Votanic.vNet.Networking.NetworkObject.scaleInterpolation">scaleInterpolation</h4>
+  <div class="markdown level1 summary"><p>Scale interpolation. <br> 縮放插補。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Scale interpolation.\n&#32302;&#25918;&#25554;&#35036;&#12290;&quot;)]
+[Range(0F, 1F)]
+public float scaleInterpolation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkObject_scaleThreshold" data-uid="Votanic.vNet.Networking.NetworkObject.scaleThreshold">scaleThreshold</h4>
+  <div class="markdown level1 summary"><p>Scale threshold. <br> 大小閾值。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Scale threshold.\n&#22823;&#23567;&#38334;&#20540;&#12290;&quot;)]
+[Range(0F, 1F)]
+public float scaleThreshold</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkObject_sendFrameGap" data-uid="Votanic.vNet.Networking.NetworkObject.sendFrameGap">sendFrameGap</h4>
+  <div class="markdown level1 summary"><p>The gap between each synchronization. <br> 每次同步的間隔。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Sync]&quot;)]
+[Tooltip(&quot;The gap between each synchronization.\n&#27599;&#27425;&#21516;&#27493;&#30340;&#38291;&#38548;&#12290;&quot;)]
+[Range(0F, 10F)]
+public int sendFrameGap</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -389,14 +397,14 @@ public int opacity</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_receiveShadows" data-uid="Votanic.vXR.vGear.vGear_Brush.receiveShadows">receiveShadows</h4>
-  <div class="markdown level1 summary"><p>Set the locus object can receive shadows or not. <br> 筆跡剛體是否吸收陰影。</p>
+  <h4 id="Votanic_vNet_Networking_NetworkObject_Sync" data-uid="Votanic.vNet.Networking.NetworkObject.Sync">Sync</h4>
+  <div class="markdown level1 summary"><p>Sync the network object.
+<br> 同步網絡物件。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Set the locus object can receive shadows or not.\n&#31558;&#36321;&#21083;&#39636;&#26159;&#21542;&#21560;&#25910;&#38512;&#24433;&#12290;&quot;)]
-public bool receiveShadows</code></pre>
+    <pre><code class="lang-csharp hljs">public NetworkObject.OnSync Sync</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -408,21 +416,21 @@ public bool receiveShadows</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="Votanic.vNet.Networking.NetworkObject.OnSync.html">NetworkObject.OnSync</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_reflectionProbe" data-uid="Votanic.vXR.vGear.vGear_Brush.reflectionProbe">reflectionProbe</h4>
-  <div class="markdown level1 summary"><p>The locus object reflection probe setting. <br> 筆跡反射探測設定。</p>
+  <h4 id="Votanic_vNet_Networking_NetworkObject_syncTransform" data-uid="Votanic.vNet.Networking.NetworkObject.syncTransform">syncTransform</h4>
+  <div class="markdown level1 summary"><p>The synchronizes part of tranform. <br> 同步的變換部份。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The locus object reflection probe setting.\n&#31558;&#36321;&#21453;&#23556;&#25506;&#28204;&#35373;&#23450;&#12290;&quot;)]
-public ReflectionProbeUsage reflectionProbe</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The synchronizes part of tranform.\n&#21516;&#27493;&#30340;&#35722;&#25563;&#37096;&#20221;&#12290;&quot;)]
+public SyncTransform syncTransform</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -434,21 +442,22 @@ public ReflectionProbeUsage reflectionProbe</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Rendering.ReflectionProbeUsage</span></td>
+        <td><a class="xref" href="Votanic.vNet.Networking.SyncTransform.html">SyncTransform</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_shadow" data-uid="Votanic.vXR.vGear.vGear_Brush.shadow">shadow</h4>
-  <div class="markdown level1 summary"><p>The locus object shadow setting. <br> 筆跡陰影設定。</p>
+  <h4 id="Votanic_vNet_Networking_NetworkObject_target" data-uid="Votanic.vNet.Networking.NetworkObject.target">target</h4>
+  <div class="markdown level1 summary"><p>The target transforms for synchronization. <br> 同步的目標 Transform。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The locus object shadow setting.\n&#31558;&#36321;&#38512;&#24433;&#35373;&#23450;&#12290;&quot;)]
-public ShadowCastingMode shadow</code></pre>
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Transform]&quot;)]
+[Tooltip(&quot;The target transforms for synchronization.\n&#21516;&#27493;&#30340;&#30446;&#27161; Transform&#12290;&quot;)]
+public List&lt;Transform&gt; target</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -460,21 +469,21 @@ public ShadowCastingMode shadow</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Rendering.ShadowCastingMode</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Transform</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_side" data-uid="Votanic.vXR.vGear.vGear_Brush.side">side</h4>
-  <div class="markdown level1 summary"><p>Current bursh locus polygon side. <br> 目前畫筆筆跡多邊形邊數。</p>
+  <h4 id="Votanic_vNet_Networking_NetworkObject_thresholdMovementPrediction" data-uid="Votanic.vNet.Networking.NetworkObject.thresholdMovementPrediction">thresholdMovementPrediction</h4>
+  <div class="markdown level1 summary"><p>Movement threshold prediction. <br> 移動閾值預測。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Current bursh locus polygon side.\n&#30446;&#21069;&#30059;&#31558;&#31558;&#36321;&#22810;&#37002;&#24418;&#37002;&#25976;&#12290;&quot;)]
-public int side</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Movement threshold prediction.\n&#31227;&#21205;&#38334;&#20540;&#38928;&#28204;&#12290;&quot;)]
+public float thresholdMovementPrediction</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -486,21 +495,21 @@ public int side</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_thickness" data-uid="Votanic.vXR.vGear.vGear_Brush.thickness">thickness</h4>
-  <div class="markdown level1 summary"><p>Current bursh thickness. <br> 目前畫筆粗度。</p>
+  <h4 id="Votanic_vNet_Networking_NetworkObject_thresholdRotationPrediction" data-uid="Votanic.vNet.Networking.NetworkObject.thresholdRotationPrediction">thresholdRotationPrediction</h4>
+  <div class="markdown level1 summary"><p>Rotation threshold prediction. <br> 角度閾值預測。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Current bursh thickness.\n&#30446;&#21069;&#30059;&#31558;&#31895;&#24230;&#12290;&quot;)]
-public int thickness</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Rotation threshold prediction.\n&#35282;&#24230;&#38334;&#20540;&#38928;&#28204;&#12290;&quot;)]
+public float thresholdRotationPrediction</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -512,21 +521,21 @@ public int thickness</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_useGravity" data-uid="Votanic.vXR.vGear.vGear_Brush.useGravity">useGravity</h4>
-  <div class="markdown level1 summary"><p>Apply gravity to locus object rigidbody or not. <br> 筆跡剛體是否應用重力。</p>
+  <h4 id="Votanic_vNet_Networking_NetworkObject_thresholdScalePrediction" data-uid="Votanic.vNet.Networking.NetworkObject.thresholdScalePrediction">thresholdScalePrediction</h4>
+  <div class="markdown level1 summary"><p>Scale threshold prediction. <br> 大小閾值預測。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Apply gravity to locus object rigidbody or not.\n&#31558;&#36321;&#21083;&#39636;&#26159;&#21542;&#25033;&#29992;&#37325;&#21147;&#12290;&quot;)]
-public bool useGravity</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Scale threshold prediction.\n&#22823;&#23567;&#38334;&#20540;&#38928;&#28204;&#12290;&quot;)]
+public float thresholdScalePrediction</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -538,35 +547,7 @@ public bool useGravity</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Votanic_vXR_vGear_vGear_Brush_drawn_" data-uid="Votanic.vXR.vGear.vGear_Brush.drawn*"></a>
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_drawn" data-uid="Votanic.vXR.vGear.vGear_Brush.drawn">drawn</h4>
-  <div class="markdown level1 summary"><p>Number of drawn locuses. <br> 已繪畫的筆跡數目。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int drawn { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -575,46 +556,26 @@ public bool useGravity</code></pre>
   </h3>
   
   
-  <a id="Votanic_vXR_vGear_vGear_Brush_Clear_" data-uid="Votanic.vXR.vGear.vGear_Brush.Clear*"></a>
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_Clear" data-uid="Votanic.vXR.vGear.vGear_Brush.Clear">Clear()</h4>
-  <div class="markdown level1 summary"><p>Clear all locus of this brush tool.
-<br> 清除這個畫筆工具的所有筆跡。</p>
-</div>
+  <a id="Votanic_vNet_Networking_NetworkObject_FixedUpdate_" data-uid="Votanic.vNet.Networking.NetworkObject.FixedUpdate*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkObject_FixedUpdate" data-uid="Votanic.vNet.Networking.NetworkObject.FixedUpdate">FixedUpdate()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = true)]
+public virtual void FixedUpdate()</code></pre>
   </div>
   
   
-  <a id="Votanic_vXR_vGear_vGear_Brush_Remove_" data-uid="Votanic.vXR.vGear.vGear_Brush.Remove*"></a>
-  <h4 id="Votanic_vXR_vGear_vGear_Brush_Remove_System_Int32_" data-uid="Votanic.vXR.vGear.vGear_Brush.Remove(System.Int32)">Remove(Int32)</h4>
-  <div class="markdown level1 summary"><p>Remove a locus of this brush tool.
-<br> 移除這個畫筆工具的一個筆跡。</p>
-<p> Remove(0) </p>
-</div>
+  <a id="Votanic_vNet_Networking_NetworkObject_Start_" data-uid="Votanic.vNet.Networking.NetworkObject.Start*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkObject_Start" data-uid="Votanic.vNet.Networking.NetworkObject.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Remove(int locus)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = true)]
+public virtual void Start()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">locus</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

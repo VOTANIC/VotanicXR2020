@@ -116,7 +116,8 @@ public class vGear_Positioner : vGear_Detector</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float angle</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Facing angle range.\n&#38754;&#23565;&#35282;&#24230;&#30340;&#23481;&#35377;&#31684;&#22285;&#12290;&quot;)]
+public float angle</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -141,7 +142,8 @@ public class vGear_Positioner : vGear_Detector</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MeshRenderer blink</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Blink component to attract user.\n&#21560;&#24341;&#20351;&#29992;&#32773;&#30340;&#38275;&#29197;&#32068;&#20214;&#12290;&quot;)]
+public MeshRenderer blink</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,7 +168,8 @@ public class vGear_Positioner : vGear_Detector</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float blinkSpeed</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Blink speed of blink component.\n&#38275;&#29197;&#32068;&#20214;&#30340;&#38275;&#29197;&#36895;&#24230;&#12290;&quot;)]
+public float blinkSpeed</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -191,7 +194,8 @@ public class vGear_Positioner : vGear_Detector</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int countOnPosition</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return the number of objects that are on posiiton.\n&#20659;&#22238;&#20301;&#32622;&#20597;&#28204;&#22120;&#30446;&#21069;&#24050;&#20597;&#28204;&#21040;&#30340;&#29289;&#20214;&#25976;&#30446;&#12290;&quot;)]
+public int countOnPosition</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -217,6 +221,7 @@ public class vGear_Positioner : vGear_Detector</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Position Settings]&quot;)]
+[Tooltip(&quot;Maximum distance from the positioner center.\n&#30001;&#20301;&#32622;&#20597;&#28204;&#22120;&#20013;&#24515;&#35336;&#31639;&#30340;&#26368;&#36960;&#36317;&#38626;&#12290;&quot;)]
 public float distance</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -243,6 +248,7 @@ public float distance</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+[Tooltip(&quot;Icon component to mention posiiton and facing angle.\n&#25552;&#31034;&#20301;&#32622;&#21450;&#38754;&#23565;&#35282;&#24230;&#30340;&#22294;&#27161;&#32068;&#20214;&#12290;&quot;)]
 public MeshRenderer icon</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -268,7 +274,8 @@ public MeshRenderer icon</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Texture iconTexture</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Texture of icon component.\n&#22294;&#27161;&#32068;&#20214;&#30340;&#32011;&#29702;&#12290;&quot;)]
+public Texture iconTexture</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -293,7 +300,8 @@ public MeshRenderer icon</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isOnPosition</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return true if all required objects are on posiiton.\n&#30070;&#20301;&#32622;&#20597;&#28204;&#22120;&#20597;&#28204;&#21040;&#25152;&#26377;&#38656;&#35201;&#30340;&#29289;&#20214;&#26178;&#20659;&#22238; true&#12290;&quot;)]
+public bool isOnPosition</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -318,7 +326,8 @@ public MeshRenderer icon</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isShowing</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return true if the positioner is showing.\n&#30070;&#20301;&#32622;&#20597;&#28204;&#22120;&#39023;&#31034;&#26178;&#20659;&#22238; true&#12290;&quot;)]
+public bool isShowing</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -343,7 +352,8 @@ public MeshRenderer icon</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float maxBlinkSize</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Maximum scale of blink component.\n&#38275;&#29197;&#32068;&#20214;&#30340;&#26368;&#22823;&#22823;&#23567;&#12290;&quot;)]
+public float maxBlinkSize</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -368,7 +378,8 @@ public MeshRenderer icon</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float minBlinkSize</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Minimum scale of blink component.\n&#38275;&#29197;&#32068;&#20214;&#30340;&#26368;&#23567;&#22823;&#23567;&#12290;&quot;)]
+public float minBlinkSize</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -394,6 +405,7 @@ public MeshRenderer icon</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[Position Status]&quot;)]
+[Tooltip(&quot;The objects that fulfill detect condition.\n&#31526;&#21512;&#20597;&#28204;&#26781;&#20214;&#30340;&#29289;&#20214;&#12290;&quot;)]
 public List&lt;Transform&gt; objectsOnPosition</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -419,7 +431,8 @@ public List&lt;Transform&gt; objectsOnPosition</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool unscaledDeltaTime</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Using unscaled delta time.\n&#20351;&#29992;&#26410;&#32302;&#25918;&#30340;&#26178;&#38291;&#35722;&#21270;&#12290;&quot;)]
+public bool unscaledDeltaTime</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -444,7 +457,8 @@ public List&lt;Transform&gt; objectsOnPosition</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool zeroHeight</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Using the object zero local height value.\n&#20351;&#29992;&#29289;&#20214;&#30456;&#23565;&#26044;&#27597;&#39636;&#30340;&#38646;&#39640;&#24230;&#20540;&#12290;&quot;)]
+public bool zeroHeight</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
