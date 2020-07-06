@@ -615,6 +615,107 @@ references:
   commentId: T:Votanic.Util
   fullName: Votanic.Util
   nameWithType: Util
+- uid: Votanic.Util.Base
+  name: Util.Base
+  href: api/Votanic.Util.Base.html
+  commentId: T:Votanic.Util.Base
+  fullName: Votanic.Util.Base
+  nameWithType: Util.Base
+- uid: Votanic.Util.Base.Base128
+  name: Base128
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_Base128
+  commentId: F:Votanic.Util.Base.Base128
+  fullName: Votanic.Util.Base.Base128
+  nameWithType: Util.Base.Base128
+- uid: Votanic.Util.Base.Base16
+  name: Base16
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_Base16
+  commentId: F:Votanic.Util.Base.Base16
+  fullName: Votanic.Util.Base.Base16
+  nameWithType: Util.Base.Base16
+- uid: Votanic.Util.Base.Base32
+  name: Base32
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_Base32
+  commentId: F:Votanic.Util.Base.Base32
+  fullName: Votanic.Util.Base.Base32
+  nameWithType: Util.Base.Base32
+- uid: Votanic.Util.Base.Base36
+  name: Base36
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_Base36
+  commentId: F:Votanic.Util.Base.Base36
+  fullName: Votanic.Util.Base.Base36
+  nameWithType: Util.Base.Base36
+- uid: Votanic.Util.Base.Base64
+  name: Base64
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_Base64
+  commentId: F:Votanic.Util.Base.Base64
+  fullName: Votanic.Util.Base.Base64
+  nameWithType: Util.Base.Base64
+- uid: Votanic.Util.Base.Compress(System.Object,System.UInt32)
+  name: Compress(Object, UInt32)
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_Compress_System_Object_System_UInt32_
+  commentId: M:Votanic.Util.Base.Compress(System.Object,System.UInt32)
+  fullName: Votanic.Util.Base.Compress(System.Object, System.UInt32)
+  nameWithType: Util.Base.Compress(Object, UInt32)
+- uid: Votanic.Util.Base.Compress*
+  name: Compress
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_Compress_
+  commentId: Overload:Votanic.Util.Base.Compress
+  isSpec: "True"
+  fullName: Votanic.Util.Base.Compress
+  nameWithType: Util.Base.Compress
+- uid: Votanic.Util.Base.Convert(System.Object,System.UInt32,System.UInt32)
+  name: Convert(Object, UInt32, UInt32)
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_Convert_System_Object_System_UInt32_System_UInt32_
+  commentId: M:Votanic.Util.Base.Convert(System.Object,System.UInt32,System.UInt32)
+  fullName: Votanic.Util.Base.Convert(System.Object, System.UInt32, System.UInt32)
+  nameWithType: Util.Base.Convert(Object, UInt32, UInt32)
+- uid: Votanic.Util.Base.Convert*
+  name: Convert
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_Convert_
+  commentId: Overload:Votanic.Util.Base.Convert
+  isSpec: "True"
+  fullName: Votanic.Util.Base.Convert
+  nameWithType: Util.Base.Convert
+- uid: Votanic.Util.Base.Decompress(System.String,System.UInt32)
+  name: Decompress(String, UInt32)
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_Decompress_System_String_System_UInt32_
+  commentId: M:Votanic.Util.Base.Decompress(System.String,System.UInt32)
+  fullName: Votanic.Util.Base.Decompress(System.String, System.UInt32)
+  nameWithType: Util.Base.Decompress(String, UInt32)
+- uid: Votanic.Util.Base.Decompress*
+  name: Decompress
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_Decompress_
+  commentId: Overload:Votanic.Util.Base.Decompress
+  isSpec: "True"
+  fullName: Votanic.Util.Base.Decompress
+  nameWithType: Util.Base.Decompress
+- uid: Votanic.Util.Base.FromBase10(System.Double,System.UInt32)
+  name: FromBase10(Double, UInt32)
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_FromBase10_System_Double_System_UInt32_
+  commentId: M:Votanic.Util.Base.FromBase10(System.Double,System.UInt32)
+  fullName: Votanic.Util.Base.FromBase10(System.Double, System.UInt32)
+  nameWithType: Util.Base.FromBase10(Double, UInt32)
+- uid: Votanic.Util.Base.FromBase10*
+  name: FromBase10
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_FromBase10_
+  commentId: Overload:Votanic.Util.Base.FromBase10
+  isSpec: "True"
+  fullName: Votanic.Util.Base.FromBase10
+  nameWithType: Util.Base.FromBase10
+- uid: Votanic.Util.Base.ToBase10(System.String,System.UInt32)
+  name: ToBase10(String, UInt32)
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_ToBase10_System_String_System_UInt32_
+  commentId: M:Votanic.Util.Base.ToBase10(System.String,System.UInt32)
+  fullName: Votanic.Util.Base.ToBase10(System.String, System.UInt32)
+  nameWithType: Util.Base.ToBase10(String, UInt32)
+- uid: Votanic.Util.Base.ToBase10*
+  name: ToBase10
+  href: api/Votanic.Util.Base.html#Votanic_Util_Base_ToBase10_
+  commentId: Overload:Votanic.Util.Base.ToBase10
+  isSpec: "True"
+  fullName: Votanic.Util.Base.ToBase10
+  nameWithType: Util.Base.ToBase10
 - uid: Votanic.Util.ColorToTexture(System.Int32,System.Int32,UnityEngine.Color)
   name: ColorToTexture(Int32, Int32, Color)
   href: api/Votanic.Util.html#Votanic_Util_ColorToTexture_System_Int32_System_Int32_UnityEngine_Color_
@@ -628,6 +729,30 @@ references:
   isSpec: "True"
   fullName: Votanic.Util.ColorToTexture
   nameWithType: Util.ColorToTexture
+- uid: Votanic.Util.Constant
+  name: Util.Constant
+  href: api/Votanic.Util.Constant.html
+  commentId: T:Votanic.Util.Constant
+  fullName: Votanic.Util.Constant
+  nameWithType: Util.Constant
+- uid: Votanic.Util.Constant.e
+  name: e
+  href: api/Votanic.Util.Constant.html#Votanic_Util_Constant_e
+  commentId: F:Votanic.Util.Constant.e
+  fullName: Votanic.Util.Constant.e
+  nameWithType: Util.Constant.e
+- uid: Votanic.Util.Constant.goldeRatio
+  name: goldeRatio
+  href: api/Votanic.Util.Constant.html#Votanic_Util_Constant_goldeRatio
+  commentId: F:Votanic.Util.Constant.goldeRatio
+  fullName: Votanic.Util.Constant.goldeRatio
+  nameWithType: Util.Constant.goldeRatio
+- uid: Votanic.Util.Constant.pi
+  name: pi
+  href: api/Votanic.Util.Constant.html#Votanic_Util_Constant_pi
+  commentId: F:Votanic.Util.Constant.pi
+  fullName: Votanic.Util.Constant.pi
+  nameWithType: Util.Constant.pi
 - uid: Votanic.Util.CopyComponent*
   name: CopyComponent
   href: api/Votanic.Util.html#Votanic_Util_CopyComponent_
@@ -8503,6 +8628,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Networking.NetworkManager.Start
   nameWithType: NetworkManager.Start
+- uid: Votanic.vNet.Networking.NetworkManager.StartNetworkConnection
+  name: StartNetworkConnection()
+  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_StartNetworkConnection
+  commentId: M:Votanic.vNet.Networking.NetworkManager.StartNetworkConnection
+  fullName: Votanic.vNet.Networking.NetworkManager.StartNetworkConnection()
+  nameWithType: NetworkManager.StartNetworkConnection()
+- uid: Votanic.vNet.Networking.NetworkManager.StartNetworkConnection*
+  name: StartNetworkConnection
+  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_StartNetworkConnection_
+  commentId: Overload:Votanic.vNet.Networking.NetworkManager.StartNetworkConnection
+  isSpec: "True"
+  fullName: Votanic.vNet.Networking.NetworkManager.StartNetworkConnection
+  nameWithType: NetworkManager.StartNetworkConnection
 - uid: Votanic.vNet.Networking.NetworkManager.state
   name: state
   href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_state
@@ -8528,6 +8666,19 @@ references:
   commentId: F:Votanic.vNet.Networking.NetworkManager.stopMsg
   fullName: Votanic.vNet.Networking.NetworkManager.stopMsg
   nameWithType: NetworkManager.stopMsg
+- uid: Votanic.vNet.Networking.NetworkManager.StopNetworkConnection
+  name: StopNetworkConnection()
+  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_StopNetworkConnection
+  commentId: M:Votanic.vNet.Networking.NetworkManager.StopNetworkConnection
+  fullName: Votanic.vNet.Networking.NetworkManager.StopNetworkConnection()
+  nameWithType: NetworkManager.StopNetworkConnection()
+- uid: Votanic.vNet.Networking.NetworkManager.StopNetworkConnection*
+  name: StopNetworkConnection
+  href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_StopNetworkConnection_
+  commentId: Overload:Votanic.vNet.Networking.NetworkManager.StopNetworkConnection
+  isSpec: "True"
+  fullName: Votanic.vNet.Networking.NetworkManager.StopNetworkConnection
+  nameWithType: NetworkManager.StopNetworkConnection
 - uid: Votanic.vNet.Networking.NetworkManager.SyncUsers
   name: SyncUsers()
   href: api/Votanic.vNet.Networking.NetworkManager.html#Votanic_vNet_Networking_NetworkManager_SyncUsers
@@ -8793,6 +8944,12 @@ references:
   commentId: T:Votanic.vNet.Networking.SyncTransform
   fullName: Votanic.vNet.Networking.SyncTransform
   nameWithType: SyncTransform
+- uid: Votanic.vNet.Networking.SyncTransform.local
+  name: local
+  href: api/Votanic.vNet.Networking.SyncTransform.html#Votanic_vNet_Networking_SyncTransform_local
+  commentId: F:Votanic.vNet.Networking.SyncTransform.local
+  fullName: Votanic.vNet.Networking.SyncTransform.local
+  nameWithType: SyncTransform.local
 - uid: Votanic.vNet.Networking.SyncTransform.position
   name: position
   href: api/Votanic.vNet.Networking.SyncTransform.html#Votanic_vNet_Networking_SyncTransform_position

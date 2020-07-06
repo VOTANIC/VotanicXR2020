@@ -113,6 +113,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.Util.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.Util.Base.html",
+          "hash": "axFTJBmcHhjzdZ/3dRpnJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.Util.Constant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.Util.Constant.html",
+          "hash": "TUQfO1903wu7aBdrLjdlOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Votanic.Util.yml",
       "output": {
         ".html": {
@@ -1089,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vNet.Networking.NetworkManager.html",
-          "hash": "iShYcN71Wk8mqjKR70GGfw=="
+          "hash": "E3cEXsW0sMg3990MnCr76g=="
         }
       },
       "is_incremental": false,
@@ -1149,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vNet.Networking.SyncTransform.html",
-          "hash": "jZLqVWDYaRdKOKjRdVlS2g=="
+          "hash": "VaT6rwlNJ3GIsGQ0YBjZBA=="
         }
       },
       "is_incremental": false,
@@ -2157,7 +2181,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.Networking.vGear_Networking.html",
-          "hash": "YculkyAkCpR74GH/PS7qQw=="
+          "hash": "Nxd+tBUKlDkNI/2vvd/7UA=="
         }
       },
       "is_incremental": false,
@@ -2841,7 +2865,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.html",
-          "hash": "e+ySSXT41x2ZUfeGWsSwKA=="
+          "hash": "lwSpXUPzVXtJyaerX0LWuQ=="
         }
       },
       "is_incremental": false,
@@ -2865,7 +2889,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "iupsST+efNFm42d/fPhwNQ=="
+          "hash": "sNlHeggbqxWcrZZXz8z2wQ=="
         }
       },
       "is_incremental": false,
@@ -2950,8 +2974,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 237,
-          "skipped_file_count": 101
+          "total_file_count": 239,
+          "skipped_file_count": 227
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
