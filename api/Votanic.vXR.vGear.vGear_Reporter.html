@@ -258,6 +258,86 @@ public string outputDirectory</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_realTime" data-uid="Votanic.vXR.vGear.vGear_Reporter.realTime">realTime</h4>
+  <div class="markdown level1 summary"><p>Default open tool real time mode. <br> 預設打開工具的實時模式。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Default open tool real time mode.\n&#38928;&#35373;&#25171;&#38283;&#24037;&#20855;&#30340;&#23526;&#26178;&#27169;&#24335;&#12290;&quot;)]
+public bool realTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_recordPrefab" data-uid="Votanic.vXR.vGear.vGear_Reporter.recordPrefab">recordPrefab</h4>
+  <div class="markdown level1 summary"><p>The prefab for captured record. If it is not null, a record object will be created by every capture action. The image will be render to the first child object.
+<br> 捕捉的記錄預載體。當它不是空時，每捕捉一個影像將會生成一個記錄物件，並且顯示在第一個子物件中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The prefab for captured record. If it is not null, a record object will be created by every capture action. The image will be render to the first child object.\n&#25429;&#25417;&#30340;&#35352;&#37636;&#38928;&#36617;&#39636;&#12290;&#30070;&#23427;&#19981;&#26159;&#31354;&#26178;&#65292;&#27599;&#25429;&#25417;&#19968;&#20491;&#24433;&#20687;&#23559;&#26371;&#29983;&#25104;&#19968;&#20491;&#35352;&#37636;&#29289;&#20214;&#65292;&#20006;&#19988;&#39023;&#31034;&#22312;&#31532;&#19968;&#20491;&#23376;&#29289;&#20214;&#20013;&#12290;&quot;)]
+public GameObject recordPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_remarkPrefab" data-uid="Votanic.vXR.vGear.vGear_Reporter.remarkPrefab">remarkPrefab</h4>
+  <div class="markdown level1 summary"><p>The prefab for panel of remark. If it is not null, a remark panel will be created by every captured record created.
+<br> 備註面板預載體。 當它不是空時，每生成一個記錄物件將會生成一個備註面板。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The prefab for panel of remark. If it is not null, a remark panel will be created by every captured record created.\n&#20633;&#35387;&#38754;&#26495;&#38928;&#36617;&#39636;&#12290;&#30070;&#23427;&#19981;&#26159;&#31354;&#26178;&#65292;&#27599;&#29983;&#25104;&#19968;&#20491;&#35352;&#37636;&#29289;&#20214;&#23559;&#26371;&#29983;&#25104;&#19968;&#20491;&#20633;&#35387;&#38754;&#26495;&#12290;&quot;)]
+public GameObject remarkPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vXR_vGear_vGear_Reporter_reportSFX" data-uid="Votanic.vXR.vGear.vGear_Reporter.reportSFX">reportSFX</h4>
   <div class="markdown level1 summary"><p>Sound effect of report action. <br> 產生報告時的音效。</p>
 </div>
@@ -343,7 +423,7 @@ public Vector2Int textureSize</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Tooltip(&quot;The view finder of camera.\n&#30456;&#27231;&#30340;&#21462;&#26223;&#22120;&#12290;&quot;)]
-public MeshRenderer viewFinder</code></pre>
+public Renderer viewFinder</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -355,7 +435,7 @@ public MeshRenderer viewFinder</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.MeshRenderer</span></td>
+        <td><span class="xref">UnityEngine.Renderer</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -413,6 +493,34 @@ public float zoomSpeed</code></pre>
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Reporter_recorded_" data-uid="Votanic.vXR.vGear.vGear_Reporter.recorded*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_recorded" data-uid="Votanic.vXR.vGear.vGear_Reporter.recorded">recorded</h4>
+  <div class="markdown level1 summary"><p>Number of current record. <br> 目前已記錄的數目。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int recorded { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -426,6 +534,18 @@ public float zoomSpeed</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Capture()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Reporter_Clear_" data-uid="Votanic.vXR.vGear.vGear_Reporter.Clear*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_Clear" data-uid="Votanic.vXR.vGear.vGear_Reporter.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clear all locus of this brush tool.
+<br> 清除這個畫筆工具的所有筆跡。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
   </div>
   
   
@@ -527,6 +647,37 @@ public float zoomSpeed</code></pre>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">realTime</span></td>
         <td><p>Turn on view finder if true <br> 當 true 時打開取景器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Reporter_Remove_" data-uid="Votanic.vXR.vGear.vGear_Reporter.Remove*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Reporter_Remove_System_Int32_" data-uid="Votanic.vXR.vGear.vGear_Reporter.Remove(System.Int32)">Remove(Int32)</h4>
+  <div class="markdown level1 summary"><p>Remove a record of this reporter tool.
+<br> 移除這個報告工具的一個記錄。</p>
+<p> Remove(0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Record index <br> 記錄編號</p>
 </td>
       </tr>
     </tbody>
