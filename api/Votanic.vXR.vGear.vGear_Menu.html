@@ -123,13 +123,39 @@ public vGear_Button buttonReference</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Menu_icons" data-uid="Votanic.vXR.vGear.vGear_Menu.icons">icons</h4>
-  <div class="markdown level1 summary"><p>Icons for button. <br> 按鈕圖示。</p>
+  <h4 id="Votanic_vXR_vGear_vGear_Menu_coreIcons" data-uid="Votanic.vXR.vGear.vGear_Menu.coreIcons">coreIcons</h4>
+  <div class="markdown level1 summary"><p>Icons for menu core button. <br> 選單核心按鈕的圖示。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Icons for button.\n&#25353;&#37397;&#22294;&#31034;&#12290;&quot;)]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Icons for menu core button.\n&#36984;&#21934;&#26680;&#24515;&#25353;&#37397;&#30340;&#22294;&#31034;&#12290;&quot;)]
+public List&lt;Texture2D&gt; coreIcons</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Texture2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Menu_icons" data-uid="Votanic.vXR.vGear.vGear_Menu.icons">icons</h4>
+  <div class="markdown level1 summary"><p>Icons for custom button. <br> 自定義按鈕的圖示。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Icons for custom button.\n&#33258;&#23450;&#32681;&#25353;&#37397;&#30340;&#22294;&#31034;&#12290;&quot;)]
 public List&lt;Texture2D&gt; icons</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -176,13 +202,66 @@ public bool isOpen</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vXR_vGear_vGear_Menu_page" data-uid="Votanic.vXR.vGear.vGear_Menu.page">page</h4>
+  <div class="markdown level1 summary"><p>Default page. <br> 預設頁面。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Default page.\n&#38928;&#35373;&#38913;&#38754;&#12290;&quot;)]
+public int page</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Menu_pages" data-uid="Votanic.vXR.vGear.vGear_Menu.pages">pages</h4>
+  <div class="markdown level1 summary"><p>Pages of menu. <br> 選單頁面。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Custom Menu]&quot;)]
+[Tooltip(&quot;Pages of menu.\n&#36984;&#21934;&#38913;&#38754;&#12290;&quot;)]
+public List&lt;vGear_Panel&gt; pages</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.vGear_Panel.html">vGear_Panel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vXR_vGear_vGear_Menu_panelReference" data-uid="Votanic.vXR.vGear.vGear_Menu.panelReference">panelReference</h4>
   <div class="markdown level1 summary"><p>Panel reference to duplicate. <br> 複製面板的參考物件。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Built-in Menu]&quot;)]
 [Tooltip(&quot;Panel reference to duplicate.\n&#35079;&#35069;&#38754;&#26495;&#30340;&#21443;&#32771;&#29289;&#20214;&#12290;&quot;)]
 public vGear_Panel panelReference</code></pre>
   </div>
@@ -201,6 +280,184 @@ public vGear_Panel panelReference</code></pre>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Menu_Close_" data-uid="Votanic.vXR.vGear.vGear_Menu.Close*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Menu_Close" data-uid="Votanic.vXR.vGear.vGear_Menu.Close">Close()</h4>
+  <div class="markdown level1 summary"><p>Close menu.
+<br> 關閉選單。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Close()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Menu_Open_" data-uid="Votanic.vXR.vGear.vGear_Menu.Open*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Menu_Open_System_Int32_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Menu.Open(System.Int32,System.Boolean)">Open(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Open menu.
+<br> 打開選單。</p>
+<p> Open(1) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Open(int page = 0, bool closeOthers = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>Panel index <br> 面板編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">closeOthers</span></td>
+        <td><p>Close other panels if true <br> 當 true 時關閉其他面板</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Menu_Open_" data-uid="Votanic.vXR.vGear.vGear_Menu.Open*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Menu_Open_System_Int32_System_Boolean_UnityEngine_Transform_System_Boolean_UnityEngine_Transform_" data-uid="Votanic.vXR.vGear.vGear_Menu.Open(System.Int32,System.Boolean,UnityEngine.Transform,System.Boolean,UnityEngine.Transform)">Open(Int32, Boolean, Transform, Boolean, Transform)</h4>
+  <div class="markdown level1 summary"><p>Open menu.
+<br> 打開選單。</p>
+<p> Open(1, true, transform) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Open(int page, bool closeOthers, Transform transform, bool parent = false, Transform parentTransform = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>Panel index <br> 面板編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">closeOthers</span></td>
+        <td><p>Close other panels if true <br> 當 true 時關閉其他面板</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">transform</span></td>
+        <td><p>Target transform <br> 目標 Transform</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>Parent to parent transfrom <br> 成為母物件 Transform 的子物件</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">parentTransform</span></td>
+        <td><p>Parent transfrom <br> 母物件 Transform</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Menu_Open_" data-uid="Votanic.vXR.vGear.vGear_Menu.Open*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Menu_Open_System_Int32_System_Boolean_UnityEngine_Vector3_UnityEngine_Vector3_System_Boolean_UnityEngine_Transform_" data-uid="Votanic.vXR.vGear.vGear_Menu.Open(System.Int32,System.Boolean,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,UnityEngine.Transform)">Open(Int32, Boolean, Vector3, Vector3, Boolean, Transform)</h4>
+  <div class="markdown level1 summary"><p>Open menu.
+<br> 打開選單。</p>
+<p> Open(1, true, transform) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Open(int page, bool closeOthers, Vector3 position, Vector3 eulerAngles, bool parent = false, Transform parentTransform = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>Panel index <br> 面板編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">closeOthers</span></td>
+        <td><p>Close other panels if true <br> 當 true 時關閉其他面板</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Target position <br> 目標位置</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">eulerAngles</span></td>
+        <td><p>Target euler angles <br> 目標角度</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>Parent to parent transfrom <br> 成為母物件 Transform 的子物件</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">parentTransform</span></td>
+        <td><p>Parent transfrom <br> 母物件 Transform</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Menu_Start_" data-uid="Votanic.vXR.vGear.vGear_Menu.Start*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Menu_Start" data-uid="Votanic.vXR.vGear.vGear_Menu.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = true)]
+public virtual void Start()</code></pre>
+  </div>
 </article>
           </div>
           

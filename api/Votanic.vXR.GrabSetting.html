@@ -74,7 +74,7 @@
   <h1 id="Votanic_vXR_GrabSetting" data-uid="Votanic.vXR.GrabSetting" class="text-break">Class GrabSetting
   </h1>
   <div class="markdown level0 summary"><p>Grab setting of interactables.
-<br> 交互物抓起設定。</p>
+<br> 交互物抓握設定。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -120,12 +120,12 @@ public bool fixedJoint</code></pre>
   
   
   <h4 id="Votanic_vXR_GrabSetting_grabbable" data-uid="Votanic.vXR.GrabSetting.grabbable">grabbable</h4>
-  <div class="markdown level1 summary"><p>Decide the interactables can be grabbed or not. <br> 決定交互物能否被抓起。</p>
+  <div class="markdown level1 summary"><p>Decide the interactables can be grabbed or not. <br> 決定交互物能否被抓握。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide the interactables can be grabbed or not.\n&#27770;&#23450;&#20132;&#20114;&#29289;&#33021;&#21542;&#34987;&#25235;&#36215;&#12290;&quot;)]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide the interactables can be grabbed or not.\n&#27770;&#23450;&#20132;&#20114;&#29289;&#33021;&#21542;&#34987;&#25235;&#25569;&#12290;&quot;)]
 public bool grabbable</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -197,6 +197,32 @@ public bool parentToController</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vXR_GrabSetting_pickable" data-uid="Votanic.vXR.GrabSetting.pickable">pickable</h4>
+  <div class="markdown level1 summary"><p>Decide the interactables can be picked or not. <br> 決定交互物能否被拾起。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide the interactables can be picked or not.\n&#27770;&#23450;&#20132;&#20114;&#29289;&#33021;&#21542;&#34987;&#25342;&#36215;&#12290;&quot;)]
+public bool pickable</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vXR_GrabSetting_positionOffset" data-uid="Votanic.vXR.GrabSetting.positionOffset">positionOffset</h4>
   <div class="markdown level1 summary"><p>The zero position offset. <br> 位置零值偏移。</p>
 </div>
@@ -250,12 +276,12 @@ public Vector3 rotationOffset</code></pre>
   
   
   <h4 id="Votanic_vXR_GrabSetting_zeroTransform" data-uid="Votanic.vXR.GrabSetting.zeroTransform">zeroTransform</h4>
-  <div class="markdown level1 summary"><p>Decide the local position and euler angles are set to zero or not. <br> 決定是否將本地位置及角度設定為零值。</p>
+  <div class="markdown level1 summary"><p>Decide the local position and euler angles are set to zero or not for grab. <br> 決定是否在抓握時將本地位置及角度設定為零值。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide the local position and euler angles are set to zero or not.\n&#27770;&#23450;&#26159;&#21542;&#23559;&#26412;&#22320;&#20301;&#32622;&#21450;&#35282;&#24230;&#35373;&#23450;&#28858;&#38646;&#20540;&#12290;&quot;)]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide the local position and euler angles are set to zero or not for grab.\n&#27770;&#23450;&#26159;&#21542;&#22312;&#25235;&#25569;&#26178;&#23559;&#26412;&#22320;&#20301;&#32622;&#21450;&#35282;&#24230;&#35373;&#23450;&#28858;&#38646;&#20540;&#12290;&quot;)]
 public bool zeroTransform</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>

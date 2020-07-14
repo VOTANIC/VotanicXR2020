@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Interaction
+    <title>Class ReporterRemark
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Interaction
+    <meta name="title" content="Class ReporterRemark
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,39 +68,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.Interaction">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.ReporterRemark">
   
   
-  <h1 id="Votanic_vXR_Interaction" data-uid="Votanic.vXR.Interaction" class="text-break">Class Interaction
+  <h1 id="Votanic_vXR_vGear_ReporterRemark" data-uid="Votanic.vXR.vGear.ReporterRemark" class="text-break">Class ReporterRemark
   </h1>
-  <div class="markdown level0 summary"><p>Interaction settings of interactables.
-<br> 交互物的互動設定。</p>
+  <div class="markdown level0 summary"><p>Remark setting of reporter.
+<br> 報告工具備註設定。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Interaction</span></div>
+    <div class="level1"><span class="xref">ReporterRemark</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.html">Votanic.vXR</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.html">Votanic.vXR.vGear</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_Interaction_syntax">Syntax</h5>
+  <h5 id="Votanic_vXR_vGear_ReporterRemark_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class Interaction</code></pre>
+public class ReporterRemark</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Votanic_vXR_Interaction_command" data-uid="Votanic.vXR.Interaction.command">command</h4>
-  <div class="markdown level1 summary"><p>The main command to send when the interaction has done. <br> 互動完成時主要傳送的指令。</p>
+  <h4 id="Votanic_vXR_vGear_ReporterRemark_assistOffset" data-uid="Votanic.vXR.vGear.ReporterRemark.assistOffset">assistOffset</h4>
+  <div class="markdown level1 summary"><p>The assist remark display position offset. <br> 副備註顯示位置偏移。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The command to send when the interaction has done.\n&#20114;&#21205;&#23436;&#25104;&#26178;&#20659;&#36865;&#30340;&#25351;&#20196;&#12290;&quot;)]
-public string command</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The assist remark display position offset.\n&#21103;&#20633;&#35387;&#39023;&#31034;&#20301;&#32622;&#20559;&#31227;&#12290;&quot;)]
+public Vector3 assistOffset</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -112,21 +112,21 @@ public string command</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_Interaction_commands" data-uid="Votanic.vXR.Interaction.commands">commands</h4>
-  <div class="markdown level1 summary"><p>The command list of interaction, including main command. <br> 互動指令列表，包括主要指令。</p>
+  <h4 id="Votanic_vXR_vGear_ReporterRemark_assistRemark" data-uid="Votanic.vXR.vGear.ReporterRemark.assistRemark">assistRemark</h4>
+  <div class="markdown level1 summary"><p>The assist remark panel. <br> 副備註面板。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The command list of interaction, including main command.\n&#20114;&#21205;&#25351;&#20196;&#21015;&#34920;&#65292;&#21253;&#25324;&#20027;&#35201;&#25351;&#20196;&#12290;&quot;)]
-public List&lt;InteractionCommand&gt; commands</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The assist remark panel.\n&#21103;&#20633;&#35387;&#38754;&#26495;&#12290;&quot;)]
+public vGear_Panel assistRemark</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,47 +138,21 @@ public List&lt;InteractionCommand&gt; commands</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.InteractionCommand.html">InteractionCommand</a>&gt;</td>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_Panel.html">vGear_Panel</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_Interaction_interactionType" data-uid="Votanic.vXR.Interaction.interactionType">interactionType</h4>
-  <div class="markdown level1 summary"><p>The interaction method of interactables. <br> 與交互物產生互動的方法。</p>
+  <h4 id="Votanic_vXR_vGear_ReporterRemark_fitScreenWidth" data-uid="Votanic.vXR.vGear.ReporterRemark.fitScreenWidth">fitScreenWidth</h4>
+  <div class="markdown level1 summary"><p>Assist remark will fit screen width if true. <br> 當 true 時副備註將會緊貼屏幕闊度。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The interaction method of interactables.\n&#33287;&#20132;&#20114;&#29289;&#29986;&#29983;&#20114;&#21205;&#30340;&#26041;&#27861;&#12290;&quot;)]
-public InteractionType interactionType</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vXR.InteractionType.html">InteractionType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_Interaction_persistentPriority" data-uid="Votanic.vXR.Interaction.persistentPriority">persistentPriority</h4>
-  <div class="markdown level1 summary"><p>Persistent listeners priority for Unity Event. <br> Unity 事件非實時回調函數優先。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Persistent listeners priority.\n&#38750;&#23526;&#26178;&#22238;&#35519;&#20989;&#25976;&#20778;&#20808;&#12290;&quot;)]
-public bool persistentPriority</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Assist rearmk will fit screen width.\n&#21103;&#20633;&#35387;&#23559;&#26371;&#32202;&#36028;&#23631;&#24149;&#38346;&#24230;&#12290;&quot;)]
+public bool fitScreenWidth</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -197,14 +171,14 @@ public bool persistentPriority</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_Interaction_target" data-uid="Votanic.vXR.Interaction.target">target</h4>
-  <div class="markdown level1 summary"><p>Target object index for the command. (User, Controller, Sensor...) <br> 指令的目標物編號（使用者、控制器、感應器...）。</p>
+  <h4 id="Votanic_vXR_vGear_ReporterRemark_mountScreen" data-uid="Votanic.vXR.vGear.ReporterRemark.mountScreen">mountScreen</h4>
+  <div class="markdown level1 summary"><p>Target screen for assist remark. <br> 副備註目標屏幕。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Target object index for the command. (User, Controller, Sensor...).\n&#25351;&#20196;&#30340;&#30446;&#27161;&#29289;&#32232;&#34399;&#65288;&#20351;&#29992;&#32773;&#12289;&#25511;&#21046;&#22120;&#12289;&#24863;&#25033;&#22120;...&#65289;&#12290;&quot;)]
-public int target</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Target screen for assist remark.\n&#21103;&#20633;&#35387;&#30446;&#27161;&#23631;&#24149;&#12290;&quot;)]
+public string mountScreen</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,21 +190,21 @@ public int target</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_Interaction_unityEvent" data-uid="Votanic.vXR.Interaction.unityEvent">unityEvent</h4>
-  <div class="markdown level1 summary"><p>The event needed to be called or passed parameters. <br> 需要呼叫或傳遞參數的事件。</p>
+  <h4 id="Votanic_vXR_vGear_ReporterRemark_remarkOffset" data-uid="Votanic.vXR.vGear.ReporterRemark.remarkOffset">remarkOffset</h4>
+  <div class="markdown level1 summary"><p>The default remark display position offset. <br> 預設備註顯示位置偏移。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The event needed to be called or passed parameters.\n&#38656;&#35201;&#21628;&#21483;&#25110;&#20659;&#36958;&#21443;&#25976;&#30340;&#20107;&#20214;&#12290;&quot;)]
-public ParameterEvent unityEvent</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The default remark display position offset.\n&#38928;&#35373;&#20633;&#35387;&#39023;&#31034;&#20301;&#32622;&#20559;&#31227;&#12290;&quot;)]
+public Vector3 remarkOffset</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -242,21 +216,21 @@ public ParameterEvent unityEvent</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.ParameterEvent.html">ParameterEvent</a></td>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_Interaction_value" data-uid="Votanic.vXR.Interaction.value">value</h4>
-  <div class="markdown level1 summary"><p>The floating value of command. <br> 指令浮點值。</p>
+  <h4 id="Votanic_vXR_vGear_ReporterRemark_screenGap" data-uid="Votanic.vXR.vGear.ReporterRemark.screenGap">screenGap</h4>
+  <div class="markdown level1 summary"><p>The space gap when fit screen. <br> 當緊貼屏幕時保留的空位。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The floating value of command.\n&#25351;&#20196;&#28014;&#40670;&#20540;&#12290;&quot;)]
-public float value</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The space width when fit screen.\n&#30070;&#32202;&#36028;&#23631;&#24149;&#26178;&#20445;&#30041;&#30340;&#31354;&#20301;&#12290;&quot;)]
+public float screenGap</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

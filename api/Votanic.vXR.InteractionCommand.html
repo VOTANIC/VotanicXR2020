@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Interaction
+    <title>Class InteractionCommand
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Interaction
+    <meta name="title" content="Class InteractionCommand
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,33 +68,33 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.Interaction">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.InteractionCommand">
   
   
-  <h1 id="Votanic_vXR_Interaction" data-uid="Votanic.vXR.Interaction" class="text-break">Class Interaction
+  <h1 id="Votanic_vXR_InteractionCommand" data-uid="Votanic.vXR.InteractionCommand" class="text-break">Class InteractionCommand
   </h1>
-  <div class="markdown level0 summary"><p>Interaction settings of interactables.
-<br> 交互物的互動設定。</p>
+  <div class="markdown level0 summary"><p>Interaction command settings of interactables.
+<br> 交互物的互動指令設定。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Interaction</span></div>
+    <div class="level1"><span class="xref">InteractionCommand</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.html">Votanic.vXR</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_Interaction_syntax">Syntax</h5>
+  <h5 id="Votanic_vXR_InteractionCommand_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class Interaction</code></pre>
+public class InteractionCommand</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Votanic_vXR_Interaction_command" data-uid="Votanic.vXR.Interaction.command">command</h4>
-  <div class="markdown level1 summary"><p>The main command to send when the interaction has done. <br> 互動完成時主要傳送的指令。</p>
+  <h4 id="Votanic_vXR_InteractionCommand_command" data-uid="Votanic.vXR.InteractionCommand.command">command</h4>
+  <div class="markdown level1 summary"><p>The command to send when the interaction has done. <br> 互動完成時傳送的指令。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -119,85 +119,7 @@ public string command</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_Interaction_commands" data-uid="Votanic.vXR.Interaction.commands">commands</h4>
-  <div class="markdown level1 summary"><p>The command list of interaction, including main command. <br> 互動指令列表，包括主要指令。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The command list of interaction, including main command.\n&#20114;&#21205;&#25351;&#20196;&#21015;&#34920;&#65292;&#21253;&#25324;&#20027;&#35201;&#25351;&#20196;&#12290;&quot;)]
-public List&lt;InteractionCommand&gt; commands</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.InteractionCommand.html">InteractionCommand</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_Interaction_interactionType" data-uid="Votanic.vXR.Interaction.interactionType">interactionType</h4>
-  <div class="markdown level1 summary"><p>The interaction method of interactables. <br> 與交互物產生互動的方法。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The interaction method of interactables.\n&#33287;&#20132;&#20114;&#29289;&#29986;&#29983;&#20114;&#21205;&#30340;&#26041;&#27861;&#12290;&quot;)]
-public InteractionType interactionType</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vXR.InteractionType.html">InteractionType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_Interaction_persistentPriority" data-uid="Votanic.vXR.Interaction.persistentPriority">persistentPriority</h4>
-  <div class="markdown level1 summary"><p>Persistent listeners priority for Unity Event. <br> Unity 事件非實時回調函數優先。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Persistent listeners priority.\n&#38750;&#23526;&#26178;&#22238;&#35519;&#20989;&#25976;&#20778;&#20808;&#12290;&quot;)]
-public bool persistentPriority</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_Interaction_target" data-uid="Votanic.vXR.Interaction.target">target</h4>
+  <h4 id="Votanic_vXR_InteractionCommand_target" data-uid="Votanic.vXR.InteractionCommand.target">target</h4>
   <div class="markdown level1 summary"><p>Target object index for the command. (User, Controller, Sensor...) <br> 指令的目標物編號（使用者、控制器、感應器...）。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -223,33 +145,7 @@ public int target</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_Interaction_unityEvent" data-uid="Votanic.vXR.Interaction.unityEvent">unityEvent</h4>
-  <div class="markdown level1 summary"><p>The event needed to be called or passed parameters. <br> 需要呼叫或傳遞參數的事件。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The event needed to be called or passed parameters.\n&#38656;&#35201;&#21628;&#21483;&#25110;&#20659;&#36958;&#21443;&#25976;&#30340;&#20107;&#20214;&#12290;&quot;)]
-public ParameterEvent unityEvent</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.ParameterEvent.html">ParameterEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_Interaction_value" data-uid="Votanic.vXR.Interaction.value">value</h4>
+  <h4 id="Votanic_vXR_InteractionCommand_value" data-uid="Votanic.vXR.InteractionCommand.value">value</h4>
   <div class="markdown level1 summary"><p>The floating value of command. <br> 指令浮點值。</p>
 </div>
   <div class="markdown level1 conceptual"></div>

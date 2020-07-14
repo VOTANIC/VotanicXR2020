@@ -88,7 +88,6 @@
     <div class="level6"><a class="xref" href="Votanic.vXR.vGear.vGear_Interactables.html">vGear_Interactables</a></div>
     <div class="level7"><a class="xref" href="Votanic.vXR.vGear.vGear_UI.html">vGear_UI</a></div>
     <div class="level8"><span class="xref">vGear_Panel</span></div>
-      <div class="level9"><a class="xref" href="Votanic.vXR.vGear.vGear_Toolbox.html">vGear_Toolbox</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -97,6 +96,12 @@
     </div>
     <div>
       <a class="xref" href="Votanic.vXR.vGear.vGear_UI.html#Votanic_vXR_vGear_vGear_UI_isPaused">vGear_UI.isPaused</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vXR.vGear.vGear_UI.html#Votanic_vXR_vGear_vGear_UI_graphics">vGear_UI.graphics</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vXR.vGear.vGear_UI.html#Votanic_vXR_vGear_vGear_UI_renderers">vGear_UI.renderers</a>
     </div>
     <div>
       <a class="xref" href="Votanic.vXR.vGear.vGear_UI.html#Votanic_vXR_vGear_vGear_UI_colorField">vGear_UI.colorField</a>
@@ -162,6 +167,9 @@
       <a class="xref" href="Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_isGrabbed">vCast_Interactables.isGrabbed</a>
     </div>
     <div>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_isPicked">vCast_Interactables.isPicked</a>
+    </div>
+    <div>
       <a class="xref" href="Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_isSelected">vCast_Interactables.isSelected</a>
     </div>
     <div>
@@ -181,6 +189,18 @@
     </div>
     <div>
       <a class="xref" href="Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_SetGrabbables_UnityEngine_Transform_">vCast_Interactables.SetGrabbables(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Grab">vCast_Interactables.Grab()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Ungrab">vCast_Interactables.Ungrab()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Pick">vCast_Interactables.Pick()</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Drop">vCast_Interactables.Drop()</a>
     </div>
     <div>
       <a class="xref" href="Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_OnDestroy">vCast_Interactables.OnDestroy()</a>
@@ -250,12 +270,13 @@ public bool defaultOpen</code></pre>
   
   
   <h4 id="Votanic_vXR_vGear_vGear_Panel_grabWithButtons" data-uid="Votanic.vXR.vGear.vGear_Panel.grabWithButtons">grabWithButtons</h4>
-  <div class="markdown level1 summary"><p>Override child buttons grab setting if true. <br> 當 true 時覆蓋子按鈕原有的抓起設定。</p>
+  <div class="markdown level1 summary"><p>Override child buttons grab setting if true. <br> 當 true 時覆蓋子按鈕原有的抓握設定。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Override child buttons grab setting.\n&#35206;&#33995;&#23376;&#25353;&#37397;&#21407;&#26377;&#30340;&#25235;&#36215;&#35373;&#23450;&#12290;&quot;)]
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Panel Settings]&quot;)]
+[Tooltip(&quot;Override child buttons grab setting.\n&#35206;&#33995;&#23376;&#25353;&#37397;&#21407;&#26377;&#30340;&#25235;&#25569;&#35373;&#23450;&#12290;&quot;)]
 public bool grabWithButtons</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -377,7 +398,8 @@ public bool grabWithButtons</code></pre>
       <tr>
         <td><span class="xref">UnityEngine.Transform</span></td>
         <td><span class="parametername">transform</span></td>
-        <td></td>
+        <td><p>Target transform <br> 目標 Transform</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -407,12 +429,14 @@ public bool grabWithButtons</code></pre>
       <tr>
         <td><span class="xref">UnityEngine.Vector3</span></td>
         <td><span class="parametername">position</span></td>
-        <td></td>
+        <td><p>Target position <br> 目標位置</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">UnityEngine.Vector3</span></td>
         <td><span class="parametername">eulerAngles</span></td>
-        <td></td>
+        <td><p>Target euler angles <br> 目標角度</p>
+</td>
       </tr>
     </tbody>
   </table>

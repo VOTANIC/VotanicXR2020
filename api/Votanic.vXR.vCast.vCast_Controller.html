@@ -153,12 +153,12 @@ public string defaultTool</code></pre>
   
   
   <h4 id="Votanic_vXR_vCast_vCast_Controller_grabbedObject" data-uid="Votanic.vXR.vCast.vCast_Controller.grabbedObject">grabbedObject</h4>
-  <div class="markdown level1 summary"><p>Grabbed interactables. <br> 被抓起的交互物。</p>
+  <div class="markdown level1 summary"><p>Grabbed interactables. <br> 被抓握的交互物。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Grabbed interactables.\n&#34987;&#25235;&#36215;&#30340;&#20132;&#20114;&#29289;&#12290;&quot;)]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Grabbed interactables.\n&#34987;&#25235;&#25569;&#30340;&#20132;&#20114;&#29289;&#12290;&quot;)]
 public vCast_Interactables grabbedObject</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -431,6 +431,18 @@ public vCast_Interactables triggeredObject</code></pre>
   </table>
   
   
+  <a id="Votanic_vXR_vCast_vCast_Controller_Drop_" data-uid="Votanic.vXR.vCast.vCast_Controller.Drop*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Controller_Drop" data-uid="Votanic.vXR.vCast.vCast_Controller.Drop">Drop()</h4>
+  <div class="markdown level1 summary"><p>Drop the picked interactables.
+<br> 放下拾起中的交互物。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Drop()</code></pre>
+  </div>
+  
+  
   <a id="Votanic_vXR_vCast_vCast_Controller_EnableWandRay_" data-uid="Votanic.vXR.vCast.vCast_Controller.EnableWandRay*"></a>
   <h4 id="Votanic_vXR_vCast_vCast_Controller_EnableWandRay_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast_Controller.EnableWandRay(System.Boolean)">EnableWandRay(Boolean)</h4>
   <div class="markdown level1 summary"><p>Enable or disable wand ray.
@@ -464,13 +476,25 @@ public vCast_Interactables triggeredObject</code></pre>
   
   <a id="Votanic_vXR_vCast_vCast_Controller_Grab_" data-uid="Votanic.vXR.vCast.vCast_Controller.Grab*"></a>
   <h4 id="Votanic_vXR_vCast_vCast_Controller_Grab" data-uid="Votanic.vXR.vCast.vCast_Controller.Grab">Grab()</h4>
-  <div class="markdown level1 summary"><p>Force grab the selected interactables.
-<br> 強制抓起點選中的交互物。</p>
+  <div class="markdown level1 summary"><p>Force grab the selected grabbable interactables.
+<br> 強制抓握點選中的可抓握的交互物。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Grab()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Controller_Pick_" data-uid="Votanic.vXR.vCast.vCast_Controller.Pick*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Controller_Pick" data-uid="Votanic.vXR.vCast.vCast_Controller.Pick">Pick()</h4>
+  <div class="markdown level1 summary"><p>Pick the selected interactables.
+<br> 拾起點選中的交互物。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Pick()</code></pre>
   </div>
   
   
@@ -959,7 +983,7 @@ public vCast_Interactables triggeredObject</code></pre>
   <a id="Votanic_vXR_vCast_vCast_Controller_Ungrab_" data-uid="Votanic.vXR.vCast.vCast_Controller.Ungrab*"></a>
   <h4 id="Votanic_vXR_vCast_vCast_Controller_Ungrab" data-uid="Votanic.vXR.vCast.vCast_Controller.Ungrab">Ungrab()</h4>
   <div class="markdown level1 summary"><p>Force ungrab the grabbed interactables.
-<br> 強制放開抓起中的交互物。</p>
+<br> 強制放開抓握中的交互物。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

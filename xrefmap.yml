@@ -8870,6 +8870,19 @@ references:
   commentId: F:Votanic.vNet.Networking.NetworkObject.thresholdScalePrediction
   fullName: Votanic.vNet.Networking.NetworkObject.thresholdScalePrediction
   nameWithType: NetworkObject.thresholdScalePrediction
+- uid: Votanic.vNet.Networking.NetworkObject.waitingAuthority
+  name: waitingAuthority
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_waitingAuthority
+  commentId: P:Votanic.vNet.Networking.NetworkObject.waitingAuthority
+  fullName: Votanic.vNet.Networking.NetworkObject.waitingAuthority
+  nameWithType: NetworkObject.waitingAuthority
+- uid: Votanic.vNet.Networking.NetworkObject.waitingAuthority*
+  name: waitingAuthority
+  href: api/Votanic.vNet.Networking.NetworkObject.html#Votanic_vNet_Networking_NetworkObject_waitingAuthority_
+  commentId: Overload:Votanic.vNet.Networking.NetworkObject.waitingAuthority
+  isSpec: "True"
+  fullName: Votanic.vNet.Networking.NetworkObject.waitingAuthority
+  nameWithType: NetworkObject.waitingAuthority
 - uid: Votanic.vNet.Networking.NetworkUser
   name: NetworkUser
   href: api/Votanic.vNet.Networking.NetworkUser.html
@@ -8914,6 +8927,12 @@ references:
   commentId: F:Votanic.vNet.Networking.NetworkUser.userName
   fullName: Votanic.vNet.Networking.NetworkUser.userName
   nameWithType: NetworkUser.userName
+- uid: Votanic.vNet.Networking.SyncField
+  name: SyncField
+  href: api/Votanic.vNet.Networking.SyncField.html
+  commentId: T:Votanic.vNet.Networking.SyncField
+  fullName: Votanic.vNet.Networking.SyncField
+  nameWithType: SyncField
 - uid: Votanic.vNet.Networking.SyncPart
   name: SyncPart
   href: api/Votanic.vNet.Networking.SyncPart.html
@@ -9052,6 +9071,12 @@ references:
   commentId: F:Votanic.vXR.GrabSetting.parentToController
   fullName: Votanic.vXR.GrabSetting.parentToController
   nameWithType: GrabSetting.parentToController
+- uid: Votanic.vXR.GrabSetting.pickable
+  name: pickable
+  href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_pickable
+  commentId: F:Votanic.vXR.GrabSetting.pickable
+  fullName: Votanic.vXR.GrabSetting.pickable
+  nameWithType: GrabSetting.pickable
 - uid: Votanic.vXR.GrabSetting.positionOffset
   name: positionOffset
   href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_positionOffset
@@ -9082,6 +9107,12 @@ references:
   commentId: F:Votanic.vXR.Interaction.command
   fullName: Votanic.vXR.Interaction.command
   nameWithType: Interaction.command
+- uid: Votanic.vXR.Interaction.commands
+  name: commands
+  href: api/Votanic.vXR.Interaction.html#Votanic_vXR_Interaction_commands
+  commentId: F:Votanic.vXR.Interaction.commands
+  fullName: Votanic.vXR.Interaction.commands
+  nameWithType: Interaction.commands
 - uid: Votanic.vXR.Interaction.interactionType
   name: interactionType
   href: api/Votanic.vXR.Interaction.html#Votanic_vXR_Interaction_interactionType
@@ -9094,24 +9125,48 @@ references:
   commentId: F:Votanic.vXR.Interaction.persistentPriority
   fullName: Votanic.vXR.Interaction.persistentPriority
   nameWithType: Interaction.persistentPriority
+- uid: Votanic.vXR.Interaction.target
+  name: target
+  href: api/Votanic.vXR.Interaction.html#Votanic_vXR_Interaction_target
+  commentId: F:Votanic.vXR.Interaction.target
+  fullName: Votanic.vXR.Interaction.target
+  nameWithType: Interaction.target
 - uid: Votanic.vXR.Interaction.unityEvent
   name: unityEvent
   href: api/Votanic.vXR.Interaction.html#Votanic_vXR_Interaction_unityEvent
   commentId: F:Votanic.vXR.Interaction.unityEvent
   fullName: Votanic.vXR.Interaction.unityEvent
   nameWithType: Interaction.unityEvent
-- uid: Votanic.vXR.Interaction.user
-  name: user
-  href: api/Votanic.vXR.Interaction.html#Votanic_vXR_Interaction_user
-  commentId: F:Votanic.vXR.Interaction.user
-  fullName: Votanic.vXR.Interaction.user
-  nameWithType: Interaction.user
 - uid: Votanic.vXR.Interaction.value
   name: value
   href: api/Votanic.vXR.Interaction.html#Votanic_vXR_Interaction_value
   commentId: F:Votanic.vXR.Interaction.value
   fullName: Votanic.vXR.Interaction.value
   nameWithType: Interaction.value
+- uid: Votanic.vXR.InteractionCommand
+  name: InteractionCommand
+  href: api/Votanic.vXR.InteractionCommand.html
+  commentId: T:Votanic.vXR.InteractionCommand
+  fullName: Votanic.vXR.InteractionCommand
+  nameWithType: InteractionCommand
+- uid: Votanic.vXR.InteractionCommand.command
+  name: command
+  href: api/Votanic.vXR.InteractionCommand.html#Votanic_vXR_InteractionCommand_command
+  commentId: F:Votanic.vXR.InteractionCommand.command
+  fullName: Votanic.vXR.InteractionCommand.command
+  nameWithType: InteractionCommand.command
+- uid: Votanic.vXR.InteractionCommand.target
+  name: target
+  href: api/Votanic.vXR.InteractionCommand.html#Votanic_vXR_InteractionCommand_target
+  commentId: F:Votanic.vXR.InteractionCommand.target
+  fullName: Votanic.vXR.InteractionCommand.target
+  nameWithType: InteractionCommand.target
+- uid: Votanic.vXR.InteractionCommand.value
+  name: value
+  href: api/Votanic.vXR.InteractionCommand.html#Votanic_vXR_InteractionCommand_value
+  commentId: F:Votanic.vXR.InteractionCommand.value
+  fullName: Votanic.vXR.InteractionCommand.value
+  nameWithType: InteractionCommand.value
 - uid: Votanic.vXR.InteractionParameter
   name: InteractionParameter
   href: api/Votanic.vXR.InteractionParameter.html
@@ -9179,6 +9234,12 @@ references:
   commentId: F:Votanic.vXR.InteractionType.Down
   fullName: Votanic.vXR.InteractionType.Down
   nameWithType: InteractionType.Down
+- uid: Votanic.vXR.InteractionType.Drop
+  name: Drop
+  href: api/Votanic.vXR.InteractionType.html#Votanic_vXR_InteractionType_Drop
+  commentId: F:Votanic.vXR.InteractionType.Drop
+  fullName: Votanic.vXR.InteractionType.Drop
+  nameWithType: InteractionType.Drop
 - uid: Votanic.vXR.InteractionType.Grab
   name: Grab
   href: api/Votanic.vXR.InteractionType.html#Votanic_vXR_InteractionType_Grab
@@ -9221,6 +9282,12 @@ references:
   commentId: F:Votanic.vXR.InteractionType.None
   fullName: Votanic.vXR.InteractionType.None
   nameWithType: InteractionType.None
+- uid: Votanic.vXR.InteractionType.Pick
+  name: Pick
+  href: api/Votanic.vXR.InteractionType.html#Votanic_vXR_InteractionType_Pick
+  commentId: F:Votanic.vXR.InteractionType.Pick
+  fullName: Votanic.vXR.InteractionType.Pick
+  nameWithType: InteractionType.Pick
 - uid: Votanic.vXR.InteractionType.Press
   name: Press
   href: api/Votanic.vXR.InteractionType.html#Votanic_vXR_InteractionType_Press
@@ -10886,6 +10953,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Cmd.Send
   nameWithType: vCast.Cmd.Send
+- uid: Votanic.vXR.vCast.vCast.Cmd.Target(System.String)
+  name: Target(String)
+  href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_Target_System_String_
+  commentId: M:Votanic.vXR.vCast.vCast.Cmd.Target(System.String)
+  fullName: Votanic.vXR.vCast.vCast.Cmd.Target(System.String)
+  nameWithType: vCast.Cmd.Target(String)
+- uid: Votanic.vXR.vCast.vCast.Cmd.Target*
+  name: Target
+  href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_Target_
+  commentId: Overload:Votanic.vXR.vCast.vCast.Cmd.Target
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.Cmd.Target
+  nameWithType: vCast.Cmd.Target
 - uid: Votanic.vXR.vCast.vCast.Cmd.Type(System.String)
   name: Type(String)
   href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_Type_System_String_
@@ -10899,19 +10979,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Cmd.Type
   nameWithType: vCast.Cmd.Type
-- uid: Votanic.vXR.vCast.vCast.Cmd.User(System.String)
-  name: User(String)
-  href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_User_System_String_
-  commentId: M:Votanic.vXR.vCast.vCast.Cmd.User(System.String)
-  fullName: Votanic.vXR.vCast.vCast.Cmd.User(System.String)
-  nameWithType: vCast.Cmd.User(String)
-- uid: Votanic.vXR.vCast.vCast.Cmd.User*
-  name: User
-  href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_User_
-  commentId: Overload:Votanic.vXR.vCast.vCast.Cmd.User
-  isSpec: "True"
-  fullName: Votanic.vXR.vCast.vCast.Cmd.User
-  nameWithType: vCast.Cmd.User
 - uid: Votanic.vXR.vCast.vCast.Cmd.Value(System.String)
   name: Value(String)
   href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_Value_System_String_
@@ -13005,6 +13072,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.sceneIndex
   nameWithType: vCast.sceneIndex
+- uid: Votanic.vXR.vCast.vCast.scenesInBuild
+  name: scenesInBuild
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_scenesInBuild
+  commentId: F:Votanic.vXR.vCast.vCast.scenesInBuild
+  fullName: Votanic.vXR.vCast.vCast.scenesInBuild
+  nameWithType: vCast.scenesInBuild
 - uid: Votanic.vXR.vCast.vCast.separator
   name: separator
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_separator
@@ -13203,6 +13276,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_Controller.DisplayWandRay
   nameWithType: vCast_Controller.DisplayWandRay
+- uid: Votanic.vXR.vCast.vCast_Controller.Drop
+  name: Drop()
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_Drop
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.Drop
+  fullName: Votanic.vXR.vCast.vCast_Controller.Drop()
+  nameWithType: vCast_Controller.Drop()
+- uid: Votanic.vXR.vCast.vCast_Controller.Drop*
+  name: Drop
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_Drop_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Controller.Drop
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Controller.Drop
+  nameWithType: vCast_Controller.Drop
 - uid: Votanic.vXR.vCast.vCast_Controller.EnableWandRay(System.Boolean)
   name: EnableWandRay(Boolean)
   href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_EnableWandRay_System_Boolean_
@@ -13248,6 +13334,19 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast_Controller.grabbedObject
   fullName: Votanic.vXR.vCast.vCast_Controller.grabbedObject
   nameWithType: vCast_Controller.grabbedObject
+- uid: Votanic.vXR.vCast.vCast_Controller.Pick
+  name: Pick()
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_Pick
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.Pick
+  fullName: Votanic.vXR.vCast.vCast_Controller.Pick()
+  nameWithType: vCast_Controller.Pick()
+- uid: Votanic.vXR.vCast.vCast_Controller.Pick*
+  name: Pick
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_Pick_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Controller.Pick
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Controller.Pick
+  nameWithType: vCast_Controller.Pick
 - uid: Votanic.vXR.vCast.vCast_Controller.RenderQueue(System.Int32)
   name: RenderQueue(Int32)
   href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_RenderQueue_System_Int32_
@@ -13708,6 +13807,32 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast_Interactables.customDuration
   fullName: Votanic.vXR.vCast.vCast_Interactables.customDuration
   nameWithType: vCast_Interactables.customDuration
+- uid: Votanic.vXR.vCast.vCast_Interactables.Drop
+  name: Drop()
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Drop
+  commentId: M:Votanic.vXR.vCast.vCast_Interactables.Drop
+  fullName: Votanic.vXR.vCast.vCast_Interactables.Drop()
+  nameWithType: vCast_Interactables.Drop()
+- uid: Votanic.vXR.vCast.vCast_Interactables.Drop*
+  name: Drop
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Drop_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Interactables.Drop
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Interactables.Drop
+  nameWithType: vCast_Interactables.Drop
+- uid: Votanic.vXR.vCast.vCast_Interactables.Grab
+  name: Grab()
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Grab
+  commentId: M:Votanic.vXR.vCast.vCast_Interactables.Grab
+  fullName: Votanic.vXR.vCast.vCast_Interactables.Grab()
+  nameWithType: vCast_Interactables.Grab()
+- uid: Votanic.vXR.vCast.vCast_Interactables.Grab*
+  name: Grab
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Grab_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Interactables.Grab
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Interactables.Grab
+  nameWithType: vCast_Interactables.Grab
 - uid: Votanic.vXR.vCast.vCast_Interactables.grabbables
   name: grabbables
   href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_grabbables
@@ -13744,6 +13869,12 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast_Interactables.isGrabbed
   fullName: Votanic.vXR.vCast.vCast_Interactables.isGrabbed
   nameWithType: vCast_Interactables.isGrabbed
+- uid: Votanic.vXR.vCast.vCast_Interactables.isPicked
+  name: isPicked
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_isPicked
+  commentId: F:Votanic.vXR.vCast.vCast_Interactables.isPicked
+  fullName: Votanic.vXR.vCast.vCast_Interactables.isPicked
+  nameWithType: vCast_Interactables.isPicked
 - uid: Votanic.vXR.vCast.vCast_Interactables.isSelected
   name: isSelected
   href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_isSelected
@@ -13828,6 +13959,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_Interactables.OnTriggerExit
   nameWithType: vCast_Interactables.OnTriggerExit
+- uid: Votanic.vXR.vCast.vCast_Interactables.Pick
+  name: Pick()
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Pick
+  commentId: M:Votanic.vXR.vCast.vCast_Interactables.Pick
+  fullName: Votanic.vXR.vCast.vCast_Interactables.Pick()
+  nameWithType: vCast_Interactables.Pick()
+- uid: Votanic.vXR.vCast.vCast_Interactables.Pick*
+  name: Pick
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Pick_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Interactables.Pick
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Interactables.Pick
+  nameWithType: vCast_Interactables.Pick
 - uid: Votanic.vXR.vCast.vCast_Interactables.SetGrabbables(UnityEngine.Transform)
   name: SetGrabbables(Transform)
   href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_SetGrabbables_UnityEngine_Transform_
@@ -13873,6 +14017,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_Interactables.Start
   nameWithType: vCast_Interactables.Start
+- uid: Votanic.vXR.vCast.vCast_Interactables.Ungrab
+  name: Ungrab()
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Ungrab
+  commentId: M:Votanic.vXR.vCast.vCast_Interactables.Ungrab
+  fullName: Votanic.vXR.vCast.vCast_Interactables.Ungrab()
+  nameWithType: vCast_Interactables.Ungrab()
+- uid: Votanic.vXR.vCast.vCast_Interactables.Ungrab*
+  name: Ungrab
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_Ungrab_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Interactables.Ungrab
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Interactables.Ungrab
+  nameWithType: vCast_Interactables.Ungrab
 - uid: Votanic.vXR.vCast.vCast_Menu
   name: vCast_Menu
   href: api/Votanic.vXR.vCast.vCast_Menu.html
@@ -14003,6 +14160,12 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast_Teleport.projectile
   fullName: Votanic.vXR.vCast.vCast_Teleport.projectile
   nameWithType: vCast_Teleport.projectile
+- uid: Votanic.vXR.vCast.vCast_Teleport.rotateSpeed
+  name: rotateSpeed
+  href: api/Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_rotateSpeed
+  commentId: F:Votanic.vXR.vCast.vCast_Teleport.rotateSpeed
+  fullName: Votanic.vXR.vCast.vCast_Teleport.rotateSpeed
+  nameWithType: vCast_Teleport.rotateSpeed
 - uid: Votanic.vXR.vCast.vCast_Teleport.SetVelocity(System.Single)
   name: SetVelocity(Single)
   href: api/Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_SetVelocity_System_Single_
@@ -14650,12 +14813,6 @@ references:
   commentId: F:Votanic.vXR.vGear.Advanced.onlyTeleportWaypoint
   fullName: Votanic.vXR.vGear.Advanced.onlyTeleportWaypoint
   nameWithType: Advanced.onlyTeleportWaypoint
-- uid: Votanic.vXR.vGear.Advanced.toolboxPrefab
-  name: toolboxPrefab
-  href: api/Votanic.vXR.vGear.Advanced.html#Votanic_vXR_vGear_Advanced_toolboxPrefab
-  commentId: F:Votanic.vXR.vGear.Advanced.toolboxPrefab
-  fullName: Votanic.vXR.vGear.Advanced.toolboxPrefab
-  nameWithType: Advanced.toolboxPrefab
 - uid: Votanic.vXR.vGear.Advanced.waypointPrefab
   name: waypointPrefab
   href: api/Votanic.vXR.vGear.Advanced.html#Votanic_vXR_vGear_Advanced_waypointPrefab
@@ -15418,6 +15575,48 @@ references:
   commentId: F:Votanic.vXR.vGear.ObjectFilter.Tag
   fullName: Votanic.vXR.vGear.ObjectFilter.Tag
   nameWithType: ObjectFilter.Tag
+- uid: Votanic.vXR.vGear.ReporterRemark
+  name: ReporterRemark
+  href: api/Votanic.vXR.vGear.ReporterRemark.html
+  commentId: T:Votanic.vXR.vGear.ReporterRemark
+  fullName: Votanic.vXR.vGear.ReporterRemark
+  nameWithType: ReporterRemark
+- uid: Votanic.vXR.vGear.ReporterRemark.assistOffset
+  name: assistOffset
+  href: api/Votanic.vXR.vGear.ReporterRemark.html#Votanic_vXR_vGear_ReporterRemark_assistOffset
+  commentId: F:Votanic.vXR.vGear.ReporterRemark.assistOffset
+  fullName: Votanic.vXR.vGear.ReporterRemark.assistOffset
+  nameWithType: ReporterRemark.assistOffset
+- uid: Votanic.vXR.vGear.ReporterRemark.assistRemark
+  name: assistRemark
+  href: api/Votanic.vXR.vGear.ReporterRemark.html#Votanic_vXR_vGear_ReporterRemark_assistRemark
+  commentId: F:Votanic.vXR.vGear.ReporterRemark.assistRemark
+  fullName: Votanic.vXR.vGear.ReporterRemark.assistRemark
+  nameWithType: ReporterRemark.assistRemark
+- uid: Votanic.vXR.vGear.ReporterRemark.fitScreenWidth
+  name: fitScreenWidth
+  href: api/Votanic.vXR.vGear.ReporterRemark.html#Votanic_vXR_vGear_ReporterRemark_fitScreenWidth
+  commentId: F:Votanic.vXR.vGear.ReporterRemark.fitScreenWidth
+  fullName: Votanic.vXR.vGear.ReporterRemark.fitScreenWidth
+  nameWithType: ReporterRemark.fitScreenWidth
+- uid: Votanic.vXR.vGear.ReporterRemark.mountScreen
+  name: mountScreen
+  href: api/Votanic.vXR.vGear.ReporterRemark.html#Votanic_vXR_vGear_ReporterRemark_mountScreen
+  commentId: F:Votanic.vXR.vGear.ReporterRemark.mountScreen
+  fullName: Votanic.vXR.vGear.ReporterRemark.mountScreen
+  nameWithType: ReporterRemark.mountScreen
+- uid: Votanic.vXR.vGear.ReporterRemark.remarkOffset
+  name: remarkOffset
+  href: api/Votanic.vXR.vGear.ReporterRemark.html#Votanic_vXR_vGear_ReporterRemark_remarkOffset
+  commentId: F:Votanic.vXR.vGear.ReporterRemark.remarkOffset
+  fullName: Votanic.vXR.vGear.ReporterRemark.remarkOffset
+  nameWithType: ReporterRemark.remarkOffset
+- uid: Votanic.vXR.vGear.ReporterRemark.screenGap
+  name: screenGap
+  href: api/Votanic.vXR.vGear.ReporterRemark.html#Votanic_vXR_vGear_ReporterRemark_screenGap
+  commentId: F:Votanic.vXR.vGear.ReporterRemark.screenGap
+  fullName: Votanic.vXR.vGear.ReporterRemark.screenGap
+  nameWithType: ReporterRemark.screenGap
 - uid: Votanic.vXR.vGear.Scenario
   name: Votanic.vXR.vGear.Scenario
   href: api/Votanic.vXR.vGear.Scenario.html
@@ -15473,6 +15672,12 @@ references:
   commentId: F:Votanic.vXR.vGear.Scenario.Action.detector
   fullName: Votanic.vXR.vGear.Scenario.Action.detector
   nameWithType: Action.detector
+- uid: Votanic.vXR.vGear.Scenario.Action.getTargetByCondition
+  name: getTargetByCondition
+  href: api/Votanic.vXR.vGear.Scenario.Action.html#Votanic_vXR_vGear_Scenario_Action_getTargetByCondition
+  commentId: F:Votanic.vXR.vGear.Scenario.Action.getTargetByCondition
+  fullName: Votanic.vXR.vGear.Scenario.Action.getTargetByCondition
+  nameWithType: Action.getTargetByCondition
 - uid: Votanic.vXR.vGear.Scenario.Action.getValueByCondition
   name: getValueByCondition
   href: api/Votanic.vXR.vGear.Scenario.Action.html#Votanic_vXR_vGear_Scenario_Action_getValueByCondition
@@ -15521,6 +15726,12 @@ references:
   commentId: F:Votanic.vXR.vGear.Scenario.Action.repeat
   fullName: Votanic.vXR.vGear.Scenario.Action.repeat
   nameWithType: Action.repeat
+- uid: Votanic.vXR.vGear.Scenario.Action.target
+  name: target
+  href: api/Votanic.vXR.vGear.Scenario.Action.html#Votanic_vXR_vGear_Scenario_Action_target
+  commentId: F:Votanic.vXR.vGear.Scenario.Action.target
+  fullName: Votanic.vXR.vGear.Scenario.Action.target
+  nameWithType: Action.target
 - uid: Votanic.vXR.vGear.Scenario.Action.targetObjects
   name: targetObjects
   href: api/Votanic.vXR.vGear.Scenario.Action.html#Votanic_vXR_vGear_Scenario_Action_targetObjects
@@ -16330,37 +16541,6 @@ references:
   commentId: F:Votanic.vXR.vGear.SinglePointRepeat.Simple
   fullName: Votanic.vXR.vGear.SinglePointRepeat.Simple
   nameWithType: SinglePointRepeat.Simple
-- uid: Votanic.vXR.vGear.StorePoint
-  name: StorePoint
-  href: api/Votanic.vXR.vGear.StorePoint.html
-  commentId: T:Votanic.vXR.vGear.StorePoint
-  fullName: Votanic.vXR.vGear.StorePoint
-  nameWithType: StorePoint
-- uid: Votanic.vXR.vGear.StorePoint.#ctor(Votanic.vXR.vGear.Coordinate,System.Boolean)
-  name: StorePoint(Coordinate, Boolean)
-  href: api/Votanic.vXR.vGear.StorePoint.html#Votanic_vXR_vGear_StorePoint__ctor_Votanic_vXR_vGear_Coordinate_System_Boolean_
-  commentId: M:Votanic.vXR.vGear.StorePoint.#ctor(Votanic.vXR.vGear.Coordinate,System.Boolean)
-  fullName: Votanic.vXR.vGear.StorePoint.StorePoint(Votanic.vXR.vGear.Coordinate, System.Boolean)
-  nameWithType: StorePoint.StorePoint(Coordinate, Boolean)
-- uid: Votanic.vXR.vGear.StorePoint.#ctor*
-  name: StorePoint
-  href: api/Votanic.vXR.vGear.StorePoint.html#Votanic_vXR_vGear_StorePoint__ctor_
-  commentId: Overload:Votanic.vXR.vGear.StorePoint.#ctor
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.StorePoint.StorePoint
-  nameWithType: StorePoint.StorePoint
-- uid: Votanic.vXR.vGear.StorePoint.applyRotation
-  name: applyRotation
-  href: api/Votanic.vXR.vGear.StorePoint.html#Votanic_vXR_vGear_StorePoint_applyRotation
-  commentId: F:Votanic.vXR.vGear.StorePoint.applyRotation
-  fullName: Votanic.vXR.vGear.StorePoint.applyRotation
-  nameWithType: StorePoint.applyRotation
-- uid: Votanic.vXR.vGear.StorePoint.coordinate
-  name: coordinate
-  href: api/Votanic.vXR.vGear.StorePoint.html#Votanic_vXR_vGear_StorePoint_coordinate
-  commentId: F:Votanic.vXR.vGear.StorePoint.coordinate
-  fullName: Votanic.vXR.vGear.StorePoint.coordinate
-  nameWithType: StorePoint.coordinate
 - uid: Votanic.vXR.vGear.TeleportPoint
   name: TeleportPoint
   href: api/Votanic.vXR.vGear.TeleportPoint.html
@@ -16900,6 +17080,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Auxiliary.commandPanel
   fullName: Votanic.vXR.vGear.vGear_Auxiliary.commandPanel
   nameWithType: vGear_Auxiliary.commandPanel
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.coreIcons
+  name: coreIcons
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_coreIcons
+  commentId: F:Votanic.vXR.vGear.vGear_Auxiliary.coreIcons
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.coreIcons
+  nameWithType: vGear_Auxiliary.coreIcons
 - uid: Votanic.vXR.vGear.vGear_Auxiliary.HideCommands
   name: HideCommands()
   href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_HideCommands
@@ -17528,12 +17714,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Controller.measurer
   nameWithType: vGear_Controller.measurer
-- uid: Votanic.vXR.vGear.vGear_Controller.pickedTool
-  name: pickedTool
-  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_pickedTool
-  commentId: F:Votanic.vXR.vGear.vGear_Controller.pickedTool
-  fullName: Votanic.vXR.vGear.vGear_Controller.pickedTool
-  nameWithType: vGear_Controller.pickedTool
 - uid: Votanic.vXR.vGear.vGear_Controller.reporter
   name: reporter
   href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_reporter
@@ -17937,6 +18117,25 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Menu.buttonReference
   fullName: Votanic.vXR.vGear.vGear_Menu.buttonReference
   nameWithType: vGear_Menu.buttonReference
+- uid: Votanic.vXR.vGear.vGear_Menu.Close
+  name: Close()
+  href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_Close
+  commentId: M:Votanic.vXR.vGear.vGear_Menu.Close
+  fullName: Votanic.vXR.vGear.vGear_Menu.Close()
+  nameWithType: vGear_Menu.Close()
+- uid: Votanic.vXR.vGear.vGear_Menu.Close*
+  name: Close
+  href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_Close_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Menu.Close
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Menu.Close
+  nameWithType: vGear_Menu.Close
+- uid: Votanic.vXR.vGear.vGear_Menu.coreIcons
+  name: coreIcons
+  href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_coreIcons
+  commentId: F:Votanic.vXR.vGear.vGear_Menu.coreIcons
+  fullName: Votanic.vXR.vGear.vGear_Menu.coreIcons
+  nameWithType: vGear_Menu.coreIcons
 - uid: Votanic.vXR.vGear.vGear_Menu.icons
   name: icons
   href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_icons
@@ -17949,12 +18148,62 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Menu.isOpen
   fullName: Votanic.vXR.vGear.vGear_Menu.isOpen
   nameWithType: vGear_Menu.isOpen
+- uid: Votanic.vXR.vGear.vGear_Menu.Open(System.Int32,System.Boolean)
+  name: Open(Int32, Boolean)
+  href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_Open_System_Int32_System_Boolean_
+  commentId: M:Votanic.vXR.vGear.vGear_Menu.Open(System.Int32,System.Boolean)
+  fullName: Votanic.vXR.vGear.vGear_Menu.Open(System.Int32, System.Boolean)
+  nameWithType: vGear_Menu.Open(Int32, Boolean)
+- uid: Votanic.vXR.vGear.vGear_Menu.Open(System.Int32,System.Boolean,UnityEngine.Transform,System.Boolean,UnityEngine.Transform)
+  name: Open(Int32, Boolean, Transform, Boolean, Transform)
+  href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_Open_System_Int32_System_Boolean_UnityEngine_Transform_System_Boolean_UnityEngine_Transform_
+  commentId: M:Votanic.vXR.vGear.vGear_Menu.Open(System.Int32,System.Boolean,UnityEngine.Transform,System.Boolean,UnityEngine.Transform)
+  fullName: Votanic.vXR.vGear.vGear_Menu.Open(System.Int32, System.Boolean, UnityEngine.Transform, System.Boolean, UnityEngine.Transform)
+  nameWithType: vGear_Menu.Open(Int32, Boolean, Transform, Boolean, Transform)
+- uid: Votanic.vXR.vGear.vGear_Menu.Open(System.Int32,System.Boolean,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,UnityEngine.Transform)
+  name: Open(Int32, Boolean, Vector3, Vector3, Boolean, Transform)
+  href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_Open_System_Int32_System_Boolean_UnityEngine_Vector3_UnityEngine_Vector3_System_Boolean_UnityEngine_Transform_
+  commentId: M:Votanic.vXR.vGear.vGear_Menu.Open(System.Int32,System.Boolean,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,UnityEngine.Transform)
+  fullName: Votanic.vXR.vGear.vGear_Menu.Open(System.Int32, System.Boolean, UnityEngine.Vector3, UnityEngine.Vector3, System.Boolean, UnityEngine.Transform)
+  nameWithType: vGear_Menu.Open(Int32, Boolean, Vector3, Vector3, Boolean, Transform)
+- uid: Votanic.vXR.vGear.vGear_Menu.Open*
+  name: Open
+  href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_Open_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Menu.Open
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Menu.Open
+  nameWithType: vGear_Menu.Open
+- uid: Votanic.vXR.vGear.vGear_Menu.page
+  name: page
+  href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_page
+  commentId: F:Votanic.vXR.vGear.vGear_Menu.page
+  fullName: Votanic.vXR.vGear.vGear_Menu.page
+  nameWithType: vGear_Menu.page
+- uid: Votanic.vXR.vGear.vGear_Menu.pages
+  name: pages
+  href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_pages
+  commentId: F:Votanic.vXR.vGear.vGear_Menu.pages
+  fullName: Votanic.vXR.vGear.vGear_Menu.pages
+  nameWithType: vGear_Menu.pages
 - uid: Votanic.vXR.vGear.vGear_Menu.panelReference
   name: panelReference
   href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_panelReference
   commentId: F:Votanic.vXR.vGear.vGear_Menu.panelReference
   fullName: Votanic.vXR.vGear.vGear_Menu.panelReference
   nameWithType: vGear_Menu.panelReference
+- uid: Votanic.vXR.vGear.vGear_Menu.Start
+  name: Start()
+  href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_Start
+  commentId: M:Votanic.vXR.vGear.vGear_Menu.Start
+  fullName: Votanic.vXR.vGear.vGear_Menu.Start()
+  nameWithType: vGear_Menu.Start()
+- uid: Votanic.vXR.vGear.vGear_Menu.Start*
+  name: Start
+  href: api/Votanic.vXR.vGear.vGear_Menu.html#Votanic_vXR_vGear_vGear_Menu_Start_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Menu.Start
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Menu.Start
+  nameWithType: vGear_Menu.Start
 - uid: Votanic.vXR.vGear.vGear_Panel
   name: vGear_Panel
   href: api/Votanic.vXR.vGear.vGear_Panel.html
@@ -18363,6 +18612,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Reporter.remarkPrefab
   fullName: Votanic.vXR.vGear.vGear_Reporter.remarkPrefab
   nameWithType: vGear_Reporter.remarkPrefab
+- uid: Votanic.vXR.vGear.vGear_Reporter.remarkSetting
+  name: remarkSetting
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_remarkSetting
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.remarkSetting
+  fullName: Votanic.vXR.vGear.vGear_Reporter.remarkSetting
+  nameWithType: vGear_Reporter.remarkSetting
 - uid: Votanic.vXR.vGear.vGear_Reporter.Remove(System.Int32)
   name: Remove(Int32)
   href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_Remove_System_Int32_
@@ -18388,6 +18643,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Reporter.reportTitle
   fullName: Votanic.vXR.vGear.vGear_Reporter.reportTitle
   nameWithType: vGear_Reporter.reportTitle
+- uid: Votanic.vXR.vGear.vGear_Reporter.savePanel
+  name: savePanel
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_savePanel
+  commentId: F:Votanic.vXR.vGear.vGear_Reporter.savePanel
+  fullName: Votanic.vXR.vGear.vGear_Reporter.savePanel
+  nameWithType: vGear_Reporter.savePanel
 - uid: Votanic.vXR.vGear.vGear_Reporter.Show(System.Boolean,System.Boolean)
   name: Show(Boolean, Boolean)
   href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_Show_System_Boolean_System_Boolean_
@@ -18401,6 +18662,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Reporter.Show
   nameWithType: vGear_Reporter.Show
+- uid: Votanic.vXR.vGear.vGear_Reporter.ShowRemark(System.Int32)
+  name: ShowRemark(Int32)
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_ShowRemark_System_Int32_
+  commentId: M:Votanic.vXR.vGear.vGear_Reporter.ShowRemark(System.Int32)
+  fullName: Votanic.vXR.vGear.vGear_Reporter.ShowRemark(System.Int32)
+  nameWithType: vGear_Reporter.ShowRemark(Int32)
+- uid: Votanic.vXR.vGear.vGear_Reporter.ShowRemark*
+  name: ShowRemark
+  href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_ShowRemark_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Reporter.ShowRemark
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Reporter.ShowRemark
+  nameWithType: vGear_Reporter.ShowRemark
 - uid: Votanic.vXR.vGear.vGear_Reporter.textureSize
   name: textureSize
   href: api/Votanic.vXR.vGear.vGear_Reporter.html#Votanic_vXR_vGear_vGear_Reporter_textureSize
@@ -18661,143 +18935,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Teleport.SetWaypointOnly
   nameWithType: vGear_Teleport.SetWaypointOnly
-- uid: Votanic.vXR.vGear.vGear_Tool
-  name: vGear_Tool
-  href: api/Votanic.vXR.vGear.vGear_Tool.html
-  commentId: T:Votanic.vXR.vGear.vGear_Tool
-  fullName: Votanic.vXR.vGear.vGear_Tool
-  nameWithType: vGear_Tool
-- uid: Votanic.vXR.vGear.vGear_Tool.Drop
-  name: Drop()
-  href: api/Votanic.vXR.vGear.vGear_Tool.html#Votanic_vXR_vGear_vGear_Tool_Drop
-  commentId: M:Votanic.vXR.vGear.vGear_Tool.Drop
-  fullName: Votanic.vXR.vGear.vGear_Tool.Drop()
-  nameWithType: vGear_Tool.Drop()
-- uid: Votanic.vXR.vGear.vGear_Tool.Drop*
-  name: Drop
-  href: api/Votanic.vXR.vGear.vGear_Tool.html#Votanic_vXR_vGear_vGear_Tool_Drop_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Tool.Drop
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Tool.Drop
-  nameWithType: vGear_Tool.Drop
-- uid: Votanic.vXR.vGear.vGear_Tool.Function(System.Int32,System.Single,System.Int32,System.String[])
-  name: Function(Int32, Single, Int32, String[])
-  href: api/Votanic.vXR.vGear.vGear_Tool.html#Votanic_vXR_vGear_vGear_Tool_Function_System_Int32_System_Single_System_Int32_System_String___
-  commentId: M:Votanic.vXR.vGear.vGear_Tool.Function(System.Int32,System.Single,System.Int32,System.String[])
-  name.vb: Function(Int32, Single, Int32, String())
-  fullName: Votanic.vXR.vGear.vGear_Tool.Function(System.Int32, System.Single, System.Int32, System.String[])
-  fullName.vb: Votanic.vXR.vGear.vGear_Tool.Function(System.Int32, System.Single, System.Int32, System.String())
-  nameWithType: vGear_Tool.Function(Int32, Single, Int32, String[])
-  nameWithType.vb: vGear_Tool.Function(Int32, Single, Int32, String())
-- uid: Votanic.vXR.vGear.vGear_Tool.Function*
-  name: Function
-  href: api/Votanic.vXR.vGear.vGear_Tool.html#Votanic_vXR_vGear_vGear_Tool_Function_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Tool.Function
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Tool.Function
-  nameWithType: vGear_Tool.Function
-- uid: Votanic.vXR.vGear.vGear_Tool.isPicking
-  name: isPicking
-  href: api/Votanic.vXR.vGear.vGear_Tool.html#Votanic_vXR_vGear_vGear_Tool_isPicking
-  commentId: F:Votanic.vXR.vGear.vGear_Tool.isPicking
-  fullName: Votanic.vXR.vGear.vGear_Tool.isPicking
-  nameWithType: vGear_Tool.isPicking
-- uid: Votanic.vXR.vGear.vGear_Tool.Pick(Votanic.vXR.vGear.vGear_Controller)
-  name: Pick(vGear_Controller)
-  href: api/Votanic.vXR.vGear.vGear_Tool.html#Votanic_vXR_vGear_vGear_Tool_Pick_Votanic_vXR_vGear_vGear_Controller_
-  commentId: M:Votanic.vXR.vGear.vGear_Tool.Pick(Votanic.vXR.vGear.vGear_Controller)
-  fullName: Votanic.vXR.vGear.vGear_Tool.Pick(Votanic.vXR.vGear.vGear_Controller)
-  nameWithType: vGear_Tool.Pick(vGear_Controller)
-- uid: Votanic.vXR.vGear.vGear_Tool.Pick*
-  name: Pick
-  href: api/Votanic.vXR.vGear.vGear_Tool.html#Votanic_vXR_vGear_vGear_Tool_Pick_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Tool.Pick
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Tool.Pick
-  nameWithType: vGear_Tool.Pick
-- uid: Votanic.vXR.vGear.vGear_Tool.Start
-  name: Start()
-  href: api/Votanic.vXR.vGear.vGear_Tool.html#Votanic_vXR_vGear_vGear_Tool_Start
-  commentId: M:Votanic.vXR.vGear.vGear_Tool.Start
-  fullName: Votanic.vXR.vGear.vGear_Tool.Start()
-  nameWithType: vGear_Tool.Start()
-- uid: Votanic.vXR.vGear.vGear_Tool.Start*
-  name: Start
-  href: api/Votanic.vXR.vGear.vGear_Tool.html#Votanic_vXR_vGear_vGear_Tool_Start_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Tool.Start
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Tool.Start
-  nameWithType: vGear_Tool.Start
-- uid: Votanic.vXR.vGear.vGear_Toolbox
-  name: vGear_Toolbox
-  href: api/Votanic.vXR.vGear.vGear_Toolbox.html
-  commentId: T:Votanic.vXR.vGear.vGear_Toolbox
-  fullName: Votanic.vXR.vGear.vGear_Toolbox
-  nameWithType: vGear_Toolbox
-- uid: Votanic.vXR.vGear.vGear_Toolbox.Choose(System.Int32,Votanic.vXR.vGear.vGear_Controller)
-  name: Choose(Int32, vGear_Controller)
-  href: api/Votanic.vXR.vGear.vGear_Toolbox.html#Votanic_vXR_vGear_vGear_Toolbox_Choose_System_Int32_Votanic_vXR_vGear_vGear_Controller_
-  commentId: M:Votanic.vXR.vGear.vGear_Toolbox.Choose(System.Int32,Votanic.vXR.vGear.vGear_Controller)
-  fullName: Votanic.vXR.vGear.vGear_Toolbox.Choose(System.Int32, Votanic.vXR.vGear.vGear_Controller)
-  nameWithType: vGear_Toolbox.Choose(Int32, vGear_Controller)
-- uid: Votanic.vXR.vGear.vGear_Toolbox.Choose*
-  name: Choose
-  href: api/Votanic.vXR.vGear.vGear_Toolbox.html#Votanic_vXR_vGear_vGear_Toolbox_Choose_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Toolbox.Choose
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Toolbox.Choose
-  nameWithType: vGear_Toolbox.Choose
-- uid: Votanic.vXR.vGear.vGear_Toolbox.Close
-  name: Close()
-  href: api/Votanic.vXR.vGear.vGear_Toolbox.html#Votanic_vXR_vGear_vGear_Toolbox_Close
-  commentId: M:Votanic.vXR.vGear.vGear_Toolbox.Close
-  fullName: Votanic.vXR.vGear.vGear_Toolbox.Close()
-  nameWithType: vGear_Toolbox.Close()
-- uid: Votanic.vXR.vGear.vGear_Toolbox.Close*
-  name: Close
-  href: api/Votanic.vXR.vGear.vGear_Toolbox.html#Votanic_vXR_vGear_vGear_Toolbox_Close_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Toolbox.Close
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Toolbox.Close
-  nameWithType: vGear_Toolbox.Close
-- uid: Votanic.vXR.vGear.vGear_Toolbox.currentTool
-  name: currentTool
-  href: api/Votanic.vXR.vGear.vGear_Toolbox.html#Votanic_vXR_vGear_vGear_Toolbox_currentTool
-  commentId: F:Votanic.vXR.vGear.vGear_Toolbox.currentTool
-  fullName: Votanic.vXR.vGear.vGear_Toolbox.currentTool
-  nameWithType: vGear_Toolbox.currentTool
-- uid: Votanic.vXR.vGear.vGear_Toolbox.Start
-  name: Start()
-  href: api/Votanic.vXR.vGear.vGear_Toolbox.html#Votanic_vXR_vGear_vGear_Toolbox_Start
-  commentId: M:Votanic.vXR.vGear.vGear_Toolbox.Start
-  fullName: Votanic.vXR.vGear.vGear_Toolbox.Start()
-  nameWithType: vGear_Toolbox.Start()
-- uid: Votanic.vXR.vGear.vGear_Toolbox.Start*
-  name: Start
-  href: api/Votanic.vXR.vGear.vGear_Toolbox.html#Votanic_vXR_vGear_vGear_Toolbox_Start_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Toolbox.Start
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Toolbox.Start
-  nameWithType: vGear_Toolbox.Start
-- uid: Votanic.vXR.vGear.vGear_Toolbox.tools
-  name: tools
-  href: api/Votanic.vXR.vGear.vGear_Toolbox.html#Votanic_vXR_vGear_vGear_Toolbox_tools
-  commentId: F:Votanic.vXR.vGear.vGear_Toolbox.tools
-  fullName: Votanic.vXR.vGear.vGear_Toolbox.tools
-  nameWithType: vGear_Toolbox.tools
-- uid: Votanic.vXR.vGear.vGear_Toolbox.Update
-  name: Update()
-  href: api/Votanic.vXR.vGear.vGear_Toolbox.html#Votanic_vXR_vGear_vGear_Toolbox_Update
-  commentId: M:Votanic.vXR.vGear.vGear_Toolbox.Update
-  fullName: Votanic.vXR.vGear.vGear_Toolbox.Update()
-  nameWithType: vGear_Toolbox.Update()
-- uid: Votanic.vXR.vGear.vGear_Toolbox.Update*
-  name: Update
-  href: api/Votanic.vXR.vGear.vGear_Toolbox.html#Votanic_vXR_vGear_vGear_Toolbox_Update_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Toolbox.Update
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Toolbox.Update
-  nameWithType: vGear_Toolbox.Update
 - uid: Votanic.vXR.vGear.vGear_Transformer
   name: vGear_Transformer
   href: api/Votanic.vXR.vGear.vGear_Transformer.html
@@ -19030,6 +19167,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_UI.disable
   fullName: Votanic.vXR.vGear.vGear_UI.disable
   nameWithType: vGear_UI.disable
+- uid: Votanic.vXR.vGear.vGear_UI.graphics
+  name: graphics
+  href: api/Votanic.vXR.vGear.vGear_UI.html#Votanic_vXR_vGear_vGear_UI_graphics
+  commentId: F:Votanic.vXR.vGear.vGear_UI.graphics
+  fullName: Votanic.vXR.vGear.vGear_UI.graphics
+  nameWithType: vGear_UI.graphics
 - uid: Votanic.vXR.vGear.vGear_UI.isPaused
   name: isPaused
   href: api/Votanic.vXR.vGear.vGear_UI.html#Votanic_vXR_vGear_vGear_UI_isPaused
@@ -19067,6 +19210,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_UI.PauseTransition
   nameWithType: vGear_UI.PauseTransition
+- uid: Votanic.vXR.vGear.vGear_UI.renderers
+  name: renderers
+  href: api/Votanic.vXR.vGear.vGear_UI.html#Votanic_vXR_vGear_vGear_UI_renderers
+  commentId: F:Votanic.vXR.vGear.vGear_UI.renderers
+  fullName: Votanic.vXR.vGear.vGear_UI.renderers
+  nameWithType: vGear_UI.renderers
 - uid: Votanic.vXR.vGear.vGear_UI.transition
   name: transition
   href: api/Votanic.vXR.vGear.vGear_UI.html#Votanic_vXR_vGear_vGear_UI_transition
@@ -19117,12 +19266,6 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_User.maxStorePoint
   fullName: Votanic.vXR.vGear.vGear_User.maxStorePoint
   nameWithType: vGear_User.maxStorePoint
-- uid: Votanic.vXR.vGear.vGear_User.storePoints
-  name: storePoints
-  href: api/Votanic.vXR.vGear.vGear_User.html#Votanic_vXR_vGear_vGear_User_storePoints
-  commentId: F:Votanic.vXR.vGear.vGear_User.storePoints
-  fullName: Votanic.vXR.vGear.vGear_User.storePoints
-  nameWithType: vGear_User.storePoints
 - uid: Votanic.vXR.vGear.vGear_User.Teleport(Votanic.vXR.vGear.TeleportPoint)
   name: Teleport(TeleportPoint)
   href: api/Votanic.vXR.vGear.vGear_User.html#Votanic_vXR_vGear_vGear_User_Teleport_Votanic_vXR_vGear_TeleportPoint_
@@ -19166,19 +19309,6 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Waypoint.applyRotation
   fullName: Votanic.vXR.vGear.vGear_Waypoint.applyRotation
   nameWithType: vGear_Waypoint.applyRotation
-- uid: Votanic.vXR.vGear.vGear_Waypoint.ApplyRotation(System.Boolean)
-  name: ApplyRotation(Boolean)
-  href: api/Votanic.vXR.vGear.vGear_Waypoint.html#Votanic_vXR_vGear_vGear_Waypoint_ApplyRotation_System_Boolean_
-  commentId: M:Votanic.vXR.vGear.vGear_Waypoint.ApplyRotation(System.Boolean)
-  fullName: Votanic.vXR.vGear.vGear_Waypoint.ApplyRotation(System.Boolean)
-  nameWithType: vGear_Waypoint.ApplyRotation(Boolean)
-- uid: Votanic.vXR.vGear.vGear_Waypoint.ApplyRotation*
-  name: ApplyRotation
-  href: api/Votanic.vXR.vGear.vGear_Waypoint.html#Votanic_vXR_vGear_vGear_Waypoint_ApplyRotation_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Waypoint.ApplyRotation
-  isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Waypoint.ApplyRotation
-  nameWithType: vGear_Waypoint.ApplyRotation
 - uid: Votanic.vXR.vGear.vGear_Waypoint.defaultEnable
   name: defaultEnable
   href: api/Votanic.vXR.vGear.vGear_Waypoint.html#Votanic_vXR_vGear_vGear_Waypoint_defaultEnable
@@ -19204,9 +19334,21 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Waypoint.isDisabled
   fullName: Votanic.vXR.vGear.vGear_Waypoint.isDisabled
   nameWithType: vGear_Waypoint.isDisabled
+- uid: Votanic.vXR.vGear.vGear_Waypoint.offset
+  name: offset
+  href: api/Votanic.vXR.vGear.vGear_Waypoint.html#Votanic_vXR_vGear_vGear_Waypoint_offset
+  commentId: F:Votanic.vXR.vGear.vGear_Waypoint.offset
+  fullName: Votanic.vXR.vGear.vGear_Waypoint.offset
+  nameWithType: vGear_Waypoint.offset
 - uid: Votanic.vXR.vGear.vGear_Waypoint.show
   name: show
   href: api/Votanic.vXR.vGear.vGear_Waypoint.html#Votanic_vXR_vGear_vGear_Waypoint_show
   commentId: F:Votanic.vXR.vGear.vGear_Waypoint.show
   fullName: Votanic.vXR.vGear.vGear_Waypoint.show
   nameWithType: vGear_Waypoint.show
+- uid: Votanic.vXR.vGear.vGear_Waypoint.standingPoint
+  name: standingPoint
+  href: api/Votanic.vXR.vGear.vGear_Waypoint.html#Votanic_vXR_vGear_vGear_Waypoint_standingPoint
+  commentId: F:Votanic.vXR.vGear.vGear_Waypoint.standingPoint
+  fullName: Votanic.vXR.vGear.vGear_Waypoint.standingPoint
+  nameWithType: vGear_Waypoint.standingPoint
