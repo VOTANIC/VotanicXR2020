@@ -107,14 +107,14 @@ public class SensorPart : Element</code></pre>
   
   
   <a id="Votanic_vXR_vCast_IO_SensorPart__ctor_" data-uid="Votanic.vXR.vCast.IO.SensorPart.#ctor*"></a>
-  <h4 id="Votanic_vXR_vCast_IO_SensorPart__ctor_System_String_System_Boolean_" data-uid="Votanic.vXR.vCast.IO.SensorPart.#ctor(System.String,System.Boolean)">SensorPart(String, Boolean)</h4>
+  <h4 id="Votanic_vXR_vCast_IO_SensorPart__ctor_System_String_System_Boolean_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="Votanic.vXR.vCast.IO.SensorPart.#ctor(System.String,System.Boolean,UnityEngine.Vector3,UnityEngine.Vector3)">SensorPart(String, Boolean, Vector3, Vector3)</h4>
   <div class="markdown level1 summary"><p>Declare the sensor part.
 <br> 宣告感應器組件。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SensorPart(string name, bool enable)</code></pre>
+    <pre><code class="lang-csharp hljs">public SensorPart(string name, bool enable, Vector3 position, Vector3 rotation)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,6 +136,18 @@ public class SensorPart : Element</code></pre>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">enable</span></td>
         <td><p>Enable if true <br> 當 true 時啟用</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Relative position on sensor <br> 在感應器的相對位置</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td><p>Relative euler angles on sensor <br> 在感應器的相對角度</p>
 </td>
       </tr>
     </tbody>
@@ -164,6 +176,58 @@ public bool enable</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vCast_IO_SensorPart_position" data-uid="Votanic.vXR.vCast.IO.SensorPart.position">position</h4>
+  <div class="markdown level1 summary"><p>Relative position on sensor. <br> 在感應器的相對位置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Relative position on sensor.\n&#22312;&#24863;&#25033;&#22120;&#30340;&#30456;&#23565;&#20301;&#32622;&#12290;&quot;)]
+public Vector3 position</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vCast_IO_SensorPart_rotation" data-uid="Votanic.vXR.vCast.IO.SensorPart.rotation">rotation</h4>
+  <div class="markdown level1 summary"><p>Relative euler angles on sensor. <br> 在感應器的相對角度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Relative euler angles on sensor.\n&#22312;&#24863;&#25033;&#22120;&#30340;&#30456;&#23565;&#35282;&#24230;&#12290;&quot;)]
+public Vector3 rotation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
         <td></td>
       </tr>
     </tbody>

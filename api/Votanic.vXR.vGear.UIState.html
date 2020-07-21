@@ -94,14 +94,14 @@ public class UIState</code></pre>
   
   
   <a id="Votanic_vXR_vGear_UIState__ctor_" data-uid="Votanic.vXR.vGear.UIState.#ctor*"></a>
-  <h4 id="Votanic_vXR_vGear_UIState__ctor_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Color_System_Single_" data-uid="Votanic.vXR.vGear.UIState.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)">UIState(Vector3, Vector3, Vector3, Color, Single)</h4>
+  <h4 id="Votanic_vXR_vGear_UIState__ctor_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Color_System_Single_Votanic_vXR_vCast_Outline_" data-uid="Votanic.vXR.vGear.UIState.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,Votanic.vXR.vCast.Outline)">UIState(Vector3, Vector3, Vector3, Color, Single, Outline)</h4>
   <div class="markdown level1 summary"><p>Declare an UI State.
 <br> 宣告使用者介面狀態。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UIState(Vector3 movement, Vector3 rotation, Vector3 scaling, Color color, float alpha)</code></pre>
+    <pre><code class="lang-csharp hljs">public UIState(Vector3 movement, Vector3 rotation, Vector3 scaling, Color color, float alpha, Outline outline = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -141,6 +141,12 @@ public class UIState</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">alpha</span></td>
         <td><p>Alpha synergistic effect <br> 不透明度加乘效果</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vCast.Outline.html">Outline</a></td>
+        <td><span class="parametername">outline</span></td>
+        <td><p>Outline effect <br> 輪廓效果</p>
 </td>
       </tr>
     </tbody>
@@ -221,6 +227,32 @@ public Vector3 movement</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_UIState_outline" data-uid="Votanic.vXR.vGear.UIState.outline">outline</h4>
+  <div class="markdown level1 summary"><p>Outline effect. <br> 輪廓效果。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Outline effect.\n&#36650;&#24275;&#25928;&#26524;&#12290;&quot;)]
+public Outline outline</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vCast.Outline.html">Outline</a></td>
         <td></td>
       </tr>
     </tbody>

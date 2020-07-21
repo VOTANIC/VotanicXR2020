@@ -119,14 +119,14 @@ public class ControllerTool : Element</code></pre>
   
   
   <a id="Votanic_vXR_vCast_IO_ControllerTool__ctor_" data-uid="Votanic.vXR.vCast.IO.ControllerTool.#ctor*"></a>
-  <h4 id="Votanic_vXR_vCast_IO_ControllerTool__ctor_System_String_System_Boolean_System_Boolean_System_Single_System_Int32___System_Int32___Votanic_vXR_vCast_WandRay_Votanic_vXR_vCast_Glove_" data-uid="Votanic.vXR.vCast.IO.ControllerTool.#ctor(System.String,System.Boolean,System.Boolean,System.Single,System.Int32[],System.Int32[],Votanic.vXR.vCast.WandRay,Votanic.vXR.vCast.Glove)">ControllerTool(String, Boolean, Boolean, Single, Int32[], Int32[], WandRay, Glove)</h4>
+  <h4 id="Votanic_vXR_vCast_IO_ControllerTool__ctor_System_String_System_Boolean_System_Boolean_System_Single_System_Int32___System_Int32___UnityEngine_Vector3_UnityEngine_Vector3_Votanic_vXR_vCast_WandRay_Votanic_vXR_vCast_Glove_" data-uid="Votanic.vXR.vCast.IO.ControllerTool.#ctor(System.String,System.Boolean,System.Boolean,System.Single,System.Int32[],System.Int32[],UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.vCast.WandRay,Votanic.vXR.vCast.Glove)">ControllerTool(String, Boolean, Boolean, Single, Int32[], Int32[], Vector3, Vector3, WandRay, Glove)</h4>
   <div class="markdown level1 summary"><p>Declare a controller tool.
 <br> 宣告一個控制器工具。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ControllerTool(string name, bool autoSwitch, bool enableScan, float scanLength, int[] detectLayers, int[] ignoreLayers, WandRay wandRay, Glove glove)</code></pre>
+    <pre><code class="lang-csharp hljs">public ControllerTool(string name, bool autoSwitch, bool enableScan, float scanLength, int[] detectLayers, int[] ignoreLayers, Vector3 position, Vector3 rotation, WandRay wandRay, Glove glove)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -172,6 +172,18 @@ public class ControllerTool : Element</code></pre>
         <td><span class="xref">System.Int32</span>[]</td>
         <td><span class="parametername">ignoreLayers</span></td>
         <td><p>The layers need to be ignored <br> 需要忽略的層級</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Relative position on controller <br> 在控制器的相對位置</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td><p>Relative euler angles on controller <br> 在控制器的相對角度</p>
 </td>
       </tr>
       <tr>
@@ -318,6 +330,58 @@ public List&lt;int&gt; ignoreLayers</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vCast_IO_ControllerTool_position" data-uid="Votanic.vXR.vCast.IO.ControllerTool.position">position</h4>
+  <div class="markdown level1 summary"><p>Relative position on controller. <br> 在控制器的相對位置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Relative position on controller.\n&#22312;&#25511;&#21046;&#22120;&#30340;&#30456;&#23565;&#20301;&#32622;&#12290;&quot;)]
+public Vector3 position</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vCast_IO_ControllerTool_rotation" data-uid="Votanic.vXR.vCast.IO.ControllerTool.rotation">rotation</h4>
+  <div class="markdown level1 summary"><p>Relative euler angles on controller. <br> 在控制器的相對角度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Relative euler angles on controller.\n&#22312;&#25511;&#21046;&#22120;&#30340;&#30456;&#23565;&#35282;&#24230;&#12290;&quot;)]
+public Vector3 rotation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
         <td></td>
       </tr>
     </tbody>

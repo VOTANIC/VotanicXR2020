@@ -9011,6 +9011,36 @@ references:
   commentId: N:Votanic.vXR
   fullName: Votanic.vXR
   nameWithType: Votanic.vXR
+- uid: Votanic.vXR.ClimbSetting
+  name: ClimbSetting
+  href: api/Votanic.vXR.ClimbSetting.html
+  commentId: T:Votanic.vXR.ClimbSetting
+  fullName: Votanic.vXR.ClimbSetting
+  nameWithType: ClimbSetting
+- uid: Votanic.vXR.ClimbSetting.clambObject
+  name: clambObject
+  href: api/Votanic.vXR.ClimbSetting.html#Votanic_vXR_ClimbSetting_clambObject
+  commentId: F:Votanic.vXR.ClimbSetting.clambObject
+  fullName: Votanic.vXR.ClimbSetting.clambObject
+  nameWithType: ClimbSetting.clambObject
+- uid: Votanic.vXR.ClimbSetting.x
+  name: x
+  href: api/Votanic.vXR.ClimbSetting.html#Votanic_vXR_ClimbSetting_x
+  commentId: F:Votanic.vXR.ClimbSetting.x
+  fullName: Votanic.vXR.ClimbSetting.x
+  nameWithType: ClimbSetting.x
+- uid: Votanic.vXR.ClimbSetting.y
+  name: y
+  href: api/Votanic.vXR.ClimbSetting.html#Votanic_vXR_ClimbSetting_y
+  commentId: F:Votanic.vXR.ClimbSetting.y
+  fullName: Votanic.vXR.ClimbSetting.y
+  nameWithType: ClimbSetting.y
+- uid: Votanic.vXR.ClimbSetting.z
+  name: z
+  href: api/Votanic.vXR.ClimbSetting.html#Votanic_vXR_ClimbSetting_z
+  commentId: F:Votanic.vXR.ClimbSetting.z
+  fullName: Votanic.vXR.ClimbSetting.z
+  nameWithType: ClimbSetting.z
 - uid: Votanic.vXR.CustomDuration
   name: CustomDuration
   href: api/Votanic.vXR.CustomDuration.html
@@ -9077,6 +9107,12 @@ references:
   commentId: F:Votanic.vXR.GrabSetting.pickable
   fullName: Votanic.vXR.GrabSetting.pickable
   nameWithType: GrabSetting.pickable
+- uid: Votanic.vXR.GrabSetting.pickToGrab
+  name: pickToGrab
+  href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_pickToGrab
+  commentId: F:Votanic.vXR.GrabSetting.pickToGrab
+  fullName: Votanic.vXR.GrabSetting.pickToGrab
+  nameWithType: GrabSetting.pickToGrab
 - uid: Votanic.vXR.GrabSetting.positionOffset
   name: positionOffset
   href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_positionOffset
@@ -9101,6 +9137,19 @@ references:
   commentId: T:Votanic.vXR.Interaction
   fullName: Votanic.vXR.Interaction
   nameWithType: Interaction
+- uid: Votanic.vXR.Interaction.#ctor
+  name: Interaction()
+  href: api/Votanic.vXR.Interaction.html#Votanic_vXR_Interaction__ctor
+  commentId: M:Votanic.vXR.Interaction.#ctor
+  fullName: Votanic.vXR.Interaction.Interaction()
+  nameWithType: Interaction.Interaction()
+- uid: Votanic.vXR.Interaction.#ctor*
+  name: Interaction
+  href: api/Votanic.vXR.Interaction.html#Votanic_vXR_Interaction__ctor_
+  commentId: Overload:Votanic.vXR.Interaction.#ctor
+  isSpec: "True"
+  fullName: Votanic.vXR.Interaction.Interaction
+  nameWithType: Interaction.Interaction
 - uid: Votanic.vXR.Interaction.command
   name: command
   href: api/Votanic.vXR.Interaction.html#Votanic_vXR_Interaction_command
@@ -10570,6 +10619,12 @@ references:
   commentId: T:Votanic.vXR.vCast.Essential
   fullName: Votanic.vXR.vCast.Essential
   nameWithType: Essential
+- uid: Votanic.vXR.vCast.Essential.alwaysOnCameras
+  name: alwaysOnCameras
+  href: api/Votanic.vXR.vCast.Essential.html#Votanic_vXR_vCast_Essential_alwaysOnCameras
+  commentId: F:Votanic.vXR.vCast.Essential.alwaysOnCameras
+  fullName: Votanic.vXR.vCast.Essential.alwaysOnCameras
+  nameWithType: Essential.alwaysOnCameras
 - uid: Votanic.vXR.vCast.Essential.cameraReference
   name: cameraReference
   href: api/Votanic.vXR.vCast.Essential.html#Votanic_vXR_vCast_Essential_cameraReference
@@ -10606,6 +10661,18 @@ references:
   commentId: F:Votanic.vXR.vCast.Essential.menu
   fullName: Votanic.vXR.vCast.Essential.menu
   nameWithType: Essential.menu
+- uid: Votanic.vXR.vCast.Essential.outlineFill
+  name: outlineFill
+  href: api/Votanic.vXR.vCast.Essential.html#Votanic_vXR_vCast_Essential_outlineFill
+  commentId: F:Votanic.vXR.vCast.Essential.outlineFill
+  fullName: Votanic.vXR.vCast.Essential.outlineFill
+  nameWithType: Essential.outlineFill
+- uid: Votanic.vXR.vCast.Essential.outlineMask
+  name: outlineMask
+  href: api/Votanic.vXR.vCast.Essential.html#Votanic_vXR_vCast_Essential_outlineMask
+  commentId: F:Votanic.vXR.vCast.Essential.outlineMask
+  fullName: Votanic.vXR.vCast.Essential.outlineMask
+  nameWithType: Essential.outlineMask
 - uid: Votanic.vXR.vCast.Essential.screenWarning
   name: screenWarning
   href: api/Votanic.vXR.vCast.Essential.html#Votanic_vXR_vCast_Essential_screenWarning
@@ -10648,6 +10715,48 @@ references:
   commentId: F:Votanic.vXR.vCast.Glove.interactive
   fullName: Votanic.vXR.vCast.Glove.interactive
   nameWithType: Glove.interactive
+- uid: Votanic.vXR.vCast.Glove.normalOutline
+  name: normalOutline
+  href: api/Votanic.vXR.vCast.Glove.html#Votanic_vXR_vCast_Glove_normalOutline
+  commentId: F:Votanic.vXR.vCast.Glove.normalOutline
+  fullName: Votanic.vXR.vCast.Glove.normalOutline
+  nameWithType: Glove.normalOutline
+- uid: Votanic.vXR.vCast.Glove.offset
+  name: offset
+  href: api/Votanic.vXR.vCast.Glove.html#Votanic_vXR_vCast_Glove_offset
+  commentId: F:Votanic.vXR.vCast.Glove.offset
+  fullName: Votanic.vXR.vCast.Glove.offset
+  nameWithType: Glove.offset
+- uid: Votanic.vXR.vCast.Glove.position
+  name: position
+  href: api/Votanic.vXR.vCast.Glove.html#Votanic_vXR_vCast_Glove_position
+  commentId: F:Votanic.vXR.vCast.Glove.position
+  fullName: Votanic.vXR.vCast.Glove.position
+  nameWithType: Glove.position
+- uid: Votanic.vXR.vCast.Glove.pressOutline
+  name: pressOutline
+  href: api/Votanic.vXR.vCast.Glove.html#Votanic_vXR_vCast_Glove_pressOutline
+  commentId: F:Votanic.vXR.vCast.Glove.pressOutline
+  fullName: Votanic.vXR.vCast.Glove.pressOutline
+  nameWithType: Glove.pressOutline
+- uid: Votanic.vXR.vCast.Glove.radius
+  name: radius
+  href: api/Votanic.vXR.vCast.Glove.html#Votanic_vXR_vCast_Glove_radius
+  commentId: F:Votanic.vXR.vCast.Glove.radius
+  fullName: Votanic.vXR.vCast.Glove.radius
+  nameWithType: Glove.radius
+- uid: Votanic.vXR.vCast.Glove.rotation
+  name: rotation
+  href: api/Votanic.vXR.vCast.Glove.html#Votanic_vXR_vCast_Glove_rotation
+  commentId: F:Votanic.vXR.vCast.Glove.rotation
+  fullName: Votanic.vXR.vCast.Glove.rotation
+  nameWithType: Glove.rotation
+- uid: Votanic.vXR.vCast.Glove.selectOutline
+  name: selectOutline
+  href: api/Votanic.vXR.vCast.Glove.html#Votanic_vXR_vCast_Glove_selectOutline
+  commentId: F:Votanic.vXR.vCast.Glove.selectOutline
+  fullName: Votanic.vXR.vCast.Glove.selectOutline
+  nameWithType: Glove.selectOutline
 - uid: Votanic.vXR.vCast.IO
   name: Votanic.vXR.vCast.IO
   href: api/Votanic.vXR.vCast.IO.html
@@ -10666,15 +10775,15 @@ references:
   commentId: M:Votanic.vXR.vCast.IO.ControllerTool.#ctor
   fullName: Votanic.vXR.vCast.IO.ControllerTool.ControllerTool()
   nameWithType: ControllerTool.ControllerTool()
-- uid: Votanic.vXR.vCast.IO.ControllerTool.#ctor(System.String,System.Boolean,System.Boolean,System.Single,System.Int32[],System.Int32[],Votanic.vXR.vCast.WandRay,Votanic.vXR.vCast.Glove)
-  name: ControllerTool(String, Boolean, Boolean, Single, Int32[], Int32[], WandRay, Glove)
-  href: api/Votanic.vXR.vCast.IO.ControllerTool.html#Votanic_vXR_vCast_IO_ControllerTool__ctor_System_String_System_Boolean_System_Boolean_System_Single_System_Int32___System_Int32___Votanic_vXR_vCast_WandRay_Votanic_vXR_vCast_Glove_
-  commentId: M:Votanic.vXR.vCast.IO.ControllerTool.#ctor(System.String,System.Boolean,System.Boolean,System.Single,System.Int32[],System.Int32[],Votanic.vXR.vCast.WandRay,Votanic.vXR.vCast.Glove)
-  name.vb: ControllerTool(String, Boolean, Boolean, Single, Int32(), Int32(), WandRay, Glove)
-  fullName: Votanic.vXR.vCast.IO.ControllerTool.ControllerTool(System.String, System.Boolean, System.Boolean, System.Single, System.Int32[], System.Int32[], Votanic.vXR.vCast.WandRay, Votanic.vXR.vCast.Glove)
-  fullName.vb: Votanic.vXR.vCast.IO.ControllerTool.ControllerTool(System.String, System.Boolean, System.Boolean, System.Single, System.Int32(), System.Int32(), Votanic.vXR.vCast.WandRay, Votanic.vXR.vCast.Glove)
-  nameWithType: ControllerTool.ControllerTool(String, Boolean, Boolean, Single, Int32[], Int32[], WandRay, Glove)
-  nameWithType.vb: ControllerTool.ControllerTool(String, Boolean, Boolean, Single, Int32(), Int32(), WandRay, Glove)
+- uid: Votanic.vXR.vCast.IO.ControllerTool.#ctor(System.String,System.Boolean,System.Boolean,System.Single,System.Int32[],System.Int32[],UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.vCast.WandRay,Votanic.vXR.vCast.Glove)
+  name: ControllerTool(String, Boolean, Boolean, Single, Int32[], Int32[], Vector3, Vector3, WandRay, Glove)
+  href: api/Votanic.vXR.vCast.IO.ControllerTool.html#Votanic_vXR_vCast_IO_ControllerTool__ctor_System_String_System_Boolean_System_Boolean_System_Single_System_Int32___System_Int32___UnityEngine_Vector3_UnityEngine_Vector3_Votanic_vXR_vCast_WandRay_Votanic_vXR_vCast_Glove_
+  commentId: M:Votanic.vXR.vCast.IO.ControllerTool.#ctor(System.String,System.Boolean,System.Boolean,System.Single,System.Int32[],System.Int32[],UnityEngine.Vector3,UnityEngine.Vector3,Votanic.vXR.vCast.WandRay,Votanic.vXR.vCast.Glove)
+  name.vb: ControllerTool(String, Boolean, Boolean, Single, Int32(), Int32(), Vector3, Vector3, WandRay, Glove)
+  fullName: Votanic.vXR.vCast.IO.ControllerTool.ControllerTool(System.String, System.Boolean, System.Boolean, System.Single, System.Int32[], System.Int32[], UnityEngine.Vector3, UnityEngine.Vector3, Votanic.vXR.vCast.WandRay, Votanic.vXR.vCast.Glove)
+  fullName.vb: Votanic.vXR.vCast.IO.ControllerTool.ControllerTool(System.String, System.Boolean, System.Boolean, System.Single, System.Int32(), System.Int32(), UnityEngine.Vector3, UnityEngine.Vector3, Votanic.vXR.vCast.WandRay, Votanic.vXR.vCast.Glove)
+  nameWithType: ControllerTool.ControllerTool(String, Boolean, Boolean, Single, Int32[], Int32[], Vector3, Vector3, WandRay, Glove)
+  nameWithType.vb: ControllerTool.ControllerTool(String, Boolean, Boolean, Single, Int32(), Int32(), Vector3, Vector3, WandRay, Glove)
 - uid: Votanic.vXR.vCast.IO.ControllerTool.#ctor*
   name: ControllerTool
   href: api/Votanic.vXR.vCast.IO.ControllerTool.html#Votanic_vXR_vCast_IO_ControllerTool__ctor_
@@ -10712,6 +10821,18 @@ references:
   commentId: F:Votanic.vXR.vCast.IO.ControllerTool.ignoreLayers
   fullName: Votanic.vXR.vCast.IO.ControllerTool.ignoreLayers
   nameWithType: ControllerTool.ignoreLayers
+- uid: Votanic.vXR.vCast.IO.ControllerTool.position
+  name: position
+  href: api/Votanic.vXR.vCast.IO.ControllerTool.html#Votanic_vXR_vCast_IO_ControllerTool_position
+  commentId: F:Votanic.vXR.vCast.IO.ControllerTool.position
+  fullName: Votanic.vXR.vCast.IO.ControllerTool.position
+  nameWithType: ControllerTool.position
+- uid: Votanic.vXR.vCast.IO.ControllerTool.rotation
+  name: rotation
+  href: api/Votanic.vXR.vCast.IO.ControllerTool.html#Votanic_vXR_vCast_IO_ControllerTool_rotation
+  commentId: F:Votanic.vXR.vCast.IO.ControllerTool.rotation
+  fullName: Votanic.vXR.vCast.IO.ControllerTool.rotation
+  nameWithType: ControllerTool.rotation
 - uid: Votanic.vXR.vCast.IO.ControllerTool.scanLength
   name: scanLength
   href: api/Votanic.vXR.vCast.IO.ControllerTool.html#Votanic_vXR_vCast_IO_ControllerTool_scanLength
@@ -10766,12 +10887,12 @@ references:
   commentId: T:Votanic.vXR.vCast.IO.SensorPart
   fullName: Votanic.vXR.vCast.IO.SensorPart
   nameWithType: SensorPart
-- uid: Votanic.vXR.vCast.IO.SensorPart.#ctor(System.String,System.Boolean)
-  name: SensorPart(String, Boolean)
-  href: api/Votanic.vXR.vCast.IO.SensorPart.html#Votanic_vXR_vCast_IO_SensorPart__ctor_System_String_System_Boolean_
-  commentId: M:Votanic.vXR.vCast.IO.SensorPart.#ctor(System.String,System.Boolean)
-  fullName: Votanic.vXR.vCast.IO.SensorPart.SensorPart(System.String, System.Boolean)
-  nameWithType: SensorPart.SensorPart(String, Boolean)
+- uid: Votanic.vXR.vCast.IO.SensorPart.#ctor(System.String,System.Boolean,UnityEngine.Vector3,UnityEngine.Vector3)
+  name: SensorPart(String, Boolean, Vector3, Vector3)
+  href: api/Votanic.vXR.vCast.IO.SensorPart.html#Votanic_vXR_vCast_IO_SensorPart__ctor_System_String_System_Boolean_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:Votanic.vXR.vCast.IO.SensorPart.#ctor(System.String,System.Boolean,UnityEngine.Vector3,UnityEngine.Vector3)
+  fullName: Votanic.vXR.vCast.IO.SensorPart.SensorPart(System.String, System.Boolean, UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: SensorPart.SensorPart(String, Boolean, Vector3, Vector3)
 - uid: Votanic.vXR.vCast.IO.SensorPart.#ctor*
   name: SensorPart
   href: api/Votanic.vXR.vCast.IO.SensorPart.html#Votanic_vXR_vCast_IO_SensorPart__ctor_
@@ -10785,6 +10906,18 @@ references:
   commentId: F:Votanic.vXR.vCast.IO.SensorPart.enable
   fullName: Votanic.vXR.vCast.IO.SensorPart.enable
   nameWithType: SensorPart.enable
+- uid: Votanic.vXR.vCast.IO.SensorPart.position
+  name: position
+  href: api/Votanic.vXR.vCast.IO.SensorPart.html#Votanic_vXR_vCast_IO_SensorPart_position
+  commentId: F:Votanic.vXR.vCast.IO.SensorPart.position
+  fullName: Votanic.vXR.vCast.IO.SensorPart.position
+  nameWithType: SensorPart.position
+- uid: Votanic.vXR.vCast.IO.SensorPart.rotation
+  name: rotation
+  href: api/Votanic.vXR.vCast.IO.SensorPart.html#Votanic_vXR_vCast_IO_SensorPart_rotation
+  commentId: F:Votanic.vXR.vCast.IO.SensorPart.rotation
+  fullName: Votanic.vXR.vCast.IO.SensorPart.rotation
+  nameWithType: SensorPart.rotation
 - uid: Votanic.vXR.vCast.IO.vCast_ControllerTool
   name: vCast_ControllerTool
   href: api/Votanic.vXR.vCast.IO.vCast_ControllerTool.html
@@ -10845,6 +10978,127 @@ references:
   commentId: F:Votanic.vXR.vCast.Layer.wall
   fullName: Votanic.vXR.vCast.Layer.wall
   nameWithType: Layer.wall
+- uid: Votanic.vXR.vCast.Outline
+  name: Outline
+  href: api/Votanic.vXR.vCast.Outline.html
+  commentId: T:Votanic.vXR.vCast.Outline
+  fullName: Votanic.vXR.vCast.Outline
+  nameWithType: Outline
+- uid: Votanic.vXR.vCast.Outline.#ctor
+  name: Outline()
+  href: api/Votanic.vXR.vCast.Outline.html#Votanic_vXR_vCast_Outline__ctor
+  commentId: M:Votanic.vXR.vCast.Outline.#ctor
+  fullName: Votanic.vXR.vCast.Outline.Outline()
+  nameWithType: Outline.Outline()
+- uid: Votanic.vXR.vCast.Outline.#ctor(System.Boolean,UnityEngine.Color,System.Single,Votanic.vXR.vCast.OutlineMode)
+  name: Outline(Boolean, Color, Single, OutlineMode)
+  href: api/Votanic.vXR.vCast.Outline.html#Votanic_vXR_vCast_Outline__ctor_System_Boolean_UnityEngine_Color_System_Single_Votanic_vXR_vCast_OutlineMode_
+  commentId: M:Votanic.vXR.vCast.Outline.#ctor(System.Boolean,UnityEngine.Color,System.Single,Votanic.vXR.vCast.OutlineMode)
+  fullName: Votanic.vXR.vCast.Outline.Outline(System.Boolean, UnityEngine.Color, System.Single, Votanic.vXR.vCast.OutlineMode)
+  nameWithType: Outline.Outline(Boolean, Color, Single, OutlineMode)
+- uid: Votanic.vXR.vCast.Outline.#ctor*
+  name: Outline
+  href: api/Votanic.vXR.vCast.Outline.html#Votanic_vXR_vCast_Outline__ctor_
+  commentId: Overload:Votanic.vXR.vCast.Outline.#ctor
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.Outline.Outline
+  nameWithType: Outline.Outline
+- uid: Votanic.vXR.vCast.Outline.color
+  name: color
+  href: api/Votanic.vXR.vCast.Outline.html#Votanic_vXR_vCast_Outline_color
+  commentId: F:Votanic.vXR.vCast.Outline.color
+  fullName: Votanic.vXR.vCast.Outline.color
+  nameWithType: Outline.color
+- uid: Votanic.vXR.vCast.Outline.enable
+  name: enable
+  href: api/Votanic.vXR.vCast.Outline.html#Votanic_vXR_vCast_Outline_enable
+  commentId: F:Votanic.vXR.vCast.Outline.enable
+  fullName: Votanic.vXR.vCast.Outline.enable
+  nameWithType: Outline.enable
+- uid: Votanic.vXR.vCast.Outline.mode
+  name: mode
+  href: api/Votanic.vXR.vCast.Outline.html#Votanic_vXR_vCast_Outline_mode
+  commentId: F:Votanic.vXR.vCast.Outline.mode
+  fullName: Votanic.vXR.vCast.Outline.mode
+  nameWithType: Outline.mode
+- uid: Votanic.vXR.vCast.Outline.width
+  name: width
+  href: api/Votanic.vXR.vCast.Outline.html#Votanic_vXR_vCast_Outline_width
+  commentId: F:Votanic.vXR.vCast.Outline.width
+  fullName: Votanic.vXR.vCast.Outline.width
+  nameWithType: Outline.width
+- uid: Votanic.vXR.vCast.OutlineMode
+  name: OutlineMode
+  href: api/Votanic.vXR.vCast.OutlineMode.html
+  commentId: T:Votanic.vXR.vCast.OutlineMode
+  fullName: Votanic.vXR.vCast.OutlineMode
+  nameWithType: OutlineMode
+- uid: Votanic.vXR.vCast.OutlineMode.Both
+  name: Both
+  href: api/Votanic.vXR.vCast.OutlineMode.html#Votanic_vXR_vCast_OutlineMode_Both
+  commentId: F:Votanic.vXR.vCast.OutlineMode.Both
+  fullName: Votanic.vXR.vCast.OutlineMode.Both
+  nameWithType: OutlineMode.Both
+- uid: Votanic.vXR.vCast.OutlineMode.OutlineAll
+  name: OutlineAll
+  href: api/Votanic.vXR.vCast.OutlineMode.html#Votanic_vXR_vCast_OutlineMode_OutlineAll
+  commentId: F:Votanic.vXR.vCast.OutlineMode.OutlineAll
+  fullName: Votanic.vXR.vCast.OutlineMode.OutlineAll
+  nameWithType: OutlineMode.OutlineAll
+- uid: Votanic.vXR.vCast.OutlineMode.OutlineHidden
+  name: OutlineHidden
+  href: api/Votanic.vXR.vCast.OutlineMode.html#Votanic_vXR_vCast_OutlineMode_OutlineHidden
+  commentId: F:Votanic.vXR.vCast.OutlineMode.OutlineHidden
+  fullName: Votanic.vXR.vCast.OutlineMode.OutlineHidden
+  nameWithType: OutlineMode.OutlineHidden
+- uid: Votanic.vXR.vCast.OutlineMode.OutlineVisible
+  name: OutlineVisible
+  href: api/Votanic.vXR.vCast.OutlineMode.html#Votanic_vXR_vCast_OutlineMode_OutlineVisible
+  commentId: F:Votanic.vXR.vCast.OutlineMode.OutlineVisible
+  fullName: Votanic.vXR.vCast.OutlineMode.OutlineVisible
+  nameWithType: OutlineMode.OutlineVisible
+- uid: Votanic.vXR.vCast.OutlineMode.Silhouette
+  name: Silhouette
+  href: api/Votanic.vXR.vCast.OutlineMode.html#Votanic_vXR_vCast_OutlineMode_Silhouette
+  commentId: F:Votanic.vXR.vCast.OutlineMode.Silhouette
+  fullName: Votanic.vXR.vCast.OutlineMode.Silhouette
+  nameWithType: OutlineMode.Silhouette
+- uid: Votanic.vXR.vCast.SoundEffect
+  name: SoundEffect
+  href: api/Votanic.vXR.vCast.SoundEffect.html
+  commentId: T:Votanic.vXR.vCast.SoundEffect
+  fullName: Votanic.vXR.vCast.SoundEffect
+  nameWithType: SoundEffect
+- uid: Votanic.vXR.vCast.SoundEffect.press
+  name: press
+  href: api/Votanic.vXR.vCast.SoundEffect.html#Votanic_vXR_vCast_SoundEffect_press
+  commentId: F:Votanic.vXR.vCast.SoundEffect.press
+  fullName: Votanic.vXR.vCast.SoundEffect.press
+  nameWithType: SoundEffect.press
+- uid: Votanic.vXR.vCast.SoundEffect.select
+  name: select
+  href: api/Votanic.vXR.vCast.SoundEffect.html#Votanic_vXR_vCast_SoundEffect_select
+  commentId: F:Votanic.vXR.vCast.SoundEffect.select
+  fullName: Votanic.vXR.vCast.SoundEffect.select
+  nameWithType: SoundEffect.select
+- uid: Votanic.vXR.vCast.SoundEffect.userLevelLock
+  name: userLevelLock
+  href: api/Votanic.vXR.vCast.SoundEffect.html#Votanic_vXR_vCast_SoundEffect_userLevelLock
+  commentId: F:Votanic.vXR.vCast.SoundEffect.userLevelLock
+  fullName: Votanic.vXR.vCast.SoundEffect.userLevelLock
+  nameWithType: SoundEffect.userLevelLock
+- uid: Votanic.vXR.vCast.SoundEffect.userLevelUnlock
+  name: userLevelUnlock
+  href: api/Votanic.vXR.vCast.SoundEffect.html#Votanic_vXR_vCast_SoundEffect_userLevelUnlock
+  commentId: F:Votanic.vXR.vCast.SoundEffect.userLevelUnlock
+  fullName: Votanic.vXR.vCast.SoundEffect.userLevelUnlock
+  nameWithType: SoundEffect.userLevelUnlock
+- uid: Votanic.vXR.vCast.SoundEffect.wallDetect
+  name: wallDetect
+  href: api/Votanic.vXR.vCast.SoundEffect.html#Votanic_vXR_vCast_SoundEffect_wallDetect
+  commentId: F:Votanic.vXR.vCast.SoundEffect.wallDetect
+  fullName: Votanic.vXR.vCast.SoundEffect.wallDetect
+  nameWithType: SoundEffect.wallDetect
 - uid: Votanic.vXR.vCast.vCast
   name: vCast
   href: api/Votanic.vXR.vCast.vCast.html
@@ -11010,19 +11264,6 @@ references:
   commentId: T:Votanic.vXR.vCast.vCast.ConsoleMode
   fullName: Votanic.vXR.vCast.vCast.ConsoleMode
   nameWithType: vCast.ConsoleMode
-- uid: Votanic.vXR.vCast.vCast.ConsoleMode.AddAlwaysOnCamera(UnityEngine.Camera)
-  name: AddAlwaysOnCamera(Camera)
-  href: api/Votanic.vXR.vCast.vCast.ConsoleMode.html#Votanic_vXR_vCast_vCast_ConsoleMode_AddAlwaysOnCamera_UnityEngine_Camera_
-  commentId: M:Votanic.vXR.vCast.vCast.ConsoleMode.AddAlwaysOnCamera(UnityEngine.Camera)
-  fullName: Votanic.vXR.vCast.vCast.ConsoleMode.AddAlwaysOnCamera(UnityEngine.Camera)
-  nameWithType: vCast.ConsoleMode.AddAlwaysOnCamera(Camera)
-- uid: Votanic.vXR.vCast.vCast.ConsoleMode.AddAlwaysOnCamera*
-  name: AddAlwaysOnCamera
-  href: api/Votanic.vXR.vCast.vCast.ConsoleMode.html#Votanic_vXR_vCast_vCast_ConsoleMode_AddAlwaysOnCamera_
-  commentId: Overload:Votanic.vXR.vCast.vCast.ConsoleMode.AddAlwaysOnCamera
-  isSpec: "True"
-  fullName: Votanic.vXR.vCast.vCast.ConsoleMode.AddAlwaysOnCamera
-  nameWithType: vCast.ConsoleMode.AddAlwaysOnCamera
 - uid: Votanic.vXR.vCast.vCast.ConsoleMode.AddConsoleCamera(UnityEngine.Camera)
   name: AddConsoleCamera(Camera)
   href: api/Votanic.vXR.vCast.vCast.ConsoleMode.html#Votanic_vXR_vCast_vCast_ConsoleMode_AddConsoleCamera_UnityEngine_Camera_
@@ -11036,19 +11277,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.ConsoleMode.AddConsoleCamera
   nameWithType: vCast.ConsoleMode.AddConsoleCamera
-- uid: Votanic.vXR.vCast.vCast.ConsoleMode.ClearAlwaysOnCamera
-  name: ClearAlwaysOnCamera()
-  href: api/Votanic.vXR.vCast.vCast.ConsoleMode.html#Votanic_vXR_vCast_vCast_ConsoleMode_ClearAlwaysOnCamera
-  commentId: M:Votanic.vXR.vCast.vCast.ConsoleMode.ClearAlwaysOnCamera
-  fullName: Votanic.vXR.vCast.vCast.ConsoleMode.ClearAlwaysOnCamera()
-  nameWithType: vCast.ConsoleMode.ClearAlwaysOnCamera()
-- uid: Votanic.vXR.vCast.vCast.ConsoleMode.ClearAlwaysOnCamera*
-  name: ClearAlwaysOnCamera
-  href: api/Votanic.vXR.vCast.vCast.ConsoleMode.html#Votanic_vXR_vCast_vCast_ConsoleMode_ClearAlwaysOnCamera_
-  commentId: Overload:Votanic.vXR.vCast.vCast.ConsoleMode.ClearAlwaysOnCamera
-  isSpec: "True"
-  fullName: Votanic.vXR.vCast.vCast.ConsoleMode.ClearAlwaysOnCamera
-  nameWithType: vCast.ConsoleMode.ClearAlwaysOnCamera
 - uid: Votanic.vXR.vCast.vCast.ConsoleMode.ClearConsoleCamera
   name: ClearConsoleCamera()
   href: api/Votanic.vXR.vCast.vCast.ConsoleMode.html#Votanic_vXR_vCast_vCast_ConsoleMode_ClearConsoleCamera
@@ -13340,6 +13568,12 @@ references:
   commentId: M:Votanic.vXR.vCast.vCast_Controller.Pick
   fullName: Votanic.vXR.vCast.vCast_Controller.Pick()
   nameWithType: vCast_Controller.Pick()
+- uid: Votanic.vXR.vCast.vCast_Controller.Pick(Votanic.vXR.vCast.vCast_Interactables)
+  name: Pick(vCast_Interactables)
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_Pick_Votanic_vXR_vCast_vCast_Interactables_
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.Pick(Votanic.vXR.vCast.vCast_Interactables)
+  fullName: Votanic.vXR.vCast.vCast_Controller.Pick(Votanic.vXR.vCast.vCast_Interactables)
+  nameWithType: vCast_Controller.Pick(vCast_Interactables)
 - uid: Votanic.vXR.vCast.vCast_Controller.Pick*
   name: Pick
   href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_Pick_
@@ -13440,6 +13674,32 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_Controller.SetDisableColor
   nameWithType: vCast_Controller.SetDisableColor
+- uid: Votanic.vXR.vCast.vCast_Controller.SetDisableOnTopAlpha(System.Single)
+  name: SetDisableOnTopAlpha(Single)
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetDisableOnTopAlpha_System_Single_
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.SetDisableOnTopAlpha(System.Single)
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetDisableOnTopAlpha(System.Single)
+  nameWithType: vCast_Controller.SetDisableOnTopAlpha(Single)
+- uid: Votanic.vXR.vCast.vCast_Controller.SetDisableOnTopAlpha*
+  name: SetDisableOnTopAlpha
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetDisableOnTopAlpha_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Controller.SetDisableOnTopAlpha
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetDisableOnTopAlpha
+  nameWithType: vCast_Controller.SetDisableOnTopAlpha
+- uid: Votanic.vXR.vCast.vCast_Controller.SetGloveRadius(System.Single)
+  name: SetGloveRadius(Single)
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetGloveRadius_System_Single_
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.SetGloveRadius(System.Single)
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetGloveRadius(System.Single)
+  nameWithType: vCast_Controller.SetGloveRadius(Single)
+- uid: Votanic.vXR.vCast.vCast_Controller.SetGloveRadius*
+  name: SetGloveRadius
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetGloveRadius_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Controller.SetGloveRadius
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetGloveRadius
+  nameWithType: vCast_Controller.SetGloveRadius
 - uid: Votanic.vXR.vCast.vCast_Controller.SetIgnoreLayers(System.Int32[])
   name: SetIgnoreLayers(Int32[])
   href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetIgnoreLayers_System_Int32___
@@ -13482,6 +13742,32 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_Controller.SetNormalColor
   nameWithType: vCast_Controller.SetNormalColor
+- uid: Votanic.vXR.vCast.vCast_Controller.SetNormalOnTopAlpha(System.Single)
+  name: SetNormalOnTopAlpha(Single)
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetNormalOnTopAlpha_System_Single_
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.SetNormalOnTopAlpha(System.Single)
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetNormalOnTopAlpha(System.Single)
+  nameWithType: vCast_Controller.SetNormalOnTopAlpha(Single)
+- uid: Votanic.vXR.vCast.vCast_Controller.SetNormalOnTopAlpha*
+  name: SetNormalOnTopAlpha
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetNormalOnTopAlpha_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Controller.SetNormalOnTopAlpha
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetNormalOnTopAlpha
+  nameWithType: vCast_Controller.SetNormalOnTopAlpha
+- uid: Votanic.vXR.vCast.vCast_Controller.SetNormalOutline(Votanic.vXR.vCast.Outline)
+  name: SetNormalOutline(Outline)
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetNormalOutline_Votanic_vXR_vCast_Outline_
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.SetNormalOutline(Votanic.vXR.vCast.Outline)
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetNormalOutline(Votanic.vXR.vCast.Outline)
+  nameWithType: vCast_Controller.SetNormalOutline(Outline)
+- uid: Votanic.vXR.vCast.vCast_Controller.SetNormalOutline*
+  name: SetNormalOutline
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetNormalOutline_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Controller.SetNormalOutline
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetNormalOutline
+  nameWithType: vCast_Controller.SetNormalOutline
 - uid: Votanic.vXR.vCast.vCast_Controller.SetPressColor(UnityEngine.Color)
   name: SetPressColor(Color)
   href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetPressColor_UnityEngine_Color_
@@ -13495,6 +13781,32 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_Controller.SetPressColor
   nameWithType: vCast_Controller.SetPressColor
+- uid: Votanic.vXR.vCast.vCast_Controller.SetPressOnTopAlpha(System.Single)
+  name: SetPressOnTopAlpha(Single)
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetPressOnTopAlpha_System_Single_
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.SetPressOnTopAlpha(System.Single)
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetPressOnTopAlpha(System.Single)
+  nameWithType: vCast_Controller.SetPressOnTopAlpha(Single)
+- uid: Votanic.vXR.vCast.vCast_Controller.SetPressOnTopAlpha*
+  name: SetPressOnTopAlpha
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetPressOnTopAlpha_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Controller.SetPressOnTopAlpha
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetPressOnTopAlpha
+  nameWithType: vCast_Controller.SetPressOnTopAlpha
+- uid: Votanic.vXR.vCast.vCast_Controller.SetPressOutline(Votanic.vXR.vCast.Outline)
+  name: SetPressOutline(Outline)
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetPressOutline_Votanic_vXR_vCast_Outline_
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.SetPressOutline(Votanic.vXR.vCast.Outline)
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetPressOutline(Votanic.vXR.vCast.Outline)
+  nameWithType: vCast_Controller.SetPressOutline(Outline)
+- uid: Votanic.vXR.vCast.vCast_Controller.SetPressOutline*
+  name: SetPressOutline
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetPressOutline_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Controller.SetPressOutline
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetPressOutline
+  nameWithType: vCast_Controller.SetPressOutline
 - uid: Votanic.vXR.vCast.vCast_Controller.SetSelectColor(UnityEngine.Color)
   name: SetSelectColor(Color)
   href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetSelectColor_UnityEngine_Color_
@@ -13508,6 +13820,32 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_Controller.SetSelectColor
   nameWithType: vCast_Controller.SetSelectColor
+- uid: Votanic.vXR.vCast.vCast_Controller.SetSelectOnTopAlpha(System.Single)
+  name: SetSelectOnTopAlpha(Single)
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetSelectOnTopAlpha_System_Single_
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.SetSelectOnTopAlpha(System.Single)
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetSelectOnTopAlpha(System.Single)
+  nameWithType: vCast_Controller.SetSelectOnTopAlpha(Single)
+- uid: Votanic.vXR.vCast.vCast_Controller.SetSelectOnTopAlpha*
+  name: SetSelectOnTopAlpha
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetSelectOnTopAlpha_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Controller.SetSelectOnTopAlpha
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetSelectOnTopAlpha
+  nameWithType: vCast_Controller.SetSelectOnTopAlpha
+- uid: Votanic.vXR.vCast.vCast_Controller.SetSelectOutline(Votanic.vXR.vCast.Outline)
+  name: SetSelectOutline(Outline)
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetSelectOutline_Votanic_vXR_vCast_Outline_
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.SetSelectOutline(Votanic.vXR.vCast.Outline)
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetSelectOutline(Votanic.vXR.vCast.Outline)
+  nameWithType: vCast_Controller.SetSelectOutline(Outline)
+- uid: Votanic.vXR.vCast.vCast_Controller.SetSelectOutline*
+  name: SetSelectOutline
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetSelectOutline_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Controller.SetSelectOutline
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Controller.SetSelectOutline
+  nameWithType: vCast_Controller.SetSelectOutline
 - uid: Votanic.vXR.vCast.vCast_Controller.SetTool(System.Int32)
   name: SetTool(Int32)
   href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_SetTool_System_Int32_
@@ -13795,12 +14133,30 @@ references:
   commentId: T:Votanic.vXR.vCast.vCast_Glove
   fullName: Votanic.vXR.vCast.vCast_Glove
   nameWithType: vCast_Glove
+- uid: Votanic.vXR.vCast.vCast_Glove.glove
+  name: glove
+  href: api/Votanic.vXR.vCast.vCast_Glove.html#Votanic_vXR_vCast_vCast_Glove_glove
+  commentId: F:Votanic.vXR.vCast.vCast_Glove.glove
+  fullName: Votanic.vXR.vCast.vCast_Glove.glove
+  nameWithType: vCast_Glove.glove
+- uid: Votanic.vXR.vCast.vCast_Glove.outline
+  name: outline
+  href: api/Votanic.vXR.vCast.vCast_Glove.html#Votanic_vXR_vCast_vCast_Glove_outline
+  commentId: F:Votanic.vXR.vCast.vCast_Glove.outline
+  fullName: Votanic.vXR.vCast.vCast_Glove.outline
+  nameWithType: vCast_Glove.outline
 - uid: Votanic.vXR.vCast.vCast_Interactables
   name: vCast_Interactables
   href: api/Votanic.vXR.vCast.vCast_Interactables.html
   commentId: T:Votanic.vXR.vCast.vCast_Interactables
   fullName: Votanic.vXR.vCast.vCast_Interactables
   nameWithType: vCast_Interactables
+- uid: Votanic.vXR.vCast.vCast_Interactables.climbSetting
+  name: climbSetting
+  href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_climbSetting
+  commentId: F:Votanic.vXR.vCast.vCast_Interactables.climbSetting
+  fullName: Votanic.vXR.vCast.vCast_Interactables.climbSetting
+  nameWithType: vCast_Interactables.climbSetting
 - uid: Votanic.vXR.vCast.vCast_Interactables.customDuration
   name: customDuration
   href: api/Votanic.vXR.vCast.vCast_Interactables.html#Votanic_vXR_vCast_vCast_Interactables_customDuration
@@ -14054,6 +14410,74 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast_Menu.pages
   fullName: Votanic.vXR.vCast.vCast_Menu.pages
   nameWithType: vCast_Menu.pages
+- uid: Votanic.vXR.vCast.vCast_Outliner
+  name: vCast_Outliner
+  href: api/Votanic.vXR.vCast.vCast_Outliner.html
+  commentId: T:Votanic.vXR.vCast.vCast_Outliner
+  fullName: Votanic.vXR.vCast.vCast_Outliner
+  nameWithType: vCast_Outliner
+- uid: Votanic.vXR.vCast.vCast_Outliner.Enable(System.Boolean)
+  name: Enable(Boolean)
+  href: api/Votanic.vXR.vCast.vCast_Outliner.html#Votanic_vXR_vCast_vCast_Outliner_Enable_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast_Outliner.Enable(System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast_Outliner.Enable(System.Boolean)
+  nameWithType: vCast_Outliner.Enable(Boolean)
+- uid: Votanic.vXR.vCast.vCast_Outliner.Enable*
+  name: Enable
+  href: api/Votanic.vXR.vCast.vCast_Outliner.html#Votanic_vXR_vCast_vCast_Outliner_Enable_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Outliner.Enable
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Outliner.Enable
+  nameWithType: vCast_Outliner.Enable
+- uid: Votanic.vXR.vCast.vCast_Outliner.fill
+  name: fill
+  href: api/Votanic.vXR.vCast.vCast_Outliner.html#Votanic_vXR_vCast_vCast_Outliner_fill
+  commentId: F:Votanic.vXR.vCast.vCast_Outliner.fill
+  fullName: Votanic.vXR.vCast.vCast_Outliner.fill
+  nameWithType: vCast_Outliner.fill
+- uid: Votanic.vXR.vCast.vCast_Outliner.isDisabled
+  name: isDisabled
+  href: api/Votanic.vXR.vCast.vCast_Outliner.html#Votanic_vXR_vCast_vCast_Outliner_isDisabled
+  commentId: F:Votanic.vXR.vCast.vCast_Outliner.isDisabled
+  fullName: Votanic.vXR.vCast.vCast_Outliner.isDisabled
+  nameWithType: vCast_Outliner.isDisabled
+- uid: Votanic.vXR.vCast.vCast_Outliner.mask
+  name: mask
+  href: api/Votanic.vXR.vCast.vCast_Outliner.html#Votanic_vXR_vCast_vCast_Outliner_mask
+  commentId: F:Votanic.vXR.vCast.vCast_Outliner.mask
+  fullName: Votanic.vXR.vCast.vCast_Outliner.mask
+  nameWithType: vCast_Outliner.mask
+- uid: Votanic.vXR.vCast.vCast_Outliner.outlineColor
+  name: outlineColor
+  href: api/Votanic.vXR.vCast.vCast_Outliner.html#Votanic_vXR_vCast_vCast_Outliner_outlineColor
+  commentId: F:Votanic.vXR.vCast.vCast_Outliner.outlineColor
+  fullName: Votanic.vXR.vCast.vCast_Outliner.outlineColor
+  nameWithType: vCast_Outliner.outlineColor
+- uid: Votanic.vXR.vCast.vCast_Outliner.outlineMode
+  name: outlineMode
+  href: api/Votanic.vXR.vCast.vCast_Outliner.html#Votanic_vXR_vCast_vCast_Outliner_outlineMode
+  commentId: F:Votanic.vXR.vCast.vCast_Outliner.outlineMode
+  fullName: Votanic.vXR.vCast.vCast_Outliner.outlineMode
+  nameWithType: vCast_Outliner.outlineMode
+- uid: Votanic.vXR.vCast.vCast_Outliner.outlineWidth
+  name: outlineWidth
+  href: api/Votanic.vXR.vCast.vCast_Outliner.html#Votanic_vXR_vCast_vCast_Outliner_outlineWidth
+  commentId: F:Votanic.vXR.vCast.vCast_Outliner.outlineWidth
+  fullName: Votanic.vXR.vCast.vCast_Outliner.outlineWidth
+  nameWithType: vCast_Outliner.outlineWidth
+- uid: Votanic.vXR.vCast.vCast_Outliner.SetOutline(UnityEngine.Color,System.Single)
+  name: SetOutline(Color, Single)
+  href: api/Votanic.vXR.vCast.vCast_Outliner.html#Votanic_vXR_vCast_vCast_Outliner_SetOutline_UnityEngine_Color_System_Single_
+  commentId: M:Votanic.vXR.vCast.vCast_Outliner.SetOutline(UnityEngine.Color,System.Single)
+  fullName: Votanic.vXR.vCast.vCast_Outliner.SetOutline(UnityEngine.Color, System.Single)
+  nameWithType: vCast_Outliner.SetOutline(Color, Single)
+- uid: Votanic.vXR.vCast.vCast_Outliner.SetOutline*
+  name: SetOutline
+  href: api/Votanic.vXR.vCast.vCast_Outliner.html#Votanic_vXR_vCast_vCast_Outliner_SetOutline_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Outliner.SetOutline
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Outliner.SetOutline
+  nameWithType: vCast_Outliner.SetOutline
 - uid: Votanic.vXR.vCast.vCast_Sensor
   name: vCast_Sensor
   href: api/Votanic.vXR.vCast.vCast_Sensor.html
@@ -14639,12 +15063,18 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast_Wall.effectColor
   fullName: Votanic.vXR.vCast.vCast_Wall.effectColor
   nameWithType: vCast_Wall.effectColor
-- uid: Votanic.vXR.vCast.vCast_Wall.effectDuration
-  name: effectDuration
-  href: api/Votanic.vXR.vCast.vCast_Wall.html#Votanic_vXR_vCast_vCast_Wall_effectDuration
-  commentId: F:Votanic.vXR.vCast.vCast_Wall.effectDuration
-  fullName: Votanic.vXR.vCast.vCast_Wall.effectDuration
-  nameWithType: vCast_Wall.effectDuration
+- uid: Votanic.vXR.vCast.vCast_Wall.effectDistort
+  name: effectDistort
+  href: api/Votanic.vXR.vCast.vCast_Wall.html#Votanic_vXR_vCast_vCast_Wall_effectDistort
+  commentId: F:Votanic.vXR.vCast.vCast_Wall.effectDistort
+  fullName: Votanic.vXR.vCast.vCast_Wall.effectDistort
+  nameWithType: vCast_Wall.effectDistort
+- uid: Votanic.vXR.vCast.vCast_Wall.effectFadeDuration
+  name: effectFadeDuration
+  href: api/Votanic.vXR.vCast.vCast_Wall.html#Votanic_vXR_vCast_vCast_Wall_effectFadeDuration
+  commentId: F:Votanic.vXR.vCast.vCast_Wall.effectFadeDuration
+  fullName: Votanic.vXR.vCast.vCast_Wall.effectFadeDuration
+  nameWithType: vCast_Wall.effectFadeDuration
 - uid: Votanic.vXR.vCast.vCast_Wall.effectSpeed
   name: effectSpeed
   href: api/Votanic.vXR.vCast.vCast_Wall.html#Votanic_vXR_vCast_vCast_Wall_effectSpeed
@@ -14699,18 +15129,12 @@ references:
   commentId: F:Votanic.vXR.vCast.WandRay.alwaysOnTop
   fullName: Votanic.vXR.vCast.WandRay.alwaysOnTop
   nameWithType: WandRay.alwaysOnTop
-- uid: Votanic.vXR.vCast.WandRay.disableColor
-  name: disableColor
-  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_disableColor
-  commentId: F:Votanic.vXR.vCast.WandRay.disableColor
-  fullName: Votanic.vXR.vCast.WandRay.disableColor
-  nameWithType: WandRay.disableColor
-- uid: Votanic.vXR.vCast.WandRay.disableOnTopAlpha
-  name: disableOnTopAlpha
-  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_disableOnTopAlpha
-  commentId: F:Votanic.vXR.vCast.WandRay.disableOnTopAlpha
-  fullName: Votanic.vXR.vCast.WandRay.disableOnTopAlpha
-  nameWithType: WandRay.disableOnTopAlpha
+- uid: Votanic.vXR.vCast.WandRay.disableDisplay
+  name: disableDisplay
+  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_disableDisplay
+  commentId: F:Votanic.vXR.vCast.WandRay.disableDisplay
+  fullName: Votanic.vXR.vCast.WandRay.disableDisplay
+  nameWithType: WandRay.disableDisplay
 - uid: Votanic.vXR.vCast.WandRay.display
   name: display
   href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_display
@@ -14735,48 +15159,73 @@ references:
   commentId: F:Votanic.vXR.vCast.WandRay.length
   fullName: Votanic.vXR.vCast.WandRay.length
   nameWithType: WandRay.length
-- uid: Votanic.vXR.vCast.WandRay.normalColor
-  name: normalColor
-  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_normalColor
-  commentId: F:Votanic.vXR.vCast.WandRay.normalColor
-  fullName: Votanic.vXR.vCast.WandRay.normalColor
-  nameWithType: WandRay.normalColor
-- uid: Votanic.vXR.vCast.WandRay.normalOnTopAlpha
-  name: normalOnTopAlpha
-  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_normalOnTopAlpha
-  commentId: F:Votanic.vXR.vCast.WandRay.normalOnTopAlpha
-  fullName: Votanic.vXR.vCast.WandRay.normalOnTopAlpha
-  nameWithType: WandRay.normalOnTopAlpha
-- uid: Votanic.vXR.vCast.WandRay.pressColor
-  name: pressColor
-  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_pressColor
-  commentId: F:Votanic.vXR.vCast.WandRay.pressColor
-  fullName: Votanic.vXR.vCast.WandRay.pressColor
-  nameWithType: WandRay.pressColor
-- uid: Votanic.vXR.vCast.WandRay.pressOnTopAlpha
-  name: pressOnTopAlpha
-  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_pressOnTopAlpha
-  commentId: F:Votanic.vXR.vCast.WandRay.pressOnTopAlpha
-  fullName: Votanic.vXR.vCast.WandRay.pressOnTopAlpha
-  nameWithType: WandRay.pressOnTopAlpha
+- uid: Votanic.vXR.vCast.WandRay.normalDisplay
+  name: normalDisplay
+  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_normalDisplay
+  commentId: F:Votanic.vXR.vCast.WandRay.normalDisplay
+  fullName: Votanic.vXR.vCast.WandRay.normalDisplay
+  nameWithType: WandRay.normalDisplay
+- uid: Votanic.vXR.vCast.WandRay.position
+  name: position
+  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_position
+  commentId: F:Votanic.vXR.vCast.WandRay.position
+  fullName: Votanic.vXR.vCast.WandRay.position
+  nameWithType: WandRay.position
+- uid: Votanic.vXR.vCast.WandRay.pressDisplay
+  name: pressDisplay
+  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_pressDisplay
+  commentId: F:Votanic.vXR.vCast.WandRay.pressDisplay
+  fullName: Votanic.vXR.vCast.WandRay.pressDisplay
+  nameWithType: WandRay.pressDisplay
 - uid: Votanic.vXR.vCast.WandRay.renderQueue
   name: renderQueue
   href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_renderQueue
   commentId: F:Votanic.vXR.vCast.WandRay.renderQueue
   fullName: Votanic.vXR.vCast.WandRay.renderQueue
   nameWithType: WandRay.renderQueue
-- uid: Votanic.vXR.vCast.WandRay.selectColor
-  name: selectColor
-  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_selectColor
-  commentId: F:Votanic.vXR.vCast.WandRay.selectColor
-  fullName: Votanic.vXR.vCast.WandRay.selectColor
-  nameWithType: WandRay.selectColor
-- uid: Votanic.vXR.vCast.WandRay.selectOnTopAlpha
-  name: selectOnTopAlpha
-  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_selectOnTopAlpha
-  commentId: F:Votanic.vXR.vCast.WandRay.selectOnTopAlpha
-  fullName: Votanic.vXR.vCast.WandRay.selectOnTopAlpha
-  nameWithType: WandRay.selectOnTopAlpha
+- uid: Votanic.vXR.vCast.WandRay.rotation
+  name: rotation
+  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_rotation
+  commentId: F:Votanic.vXR.vCast.WandRay.rotation
+  fullName: Votanic.vXR.vCast.WandRay.rotation
+  nameWithType: WandRay.rotation
+- uid: Votanic.vXR.vCast.WandRay.selectDisplay
+  name: selectDisplay
+  href: api/Votanic.vXR.vCast.WandRay.html#Votanic_vXR_vCast_WandRay_selectDisplay
+  commentId: F:Votanic.vXR.vCast.WandRay.selectDisplay
+  fullName: Votanic.vXR.vCast.WandRay.selectDisplay
+  nameWithType: WandRay.selectDisplay
+- uid: Votanic.vXR.vCast.WandRayDisplay
+  name: WandRayDisplay
+  href: api/Votanic.vXR.vCast.WandRayDisplay.html
+  commentId: T:Votanic.vXR.vCast.WandRayDisplay
+  fullName: Votanic.vXR.vCast.WandRayDisplay
+  nameWithType: WandRayDisplay
+- uid: Votanic.vXR.vCast.WandRayDisplay.#ctor
+  name: WandRayDisplay()
+  href: api/Votanic.vXR.vCast.WandRayDisplay.html#Votanic_vXR_vCast_WandRayDisplay__ctor
+  commentId: M:Votanic.vXR.vCast.WandRayDisplay.#ctor
+  fullName: Votanic.vXR.vCast.WandRayDisplay.WandRayDisplay()
+  nameWithType: WandRayDisplay.WandRayDisplay()
+- uid: Votanic.vXR.vCast.WandRayDisplay.#ctor*
+  name: WandRayDisplay
+  href: api/Votanic.vXR.vCast.WandRayDisplay.html#Votanic_vXR_vCast_WandRayDisplay__ctor_
+  commentId: Overload:Votanic.vXR.vCast.WandRayDisplay.#ctor
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.WandRayDisplay.WandRayDisplay
+  nameWithType: WandRayDisplay.WandRayDisplay
+- uid: Votanic.vXR.vCast.WandRayDisplay.color
+  name: color
+  href: api/Votanic.vXR.vCast.WandRayDisplay.html#Votanic_vXR_vCast_WandRayDisplay_color
+  commentId: F:Votanic.vXR.vCast.WandRayDisplay.color
+  fullName: Votanic.vXR.vCast.WandRayDisplay.color
+  nameWithType: WandRayDisplay.color
+- uid: Votanic.vXR.vCast.WandRayDisplay.onTopAlpha
+  name: onTopAlpha
+  href: api/Votanic.vXR.vCast.WandRayDisplay.html#Votanic_vXR_vCast_WandRayDisplay_onTopAlpha
+  commentId: F:Votanic.vXR.vCast.WandRayDisplay.onTopAlpha
+  fullName: Votanic.vXR.vCast.WandRayDisplay.onTopAlpha
+  nameWithType: WandRayDisplay.onTopAlpha
 - uid: Votanic.vXR.vGear
   name: Votanic.vXR.vGear
   href: api/Votanic.vXR.vGear.html
@@ -14849,6 +15298,12 @@ references:
   commentId: T:Votanic.vXR.vGear.AuxiliarySetting
   fullName: Votanic.vXR.vGear.AuxiliarySetting
   nameWithType: AuxiliarySetting
+- uid: Votanic.vXR.vGear.AuxiliarySetting.angle
+  name: angle
+  href: api/Votanic.vXR.vGear.AuxiliarySetting.html#Votanic_vXR_vGear_AuxiliarySetting_angle
+  commentId: F:Votanic.vXR.vGear.AuxiliarySetting.angle
+  fullName: Votanic.vXR.vGear.AuxiliarySetting.angle
+  nameWithType: AuxiliarySetting.angle
 - uid: Votanic.vXR.vGear.AuxiliarySetting.commands
   name: commands
   href: api/Votanic.vXR.vGear.AuxiliarySetting.html#Votanic_vXR_vGear_AuxiliarySetting_commands
@@ -16644,12 +17099,12 @@ references:
   commentId: T:Votanic.vXR.vGear.UIState
   fullName: Votanic.vXR.vGear.UIState
   nameWithType: UIState
-- uid: Votanic.vXR.vGear.UIState.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
-  name: UIState(Vector3, Vector3, Vector3, Color, Single)
-  href: api/Votanic.vXR.vGear.UIState.html#Votanic_vXR_vGear_UIState__ctor_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Color_System_Single_
-  commentId: M:Votanic.vXR.vGear.UIState.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
-  fullName: Votanic.vXR.vGear.UIState.UIState(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, System.Single)
-  nameWithType: UIState.UIState(Vector3, Vector3, Vector3, Color, Single)
+- uid: Votanic.vXR.vGear.UIState.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,Votanic.vXR.vCast.Outline)
+  name: UIState(Vector3, Vector3, Vector3, Color, Single, Outline)
+  href: api/Votanic.vXR.vGear.UIState.html#Votanic_vXR_vGear_UIState__ctor_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Color_System_Single_Votanic_vXR_vCast_Outline_
+  commentId: M:Votanic.vXR.vGear.UIState.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,Votanic.vXR.vCast.Outline)
+  fullName: Votanic.vXR.vGear.UIState.UIState(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, System.Single, Votanic.vXR.vCast.Outline)
+  nameWithType: UIState.UIState(Vector3, Vector3, Vector3, Color, Single, Outline)
 - uid: Votanic.vXR.vGear.UIState.#ctor*
   name: UIState
   href: api/Votanic.vXR.vGear.UIState.html#Votanic_vXR_vGear_UIState__ctor_
@@ -16675,6 +17130,12 @@ references:
   commentId: F:Votanic.vXR.vGear.UIState.movement
   fullName: Votanic.vXR.vGear.UIState.movement
   nameWithType: UIState.movement
+- uid: Votanic.vXR.vGear.UIState.outline
+  name: outline
+  href: api/Votanic.vXR.vGear.UIState.html#Votanic_vXR_vGear_UIState_outline
+  commentId: F:Votanic.vXR.vGear.UIState.outline
+  fullName: Votanic.vXR.vGear.UIState.outline
+  nameWithType: UIState.outline
 - uid: Votanic.vXR.vGear.UIState.rotation
   name: rotation
   href: api/Votanic.vXR.vGear.UIState.html#Votanic_vXR_vGear_UIState_rotation
@@ -17592,6 +18053,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Button.click
   fullName: Votanic.vXR.vGear.vGear_Button.click
   nameWithType: vGear_Button.click
+- uid: Votanic.vXR.vGear.vGear_Button.defaultEnable
+  name: defaultEnable
+  href: api/Votanic.vXR.vGear.vGear_Button.html#Votanic_vXR_vGear_vGear_Button_defaultEnable
+  commentId: F:Votanic.vXR.vGear.vGear_Button.defaultEnable
+  fullName: Votanic.vXR.vGear.vGear_Button.defaultEnable
+  nameWithType: vGear_Button.defaultEnable
 - uid: Votanic.vXR.vGear.vGear_Button.Disable
   name: Disable()
   href: api/Votanic.vXR.vGear.vGear_Button.html#Votanic_vXR_vGear_vGear_Button_Disable
@@ -19197,6 +19664,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_UI.originColor
   fullName: Votanic.vXR.vGear.vGear_UI.originColor
   nameWithType: vGear_UI.originColor
+- uid: Votanic.vXR.vGear.vGear_UI.originOutline
+  name: originOutline
+  href: api/Votanic.vXR.vGear.vGear_UI.html#Votanic_vXR_vGear_vGear_UI_originOutline
+  commentId: F:Votanic.vXR.vGear.vGear_UI.originOutline
+  fullName: Votanic.vXR.vGear.vGear_UI.originOutline
+  nameWithType: vGear_UI.originOutline
 - uid: Votanic.vXR.vGear.vGear_UI.PauseTransition
   name: PauseTransition()
   href: api/Votanic.vXR.vGear.vGear_UI.html#Votanic_vXR_vGear_vGear_UI_PauseTransition

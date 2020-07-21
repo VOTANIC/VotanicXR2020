@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GrabSetting
+    <title>Class vCast_Outliner
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GrabSetting
+    <meta name="title" content="Class vCast_Outliner
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,39 +68,71 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.GrabSetting">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vCast.vCast_Outliner">
   
   
-  <h1 id="Votanic_vXR_GrabSetting" data-uid="Votanic.vXR.GrabSetting" class="text-break">Class GrabSetting
+  <h1 id="Votanic_vXR_vCast_vCast_Outliner" data-uid="Votanic.vXR.vCast.vCast_Outliner" class="text-break">Class vCast_Outliner
   </h1>
-  <div class="markdown level0 summary"><p>Grab setting of interactables.
-<br> 交互物抓握設定。</p>
+  <div class="markdown level0 summary"><p>Outliner component for displaying outline effect.
+顯示輪廓效果的輪廓組件。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">GrabSetting</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">vCast_Outliner</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.html">Votanic.vXR</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vCast.html">Votanic.vXR.vCast</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_GrabSetting_syntax">Syntax</h5>
+  <h5 id="Votanic_vXR_vCast_vCast_Outliner_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class GrabSetting</code></pre>
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
+public class vCast_Outliner : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Votanic_vXR_GrabSetting_fixedJoint" data-uid="Votanic.vXR.GrabSetting.fixedJoint">fixedJoint</h4>
-  <div class="markdown level1 summary"><p>Decide generate fixed joint or not. <br> 決定是否生成固定關節。</p>
+  <h4 id="Votanic_vXR_vCast_vCast_Outliner_fill" data-uid="Votanic.vXR.vCast.vCast_Outliner.fill">fill</h4>
+  <div class="markdown level1 summary"><p>Outline fill material. <br> 輪廓填滿材質。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide generate fixed joint or not.\n&#27770;&#23450;&#26159;&#21542;&#29983;&#25104;&#22266;&#23450;&#38364;&#31680;&#12290;&quot;)]
-public bool fixedJoint</code></pre>
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+[Tooltip(&quot;Outline fill material.\n&#36650;&#24275;&#22635;&#28415;&#26448;&#36074;&#12290;&quot;)]
+public Material fill</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Material</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vCast_vCast_Outliner_isDisabled" data-uid="Votanic.vXR.vCast.vCast_Outliner.isDisabled">isDisabled</h4>
+  <div class="markdown level1 summary"><p>Return true if diabled outline. <br> 當停用輪廓時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
+[Tooltip(&quot;Return true if diabled outline.\n&#30070;&#20572;&#29992;&#36650;&#24275;&#26178;&#20659;&#22238; true&#12290;&quot;)]
+public bool isDisabled</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,209 +151,177 @@ public bool fixedJoint</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_GrabSetting_grabbable" data-uid="Votanic.vXR.GrabSetting.grabbable">grabbable</h4>
-  <div class="markdown level1 summary"><p>Decide the interactables can be grabbed or not. <br> 決定交互物能否被抓握。</p>
+  <h4 id="Votanic_vXR_vCast_vCast_Outliner_mask" data-uid="Votanic.vXR.vCast.vCast_Outliner.mask">mask</h4>
+  <div class="markdown level1 summary"><p>Outline mask material. <br> 輪廓遮蔽材質。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide the interactables can be grabbed or not.\n&#27770;&#23450;&#20132;&#20114;&#29289;&#33021;&#21542;&#34987;&#25235;&#25569;&#12290;&quot;)]
-public bool grabbable</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Outline mask material.\n&#36650;&#24275;&#36974;&#34109;&#26448;&#36074;&#12290;&quot;)]
+public Material mask</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Material</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vCast_vCast_Outliner_outlineColor" data-uid="Votanic.vXR.vCast.vCast_Outliner.outlineColor">outlineColor</h4>
+  <div class="markdown level1 summary"><p>Outline color. <br> 輪廓顏色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+[Tooltip(&quot;Outline color.\n&#36650;&#24275;&#38991;&#33394;&quot;)]
+public Color outlineColor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vCast_vCast_Outliner_outlineMode" data-uid="Votanic.vXR.vCast.vCast_Outliner.outlineMode">outlineMode</h4>
+  <div class="markdown level1 summary"><p>Outline mode. <br> 輪廓展示模式。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Outline mode.\n&#36650;&#24275;&#23637;&#31034;&#27169;&#24335;&#12290;&quot;)]
+public OutlineMode outlineMode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vCast.OutlineMode.html">OutlineMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vCast_vCast_Outliner_outlineWidth" data-uid="Votanic.vXR.vCast.vCast_Outliner.outlineWidth">outlineWidth</h4>
+  <div class="markdown level1 summary"><p>Outline width. <br> 輪廓闊度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(0F, 20F)]
+[Tooltip(&quot;Outline width.\n&#36650;&#24275;&#38346;&#24230;&#12290;&quot;)]
+public float outlineWidth</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Outliner_Enable_" data-uid="Votanic.vXR.vCast.vCast_Outliner.Enable*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Outliner_Enable_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast_Outliner.Enable(System.Boolean)">Enable(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Enable or disable outline.
+<br> 啟用或停用輪廓。</p>
+<p> Enable() </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Enable(bool enable = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><span class="parametername">enable</span></td>
+        <td><p>Enable if true <br> 當 true 時啟用。</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_GrabSetting_kinematic" data-uid="Votanic.vXR.GrabSetting.kinematic">kinematic</h4>
-  <div class="markdown level1 summary"><p>Decide the rigidbody is kinematic or not. <br> 決定是否運動學剛體。</p>
+  <a id="Votanic_vXR_vCast_vCast_Outliner_SetOutline_" data-uid="Votanic.vXR.vCast.vCast_Outliner.SetOutline*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Outliner_SetOutline_UnityEngine_Color_System_Single_" data-uid="Votanic.vXR.vCast.vCast_Outliner.SetOutline(UnityEngine.Color,System.Single)">SetOutline(Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Set outline color and width.
+<br> 設定輪廓顏色及闊度。</p>
+<p> SetOutline(Color.white, 10) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide the rigidbody is kinematic or not.\n&#27770;&#23450;&#26159;&#21542;&#36939;&#21205;&#23416;&#21083;&#39636;&#12290;&quot;)]
-public bool kinematic</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetOutline(Color color, float width)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Target color <br> 目標顏色</p>
+</td>
       </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_GrabSetting_parentToController" data-uid="Votanic.vXR.GrabSetting.parentToController">parentToController</h4>
-  <div class="markdown level1 summary"><p>Decide parent to controller or not. <br> 決定是否依附母物件。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide parent to controller or not.\n&#27770;&#23450;&#26159;&#21542;&#20381;&#38468;&#27597;&#29289;&#20214;&#12290;&quot;)]
-public bool parentToController</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_GrabSetting_pickable" data-uid="Votanic.vXR.GrabSetting.pickable">pickable</h4>
-  <div class="markdown level1 summary"><p>Decide the interactables can be picked or not. <br> 決定交互物能否被拾起。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide the interactables can be picked or not.\n&#27770;&#23450;&#20132;&#20114;&#29289;&#33021;&#21542;&#34987;&#25342;&#36215;&#12290;&quot;)]
-public bool pickable</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_GrabSetting_pickToGrab" data-uid="Votanic.vXR.GrabSetting.pickToGrab">pickToGrab</h4>
-  <div class="markdown level1 summary"><p>Able to change grab from pick so that the interactables can be ungrabbed. <br> 能夠將拾起狀態改為抓握，使交互物可被放開。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Able to change grab from pick so that the interactables can be ungrabbed.\n&#33021;&#22816;&#23559;&#25342;&#36215;&#29376;&#24907;&#25913;&#28858;&#25235;&#25569;&#65292;&#20351;&#20132;&#20114;&#29289;&#21487;&#34987;&#25918;&#38283;&#12290;&quot;)]
-public bool pickToGrab</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_GrabSetting_positionOffset" data-uid="Votanic.vXR.GrabSetting.positionOffset">positionOffset</h4>
-  <div class="markdown level1 summary"><p>The zero position offset. <br> 位置零值偏移。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The zero position offset.\n&#20301;&#32622;&#38646;&#20540;&#20559;&#31227;&#12290;&quot;)]
-public Vector3 positionOffset</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_GrabSetting_rotationOffset" data-uid="Votanic.vXR.GrabSetting.rotationOffset">rotationOffset</h4>
-  <div class="markdown level1 summary"><p>The zero euler angles offset. <br> 角度零值偏移。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The zero euler angles offset.\n&#35282;&#24230;&#38646;&#20540;&#20559;&#31227;&#12290;&quot;)]
-public Vector3 rotationOffset</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_GrabSetting_zeroTransform" data-uid="Votanic.vXR.GrabSetting.zeroTransform">zeroTransform</h4>
-  <div class="markdown level1 summary"><p>Decide the local position and euler angles are set to zero or not for grab. <br> 決定是否在抓握時將本地位置及角度設定為零值。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide the local position and euler angles are set to zero or not for grab.\n&#27770;&#23450;&#26159;&#21542;&#22312;&#25235;&#25569;&#26178;&#23559;&#26412;&#22320;&#20301;&#32622;&#21450;&#35282;&#24230;&#35373;&#23450;&#28858;&#38646;&#20540;&#12290;&quot;)]
-public bool zeroTransform</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>Target width <br> 目標闊度</p>
+</td>
       </tr>
     </tbody>
   </table>

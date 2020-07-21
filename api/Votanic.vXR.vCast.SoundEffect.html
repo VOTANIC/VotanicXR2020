@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Console
+    <title>Class SoundEffect
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Console
+    <meta name="title" content="Class SoundEffect
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,40 +68,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vCast.Core.Console">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vCast.SoundEffect">
   
   
-  <h1 id="Votanic_vXR_vCast_Core_Console" data-uid="Votanic.vXR.vCast.Core.Console" class="text-break">Class Console
+  <h1 id="Votanic_vXR_vCast_SoundEffect" data-uid="Votanic.vXR.vCast.SoundEffect" class="text-break">Class SoundEffect
   </h1>
-  <div class="markdown level0 summary"><p>Console mode setting of XR system.
-<br> XR 系統控制台模式設定。</p>
+  <div class="markdown level0 summary"><p>Sound effect setting of XR system.
+<br> XR 系統音效設定。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Console</span></div>
+    <div class="level1"><span class="xref">SoundEffect</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vCast.Core.html">Votanic.vXR.vCast.Core</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vCast.html">Votanic.vXR.vCast</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_vCast_Core_Console_syntax">Syntax</h5>
+  <h5 id="Votanic_vXR_vCast_SoundEffect_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class Console</code></pre>
+public class SoundEffect</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Votanic_vXR_vCast_Core_Console_alwaysOnCameras" data-uid="Votanic.vXR.vCast.Core.Console.alwaysOnCameras">alwaysOnCameras</h4>
-  <div class="markdown level1 summary"><p>Moved to essential class. <br> 已移至必需類別。</p>
+  <h4 id="Votanic_vXR_vCast_SoundEffect_press" data-uid="Votanic.vXR.vCast.SoundEffect.press">press</h4>
+  <div class="markdown level1 summary"><p>Pressed interactables sfx. <br> 按住交互物音效。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete]
-[Tooltip(&quot;Moved to essential class.\n&#24050;&#31227;&#33267;&#24517;&#38656;&#39006;&#21029;&#12290;&quot;)]
-public List&lt;Camera&gt; alwaysOnCameras</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Pressed interactables sfx.\n&#25353;&#20303;&#20132;&#20114;&#29289;&#38899;&#25928;&#12290;&quot;)]
+public AudioSource press</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -113,21 +112,21 @@ public List&lt;Camera&gt; alwaysOnCameras</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Camera</span>&gt;</td>
+        <td><span class="xref">UnityEngine.AudioSource</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vCast_Core_Console_consoleCameras" data-uid="Votanic.vXR.vCast.Core.Console.consoleCameras">consoleCameras</h4>
-  <div class="markdown level1 summary"><p>The cameras that will be enabled on console mode. <br> 啟用於控制台模式的相機。</p>
+  <h4 id="Votanic_vXR_vCast_SoundEffect_select" data-uid="Votanic.vXR.vCast.SoundEffect.select">select</h4>
+  <div class="markdown level1 summary"><p>Selected interactables sfx. <br> 點選交互物音效。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The cameras that will be enabled on console mode.\n&#21855;&#29992;&#26044;&#25511;&#21046;&#21488;&#27169;&#24335;&#30340;&#30456;&#27231;&#12290;&quot;)]
-public List&lt;Camera&gt; consoleCameras</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Selected interactables sfx.\n&#40670;&#36984;&#20132;&#20114;&#29289;&#38899;&#25928;&#12290;&quot;)]
+public AudioSource select</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -139,21 +138,21 @@ public List&lt;Camera&gt; consoleCameras</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Camera</span>&gt;</td>
+        <td><span class="xref">UnityEngine.AudioSource</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vCast_Core_Console_offset" data-uid="Votanic.vXR.vCast.Core.Console.offset">offset</h4>
-  <div class="markdown level1 summary"><p>Console mode screen offset. <br> 控制台模式螢幕位置校正。</p>
+  <h4 id="Votanic_vXR_vCast_SoundEffect_userLevelLock" data-uid="Votanic.vXR.vCast.SoundEffect.userLevelLock">userLevelLock</h4>
+  <div class="markdown level1 summary"><p>User level lock sfx. <br> 使用者等級鎖定音效。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Console mode screen offset.\n&#25511;&#21046;&#21488;&#27169;&#24335;&#34722;&#24149;&#20301;&#32622;&#26657;&#27491;&#12290;&quot;)]
-public Vector2 offset</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;User level lock sfx.\n&#20351;&#29992;&#32773;&#31561;&#32026;&#37782;&#23450;&#38899;&#25928;&#12290;&quot;)]
+public AudioSource userLevelLock</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,21 +164,21 @@ public Vector2 offset</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="xref">UnityEngine.AudioSource</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vCast_Core_Console_resolution" data-uid="Votanic.vXR.vCast.Core.Console.resolution">resolution</h4>
-  <div class="markdown level1 summary"><p>Console mode screen size. <br> 控制台模式螢幕大小。</p>
+  <h4 id="Votanic_vXR_vCast_SoundEffect_userLevelUnlock" data-uid="Votanic.vXR.vCast.SoundEffect.userLevelUnlock">userLevelUnlock</h4>
+  <div class="markdown level1 summary"><p>User level unlock sfx. <br> 使用者等級解鎖音效。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Console mode screen size.\n&#25511;&#21046;&#21488;&#27169;&#24335;&#34722;&#24149;&#22823;&#23567;&#12290;&quot;)]
-public Vector2 resolution</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;User level unlock sfx.\n&#20351;&#29992;&#32773;&#31561;&#32026;&#35299;&#37782;&#38899;&#25928;&#12290;&quot;)]
+public AudioSource userLevelUnlock</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -191,21 +190,21 @@ public Vector2 resolution</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="xref">UnityEngine.AudioSource</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vCast_Core_Console_switchOn" data-uid="Votanic.vXR.vCast.Core.Console.switchOn">switchOn</h4>
-  <div class="markdown level1 summary"><p>State of mode. <br> 模式狀態。</p>
+  <h4 id="Votanic_vXR_vCast_SoundEffect_wallDetect" data-uid="Votanic.vXR.vCast.SoundEffect.wallDetect">wallDetect</h4>
+  <div class="markdown level1 summary"><p>Wall hit warning sfx. <br> 牆壁觸碰警告音效。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;State of mode.\n&#27169;&#24335;&#29376;&#24907;&#12290;&quot;)]
-public bool switchOn</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;User level lock sfx.\n&#29254;&#22721;&#35320;&#30896;&#35686;&#21578;&#38899;&#25928;&#12290;&quot;)]
+public AudioSource wallDetect</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -217,7 +216,7 @@ public bool switchOn</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">UnityEngine.AudioSource</span></td>
         <td></td>
       </tr>
     </tbody>
