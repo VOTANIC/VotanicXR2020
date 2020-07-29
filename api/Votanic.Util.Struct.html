@@ -1,0 +1,824 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Util.Struct
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Util.Struct
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Votanic.Util.Struct">
+  
+  
+  <h1 id="Votanic_Util_Struct" data-uid="Votanic.Util.Struct" class="text-break">Class Util.Struct
+  </h1>
+  <div class="markdown level0 summary"><p>Unity struct converter.
+<br> Unity struct 轉換器。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Util.Struct</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.html">Votanic</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.Core.dll</h6>
+  <h5 id="Votanic_Util_Struct_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Struct</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_Util_Struct_ToColor_" data-uid="Votanic.Util.Struct.ToColor*"></a>
+  <h4 id="Votanic_Util_Struct_ToColor_System_Single___" data-uid="Votanic.Util.Struct.ToColor(System.Single[])">ToColor(Single[])</h4>
+  <div class="markdown level1 summary"><p>Convert to Color.
+<br> 轉換為顏色。</p>
+<p> ToColor(1, 1, 1, 1) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color ToColor(params float[] color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Numbers <br> 數字</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToFloatArray_" data-uid="Votanic.Util.Struct.ToFloatArray*"></a>
+  <h4 id="Votanic_Util_Struct_ToFloatArray_UnityEngine_Color_" data-uid="Votanic.Util.Struct.ToFloatArray(UnityEngine.Color)">ToFloatArray(Color)</h4>
+  <div class="markdown level1 summary"><p>Convert from Color.
+<br> 將顏色轉換。</p>
+<p> ToFloatArray(Color.white) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float[] ToFloatArray(Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Color <br> 顏色</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToFloatArray_" data-uid="Votanic.Util.Struct.ToFloatArray*"></a>
+  <h4 id="Votanic_Util_Struct_ToFloatArray_UnityEngine_Color_System_Single_" data-uid="Votanic.Util.Struct.ToFloatArray(UnityEngine.Color,System.Single)">ToFloatArray(Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Convert from Color and Alpha.
+<br> 將顏色及不透明度轉換。</p>
+<p> ToFloatArray(Color.white, 1) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float[] ToFloatArray(Color color, float alpha)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Color <br> 顏色</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">alpha</span></td>
+        <td><p>Alpha value <br> 不透明度</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToFloatArray_" data-uid="Votanic.Util.Struct.ToFloatArray*"></a>
+  <h4 id="Votanic_Util_Struct_ToFloatArray_UnityEngine_Quaternion_" data-uid="Votanic.Util.Struct.ToFloatArray(UnityEngine.Quaternion)">ToFloatArray(Quaternion)</h4>
+  <div class="markdown level1 summary"><p>Convert from Quaternion.
+<br> 將四元素轉換。</p>
+<p> ToFloatArray(Quaternion.identity) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float[] ToFloatArray(Quaternion quaternion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">quaternion</span></td>
+        <td><p>Quaternion <br> 四元素</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToFloatArray_" data-uid="Votanic.Util.Struct.ToFloatArray*"></a>
+  <h4 id="Votanic_Util_Struct_ToFloatArray_UnityEngine_Vector2_" data-uid="Votanic.Util.Struct.ToFloatArray(UnityEngine.Vector2)">ToFloatArray(Vector2)</h4>
+  <div class="markdown level1 summary"><p>Convert from Vector2.
+<br> 將二元向量轉換。</p>
+<p> FromVector2(Vector2.one) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float[] ToFloatArray(Vector2 vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">vector</span></td>
+        <td><p>Vector2 <br> 二元向量</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToFloatArray_" data-uid="Votanic.Util.Struct.ToFloatArray*"></a>
+  <h4 id="Votanic_Util_Struct_ToFloatArray_UnityEngine_Vector3_" data-uid="Votanic.Util.Struct.ToFloatArray(UnityEngine.Vector3)">ToFloatArray(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Convert from Vector3.
+<br> 將三元向量轉換。</p>
+<p> ToFloatArray(Vector3.one) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float[] ToFloatArray(Vector3 vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">vector</span></td>
+        <td><p>Vector3 <br> 三元向量轉</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToFloatArray_" data-uid="Votanic.Util.Struct.ToFloatArray*"></a>
+  <h4 id="Votanic_Util_Struct_ToFloatArray_UnityEngine_Vector4_" data-uid="Votanic.Util.Struct.ToFloatArray(UnityEngine.Vector4)">ToFloatArray(Vector4)</h4>
+  <div class="markdown level1 summary"><p>Convert from Vector4.
+<br> 將四元向量轉換。</p>
+<p> ToFloatArray(Vector4.one) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float[] ToFloatArray(Vector4 vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector4</span></td>
+        <td><span class="parametername">vector</span></td>
+        <td><p>Vector4 <br> 四元向量</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToIntArray_" data-uid="Votanic.Util.Struct.ToIntArray*"></a>
+  <h4 id="Votanic_Util_Struct_ToIntArray_UnityEngine_Vector2Int_" data-uid="Votanic.Util.Struct.ToIntArray(UnityEngine.Vector2Int)">ToIntArray(Vector2Int)</h4>
+  <div class="markdown level1 summary"><p>Convert from Vector2Int.
+<br> 將二元整數向量轉換。</p>
+<p> ToIntArray(Vector2Int.one) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int[] ToIntArray(Vector2Int vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2Int</span></td>
+        <td><span class="parametername">vector</span></td>
+        <td><p>Vector2Int <br> 二元整數向量</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToIntArray_" data-uid="Votanic.Util.Struct.ToIntArray*"></a>
+  <h4 id="Votanic_Util_Struct_ToIntArray_UnityEngine_Vector3Int_" data-uid="Votanic.Util.Struct.ToIntArray(UnityEngine.Vector3Int)">ToIntArray(Vector3Int)</h4>
+  <div class="markdown level1 summary"><p>Convert from Vector3Int.
+<br> 將三元整數向量轉換。</p>
+<p> ToIntArray(Vector3Int.one) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int[] ToIntArray(Vector3Int vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3Int</span></td>
+        <td><span class="parametername">vector</span></td>
+        <td><p>Vector3Int <br> 三元整數向量</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToQuaternion_" data-uid="Votanic.Util.Struct.ToQuaternion*"></a>
+  <h4 id="Votanic_Util_Struct_ToQuaternion_System_Single___" data-uid="Votanic.Util.Struct.ToQuaternion(System.Single[])">ToQuaternion(Single[])</h4>
+  <div class="markdown level1 summary"><p>Convert to Quaternion.
+<br> 轉換為四元素。</p>
+<p> ToQuaternion(0, 0, 0, 1) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion ToQuaternion(params float[] quaternion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td><span class="parametername">quaternion</span></td>
+        <td><p>Numbers <br> 數字</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToVector2_" data-uid="Votanic.Util.Struct.ToVector2*"></a>
+  <h4 id="Votanic_Util_Struct_ToVector2_System_Int32___" data-uid="Votanic.Util.Struct.ToVector2(System.Int32[])">ToVector2(Int32[])</h4>
+  <div class="markdown level1 summary"><p>Convert to Vector2Int.
+<br> 轉換為二元整數向量。</p>
+<p> ToVector2(1, 2) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2Int ToVector2(params int[] vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">vector</span></td>
+        <td><p>Numbers <br> 數字</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2Int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToVector2_" data-uid="Votanic.Util.Struct.ToVector2*"></a>
+  <h4 id="Votanic_Util_Struct_ToVector2_System_Single___" data-uid="Votanic.Util.Struct.ToVector2(System.Single[])">ToVector2(Single[])</h4>
+  <div class="markdown level1 summary"><p>Convert to Vector2.
+<br> 轉換為二元向量。</p>
+<p> ToVector2(1, 2) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 ToVector2(params float[] vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td><span class="parametername">vector</span></td>
+        <td><p>Numbers <br> 數字</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToVector3_" data-uid="Votanic.Util.Struct.ToVector3*"></a>
+  <h4 id="Votanic_Util_Struct_ToVector3_System_Int32___" data-uid="Votanic.Util.Struct.ToVector3(System.Int32[])">ToVector3(Int32[])</h4>
+  <div class="markdown level1 summary"><p>Convert to Vector3Int.
+<br> 轉換為三元整數向量。</p>
+<p> ToVector3(1, 2, 3) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3Int ToVector3(params int[] vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">vector</span></td>
+        <td><p>Numbers <br> 數字</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3Int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToVector3_" data-uid="Votanic.Util.Struct.ToVector3*"></a>
+  <h4 id="Votanic_Util_Struct_ToVector3_System_Single___" data-uid="Votanic.Util.Struct.ToVector3(System.Single[])">ToVector3(Single[])</h4>
+  <div class="markdown level1 summary"><p>Convert to Vector3.
+<br> 轉換為三元向量。</p>
+<p> ToVector3(1, 2, 3) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 ToVector3(params float[] vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td><span class="parametername">vector</span></td>
+        <td><p>Numbers <br> 數字</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_Util_Struct_ToVector4_" data-uid="Votanic.Util.Struct.ToVector4*"></a>
+  <h4 id="Votanic_Util_Struct_ToVector4_System_Single___" data-uid="Votanic.Util.Struct.ToVector4(System.Single[])">ToVector4(Single[])</h4>
+  <div class="markdown level1 summary"><p>Convert to Vector4.
+<br> 轉換為四元向量。</p>
+<p> ToVector4(1, 2, 3, 4) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector4 ToVector4(params float[] vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td><span class="parametername">vector</span></td>
+        <td><p>Numbers <br> 數字</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

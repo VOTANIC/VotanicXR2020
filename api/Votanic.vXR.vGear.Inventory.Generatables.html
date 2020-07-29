@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LostTracking
+    <title>Class Generatables
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LostTracking
+    <meta name="title" content="Class Generatables
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,142 +68,41 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vCast.Core.LostTracking">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.Inventory.Generatables">
   
   
-  <h1 id="Votanic_vXR_vCast_Core_LostTracking" data-uid="Votanic.vXR.vCast.Core.LostTracking" class="text-break">Class LostTracking
+  <h1 id="Votanic_vXR_vGear_Inventory_Generatables" data-uid="Votanic.vXR.vGear.Inventory.Generatables" class="text-break">Class Generatables
   </h1>
-  <div class="markdown level0 summary"><p>Lost Tracking setting of entity.
-<br> 實體的定位失敗設定。</p>
+  <div class="markdown level0 summary"><p>Generatables setting of item.
+<br> 物品的可生成物設定。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">LostTracking</span></div>
+    <div class="level1"><span class="xref">Generatables</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vCast.Core.html">Votanic.vXR.vCast.Core</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.Inventory.html">Votanic.vXR.vGear.Inventory</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_vCast_Core_LostTracking_syntax">Syntax</h5>
+  <h5 id="Votanic_vXR_vGear_Inventory_Generatables_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LostTracking</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class Generatables</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_customPosition" data-uid="Votanic.vXR.vCast.Core.LostTracking.customPosition">customPosition</h4>
-  <div class="markdown level1 summary"><p>Custom local position of entity. <br> 自定義實體自身位置。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_Generatables_defaultIsPick" data-uid="Votanic.vXR.vGear.Inventory.Generatables.defaultIsPick">defaultIsPick</h4>
+  <div class="markdown level1 summary"><p>Pick the item after creation. <br> 生成後拾起物品。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 customPosition</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Pick the item after creation.\n&#29983;&#25104;&#24460;&#25342;&#36215;&#29289;&#21697;&#12290;&quot;)]
+public bool defaultIsPick</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_customRotation" data-uid="Votanic.vXR.vCast.Core.LostTracking.customRotation">customRotation</h4>
-  <div class="markdown level1 summary"><p>Custom local euler angle of entity. <br> 自定義實體自身角度。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 customRotation</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_retry" data-uid="Votanic.vXR.vCast.Core.LostTracking.retry">retry</h4>
-  <div class="markdown level1 summary"><p>Times of retry to determine the tracking is lost. <br> 判斷定位失敗的重試次數。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int retry</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_trackingTransform" data-uid="Votanic.vXR.vCast.Core.LostTracking.trackingTransform">trackingTransform</h4>
-  <div class="markdown level1 summary"><p>The entity transform change when the tracking is lost. <br> 當定位失敗時的 Transform 改變。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LostTrackingTransform trackingTransform</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vXR.vCast.Core.LostTrackingTransform.html">LostTrackingTransform</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Votanic_vXR_vCast_Core_LostTracking_isLost_" data-uid="Votanic.vXR.vCast.Core.LostTracking.isLost*"></a>
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_isLost" data-uid="Votanic.vXR.vCast.Core.LostTracking.isLost">isLost</h4>
-  <div class="markdown level1 summary"><p>Return true if the tracking is lost. <br> 當定位失敗時傳回 true。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isLost { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -214,6 +113,111 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_Inventory_Generatables_destroyOnly" data-uid="Votanic.vXR.vGear.Inventory.Generatables.destroyOnly">destroyOnly</h4>
+  <div class="markdown level1 summary"><p>Store function will only destroy generatables, will not add the quantity to inventory.
+<br> 儲存功能只會刪除生成物，並不會將其數量加入庫存中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Store function will only destroy generatables, will not add the quantity to inventory.\n&#20786;&#23384;&#21151;&#33021;&#21482;&#26371;&#21034;&#38500;&#29983;&#25104;&#29289;&#65292;&#20006;&#19981;&#26371;&#23559;&#20854;&#25976;&#37327;&#21152;&#20837;&#24235;&#23384;&#20013;&#12290;&quot;)]
+public bool destroyOnly</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_Inventory_Generatables_eulerAngles" data-uid="Votanic.vXR.vGear.Inventory.Generatables.eulerAngles">eulerAngles</h4>
+  <div class="markdown level1 summary"><p>Relative euler angles of creation point. <br> 生成地點的相對角度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Relative euler angles of creation point.\n&#29983;&#25104;&#22320;&#40670;&#30340;&#30456;&#23565;&#35282;&#24230;&#12290;&quot;)]
+public Vector3 eulerAngles</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_Inventory_Generatables_modelPrefab" data-uid="Votanic.vXR.vGear.Inventory.Generatables.modelPrefab">modelPrefab</h4>
+  <div class="markdown level1 summary"><p>Prefab of model object. <br> 模型物件預製件。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Prefab of model object.\n&#27169;&#22411;&#29289;&#20214;&#38928;&#35069;&#20214;&#12290;&quot;)]
+public GameObject modelPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_Inventory_Generatables_position" data-uid="Votanic.vXR.vGear.Inventory.Generatables.position">position</h4>
+  <div class="markdown level1 summary"><p>Relative position of creation point. <br> 生成地點的相對位置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Relative position of creation point.\n&#29983;&#25104;&#22320;&#40670;&#30340;&#30456;&#23565;&#20301;&#32622;&#12290;&quot;)]
+public Vector3 position</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
         <td></td>
       </tr>
     </tbody>

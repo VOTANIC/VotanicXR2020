@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class vGear_Waypoint
+    <title>Class Item
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class vGear_Waypoint
+    <meta name="title" content="Class Item
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,43 +68,78 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.vGear_Waypoint">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.Inventory.Item">
   
   
-  <h1 id="Votanic_vXR_vGear_vGear_Waypoint" data-uid="Votanic.vXR.vGear.vGear_Waypoint" class="text-break">Class vGear_Waypoint
+  <h1 id="Votanic_vXR_vGear_Inventory_Item" data-uid="Votanic.vXR.vGear.Inventory.Item" class="text-break">Class Item
   </h1>
-  <div class="markdown level0 summary"><p>Waypoint for teleport.
-<br> 用於傳送的傳送點。</p>
+  <div class="markdown level0 summary"><p>Item information.
+<br> 物品資訊。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
-    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
-    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
-    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">vGear_Waypoint</span></div>
+    <div class="level1"><a class="xref" href="Votanic.Element.html">Element</a></div>
+    <div class="level2"><span class="xref">Item</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.html">Votanic.vXR.vGear</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_name">Element.name</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_Equals_System_String_System_Boolean_">Element.Equals(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_Contains_System_String_System_Boolean_">Element.Contains(String, Boolean)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.Inventory.html">Votanic.vXR.vGear.Inventory</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_vGear_vGear_Waypoint_syntax">Syntax</h5>
+  <h5 id="Votanic_vXR_vGear_Inventory_Item_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
-public class vGear_Waypoint : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class Item : Element</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Waypoint_applyRotation" data-uid="Votanic.vXR.vGear.vGear_Waypoint.applyRotation">applyRotation</h4>
-  <div class="markdown level1 summary"><p>The waypoint is teleported with rotation or not. <br> 傳送點是否應用旋轉。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_Item_categories" data-uid="Votanic.vXR.vGear.Inventory.Item.categories">categories</h4>
+  <div class="markdown level1 summary"><p>Only the list of specific categories can store. <br> 指定只能存放的庫存範疇。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The waypoint is teleported with rotation or not.\n&#20659;&#36865;&#40670;&#26159;&#21542;&#25033;&#29992;&#26059;&#36681;&#12290;&quot;)]
-public bool applyRotation</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Only the list of specific categories can store.\n&#25351;&#23450;&#21482;&#33021;&#23384;&#25918;&#30340;&#24235;&#23384;&#31684;&#30087;&#12290;&quot;)]
+public List&lt;string&gt; categories</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_Inventory_Item_currencyContainer" data-uid="Votanic.vXR.vGear.Inventory.Item.currencyContainer">currencyContainer</h4>
+  <div class="markdown level1 summary"><p>This item will become a currency container. <br> 這個物品將會成日貨幣容器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;This item will become a currency container.\n&#36889;&#20491;&#29289;&#21697;&#23559;&#26371;&#25104;&#26085;&#36008;&#24163;&#23481;&#22120;&#12290;&quot;)]
+public bool currencyContainer</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -123,14 +158,14 @@ public bool applyRotation</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Waypoint_defaultEnable" data-uid="Votanic.vXR.vGear.vGear_Waypoint.defaultEnable">defaultEnable</h4>
-  <div class="markdown level1 summary"><p>Enable on start or not. <br> 設定開始時是否啟用。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_Item_description" data-uid="Votanic.vXR.vGear.Inventory.Item.description">description</h4>
+  <div class="markdown level1 summary"><p>Description of item. <br> 物品描述。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Enable on start or not.\n&#35373;&#23450;&#38283;&#22987;&#26178;&#26159;&#21542;&#21855;&#29992;&#12290;&quot;)]
-public bool defaultEnable</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Description of item.\n&#29289;&#21697;&#25551;&#36848;&#12290;&quot;)]
+public string description</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,21 +177,21 @@ public bool defaultEnable</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Waypoint_faceAngle" data-uid="Votanic.vXR.vGear.vGear_Waypoint.faceAngle">faceAngle</h4>
-  <div class="markdown level1 summary"><p>The face angle if applied rotation. <br> 當應用旋轉時的面向角度。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_Item_generatables" data-uid="Votanic.vXR.vGear.Inventory.Item.generatables">generatables</h4>
+  <div class="markdown level1 summary"><p>Generatables setting of item. <br> 物品的可生成物設定。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The face angle if applied rotation.\n&#30070;&#25033;&#29992;&#26059;&#36681;&#26178;&#30340;&#38754;&#21521;&#35282;&#24230;&#12290;&quot;)]
-public Vector3 faceAngle</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Generatables setting of item.\n&#29289;&#21697;&#30340;&#21487;&#29983;&#25104;&#29289;&#35373;&#23450;&#12290;&quot;)]
+public Generatables generatables</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -168,22 +203,21 @@ public Vector3 faceAngle</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.Generatables.html">Generatables</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Waypoint_isDisabled" data-uid="Votanic.vXR.vGear.vGear_Waypoint.isDisabled">isDisabled</h4>
-  <div class="markdown level1 summary"><p>Return true if the waypoint is disabled. <br> 當傳送點停用時傳回 true。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_Item_gridStyles" data-uid="Votanic.vXR.vGear.Inventory.Item.gridStyles">gridStyles</h4>
+  <div class="markdown level1 summary"><p>Grid styles for this item. <br> 這個物品的方格格式。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[Status]&quot;)]
-[Tooltip(&quot;Return true if the waypoint is disabled.\n&#30070;&#20659;&#36865;&#40670;&#20572;&#29992;&#26178;&#20659;&#22238; true&#12290;&quot;)]
-public bool isDisabled</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Grid styles for this item.\n&#36889;&#20491;&#29289;&#21697;&#30340;&#26041;&#26684;&#26684;&#24335;&#12290;&quot;)]
+public List&lt;Grid&gt; gridStyles</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -195,21 +229,21 @@ public bool isDisabled</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.Inventory.Grid.html">Grid</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Waypoint_offset" data-uid="Votanic.vXR.vGear.vGear_Waypoint.offset">offset</h4>
-  <div class="markdown level1 summary"><p>Position offset of teleport point. <br> 傳送點位置偏移。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_Item_identifier" data-uid="Votanic.vXR.vGear.Inventory.Item.identifier">identifier</h4>
+  <div class="markdown level1 summary"><p>Identifier of item. <br> 物品識別碼。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Position offset of teleport point.\n&#20659;&#36865;&#40670;&#20301;&#32622;&#20559;&#31227;&#12290;&quot;)]
-public Vector2 offset</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Identifier of item.\n&#29289;&#21697;&#35672;&#21029;&#30908;&#12290;&quot;)]
+public string identifier</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -221,21 +255,21 @@ public Vector2 offset</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Waypoint_show" data-uid="Votanic.vXR.vGear.vGear_Waypoint.show">show</h4>
-  <div class="markdown level1 summary"><p>Return true if the waypoint is showing. <br> 當傳送點顯示時傳回 true。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_Item_quality" data-uid="Votanic.vXR.vGear.Inventory.Item.quality">quality</h4>
+  <div class="markdown level1 summary"><p>Quality index. <br> 品質編號。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Return true if the waypoint is showing.\n&#30070;&#20659;&#36865;&#40670;&#39023;&#31034;&#26178;&#20659;&#22238; true&#12290;&quot;)]
-public bool show</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Quality index.\n&#21697;&#36074;&#32232;&#34399;&#12290;&quot;)]
+public int quality</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -247,22 +281,21 @@ public bool show</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_vGear_Waypoint_standingPoint" data-uid="Votanic.vXR.vGear.vGear_Waypoint.standingPoint">standingPoint</h4>
-  <div class="markdown level1 summary"><p>Teleport to user standing point, either the user object transform position. <br> 傳送至使用者站立地點，否則為使用者物件 Transform 位置。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_Item_remark" data-uid="Votanic.vXR.vGear.Inventory.Item.remark">remark</h4>
+  <div class="markdown level1 summary"><p>Remark of item. <br> 物品備註。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
-[Tooltip(&quot;Teleport to user standing point, either the user object transform position.\n&#20659;&#36865;&#33267;&#20351;&#29992;&#32773;&#31449;&#31435;&#22320;&#40670;&#65292;&#21542;&#21063;&#28858;&#20351;&#29992;&#32773;&#29289;&#20214; Transform &#20301;&#32622;&#12290;&quot;)]
-public bool standingPoint</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Remark of item.\n&#29289;&#21697;&#25551;&#36848;&#12290;&quot;)]
+public string remark</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -274,41 +307,8 @@ public bool standingPoint</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Votanic_vXR_vGear_vGear_Waypoint_Enable_" data-uid="Votanic.vXR.vGear.vGear_Waypoint.Enable*"></a>
-  <h4 id="Votanic_vXR_vGear_vGear_Waypoint_Enable_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_Waypoint.Enable(System.Boolean)">Enable(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Enable or disable the waypoint.
-<br> 啟用或停用傳送點。</p>
-<p> Enable(true) </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Enable(bool enable)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">enable</span></td>
-        <td><p>Enable if ture <br> 當 true 時啟用</p>
-</td>
       </tr>
     </tbody>
   </table>

@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.Element.html",
-          "hash": "R+KoAPgNFGhJQZyaSYZpvA=="
+          "hash": "BI5lIR+gt+PGnOHgBDT2EA=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.Parameter.html",
-          "hash": "Cy3jTQV5gJA3+dSrtpgnFw=="
+          "hash": "s0a8yDNEsM6Fw3P26bJOsg=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.Util.Base.html",
-          "hash": "axFTJBmcHhjzdZ/3dRpnJQ=="
+          "hash": "tyAywMJEVekobkKEpJk9wA=="
         }
       },
       "is_incremental": false,
@@ -137,11 +137,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.Util.Struct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.Util.Struct.html",
+          "hash": "x1wYAS57KXP7AtAPlpR42Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Votanic.Util.yml",
       "output": {
         ".html": {
           "relative_path": "api/Votanic.Util.html",
-          "hash": "bT3O17Kna8XWJ1arO18NRA=="
+          "hash": "jPTYWZVCeMSecQ1czvnqng=="
         }
       },
       "is_incremental": false,
@@ -597,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vMedia.MediaPlayer.MediaPlayer.html",
-          "hash": "5ha37nqzRC/H4kFUKaA8Gw=="
+          "hash": "4q2WxjvsxRV0BNZOuNzl0Q=="
         }
       },
       "is_incremental": false,
@@ -1113,7 +1125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vNet.Networking.NetworkManager.html",
-          "hash": "E3cEXsW0sMg3990MnCr76g=="
+          "hash": "EX68jpQheI/6KFKXf4coIA=="
         }
       },
       "is_incremental": false,
@@ -1185,7 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vNet.Networking.SyncTransform.html",
-          "hash": "VaT6rwlNJ3GIsGQ0YBjZBA=="
+          "hash": "2fKSSD80POIU7iFcuCka1A=="
         }
       },
       "is_incremental": false,
@@ -1257,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.GrabSetting.html",
-          "hash": "q9GyQyBjDKsh++FAOVVKoA=="
+          "hash": "4lUs3zUZqRQD/+bS/rAgKQ=="
         }
       },
       "is_incremental": false,
@@ -1293,7 +1305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.InteractionParameter.html",
-          "hash": "pCAFws/7cCTGbzMdCATmDw=="
+          "hash": "x5cUU+OEoFtt8PYJvvJWhg=="
         }
       },
       "is_incremental": false,
@@ -1545,7 +1557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.Core.LostTracking.html",
-          "hash": "ML2MtFPKbR8zmpDRW3R/KQ=="
+          "hash": "ndH4tek4K8LCWm+2YWeeIw=="
         }
       },
       "is_incremental": false,
@@ -1929,7 +1941,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.html",
-          "hash": "WOZxqiQzFDxv5Xg6jxLXJA=="
+          "hash": "7O9vF+TLaq/lpVIoVWO/2Q=="
         }
       },
       "is_incremental": false,
@@ -2085,7 +2097,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast_User.html",
-          "hash": "9Vnvpo2sejS8qvGIp6VuUA=="
+          "hash": "jL4eSscPAkTjvdlrhjyuqw=="
         }
       },
       "is_incremental": false,
@@ -2213,6 +2225,222 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.AccessType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.AccessType.html",
+          "hash": "0A5J+xjMLrsZUkQAhR5GmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.Accessibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.Accessibility.html",
+          "hash": "c97o8aqZNnC6jgObRUNfqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.Consumability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.Consumability.html",
+          "hash": "8dtPO3XHk9JYJIwLxEimng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.Currency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.Currency.html",
+          "hash": "lOyEkb2Y7yGh0Myz2FouFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.CurrencyAmount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.CurrencyAmount.html",
+          "hash": "GcUdD04uCuMuDYCyIGVaFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.CurrencyConversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.CurrencyConversion.html",
+          "hash": "2OidxuuYRnzwx4edQMyCgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.ErrorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.ErrorType.html",
+          "hash": "iOlOHLnFTrQ1gCPrL74eNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.Generatables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.Generatables.html",
+          "hash": "v/ZAPN5+z66RC2b2rS63uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.Grid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.Grid.html",
+          "hash": "bW5qkCi/ISSm+XVGsgNVEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.InventoryCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.InventoryCategory.html",
+          "hash": "CtZgFG9ysJQiVbdnSHJ/ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.InventoryPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.InventoryPage.html",
+          "hash": "q/m4qYUZ/M5t+PC/QEyWAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.Item.html",
+          "hash": "8E7a3lWDbx3MjBasJZX49Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.ItemData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.ItemData.html",
+          "hash": "gI40fuVtgbmwWa47AsIDGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.PageAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.PageAlignment.html",
+          "hash": "37IMqfcDMT8j+t9mZGxMjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.PageDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.PageDirection.html",
+          "hash": "i6aEaAvD0b14cqfy8GUdGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.Quality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.Quality.html",
+          "hash": "mdhsrKXfPNAOGHchXkh+Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.SuccessType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.SuccessType.html",
+          "hash": "jFT33BCL9YdFV94WNZeZ3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.html",
+          "hash": "sjV4rLnpns+5pf5F/gsPaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Votanic.vXR.vGear.LocusCollider.yml",
       "output": {
         ".html": {
@@ -2289,7 +2517,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.Networking.vGear_NetworkUser.html",
-          "hash": "UOjc0hMaqIrxEkgG0p6D8Q=="
+          "hash": "kYrd8FfIyEgHu1zyOKnIbQ=="
         }
       },
       "is_incremental": false,
@@ -2301,7 +2529,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.Networking.vGear_Networking.html",
-          "hash": "Nxd+tBUKlDkNI/2vvd/7UA=="
+          "hash": "EHSRvnUfOXLczOIt50EmfQ=="
         }
       },
       "is_incremental": false,
@@ -2613,7 +2841,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear.html",
-          "hash": "sNrSxbKPTWd9nJC1NsMeCw=="
+          "hash": "E7FRv+2YPeFcgHFAkUcnDA=="
         }
       },
       "is_incremental": false,
@@ -2649,7 +2877,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_BehaviourManager.html",
-          "hash": "/4KjLtVhzTvnjXb8XUQGJg=="
+          "hash": "G//kR9Fo/VCC6vAa8Pw9uw=="
         }
       },
       "is_incremental": false,
@@ -2661,7 +2889,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Brush.html",
-          "hash": "dlhzP1K9ypI5flL56xmV4w=="
+          "hash": "bVBPjjsE0lsStJzKkjLvJg=="
         }
       },
       "is_incremental": false,
@@ -2697,7 +2925,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Controller.html",
-          "hash": "XVVyz0JBwlXLKGTT0gmxdA=="
+          "hash": "Fzu/2fq5RHq/v0OQ+bkrGA=="
         }
       },
       "is_incremental": false,
@@ -2741,6 +2969,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Inventory.html",
+          "hash": "o4Mpy2ya732UzHoq+SYrgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_InventoryManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_InventoryManager.html",
+          "hash": "q/c9jftBM+syUWoh9FBdeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_Item.html",
+          "hash": "9RImse5wP5RNdaHfNGqxBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.vGear_ItemContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.vGear_ItemContainer.html",
+          "hash": "LhPTBe1zaYOj6mdk7L6cZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Votanic.vXR.vGear.vGear_Landing.yml",
       "output": {
         ".html": {
@@ -2769,7 +3045,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Measurer.html",
-          "hash": "EbRu3L66TQ3EIyuCT9H7gw=="
+          "hash": "7jowpolE9FSmG/lz7cVvuQ=="
         }
       },
       "is_incremental": false,
@@ -2817,7 +3093,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Reporter.html",
-          "hash": "xJ4E6LKQtdWOpXKDSeffFw=="
+          "hash": "zvm8aAjuT8NzUJ0+xuy//Q=="
         }
       },
       "is_incremental": false,
@@ -2901,7 +3177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_User.html",
-          "hash": "TyUy4fov4/DbGIg77qUjrw=="
+          "hash": "6YwYONGt97f7z531MCxgTA=="
         }
       },
       "is_incremental": false,
@@ -2937,7 +3213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear_Waypoint.html",
-          "hash": "P2qR2RAHqMem7qkUPaWnsQ=="
+          "hash": "RybaTU1CTR4mKkL46o66qg=="
         }
       },
       "is_incremental": false,
@@ -2949,7 +3225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.html",
-          "hash": "oU9U5OunJGGrgUqsJnUn4g=="
+          "hash": "klTlV2JAIPHIsh+s2xpgSg=="
         }
       },
       "is_incremental": false,
@@ -2973,7 +3249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.html",
-          "hash": "lwSpXUPzVXtJyaerX0LWuQ=="
+          "hash": "0qEbXFXI+Aha6RttdGdqIQ=="
         }
       },
       "is_incremental": false,
@@ -2997,7 +3273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "cqQQ/GCRgvE4zGux4kJPqg=="
+          "hash": "+b6PwM116OQUhFKnudqnQw=="
         }
       },
       "is_incremental": false,
@@ -3082,8 +3358,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 248,
-          "skipped_file_count": 180
+          "total_file_count": 271,
+          "skipped_file_count": 195
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

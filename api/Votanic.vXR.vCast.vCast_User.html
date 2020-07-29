@@ -545,8 +545,347 @@ public List&lt;vCast_Wall&gt; walls</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_rotation_" data-uid="Votanic.vXR.vCast.vCast_User.rotation*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_rotation" data-uid="Votanic.vXR.vCast.vCast_User.rotation">rotation</h4>
+  <div class="markdown level1 summary"><p>Return the actual user rotation in the scene.
+<br> 傳回使用者在場景中的實際旋轉。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion rotation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_InverseTransformDirection_" data-uid="Votanic.vXR.vCast.vCast_User.InverseTransformDirection*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_InverseTransformDirection_System_Single_System_Single_System_Single_" data-uid="Votanic.vXR.vCast.vCast_User.InverseTransformDirection(System.Single,System.Single,System.Single)">InverseTransformDirection(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Transforms direction from world space to local space.
+<br> 由世界方向變換為相對方向。</p>
+<p> InverseTransformDirection(1, 1, 1) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 InverseTransformDirection(float x, float y, float z)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>Direction X <br> X 方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>Direction Y <br> Y 方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">z</span></td>
+        <td><p>Direction Z <br> Z 方向</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_InverseTransformDirection_" data-uid="Votanic.vXR.vCast.vCast_User.InverseTransformDirection*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_InverseTransformDirection_UnityEngine_Vector3_" data-uid="Votanic.vXR.vCast.vCast_User.InverseTransformDirection(UnityEngine.Vector3)">InverseTransformDirection(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Transforms direction from world space to local space.
+<br> 由世界方向變換為相對方向。</p>
+<p> InverseTransformDirection(Vector3.one) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 InverseTransformDirection(Vector3 direction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Direction <br> 方向</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_InverseTransformPoint_" data-uid="Votanic.vXR.vCast.vCast_User.InverseTransformPoint*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_InverseTransformPoint_System_Single_System_Single_System_Single_" data-uid="Votanic.vXR.vCast.vCast_User.InverseTransformPoint(System.Single,System.Single,System.Single)">InverseTransformPoint(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Transforms position from world space to local space.
+<br> 由世界位置變換為相對位置。</p>
+<p> InverseTransformPoint(1, 1, 1) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 InverseTransformPoint(float x, float y, float z)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>World X position <br> 世界 X 位置</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>World Y position <br> 世界 Y 位置</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">z</span></td>
+        <td><p>World Z position <br> 世界 Z 位置</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_InverseTransformPoint_" data-uid="Votanic.vXR.vCast.vCast_User.InverseTransformPoint*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_InverseTransformPoint_UnityEngine_Vector3_" data-uid="Votanic.vXR.vCast.vCast_User.InverseTransformPoint(UnityEngine.Vector3)">InverseTransformPoint(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Transforms position from world space to local space.
+<br> 由世界位置變換為相對位置。</p>
+<p> InverseTransformPoint(Vector3.one) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 InverseTransformPoint(Vector3 worldPosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">worldPosition</span></td>
+        <td><p>World position <br> 世界位置</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_InverseTransformVector_" data-uid="Votanic.vXR.vCast.vCast_User.InverseTransformVector*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_InverseTransformVector_System_Single_System_Single_System_Single_" data-uid="Votanic.vXR.vCast.vCast_User.InverseTransformVector(System.Single,System.Single,System.Single)">InverseTransformVector(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Transforms vector from world space to local space.
+<br> 由世界向量變換為相對向量。</p>
+<p> InverseTransformVector(1, 1, 1) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 InverseTransformVector(float x, float y, float z)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>Vector X <br> X 向量</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>Vector Y <br> Y 向量</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">z</span></td>
+        <td><p>Vector Z <br> Z 向量</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_InverseTransformVector_" data-uid="Votanic.vXR.vCast.vCast_User.InverseTransformVector*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_InverseTransformVector_UnityEngine_Vector3_" data-uid="Votanic.vXR.vCast.vCast_User.InverseTransformVector(UnityEngine.Vector3)">InverseTransformVector(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Transforms vector from world space to local space.
+<br> 由世界向量變換為相對向量。</p>
+<p> InverseTransformVector(Vector3.one) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 InverseTransformVector(Vector3 vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">vector</span></td>
+        <td><p>Vector <br> 向量</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_User_Move_" data-uid="Votanic.vXR.vCast.vCast_User.Move*"></a>
@@ -1512,11 +1851,115 @@ public List&lt;vCast_Wall&gt; walls</code></pre>
   </table>
   
   
+  <a id="Votanic_vXR_vCast_vCast_User_TransformDirection_" data-uid="Votanic.vXR.vCast.vCast_User.TransformDirection*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_TransformDirection_System_Single_System_Single_System_Single_" data-uid="Votanic.vXR.vCast.vCast_User.TransformDirection(System.Single,System.Single,System.Single)">TransformDirection(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Transforms direction from local space to world space.
+<br> 由相對方向變換為世界方向。</p>
+<p> TransformDirection(1, 1, 1) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 TransformDirection(float x, float y, float z)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>Direction X <br> X 方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>Direction Y <br> Y 方向</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">z</span></td>
+        <td><p>Direction Z <br> Z 方向</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_TransformDirection_" data-uid="Votanic.vXR.vCast.vCast_User.TransformDirection*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_TransformDirection_UnityEngine_Vector3_" data-uid="Votanic.vXR.vCast.vCast_User.TransformDirection(UnityEngine.Vector3)">TransformDirection(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Transforms direction from local space to world space.
+<br> 由相對方向變換為世界方向。</p>
+<p> TransformDirection(Vector3.one) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 TransformDirection(Vector3 direction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Direction <br> 方向</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vXR_vCast_vCast_User_TransformPoint_" data-uid="Votanic.vXR.vCast.vCast_User.TransformPoint*"></a>
   <h4 id="Votanic_vXR_vCast_vCast_User_TransformPoint_System_Single_System_Single_System_Single_" data-uid="Votanic.vXR.vCast.vCast_User.TransformPoint(System.Single,System.Single,System.Single)">TransformPoint(Single, Single, Single)</h4>
-  <div class="markdown level1 summary"><p>Return the world position from relative position to user.
-<br> 傳回在使用者中的相對位置至世界位置。</p>
-<p> TransformPoint(0, 1, 1) </p>
+  <div class="markdown level1 summary"><p>Transforms position from local space to world space.
+<br> 由相對位置變換為世界位置。</p>
+<p> TransformPoint(1, 1, 1) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1536,19 +1979,169 @@ public List&lt;vCast_Wall&gt; walls</code></pre>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">x</span></td>
-        <td><p>Relative x position to user <br> 在使用者中的相對 X 位置</p>
+        <td><p>Relative X position to user <br> 在使用者中的相對 X 位置</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">y</span></td>
-        <td><p>Relative y position to user <br> 在使用者中的相對 Y 位置</p>
+        <td><p>Relative Y position to user <br> 在使用者中的相對 Y 位置</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">z</span></td>
-        <td><p>Relative z position to user <br> 在使用者中的相對 Z 位置</p>
+        <td><p>Relative Z position to user <br> 在使用者中的相對 Z 位置</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_TransformPoint_" data-uid="Votanic.vXR.vCast.vCast_User.TransformPoint*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_TransformPoint_UnityEngine_Vector3_" data-uid="Votanic.vXR.vCast.vCast_User.TransformPoint(UnityEngine.Vector3)">TransformPoint(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Transforms position from local space to world space.
+<br> 由相對位置變換為世界位置。</p>
+<p> TransformPoint(Vector3.one) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 TransformPoint(Vector3 localPosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">localPosition</span></td>
+        <td><p>Relative position to user <br> 在使用者中的相對位置</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_TransformVector_" data-uid="Votanic.vXR.vCast.vCast_User.TransformVector*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_TransformVector_System_Single_System_Single_System_Single_" data-uid="Votanic.vXR.vCast.vCast_User.TransformVector(System.Single,System.Single,System.Single)">TransformVector(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Transforms vector from local space to world space.
+<br> 由相對向量變換為世界向量。</p>
+<p> TransformVector(1, 1, 1) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 TransformVector(float x, float y, float z)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>Vector X <br> X 向量</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>Vector Y <br> Y 向量</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">z</span></td>
+        <td><p>Vector Z <br> Z 向量</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_User_TransformVector_" data-uid="Votanic.vXR.vCast.vCast_User.TransformVector*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_User_TransformVector_UnityEngine_Vector3_" data-uid="Votanic.vXR.vCast.vCast_User.TransformVector(UnityEngine.Vector3)">TransformVector(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Transforms vector from local space to world space.
+<br> 由相對向量變換為世界向量。</p>
+<p> TransformVector(Vector3.one) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 TransformVector(Vector3 vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">vector</span></td>
+        <td><p>Vector <br> 向量</p>
 </td>
       </tr>
     </tbody>

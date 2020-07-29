@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LostTracking
+    <title>Class InventoryPage
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LostTracking
+    <meta name="title" content="Class InventoryPage
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,37 +68,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vCast.Core.LostTracking">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage">
   
   
-  <h1 id="Votanic_vXR_vCast_Core_LostTracking" data-uid="Votanic.vXR.vCast.Core.LostTracking" class="text-break">Class LostTracking
+  <h1 id="Votanic_vXR_vGear_Inventory_InventoryPage" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage" class="text-break">Class InventoryPage
   </h1>
-  <div class="markdown level0 summary"><p>Lost Tracking setting of entity.
-<br> 實體的定位失敗設定。</p>
+  <div class="markdown level0 summary"><p>Page of a category.
+<br> 範疇中的頁面。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">LostTracking</span></div>
+    <div class="level1"><span class="xref">InventoryPage</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vCast.Core.html">Votanic.vXR.vCast.Core</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.Inventory.html">Votanic.vXR.vGear.Inventory</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_vCast_Core_LostTracking_syntax">Syntax</h5>
+  <h5 id="Votanic_vXR_vGear_Inventory_InventoryPage_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LostTracking</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class InventoryPage</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_customPosition" data-uid="Votanic.vXR.vCast.Core.LostTracking.customPosition">customPosition</h4>
-  <div class="markdown level1 summary"><p>Custom local position of entity. <br> 自定義實體自身位置。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_alignment" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.alignment">alignment</h4>
+  <div class="markdown level1 summary"><p>The start point of grid on a page. <br> 頁面方格的開始位置。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 customPosition</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The start point of grid on a page.\n&#38913;&#38754;&#26041;&#26684;&#30340;&#38283;&#22987;&#20301;&#32622;&#12290;&quot;)]
+public PageAlignment alignment</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -110,45 +112,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.PageAlignment.html">PageAlignment</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_customRotation" data-uid="Votanic.vXR.vCast.Core.LostTracking.customRotation">customRotation</h4>
-  <div class="markdown level1 summary"><p>Custom local euler angle of entity. <br> 自定義實體自身角度。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_availables" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.availables">availables</h4>
+  <div class="markdown level1 summary"><p>Available grids. <br> 可用格數。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 customRotation</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_retry" data-uid="Votanic.vXR.vCast.Core.LostTracking.retry">retry</h4>
-  <div class="markdown level1 summary"><p>Times of retry to determine the tracking is lost. <br> 判斷定位失敗的重試次數。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int retry</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Available grids.\n&#21487;&#29992;&#26684;&#25976;&#12290;&quot;)]
+public int availables</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,13 +145,14 @@
   </table>
   
   
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_trackingTransform" data-uid="Votanic.vXR.vCast.Core.LostTracking.trackingTransform">trackingTransform</h4>
-  <div class="markdown level1 summary"><p>The entity transform change when the tracking is lost. <br> 當定位失敗時的 Transform 改變。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_direction" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.direction">direction</h4>
+  <div class="markdown level1 summary"><p>Grid generation direction. <br> 方格產生的方向。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LostTrackingTransform trackingTransform</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Grid generation direction.\n&#26041;&#26684;&#29986;&#29983;&#30340;&#26041;&#21521;&#12290;&quot;)]
+public PageDirection direction</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -185,25 +164,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vXR.vCast.Core.LostTrackingTransform.html">LostTrackingTransform</a></td>
+        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.PageDirection.html">PageDirection</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   
   
-  <a id="Votanic_vXR_vCast_Core_LostTracking_isLost_" data-uid="Votanic.vXR.vCast.Core.LostTracking.isLost*"></a>
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_isLost" data-uid="Votanic.vXR.vCast.Core.LostTracking.isLost">isLost</h4>
-  <div class="markdown level1 summary"><p>Return true if the tracking is lost. <br> 當定位失敗時傳回 true。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_grids" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.grids">grids</h4>
+  <div class="markdown level1 summary"><p>Grids on this page. <br> 頁面的格數。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isLost { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Grids on this page.\n&#38913;&#38754;&#30340;&#26684;&#25976;&#12290;&quot;)]
+public Vector2Int grids</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -213,7 +190,59 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">UnityEngine.Vector2Int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_panel" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.panel">panel</h4>
+  <div class="markdown level1 summary"><p>Panel component of the page. <br> 頁面面板。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Panel component of the page.\n&#38913;&#38754;&#38754;&#26495;&#12290;&quot;)]
+public vGear_Panel panel</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_Panel.html">vGear_Panel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_presets" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.presets">presets</h4>
+  <div class="markdown level1 summary"><p>The preset items. <br> 預設的物品。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The preset items.\n&#38928;&#35373;&#30340;&#29289;&#21697;&#12290;&quot;)]
+public List&lt;ItemData&gt; presets</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.Inventory.ItemData.html">ItemData</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LostTracking
+    <title>Class Quality
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LostTracking
+    <meta name="title" content="Class Quality
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,37 +68,52 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vCast.Core.LostTracking">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.Inventory.Quality">
   
   
-  <h1 id="Votanic_vXR_vCast_Core_LostTracking" data-uid="Votanic.vXR.vCast.Core.LostTracking" class="text-break">Class LostTracking
+  <h1 id="Votanic_vXR_vGear_Inventory_Quality" data-uid="Votanic.vXR.vGear.Inventory.Quality" class="text-break">Class Quality
   </h1>
-  <div class="markdown level0 summary"><p>Lost Tracking setting of entity.
-<br> 實體的定位失敗設定。</p>
+  <div class="markdown level0 summary"><p>Quality of item.
+<br> 物品品質。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">LostTracking</span></div>
+    <div class="level1"><a class="xref" href="Votanic.Element.html">Element</a></div>
+    <div class="level2"><span class="xref">Quality</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vCast.Core.html">Votanic.vXR.vCast.Core</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_name">Element.name</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_Equals_System_String_System_Boolean_">Element.Equals(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_Contains_System_String_System_Boolean_">Element.Contains(String, Boolean)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.Inventory.html">Votanic.vXR.vGear.Inventory</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_vCast_Core_LostTracking_syntax">Syntax</h5>
+  <h5 id="Votanic_vXR_vGear_Inventory_Quality_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LostTracking</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class Quality : Element</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_customPosition" data-uid="Votanic.vXR.vCast.Core.LostTracking.customPosition">customPosition</h4>
-  <div class="markdown level1 summary"><p>Custom local position of entity. <br> 自定義實體自身位置。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_Quality_iconColor" data-uid="Votanic.vXR.vGear.Inventory.Quality.iconColor">iconColor</h4>
+  <div class="markdown level1 summary"><p>The quality raw image color. <br> 品質影像顏色。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 customPosition</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The quality raw image color.\n&#21697;&#36074;&#24433;&#20687;&#38991;&#33394;&#12290;&quot;)]
+public Color iconColor</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -110,20 +125,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="xref">UnityEngine.Color</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_customRotation" data-uid="Votanic.vXR.vCast.Core.LostTracking.customRotation">customRotation</h4>
-  <div class="markdown level1 summary"><p>Custom local euler angle of entity. <br> 自定義實體自身角度。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_Quality_identifier" data-uid="Votanic.vXR.vGear.Inventory.Quality.identifier">identifier</h4>
+  <div class="markdown level1 summary"><p>Identifier of quality. <br> 品質識別碼。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 customRotation</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Identifier of quality.\n&#21697;&#36074;&#35672;&#21029;&#30908;&#12290;&quot;)]
+public string identifier</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -135,20 +151,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_retry" data-uid="Votanic.vXR.vCast.Core.LostTracking.retry">retry</h4>
-  <div class="markdown level1 summary"><p>Times of retry to determine the tracking is lost. <br> 判斷定位失敗的重試次數。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_Quality_nameColor" data-uid="Votanic.vXR.vGear.Inventory.Quality.nameColor">nameColor</h4>
+  <div class="markdown level1 summary"><p>Name text color. <br> 名稱文字顏色。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int retry</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Name text color.\n&#21517;&#31281;&#25991;&#23383;&#38991;&#33394;&#12290;&quot;)]
+public Color nameColor</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -160,60 +177,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_trackingTransform" data-uid="Votanic.vXR.vCast.Core.LostTracking.trackingTransform">trackingTransform</h4>
-  <div class="markdown level1 summary"><p>The entity transform change when the tracking is lost. <br> 當定位失敗時的 Transform 改變。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LostTrackingTransform trackingTransform</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vXR.vCast.Core.LostTrackingTransform.html">LostTrackingTransform</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Votanic_vXR_vCast_Core_LostTracking_isLost_" data-uid="Votanic.vXR.vCast.Core.LostTracking.isLost*"></a>
-  <h4 id="Votanic_vXR_vCast_Core_LostTracking_isLost" data-uid="Votanic.vXR.vCast.Core.LostTracking.isLost">isLost</h4>
-  <div class="markdown level1 summary"><p>Return true if the tracking is lost. <br> 當定位失敗時傳回 true。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isLost { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">UnityEngine.Color</span></td>
         <td></td>
       </tr>
     </tbody>

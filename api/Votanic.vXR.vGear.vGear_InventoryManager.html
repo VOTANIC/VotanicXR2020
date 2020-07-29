@@ -1,0 +1,646 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class vGear_InventoryManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class vGear_InventoryManager
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.vGear_InventoryManager">
+  
+  
+  <h1 id="Votanic_vXR_vGear_vGear_InventoryManager" data-uid="Votanic.vXR.vGear.vGear_InventoryManager" class="text-break">Class vGear_InventoryManager
+  </h1>
+  <div class="markdown level0 summary"><p>The manager for inventory system.
+<br> 庫存系統管理員。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">vGear_InventoryManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.html">Votanic.vXR.vGear</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
+  <h5 id="Votanic_vXR_vGear_vGear_InventoryManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
+public class vGear_InventoryManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_auxiliary" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.auxiliary">auxiliary</h4>
+  <div class="markdown level1 summary"><p>The auxiliary of inventory system. <br> 庫存系統的輔助物。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The auxiliary of inventory system.\n&#24235;&#23384;&#31995;&#32113;&#30340;&#36628;&#21161;&#29289;&#12290;&quot;)]
+public vGear_Auxiliary auxiliary</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_Auxiliary.html">vGear_Auxiliary</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_currencies" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.currencies">currencies</h4>
+  <div class="markdown level1 summary"><p>The currencies of inventory system. <br> 庫存系統的所有貨幣。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+[Tooltip(&quot;The currencies of inventory system.\n&#24235;&#23384;&#31995;&#32113;&#30340;&#25152;&#26377;&#36008;&#24163;&#12290;&quot;)]
+public List&lt;Currency&gt; currencies</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.Inventory.Currency.html">Currency</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_generatables" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.generatables">generatables</h4>
+  <div class="markdown level1 summary"><p>The generic prefab for generatable items. <br> 可生成物的通用預製件。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The generic prefab for generatable items.\n&#21487;&#29983;&#25104;&#29289;&#30340;&#36890;&#29992;&#38928;&#35069;&#20214;&#12290;&quot;)]
+public vGear_Item generatables</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_Item.html">vGear_Item</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_items" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.items">items</h4>
+  <div class="markdown level1 summary"><p>The items of inventory system. <br> 庫存系統的所有物品。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The items of inventory system.\n&#24235;&#23384;&#31995;&#32113;&#30340;&#25152;&#26377;&#29289;&#21697;&#12290;&quot;)]
+public List&lt;Item&gt; items</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.Inventory.Item.html">Item</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_main" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.main">main</h4>
+  <div class="markdown level1 summary"><p>The main inventories of inventory system. <br> 庫存系統的主庫存。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Components]&quot;)]
+[Tooltip(&quot;The main inventories of inventory system.\n&#24235;&#23384;&#31995;&#32113;&#30340;&#20027;&#24235;&#23384;&#12290;&quot;)]
+public vGear_Inventory main</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_Inventory.html">vGear_Inventory</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_qualities" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.qualities">qualities</h4>
+  <div class="markdown level1 summary"><p>The qualities of inventory system. <br> 庫存系統的所有品質。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The qualities of inventory system.\n&#24235;&#23384;&#31995;&#32113;&#30340;&#25152;&#26377;&#21697;&#36074;&#12290;&quot;)]
+public List&lt;Quality&gt; qualities</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.Inventory.Quality.html">Quality</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_quantityPanel" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.quantityPanel">quantityPanel</h4>
+  <div class="markdown level1 summary"><p>The panel for adjusting quantity. <br> 調整數量的面板。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The panel for adjusting quantity.\n&#35519;&#25972;&#25976;&#37327;&#30340;&#38754;&#26495;&#12290;&quot;)]
+public vGear_Panel quantityPanel</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_Panel.html">vGear_Panel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_AddQuantity_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.AddQuantity*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_AddQuantity_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.AddQuantity(System.Boolean)">AddQuantity(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Add display quantity to quantity panel.
+<br> 增加數量面板的顯示數量。</p>
+<p> AddQuantity(false) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddQuantity(bool toMax)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">toMax</span></td>
+        <td><p>Add quantity to max value <br> 增加至最大值</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_Apply_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Apply*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_Apply_Votanic_vXR_vGear_vGear_ItemContainer_Votanic_vXR_vGear_vGear_Controller_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Apply(Votanic.vXR.vGear.vGear_ItemContainer,Votanic.vXR.vGear.vGear_Controller)">Apply(vGear_ItemContainer, vGear_Controller)</h4>
+  <div class="markdown level1 summary"><p>Apply the item on container.
+<br> 使用容器中的物品。</p>
+<p> Apply(container, controller) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Apply(vGear_ItemContainer container, vGear_Controller controller)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_ItemContainer.html">vGear_ItemContainer</a></td>
+        <td><span class="parametername">container</span></td>
+        <td><p>Item ontainer <br> 物品容器</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_Controller.html">vGear_Controller</a></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller to handle the item <br> 處理物品的控制器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_CloseQuantityPanel_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.CloseQuantityPanel*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_CloseQuantityPanel_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.CloseQuantityPanel(System.Boolean)">CloseQuantityPanel(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Close quantity panel.
+<br> 關閉數量面板。</p>
+<p> CloseQuantityPanel(true) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CloseQuantityPanel(bool operate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">operate</span></td>
+        <td><p>Operation comfirm <br> 確認操作</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_ErrorLog_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.ErrorLog*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_ErrorLog_Votanic_vXR_vGear_Inventory_ErrorType_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.ErrorLog(Votanic.vXR.vGear.Inventory.ErrorType)">ErrorLog(ErrorType)</h4>
+  <div class="markdown level1 summary"><p>Error log for operation failure.
+<br> 操作失敗的錯誤報告。</p>
+<p> ErrorLog(ErrorType.SpaceIssue) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ErrorLog(ErrorType msg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.ErrorType.html">ErrorType</a></td>
+        <td><span class="parametername">msg</span></td>
+        <td><p>Message of error <br> 錯誤訊息</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_HideCommands_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.HideCommands*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_HideCommands" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.HideCommands">HideCommands()</h4>
+  <div class="markdown level1 summary"><p>Close command panel.
+<br> 關閉指令面板。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HideCommands()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_HideInfo_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.HideInfo*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_HideInfo" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.HideInfo">HideInfo()</h4>
+  <div class="markdown level1 summary"><p>Close info panel.
+<br> 關閉資訊面板。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HideInfo()</code></pre>
+  </div>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_OpenQuantityPanel_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.OpenQuantityPanel*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_OpenQuantityPanel_Votanic_vXR_vGear_vGear_ItemContainer_Votanic_vXR_vGear_Inventory_AccessType_Votanic_Parameter_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.OpenQuantityPanel(Votanic.vXR.vGear.vGear_ItemContainer,Votanic.vXR.vGear.Inventory.AccessType,Votanic.Parameter)">OpenQuantityPanel(vGear_ItemContainer, AccessType, Parameter)</h4>
+  <div class="markdown level1 summary"><p>Open quantity panel.
+<br> 打開數量面板。</p>
+<p> OpenQuantityPanel(itemContainer, AccessType.Store, new InteractionParameter { interactor = 0, type = InteractorType.Wand }) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenQuantityPanel(vGear_ItemContainer container, AccessType operateType, Parameter parameter = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_ItemContainer.html">vGear_ItemContainer</a></td>
+        <td><span class="parametername">container</span></td>
+        <td><p>Item container <br> 物品容器</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.AccessType.html">AccessType</a></td>
+        <td><span class="parametername">operateType</span></td>
+        <td><p>Operation type <br> 操作類型</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.Parameter.html">Parameter</a></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Paramter class <br> 參數類別</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_ReduceQuantity_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.ReduceQuantity*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_ReduceQuantity_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.ReduceQuantity(System.Boolean)">ReduceQuantity(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Reduce display quantity to quantity panel.
+<br> 減少數量面板的顯示數量。</p>
+<p> ReduceQuantity(false) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReduceQuantity(bool toOne)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">toOne</span></td>
+        <td><p>Reduce quantity to one <br> 減少至 1</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_ShowCommands_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.ShowCommands*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_ShowCommands_Votanic_vXR_vGear_vGear_ItemContainer_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.ShowCommands(Votanic.vXR.vGear.vGear_ItemContainer)">ShowCommands(vGear_ItemContainer)</h4>
+  <div class="markdown level1 summary"><p>Open the auxiliary command panel if the container has item.
+<br> 當容器有物品時打開輔助物指令面板。</p>
+<p> ShowCommands(container) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowCommands(vGear_ItemContainer container)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_ItemContainer.html">vGear_ItemContainer</a></td>
+        <td><span class="parametername">container</span></td>
+        <td><p>Target container <br> 目標容器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_ShowInfo_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.ShowInfo*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_ShowInfo_Votanic_vXR_vGear_vGear_ItemContainer_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.ShowInfo(Votanic.vXR.vGear.vGear_ItemContainer)">ShowInfo(vGear_ItemContainer)</h4>
+  <div class="markdown level1 summary"><p>Open the auxiliary info panel if the container has item.
+<br> 當容器有物品時打開輔助物資訊面板。</p>
+<p> ShowInfo(container) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowInfo(vGear_ItemContainer container)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_ItemContainer.html">vGear_ItemContainer</a></td>
+        <td><span class="parametername">container</span></td>
+        <td><p>Target container <br> 目標容器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_SuccessLog_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.SuccessLog*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_SuccessLog_Votanic_vXR_vGear_Inventory_SuccessType_Votanic_vXR_vGear_Inventory_Item_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.SuccessLog(Votanic.vXR.vGear.Inventory.SuccessType,Votanic.vXR.vGear.Inventory.Item)">SuccessLog(SuccessType, Item)</h4>
+  <div class="markdown level1 summary"><p>Success log for operation done.
+<br> 操作完成的成功報告。</p>
+<p> SuccessLog(SuccessType.Apply) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SuccessLog(SuccessType msg, Item item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.SuccessType.html">SuccessType</a></td>
+        <td><span class="parametername">msg</span></td>
+        <td><p>Message of success <br> 成功訊息</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.Item.html">Item</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>Related item <br> 相關物件</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
