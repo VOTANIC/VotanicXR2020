@@ -15034,6 +15034,25 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast_User.navigatorSetting
   fullName: Votanic.vXR.vCast.vCast_User.navigatorSetting
   nameWithType: vCast_User.navigatorSetting
+- uid: Votanic.vXR.vCast.vCast_User.ParentToUser(UnityEngine.Transform)
+  name: ParentToUser(Transform)
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_ParentToUser_UnityEngine_Transform_
+  commentId: M:Votanic.vXR.vCast.vCast_User.ParentToUser(UnityEngine.Transform)
+  fullName: Votanic.vXR.vCast.vCast_User.ParentToUser(UnityEngine.Transform)
+  nameWithType: vCast_User.ParentToUser(Transform)
+- uid: Votanic.vXR.vCast.vCast_User.ParentToUser(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+  name: ParentToUser(Transform, Vector3, Vector3)
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_ParentToUser_UnityEngine_Transform_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:Votanic.vXR.vCast.vCast_User.ParentToUser(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+  fullName: Votanic.vXR.vCast.vCast_User.ParentToUser(UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: vCast_User.ParentToUser(Transform, Vector3, Vector3)
+- uid: Votanic.vXR.vCast.vCast_User.ParentToUser*
+  name: ParentToUser
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_ParentToUser_
+  commentId: Overload:Votanic.vXR.vCast.vCast_User.ParentToUser
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_User.ParentToUser
+  nameWithType: vCast_User.ParentToUser
 - uid: Votanic.vXR.vCast.vCast_User.PauseTransform
   name: PauseTransform()
   href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_PauseTransform
@@ -19641,6 +19660,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Inventory.SetAvailables
   nameWithType: vGear_Inventory.SetAvailables
+- uid: Votanic.vXR.vGear.vGear_Inventory.SetParent(UnityEngine.Transform)
+  name: SetParent(Transform)
+  href: api/Votanic.vXR.vGear.vGear_Inventory.html#Votanic_vXR_vGear_vGear_Inventory_SetParent_UnityEngine_Transform_
+  commentId: M:Votanic.vXR.vGear.vGear_Inventory.SetParent(UnityEngine.Transform)
+  fullName: Votanic.vXR.vGear.vGear_Inventory.SetParent(UnityEngine.Transform)
+  nameWithType: vGear_Inventory.SetParent(Transform)
 - uid: Votanic.vXR.vGear.vGear_Inventory.SetParent(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
   name: SetParent(Transform, Vector3, Vector3)
   href: api/Votanic.vXR.vGear.vGear_Inventory.html#Votanic_vXR_vGear_vGear_Inventory_SetParent_UnityEngine_Transform_UnityEngine_Vector3_UnityEngine_Vector3_
