@@ -100,58 +100,6 @@ public struct ControllerTransform</code></pre>
   </h3>
   
   
-  <h4 id="Votanic_vXR_vGear_ControllerTransform_controllerTransformPoint" data-uid="Votanic.vXR.vGear.ControllerTransform.controllerTransformPoint">controllerTransformPoint</h4>
-  <div class="markdown level1 summary"><p>Capture controller transform if true, object transform if false, to calculate transform change. <br> 當 true 時用控制器 Transfrom，否則用物件的 Transfrom 來計算 Transfrom 變化。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Capture controller transform if true, object transform if false, to calculate transform change.\n&#30070; true &#26178;&#29992;&#25511;&#21046;&#22120; Transfrom&#65292;&#21542;&#21063;&#29992;&#29289;&#20214;&#30340; Transfrom &#20358;&#35336;&#31639; Transfrom &#35722;&#21270;&#12290;&quot;)]
-public bool controllerTransformPoint</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vGear_ControllerTransform_detectPart" data-uid="Votanic.vXR.vGear.ControllerTransform.detectPart">detectPart</h4>
-  <div class="markdown level1 summary"><p>Detect part of controller. <br> 控制器偵測部位。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Detect part of controller.\n&#25511;&#21046;&#22120;&#20597;&#28204;&#37096;&#20301;&#12290;&quot;)]
-public ControllerPart detectPart</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Votanic.vXR.vGear.ControllerPart.html">ControllerPart</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <h4 id="Votanic_vXR_vGear_ControllerTransform_movement" data-uid="Votanic.vXR.vGear.ControllerTransform.movement">movement</h4>
   <div class="markdown level1 summary"><p>Relative position can move. <br> 可移動的相對位置。</p>
 </div>
@@ -172,6 +120,32 @@ public Vector3 movement</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_ControllerTransform_objectDirection" data-uid="Votanic.vXR.vGear.ControllerTransform.objectDirection">objectDirection</h4>
+  <div class="markdown level1 summary"><p>Check transform change base on object direction, else base on controller direction. <br> 以物件方向或控制器方向判斷 Transform 變化。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Check transform change base on object direction, else base on controller direction.\n&#20197;&#29289;&#20214;&#26041;&#21521;&#25110;&#25511;&#21046;&#22120;&#26041;&#21521;&#21028;&#26039; Transform &#35722;&#21270;&#12290;&quot;)]
+public bool objectDirection</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>

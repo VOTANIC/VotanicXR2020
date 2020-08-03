@@ -96,7 +96,7 @@
       <a class="xref" href="Votanic.Element.html#Votanic_Element_Equals_System_String_System_Boolean_">Element.Equals(String, Boolean)</a>
     </div>
     <div>
-      <a class="xref" href="Votanic.Element.html#Votanic_Element_Contains_System_String_System_Boolean_">Element.Contains(String, Boolean)</a>
+      <a class="xref" href="Votanic.Element.html#Votanic_Element_Contains_System_String_System_Boolean_System_Boolean_">Element.Contains(String, Boolean, Boolean)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vIO.OpenVR.html">Votanic.vIO.OpenVR</a></h6>
@@ -111,14 +111,14 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
   
   
   <a id="Votanic_vIO_OpenVR_OpenVRHandler__ctor_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.#ctor*"></a>
-  <h4 id="Votanic_vIO_OpenVR_OpenVRHandler__ctor_System_Single_System_Single_System_Single_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.#ctor(System.Single,System.Single,System.Single)">OpenVRHandler(Single, Single, Single)</h4>
+  <h4 id="Votanic_vIO_OpenVR_OpenVRHandler__ctor_System_Single_System_Single_System_Single_System_Boolean_" data-uid="Votanic.vIO.OpenVR.OpenVRHandler.#ctor(System.Single,System.Single,System.Single,System.Boolean)">OpenVRHandler(Single, Single, Single, Boolean)</h4>
   <div class="markdown level1 summary"><p>Declare the OpenVR handler.
 <br> 宣告 OpenVR 處理器。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OpenVRHandler(float axesDeadZone = 0.14F, float axesPressDetect = 0.7F, float holdingDuration = 1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public OpenVRHandler(float axesDeadZone = 0.14F, float axesPressDetect = 0.7F, float holdingDuration = 1F, bool roleSystem = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,6 +146,12 @@ public class OpenVRHandler : Element, IDisposable</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">holdingDuration</span></td>
         <td><p>Holding seconds of hold input type <br> 長按輸入類型的長按秒數</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">roleSystem</span></td>
+        <td><p>Enable the role system <br> 啟動角色系統</p>
 </td>
       </tr>
     </tbody>

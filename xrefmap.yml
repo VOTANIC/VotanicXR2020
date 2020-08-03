@@ -13,12 +13,12 @@ references:
   commentId: T:Votanic.Element
   fullName: Votanic.Element
   nameWithType: Element
-- uid: Votanic.Element.Contains(System.String,System.Boolean)
-  name: Contains(String, Boolean)
-  href: api/Votanic.Element.html#Votanic_Element_Contains_System_String_System_Boolean_
-  commentId: M:Votanic.Element.Contains(System.String,System.Boolean)
-  fullName: Votanic.Element.Contains(System.String, System.Boolean)
-  nameWithType: Element.Contains(String, Boolean)
+- uid: Votanic.Element.Contains(System.String,System.Boolean,System.Boolean)
+  name: Contains(String, Boolean, Boolean)
+  href: api/Votanic.Element.html#Votanic_Element_Contains_System_String_System_Boolean_System_Boolean_
+  commentId: M:Votanic.Element.Contains(System.String,System.Boolean,System.Boolean)
+  fullName: Votanic.Element.Contains(System.String, System.Boolean, System.Boolean)
+  nameWithType: Element.Contains(String, Boolean, Boolean)
 - uid: Votanic.Element.Contains*
   name: Contains
   href: api/Votanic.Element.html#Votanic_Element_Contains_
@@ -45,12 +45,12 @@ references:
   commentId: T:Votanic.Element.MonoBehaviour
   fullName: Votanic.Element.MonoBehaviour
   nameWithType: Element.MonoBehaviour
-- uid: Votanic.Element.MonoBehaviour.Contains(System.String,System.Boolean)
-  name: Contains(String, Boolean)
-  href: api/Votanic.Element.MonoBehaviour.html#Votanic_Element_MonoBehaviour_Contains_System_String_System_Boolean_
-  commentId: M:Votanic.Element.MonoBehaviour.Contains(System.String,System.Boolean)
-  fullName: Votanic.Element.MonoBehaviour.Contains(System.String, System.Boolean)
-  nameWithType: Element.MonoBehaviour.Contains(String, Boolean)
+- uid: Votanic.Element.MonoBehaviour.Contains(System.String,System.Boolean,System.Boolean)
+  name: Contains(String, Boolean, Boolean)
+  href: api/Votanic.Element.MonoBehaviour.html#Votanic_Element_MonoBehaviour_Contains_System_String_System_Boolean_System_Boolean_
+  commentId: M:Votanic.Element.MonoBehaviour.Contains(System.String,System.Boolean,System.Boolean)
+  fullName: Votanic.Element.MonoBehaviour.Contains(System.String, System.Boolean, System.Boolean)
+  nameWithType: Element.MonoBehaviour.Contains(String, Boolean, Boolean)
 - uid: Votanic.Element.MonoBehaviour.Contains*
   name: Contains
   href: api/Votanic.Element.MonoBehaviour.html#Votanic_Element_MonoBehaviour_Contains_
@@ -102,12 +102,12 @@ references:
   commentId: T:Votanic.Element.String
   fullName: Votanic.Element.String
   nameWithType: Element.String
-- uid: Votanic.Element.String.Contains(System.String,System.Boolean)
-  name: Contains(String, Boolean)
-  href: api/Votanic.Element.String.html#Votanic_Element_String_Contains_System_String_System_Boolean_
-  commentId: M:Votanic.Element.String.Contains(System.String,System.Boolean)
-  fullName: Votanic.Element.String.Contains(System.String, System.Boolean)
-  nameWithType: Element.String.Contains(String, Boolean)
+- uid: Votanic.Element.String.Contains(System.String,System.Boolean,System.Boolean)
+  name: Contains(String, Boolean, Boolean)
+  href: api/Votanic.Element.String.html#Votanic_Element_String_Contains_System_String_System_Boolean_System_Boolean_
+  commentId: M:Votanic.Element.String.Contains(System.String,System.Boolean,System.Boolean)
+  fullName: Votanic.Element.String.Contains(System.String, System.Boolean, System.Boolean)
+  nameWithType: Element.String.Contains(String, Boolean, Boolean)
 - uid: Votanic.Element.String.Contains*
   name: Contains
   href: api/Votanic.Element.String.html#Votanic_Element_String_Contains_
@@ -1622,6 +1622,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vIO.OpenVR.OpenVRDevice.model
   nameWithType: OpenVRDevice.model
+- uid: Votanic.vIO.OpenVR.OpenVRDevice.role
+  name: role
+  href: api/Votanic.vIO.OpenVR.OpenVRDevice.html#Votanic_vIO_OpenVR_OpenVRDevice_role
+  commentId: P:Votanic.vIO.OpenVR.OpenVRDevice.role
+  fullName: Votanic.vIO.OpenVR.OpenVRDevice.role
+  nameWithType: OpenVRDevice.role
+- uid: Votanic.vIO.OpenVR.OpenVRDevice.role*
+  name: role
+  href: api/Votanic.vIO.OpenVR.OpenVRDevice.html#Votanic_vIO_OpenVR_OpenVRDevice_role_
+  commentId: Overload:Votanic.vIO.OpenVR.OpenVRDevice.role
+  isSpec: "True"
+  fullName: Votanic.vIO.OpenVR.OpenVRDevice.role
+  nameWithType: OpenVRDevice.role
 - uid: Votanic.vIO.OpenVR.OpenVRDevice.tracker
   name: tracker
   href: api/Votanic.vIO.OpenVR.OpenVRDevice.html#Votanic_vIO_OpenVR_OpenVRDevice_tracker
@@ -1667,12 +1680,12 @@ references:
   commentId: T:Votanic.vIO.OpenVR.OpenVRHandler
   fullName: Votanic.vIO.OpenVR.OpenVRHandler
   nameWithType: OpenVRHandler
-- uid: Votanic.vIO.OpenVR.OpenVRHandler.#ctor(System.Single,System.Single,System.Single)
-  name: OpenVRHandler(Single, Single, Single)
-  href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler__ctor_System_Single_System_Single_System_Single_
-  commentId: M:Votanic.vIO.OpenVR.OpenVRHandler.#ctor(System.Single,System.Single,System.Single)
-  fullName: Votanic.vIO.OpenVR.OpenVRHandler.OpenVRHandler(System.Single, System.Single, System.Single)
-  nameWithType: OpenVRHandler.OpenVRHandler(Single, Single, Single)
+- uid: Votanic.vIO.OpenVR.OpenVRHandler.#ctor(System.Single,System.Single,System.Single,System.Boolean)
+  name: OpenVRHandler(Single, Single, Single, Boolean)
+  href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler__ctor_System_Single_System_Single_System_Single_System_Boolean_
+  commentId: M:Votanic.vIO.OpenVR.OpenVRHandler.#ctor(System.Single,System.Single,System.Single,System.Boolean)
+  fullName: Votanic.vIO.OpenVR.OpenVRHandler.OpenVRHandler(System.Single, System.Single, System.Single, System.Boolean)
+  nameWithType: OpenVRHandler.OpenVRHandler(Single, Single, Single, Boolean)
 - uid: Votanic.vIO.OpenVR.OpenVRHandler.#ctor*
   name: OpenVRHandler
   href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler__ctor_
@@ -9325,6 +9338,12 @@ references:
   commentId: F:Votanic.vXR.GrabSetting.kinematic
   fullName: Votanic.vXR.GrabSetting.kinematic
   nameWithType: GrabSetting.kinematic
+- uid: Votanic.vXR.GrabSetting.parentBack
+  name: parentBack
+  href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_parentBack
+  commentId: F:Votanic.vXR.GrabSetting.parentBack
+  fullName: Votanic.vXR.GrabSetting.parentBack
+  nameWithType: GrabSetting.parentBack
 - uid: Votanic.vXR.GrabSetting.parentToController
   name: parentToController
   href: api/Votanic.vXR.GrabSetting.html#Votanic_vXR_GrabSetting_parentToController
@@ -9452,6 +9471,12 @@ references:
   commentId: T:Votanic.vXR.InteractionParameter
   fullName: Votanic.vXR.InteractionParameter
   nameWithType: InteractionParameter
+- uid: Votanic.vXR.InteractionParameter.#ctor
+  name: InteractionParameter()
+  href: api/Votanic.vXR.InteractionParameter.html#Votanic_vXR_InteractionParameter__ctor
+  commentId: M:Votanic.vXR.InteractionParameter.#ctor
+  fullName: Votanic.vXR.InteractionParameter.InteractionParameter()
+  nameWithType: InteractionParameter.InteractionParameter()
 - uid: Votanic.vXR.InteractionParameter.#ctor(System.String,System.Single,System.Int32,System.Int32,Votanic.vXR.InteractorType,System.Boolean)
   name: InteractionParameter(String, Single, Int32, Int32, InteractorType, Boolean)
   href: api/Votanic.vXR.InteractionParameter.html#Votanic_vXR_InteractionParameter__ctor_System_String_System_Single_System_Int32_System_Int32_Votanic_vXR_InteractorType_System_Boolean_
@@ -13684,6 +13709,12 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast.targetFrameRate
   fullName: Votanic.vXR.vCast.vCast.targetFrameRate
   nameWithType: vCast.targetFrameRate
+- uid: Votanic.vXR.vCast.vCast.useEditorSetting
+  name: useEditorSetting
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_useEditorSetting
+  commentId: F:Votanic.vXR.vCast.vCast.useEditorSetting
+  fullName: Votanic.vXR.vCast.vCast.useEditorSetting
+  nameWithType: vCast.useEditorSetting
 - uid: Votanic.vXR.vCast.vCast.user
   name: user
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_user
@@ -15681,6 +15712,54 @@ references:
   commentId: F:Votanic.vXR.vGear.AuxiliaryCommand.name
   fullName: Votanic.vXR.vGear.AuxiliaryCommand.name
   nameWithType: AuxiliaryCommand.name
+- uid: Votanic.vXR.vGear.AuxiliaryGizmo
+  name: AuxiliaryGizmo
+  href: api/Votanic.vXR.vGear.AuxiliaryGizmo.html
+  commentId: T:Votanic.vXR.vGear.AuxiliaryGizmo
+  fullName: Votanic.vXR.vGear.AuxiliaryGizmo
+  nameWithType: AuxiliaryGizmo
+- uid: Votanic.vXR.vGear.AuxiliaryGizmo.autoCloseTimer
+  name: autoCloseTimer
+  href: api/Votanic.vXR.vGear.AuxiliaryGizmo.html#Votanic_vXR_vGear_AuxiliaryGizmo_autoCloseTimer
+  commentId: F:Votanic.vXR.vGear.AuxiliaryGizmo.autoCloseTimer
+  fullName: Votanic.vXR.vGear.AuxiliaryGizmo.autoCloseTimer
+  nameWithType: AuxiliaryGizmo.autoCloseTimer
+- uid: Votanic.vXR.vGear.AuxiliaryGizmo.gizmoPanel
+  name: gizmoPanel
+  href: api/Votanic.vXR.vGear.AuxiliaryGizmo.html#Votanic_vXR_vGear_AuxiliaryGizmo_gizmoPanel
+  commentId: F:Votanic.vXR.vGear.AuxiliaryGizmo.gizmoPanel
+  fullName: Votanic.vXR.vGear.AuxiliaryGizmo.gizmoPanel
+  nameWithType: AuxiliaryGizmo.gizmoPanel
+- uid: Votanic.vXR.vGear.AuxiliaryGizmo.lines
+  name: lines
+  href: api/Votanic.vXR.vGear.AuxiliaryGizmo.html#Votanic_vXR_vGear_AuxiliaryGizmo_lines
+  commentId: F:Votanic.vXR.vGear.AuxiliaryGizmo.lines
+  fullName: Votanic.vXR.vGear.AuxiliaryGizmo.lines
+  nameWithType: AuxiliaryGizmo.lines
+- uid: Votanic.vXR.vGear.AuxiliaryGizmo.positions
+  name: positions
+  href: api/Votanic.vXR.vGear.AuxiliaryGizmo.html#Votanic_vXR_vGear_AuxiliaryGizmo_positions
+  commentId: F:Votanic.vXR.vGear.AuxiliaryGizmo.positions
+  fullName: Votanic.vXR.vGear.AuxiliaryGizmo.positions
+  nameWithType: AuxiliaryGizmo.positions
+- uid: Votanic.vXR.vGear.AuxiliaryGizmo.rotations
+  name: rotations
+  href: api/Votanic.vXR.vGear.AuxiliaryGizmo.html#Votanic_vXR_vGear_AuxiliaryGizmo_rotations
+  commentId: F:Votanic.vXR.vGear.AuxiliaryGizmo.rotations
+  fullName: Votanic.vXR.vGear.AuxiliaryGizmo.rotations
+  nameWithType: AuxiliaryGizmo.rotations
+- uid: Votanic.vXR.vGear.AuxiliaryGizmo.scales
+  name: scales
+  href: api/Votanic.vXR.vGear.AuxiliaryGizmo.html#Votanic_vXR_vGear_AuxiliaryGizmo_scales
+  commentId: F:Votanic.vXR.vGear.AuxiliaryGizmo.scales
+  fullName: Votanic.vXR.vGear.AuxiliaryGizmo.scales
+  nameWithType: AuxiliaryGizmo.scales
+- uid: Votanic.vXR.vGear.AuxiliaryGizmo.switches
+  name: switches
+  href: api/Votanic.vXR.vGear.AuxiliaryGizmo.html#Votanic_vXR_vGear_AuxiliaryGizmo_switches
+  commentId: F:Votanic.vXR.vGear.AuxiliaryGizmo.switches
+  fullName: Votanic.vXR.vGear.AuxiliaryGizmo.switches
+  nameWithType: AuxiliaryGizmo.switches
 - uid: Votanic.vXR.vGear.AuxiliarySetting
   name: AuxiliarySetting
   href: api/Votanic.vXR.vGear.AuxiliarySetting.html
@@ -15717,48 +15796,24 @@ references:
   commentId: F:Votanic.vXR.vGear.AuxiliarySetting.offset
   fullName: Votanic.vXR.vGear.AuxiliarySetting.offset
   nameWithType: AuxiliarySetting.offset
-- uid: Votanic.vXR.vGear.ControllerPart
-  name: ControllerPart
-  href: api/Votanic.vXR.vGear.ControllerPart.html
-  commentId: T:Votanic.vXR.vGear.ControllerPart
-  fullName: Votanic.vXR.vGear.ControllerPart
-  nameWithType: ControllerPart
-- uid: Votanic.vXR.vGear.ControllerPart.Pivot
-  name: Pivot
-  href: api/Votanic.vXR.vGear.ControllerPart.html#Votanic_vXR_vGear_ControllerPart_Pivot
-  commentId: F:Votanic.vXR.vGear.ControllerPart.Pivot
-  fullName: Votanic.vXR.vGear.ControllerPart.Pivot
-  nameWithType: ControllerPart.Pivot
-- uid: Votanic.vXR.vGear.ControllerPart.RayPoint
-  name: RayPoint
-  href: api/Votanic.vXR.vGear.ControllerPart.html#Votanic_vXR_vGear_ControllerPart_RayPoint
-  commentId: F:Votanic.vXR.vGear.ControllerPart.RayPoint
-  fullName: Votanic.vXR.vGear.ControllerPart.RayPoint
-  nameWithType: ControllerPart.RayPoint
 - uid: Votanic.vXR.vGear.ControllerTransform
   name: ControllerTransform
   href: api/Votanic.vXR.vGear.ControllerTransform.html
   commentId: T:Votanic.vXR.vGear.ControllerTransform
   fullName: Votanic.vXR.vGear.ControllerTransform
   nameWithType: ControllerTransform
-- uid: Votanic.vXR.vGear.ControllerTransform.controllerTransformPoint
-  name: controllerTransformPoint
-  href: api/Votanic.vXR.vGear.ControllerTransform.html#Votanic_vXR_vGear_ControllerTransform_controllerTransformPoint
-  commentId: F:Votanic.vXR.vGear.ControllerTransform.controllerTransformPoint
-  fullName: Votanic.vXR.vGear.ControllerTransform.controllerTransformPoint
-  nameWithType: ControllerTransform.controllerTransformPoint
-- uid: Votanic.vXR.vGear.ControllerTransform.detectPart
-  name: detectPart
-  href: api/Votanic.vXR.vGear.ControllerTransform.html#Votanic_vXR_vGear_ControllerTransform_detectPart
-  commentId: F:Votanic.vXR.vGear.ControllerTransform.detectPart
-  fullName: Votanic.vXR.vGear.ControllerTransform.detectPart
-  nameWithType: ControllerTransform.detectPart
 - uid: Votanic.vXR.vGear.ControllerTransform.movement
   name: movement
   href: api/Votanic.vXR.vGear.ControllerTransform.html#Votanic_vXR_vGear_ControllerTransform_movement
   commentId: F:Votanic.vXR.vGear.ControllerTransform.movement
   fullName: Votanic.vXR.vGear.ControllerTransform.movement
   nameWithType: ControllerTransform.movement
+- uid: Votanic.vXR.vGear.ControllerTransform.objectDirection
+  name: objectDirection
+  href: api/Votanic.vXR.vGear.ControllerTransform.html#Votanic_vXR_vGear_ControllerTransform_objectDirection
+  commentId: F:Votanic.vXR.vGear.ControllerTransform.objectDirection
+  fullName: Votanic.vXR.vGear.ControllerTransform.objectDirection
+  nameWithType: ControllerTransform.objectDirection
 - uid: Votanic.vXR.vGear.ControllerTransform.rotation
   name: rotation
   href: api/Votanic.vXR.vGear.ControllerTransform.html#Votanic_vXR_vGear_ControllerTransform_rotation
@@ -15844,6 +15899,19 @@ references:
   commentId: T:Votanic.vXR.vGear.Inventory.Accessibility
   fullName: Votanic.vXR.vGear.Inventory.Accessibility
   nameWithType: Accessibility
+- uid: Votanic.vXR.vGear.Inventory.Accessibility.#ctor
+  name: Accessibility()
+  href: api/Votanic.vXR.vGear.Inventory.Accessibility.html#Votanic_vXR_vGear_Inventory_Accessibility__ctor
+  commentId: M:Votanic.vXR.vGear.Inventory.Accessibility.#ctor
+  fullName: Votanic.vXR.vGear.Inventory.Accessibility.Accessibility()
+  nameWithType: Accessibility.Accessibility()
+- uid: Votanic.vXR.vGear.Inventory.Accessibility.#ctor*
+  name: Accessibility
+  href: api/Votanic.vXR.vGear.Inventory.Accessibility.html#Votanic_vXR_vGear_Inventory_Accessibility__ctor_
+  commentId: Overload:Votanic.vXR.vGear.Inventory.Accessibility.#ctor
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.Inventory.Accessibility.Accessibility
+  nameWithType: Accessibility.Accessibility
 - uid: Votanic.vXR.vGear.Inventory.Accessibility.buyConsumable
   name: buyConsumable
   href: api/Votanic.vXR.vGear.Inventory.Accessibility.html#Votanic_vXR_vGear_Inventory_Accessibility_buyConsumable
@@ -15904,6 +15972,19 @@ references:
   commentId: T:Votanic.vXR.vGear.Inventory.Consumability
   fullName: Votanic.vXR.vGear.Inventory.Consumability
   nameWithType: Consumability
+- uid: Votanic.vXR.vGear.Inventory.Consumability.#ctor
+  name: Consumability()
+  href: api/Votanic.vXR.vGear.Inventory.Consumability.html#Votanic_vXR_vGear_Inventory_Consumability__ctor
+  commentId: M:Votanic.vXR.vGear.Inventory.Consumability.#ctor
+  fullName: Votanic.vXR.vGear.Inventory.Consumability.Consumability()
+  nameWithType: Consumability.Consumability()
+- uid: Votanic.vXR.vGear.Inventory.Consumability.#ctor*
+  name: Consumability
+  href: api/Votanic.vXR.vGear.Inventory.Consumability.html#Votanic_vXR_vGear_Inventory_Consumability__ctor_
+  commentId: Overload:Votanic.vXR.vGear.Inventory.Consumability.#ctor
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.Inventory.Consumability.Consumability
+  nameWithType: Consumability.Consumability
 - uid: Votanic.vXR.vGear.Inventory.Consumability.applyDurability
   name: applyDurability
   href: api/Votanic.vXR.vGear.Inventory.Consumability.html#Votanic_vXR_vGear_Inventory_Consumability_applyDurability
@@ -16246,6 +16327,12 @@ references:
   commentId: F:Votanic.vXR.vGear.Inventory.InventoryPage.presets
   fullName: Votanic.vXR.vGear.Inventory.InventoryPage.presets
   nameWithType: InventoryPage.presets
+- uid: Votanic.vXR.vGear.Inventory.InventoryPage.savable
+  name: savable
+  href: api/Votanic.vXR.vGear.Inventory.InventoryPage.html#Votanic_vXR_vGear_Inventory_InventoryPage_savable
+  commentId: F:Votanic.vXR.vGear.Inventory.InventoryPage.savable
+  fullName: Votanic.vXR.vGear.Inventory.InventoryPage.savable
+  nameWithType: InventoryPage.savable
 - uid: Votanic.vXR.vGear.Inventory.Item
   name: Item
   href: api/Votanic.vXR.vGear.Inventory.Item.html
@@ -18644,6 +18731,56 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Auxiliary.coreIcons
   fullName: Votanic.vXR.vGear.vGear_Auxiliary.coreIcons
   nameWithType: vGear_Auxiliary.coreIcons
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.gizmo
+  name: gizmo
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_gizmo
+  commentId: F:Votanic.vXR.vGear.vGear_Auxiliary.gizmo
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.gizmo
+  nameWithType: vGear_Auxiliary.gizmo
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.GizmoMode
+  name: GizmoMode()
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_GizmoMode
+  commentId: M:Votanic.vXR.vGear.vGear_Auxiliary.GizmoMode
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.GizmoMode()
+  nameWithType: vGear_Auxiliary.GizmoMode()
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.GizmoMode(System.Byte)
+  name: GizmoMode(Byte)
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_GizmoMode_System_Byte_
+  commentId: M:Votanic.vXR.vGear.vGear_Auxiliary.GizmoMode(System.Byte)
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.GizmoMode(System.Byte)
+  nameWithType: vGear_Auxiliary.GizmoMode(Byte)
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.GizmoMode*
+  name: GizmoMode
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_GizmoMode_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Auxiliary.GizmoMode
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.GizmoMode
+  nameWithType: vGear_Auxiliary.GizmoMode
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.gizmoObject
+  name: gizmoObject
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_gizmoObject
+  commentId: F:Votanic.vXR.vGear.vGear_Auxiliary.gizmoObject
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.gizmoObject
+  nameWithType: vGear_Auxiliary.gizmoObject
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.GizmoSpace
+  name: GizmoSpace()
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_GizmoSpace
+  commentId: M:Votanic.vXR.vGear.vGear_Auxiliary.GizmoSpace
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.GizmoSpace()
+  nameWithType: vGear_Auxiliary.GizmoSpace()
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.GizmoSpace(System.Boolean)
+  name: GizmoSpace(Boolean)
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_GizmoSpace_System_Boolean_
+  commentId: M:Votanic.vXR.vGear.vGear_Auxiliary.GizmoSpace(System.Boolean)
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.GizmoSpace(System.Boolean)
+  nameWithType: vGear_Auxiliary.GizmoSpace(Boolean)
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.GizmoSpace*
+  name: GizmoSpace
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_GizmoSpace_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Auxiliary.GizmoSpace
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.GizmoSpace
+  nameWithType: vGear_Auxiliary.GizmoSpace
 - uid: Votanic.vXR.vGear.vGear_Auxiliary.HideCommands
   name: HideCommands()
   href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_HideCommands
@@ -18657,6 +18794,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Auxiliary.HideCommands
   nameWithType: vGear_Auxiliary.HideCommands
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.HideGizmos
+  name: HideGizmos()
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_HideGizmos
+  commentId: M:Votanic.vXR.vGear.vGear_Auxiliary.HideGizmos
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.HideGizmos()
+  nameWithType: vGear_Auxiliary.HideGizmos()
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.HideGizmos*
+  name: HideGizmos
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_HideGizmos_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Auxiliary.HideGizmos
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.HideGizmos
+  nameWithType: vGear_Auxiliary.HideGizmos
 - uid: Votanic.vXR.vGear.vGear_Auxiliary.HideInfo
   name: HideInfo()
   href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_HideInfo
@@ -18706,6 +18856,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Auxiliary.panelVacancy
   fullName: Votanic.vXR.vGear.vGear_Auxiliary.panelVacancy
   nameWithType: vGear_Auxiliary.panelVacancy
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.ShowCommands(Votanic.Parameter)
+  name: ShowCommands(Parameter)
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_ShowCommands_Votanic_Parameter_
+  commentId: M:Votanic.vXR.vGear.vGear_Auxiliary.ShowCommands(Votanic.Parameter)
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.ShowCommands(Votanic.Parameter)
+  nameWithType: vGear_Auxiliary.ShowCommands(Parameter)
 - uid: Votanic.vXR.vGear.vGear_Auxiliary.ShowCommands(Votanic.vXR.vGear.vGear_Interactables)
   name: ShowCommands(vGear_Interactables)
   href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_ShowCommands_Votanic_vXR_vGear_vGear_Interactables_
@@ -18719,6 +18875,31 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Auxiliary.ShowCommands
   nameWithType: vGear_Auxiliary.ShowCommands
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.ShowGizmos(Votanic.Parameter)
+  name: ShowGizmos(Parameter)
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_ShowGizmos_Votanic_Parameter_
+  commentId: M:Votanic.vXR.vGear.vGear_Auxiliary.ShowGizmos(Votanic.Parameter)
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.ShowGizmos(Votanic.Parameter)
+  nameWithType: vGear_Auxiliary.ShowGizmos(Parameter)
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.ShowGizmos(Votanic.vXR.vGear.vGear_Interactables)
+  name: ShowGizmos(vGear_Interactables)
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_ShowGizmos_Votanic_vXR_vGear_vGear_Interactables_
+  commentId: M:Votanic.vXR.vGear.vGear_Auxiliary.ShowGizmos(Votanic.vXR.vGear.vGear_Interactables)
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.ShowGizmos(Votanic.vXR.vGear.vGear_Interactables)
+  nameWithType: vGear_Auxiliary.ShowGizmos(vGear_Interactables)
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.ShowGizmos*
+  name: ShowGizmos
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_ShowGizmos_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Auxiliary.ShowGizmos
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.ShowGizmos
+  nameWithType: vGear_Auxiliary.ShowGizmos
+- uid: Votanic.vXR.vGear.vGear_Auxiliary.ShowInfo(Votanic.Parameter)
+  name: ShowInfo(Parameter)
+  href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_ShowInfo_Votanic_Parameter_
+  commentId: M:Votanic.vXR.vGear.vGear_Auxiliary.ShowInfo(Votanic.Parameter)
+  fullName: Votanic.vXR.vGear.vGear_Auxiliary.ShowInfo(Votanic.Parameter)
+  nameWithType: vGear_Auxiliary.ShowInfo(Parameter)
 - uid: Votanic.vXR.vGear.vGear_Auxiliary.ShowInfo(Votanic.vXR.vGear.vGear_Interactables)
   name: ShowInfo(vGear_Interactables)
   href: api/Votanic.vXR.vGear.vGear_Auxiliary.html#Votanic_vXR_vGear_vGear_Auxiliary_ShowInfo_Votanic_vXR_vGear_vGear_Interactables_
@@ -19213,12 +19394,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Controller.brush
   nameWithType: vGear_Controller.brush
-- uid: Votanic.vXR.vGear.vGear_Controller.GetMovement(UnityEngine.Transform,Votanic.vXR.vGear.ControllerPart)
-  name: GetMovement(Transform, ControllerPart)
-  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_GetMovement_UnityEngine_Transform_Votanic_vXR_vGear_ControllerPart_
-  commentId: M:Votanic.vXR.vGear.vGear_Controller.GetMovement(UnityEngine.Transform,Votanic.vXR.vGear.ControllerPart)
-  fullName: Votanic.vXR.vGear.vGear_Controller.GetMovement(UnityEngine.Transform, Votanic.vXR.vGear.ControllerPart)
-  nameWithType: vGear_Controller.GetMovement(Transform, ControllerPart)
+- uid: Votanic.vXR.vGear.vGear_Controller.GetMovement
+  name: GetMovement()
+  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_GetMovement
+  commentId: M:Votanic.vXR.vGear.vGear_Controller.GetMovement
+  fullName: Votanic.vXR.vGear.vGear_Controller.GetMovement()
+  nameWithType: vGear_Controller.GetMovement()
 - uid: Votanic.vXR.vGear.vGear_Controller.GetMovement*
   name: GetMovement
   href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_GetMovement_
@@ -19226,12 +19407,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Controller.GetMovement
   nameWithType: vGear_Controller.GetMovement
-- uid: Votanic.vXR.vGear.vGear_Controller.GetRotation(UnityEngine.Transform,UnityEngine.Quaternion,Votanic.vXR.vGear.ControllerPart)
-  name: GetRotation(Transform, Quaternion, ControllerPart)
-  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_GetRotation_UnityEngine_Transform_UnityEngine_Quaternion_Votanic_vXR_vGear_ControllerPart_
-  commentId: M:Votanic.vXR.vGear.vGear_Controller.GetRotation(UnityEngine.Transform,UnityEngine.Quaternion,Votanic.vXR.vGear.ControllerPart)
-  fullName: Votanic.vXR.vGear.vGear_Controller.GetRotation(UnityEngine.Transform, UnityEngine.Quaternion, Votanic.vXR.vGear.ControllerPart)
-  nameWithType: vGear_Controller.GetRotation(Transform, Quaternion, ControllerPart)
+- uid: Votanic.vXR.vGear.vGear_Controller.GetRotation
+  name: GetRotation()
+  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_GetRotation
+  commentId: M:Votanic.vXR.vGear.vGear_Controller.GetRotation
+  fullName: Votanic.vXR.vGear.vGear_Controller.GetRotation()
+  nameWithType: vGear_Controller.GetRotation()
 - uid: Votanic.vXR.vGear.vGear_Controller.GetRotation*
   name: GetRotation
   href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_GetRotation_
@@ -19252,6 +19433,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Controller.glove
   nameWithType: vGear_Controller.glove
+- uid: Votanic.vXR.vGear.vGear_Controller.grabbedObject
+  name: grabbedObject
+  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_grabbedObject
+  commentId: P:Votanic.vXR.vGear.vGear_Controller.grabbedObject
+  fullName: Votanic.vXR.vGear.vGear_Controller.grabbedObject
+  nameWithType: vGear_Controller.grabbedObject
+- uid: Votanic.vXR.vGear.vGear_Controller.grabbedObject*
+  name: grabbedObject
+  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_grabbedObject_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Controller.grabbedObject
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Controller.grabbedObject
+  nameWithType: vGear_Controller.grabbedObject
 - uid: Votanic.vXR.vGear.vGear_Controller.itemContainer
   name: itemContainer
   href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_itemContainer
@@ -19297,6 +19491,32 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Controller.reporter
   nameWithType: vGear_Controller.reporter
+- uid: Votanic.vXR.vGear.vGear_Controller.selectedObject
+  name: selectedObject
+  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_selectedObject
+  commentId: P:Votanic.vXR.vGear.vGear_Controller.selectedObject
+  fullName: Votanic.vXR.vGear.vGear_Controller.selectedObject
+  nameWithType: vGear_Controller.selectedObject
+- uid: Votanic.vXR.vGear.vGear_Controller.selectedObject*
+  name: selectedObject
+  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_selectedObject_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Controller.selectedObject
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Controller.selectedObject
+  nameWithType: vGear_Controller.selectedObject
+- uid: Votanic.vXR.vGear.vGear_Controller.SetCheckPoint(UnityEngine.Transform,System.Boolean)
+  name: SetCheckPoint(Transform, Boolean)
+  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_SetCheckPoint_UnityEngine_Transform_System_Boolean_
+  commentId: M:Votanic.vXR.vGear.vGear_Controller.SetCheckPoint(UnityEngine.Transform,System.Boolean)
+  fullName: Votanic.vXR.vGear.vGear_Controller.SetCheckPoint(UnityEngine.Transform, System.Boolean)
+  nameWithType: vGear_Controller.SetCheckPoint(Transform, Boolean)
+- uid: Votanic.vXR.vGear.vGear_Controller.SetCheckPoint*
+  name: SetCheckPoint
+  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_SetCheckPoint_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Controller.SetCheckPoint
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Controller.SetCheckPoint
+  nameWithType: vGear_Controller.SetCheckPoint
 - uid: Votanic.vXR.vGear.vGear_Controller.teleport
   name: teleport
   href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_teleport
@@ -19323,6 +19543,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Controller.Teleport
   nameWithType: vGear_Controller.Teleport
+- uid: Votanic.vXR.vGear.vGear_Controller.triggeredObject
+  name: triggeredObject
+  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_triggeredObject
+  commentId: P:Votanic.vXR.vGear.vGear_Controller.triggeredObject
+  fullName: Votanic.vXR.vGear.vGear_Controller.triggeredObject
+  nameWithType: vGear_Controller.triggeredObject
+- uid: Votanic.vXR.vGear.vGear_Controller.triggeredObject*
+  name: triggeredObject
+  href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_triggeredObject_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Controller.triggeredObject
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Controller.triggeredObject
+  nameWithType: vGear_Controller.triggeredObject
 - uid: Votanic.vXR.vGear.vGear_Controller.wand
   name: wand
   href: api/Votanic.vXR.vGear.vGear_Controller.html#Votanic_vXR_vGear_vGear_Controller_wand
@@ -19505,6 +19738,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Inventory.categories
   fullName: Votanic.vXR.vGear.vGear_Inventory.categories
   nameWithType: vGear_Inventory.categories
+- uid: Votanic.vXR.vGear.vGear_Inventory.categoryReference
+  name: categoryReference
+  href: api/Votanic.vXR.vGear.vGear_Inventory.html#Votanic_vXR_vGear_vGear_Inventory_categoryReference
+  commentId: F:Votanic.vXR.vGear.vGear_Inventory.categoryReference
+  fullName: Votanic.vXR.vGear.vGear_Inventory.categoryReference
+  nameWithType: vGear_Inventory.categoryReference
 - uid: Votanic.vXR.vGear.vGear_Inventory.checkCurrency
   name: checkCurrency
   href: api/Votanic.vXR.vGear.vGear_Inventory.html#Votanic_vXR_vGear_vGear_Inventory_checkCurrency
@@ -19647,6 +19886,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Inventory.pageChangers
   fullName: Votanic.vXR.vGear.vGear_Inventory.pageChangers
   nameWithType: vGear_Inventory.pageChangers
+- uid: Votanic.vXR.vGear.vGear_Inventory.pageReference
+  name: pageReference
+  href: api/Votanic.vXR.vGear.vGear_Inventory.html#Votanic_vXR_vGear_vGear_Inventory_pageReference
+  commentId: F:Votanic.vXR.vGear.vGear_Inventory.pageReference
+  fullName: Votanic.vXR.vGear.vGear_Inventory.pageReference
+  nameWithType: vGear_Inventory.pageReference
 - uid: Votanic.vXR.vGear.vGear_Inventory.SetAvailables(System.Int32,System.Int32,System.Int32)
   name: SetAvailables(Int32, Int32, Int32)
   href: api/Votanic.vXR.vGear.vGear_Inventory.html#Votanic_vXR_vGear_vGear_Inventory_SetAvailables_System_Int32_System_Int32_System_Int32_
@@ -19701,6 +19946,41 @@ references:
   commentId: T:Votanic.vXR.vGear.vGear_InventoryManager
   fullName: Votanic.vXR.vGear.vGear_InventoryManager
   nameWithType: vGear_InventoryManager
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.AddItem(System.String,System.String,System.String,System.String,System.Int32,System.Boolean,Votanic.vXR.vGear.Inventory.Generatables,System.Collections.Generic.List{Votanic.vXR.vGear.Inventory.Grid},System.Collections.Generic.List{System.String})
+  name: AddItem(String, String, String, String, Int32, Boolean, Generatables, List<Grid>, List<String>)
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_AddItem_System_String_System_String_System_String_System_String_System_Int32_System_Boolean_Votanic_vXR_vGear_Inventory_Generatables_System_Collections_Generic_List_Votanic_vXR_vGear_Inventory_Grid__System_Collections_Generic_List_System_String__
+  commentId: M:Votanic.vXR.vGear.vGear_InventoryManager.AddItem(System.String,System.String,System.String,System.String,System.Int32,System.Boolean,Votanic.vXR.vGear.Inventory.Generatables,System.Collections.Generic.List{Votanic.vXR.vGear.Inventory.Grid},System.Collections.Generic.List{System.String})
+  name.vb: AddItem(String, String, String, String, Int32, Boolean, Generatables, List(Of Grid), List(Of String))
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.AddItem(System.String, System.String, System.String, System.String, System.Int32, System.Boolean, Votanic.vXR.vGear.Inventory.Generatables, System.Collections.Generic.List<Votanic.vXR.vGear.Inventory.Grid>, System.Collections.Generic.List<System.String>)
+  fullName.vb: Votanic.vXR.vGear.vGear_InventoryManager.AddItem(System.String, System.String, System.String, System.String, System.Int32, System.Boolean, Votanic.vXR.vGear.Inventory.Generatables, System.Collections.Generic.List(Of Votanic.vXR.vGear.Inventory.Grid), System.Collections.Generic.List(Of System.String))
+  nameWithType: vGear_InventoryManager.AddItem(String, String, String, String, Int32, Boolean, Generatables, List<Grid>, List<String>)
+  nameWithType.vb: vGear_InventoryManager.AddItem(String, String, String, String, Int32, Boolean, Generatables, List(Of Grid), List(Of String))
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.AddItem(Votanic.vXR.vGear.Inventory.Item)
+  name: AddItem(Item)
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_AddItem_Votanic_vXR_vGear_Inventory_Item_
+  commentId: M:Votanic.vXR.vGear.vGear_InventoryManager.AddItem(Votanic.vXR.vGear.Inventory.Item)
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.AddItem(Votanic.vXR.vGear.Inventory.Item)
+  nameWithType: vGear_InventoryManager.AddItem(Item)
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.AddItem*
+  name: AddItem
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_AddItem_
+  commentId: Overload:Votanic.vXR.vGear.vGear_InventoryManager.AddItem
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.AddItem
+  nameWithType: vGear_InventoryManager.AddItem
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.AddItems
+  name: AddItems()
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_AddItems
+  commentId: M:Votanic.vXR.vGear.vGear_InventoryManager.AddItems
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.AddItems()
+  nameWithType: vGear_InventoryManager.AddItems()
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.AddItems*
+  name: AddItems
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_AddItems_
+  commentId: Overload:Votanic.vXR.vGear.vGear_InventoryManager.AddItems
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.AddItems
+  nameWithType: vGear_InventoryManager.AddItems
 - uid: Votanic.vXR.vGear.vGear_InventoryManager.AddQuantity(System.Boolean)
   name: AddQuantity(Boolean)
   href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_AddQuantity_System_Boolean_
@@ -19727,6 +20007,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_InventoryManager.Apply
   nameWithType: vGear_InventoryManager.Apply
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.autoLoad
+  name: autoLoad
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_autoLoad
+  commentId: F:Votanic.vXR.vGear.vGear_InventoryManager.autoLoad
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.autoLoad
+  nameWithType: vGear_InventoryManager.autoLoad
 - uid: Votanic.vXR.vGear.vGear_InventoryManager.auxiliary
   name: auxiliary
   href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_auxiliary
@@ -19752,6 +20038,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_InventoryManager.currencies
   fullName: Votanic.vXR.vGear.vGear_InventoryManager.currencies
   nameWithType: vGear_InventoryManager.currencies
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.dataPath
+  name: dataPath
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_dataPath
+  commentId: F:Votanic.vXR.vGear.vGear_InventoryManager.dataPath
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.dataPath
+  nameWithType: vGear_InventoryManager.dataPath
 - uid: Votanic.vXR.vGear.vGear_InventoryManager.ErrorLog(Votanic.vXR.vGear.Inventory.ErrorType)
   name: ErrorLog(ErrorType)
   href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_ErrorLog_Votanic_vXR_vGear_Inventory_ErrorType_
@@ -19803,6 +20095,19 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_InventoryManager.items
   fullName: Votanic.vXR.vGear.vGear_InventoryManager.items
   nameWithType: vGear_InventoryManager.items
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.Load
+  name: Load()
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_Load
+  commentId: M:Votanic.vXR.vGear.vGear_InventoryManager.Load
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.Load()
+  nameWithType: vGear_InventoryManager.Load()
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.Load*
+  name: Load
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_Load_
+  commentId: Overload:Votanic.vXR.vGear.vGear_InventoryManager.Load
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.Load
+  nameWithType: vGear_InventoryManager.Load
 - uid: Votanic.vXR.vGear.vGear_InventoryManager.main
   name: main
   href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_main
@@ -19847,6 +20152,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_InventoryManager.ReduceQuantity
   nameWithType: vGear_InventoryManager.ReduceQuantity
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.Save
+  name: Save()
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_Save
+  commentId: M:Votanic.vXR.vGear.vGear_InventoryManager.Save
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.Save()
+  nameWithType: vGear_InventoryManager.Save()
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.Save*
+  name: Save
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_Save_
+  commentId: Overload:Votanic.vXR.vGear.vGear_InventoryManager.Save
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.Save
+  nameWithType: vGear_InventoryManager.Save
 - uid: Votanic.vXR.vGear.vGear_InventoryManager.ShowCommands(Votanic.vXR.vGear.vGear_ItemContainer)
   name: ShowCommands(vGear_ItemContainer)
   href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_ShowCommands_Votanic_vXR_vGear_vGear_ItemContainer_
@@ -21071,6 +21389,19 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Slider.defaultValue
   fullName: Votanic.vXR.vGear.vGear_Slider.defaultValue
   nameWithType: vGear_Slider.defaultValue
+- uid: Votanic.vXR.vGear.vGear_Slider.GetValue
+  name: GetValue()
+  href: api/Votanic.vXR.vGear.vGear_Slider.html#Votanic_vXR_vGear_vGear_Slider_GetValue
+  commentId: M:Votanic.vXR.vGear.vGear_Slider.GetValue
+  fullName: Votanic.vXR.vGear.vGear_Slider.GetValue()
+  nameWithType: vGear_Slider.GetValue()
+- uid: Votanic.vXR.vGear.vGear_Slider.GetValue*
+  name: GetValue
+  href: api/Votanic.vXR.vGear.vGear_Slider.html#Votanic_vXR_vGear_vGear_Slider_GetValue_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Slider.GetValue
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Slider.GetValue
+  nameWithType: vGear_Slider.GetValue
 - uid: Votanic.vXR.vGear.vGear_Slider.inertia
   name: inertia
   href: api/Votanic.vXR.vGear.vGear_Slider.html#Votanic_vXR_vGear_vGear_Slider_inertia

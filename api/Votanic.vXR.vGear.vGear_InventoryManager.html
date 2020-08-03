@@ -97,6 +97,31 @@ public class vGear_InventoryManager : MonoBehaviour</code></pre>
   </h3>
   
   
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_autoLoad" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.autoLoad">autoLoad</h4>
+  <div class="markdown level1 summary"><p>Auto load the items data on start. <br> 在開始時自動讀取所有物品數據。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool autoLoad</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_auxiliary" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.auxiliary">auxiliary</h4>
   <div class="markdown level1 summary"><p>The auxiliary of inventory system. <br> 庫存系統的輔助物。</p>
 </div>
@@ -129,8 +154,7 @@ public vGear_Auxiliary auxiliary</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
-[Tooltip(&quot;The currencies of inventory system.\n&#24235;&#23384;&#31995;&#32113;&#30340;&#25152;&#26377;&#36008;&#24163;&#12290;&quot;)]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The currencies of inventory system.\n&#24235;&#23384;&#31995;&#32113;&#30340;&#25152;&#26377;&#36008;&#24163;&#12290;&quot;)]
 public List&lt;Currency&gt; currencies</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -144,6 +168,33 @@ public List&lt;Currency&gt; currencies</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.Inventory.Currency.html">Currency</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_dataPath" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.dataPath">dataPath</h4>
+  <div class="markdown level1 summary"><p>Json path for saving and loading items. <br> 用作儲存及讀取物品的 Json 路徑。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+[Tooltip(&quot;Json path for saving and loading items.\n&#29992;&#20316;&#20786;&#23384;&#21450;&#35712;&#21462;&#29289;&#21697;&#30340; Json &#36335;&#24465;&#12290;&quot;)]
+public string dataPath</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -281,6 +332,128 @@ public vGear_Panel quantityPanel</code></pre>
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_AddItem_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.AddItem*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_AddItem_System_String_System_String_System_String_System_String_System_Int32_System_Boolean_Votanic_vXR_vGear_Inventory_Generatables_System_Collections_Generic_List_Votanic_vXR_vGear_Inventory_Grid__System_Collections_Generic_List_System_String__" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.AddItem(System.String,System.String,System.String,System.String,System.Int32,System.Boolean,Votanic.vXR.vGear.Inventory.Generatables,System.Collections.Generic.List{Votanic.vXR.vGear.Inventory.Grid},System.Collections.Generic.List{System.String})">AddItem(String, String, String, String, Int32, Boolean, Generatables, List&lt;Grid&gt;, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add an item to item list.
+<br> 新增一個物品至物品列表。</p>
+<p> AddItem(&quot;Item_01&quot;, &quot;ItemName&quot;, &quot;&quot;, &quot;&quot;, 1, false, generatables, gridSytles, categories) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddItem(string identifier, string name, string remark, string description, int quality, bool currencyContainer, Generatables generatables, List&lt;Grid&gt; gridStyles, List&lt;string&gt; categories)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>Identifier of item. <br> 物品識別碼</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of item <br> 物品名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">remark</span></td>
+        <td><p>Remark of item <br> 物品備註</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>Description of item <br> 物品描述</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">quality</span></td>
+        <td><p>Quality index <br> 品質編號</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">currencyContainer</span></td>
+        <td><p>This item will become a currency container <br> 這個物品將會成日貨幣容器</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.Generatables.html">Generatables</a></td>
+        <td><span class="parametername">generatables</span></td>
+        <td><p>Generatables setting of item <br> 物品的可生成物設定</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.Inventory.Grid.html">Grid</a>&gt;</td>
+        <td><span class="parametername">gridStyles</span></td>
+        <td><p>Only the list of specific categories can store <br> 指定只能存放的庫存範疇</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">categories</span></td>
+        <td><p>Grid styles for this item <br> 這個物品的方格格式</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_AddItem_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.AddItem*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_AddItem_Votanic_vXR_vGear_Inventory_Item_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.AddItem(Votanic.vXR.vGear.Inventory.Item)">AddItem(Item)</h4>
+  <div class="markdown level1 summary"><p>Add an item to item list.
+<br> 新增一個物品至物品列表。</p>
+<p> AddItem(item) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddItem(Item item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.Item.html">Item</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>Item <br> 物品</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_AddItems_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.AddItems*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_AddItems" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.AddItems">AddItems()</h4>
+  <div class="markdown level1 summary"><p>Virtual method for adding items on start by scripting.
+<br> 虛構法用於以腳本在開始時加入物品。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void AddItems()</code></pre>
+  </div>
   
   
   <a id="Votanic_vXR_vGear_vGear_InventoryManager_AddQuantity_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.AddQuantity*"></a>
@@ -437,11 +610,23 @@ public vGear_Panel quantityPanel</code></pre>
   </div>
   
   
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_Load_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Load*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_Load" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Load">Load()</h4>
+  <div class="markdown level1 summary"><p>Load items data from json file.
+<br> 讀取 Json 檔案的物品數據。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load()</code></pre>
+  </div>
+  
+  
   <a id="Votanic_vXR_vGear_vGear_InventoryManager_OpenQuantityPanel_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.OpenQuantityPanel*"></a>
   <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_OpenQuantityPanel_Votanic_vXR_vGear_vGear_ItemContainer_Votanic_vXR_vGear_Inventory_AccessType_Votanic_Parameter_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.OpenQuantityPanel(Votanic.vXR.vGear.vGear_ItemContainer,Votanic.vXR.vGear.Inventory.AccessType,Votanic.Parameter)">OpenQuantityPanel(vGear_ItemContainer, AccessType, Parameter)</h4>
   <div class="markdown level1 summary"><p>Open quantity panel.
 <br> 打開數量面板。</p>
-<p> OpenQuantityPanel(itemContainer, AccessType.Store, new InteractionParameter { interactor = 0, type = InteractorType.Wand }) </p>
+<p> OpenQuantityPanel(itemContainer, AccessType.Store, new InteractionParameter(&quot;command&quot;, 1, -1, 0, InteractorType.Wand)) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -509,6 +694,18 @@ public vGear_Panel quantityPanel</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_Save_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Save*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_Save" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Save">Save()</h4>
+  <div class="markdown level1 summary"><p>Save items data to json file.
+<br> 儲存物品數據至 Json 檔案。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save()</code></pre>
+  </div>
   
   
   <a id="Votanic_vXR_vGear_vGear_InventoryManager_ShowCommands_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.ShowCommands*"></a>

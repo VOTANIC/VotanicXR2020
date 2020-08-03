@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class InventoryCategory
+    <title>Class AuxiliaryGizmo
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class InventoryCategory
+    <meta name="title" content="Class AuxiliaryGizmo
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,52 +68,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.Inventory.InventoryCategory">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.AuxiliaryGizmo">
   
   
-  <h1 id="Votanic_vXR_vGear_Inventory_InventoryCategory" data-uid="Votanic.vXR.vGear.Inventory.InventoryCategory" class="text-break">Class InventoryCategory
+  <h1 id="Votanic_vXR_vGear_AuxiliaryGizmo" data-uid="Votanic.vXR.vGear.AuxiliaryGizmo" class="text-break">Class AuxiliaryGizmo
   </h1>
-  <div class="markdown level0 summary"><p>Each category of inventory.
-<br> 庫存的每個範疇。</p>
+  <div class="markdown level0 summary"><p>Gimzo panel setting.
+<br> 控件面板設定。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Votanic.Element.html">Element</a></div>
-    <div class="level2"><span class="xref">InventoryCategory</span></div>
+    <div class="level1"><span class="xref">AuxiliaryGizmo</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Votanic.Element.html#Votanic_Element_name">Element.name</a>
-    </div>
-    <div>
-      <a class="xref" href="Votanic.Element.html#Votanic_Element_Equals_System_String_System_Boolean_">Element.Equals(String, Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="Votanic.Element.html#Votanic_Element_Contains_System_String_System_Boolean_System_Boolean_">Element.Contains(String, Boolean, Boolean)</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.Inventory.html">Votanic.vXR.vGear.Inventory</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.html">Votanic.vXR.vGear</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_vGear_Inventory_InventoryCategory_syntax">Syntax</h5>
+  <h5 id="Votanic_vXR_vGear_AuxiliaryGizmo_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class InventoryCategory : Element</code></pre>
+public class AuxiliaryGizmo</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Votanic_vXR_vGear_Inventory_InventoryCategory_accessType" data-uid="Votanic.vXR.vGear.Inventory.InventoryCategory.accessType">accessType</h4>
-  <div class="markdown level1 summary"><p>Access type of inventory category. <br> 庫存範疇存取類型。</p>
+  <h4 id="Votanic_vXR_vGear_AuxiliaryGizmo_autoCloseTimer" data-uid="Votanic.vXR.vGear.AuxiliaryGizmo.autoCloseTimer">autoCloseTimer</h4>
+  <div class="markdown level1 summary"><p>Timer for auto close panel. <br> 自動關閉面板計時。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Access type of inventory category.\n&#24235;&#23384;&#31684;&#30087;&#23384;&#21462;&#39006;&#22411;&#12290;&quot;)]
-public AccessType accessType</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Timer for auto close panel.\n&#33258;&#21205;&#38364;&#38281;&#38754;&#26495;&#35336;&#26178;&#12290;&quot;)]
+public float autoCloseTimer</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -125,20 +112,21 @@ public AccessType accessType</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.AccessType.html">AccessType</a></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_Inventory_InventoryCategory_normal" data-uid="Votanic.vXR.vGear.Inventory.InventoryCategory.normal">normal</h4>
-  <div class="markdown level1 summary"><p>Display normal texture if not selected. <br> 當沒有點選時顯示的正常紋理。</p>
+  <h4 id="Votanic_vXR_vGear_AuxiliaryGizmo_gizmoPanel" data-uid="Votanic.vXR.vGear.AuxiliaryGizmo.gizmoPanel">gizmoPanel</h4>
+  <div class="markdown level1 summary"><p>Transformation Gizmo panel component. <br> 變換控件面板組件。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MaskableGraphic normal</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Transformation Gizmo panel component.\n&#35722;&#25563;&#25511;&#20214;&#38754;&#26495;&#32068;&#20214;&#12290;&quot;)]
+public vGear_Panel gizmoPanel</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -150,21 +138,21 @@ public AccessType accessType</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.UI.MaskableGraphic</span></td>
+        <td><a class="xref" href="Votanic.vXR.vGear.vGear_Panel.html">vGear_Panel</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_Inventory_InventoryCategory_pages" data-uid="Votanic.vXR.vGear.Inventory.InventoryCategory.pages">pages</h4>
-  <div class="markdown level1 summary"><p>Pages of this category. <br> 這個範疇的頁數。</p>
+  <h4 id="Votanic_vXR_vGear_AuxiliaryGizmo_lines" data-uid="Votanic.vXR.vGear.AuxiliaryGizmo.lines">lines</h4>
+  <div class="markdown level1 summary"><p>Transformation direction lines. <br> 變換方向線。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Pages of this category.\n&#36889;&#20491;&#31684;&#30087;&#30340;&#38913;&#25976;&#12290;&quot;)]
-public List&lt;InventoryPage&gt; pages</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Transformation direction lines.\n&#35722;&#25563;&#26041;&#21521;&#32218;&#12290;&quot;)]
+public List&lt;Transform&gt; lines</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -176,20 +164,21 @@ public List&lt;InventoryPage&gt; pages</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.Inventory.InventoryPage.html">InventoryPage</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.Transform</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_Inventory_InventoryCategory_selected" data-uid="Votanic.vXR.vGear.Inventory.InventoryCategory.selected">selected</h4>
-  <div class="markdown level1 summary"><p>Display selected texture if selected. <br> 當點選時顯示的點選紋理。</p>
+  <h4 id="Votanic_vXR_vGear_AuxiliaryGizmo_positions" data-uid="Votanic.vXR.vGear.AuxiliaryGizmo.positions">positions</h4>
+  <div class="markdown level1 summary"><p>Sliders for position transformation. <br> 位置變換滑動按鈕。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MaskableGraphic selected</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Sliders for position transformation.\n&#20301;&#32622;&#35722;&#25563;&#28369;&#21205;&#25353;&#37397;&#12290;&quot;)]
+public List&lt;vGear_Slider&gt; positions</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,21 +190,73 @@ public List&lt;InventoryPage&gt; pages</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.UI.MaskableGraphic</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.vGear_Slider.html">vGear_Slider</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_Inventory_InventoryCategory_transform" data-uid="Votanic.vXR.vGear.Inventory.InventoryCategory.transform">transform</h4>
-  <div class="markdown level1 summary"><p>Category transform for auto get pages panel. <br> 範疇 Transform，用於自動取得頁面面板。</p>
+  <h4 id="Votanic_vXR_vGear_AuxiliaryGizmo_rotations" data-uid="Votanic.vXR.vGear.AuxiliaryGizmo.rotations">rotations</h4>
+  <div class="markdown level1 summary"><p>Sliders for rotation transformation. <br> 角度變換滑動按鈕。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Category transform for auto get pages panel.\n&#31684;&#30087; Transform&#65292;&#29992;&#26044;&#33258;&#21205;&#21462;&#24471;&#38913;&#38754;&#38754;&#26495;&#12290;&quot;)]
-public Transform transform</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Sliders for rotation transformation.\n&#22823;&#23567;&#35722;&#25563;&#28369;&#21205;&#25353;&#37397;&#12290;&quot;)]
+public List&lt;vGear_Slider&gt; rotations</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.vGear_Slider.html">vGear_Slider</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_AuxiliaryGizmo_scales" data-uid="Votanic.vXR.vGear.AuxiliaryGizmo.scales">scales</h4>
+  <div class="markdown level1 summary"><p>Sliders for scale transformation. <br> 大小變換滑動按鈕。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Sliders for scale transformation.\n&#22823;&#23567;&#35722;&#25563;&#28369;&#21205;&#25353;&#37397;&#12290;&quot;)]
+public List&lt;vGear_Slider&gt; scales</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.vGear_Slider.html">vGear_Slider</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_AuxiliaryGizmo_switches" data-uid="Votanic.vXR.vGear.AuxiliaryGizmo.switches">switches</h4>
+  <div class="markdown level1 summary"><p>Switch buttons group transform. <br> 轉換按鈕群組 Transform。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Switch buttons group transform.\n&#36681;&#25563;&#25353;&#37397;&#32676;&#32068; Transform&#12290;&quot;)]
+public Transform switches</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

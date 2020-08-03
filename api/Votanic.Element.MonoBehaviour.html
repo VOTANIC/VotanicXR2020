@@ -91,7 +91,7 @@
   
   
   <a id="Votanic_Element_MonoBehaviour_Contains_" data-uid="Votanic.Element.MonoBehaviour.Contains*"></a>
-  <h4 id="Votanic_Element_MonoBehaviour_Contains_System_String_System_Boolean_" data-uid="Votanic.Element.MonoBehaviour.Contains(System.String,System.Boolean)">Contains(String, Boolean)</h4>
+  <h4 id="Votanic_Element_MonoBehaviour_Contains_System_String_System_Boolean_System_Boolean_" data-uid="Votanic.Element.MonoBehaviour.Contains(System.String,System.Boolean,System.Boolean)">Contains(String, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Return true if the NAME parameter or monobehaviour name containes others.
 <br> 當 NAME 參數或 MonoBehaviour 名稱包含對方時傳回 true。</p>
 <p> GameObject g = vGameObjects.Find(Element.MonoBehaviour.Contains(&quot;NAME&quot;)); </p>
@@ -99,7 +99,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Predicate&lt;MonoBehaviour&gt; Contains(string name, bool caseSensitive = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Predicate&lt;MonoBehaviour&gt; Contains(string name, bool singleSide = true, bool caseSensitive = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -115,6 +115,12 @@
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
         <td><p>Checking name <br> 檢查名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">singleSide</span></td>
+        <td><p>Only check element name contains NAME parameter <br> 只檢查元素名義包含 NAME 參數</p>
 </td>
       </tr>
       <tr>
