@@ -1912,6 +1912,32 @@ references:
   commentId: F:Votanic.vIO.OpenVR.OpenVRHandler.lockPhysicsUpdateRateToRenderFrequency
   fullName: Votanic.vIO.OpenVR.OpenVRHandler.lockPhysicsUpdateRateToRenderFrequency
   nameWithType: OpenVRHandler.lockPhysicsUpdateRateToRenderFrequency
+- uid: Votanic.vIO.OpenVR.OpenVRHandler.needRefresh
+  name: needRefresh
+  href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler_needRefresh
+  commentId: P:Votanic.vIO.OpenVR.OpenVRHandler.needRefresh
+  fullName: Votanic.vIO.OpenVR.OpenVRHandler.needRefresh
+  nameWithType: OpenVRHandler.needRefresh
+- uid: Votanic.vIO.OpenVR.OpenVRHandler.needRefresh*
+  name: needRefresh
+  href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler_needRefresh_
+  commentId: Overload:Votanic.vIO.OpenVR.OpenVRHandler.needRefresh
+  isSpec: "True"
+  fullName: Votanic.vIO.OpenVR.OpenVRHandler.needRefresh
+  nameWithType: OpenVRHandler.needRefresh
+- uid: Votanic.vIO.OpenVR.OpenVRHandler.refreshRate
+  name: refreshRate
+  href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler_refreshRate
+  commentId: P:Votanic.vIO.OpenVR.OpenVRHandler.refreshRate
+  fullName: Votanic.vIO.OpenVR.OpenVRHandler.refreshRate
+  nameWithType: OpenVRHandler.refreshRate
+- uid: Votanic.vIO.OpenVR.OpenVRHandler.refreshRate*
+  name: refreshRate
+  href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler_refreshRate_
+  commentId: Overload:Votanic.vIO.OpenVR.OpenVRHandler.refreshRate
+  isSpec: "True"
+  fullName: Votanic.vIO.OpenVR.OpenVRHandler.refreshRate
+  nameWithType: OpenVRHandler.refreshRate
 - uid: Votanic.vIO.OpenVR.OpenVRHandler.ScanDevice
   name: ScanDevice()
   href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler_ScanDevice
@@ -14915,6 +14941,19 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast_User.control
   fullName: Votanic.vXR.vCast.vCast_User.control
   nameWithType: vCast_User.control
+- uid: Votanic.vXR.vCast.vCast_User.EnableAssistSynchronizer(System.Boolean)
+  name: EnableAssistSynchronizer(Boolean)
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_EnableAssistSynchronizer_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast_User.EnableAssistSynchronizer(System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast_User.EnableAssistSynchronizer(System.Boolean)
+  nameWithType: vCast_User.EnableAssistSynchronizer(Boolean)
+- uid: Votanic.vXR.vCast.vCast_User.EnableAssistSynchronizer*
+  name: EnableAssistSynchronizer
+  href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_EnableAssistSynchronizer_
+  commentId: Overload:Votanic.vXR.vCast.vCast_User.EnableAssistSynchronizer
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_User.EnableAssistSynchronizer
+  nameWithType: vCast_User.EnableAssistSynchronizer
 - uid: Votanic.vXR.vCast.vCast_User.enableRaising
   name: enableRaising
   href: api/Votanic.vXR.vCast.vCast_User.html#Votanic_vXR_vCast_vCast_User_enableRaising
