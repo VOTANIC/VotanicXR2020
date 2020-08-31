@@ -184,7 +184,7 @@ public List&lt;Batch&gt; batches</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;[System]&quot;)]
-[Tooltip(&quot;Launch all behaviours on start.\n&#38283;&#22987;&#26178;&#21855;&#21205;&#25152;&#26377;&#34892;&#28858;&#12290;&quot;)]
+[Tooltip(&quot;The path for reading the system config file.\n&#35712;&#21462;&#31995;&#32113;&#37197;&#32622;&#25991;&#20214;&#30340;&#36335;&#24465;&#12290;&quot;)]
 public string configPath</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -262,7 +262,7 @@ public List&lt;GameObject&gt; destroyOnStart</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Launch all behaviours on start.\n&#38283;&#22987;&#26178;&#21855;&#21205;&#25152;&#26377;&#34892;&#28858;&#12290;&quot;)]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Directory of project internal system files.\n&#38917;&#30446;&#20839;&#32622;&#31995;&#32113;&#25991;&#20214;&#30340;&#36335;&#24465;&#12290;&quot;)]
 public const string directory = &quot;Assets/Votanic/VotanicXR&quot;</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -393,7 +393,7 @@ public bool launcherCommand</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Launch all behaviours on start.\n&#38283;&#22987;&#26178;&#21855;&#21205;&#25152;&#26377;&#34892;&#28858;&#12290;&quot;)]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The path for reading the reference system config file.\n&#35712;&#21462;&#29992;&#20316;&#21443;&#32771;&#29992;&#36884;&#30340;&#31995;&#32113;&#37197;&#32622;&#25991;&#20214;&#30340;&#36335;&#24465;&#12290;&quot;)]
 public string referenceConfig</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -471,7 +471,7 @@ public bool scenesInBuild</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Launch all behaviours on start.\n&#38283;&#22987;&#26178;&#21855;&#21205;&#25152;&#26377;&#34892;&#28858;&#12290;&quot;)]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The path for reading the project setting file.\n&#35712;&#21462;&#38917;&#30446;&#35373;&#32622;&#25991;&#20214;&#30340;&#36335;&#24465;&#12290;&quot;)]
 public string settingPath</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -497,7 +497,7 @@ public string settingPath</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Launch all behaviours on start.\n&#38283;&#22987;&#26178;&#21855;&#21205;&#25152;&#26377;&#34892;&#28858;&#12290;&quot;)]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Show reference screen on editor.\n&#22312;&#32232;&#36655;&#22120;&#39023;&#31034;&#21443;&#32771;&#23631;&#24149;&#12290;&quot;)]
 public ShowReference showReference</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -1886,7 +1886,7 @@ public XRSupport XRSupport</code></pre>
   
   
   <a id="Votanic_vXR_vCast_vCast_GetTransforms_" data-uid="Votanic.vXR.vCast.vCast.GetTransforms*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_GetTransforms_UnityEngine_Transform_" data-uid="Votanic.vXR.vCast.vCast.GetTransforms(UnityEngine.Transform)">GetTransforms(Transform)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_GetTransforms_UnityEngine_Transform_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.GetTransforms(UnityEngine.Transform,System.Boolean)">GetTransforms(Transform, Boolean)</h4>
   <div class="markdown level1 summary"><p>Get all transforms under a parent transform.
 <br> 取得母物件 Transform 內所有 Transform.</p>
 <p> GetTransforms(transform) </p>
@@ -1894,7 +1894,7 @@ public XRSupport XRSupport</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;Transform&gt; GetTransforms(Transform parent)</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;Transform&gt; GetTransforms(Transform parent, bool includeSelf = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1909,7 +1909,14 @@ public XRSupport XRSupport</code></pre>
       <tr>
         <td><span class="xref">UnityEngine.Transform</span></td>
         <td><span class="parametername">parent</span></td>
-        <td></td>
+        <td><p>Parent transform <br> 母物件 Transform</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeSelf</span></td>
+        <td><p>Include self transform <br> 包含自身 Transform</p>
+</td>
       </tr>
     </tbody>
   </table>

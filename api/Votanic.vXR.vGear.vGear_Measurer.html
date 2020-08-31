@@ -126,6 +126,33 @@ public bool continuity</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_decimals" data-uid="Votanic.vXR.vGear.vGear_Measurer.decimals">decimals</h4>
+  <div class="markdown level1 summary"><p>Display decimals of measurer. <br> 測量工具的顯示小數位。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(0F, 4F)]
+[Tooltip(&quot;Display decimals of measurer.\n&#28204;&#37327;&#24037;&#20855;&#30340;&#39023;&#31034;&#23567;&#25976;&#20301;&#12290;&quot;)]
+public int decimals</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vXR_vGear_vGear_Measurer_isMeasuring" data-uid="Votanic.vXR.vGear.vGear_Measurer.isMeasuring">isMeasuring</h4>
   <div class="markdown level1 summary"><p>Return true if measuring. <br> 當測量時傳回 true。</p>
 </div>
@@ -200,6 +227,32 @@ public GameObject pointPrefab</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_unit" data-uid="Votanic.vXR.vGear.vGear_Measurer.unit">unit</h4>
+  <div class="markdown level1 summary"><p>Display unit of measurer. <br> 測量工具的顯示單位。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Display unit of measurer.\n&#28204;&#37327;&#24037;&#20855;&#30340;&#39023;&#31034;&#21934;&#20301;&#12290;&quot;)]
+public MeasureUnit unit</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.MeasureUnit.html">MeasureUnit</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -316,6 +369,68 @@ public GameObject pointPrefab</code></pre>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">continuity</span></td>
         <td><p>Continue to mark measure point or not <br> 是否連續標記測量點</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Measurer_SetDecimals_" data-uid="Votanic.vXR.vGear.vGear_Measurer.SetDecimals*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_SetDecimals_System_Int32_" data-uid="Votanic.vXR.vGear.vGear_Measurer.SetDecimals(System.Int32)">SetDecimals(Int32)</h4>
+  <div class="markdown level1 summary"><p>Set the display decimals.
+<br> 設定顯示小數位。</p>
+<p> SetDecimals(2) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDecimals(int decimals)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">decimals</span></td>
+        <td><p>Display decimals <br> 顯示小數位</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_Measurer_SetUnit_" data-uid="Votanic.vXR.vGear.vGear_Measurer.SetUnit*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_SetUnit_Votanic_vXR_vGear_MeasureUnit_" data-uid="Votanic.vXR.vGear.vGear_Measurer.SetUnit(Votanic.vXR.vGear.MeasureUnit)">SetUnit(MeasureUnit)</h4>
+  <div class="markdown level1 summary"><p>Set the display unit.
+<br> 設定顯示單位。</p>
+<p> SetUnit(MeasureUnit.Meter) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetUnit(MeasureUnit unit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.MeasureUnit.html">MeasureUnit</a></td>
+        <td><span class="parametername">unit</span></td>
+        <td><p>Display unit <br> 顯示單位</p>
 </td>
       </tr>
     </tbody>

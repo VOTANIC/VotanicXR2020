@@ -3417,12 +3417,12 @@ references:
   commentId: T:Votanic.vIO.VRPN.VRPNAxes
   fullName: Votanic.vIO.VRPN.VRPNAxes
   nameWithType: VRPNAxes
-- uid: Votanic.vIO.VRPN.VRPNAxes.#ctor(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Single,System.Single,System.Single)
-  name: VRPNAxes(Int32, String, String, Int32, Int32, Single, Single, Single)
-  href: api/Votanic.vIO.VRPN.VRPNAxes.html#Votanic_vIO_VRPN_VRPNAxes__ctor_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Single_System_Single_System_Single_
-  commentId: M:Votanic.vIO.VRPN.VRPNAxes.#ctor(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Single,System.Single,System.Single)
-  fullName: Votanic.vIO.VRPN.VRPNAxes.VRPNAxes(System.Int32, System.String, System.String, System.Int32, System.Int32, System.Single, System.Single, System.Single)
-  nameWithType: VRPNAxes.VRPNAxes(Int32, String, String, Int32, Int32, Single, Single, Single)
+- uid: Votanic.vIO.VRPN.VRPNAxes.#ctor(System.String,System.String,System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  name: VRPNAxes(String, String, Int32, Int32, Single, Single, Single)
+  href: api/Votanic.vIO.VRPN.VRPNAxes.html#Votanic_vIO_VRPN_VRPNAxes__ctor_System_String_System_String_System_Int32_System_Int32_System_Single_System_Single_System_Single_
+  commentId: M:Votanic.vIO.VRPN.VRPNAxes.#ctor(System.String,System.String,System.Int32,System.Int32,System.Single,System.Single,System.Single)
+  fullName: Votanic.vIO.VRPN.VRPNAxes.VRPNAxes(System.String, System.String, System.Int32, System.Int32, System.Single, System.Single, System.Single)
+  nameWithType: VRPNAxes.VRPNAxes(String, String, Int32, Int32, Single, Single, Single)
 - uid: Votanic.vIO.VRPN.VRPNAxes.#ctor*
   name: VRPNAxes
   href: api/Votanic.vIO.VRPN.VRPNAxes.html#Votanic_vIO_VRPN_VRPNAxes__ctor_
@@ -3449,12 +3449,12 @@ references:
   commentId: T:Votanic.vIO.VRPN.VRPNButtons
   fullName: Votanic.vIO.VRPN.VRPNButtons
   nameWithType: VRPNButtons
-- uid: Votanic.vIO.VRPN.VRPNButtons.#ctor(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Single)
-  name: VRPNButtons(Int32, String, String, Int32, Int32, Single)
-  href: api/Votanic.vIO.VRPN.VRPNButtons.html#Votanic_vIO_VRPN_VRPNButtons__ctor_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Single_
-  commentId: M:Votanic.vIO.VRPN.VRPNButtons.#ctor(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Single)
-  fullName: Votanic.vIO.VRPN.VRPNButtons.VRPNButtons(System.Int32, System.String, System.String, System.Int32, System.Int32, System.Single)
-  nameWithType: VRPNButtons.VRPNButtons(Int32, String, String, Int32, Int32, Single)
+- uid: Votanic.vIO.VRPN.VRPNButtons.#ctor(System.String,System.String,System.Int32,System.Int32,System.Single)
+  name: VRPNButtons(String, String, Int32, Int32, Single)
+  href: api/Votanic.vIO.VRPN.VRPNButtons.html#Votanic_vIO_VRPN_VRPNButtons__ctor_System_String_System_String_System_Int32_System_Int32_System_Single_
+  commentId: M:Votanic.vIO.VRPN.VRPNButtons.#ctor(System.String,System.String,System.Int32,System.Int32,System.Single)
+  fullName: Votanic.vIO.VRPN.VRPNButtons.VRPNButtons(System.String, System.String, System.Int32, System.Int32, System.Single)
+  nameWithType: VRPNButtons.VRPNButtons(String, String, Int32, Int32, Single)
 - uid: Votanic.vIO.VRPN.VRPNButtons.#ctor*
   name: VRPNButtons
   href: api/Votanic.vIO.VRPN.VRPNButtons.html#Votanic_vIO_VRPN_VRPNButtons__ctor_
@@ -3772,12 +3772,12 @@ references:
   commentId: T:Votanic.vIO.VRPN.VRPNTracker
   fullName: Votanic.vIO.VRPN.VRPNTracker
   nameWithType: VRPNTracker
-- uid: Votanic.vIO.VRPN.VRPNTracker.#ctor(System.Int32,System.String,System.String,System.Int32,Votanic.vIO.TrackerDirection,Votanic.vIO.TrackerDirection,Votanic.vIO.TrackerDirection)
-  name: VRPNTracker(Int32, String, String, Int32, TrackerDirection, TrackerDirection, TrackerDirection)
-  href: api/Votanic.vIO.VRPN.VRPNTracker.html#Votanic_vIO_VRPN_VRPNTracker__ctor_System_Int32_System_String_System_String_System_Int32_Votanic_vIO_TrackerDirection_Votanic_vIO_TrackerDirection_Votanic_vIO_TrackerDirection_
-  commentId: M:Votanic.vIO.VRPN.VRPNTracker.#ctor(System.Int32,System.String,System.String,System.Int32,Votanic.vIO.TrackerDirection,Votanic.vIO.TrackerDirection,Votanic.vIO.TrackerDirection)
-  fullName: Votanic.vIO.VRPN.VRPNTracker.VRPNTracker(System.Int32, System.String, System.String, System.Int32, Votanic.vIO.TrackerDirection, Votanic.vIO.TrackerDirection, Votanic.vIO.TrackerDirection)
-  nameWithType: VRPNTracker.VRPNTracker(Int32, String, String, Int32, TrackerDirection, TrackerDirection, TrackerDirection)
+- uid: Votanic.vIO.VRPN.VRPNTracker.#ctor(System.String,System.String,System.Int32,Votanic.vIO.TrackerDirection,Votanic.vIO.TrackerDirection,Votanic.vIO.TrackerDirection)
+  name: VRPNTracker(String, String, Int32, TrackerDirection, TrackerDirection, TrackerDirection)
+  href: api/Votanic.vIO.VRPN.VRPNTracker.html#Votanic_vIO_VRPN_VRPNTracker__ctor_System_String_System_String_System_Int32_Votanic_vIO_TrackerDirection_Votanic_vIO_TrackerDirection_Votanic_vIO_TrackerDirection_
+  commentId: M:Votanic.vIO.VRPN.VRPNTracker.#ctor(System.String,System.String,System.Int32,Votanic.vIO.TrackerDirection,Votanic.vIO.TrackerDirection,Votanic.vIO.TrackerDirection)
+  fullName: Votanic.vIO.VRPN.VRPNTracker.VRPNTracker(System.String, System.String, System.Int32, Votanic.vIO.TrackerDirection, Votanic.vIO.TrackerDirection, Votanic.vIO.TrackerDirection)
+  nameWithType: VRPNTracker.VRPNTracker(String, String, Int32, TrackerDirection, TrackerDirection, TrackerDirection)
 - uid: Votanic.vIO.VRPN.VRPNTracker.#ctor*
   name: VRPNTracker
   href: api/Votanic.vIO.VRPN.VRPNTracker.html#Votanic_vIO_VRPN_VRPNTracker__ctor_
@@ -10680,6 +10680,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.Core.Screen.MountScreen
   nameWithType: Screen.MountScreen
+- uid: Votanic.vXR.vCast.Core.Screen.vertical
+  name: vertical
+  href: api/Votanic.vXR.vCast.Core.Screen.html#Votanic_vXR_vCast_Core_Screen_vertical
+  commentId: P:Votanic.vXR.vCast.Core.Screen.vertical
+  fullName: Votanic.vXR.vCast.Core.Screen.vertical
+  nameWithType: Screen.vertical
+- uid: Votanic.vXR.vCast.Core.Screen.vertical*
+  name: vertical
+  href: api/Votanic.vXR.vCast.Core.Screen.html#Votanic_vXR_vCast_Core_Screen_vertical_
+  commentId: Overload:Votanic.vXR.vCast.Core.Screen.vertical
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.Core.Screen.vertical
+  nameWithType: Screen.vertical
 - uid: Votanic.vXR.vCast.Core.Screen.warningDistance
   name: warningDistance
   href: api/Votanic.vXR.vCast.Core.Screen.html#Votanic_vXR_vCast_Core_Screen_warningDistance
@@ -11449,6 +11462,25 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Cmd.Command
   nameWithType: vCast.Cmd.Command
+- uid: Votanic.vXR.vCast.vCast.Cmd.Context
+  name: Context()
+  href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_Context
+  commentId: M:Votanic.vXR.vCast.vCast.Cmd.Context
+  fullName: Votanic.vXR.vCast.vCast.Cmd.Context()
+  nameWithType: vCast.Cmd.Context()
+- uid: Votanic.vXR.vCast.vCast.Cmd.Context(System.Int32)
+  name: Context(Int32)
+  href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_Context_System_Int32_
+  commentId: M:Votanic.vXR.vCast.vCast.Cmd.Context(System.Int32)
+  fullName: Votanic.vXR.vCast.vCast.Cmd.Context(System.Int32)
+  nameWithType: vCast.Cmd.Context(Int32)
+- uid: Votanic.vXR.vCast.vCast.Cmd.Context*
+  name: Context
+  href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_Context_
+  commentId: Overload:Votanic.vXR.vCast.vCast.Cmd.Context
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.Cmd.Context
+  nameWithType: vCast.Cmd.Context
 - uid: Votanic.vXR.vCast.vCast.Cmd.Interactor(System.String)
   name: Interactor(String)
   href: api/Votanic.vXR.vCast.vCast.Cmd.html#Votanic_vXR_vCast_vCast_Cmd_Interactor_System_String_
@@ -12529,12 +12561,12 @@ references:
   commentId: M:Votanic.vXR.vCast.vCast.GetTransforms
   fullName: Votanic.vXR.vCast.vCast.GetTransforms()
   nameWithType: vCast.GetTransforms()
-- uid: Votanic.vXR.vCast.vCast.GetTransforms(UnityEngine.Transform)
-  name: GetTransforms(Transform)
-  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetTransforms_UnityEngine_Transform_
-  commentId: M:Votanic.vXR.vCast.vCast.GetTransforms(UnityEngine.Transform)
-  fullName: Votanic.vXR.vCast.vCast.GetTransforms(UnityEngine.Transform)
-  nameWithType: vCast.GetTransforms(Transform)
+- uid: Votanic.vXR.vCast.vCast.GetTransforms(UnityEngine.Transform,System.Boolean)
+  name: GetTransforms(Transform, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetTransforms_UnityEngine_Transform_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.GetTransforms(UnityEngine.Transform,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.GetTransforms(UnityEngine.Transform, System.Boolean)
+  nameWithType: vCast.GetTransforms(Transform, Boolean)
 - uid: Votanic.vXR.vCast.vCast.GetTransforms*
   name: GetTransforms
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetTransforms_
@@ -13843,6 +13875,25 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast_Controller.EnableWandRay
   nameWithType: vCast_Controller.EnableWandRay
+- uid: Votanic.vXR.vCast.vCast_Controller.GetTool(System.Int32)
+  name: GetTool(Int32)
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_GetTool_System_Int32_
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.GetTool(System.Int32)
+  fullName: Votanic.vXR.vCast.vCast_Controller.GetTool(System.Int32)
+  nameWithType: vCast_Controller.GetTool(Int32)
+- uid: Votanic.vXR.vCast.vCast_Controller.GetTool(System.String)
+  name: GetTool(String)
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_GetTool_System_String_
+  commentId: M:Votanic.vXR.vCast.vCast_Controller.GetTool(System.String)
+  fullName: Votanic.vXR.vCast.vCast_Controller.GetTool(System.String)
+  nameWithType: vCast_Controller.GetTool(String)
+- uid: Votanic.vXR.vCast.vCast_Controller.GetTool*
+  name: GetTool
+  href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_GetTool_
+  commentId: Overload:Votanic.vXR.vCast.vCast_Controller.GetTool
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast_Controller.GetTool
+  nameWithType: vCast_Controller.GetTool
 - uid: Votanic.vXR.vCast.vCast_Controller.glove
   name: glove
   href: api/Votanic.vXR.vCast.vCast_Controller.html#Votanic_vXR_vCast_vCast_Controller_glove
@@ -15715,12 +15766,12 @@ references:
   commentId: F:Votanic.vXR.vGear.Advanced.maxStorePoint
   fullName: Votanic.vXR.vGear.Advanced.maxStorePoint
   nameWithType: Advanced.maxStorePoint
-- uid: Votanic.vXR.vGear.Advanced.onlyTeleportWaypoint
-  name: onlyTeleportWaypoint
-  href: api/Votanic.vXR.vGear.Advanced.html#Votanic_vXR_vGear_Advanced_onlyTeleportWaypoint
-  commentId: F:Votanic.vXR.vGear.Advanced.onlyTeleportWaypoint
-  fullName: Votanic.vXR.vGear.Advanced.onlyTeleportWaypoint
-  nameWithType: Advanced.onlyTeleportWaypoint
+- uid: Votanic.vXR.vGear.Advanced.teleportWaypoint
+  name: teleportWaypoint
+  href: api/Votanic.vXR.vGear.Advanced.html#Votanic_vXR_vGear_Advanced_teleportWaypoint
+  commentId: F:Votanic.vXR.vGear.Advanced.teleportWaypoint
+  fullName: Votanic.vXR.vGear.Advanced.teleportWaypoint
+  nameWithType: Advanced.teleportWaypoint
 - uid: Votanic.vXR.vGear.Advanced.waypointPrefab
   name: waypointPrefab
   href: api/Votanic.vXR.vGear.Advanced.html#Votanic_vXR_vGear_Advanced_waypointPrefab
@@ -16681,6 +16732,42 @@ references:
   commentId: F:Votanic.vXR.vGear.LocusType.Normal
   fullName: Votanic.vXR.vGear.LocusType.Normal
   nameWithType: LocusType.Normal
+- uid: Votanic.vXR.vGear.MeasureUnit
+  name: MeasureUnit
+  href: api/Votanic.vXR.vGear.MeasureUnit.html
+  commentId: T:Votanic.vXR.vGear.MeasureUnit
+  fullName: Votanic.vXR.vGear.MeasureUnit
+  nameWithType: MeasureUnit
+- uid: Votanic.vXR.vGear.MeasureUnit.CentiMeter
+  name: CentiMeter
+  href: api/Votanic.vXR.vGear.MeasureUnit.html#Votanic_vXR_vGear_MeasureUnit_CentiMeter
+  commentId: F:Votanic.vXR.vGear.MeasureUnit.CentiMeter
+  fullName: Votanic.vXR.vGear.MeasureUnit.CentiMeter
+  nameWithType: MeasureUnit.CentiMeter
+- uid: Votanic.vXR.vGear.MeasureUnit.Feet
+  name: Feet
+  href: api/Votanic.vXR.vGear.MeasureUnit.html#Votanic_vXR_vGear_MeasureUnit_Feet
+  commentId: F:Votanic.vXR.vGear.MeasureUnit.Feet
+  fullName: Votanic.vXR.vGear.MeasureUnit.Feet
+  nameWithType: MeasureUnit.Feet
+- uid: Votanic.vXR.vGear.MeasureUnit.Inch
+  name: Inch
+  href: api/Votanic.vXR.vGear.MeasureUnit.html#Votanic_vXR_vGear_MeasureUnit_Inch
+  commentId: F:Votanic.vXR.vGear.MeasureUnit.Inch
+  fullName: Votanic.vXR.vGear.MeasureUnit.Inch
+  nameWithType: MeasureUnit.Inch
+- uid: Votanic.vXR.vGear.MeasureUnit.Meter
+  name: Meter
+  href: api/Votanic.vXR.vGear.MeasureUnit.html#Votanic_vXR_vGear_MeasureUnit_Meter
+  commentId: F:Votanic.vXR.vGear.MeasureUnit.Meter
+  fullName: Votanic.vXR.vGear.MeasureUnit.Meter
+  nameWithType: MeasureUnit.Meter
+- uid: Votanic.vXR.vGear.MeasureUnit.MilliMeter
+  name: MilliMeter
+  href: api/Votanic.vXR.vGear.MeasureUnit.html#Votanic_vXR_vGear_MeasureUnit_MilliMeter
+  commentId: F:Votanic.vXR.vGear.MeasureUnit.MilliMeter
+  fullName: Votanic.vXR.vGear.MeasureUnit.MilliMeter
+  nameWithType: MeasureUnit.MilliMeter
 - uid: Votanic.vXR.vGear.Networking
   name: Votanic.vXR.vGear.Networking
   href: api/Votanic.vXR.vGear.Networking.html
@@ -18210,6 +18297,30 @@ references:
   commentId: F:Votanic.vXR.vGear.TeleportPoint.Next
   fullName: Votanic.vXR.vGear.TeleportPoint.Next
   nameWithType: TeleportPoint.Next
+- uid: Votanic.vXR.vGear.TeleportWaypoint
+  name: TeleportWaypoint
+  href: api/Votanic.vXR.vGear.TeleportWaypoint.html
+  commentId: T:Votanic.vXR.vGear.TeleportWaypoint
+  fullName: Votanic.vXR.vGear.TeleportWaypoint
+  nameWithType: TeleportWaypoint
+- uid: Votanic.vXR.vGear.TeleportWaypoint.Detect
+  name: Detect
+  href: api/Votanic.vXR.vGear.TeleportWaypoint.html#Votanic_vXR_vGear_TeleportWaypoint_Detect
+  commentId: F:Votanic.vXR.vGear.TeleportWaypoint.Detect
+  fullName: Votanic.vXR.vGear.TeleportWaypoint.Detect
+  nameWithType: TeleportWaypoint.Detect
+- uid: Votanic.vXR.vGear.TeleportWaypoint.Ignore
+  name: Ignore
+  href: api/Votanic.vXR.vGear.TeleportWaypoint.html#Votanic_vXR_vGear_TeleportWaypoint_Ignore
+  commentId: F:Votanic.vXR.vGear.TeleportWaypoint.Ignore
+  fullName: Votanic.vXR.vGear.TeleportWaypoint.Ignore
+  nameWithType: TeleportWaypoint.Ignore
+- uid: Votanic.vXR.vGear.TeleportWaypoint.WaypointOnly
+  name: WaypointOnly
+  href: api/Votanic.vXR.vGear.TeleportWaypoint.html#Votanic_vXR_vGear_TeleportWaypoint_WaypointOnly
+  commentId: F:Votanic.vXR.vGear.TeleportWaypoint.WaypointOnly
+  fullName: Votanic.vXR.vGear.TeleportWaypoint.WaypointOnly
+  nameWithType: TeleportWaypoint.WaypointOnly
 - uid: Votanic.vXR.vGear.Transformation
   name: Transformation
   href: api/Votanic.vXR.vGear.Transformation.html
@@ -20660,6 +20771,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_Measurer.continuity
   fullName: Votanic.vXR.vGear.vGear_Measurer.continuity
   nameWithType: vGear_Measurer.continuity
+- uid: Votanic.vXR.vGear.vGear_Measurer.decimals
+  name: decimals
+  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_decimals
+  commentId: F:Votanic.vXR.vGear.vGear_Measurer.decimals
+  fullName: Votanic.vXR.vGear.vGear_Measurer.decimals
+  nameWithType: vGear_Measurer.decimals
 - uid: Votanic.vXR.vGear.vGear_Measurer.isMeasuring
   name: isMeasuring
   href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_isMeasuring
@@ -20730,6 +20847,38 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Measurer.SetContinuity
   nameWithType: vGear_Measurer.SetContinuity
+- uid: Votanic.vXR.vGear.vGear_Measurer.SetDecimals(System.Int32)
+  name: SetDecimals(Int32)
+  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_SetDecimals_System_Int32_
+  commentId: M:Votanic.vXR.vGear.vGear_Measurer.SetDecimals(System.Int32)
+  fullName: Votanic.vXR.vGear.vGear_Measurer.SetDecimals(System.Int32)
+  nameWithType: vGear_Measurer.SetDecimals(Int32)
+- uid: Votanic.vXR.vGear.vGear_Measurer.SetDecimals*
+  name: SetDecimals
+  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_SetDecimals_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Measurer.SetDecimals
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Measurer.SetDecimals
+  nameWithType: vGear_Measurer.SetDecimals
+- uid: Votanic.vXR.vGear.vGear_Measurer.SetUnit(Votanic.vXR.vGear.MeasureUnit)
+  name: SetUnit(MeasureUnit)
+  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_SetUnit_Votanic_vXR_vGear_MeasureUnit_
+  commentId: M:Votanic.vXR.vGear.vGear_Measurer.SetUnit(Votanic.vXR.vGear.MeasureUnit)
+  fullName: Votanic.vXR.vGear.vGear_Measurer.SetUnit(Votanic.vXR.vGear.MeasureUnit)
+  nameWithType: vGear_Measurer.SetUnit(MeasureUnit)
+- uid: Votanic.vXR.vGear.vGear_Measurer.SetUnit*
+  name: SetUnit
+  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_SetUnit_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Measurer.SetUnit
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_Measurer.SetUnit
+  nameWithType: vGear_Measurer.SetUnit
+- uid: Votanic.vXR.vGear.vGear_Measurer.unit
+  name: unit
+  href: api/Votanic.vXR.vGear.vGear_Measurer.html#Votanic_vXR_vGear_vGear_Measurer_unit
+  commentId: F:Votanic.vXR.vGear.vGear_Measurer.unit
+  fullName: Votanic.vXR.vGear.vGear_Measurer.unit
+  nameWithType: vGear_Measurer.unit
 - uid: Votanic.vXR.vGear.vGear_Menu
   name: vGear_Menu
   href: api/Votanic.vXR.vGear.vGear_Menu.html
@@ -21522,6 +21671,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Teleport.CanStand
   nameWithType: vGear_Teleport.CanStand
+- uid: Votanic.vXR.vGear.vGear_Teleport.collisionMode
+  name: collisionMode
+  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_collisionMode
+  commentId: F:Votanic.vXR.vGear.vGear_Teleport.collisionMode
+  fullName: Votanic.vXR.vGear.vGear_Teleport.collisionMode
+  nameWithType: vGear_Teleport.collisionMode
 - uid: Votanic.vXR.vGear.vGear_Teleport.CollisionMode(System.Boolean)
   name: CollisionMode(Boolean)
   href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_CollisionMode_System_Boolean_
@@ -21535,18 +21690,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Teleport.CollisionMode
   nameWithType: vGear_Teleport.CollisionMode
-- uid: Votanic.vXR.vGear.vGear_Teleport.defaultCollisionMode
-  name: defaultCollisionMode
-  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_defaultCollisionMode
-  commentId: F:Votanic.vXR.vGear.vGear_Teleport.defaultCollisionMode
-  fullName: Votanic.vXR.vGear.vGear_Teleport.defaultCollisionMode
-  nameWithType: vGear_Teleport.defaultCollisionMode
-- uid: Votanic.vXR.vGear.vGear_Teleport.onlyTeleportWaypoint
-  name: onlyTeleportWaypoint
-  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_onlyTeleportWaypoint
-  commentId: F:Votanic.vXR.vGear.vGear_Teleport.onlyTeleportWaypoint
-  fullName: Votanic.vXR.vGear.vGear_Teleport.onlyTeleportWaypoint
-  nameWithType: vGear_Teleport.onlyTeleportWaypoint
 - uid: Votanic.vXR.vGear.vGear_Teleport.SetHeightOffset(System.Single)
   name: SetHeightOffset(Single)
   href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_SetHeightOffset_System_Single_
@@ -21560,19 +21703,31 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Teleport.SetHeightOffset
   nameWithType: vGear_Teleport.SetHeightOffset
-- uid: Votanic.vXR.vGear.vGear_Teleport.SetWaypointOnly(System.Boolean)
-  name: SetWaypointOnly(Boolean)
-  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_SetWaypointOnly_System_Boolean_
-  commentId: M:Votanic.vXR.vGear.vGear_Teleport.SetWaypointOnly(System.Boolean)
-  fullName: Votanic.vXR.vGear.vGear_Teleport.SetWaypointOnly(System.Boolean)
-  nameWithType: vGear_Teleport.SetWaypointOnly(Boolean)
-- uid: Votanic.vXR.vGear.vGear_Teleport.SetWaypointOnly*
-  name: SetWaypointOnly
-  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_SetWaypointOnly_
-  commentId: Overload:Votanic.vXR.vGear.vGear_Teleport.SetWaypointOnly
+- uid: Votanic.vXR.vGear.vGear_Teleport.SetTeleportWaypoint(Votanic.vXR.vGear.TeleportWaypoint)
+  name: SetTeleportWaypoint(TeleportWaypoint)
+  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_SetTeleportWaypoint_Votanic_vXR_vGear_TeleportWaypoint_
+  commentId: M:Votanic.vXR.vGear.vGear_Teleport.SetTeleportWaypoint(Votanic.vXR.vGear.TeleportWaypoint)
+  fullName: Votanic.vXR.vGear.vGear_Teleport.SetTeleportWaypoint(Votanic.vXR.vGear.TeleportWaypoint)
+  nameWithType: vGear_Teleport.SetTeleportWaypoint(TeleportWaypoint)
+- uid: Votanic.vXR.vGear.vGear_Teleport.SetTeleportWaypoint*
+  name: SetTeleportWaypoint
+  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_SetTeleportWaypoint_
+  commentId: Overload:Votanic.vXR.vGear.vGear_Teleport.SetTeleportWaypoint
   isSpec: "True"
-  fullName: Votanic.vXR.vGear.vGear_Teleport.SetWaypointOnly
-  nameWithType: vGear_Teleport.SetWaypointOnly
+  fullName: Votanic.vXR.vGear.vGear_Teleport.SetTeleportWaypoint
+  nameWithType: vGear_Teleport.SetTeleportWaypoint
+- uid: Votanic.vXR.vGear.vGear_Teleport.teleportWaypoint
+  name: teleportWaypoint
+  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_teleportWaypoint
+  commentId: F:Votanic.vXR.vGear.vGear_Teleport.teleportWaypoint
+  fullName: Votanic.vXR.vGear.vGear_Teleport.teleportWaypoint
+  nameWithType: vGear_Teleport.teleportWaypoint
+- uid: Votanic.vXR.vGear.vGear_Teleport.waypoint
+  name: waypoint
+  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_waypoint
+  commentId: F:Votanic.vXR.vGear.vGear_Teleport.waypoint
+  fullName: Votanic.vXR.vGear.vGear_Teleport.waypoint
+  nameWithType: vGear_Teleport.waypoint
 - uid: Votanic.vXR.vGear.vGear_Transformer
   name: vGear_Transformer
   href: api/Votanic.vXR.vGear.vGear_Transformer.html
