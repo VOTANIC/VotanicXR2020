@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.Element.html",
-          "hash": "6O+/yh4535J7J++MLWvUUQ=="
+          "hash": "9hArGVuva33ZtFArFC3qmA=="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vNet.Database.DatabaseManager.html",
-          "hash": "nfuS16AIjXH7F90fE0VAFw=="
+          "hash": "RJpalJpFd+u4KGpDB25g5w=="
         }
       },
       "is_incremental": false,
@@ -1493,6 +1493,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vCast.Core.GCCollect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vCast.Core.GCCollect.html",
+          "hash": "Qn0n0d802SOrji7mIrsliA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Votanic.vXR.vCast.Core.Info.yml",
       "output": {
         ".html": {
@@ -1665,7 +1677,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.Core.html",
-          "hash": "67ZrOfKUL87vnD6oR526ig=="
+          "hash": "kS5oZnmRsY6z4O9EtiGrOA=="
         }
       },
       "is_incremental": false,
@@ -1941,7 +1953,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vCast.vCast.html",
-          "hash": "X5xznAfJzk2wuFYUtq9MrQ=="
+          "hash": "Zs1KbxU8nbTCrpPIKpkLvg=="
         }
       },
       "is_incremental": false,
@@ -2349,7 +2361,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.Inventory.InventoryPage.html",
-          "hash": "Ny3ESK0szOZfBhizDbgvcg=="
+          "hash": "fy8e9Xf0fVtXYR0LFaJXnA=="
         }
       },
       "is_incremental": false,
@@ -2361,7 +2373,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.Inventory.Item.html",
-          "hash": "gIk23tJBzOv9vFzzCFYMQg=="
+          "hash": "uwUBwGt3VYjTwOCEnRO4ng=="
         }
       },
       "is_incremental": false,
@@ -2373,7 +2385,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.Inventory.ItemData.html",
-          "hash": "gI40fuVtgbmwWa47AsIDGQ=="
+          "hash": "tnwr1TgYdDnNDjXbTVxF7A=="
         }
       },
       "is_incremental": false,
@@ -2398,6 +2410,18 @@
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.Inventory.PageDirection.html",
           "hash": "i6aEaAvD0b14cqfy8GUdGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Votanic.vXR.vGear.Inventory.PresetItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Votanic.vXR.vGear.Inventory.PresetItem.html",
+          "hash": "mFZybNTZAqYZDVWbLpJMOw=="
         }
       },
       "is_incremental": false,
@@ -2433,7 +2457,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.Inventory.html",
-          "hash": "sjV4rLnpns+5pf5F/gsPaQ=="
+          "hash": "6jfy5xWZRmQ4Jicf+eaBxA=="
         }
       },
       "is_incremental": false,
@@ -2865,7 +2889,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Votanic.vXR.vGear.vGear.html",
-          "hash": "8LZvJp93+0CdDsAOAkvxTw=="
+          "hash": "r9GkY+kI1vfC11J2ZL2RcA=="
         }
       },
       "is_incremental": false,
@@ -3297,7 +3321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "SSNpDXNlt55mKX+X7i3ePQ=="
+          "hash": "McW83mIVkNCv9lDM/iZ+Vg=="
         }
       },
       "is_incremental": false,
@@ -3382,8 +3406,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 273,
-          "skipped_file_count": 231
+          "total_file_count": 275,
+          "skipped_file_count": 238
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

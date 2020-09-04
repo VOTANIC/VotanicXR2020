@@ -653,6 +653,70 @@ public List&lt;TaskSetting&gt; tasks</code></pre>
   </table>
   
   
+  <a id="Votanic_vNet_Database_DatabaseManager_GetCurrentSessionMetaInfo_" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentSessionMetaInfo*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseManager_GetCurrentSessionMetaInfo_System_String_System_Int32_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentSessionMetaInfo(System.String,System.Int32,System.String,System.String)">GetCurrentSessionMetaInfo(String, Int32, String, String)</h4>
+  <div class="markdown level1 summary"><p>Get a neweset meta info from meta info list of current started session. Null and -1 parameter will be ignored.
+<br> 在目前開始場節的元信息列表中取得一個最新的元信息。空及 -1 的參數將會無視。</p>
+<p> GetCurrentSessionMetaInfo(&quot;Session&quot;, -1, &quot;Week&quot;, &quot;7&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MetaInfo GetCurrentSessionMetaInfo(string table = &quot;&quot;, int refID = -1, string key = &quot;&quot;, string value = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">table</span></td>
+        <td><p>Related table name <br> 相關表格名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">refID</span></td>
+        <td><p>ID on related table <br> 相關表格中的識別碼</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Attribute name <br> 屬性名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Contenr of attrubte <br> 屬性內容</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.MetaInfo.html">MetaInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vNet_Database_DatabaseManager_GetCurrentUser_" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentUser*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseManager_GetCurrentUser" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentUser">GetCurrentUser()</h4>
   <div class="markdown level1 summary"><p>Get the current login user.
@@ -681,15 +745,15 @@ public List&lt;TaskSetting&gt; tasks</code></pre>
   
   
   <a id="Votanic_vNet_Database_DatabaseManager_GetMetaInfos_" data-uid="Votanic.vNet.Database.DatabaseManager.GetMetaInfos*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseManager_GetMetaInfos_System_String_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseManager.GetMetaInfos(System.String,System.String,System.String)">GetMetaInfos(String, String, String)</h4>
-  <div class="markdown level1 summary"><p>Get meta info list of this application on database. Null parameter will be ignored.
-<br> 取得應用程式在數據庫中的的元信息列表。空的參數將會無視。</p>
-<p> GetMetaInfos(&quot;Session&quot;, &quot;Week&quot;, &quot;7&quot;) </p>
+  <h4 id="Votanic_vNet_Database_DatabaseManager_GetMetaInfos_System_String_System_Int32_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseManager.GetMetaInfos(System.String,System.Int32,System.String,System.String)">GetMetaInfos(String, Int32, String, String)</h4>
+  <div class="markdown level1 summary"><p>Get meta info list of this application on database. Null and -1 parameter will be ignored.
+<br> 取得應用程式在數據庫中的的元信息列表。空及 -1 的參數將會無視。</p>
+<p> GetMetaInfos(&quot;Session&quot;, -1, &quot;Week&quot;, &quot;7&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;MetaInfo&gt; GetMetaInfos(string table = &quot;&quot;, string key = &quot;&quot;, string value = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;MetaInfo&gt; GetMetaInfos(string table = &quot;&quot;, int refID = -1, string key = &quot;&quot;, string value = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -705,6 +769,12 @@ public List&lt;TaskSetting&gt; tasks</code></pre>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">table</span></td>
         <td><p>Related table name <br> 相關表格名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">refID</span></td>
+        <td><p>ID on related table <br> 相關表格中的識別碼</p>
 </td>
       </tr>
       <tr>
@@ -1457,15 +1527,15 @@ public List&lt;TaskSetting&gt; tasks</code></pre>
   
   
   <a id="Votanic_vNet_Database_DatabaseManager_RemoveMetaInfo_" data-uid="Votanic.vNet.Database.DatabaseManager.RemoveMetaInfo*"></a>
-  <h4 id="Votanic_vNet_Database_DatabaseManager_RemoveMetaInfo_System_String_System_Int32_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseManager.RemoveMetaInfo(System.String,System.Int32,System.String,System.String)">RemoveMetaInfo(String, Int32, String, String)</h4>
-  <div class="markdown level1 summary"><p>Remove the newest meta info of current started session. Null and -1 parameter will be ignored.
-<br> 目前已開始的場節移除最新的元信息。空及 -1 的參數將會無視。</p>
-<p> RemoveMetaInfo() </p>
+  <h4 id="Votanic_vNet_Database_DatabaseManager_RemoveMetaInfo_Votanic_vNet_Database_MetaInfo_" data-uid="Votanic.vNet.Database.DatabaseManager.RemoveMetaInfo(Votanic.vNet.Database.MetaInfo)">RemoveMetaInfo(MetaInfo)</h4>
+  <div class="markdown level1 summary"><p>Remove the newest meta info of current started session.
+<br> 目前已開始的場節移除最新的元信息。</p>
+<p> RemoveMetaInfo(metaInfo) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveMetaInfo(string table = &quot;&quot;, int refID = -1, string key = &quot;&quot;, string value = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RemoveMetaInfo(MetaInfo metaInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1478,27 +1548,9 @@ public List&lt;TaskSetting&gt; tasks</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">table</span></td>
-        <td><p>Related table name <br> 相關表格名稱</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">refID</span></td>
-        <td><p>ID on related table <br> 相關表格中的識別碼</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Attribute name <br> 屬性名稱</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Contenr of attrubte <br> 屬性內容</p>
+        <td><a class="xref" href="Votanic.vNet.Database.MetaInfo.html">MetaInfo</a></td>
+        <td><span class="parametername">metaInfo</span></td>
+        <td><p>Target meta info <br> 目標元信息</p>
 </td>
       </tr>
     </tbody>

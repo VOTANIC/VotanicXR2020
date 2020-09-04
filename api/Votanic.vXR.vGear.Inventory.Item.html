@@ -80,27 +80,17 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Votanic.Element.html">Element</a></div>
-    <div class="level2"><span class="xref">Item</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Votanic.Element.html#Votanic_Element_name">Element.name</a>
-    </div>
-    <div>
-      <a class="xref" href="Votanic.Element.html#Votanic_Element_Equals_System_String_System_Boolean_">Element.Equals(String, Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="Votanic.Element.html#Votanic_Element_Contains_System_String_System_Boolean_System_Boolean_">Element.Contains(String, Boolean, Boolean)</a>
-    </div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><span class="xref">Item</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.Inventory.html">Votanic.vXR.vGear.Inventory</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
   <h5 id="Votanic_vXR_vGear_Inventory_Item_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class Item : Element</code></pre>
+[CreateAssetMenu(fileName = &quot;Inventory Item&quot;, menuName = &quot;VotanicXR/Inventory/Item&quot;, order = 1)]
+public class Item : ScriptableObject</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>

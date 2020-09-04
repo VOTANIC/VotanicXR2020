@@ -6842,6 +6842,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.DatabaseManager.EndSession
   nameWithType: DatabaseManager.EndSession
+- uid: Votanic.vNet.Database.DatabaseManager.GetCurrentSessionMetaInfo(System.String,System.Int32,System.String,System.String)
+  name: GetCurrentSessionMetaInfo(String, Int32, String, String)
+  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetCurrentSessionMetaInfo_System_String_System_Int32_System_String_System_String_
+  commentId: M:Votanic.vNet.Database.DatabaseManager.GetCurrentSessionMetaInfo(System.String,System.Int32,System.String,System.String)
+  fullName: Votanic.vNet.Database.DatabaseManager.GetCurrentSessionMetaInfo(System.String, System.Int32, System.String, System.String)
+  nameWithType: DatabaseManager.GetCurrentSessionMetaInfo(String, Int32, String, String)
+- uid: Votanic.vNet.Database.DatabaseManager.GetCurrentSessionMetaInfo*
+  name: GetCurrentSessionMetaInfo
+  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetCurrentSessionMetaInfo_
+  commentId: Overload:Votanic.vNet.Database.DatabaseManager.GetCurrentSessionMetaInfo
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.DatabaseManager.GetCurrentSessionMetaInfo
+  nameWithType: DatabaseManager.GetCurrentSessionMetaInfo
 - uid: Votanic.vNet.Database.DatabaseManager.GetCurrentUser
   name: GetCurrentUser()
   href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetCurrentUser
@@ -6855,12 +6868,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.DatabaseManager.GetCurrentUser
   nameWithType: DatabaseManager.GetCurrentUser
-- uid: Votanic.vNet.Database.DatabaseManager.GetMetaInfos(System.String,System.String,System.String)
-  name: GetMetaInfos(String, String, String)
-  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetMetaInfos_System_String_System_String_System_String_
-  commentId: M:Votanic.vNet.Database.DatabaseManager.GetMetaInfos(System.String,System.String,System.String)
-  fullName: Votanic.vNet.Database.DatabaseManager.GetMetaInfos(System.String, System.String, System.String)
-  nameWithType: DatabaseManager.GetMetaInfos(String, String, String)
+- uid: Votanic.vNet.Database.DatabaseManager.GetMetaInfos(System.String,System.Int32,System.String,System.String)
+  name: GetMetaInfos(String, Int32, String, String)
+  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetMetaInfos_System_String_System_Int32_System_String_System_String_
+  commentId: M:Votanic.vNet.Database.DatabaseManager.GetMetaInfos(System.String,System.Int32,System.String,System.String)
+  fullName: Votanic.vNet.Database.DatabaseManager.GetMetaInfos(System.String, System.Int32, System.String, System.String)
+  nameWithType: DatabaseManager.GetMetaInfos(String, Int32, String, String)
 - uid: Votanic.vNet.Database.DatabaseManager.GetMetaInfos(Votanic.vNet.Database.SearchPattern[])
   name: GetMetaInfos(SearchPattern[])
   href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetMetaInfos_Votanic_vNet_Database_SearchPattern___
@@ -7030,12 +7043,12 @@ references:
   commentId: F:Votanic.vNet.Database.DatabaseManager.password
   fullName: Votanic.vNet.Database.DatabaseManager.password
   nameWithType: DatabaseManager.password
-- uid: Votanic.vNet.Database.DatabaseManager.RemoveMetaInfo(System.String,System.Int32,System.String,System.String)
-  name: RemoveMetaInfo(String, Int32, String, String)
-  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_RemoveMetaInfo_System_String_System_Int32_System_String_System_String_
-  commentId: M:Votanic.vNet.Database.DatabaseManager.RemoveMetaInfo(System.String,System.Int32,System.String,System.String)
-  fullName: Votanic.vNet.Database.DatabaseManager.RemoveMetaInfo(System.String, System.Int32, System.String, System.String)
-  nameWithType: DatabaseManager.RemoveMetaInfo(String, Int32, String, String)
+- uid: Votanic.vNet.Database.DatabaseManager.RemoveMetaInfo(Votanic.vNet.Database.MetaInfo)
+  name: RemoveMetaInfo(MetaInfo)
+  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_RemoveMetaInfo_Votanic_vNet_Database_MetaInfo_
+  commentId: M:Votanic.vNet.Database.DatabaseManager.RemoveMetaInfo(Votanic.vNet.Database.MetaInfo)
+  fullName: Votanic.vNet.Database.DatabaseManager.RemoveMetaInfo(Votanic.vNet.Database.MetaInfo)
+  nameWithType: DatabaseManager.RemoveMetaInfo(MetaInfo)
 - uid: Votanic.vNet.Database.DatabaseManager.RemoveMetaInfo*
   name: RemoveMetaInfo
   href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_RemoveMetaInfo_
@@ -10306,6 +10319,30 @@ references:
   commentId: F:Votanic.vXR.vCast.Core.Fader.unscaledDeltaTime
   fullName: Votanic.vXR.vCast.Core.Fader.unscaledDeltaTime
   nameWithType: Fader.unscaledDeltaTime
+- uid: Votanic.vXR.vCast.Core.GCCollect
+  name: GCCollect
+  href: api/Votanic.vXR.vCast.Core.GCCollect.html
+  commentId: T:Votanic.vXR.vCast.Core.GCCollect
+  fullName: Votanic.vXR.vCast.Core.GCCollect
+  nameWithType: GCCollect
+- uid: Votanic.vXR.vCast.Core.GCCollect.Disable
+  name: Disable
+  href: api/Votanic.vXR.vCast.Core.GCCollect.html#Votanic_vXR_vCast_Core_GCCollect_Disable
+  commentId: F:Votanic.vXR.vCast.Core.GCCollect.Disable
+  fullName: Votanic.vXR.vCast.Core.GCCollect.Disable
+  nameWithType: GCCollect.Disable
+- uid: Votanic.vXR.vCast.Core.GCCollect.Refresh
+  name: Refresh
+  href: api/Votanic.vXR.vCast.Core.GCCollect.html#Votanic_vXR_vCast_Core_GCCollect_Refresh
+  commentId: F:Votanic.vXR.vCast.Core.GCCollect.Refresh
+  fullName: Votanic.vXR.vCast.Core.GCCollect.Refresh
+  nameWithType: GCCollect.Refresh
+- uid: Votanic.vXR.vCast.Core.GCCollect.Update
+  name: Update
+  href: api/Votanic.vXR.vCast.Core.GCCollect.html#Votanic_vXR_vCast_Core_GCCollect_Update
+  commentId: F:Votanic.vXR.vCast.Core.GCCollect.Update
+  fullName: Votanic.vXR.vCast.Core.GCCollect.Update
+  nameWithType: GCCollect.Update
 - uid: Votanic.vXR.vCast.Core.Info
   name: Info
   href: api/Votanic.vXR.vCast.Core.Info.html
@@ -12279,6 +12316,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Frame.UnPauseTransform
   nameWithType: vCast.Frame.UnPauseTransform
+- uid: Votanic.vXR.vCast.vCast.GCCollect
+  name: GCCollect
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GCCollect
+  commentId: F:Votanic.vXR.vCast.vCast.GCCollect
+  fullName: Votanic.vXR.vCast.vCast.GCCollect
+  nameWithType: vCast.GCCollect
 - uid: Votanic.vXR.vCast.vCast.GetCamera(System.Int32)
   name: GetCamera(Int32)
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_GetCamera_System_Int32_
@@ -16520,12 +16563,6 @@ references:
   commentId: F:Votanic.vXR.vGear.Inventory.ItemData.identifier
   fullName: Votanic.vXR.vGear.Inventory.ItemData.identifier
   nameWithType: ItemData.identifier
-- uid: Votanic.vXR.vGear.Inventory.ItemData.presetPosition
-  name: presetPosition
-  href: api/Votanic.vXR.vGear.Inventory.ItemData.html#Votanic_vXR_vGear_Inventory_ItemData_presetPosition
-  commentId: F:Votanic.vXR.vGear.Inventory.ItemData.presetPosition
-  fullName: Votanic.vXR.vGear.Inventory.ItemData.presetPosition
-  nameWithType: ItemData.presetPosition
 - uid: Votanic.vXR.vGear.Inventory.ItemData.sellingPrice
   name: sellingPrice
   href: api/Votanic.vXR.vGear.Inventory.ItemData.html#Votanic_vXR_vGear_Inventory_ItemData_sellingPrice
@@ -16606,6 +16643,48 @@ references:
   commentId: F:Votanic.vXR.vGear.Inventory.PageDirection.Vertical
   fullName: Votanic.vXR.vGear.Inventory.PageDirection.Vertical
   nameWithType: PageDirection.Vertical
+- uid: Votanic.vXR.vGear.Inventory.PresetItem
+  name: PresetItem
+  href: api/Votanic.vXR.vGear.Inventory.PresetItem.html
+  commentId: T:Votanic.vXR.vGear.Inventory.PresetItem
+  fullName: Votanic.vXR.vGear.Inventory.PresetItem
+  nameWithType: PresetItem
+- uid: Votanic.vXR.vGear.Inventory.PresetItem.accessibility
+  name: accessibility
+  href: api/Votanic.vXR.vGear.Inventory.PresetItem.html#Votanic_vXR_vGear_Inventory_PresetItem_accessibility
+  commentId: F:Votanic.vXR.vGear.Inventory.PresetItem.accessibility
+  fullName: Votanic.vXR.vGear.Inventory.PresetItem.accessibility
+  nameWithType: PresetItem.accessibility
+- uid: Votanic.vXR.vGear.Inventory.PresetItem.buyingPrice
+  name: buyingPrice
+  href: api/Votanic.vXR.vGear.Inventory.PresetItem.html#Votanic_vXR_vGear_Inventory_PresetItem_buyingPrice
+  commentId: F:Votanic.vXR.vGear.Inventory.PresetItem.buyingPrice
+  fullName: Votanic.vXR.vGear.Inventory.PresetItem.buyingPrice
+  nameWithType: PresetItem.buyingPrice
+- uid: Votanic.vXR.vGear.Inventory.PresetItem.consumability
+  name: consumability
+  href: api/Votanic.vXR.vGear.Inventory.PresetItem.html#Votanic_vXR_vGear_Inventory_PresetItem_consumability
+  commentId: F:Votanic.vXR.vGear.Inventory.PresetItem.consumability
+  fullName: Votanic.vXR.vGear.Inventory.PresetItem.consumability
+  nameWithType: PresetItem.consumability
+- uid: Votanic.vXR.vGear.Inventory.PresetItem.identifier
+  name: identifier
+  href: api/Votanic.vXR.vGear.Inventory.PresetItem.html#Votanic_vXR_vGear_Inventory_PresetItem_identifier
+  commentId: F:Votanic.vXR.vGear.Inventory.PresetItem.identifier
+  fullName: Votanic.vXR.vGear.Inventory.PresetItem.identifier
+  nameWithType: PresetItem.identifier
+- uid: Votanic.vXR.vGear.Inventory.PresetItem.presetPosition
+  name: presetPosition
+  href: api/Votanic.vXR.vGear.Inventory.PresetItem.html#Votanic_vXR_vGear_Inventory_PresetItem_presetPosition
+  commentId: F:Votanic.vXR.vGear.Inventory.PresetItem.presetPosition
+  fullName: Votanic.vXR.vGear.Inventory.PresetItem.presetPosition
+  nameWithType: PresetItem.presetPosition
+- uid: Votanic.vXR.vGear.Inventory.PresetItem.sellingPrice
+  name: sellingPrice
+  href: api/Votanic.vXR.vGear.Inventory.PresetItem.html#Votanic_vXR_vGear_Inventory_PresetItem_sellingPrice
+  commentId: F:Votanic.vXR.vGear.Inventory.PresetItem.sellingPrice
+  fullName: Votanic.vXR.vGear.Inventory.PresetItem.sellingPrice
+  nameWithType: PresetItem.sellingPrice
 - uid: Votanic.vXR.vGear.Inventory.Quality
   name: Quality
   href: api/Votanic.vXR.vGear.Inventory.Quality.html

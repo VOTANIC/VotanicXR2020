@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class InventoryPage
+    <title>Class PresetItem
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class InventoryPage
+    <meta name="title" content="Class PresetItem
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -68,39 +68,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vGear.Inventory.PresetItem">
   
   
-  <h1 id="Votanic_vXR_vGear_Inventory_InventoryPage" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage" class="text-break">Class InventoryPage
+  <h1 id="Votanic_vXR_vGear_Inventory_PresetItem" data-uid="Votanic.vXR.vGear.Inventory.PresetItem" class="text-break">Class PresetItem
   </h1>
-  <div class="markdown level0 summary"><p>Page of a category.
-<br> 範疇中的頁面。</p>
+  <div class="markdown level0 summary"><p>Item data in inventory.
+<br> 庫存的物品數據。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">InventoryPage</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><span class="xref">PresetItem</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vGear.Inventory.html">Votanic.vXR.vGear.Inventory</a></h6>
   <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
-  <h5 id="Votanic_vXR_vGear_Inventory_InventoryPage_syntax">Syntax</h5>
+  <h5 id="Votanic_vXR_vGear_Inventory_PresetItem_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class InventoryPage</code></pre>
+[CreateAssetMenu(fileName = &quot;Inventory Preset Item&quot;, menuName = &quot;VotanicXR/Inventory/Preset Item&quot;, order = 1)]
+public class PresetItem : ScriptableObject</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_alignment" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.alignment">alignment</h4>
-  <div class="markdown level1 summary"><p>The start point of grid on a page. <br> 頁面方格的開始位置。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_PresetItem_accessibility" data-uid="Votanic.vXR.vGear.Inventory.PresetItem.accessibility">accessibility</h4>
+  <div class="markdown level1 summary"><p>Accessibility of the item. <br> 物品的存取性。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The start point of grid on a page.\n&#38913;&#38754;&#26041;&#26684;&#30340;&#38283;&#22987;&#20301;&#32622;&#12290;&quot;)]
-public PageAlignment alignment</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Accessibility of the item..\n&#29289;&#21697;&#30340;&#23384;&#21462;&#24615;&#12290;&quot;)]
+public Accessibility accessibility</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -112,21 +115,21 @@ public PageAlignment alignment</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.PageAlignment.html">PageAlignment</a></td>
+        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.Accessibility.html">Accessibility</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_availables" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.availables">availables</h4>
-  <div class="markdown level1 summary"><p>Available grids. <br> 可用格數。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_PresetItem_buyingPrice" data-uid="Votanic.vXR.vGear.Inventory.PresetItem.buyingPrice">buyingPrice</h4>
+  <div class="markdown level1 summary"><p>Currency for buying. <br> 買入時的貨幣。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Available grids.\n&#21487;&#29992;&#26684;&#25976;&#12290;&quot;)]
-public int availables</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Currency for buying.\n&#36023;&#20837;&#26178;&#30340;&#36008;&#24163;&#12290;&quot;)]
+public List&lt;CurrencyAmount&gt; buyingPrice</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,21 +141,21 @@ public int availables</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.Inventory.CurrencyAmount.html">CurrencyAmount</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_direction" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.direction">direction</h4>
-  <div class="markdown level1 summary"><p>Grid generation direction. <br> 方格產生的方向。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_PresetItem_consumability" data-uid="Votanic.vXR.vGear.Inventory.PresetItem.consumability">consumability</h4>
+  <div class="markdown level1 summary"><p>Consumability of the item. <br> 物品的消耗性。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Grid generation direction.\n&#26041;&#26684;&#29986;&#29983;&#30340;&#26041;&#21521;&#12290;&quot;)]
-public PageDirection direction</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Consumability of the item..\n&#29289;&#21697;&#30340;&#28040;&#32791;&#24615;&#12290;&quot;)]
+public Consumability consumability</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -164,21 +167,47 @@ public PageDirection direction</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.PageDirection.html">PageDirection</a></td>
+        <td><a class="xref" href="Votanic.vXR.vGear.Inventory.Consumability.html">Consumability</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_grids" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.grids">grids</h4>
-  <div class="markdown level1 summary"><p>Grids on this page. <br> 頁面的格數。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_PresetItem_identifier" data-uid="Votanic.vXR.vGear.Inventory.PresetItem.identifier">identifier</h4>
+  <div class="markdown level1 summary"><p>Identifier for searching item. <br> 用於搜尋物品的識別碼。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Grids on this page.\n&#38913;&#38754;&#30340;&#26684;&#25976;&#12290;&quot;)]
-public Vector2Int grids</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Identifier for searching item.\n&#29992;&#26044;&#25628;&#23563;&#29289;&#21697;&#30340;&#35672;&#21029;&#30908;&#12290;&quot;)]
+public string identifier</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_Inventory_PresetItem_presetPosition" data-uid="Votanic.vXR.vGear.Inventory.PresetItem.presetPosition">presetPosition</h4>
+  <div class="markdown level1 summary"><p>Preset grid position of the item. <br> 物品存放的預設方格位置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Preset grid position of the item..\n&#29289;&#21697;&#23384;&#25918;&#30340;&#38928;&#35373;&#26041;&#26684;&#20301;&#32622;&#12290;&quot;)]
+public Vector2Int presetPosition</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -197,14 +226,14 @@ public Vector2Int grids</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_panel" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.panel">panel</h4>
-  <div class="markdown level1 summary"><p>Panel component of the page. <br> 頁面面板。</p>
+  <h4 id="Votanic_vXR_vGear_Inventory_PresetItem_sellingPrice" data-uid="Votanic.vXR.vGear.Inventory.PresetItem.sellingPrice">sellingPrice</h4>
+  <div class="markdown level1 summary"><p>Currency for selling. <br> 賣出時的貨幣。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Panel component of the page.\n&#38913;&#38754;&#38754;&#26495;&#12290;&quot;)]
-public vGear_Panel panel</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Currency for selling.\n&#36067;&#20986;&#26178;&#30340;&#36008;&#24163;&#12290;&quot;)]
+public List&lt;CurrencyAmount&gt; sellingPrice</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,59 +245,7 @@ public vGear_Panel panel</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Votanic.vXR.vGear.vGear_Panel.html">vGear_Panel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_presets" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.presets">presets</h4>
-  <div class="markdown level1 summary"><p>The preset items. <br> 預設的物品。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The preset items.\n&#38928;&#35373;&#30340;&#29289;&#21697;&#12290;&quot;)]
-public List&lt;PresetItem&gt; presets</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.Inventory.PresetItem.html">PresetItem</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Votanic_vXR_vGear_Inventory_InventoryPage_savable" data-uid="Votanic.vXR.vGear.Inventory.InventoryPage.savable">savable</h4>
-  <div class="markdown level1 summary"><p>Save the items of this page. <br> 儲存這個頁面的物資。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Save the items of this page.\n&#20786;&#23384;&#36889;&#20491;&#38913;&#38754;&#30340;&#29289;&#36039;&#12290;&quot;)]
-public bool savable</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vGear.Inventory.CurrencyAmount.html">CurrencyAmount</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
