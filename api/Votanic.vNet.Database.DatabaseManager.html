@@ -653,6 +653,133 @@ public List&lt;TaskSetting&gt; tasks</code></pre>
   </table>
   
   
+  <a id="Votanic_vNet_Database_DatabaseManager_GetCurrentDataTime_" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentDataTime*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseManager_GetCurrentDataTime" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentDataTime">GetCurrentDataTime()</h4>
+  <div class="markdown level1 summary"><p>Return the current data time with database format.
+<br> 傳回以數據庫格式顯示的目前日期及時間。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetCurrentDataTime()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseManager_GetCurrentPlayerSession_" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSession*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseManager_GetCurrentPlayerSession_System_Int32_" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSession(System.Int32)">GetCurrentPlayerSession(Int32)</h4>
+  <div class="markdown level1 summary"><p>Get current started player session.
+<br> 取得目前開始的玩家場節。</p>
+<p> GetCurrentPlayerSession(0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerSession GetCurrentPlayerSession(int playerID = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td><p>Player ID <br> 玩家識別碼</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.PlayerSession.html">PlayerSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseManager_GetCurrentPlayerSessions_" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSessions*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseManager_GetCurrentPlayerSessions" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSessions">GetCurrentPlayerSessions()</h4>
+  <div class="markdown level1 summary"><p>Get all the current started player sessions.
+<br> 取得目前開始的所有玩家場節。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;PlayerSession&gt; GetCurrentPlayerSessions()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vNet.Database.PlayerSession.html">PlayerSession</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vNet_Database_DatabaseManager_GetCurrentSession_" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentSession*"></a>
+  <h4 id="Votanic_vNet_Database_DatabaseManager_GetCurrentSession" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentSession">GetCurrentSession()</h4>
+  <div class="markdown level1 summary"><p>Get the current started session.
+<br> 取得目前開始的場節。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Session GetCurrentSession()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vNet.Database.Session.html">Session</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vNet_Database_DatabaseManager_GetCurrentSessionMetaInfo_" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentSessionMetaInfo*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseManager_GetCurrentSessionMetaInfo_System_String_System_Int32_System_String_System_String_" data-uid="Votanic.vNet.Database.DatabaseManager.GetCurrentSessionMetaInfo(System.String,System.Int32,System.String,System.String)">GetCurrentSessionMetaInfo(String, Int32, String, String)</h4>
   <div class="markdown level1 summary"><p>Get a neweset meta info from meta info list of current started session. Null and -1 parameter will be ignored.
@@ -1027,8 +1154,8 @@ public List&lt;TaskSetting&gt; tasks</code></pre>
   
   <a id="Votanic_vNet_Database_DatabaseManager_GetRecord_" data-uid="Votanic.vNet.Database.DatabaseManager.GetRecord*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseManager_GetRecord_System_Int32_System_String_" data-uid="Votanic.vNet.Database.DatabaseManager.GetRecord(System.Int32,System.String)">GetRecord(Int32, String)</h4>
-  <div class="markdown level1 summary"><p>Get a neweset record from record list. Null and -1 parameter will be ignored.
-<br> 在記錄列表中取得一個最新記錄。空及 -1 的參數將會無視。</p>
+  <div class="markdown level1 summary"><p>Get a neweset record from record list of current started session. Null and -1 parameter will be ignored.
+<br> 在目前開始場節的記錄列表中取得一個最新記錄。空及 -1 的參數將會無視。</p>
 <p> GetRecord() </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1079,8 +1206,8 @@ public List&lt;TaskSetting&gt; tasks</code></pre>
   
   <a id="Votanic_vNet_Database_DatabaseManager_GetRecord_" data-uid="Votanic.vNet.Database.DatabaseManager.GetRecord*"></a>
   <h4 id="Votanic_vNet_Database_DatabaseManager_GetRecord_Votanic_vNet_Database_Player_System_Int32_System_String_" data-uid="Votanic.vNet.Database.DatabaseManager.GetRecord(Votanic.vNet.Database.Player,System.Int32,System.String)">GetRecord(Player, Int32, String)</h4>
-  <div class="markdown level1 summary"><p>Remove a neweset record from record list. Null and -1 parameter will be ignored.
-<br> 在記錄列表中取得一個最新記錄。空及 -1 的參數將會無視。</p>
+  <div class="markdown level1 summary"><p>Remove a neweset record from record list of current started session. Null and -1 parameter will be ignored.
+<br> 在目前開始場節的記錄列表中取得一個最新記錄。空及 -1 的參數將會無視。</p>
 <p> GetRecord(player) </p>
 </div>
   <div class="markdown level1 conceptual"></div>

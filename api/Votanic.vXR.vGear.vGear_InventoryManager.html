@@ -103,7 +103,8 @@ public class vGear_InventoryManager : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool autoLoad</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Auto load the items data on start.\n&#22312;&#38283;&#22987;&#26178;&#33258;&#21205;&#35712;&#21462;&#25152;&#26377;&#29289;&#21697;&#25976;&#25818;&#12290;&quot;)]
+public bool autoLoad</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -326,6 +327,32 @@ public vGear_Panel quantityPanel</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="Votanic.vXR.vGear.vGear_Panel.html">vGear_Panel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_recordName" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.recordName">recordName</h4>
+  <div class="markdown level1 summary"><p>The auto load record name. <br> 自動讀取的記錄名稱。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The auto load record name.\n&#33258;&#21205;&#35712;&#21462;&#30340;&#35352;&#37636;&#21517;&#31281;&#12290;&quot;)]
+public string recordName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -610,16 +637,74 @@ public vGear_Panel quantityPanel</code></pre>
   </div>
   
   
-  <a id="Votanic_vXR_vGear_vGear_InventoryManager_Load_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Load*"></a>
-  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_Load" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Load">Load()</h4>
-  <div class="markdown level1 summary"><p>Load items data from json file.
-<br> 讀取 Json 檔案的物品數據。</p>
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_IsGeneratablesCreated_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.IsGeneratablesCreated*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_IsGeneratablesCreated" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.IsGeneratablesCreated">IsGeneratablesCreated()</h4>
+  <div class="markdown level1 summary"><p>Return true if a generatables is created.
+<br> 當可生成物產生時傳回 true。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Load()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsGeneratablesCreated()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vGear_vGear_InventoryManager_Load_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Load*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_Load_System_String_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Load(System.String,System.Boolean,System.Boolean)">Load(String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Load items data from json file.
+<br> 讀取 Json 檔案的物品數據。</p>
+<p> Load(&quot;Record 1&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(string recordName, bool loadInventory = true, bool loadGeneratables = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">recordName</span></td>
+        <td><p>Name of record <br> 記錄名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">loadInventory</span></td>
+        <td><p>Load inventories preset item data <br> 讀取庫存預設物品數據</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">loadGeneratables</span></td>
+        <td><p>Load scene generatables data <br> 讀取場景可生成物數據</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Votanic_vXR_vGear_vGear_InventoryManager_OpenQuantityPanel_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.OpenQuantityPanel*"></a>
@@ -697,15 +782,46 @@ public vGear_Panel quantityPanel</code></pre>
   
   
   <a id="Votanic_vXR_vGear_vGear_InventoryManager_Save_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Save*"></a>
-  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_Save" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Save">Save()</h4>
+  <h4 id="Votanic_vXR_vGear_vGear_InventoryManager_Save_System_String_System_Boolean_System_Boolean_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.Save(System.String,System.Boolean,System.Boolean)">Save(String, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Save items data to json file.
 <br> 儲存物品數據至 Json 檔案。</p>
+<p> Save(&quot;Record 1&quot;) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Save()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Save(string recordName, bool saveInventory = true, bool saveGeneratables = true)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">recordName</span></td>
+        <td><p>Name of record <br> 記錄名稱</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">saveInventory</span></td>
+        <td><p>Save inventories preset item data <br> 儲存庫存預設物品數據</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">saveGeneratables</span></td>
+        <td><p>Save scene generatables data <br> 儲存場景可生成物數據</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Votanic_vXR_vGear_vGear_InventoryManager_ShowCommands_" data-uid="Votanic.vXR.vGear.vGear_InventoryManager.ShowCommands*"></a>

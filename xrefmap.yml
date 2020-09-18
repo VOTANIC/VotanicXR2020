@@ -4110,6 +4110,19 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer.current
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.current
   nameWithType: MediaPlayer.current
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.currentMedia
+  name: currentMedia
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_currentMedia
+  commentId: P:Votanic.vMedia.MediaPlayer.MediaPlayer.currentMedia
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.currentMedia
+  nameWithType: MediaPlayer.currentMedia
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer.currentMedia*
+  name: currentMedia
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_currentMedia_
+  commentId: Overload:Votanic.vMedia.MediaPlayer.MediaPlayer.currentMedia
+  isSpec: "True"
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer.currentMedia
+  nameWithType: MediaPlayer.currentMedia
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer.defaultTexture
   name: defaultTexture
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer.html#Votanic_vMedia_MediaPlayer_MediaPlayer_defaultTexture
@@ -5095,6 +5108,19 @@ references:
   commentId: T:Votanic.vNet.Database.App
   fullName: Votanic.vNet.Database.App
   nameWithType: App
+- uid: Votanic.vNet.Database.App.AppID
+  name: AppID
+  href: api/Votanic.vNet.Database.App.html#Votanic_vNet_Database_App_AppID
+  commentId: P:Votanic.vNet.Database.App.AppID
+  fullName: Votanic.vNet.Database.App.AppID
+  nameWithType: App.AppID
+- uid: Votanic.vNet.Database.App.AppID*
+  name: AppID
+  href: api/Votanic.vNet.Database.App.html#Votanic_vNet_Database_App_AppID_
+  commentId: Overload:Votanic.vNet.Database.App.AppID
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.App.AppID
+  nameWithType: App.AppID
 - uid: Votanic.vNet.Database.App.Description
   name: Description
   href: api/Votanic.vNet.Database.App.html#Votanic_vNet_Database_App_Description
@@ -5108,19 +5134,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.App.Description
   nameWithType: App.Description
-- uid: Votanic.vNet.Database.App.ID
-  name: ID
-  href: api/Votanic.vNet.Database.App.html#Votanic_vNet_Database_App_ID
-  commentId: P:Votanic.vNet.Database.App.ID
-  fullName: Votanic.vNet.Database.App.ID
-  nameWithType: App.ID
-- uid: Votanic.vNet.Database.App.ID*
-  name: ID
-  href: api/Votanic.vNet.Database.App.html#Votanic_vNet_Database_App_ID_
-  commentId: Overload:Votanic.vNet.Database.App.ID
-  isSpec: "True"
-  fullName: Votanic.vNet.Database.App.ID
-  nameWithType: App.ID
 - uid: Votanic.vNet.Database.App.ImagePath
   name: ImagePath
   href: api/Votanic.vNet.Database.App.html#Votanic_vNet_Database_App_ImagePath
@@ -6842,6 +6855,58 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.DatabaseManager.EndSession
   nameWithType: DatabaseManager.EndSession
+- uid: Votanic.vNet.Database.DatabaseManager.GetCurrentDataTime
+  name: GetCurrentDataTime()
+  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetCurrentDataTime
+  commentId: M:Votanic.vNet.Database.DatabaseManager.GetCurrentDataTime
+  fullName: Votanic.vNet.Database.DatabaseManager.GetCurrentDataTime()
+  nameWithType: DatabaseManager.GetCurrentDataTime()
+- uid: Votanic.vNet.Database.DatabaseManager.GetCurrentDataTime*
+  name: GetCurrentDataTime
+  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetCurrentDataTime_
+  commentId: Overload:Votanic.vNet.Database.DatabaseManager.GetCurrentDataTime
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.DatabaseManager.GetCurrentDataTime
+  nameWithType: DatabaseManager.GetCurrentDataTime
+- uid: Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSession(System.Int32)
+  name: GetCurrentPlayerSession(Int32)
+  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetCurrentPlayerSession_System_Int32_
+  commentId: M:Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSession(System.Int32)
+  fullName: Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSession(System.Int32)
+  nameWithType: DatabaseManager.GetCurrentPlayerSession(Int32)
+- uid: Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSession*
+  name: GetCurrentPlayerSession
+  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetCurrentPlayerSession_
+  commentId: Overload:Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSession
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSession
+  nameWithType: DatabaseManager.GetCurrentPlayerSession
+- uid: Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSessions
+  name: GetCurrentPlayerSessions()
+  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetCurrentPlayerSessions
+  commentId: M:Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSessions
+  fullName: Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSessions()
+  nameWithType: DatabaseManager.GetCurrentPlayerSessions()
+- uid: Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSessions*
+  name: GetCurrentPlayerSessions
+  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetCurrentPlayerSessions_
+  commentId: Overload:Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSessions
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.DatabaseManager.GetCurrentPlayerSessions
+  nameWithType: DatabaseManager.GetCurrentPlayerSessions
+- uid: Votanic.vNet.Database.DatabaseManager.GetCurrentSession
+  name: GetCurrentSession()
+  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetCurrentSession
+  commentId: M:Votanic.vNet.Database.DatabaseManager.GetCurrentSession
+  fullName: Votanic.vNet.Database.DatabaseManager.GetCurrentSession()
+  nameWithType: DatabaseManager.GetCurrentSession()
+- uid: Votanic.vNet.Database.DatabaseManager.GetCurrentSession*
+  name: GetCurrentSession
+  href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetCurrentSession_
+  commentId: Overload:Votanic.vNet.Database.DatabaseManager.GetCurrentSession
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.DatabaseManager.GetCurrentSession
+  nameWithType: DatabaseManager.GetCurrentSession
 - uid: Votanic.vNet.Database.DatabaseManager.GetCurrentSessionMetaInfo(System.String,System.Int32,System.String,System.String)
   name: GetCurrentSessionMetaInfo(String, Int32, String, String)
   href: api/Votanic.vNet.Database.DatabaseManager.html#Votanic_vNet_Database_DatabaseManager_GetCurrentSessionMetaInfo_System_String_System_Int32_System_String_System_String_
@@ -7122,19 +7187,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.Enrollment.AppID
   nameWithType: Enrollment.AppID
-- uid: Votanic.vNet.Database.Enrollment.ID
-  name: ID
-  href: api/Votanic.vNet.Database.Enrollment.html#Votanic_vNet_Database_Enrollment_ID
-  commentId: P:Votanic.vNet.Database.Enrollment.ID
-  fullName: Votanic.vNet.Database.Enrollment.ID
-  nameWithType: Enrollment.ID
-- uid: Votanic.vNet.Database.Enrollment.ID*
-  name: ID
-  href: api/Votanic.vNet.Database.Enrollment.html#Votanic_vNet_Database_Enrollment_ID_
-  commentId: Overload:Votanic.vNet.Database.Enrollment.ID
+- uid: Votanic.vNet.Database.Enrollment.EnrollmentID
+  name: EnrollmentID
+  href: api/Votanic.vNet.Database.Enrollment.html#Votanic_vNet_Database_Enrollment_EnrollmentID
+  commentId: P:Votanic.vNet.Database.Enrollment.EnrollmentID
+  fullName: Votanic.vNet.Database.Enrollment.EnrollmentID
+  nameWithType: Enrollment.EnrollmentID
+- uid: Votanic.vNet.Database.Enrollment.EnrollmentID*
+  name: EnrollmentID
+  href: api/Votanic.vNet.Database.Enrollment.html#Votanic_vNet_Database_Enrollment_EnrollmentID_
+  commentId: Overload:Votanic.vNet.Database.Enrollment.EnrollmentID
   isSpec: "True"
-  fullName: Votanic.vNet.Database.Enrollment.ID
-  nameWithType: Enrollment.ID
+  fullName: Votanic.vNet.Database.Enrollment.EnrollmentID
+  nameWithType: Enrollment.EnrollmentID
 - uid: Votanic.vNet.Database.Enrollment.PlayerID
   name: PlayerID
   href: api/Votanic.vNet.Database.Enrollment.html#Votanic_vNet_Database_Enrollment_PlayerID
@@ -7203,19 +7268,6 @@ references:
   commentId: T:Votanic.vNet.Database.MetaInfo
   fullName: Votanic.vNet.Database.MetaInfo
   nameWithType: MetaInfo
-- uid: Votanic.vNet.Database.MetaInfo.ID
-  name: ID
-  href: api/Votanic.vNet.Database.MetaInfo.html#Votanic_vNet_Database_MetaInfo_ID
-  commentId: P:Votanic.vNet.Database.MetaInfo.ID
-  fullName: Votanic.vNet.Database.MetaInfo.ID
-  nameWithType: MetaInfo.ID
-- uid: Votanic.vNet.Database.MetaInfo.ID*
-  name: ID
-  href: api/Votanic.vNet.Database.MetaInfo.html#Votanic_vNet_Database_MetaInfo_ID_
-  commentId: Overload:Votanic.vNet.Database.MetaInfo.ID
-  isSpec: "True"
-  fullName: Votanic.vNet.Database.MetaInfo.ID
-  nameWithType: MetaInfo.ID
 - uid: Votanic.vNet.Database.MetaInfo.Key
   name: Key
   href: api/Votanic.vNet.Database.MetaInfo.html#Votanic_vNet_Database_MetaInfo_Key
@@ -7229,6 +7281,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.MetaInfo.Key
   nameWithType: MetaInfo.Key
+- uid: Votanic.vNet.Database.MetaInfo.MetaInfoID
+  name: MetaInfoID
+  href: api/Votanic.vNet.Database.MetaInfo.html#Votanic_vNet_Database_MetaInfo_MetaInfoID
+  commentId: P:Votanic.vNet.Database.MetaInfo.MetaInfoID
+  fullName: Votanic.vNet.Database.MetaInfo.MetaInfoID
+  nameWithType: MetaInfo.MetaInfoID
+- uid: Votanic.vNet.Database.MetaInfo.MetaInfoID*
+  name: MetaInfoID
+  href: api/Votanic.vNet.Database.MetaInfo.html#Votanic_vNet_Database_MetaInfo_MetaInfoID_
+  commentId: Overload:Votanic.vNet.Database.MetaInfo.MetaInfoID
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.MetaInfo.MetaInfoID
+  nameWithType: MetaInfo.MetaInfoID
 - uid: Votanic.vNet.Database.MetaInfo.RefID
   name: RefID
   href: api/Votanic.vNet.Database.MetaInfo.html#Votanic_vNet_Database_MetaInfo_RefID
@@ -7342,19 +7407,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.Player.FullName
   nameWithType: Player.FullName
-- uid: Votanic.vNet.Database.Player.ID
-  name: ID
-  href: api/Votanic.vNet.Database.Player.html#Votanic_vNet_Database_Player_ID
-  commentId: P:Votanic.vNet.Database.Player.ID
-  fullName: Votanic.vNet.Database.Player.ID
-  nameWithType: Player.ID
-- uid: Votanic.vNet.Database.Player.ID*
-  name: ID
-  href: api/Votanic.vNet.Database.Player.html#Votanic_vNet_Database_Player_ID_
-  commentId: Overload:Votanic.vNet.Database.Player.ID
-  isSpec: "True"
-  fullName: Votanic.vNet.Database.Player.ID
-  nameWithType: Player.ID
 - uid: Votanic.vNet.Database.Player.Password
   name: Password
   href: api/Votanic.vNet.Database.Player.html#Votanic_vNet_Database_Player_Password
@@ -7368,6 +7420,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.Player.Password
   nameWithType: Player.Password
+- uid: Votanic.vNet.Database.Player.PlayerID
+  name: PlayerID
+  href: api/Votanic.vNet.Database.Player.html#Votanic_vNet_Database_Player_PlayerID
+  commentId: P:Votanic.vNet.Database.Player.PlayerID
+  fullName: Votanic.vNet.Database.Player.PlayerID
+  nameWithType: Player.PlayerID
+- uid: Votanic.vNet.Database.Player.PlayerID*
+  name: PlayerID
+  href: api/Votanic.vNet.Database.Player.html#Votanic_vNet_Database_Player_PlayerID_
+  commentId: Overload:Votanic.vNet.Database.Player.PlayerID
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.Player.PlayerID
+  nameWithType: Player.PlayerID
 - uid: Votanic.vNet.Database.Player.Remark
   name: Remark
   href: api/Votanic.vNet.Database.Player.html#Votanic_vNet_Database_Player_Remark
@@ -7448,19 +7513,6 @@ references:
   commentId: T:Votanic.vNet.Database.PlayerSession
   fullName: Votanic.vNet.Database.PlayerSession
   nameWithType: PlayerSession
-- uid: Votanic.vNet.Database.PlayerSession.ID
-  name: ID
-  href: api/Votanic.vNet.Database.PlayerSession.html#Votanic_vNet_Database_PlayerSession_ID
-  commentId: P:Votanic.vNet.Database.PlayerSession.ID
-  fullName: Votanic.vNet.Database.PlayerSession.ID
-  nameWithType: PlayerSession.ID
-- uid: Votanic.vNet.Database.PlayerSession.ID*
-  name: ID
-  href: api/Votanic.vNet.Database.PlayerSession.html#Votanic_vNet_Database_PlayerSession_ID_
-  commentId: Overload:Votanic.vNet.Database.PlayerSession.ID
-  isSpec: "True"
-  fullName: Votanic.vNet.Database.PlayerSession.ID
-  nameWithType: PlayerSession.ID
 - uid: Votanic.vNet.Database.PlayerSession.PlayerID
   name: PlayerID
   href: api/Votanic.vNet.Database.PlayerSession.html#Votanic_vNet_Database_PlayerSession_PlayerID
@@ -7474,6 +7526,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.PlayerSession.PlayerID
   nameWithType: PlayerSession.PlayerID
+- uid: Votanic.vNet.Database.PlayerSession.PlayerSessionID
+  name: PlayerSessionID
+  href: api/Votanic.vNet.Database.PlayerSession.html#Votanic_vNet_Database_PlayerSession_PlayerSessionID
+  commentId: P:Votanic.vNet.Database.PlayerSession.PlayerSessionID
+  fullName: Votanic.vNet.Database.PlayerSession.PlayerSessionID
+  nameWithType: PlayerSession.PlayerSessionID
+- uid: Votanic.vNet.Database.PlayerSession.PlayerSessionID*
+  name: PlayerSessionID
+  href: api/Votanic.vNet.Database.PlayerSession.html#Votanic_vNet_Database_PlayerSession_PlayerSessionID_
+  commentId: Overload:Votanic.vNet.Database.PlayerSession.PlayerSessionID
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.PlayerSession.PlayerSessionID
+  nameWithType: PlayerSession.PlayerSessionID
 - uid: Votanic.vNet.Database.PlayerSession.SessionID
   name: SessionID
   href: api/Votanic.vNet.Database.PlayerSession.html#Votanic_vNet_Database_PlayerSession_SessionID
@@ -7555,19 +7620,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.Role.Description
   nameWithType: Role.Description
-- uid: Votanic.vNet.Database.Role.ID
-  name: ID
-  href: api/Votanic.vNet.Database.Role.html#Votanic_vNet_Database_Role_ID
-  commentId: P:Votanic.vNet.Database.Role.ID
-  fullName: Votanic.vNet.Database.Role.ID
-  nameWithType: Role.ID
-- uid: Votanic.vNet.Database.Role.ID*
-  name: ID
-  href: api/Votanic.vNet.Database.Role.html#Votanic_vNet_Database_Role_ID_
-  commentId: Overload:Votanic.vNet.Database.Role.ID
-  isSpec: "True"
-  fullName: Votanic.vNet.Database.Role.ID
-  nameWithType: Role.ID
 - uid: Votanic.vNet.Database.Role.Name
   name: Name
   href: api/Votanic.vNet.Database.Role.html#Votanic_vNet_Database_Role_Name
@@ -7581,6 +7633,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.Role.Name
   nameWithType: Role.Name
+- uid: Votanic.vNet.Database.Role.RoleID
+  name: RoleID
+  href: api/Votanic.vNet.Database.Role.html#Votanic_vNet_Database_Role_RoleID
+  commentId: P:Votanic.vNet.Database.Role.RoleID
+  fullName: Votanic.vNet.Database.Role.RoleID
+  nameWithType: Role.RoleID
+- uid: Votanic.vNet.Database.Role.RoleID*
+  name: RoleID
+  href: api/Votanic.vNet.Database.Role.html#Votanic_vNet_Database_Role_RoleID_
+  commentId: Overload:Votanic.vNet.Database.Role.RoleID
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.Role.RoleID
+  nameWithType: Role.RoleID
 - uid: Votanic.vNet.Database.RoleKey
   name: RoleKey
   href: api/Votanic.vNet.Database.RoleKey.html
@@ -7673,19 +7738,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.Session.End
   nameWithType: Session.End
-- uid: Votanic.vNet.Database.Session.ID
-  name: ID
-  href: api/Votanic.vNet.Database.Session.html#Votanic_vNet_Database_Session_ID
-  commentId: P:Votanic.vNet.Database.Session.ID
-  fullName: Votanic.vNet.Database.Session.ID
-  nameWithType: Session.ID
-- uid: Votanic.vNet.Database.Session.ID*
-  name: ID
-  href: api/Votanic.vNet.Database.Session.html#Votanic_vNet_Database_Session_ID_
-  commentId: Overload:Votanic.vNet.Database.Session.ID
+- uid: Votanic.vNet.Database.Session.SessionID
+  name: SessionID
+  href: api/Votanic.vNet.Database.Session.html#Votanic_vNet_Database_Session_SessionID
+  commentId: P:Votanic.vNet.Database.Session.SessionID
+  fullName: Votanic.vNet.Database.Session.SessionID
+  nameWithType: Session.SessionID
+- uid: Votanic.vNet.Database.Session.SessionID*
+  name: SessionID
+  href: api/Votanic.vNet.Database.Session.html#Votanic_vNet_Database_Session_SessionID_
+  commentId: Overload:Votanic.vNet.Database.Session.SessionID
   isSpec: "True"
-  fullName: Votanic.vNet.Database.Session.ID
-  nameWithType: Session.ID
+  fullName: Votanic.vNet.Database.Session.SessionID
+  nameWithType: Session.SessionID
 - uid: Votanic.vNet.Database.Session.Start
   name: Start
   href: api/Votanic.vNet.Database.Session.html#Votanic_vNet_Database_Session_Start
@@ -7705,19 +7770,6 @@ references:
   commentId: T:Votanic.vNet.Database.SessionDetail
   fullName: Votanic.vNet.Database.SessionDetail
   nameWithType: SessionDetail
-- uid: Votanic.vNet.Database.SessionDetail.ID
-  name: ID
-  href: api/Votanic.vNet.Database.SessionDetail.html#Votanic_vNet_Database_SessionDetail_ID
-  commentId: P:Votanic.vNet.Database.SessionDetail.ID
-  fullName: Votanic.vNet.Database.SessionDetail.ID
-  nameWithType: SessionDetail.ID
-- uid: Votanic.vNet.Database.SessionDetail.ID*
-  name: ID
-  href: api/Votanic.vNet.Database.SessionDetail.html#Votanic_vNet_Database_SessionDetail_ID_
-  commentId: Overload:Votanic.vNet.Database.SessionDetail.ID
-  isSpec: "True"
-  fullName: Votanic.vNet.Database.SessionDetail.ID
-  nameWithType: SessionDetail.ID
 - uid: Votanic.vNet.Database.SessionDetail.Index
   name: Index
   href: api/Votanic.vNet.Database.SessionDetail.html#Votanic_vNet_Database_SessionDetail_Index
@@ -7744,6 +7796,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.SessionDetail.PlayerSessionID
   nameWithType: SessionDetail.PlayerSessionID
+- uid: Votanic.vNet.Database.SessionDetail.SessionDetailID
+  name: SessionDetailID
+  href: api/Votanic.vNet.Database.SessionDetail.html#Votanic_vNet_Database_SessionDetail_SessionDetailID
+  commentId: P:Votanic.vNet.Database.SessionDetail.SessionDetailID
+  fullName: Votanic.vNet.Database.SessionDetail.SessionDetailID
+  nameWithType: SessionDetail.SessionDetailID
+- uid: Votanic.vNet.Database.SessionDetail.SessionDetailID*
+  name: SessionDetailID
+  href: api/Votanic.vNet.Database.SessionDetail.html#Votanic_vNet_Database_SessionDetail_SessionDetailID_
+  commentId: Overload:Votanic.vNet.Database.SessionDetail.SessionDetailID
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.SessionDetail.SessionDetailID
+  nameWithType: SessionDetail.SessionDetailID
 - uid: Votanic.vNet.Database.SessionDetail.TaskID
   name: TaskID
   href: api/Votanic.vNet.Database.SessionDetail.html#Votanic_vNet_Database_SessionDetail_TaskID
@@ -7911,19 +7976,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.Task.Description
   nameWithType: Task.Description
-- uid: Votanic.vNet.Database.Task.ID
-  name: ID
-  href: api/Votanic.vNet.Database.Task.html#Votanic_vNet_Database_Task_ID
-  commentId: P:Votanic.vNet.Database.Task.ID
-  fullName: Votanic.vNet.Database.Task.ID
-  nameWithType: Task.ID
-- uid: Votanic.vNet.Database.Task.ID*
-  name: ID
-  href: api/Votanic.vNet.Database.Task.html#Votanic_vNet_Database_Task_ID_
-  commentId: Overload:Votanic.vNet.Database.Task.ID
-  isSpec: "True"
-  fullName: Votanic.vNet.Database.Task.ID
-  nameWithType: Task.ID
 - uid: Votanic.vNet.Database.Task.Index
   name: Index
   href: api/Votanic.vNet.Database.Task.html#Votanic_vNet_Database_Task_Index
@@ -7963,6 +8015,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.Task.Score
   nameWithType: Task.Score
+- uid: Votanic.vNet.Database.Task.TaskID
+  name: TaskID
+  href: api/Votanic.vNet.Database.Task.html#Votanic_vNet_Database_Task_TaskID
+  commentId: P:Votanic.vNet.Database.Task.TaskID
+  fullName: Votanic.vNet.Database.Task.TaskID
+  nameWithType: Task.TaskID
+- uid: Votanic.vNet.Database.Task.TaskID*
+  name: TaskID
+  href: api/Votanic.vNet.Database.Task.html#Votanic_vNet_Database_Task_TaskID_
+  commentId: Overload:Votanic.vNet.Database.Task.TaskID
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.Task.TaskID
+  nameWithType: Task.TaskID
 - uid: Votanic.vNet.Database.TaskKey
   name: TaskKey
   href: api/Votanic.vNet.Database.TaskKey.html
@@ -8054,19 +8119,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.User.FullName
   nameWithType: User.FullName
-- uid: Votanic.vNet.Database.User.ID
-  name: ID
-  href: api/Votanic.vNet.Database.User.html#Votanic_vNet_Database_User_ID
-  commentId: P:Votanic.vNet.Database.User.ID
-  fullName: Votanic.vNet.Database.User.ID
-  nameWithType: User.ID
-- uid: Votanic.vNet.Database.User.ID*
-  name: ID
-  href: api/Votanic.vNet.Database.User.html#Votanic_vNet_Database_User_ID_
-  commentId: Overload:Votanic.vNet.Database.User.ID
-  isSpec: "True"
-  fullName: Votanic.vNet.Database.User.ID
-  nameWithType: User.ID
 - uid: Votanic.vNet.Database.User.Password
   name: Password
   href: api/Votanic.vNet.Database.User.html#Votanic_vNet_Database_User_Password
@@ -8119,6 +8171,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vNet.Database.User.SmartID
   nameWithType: User.SmartID
+- uid: Votanic.vNet.Database.User.UserID
+  name: UserID
+  href: api/Votanic.vNet.Database.User.html#Votanic_vNet_Database_User_UserID
+  commentId: P:Votanic.vNet.Database.User.UserID
+  fullName: Votanic.vNet.Database.User.UserID
+  nameWithType: User.UserID
+- uid: Votanic.vNet.Database.User.UserID*
+  name: UserID
+  href: api/Votanic.vNet.Database.User.html#Votanic_vNet_Database_User_UserID_
+  commentId: Overload:Votanic.vNet.Database.User.UserID
+  isSpec: "True"
+  fullName: Votanic.vNet.Database.User.UserID
+  nameWithType: User.UserID
 - uid: Votanic.vNet.Database.User.UserName
   name: UserName
   href: api/Votanic.vNet.Database.User.html#Votanic_vNet_Database_User_UserName
@@ -10362,6 +10427,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.Core.Info.fps
   nameWithType: Info.fps
+- uid: Votanic.vXR.vCast.Core.Info.frameTime
+  name: frameTime
+  href: api/Votanic.vXR.vCast.Core.Info.html#Votanic_vXR_vCast_Core_Info_frameTime
+  commentId: P:Votanic.vXR.vCast.Core.Info.frameTime
+  fullName: Votanic.vXR.vCast.Core.Info.frameTime
+  nameWithType: Info.frameTime
+- uid: Votanic.vXR.vCast.Core.Info.frameTime*
+  name: frameTime
+  href: api/Votanic.vXR.vCast.Core.Info.html#Votanic_vXR_vCast_Core_Info_frameTime_
+  commentId: Overload:Votanic.vXR.vCast.Core.Info.frameTime
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.Core.Info.frameTime
+  nameWithType: Info.frameTime
 - uid: Votanic.vXR.vCast.Core.InitialFading
   name: InitialFading
   href: api/Votanic.vXR.vCast.Core.InitialFading.html
@@ -12798,6 +12876,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Info.DisplayFPS
   nameWithType: vCast.Info.DisplayFPS
+- uid: Votanic.vXR.vCast.vCast.Info.DisplayLowFPS(System.Boolean,System.Int32)
+  name: DisplayLowFPS(Boolean, Int32)
+  href: api/Votanic.vXR.vCast.vCast.Info.html#Votanic_vXR_vCast_vCast_Info_DisplayLowFPS_System_Boolean_System_Int32_
+  commentId: M:Votanic.vXR.vCast.vCast.Info.DisplayLowFPS(System.Boolean,System.Int32)
+  fullName: Votanic.vXR.vCast.vCast.Info.DisplayLowFPS(System.Boolean, System.Int32)
+  nameWithType: vCast.Info.DisplayLowFPS(Boolean, Int32)
+- uid: Votanic.vXR.vCast.vCast.Info.DisplayLowFPS*
+  name: DisplayLowFPS
+  href: api/Votanic.vXR.vCast.vCast.Info.html#Votanic_vXR_vCast_vCast_Info_DisplayLowFPS_
+  commentId: Overload:Votanic.vXR.vCast.vCast.Info.DisplayLowFPS
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.Info.DisplayLowFPS
+  nameWithType: vCast.Info.DisplayLowFPS
 - uid: Votanic.vXR.vCast.vCast.Info.DisplayPrintLog(System.Boolean,System.Int32)
   name: DisplayPrintLog(Boolean, Int32)
   href: api/Votanic.vXR.vCast.vCast.Info.html#Votanic_vXR_vCast_vCast_Info_DisplayPrintLog_System_Boolean_System_Int32_
@@ -20318,18 +20409,31 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_InventoryManager.HideInfo
   nameWithType: vGear_InventoryManager.HideInfo
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.IsGeneratablesCreated
+  name: IsGeneratablesCreated()
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_IsGeneratablesCreated
+  commentId: M:Votanic.vXR.vGear.vGear_InventoryManager.IsGeneratablesCreated
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.IsGeneratablesCreated()
+  nameWithType: vGear_InventoryManager.IsGeneratablesCreated()
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.IsGeneratablesCreated*
+  name: IsGeneratablesCreated
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_IsGeneratablesCreated_
+  commentId: Overload:Votanic.vXR.vGear.vGear_InventoryManager.IsGeneratablesCreated
+  isSpec: "True"
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.IsGeneratablesCreated
+  nameWithType: vGear_InventoryManager.IsGeneratablesCreated
 - uid: Votanic.vXR.vGear.vGear_InventoryManager.items
   name: items
   href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_items
   commentId: F:Votanic.vXR.vGear.vGear_InventoryManager.items
   fullName: Votanic.vXR.vGear.vGear_InventoryManager.items
   nameWithType: vGear_InventoryManager.items
-- uid: Votanic.vXR.vGear.vGear_InventoryManager.Load
-  name: Load()
-  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_Load
-  commentId: M:Votanic.vXR.vGear.vGear_InventoryManager.Load
-  fullName: Votanic.vXR.vGear.vGear_InventoryManager.Load()
-  nameWithType: vGear_InventoryManager.Load()
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.Load(System.String,System.Boolean,System.Boolean)
+  name: Load(String, Boolean, Boolean)
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_Load_System_String_System_Boolean_System_Boolean_
+  commentId: M:Votanic.vXR.vGear.vGear_InventoryManager.Load(System.String,System.Boolean,System.Boolean)
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.Load(System.String, System.Boolean, System.Boolean)
+  nameWithType: vGear_InventoryManager.Load(String, Boolean, Boolean)
 - uid: Votanic.vXR.vGear.vGear_InventoryManager.Load*
   name: Load
   href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_Load_
@@ -20368,6 +20472,12 @@ references:
   commentId: F:Votanic.vXR.vGear.vGear_InventoryManager.quantityPanel
   fullName: Votanic.vXR.vGear.vGear_InventoryManager.quantityPanel
   nameWithType: vGear_InventoryManager.quantityPanel
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.recordName
+  name: recordName
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_recordName
+  commentId: F:Votanic.vXR.vGear.vGear_InventoryManager.recordName
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.recordName
+  nameWithType: vGear_InventoryManager.recordName
 - uid: Votanic.vXR.vGear.vGear_InventoryManager.ReduceQuantity(System.Boolean)
   name: ReduceQuantity(Boolean)
   href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_ReduceQuantity_System_Boolean_
@@ -20381,12 +20491,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_InventoryManager.ReduceQuantity
   nameWithType: vGear_InventoryManager.ReduceQuantity
-- uid: Votanic.vXR.vGear.vGear_InventoryManager.Save
-  name: Save()
-  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_Save
-  commentId: M:Votanic.vXR.vGear.vGear_InventoryManager.Save
-  fullName: Votanic.vXR.vGear.vGear_InventoryManager.Save()
-  nameWithType: vGear_InventoryManager.Save()
+- uid: Votanic.vXR.vGear.vGear_InventoryManager.Save(System.String,System.Boolean,System.Boolean)
+  name: Save(String, Boolean, Boolean)
+  href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_Save_System_String_System_Boolean_System_Boolean_
+  commentId: M:Votanic.vXR.vGear.vGear_InventoryManager.Save(System.String,System.Boolean,System.Boolean)
+  fullName: Votanic.vXR.vGear.vGear_InventoryManager.Save(System.String, System.Boolean, System.Boolean)
+  nameWithType: vGear_InventoryManager.Save(String, Boolean, Boolean)
 - uid: Votanic.vXR.vGear.vGear_InventoryManager.Save*
   name: Save
   href: api/Votanic.vXR.vGear.vGear_InventoryManager.html#Votanic_vXR_vGear_vGear_InventoryManager_Save_

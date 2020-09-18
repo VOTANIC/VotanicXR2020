@@ -322,14 +322,51 @@
   
   <a id="Votanic_vXR_vCast_vCast_Info_DisplayFPS_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayFPS*"></a>
   <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayFPS_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayFPS(System.Boolean,System.Int32)">DisplayFPS(Boolean, Int32)</h4>
-  <div class="markdown level1 summary"><p>Show or hide the FPS of the application.
-<br> 顯示或隱藏應用程式的幀數。</p>
+  <div class="markdown level1 summary"><p>Show or hide the average FPS for each Refresh of the application.
+<br> 顯示或隱藏應用程式每次刷新的平均幀數。</p>
 <p> DisplayFPS(true) </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void DisplayFPS(bool display, int index = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">display</span></td>
+        <td><p>Show if true <br> 當 true 時顯示</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of Info Wall <br> 資訊牆編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Info_DisplayLowFPS_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayLowFPS*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_DisplayLowFPS_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.DisplayLowFPS(System.Boolean,System.Int32)">DisplayLowFPS(Boolean, Int32)</h4>
+  <div class="markdown level1 summary"><p>Show or hide the lowest FPS for each Refresh of the application.
+<br> 顯示或隱藏應用程式每次刷新的最低幀數。</p>
+<p> DisplayLowFPS(true) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisplayLowFPS(bool display, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
