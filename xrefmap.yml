@@ -4725,6 +4725,25 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer360.logoElement
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.logoElement
   nameWithType: MediaPlayer360.logoElement
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.Mirror
+  name: Mirror()
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_Mirror
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer360.Mirror
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.Mirror()
+  nameWithType: MediaPlayer360.Mirror()
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.Mirror(System.Boolean,System.Boolean,System.Boolean)
+  name: Mirror(Boolean, Boolean, Boolean)
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_Mirror_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer360.Mirror(System.Boolean,System.Boolean,System.Boolean)
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.Mirror(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: MediaPlayer360.Mirror(Boolean, Boolean, Boolean)
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.Mirror*
+  name: Mirror
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_Mirror_
+  commentId: Overload:Votanic.vMedia.MediaPlayer.MediaPlayer360.Mirror
+  isSpec: "True"
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.Mirror
+  nameWithType: MediaPlayer360.Mirror
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.Pitch(System.Single)
   name: Pitch(Single)
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_Pitch_System_Single_
