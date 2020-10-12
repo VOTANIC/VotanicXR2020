@@ -96,10 +96,10 @@
       <a class="xref" href="Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_transform">Node.transform</a>
     </div>
     <div>
-      <a class="xref" href="Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_position">Node.position</a>
+      <a class="xref" href="Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_defaultPosition">Node.defaultPosition</a>
     </div>
     <div>
-      <a class="xref" href="Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_eulerAngles">Node.eulerAngles</a>
+      <a class="xref" href="Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_defaultEulerAngles">Node.defaultEulerAngles</a>
     </div>
     <div>
       <a class="xref" href="Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_SetParent_UnityEngine_Transform_">Node.SetParent(Transform)</a>
@@ -180,14 +180,40 @@
   </table>
   
   
-  <a id="Votanic_vXR_vCast_Core_Entity_trackPosition_" data-uid="Votanic.vXR.vCast.Core.Entity.trackPosition*"></a>
-  <h4 id="Votanic_vXR_vCast_Core_Entity_trackPosition" data-uid="Votanic.vXR.vCast.Core.Entity.trackPosition">trackPosition</h4>
+  <a id="Votanic_vXR_vCast_Core_Entity_eulerAngles_" data-uid="Votanic.vXR.vCast.Core.Entity.eulerAngles*"></a>
+  <h4 id="Votanic_vXR_vCast_Core_Entity_eulerAngles" data-uid="Votanic.vXR.vCast.Core.Entity.eulerAngles">eulerAngles</h4>
+  <div class="markdown level1 summary"><p>Current world space euler angles. <br> 目前在世界的角度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 eulerAngles { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_Core_Entity_isTrackPosition_" data-uid="Votanic.vXR.vCast.Core.Entity.isTrackPosition*"></a>
+  <h4 id="Votanic_vXR_vCast_Core_Entity_isTrackPosition" data-uid="Votanic.vXR.vCast.Core.Entity.isTrackPosition">isTrackPosition</h4>
   <div class="markdown level1 summary"><p>Track position of tracker if true. <br> 當 true 時追蹤定位器位置 。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool trackPosition { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool isTrackPosition { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -206,14 +232,14 @@
   </table>
   
   
-  <a id="Votanic_vXR_vCast_Core_Entity_trackRotation_" data-uid="Votanic.vXR.vCast.Core.Entity.trackRotation*"></a>
-  <h4 id="Votanic_vXR_vCast_Core_Entity_trackRotation" data-uid="Votanic.vXR.vCast.Core.Entity.trackRotation">trackRotation</h4>
+  <a id="Votanic_vXR_vCast_Core_Entity_isTrackRotation_" data-uid="Votanic.vXR.vCast.Core.Entity.isTrackRotation*"></a>
+  <h4 id="Votanic_vXR_vCast_Core_Entity_isTrackRotation" data-uid="Votanic.vXR.vCast.Core.Entity.isTrackRotation">isTrackRotation</h4>
   <div class="markdown level1 summary"><p>Track rotation of tracker if true. <br> 當 true 時追蹤定位器角度。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool trackRotation { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool isTrackRotation { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -226,6 +252,136 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_Core_Entity_localEulerAngles_" data-uid="Votanic.vXR.vCast.Core.Entity.localEulerAngles*"></a>
+  <h4 id="Votanic_vXR_vCast_Core_Entity_localEulerAngles" data-uid="Votanic.vXR.vCast.Core.Entity.localEulerAngles">localEulerAngles</h4>
+  <div class="markdown level1 summary"><p>Current local euler angles in parent. <br> 目前在母物件的角度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 localEulerAngles { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_Core_Entity_localPosition_" data-uid="Votanic.vXR.vCast.Core.Entity.localPosition*"></a>
+  <h4 id="Votanic_vXR_vCast_Core_Entity_localPosition" data-uid="Votanic.vXR.vCast.Core.Entity.localPosition">localPosition</h4>
+  <div class="markdown level1 summary"><p>Current local position in parent. <br> 目前在母物件的位置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 localPosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_Core_Entity_localRotation_" data-uid="Votanic.vXR.vCast.Core.Entity.localRotation*"></a>
+  <h4 id="Votanic_vXR_vCast_Core_Entity_localRotation" data-uid="Votanic.vXR.vCast.Core.Entity.localRotation">localRotation</h4>
+  <div class="markdown level1 summary"><p>Current local rotation in parent. <br> 目前在母物件的旋轉。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion localRotation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_Core_Entity_position_" data-uid="Votanic.vXR.vCast.Core.Entity.position*"></a>
+  <h4 id="Votanic_vXR_vCast_Core_Entity_position" data-uid="Votanic.vXR.vCast.Core.Entity.position">position</h4>
+  <div class="markdown level1 summary"><p>Current world space position. <br> 目前在世界的位置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 position { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_Core_Entity_rotation_" data-uid="Votanic.vXR.vCast.Core.Entity.rotation*"></a>
+  <h4 id="Votanic_vXR_vCast_Core_Entity_rotation" data-uid="Votanic.vXR.vCast.Core.Entity.rotation">rotation</h4>
+  <div class="markdown level1 summary"><p>Current world space rotation. <br> 目前在世界的旋轉。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion rotation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
         <td></td>
       </tr>
     </tbody>

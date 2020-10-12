@@ -10200,6 +10200,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.Core.Entity.EnableTracking
   nameWithType: Entity.EnableTracking
+- uid: Votanic.vXR.vCast.Core.Entity.eulerAngles
+  name: eulerAngles
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_eulerAngles
+  commentId: P:Votanic.vXR.vCast.Core.Entity.eulerAngles
+  fullName: Votanic.vXR.vCast.Core.Entity.eulerAngles
+  nameWithType: Entity.eulerAngles
+- uid: Votanic.vXR.vCast.Core.Entity.eulerAngles*
+  name: eulerAngles
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_eulerAngles_
+  commentId: Overload:Votanic.vXR.vCast.Core.Entity.eulerAngles
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.Core.Entity.eulerAngles
+  nameWithType: Entity.eulerAngles
 - uid: Votanic.vXR.vCast.Core.Entity.GetTracker
   name: GetTracker()
   href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_GetTracker
@@ -10213,12 +10226,90 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.Core.Entity.GetTracker
   nameWithType: Entity.GetTracker
+- uid: Votanic.vXR.vCast.Core.Entity.isTrackPosition
+  name: isTrackPosition
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_isTrackPosition
+  commentId: P:Votanic.vXR.vCast.Core.Entity.isTrackPosition
+  fullName: Votanic.vXR.vCast.Core.Entity.isTrackPosition
+  nameWithType: Entity.isTrackPosition
+- uid: Votanic.vXR.vCast.Core.Entity.isTrackPosition*
+  name: isTrackPosition
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_isTrackPosition_
+  commentId: Overload:Votanic.vXR.vCast.Core.Entity.isTrackPosition
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.Core.Entity.isTrackPosition
+  nameWithType: Entity.isTrackPosition
+- uid: Votanic.vXR.vCast.Core.Entity.isTrackRotation
+  name: isTrackRotation
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_isTrackRotation
+  commentId: P:Votanic.vXR.vCast.Core.Entity.isTrackRotation
+  fullName: Votanic.vXR.vCast.Core.Entity.isTrackRotation
+  nameWithType: Entity.isTrackRotation
+- uid: Votanic.vXR.vCast.Core.Entity.isTrackRotation*
+  name: isTrackRotation
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_isTrackRotation_
+  commentId: Overload:Votanic.vXR.vCast.Core.Entity.isTrackRotation
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.Core.Entity.isTrackRotation
+  nameWithType: Entity.isTrackRotation
+- uid: Votanic.vXR.vCast.Core.Entity.localEulerAngles
+  name: localEulerAngles
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_localEulerAngles
+  commentId: P:Votanic.vXR.vCast.Core.Entity.localEulerAngles
+  fullName: Votanic.vXR.vCast.Core.Entity.localEulerAngles
+  nameWithType: Entity.localEulerAngles
+- uid: Votanic.vXR.vCast.Core.Entity.localEulerAngles*
+  name: localEulerAngles
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_localEulerAngles_
+  commentId: Overload:Votanic.vXR.vCast.Core.Entity.localEulerAngles
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.Core.Entity.localEulerAngles
+  nameWithType: Entity.localEulerAngles
+- uid: Votanic.vXR.vCast.Core.Entity.localPosition
+  name: localPosition
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_localPosition
+  commentId: P:Votanic.vXR.vCast.Core.Entity.localPosition
+  fullName: Votanic.vXR.vCast.Core.Entity.localPosition
+  nameWithType: Entity.localPosition
+- uid: Votanic.vXR.vCast.Core.Entity.localPosition*
+  name: localPosition
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_localPosition_
+  commentId: Overload:Votanic.vXR.vCast.Core.Entity.localPosition
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.Core.Entity.localPosition
+  nameWithType: Entity.localPosition
+- uid: Votanic.vXR.vCast.Core.Entity.localRotation
+  name: localRotation
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_localRotation
+  commentId: P:Votanic.vXR.vCast.Core.Entity.localRotation
+  fullName: Votanic.vXR.vCast.Core.Entity.localRotation
+  nameWithType: Entity.localRotation
+- uid: Votanic.vXR.vCast.Core.Entity.localRotation*
+  name: localRotation
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_localRotation_
+  commentId: Overload:Votanic.vXR.vCast.Core.Entity.localRotation
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.Core.Entity.localRotation
+  nameWithType: Entity.localRotation
 - uid: Votanic.vXR.vCast.Core.Entity.lostTracking
   name: lostTracking
   href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_lostTracking
   commentId: F:Votanic.vXR.vCast.Core.Entity.lostTracking
   fullName: Votanic.vXR.vCast.Core.Entity.lostTracking
   nameWithType: Entity.lostTracking
+- uid: Votanic.vXR.vCast.Core.Entity.position
+  name: position
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_position
+  commentId: P:Votanic.vXR.vCast.Core.Entity.position
+  fullName: Votanic.vXR.vCast.Core.Entity.position
+  nameWithType: Entity.position
+- uid: Votanic.vXR.vCast.Core.Entity.position*
+  name: position
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_position_
+  commentId: Overload:Votanic.vXR.vCast.Core.Entity.position
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.Core.Entity.position
+  nameWithType: Entity.position
 - uid: Votanic.vXR.vCast.Core.Entity.ResetTransform
   name: ResetTransform()
   href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_ResetTransform
@@ -10232,6 +10323,19 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.Core.Entity.ResetTransform
   nameWithType: Entity.ResetTransform
+- uid: Votanic.vXR.vCast.Core.Entity.rotation
+  name: rotation
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_rotation
+  commentId: P:Votanic.vXR.vCast.Core.Entity.rotation
+  fullName: Votanic.vXR.vCast.Core.Entity.rotation
+  nameWithType: Entity.rotation
+- uid: Votanic.vXR.vCast.Core.Entity.rotation*
+  name: rotation
+  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_rotation_
+  commentId: Overload:Votanic.vXR.vCast.Core.Entity.rotation
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.Core.Entity.rotation
+  nameWithType: Entity.rotation
 - uid: Votanic.vXR.vCast.Core.Entity.SetEulerAngles(UnityEngine.Vector3)
   name: SetEulerAngles(Vector3)
   href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_SetEulerAngles_UnityEngine_Vector3_
@@ -10302,25 +10406,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.Core.Entity.SetTransform
   nameWithType: Entity.SetTransform
-- uid: Votanic.vXR.vCast.Core.Entity.trackPosition
-  name: trackPosition
-  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_trackPosition
-  commentId: P:Votanic.vXR.vCast.Core.Entity.trackPosition
-  fullName: Votanic.vXR.vCast.Core.Entity.trackPosition
-  nameWithType: Entity.trackPosition
 - uid: Votanic.vXR.vCast.Core.Entity.TrackPosition(System.Boolean)
   name: TrackPosition(Boolean)
   href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_TrackPosition_System_Boolean_
   commentId: M:Votanic.vXR.vCast.Core.Entity.TrackPosition(System.Boolean)
   fullName: Votanic.vXR.vCast.Core.Entity.TrackPosition(System.Boolean)
   nameWithType: Entity.TrackPosition(Boolean)
-- uid: Votanic.vXR.vCast.Core.Entity.trackPosition*
-  name: trackPosition
-  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_trackPosition_
-  commentId: Overload:Votanic.vXR.vCast.Core.Entity.trackPosition
-  isSpec: "True"
-  fullName: Votanic.vXR.vCast.Core.Entity.trackPosition
-  nameWithType: Entity.trackPosition
 - uid: Votanic.vXR.vCast.Core.Entity.TrackPosition*
   name: TrackPosition
   href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_TrackPosition_
@@ -10328,25 +10419,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.Core.Entity.TrackPosition
   nameWithType: Entity.TrackPosition
-- uid: Votanic.vXR.vCast.Core.Entity.trackRotation
-  name: trackRotation
-  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_trackRotation
-  commentId: P:Votanic.vXR.vCast.Core.Entity.trackRotation
-  fullName: Votanic.vXR.vCast.Core.Entity.trackRotation
-  nameWithType: Entity.trackRotation
 - uid: Votanic.vXR.vCast.Core.Entity.TrackRotation(System.Boolean)
   name: TrackRotation(Boolean)
   href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_TrackRotation_System_Boolean_
   commentId: M:Votanic.vXR.vCast.Core.Entity.TrackRotation(System.Boolean)
   fullName: Votanic.vXR.vCast.Core.Entity.TrackRotation(System.Boolean)
   nameWithType: Entity.TrackRotation(Boolean)
-- uid: Votanic.vXR.vCast.Core.Entity.trackRotation*
-  name: trackRotation
-  href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_trackRotation_
-  commentId: Overload:Votanic.vXR.vCast.Core.Entity.trackRotation
-  isSpec: "True"
-  fullName: Votanic.vXR.vCast.Core.Entity.trackRotation
-  nameWithType: Entity.trackRotation
 - uid: Votanic.vXR.vCast.Core.Entity.TrackRotation*
   name: TrackRotation
   href: api/Votanic.vXR.vCast.Core.Entity.html#Votanic_vXR_vCast_Core_Entity_TrackRotation_
@@ -10653,19 +10731,32 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.Core.Node.Node
   nameWithType: Node.Node
-- uid: Votanic.vXR.vCast.Core.Node.eulerAngles
-  name: eulerAngles
-  href: api/Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_eulerAngles
-  commentId: P:Votanic.vXR.vCast.Core.Node.eulerAngles
-  fullName: Votanic.vXR.vCast.Core.Node.eulerAngles
-  nameWithType: Node.eulerAngles
-- uid: Votanic.vXR.vCast.Core.Node.eulerAngles*
-  name: eulerAngles
-  href: api/Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_eulerAngles_
-  commentId: Overload:Votanic.vXR.vCast.Core.Node.eulerAngles
+- uid: Votanic.vXR.vCast.Core.Node.defaultEulerAngles
+  name: defaultEulerAngles
+  href: api/Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_defaultEulerAngles
+  commentId: P:Votanic.vXR.vCast.Core.Node.defaultEulerAngles
+  fullName: Votanic.vXR.vCast.Core.Node.defaultEulerAngles
+  nameWithType: Node.defaultEulerAngles
+- uid: Votanic.vXR.vCast.Core.Node.defaultEulerAngles*
+  name: defaultEulerAngles
+  href: api/Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_defaultEulerAngles_
+  commentId: Overload:Votanic.vXR.vCast.Core.Node.defaultEulerAngles
   isSpec: "True"
-  fullName: Votanic.vXR.vCast.Core.Node.eulerAngles
-  nameWithType: Node.eulerAngles
+  fullName: Votanic.vXR.vCast.Core.Node.defaultEulerAngles
+  nameWithType: Node.defaultEulerAngles
+- uid: Votanic.vXR.vCast.Core.Node.defaultPosition
+  name: defaultPosition
+  href: api/Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_defaultPosition
+  commentId: P:Votanic.vXR.vCast.Core.Node.defaultPosition
+  fullName: Votanic.vXR.vCast.Core.Node.defaultPosition
+  nameWithType: Node.defaultPosition
+- uid: Votanic.vXR.vCast.Core.Node.defaultPosition*
+  name: defaultPosition
+  href: api/Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_defaultPosition_
+  commentId: Overload:Votanic.vXR.vCast.Core.Node.defaultPosition
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.Core.Node.defaultPosition
+  nameWithType: Node.defaultPosition
 - uid: Votanic.vXR.vCast.Core.Node.gameObject
   name: gameObject
   href: api/Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_gameObject
@@ -10692,19 +10783,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.Core.Node.parent
   nameWithType: Node.parent
-- uid: Votanic.vXR.vCast.Core.Node.position
-  name: position
-  href: api/Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_position
-  commentId: P:Votanic.vXR.vCast.Core.Node.position
-  fullName: Votanic.vXR.vCast.Core.Node.position
-  nameWithType: Node.position
-- uid: Votanic.vXR.vCast.Core.Node.position*
-  name: position
-  href: api/Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_position_
-  commentId: Overload:Votanic.vXR.vCast.Core.Node.position
-  isSpec: "True"
-  fullName: Votanic.vXR.vCast.Core.Node.position
-  nameWithType: Node.position
 - uid: Votanic.vXR.vCast.Core.Node.SetParent(System.String)
   name: SetParent(String)
   href: api/Votanic.vXR.vCast.Core.Node.html#Votanic_vXR_vCast_Core_Node_SetParent_System_String_
@@ -13702,6 +13780,25 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vCast.vCast.Menu
   nameWithType: vCast.Menu
+- uid: Votanic.vXR.vCast.vCast.MountScreen(Votanic.vXR.vCast.Core.Screen,UnityEngine.Transform,System.Boolean)
+  name: MountScreen(Screen, Transform, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_MountScreen_Votanic_vXR_vCast_Core_Screen_UnityEngine_Transform_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.MountScreen(Votanic.vXR.vCast.Core.Screen,UnityEngine.Transform,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.MountScreen(Votanic.vXR.vCast.Core.Screen, UnityEngine.Transform, System.Boolean)
+  nameWithType: vCast.MountScreen(Screen, Transform, Boolean)
+- uid: Votanic.vXR.vCast.vCast.MountScreen(Votanic.vXR.vCast.Core.Screen,UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean)
+  name: MountScreen(Screen, Transform, Vector3, Vector3, Boolean)
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_MountScreen_Votanic_vXR_vCast_Core_Screen_UnityEngine_Transform_UnityEngine_Vector3_UnityEngine_Vector3_System_Boolean_
+  commentId: M:Votanic.vXR.vCast.vCast.MountScreen(Votanic.vXR.vCast.Core.Screen,UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean)
+  fullName: Votanic.vXR.vCast.vCast.MountScreen(Votanic.vXR.vCast.Core.Screen, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Vector3, System.Boolean)
+  nameWithType: vCast.MountScreen(Screen, Transform, Vector3, Vector3, Boolean)
+- uid: Votanic.vXR.vCast.vCast.MountScreen*
+  name: MountScreen
+  href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_MountScreen_
+  commentId: Overload:Votanic.vXR.vCast.vCast.MountScreen
+  isSpec: "True"
+  fullName: Votanic.vXR.vCast.vCast.MountScreen
+  nameWithType: vCast.MountScreen
 - uid: Votanic.vXR.vCast.vCast.referenceConfig
   name: referenceConfig
   href: api/Votanic.vXR.vCast.vCast.html#Votanic_vXR_vCast_vCast_referenceConfig
@@ -15101,6 +15198,12 @@ references:
   commentId: F:Votanic.vXR.vCast.vCast_Teleport.projectile
   fullName: Votanic.vXR.vCast.vCast_Teleport.projectile
   nameWithType: vCast_Teleport.projectile
+- uid: Votanic.vXR.vCast.vCast_Teleport.resetVelocity
+  name: resetVelocity
+  href: api/Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_resetVelocity
+  commentId: F:Votanic.vXR.vCast.vCast_Teleport.resetVelocity
+  fullName: Votanic.vXR.vCast.vCast_Teleport.resetVelocity
+  nameWithType: vCast_Teleport.resetVelocity
 - uid: Votanic.vXR.vCast.vCast_Teleport.rotateSpeed
   name: rotateSpeed
   href: api/Votanic.vXR.vCast.vCast_Teleport.html#Votanic_vXR_vCast_vCast_Teleport_rotateSpeed
@@ -21898,6 +22001,12 @@ references:
   isSpec: "True"
   fullName: Votanic.vXR.vGear.vGear_Teleport.CollisionMode
   nameWithType: vGear_Teleport.CollisionMode
+- uid: Votanic.vXR.vGear.vGear_Teleport.resetHeightOffset
+  name: resetHeightOffset
+  href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_resetHeightOffset
+  commentId: F:Votanic.vXR.vGear.vGear_Teleport.resetHeightOffset
+  fullName: Votanic.vXR.vGear.vGear_Teleport.resetHeightOffset
+  nameWithType: vGear_Teleport.resetHeightOffset
 - uid: Votanic.vXR.vGear.vGear_Teleport.SetHeightOffset(System.Single)
   name: SetHeightOffset(Single)
   href: api/Votanic.vXR.vGear.vGear_Teleport.html#Votanic_vXR_vGear_vGear_Teleport_SetHeightOffset_System_Single_
