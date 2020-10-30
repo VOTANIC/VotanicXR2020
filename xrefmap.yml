@@ -1693,18 +1693,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vIO.OpenVR.OpenVRHandler.OpenVRHandler
   nameWithType: OpenVRHandler.OpenVRHandler
-- uid: Votanic.vIO.OpenVR.OpenVRHandler.axesDeadZone
-  name: axesDeadZone
-  href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler_axesDeadZone
-  commentId: F:Votanic.vIO.OpenVR.OpenVRHandler.axesDeadZone
-  fullName: Votanic.vIO.OpenVR.OpenVRHandler.axesDeadZone
-  nameWithType: OpenVRHandler.axesDeadZone
-- uid: Votanic.vIO.OpenVR.OpenVRHandler.axesPressDetect
-  name: axesPressDetect
-  href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler_axesPressDetect
-  commentId: F:Votanic.vIO.OpenVR.OpenVRHandler.axesPressDetect
-  fullName: Votanic.vIO.OpenVR.OpenVRHandler.axesPressDetect
-  nameWithType: OpenVRHandler.axesPressDetect
 - uid: Votanic.vIO.OpenVR.OpenVRHandler.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)
   name: AxisDown(Int32, AxisDirection, Int32, Boolean, AssistButtons)
   href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler_AxisDown_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_
@@ -1900,12 +1888,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vIO.OpenVR.OpenVRHandler.Finalize
   nameWithType: OpenVRHandler.Finalize
-- uid: Votanic.vIO.OpenVR.OpenVRHandler.holdingDuration
-  name: holdingDuration
-  href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler_holdingDuration
-  commentId: F:Votanic.vIO.OpenVR.OpenVRHandler.holdingDuration
-  fullName: Votanic.vIO.OpenVR.OpenVRHandler.holdingDuration
-  nameWithType: OpenVRHandler.holdingDuration
 - uid: Votanic.vIO.OpenVR.OpenVRHandler.lockPhysicsUpdateRateToRenderFrequency
   name: lockPhysicsUpdateRateToRenderFrequency
   href: api/Votanic.vIO.OpenVR.OpenVRHandler.html#Votanic_vIO_OpenVR_OpenVRHandler_lockPhysicsUpdateRateToRenderFrequency
@@ -2041,6 +2023,24 @@ references:
   commentId: T:Votanic.vIO.OpenVR.OpenVRManager
   fullName: Votanic.vIO.OpenVR.OpenVRManager
   nameWithType: OpenVRManager
+- uid: Votanic.vIO.OpenVR.OpenVRManager.axesDeadZone
+  name: axesDeadZone
+  href: api/Votanic.vIO.OpenVR.OpenVRManager.html#Votanic_vIO_OpenVR_OpenVRManager_axesDeadZone
+  commentId: F:Votanic.vIO.OpenVR.OpenVRManager.axesDeadZone
+  fullName: Votanic.vIO.OpenVR.OpenVRManager.axesDeadZone
+  nameWithType: OpenVRManager.axesDeadZone
+- uid: Votanic.vIO.OpenVR.OpenVRManager.axesPressDetect
+  name: axesPressDetect
+  href: api/Votanic.vIO.OpenVR.OpenVRManager.html#Votanic_vIO_OpenVR_OpenVRManager_axesPressDetect
+  commentId: F:Votanic.vIO.OpenVR.OpenVRManager.axesPressDetect
+  fullName: Votanic.vIO.OpenVR.OpenVRManager.axesPressDetect
+  nameWithType: OpenVRManager.axesPressDetect
+- uid: Votanic.vIO.OpenVR.OpenVRManager.holdingDuration
+  name: holdingDuration
+  href: api/Votanic.vIO.OpenVR.OpenVRManager.html#Votanic_vIO_OpenVR_OpenVRManager_holdingDuration
+  commentId: F:Votanic.vIO.OpenVR.OpenVRManager.holdingDuration
+  fullName: Votanic.vIO.OpenVR.OpenVRManager.holdingDuration
+  nameWithType: OpenVRManager.holdingDuration
 - uid: Votanic.vIO.OpenVR.OpenVRManager.Input
   name: Input
   href: api/Votanic.vIO.OpenVR.OpenVRManager.html#Votanic_vIO_OpenVR_OpenVRManager_Input
@@ -2054,6 +2054,24 @@ references:
   isSpec: "True"
   fullName: Votanic.vIO.OpenVR.OpenVRManager.Input
   nameWithType: OpenVRManager.Input
+- uid: Votanic.vIO.OpenVR.OpenVRManager.lockPhysicsUpdateRateToRenderFrequency
+  name: lockPhysicsUpdateRateToRenderFrequency
+  href: api/Votanic.vIO.OpenVR.OpenVRManager.html#Votanic_vIO_OpenVR_OpenVRManager_lockPhysicsUpdateRateToRenderFrequency
+  commentId: F:Votanic.vIO.OpenVR.OpenVRManager.lockPhysicsUpdateRateToRenderFrequency
+  fullName: Votanic.vIO.OpenVR.OpenVRManager.lockPhysicsUpdateRateToRenderFrequency
+  nameWithType: OpenVRManager.lockPhysicsUpdateRateToRenderFrequency
+- uid: Votanic.vIO.OpenVR.OpenVRManager.roleSystemOnStart
+  name: roleSystemOnStart
+  href: api/Votanic.vIO.OpenVR.OpenVRManager.html#Votanic_vIO_OpenVR_OpenVRManager_roleSystemOnStart
+  commentId: F:Votanic.vIO.OpenVR.OpenVRManager.roleSystemOnStart
+  fullName: Votanic.vIO.OpenVR.OpenVRManager.roleSystemOnStart
+  nameWithType: OpenVRManager.roleSystemOnStart
+- uid: Votanic.vIO.OpenVR.OpenVRManager.trackingSpace
+  name: trackingSpace
+  href: api/Votanic.vIO.OpenVR.OpenVRManager.html#Votanic_vIO_OpenVR_OpenVRManager_trackingSpace
+  commentId: F:Votanic.vIO.OpenVR.OpenVRManager.trackingSpace
+  fullName: Votanic.vIO.OpenVR.OpenVRManager.trackingSpace
+  nameWithType: OpenVRManager.trackingSpace
 - uid: Votanic.vIO.OpenVR.OpenVRModel
   name: OpenVRModel
   href: api/Votanic.vIO.OpenVR.OpenVRModel.html
@@ -2825,18 +2843,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vIO.VInput.VInputHandler.VInputHandler
   nameWithType: VInputHandler.VInputHandler
-- uid: Votanic.vIO.VInput.VInputHandler.axesDeadZone
-  name: axesDeadZone
-  href: api/Votanic.vIO.VInput.VInputHandler.html#Votanic_vIO_VInput_VInputHandler_axesDeadZone
-  commentId: F:Votanic.vIO.VInput.VInputHandler.axesDeadZone
-  fullName: Votanic.vIO.VInput.VInputHandler.axesDeadZone
-  nameWithType: VInputHandler.axesDeadZone
-- uid: Votanic.vIO.VInput.VInputHandler.axesPressDetect
-  name: axesPressDetect
-  href: api/Votanic.vIO.VInput.VInputHandler.html#Votanic_vIO_VInput_VInputHandler_axesPressDetect
-  commentId: F:Votanic.vIO.VInput.VInputHandler.axesPressDetect
-  fullName: Votanic.vIO.VInput.VInputHandler.axesPressDetect
-  nameWithType: VInputHandler.axesPressDetect
 - uid: Votanic.vIO.VInput.VInputHandler.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)
   name: AxisDown(Int32, AxisDirection, Int32, Boolean, AssistButtons)
   href: api/Votanic.vIO.VInput.VInputHandler.html#Votanic_vIO_VInput_VInputHandler_AxisDown_System_Int32_Votanic_vIO_AxisDirection_System_Int32_System_Boolean_Votanic_vIO_AssistButtons_
@@ -3058,12 +3064,6 @@ references:
   isSpec: "True"
   fullName: Votanic.vIO.VInput.VInputHandler.GetControllers
   nameWithType: VInputHandler.GetControllers
-- uid: Votanic.vIO.VInput.VInputHandler.holdingDuration
-  name: holdingDuration
-  href: api/Votanic.vIO.VInput.VInputHandler.html#Votanic_vIO_VInput_VInputHandler_holdingDuration
-  commentId: F:Votanic.vIO.VInput.VInputHandler.holdingDuration
-  fullName: Votanic.vIO.VInput.VInputHandler.holdingDuration
-  nameWithType: VInputHandler.holdingDuration
 - uid: Votanic.vIO.VInput.VInputHandler.Key(UnityEngine.KeyCode)
   name: Key(KeyCode)
   href: api/Votanic.vIO.VInput.VInputHandler.html#Votanic_vIO_VInput_VInputHandler_Key_UnityEngine_KeyCode_
@@ -3360,6 +3360,24 @@ references:
   commentId: T:Votanic.vIO.VInput.VInputManager
   fullName: Votanic.vIO.VInput.VInputManager
   nameWithType: VInputManager
+- uid: Votanic.vIO.VInput.VInputManager.axesDeadZone
+  name: axesDeadZone
+  href: api/Votanic.vIO.VInput.VInputManager.html#Votanic_vIO_VInput_VInputManager_axesDeadZone
+  commentId: F:Votanic.vIO.VInput.VInputManager.axesDeadZone
+  fullName: Votanic.vIO.VInput.VInputManager.axesDeadZone
+  nameWithType: VInputManager.axesDeadZone
+- uid: Votanic.vIO.VInput.VInputManager.axesPressDetect
+  name: axesPressDetect
+  href: api/Votanic.vIO.VInput.VInputManager.html#Votanic_vIO_VInput_VInputManager_axesPressDetect
+  commentId: F:Votanic.vIO.VInput.VInputManager.axesPressDetect
+  fullName: Votanic.vIO.VInput.VInputManager.axesPressDetect
+  nameWithType: VInputManager.axesPressDetect
+- uid: Votanic.vIO.VInput.VInputManager.holdingDuration
+  name: holdingDuration
+  href: api/Votanic.vIO.VInput.VInputManager.html#Votanic_vIO_VInput_VInputManager_holdingDuration
+  commentId: F:Votanic.vIO.VInput.VInputManager.holdingDuration
+  fullName: Votanic.vIO.VInput.VInputManager.holdingDuration
+  nameWithType: VInputManager.holdingDuration
 - uid: Votanic.vIO.VInput.VInputManager.Input
   name: Input
   href: api/Votanic.vIO.VInput.VInputManager.html#Votanic_vIO_VInput_VInputManager_Input
@@ -3481,12 +3499,6 @@ references:
   commentId: T:Votanic.vIO.VRPN.VRPNHandler
   fullName: Votanic.vIO.VRPN.VRPNHandler
   nameWithType: VRPNHandler
-- uid: Votanic.vIO.VRPN.VRPNHandler.#ctor
-  name: VRPNHandler()
-  href: api/Votanic.vIO.VRPN.VRPNHandler.html#Votanic_vIO_VRPN_VRPNHandler__ctor
-  commentId: M:Votanic.vIO.VRPN.VRPNHandler.#ctor
-  fullName: Votanic.vIO.VRPN.VRPNHandler.VRPNHandler()
-  nameWithType: VRPNHandler.VRPNHandler()
 - uid: Votanic.vIO.VRPN.VRPNHandler.#ctor(System.Collections.Generic.List{Votanic.vIO.VRPN.VRPNButtons},System.Collections.Generic.List{Votanic.vIO.VRPN.VRPNAxes},System.Collections.Generic.List{Votanic.vIO.VRPN.VRPNTracker})
   name: VRPNHandler(List<VRPNButtons>, List<VRPNAxes>, List<VRPNTracker>)
   href: api/Votanic.vIO.VRPN.VRPNHandler.html#Votanic_vIO_VRPN_VRPNHandler__ctor_System_Collections_Generic_List_Votanic_vIO_VRPN_VRPNButtons__System_Collections_Generic_List_Votanic_vIO_VRPN_VRPNAxes__System_Collections_Generic_List_Votanic_vIO_VRPN_VRPNTracker__
@@ -3506,7 +3518,14 @@ references:
 - uid: Votanic.vIO.VRPN.VRPNHandler.axes
   name: axes
   href: api/Votanic.vIO.VRPN.VRPNHandler.html#Votanic_vIO_VRPN_VRPNHandler_axes
-  commentId: F:Votanic.vIO.VRPN.VRPNHandler.axes
+  commentId: P:Votanic.vIO.VRPN.VRPNHandler.axes
+  fullName: Votanic.vIO.VRPN.VRPNHandler.axes
+  nameWithType: VRPNHandler.axes
+- uid: Votanic.vIO.VRPN.VRPNHandler.axes*
+  name: axes
+  href: api/Votanic.vIO.VRPN.VRPNHandler.html#Votanic_vIO_VRPN_VRPNHandler_axes_
+  commentId: Overload:Votanic.vIO.VRPN.VRPNHandler.axes
+  isSpec: "True"
   fullName: Votanic.vIO.VRPN.VRPNHandler.axes
   nameWithType: VRPNHandler.axes
 - uid: Votanic.vIO.VRPN.VRPNHandler.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Int32,System.Boolean,Votanic.vIO.AssistButtons)
@@ -3616,7 +3635,14 @@ references:
 - uid: Votanic.vIO.VRPN.VRPNHandler.buttons
   name: buttons
   href: api/Votanic.vIO.VRPN.VRPNHandler.html#Votanic_vIO_VRPN_VRPNHandler_buttons
-  commentId: F:Votanic.vIO.VRPN.VRPNHandler.buttons
+  commentId: P:Votanic.vIO.VRPN.VRPNHandler.buttons
+  fullName: Votanic.vIO.VRPN.VRPNHandler.buttons
+  nameWithType: VRPNHandler.buttons
+- uid: Votanic.vIO.VRPN.VRPNHandler.buttons*
+  name: buttons
+  href: api/Votanic.vIO.VRPN.VRPNHandler.html#Votanic_vIO_VRPN_VRPNHandler_buttons_
+  commentId: Overload:Votanic.vIO.VRPN.VRPNHandler.buttons
+  isSpec: "True"
   fullName: Votanic.vIO.VRPN.VRPNHandler.buttons
   nameWithType: VRPNHandler.buttons
 - uid: Votanic.vIO.VRPN.VRPNHandler.ButtonUp(System.Int32,System.Int32,System.Boolean)
@@ -3635,7 +3661,14 @@ references:
 - uid: Votanic.vIO.VRPN.VRPNHandler.tracker
   name: tracker
   href: api/Votanic.vIO.VRPN.VRPNHandler.html#Votanic_vIO_VRPN_VRPNHandler_tracker
-  commentId: F:Votanic.vIO.VRPN.VRPNHandler.tracker
+  commentId: P:Votanic.vIO.VRPN.VRPNHandler.tracker
+  fullName: Votanic.vIO.VRPN.VRPNHandler.tracker
+  nameWithType: VRPNHandler.tracker
+- uid: Votanic.vIO.VRPN.VRPNHandler.tracker*
+  name: tracker
+  href: api/Votanic.vIO.VRPN.VRPNHandler.html#Votanic_vIO_VRPN_VRPNHandler_tracker_
+  commentId: Overload:Votanic.vIO.VRPN.VRPNHandler.tracker
+  isSpec: "True"
   fullName: Votanic.vIO.VRPN.VRPNHandler.tracker
   nameWithType: VRPNHandler.tracker
 - uid: Votanic.vIO.VRPN.VRPNHandler.TrackerAccessible(System.String)
@@ -3696,6 +3729,18 @@ references:
   commentId: T:Votanic.vIO.VRPN.VRPNManager
   fullName: Votanic.vIO.VRPN.VRPNManager
   nameWithType: VRPNManager
+- uid: Votanic.vIO.VRPN.VRPNManager.axes
+  name: axes
+  href: api/Votanic.vIO.VRPN.VRPNManager.html#Votanic_vIO_VRPN_VRPNManager_axes
+  commentId: F:Votanic.vIO.VRPN.VRPNManager.axes
+  fullName: Votanic.vIO.VRPN.VRPNManager.axes
+  nameWithType: VRPNManager.axes
+- uid: Votanic.vIO.VRPN.VRPNManager.buttons
+  name: buttons
+  href: api/Votanic.vIO.VRPN.VRPNManager.html#Votanic_vIO_VRPN_VRPNManager_buttons
+  commentId: F:Votanic.vIO.VRPN.VRPNManager.buttons
+  fullName: Votanic.vIO.VRPN.VRPNManager.buttons
+  nameWithType: VRPNManager.buttons
 - uid: Votanic.vIO.VRPN.VRPNManager.GetAxes(System.Int32)
   name: GetAxes(Int32)
   href: api/Votanic.vIO.VRPN.VRPNManager.html#Votanic_vIO_VRPN_VRPNManager_GetAxes_System_Int32_
@@ -3766,6 +3811,25 @@ references:
   isSpec: "True"
   fullName: Votanic.vIO.VRPN.VRPNManager.Input
   nameWithType: VRPNManager.Input
+- uid: Votanic.vIO.VRPN.VRPNManager.Start
+  name: Start()
+  href: api/Votanic.vIO.VRPN.VRPNManager.html#Votanic_vIO_VRPN_VRPNManager_Start
+  commentId: M:Votanic.vIO.VRPN.VRPNManager.Start
+  fullName: Votanic.vIO.VRPN.VRPNManager.Start()
+  nameWithType: VRPNManager.Start()
+- uid: Votanic.vIO.VRPN.VRPNManager.Start*
+  name: Start
+  href: api/Votanic.vIO.VRPN.VRPNManager.html#Votanic_vIO_VRPN_VRPNManager_Start_
+  commentId: Overload:Votanic.vIO.VRPN.VRPNManager.Start
+  isSpec: "True"
+  fullName: Votanic.vIO.VRPN.VRPNManager.Start
+  nameWithType: VRPNManager.Start
+- uid: Votanic.vIO.VRPN.VRPNManager.tracker
+  name: tracker
+  href: api/Votanic.vIO.VRPN.VRPNManager.html#Votanic_vIO_VRPN_VRPNManager_tracker
+  commentId: F:Votanic.vIO.VRPN.VRPNManager.tracker
+  fullName: Votanic.vIO.VRPN.VRPNManager.tracker
+  nameWithType: VRPNManager.tracker
 - uid: Votanic.vIO.VRPN.VRPNTracker
   name: VRPNTracker
   href: api/Votanic.vIO.VRPN.VRPNTracker.html
@@ -4713,6 +4777,19 @@ references:
   commentId: F:Votanic.vMedia.MediaPlayer.MediaPlayer360.dataPath
   fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.dataPath
   nameWithType: MediaPlayer360.dataPath
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.Load
+  name: Load()
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_Load
+  commentId: M:Votanic.vMedia.MediaPlayer.MediaPlayer360.Load
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.Load()
+  nameWithType: MediaPlayer360.Load()
+- uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.Load*
+  name: Load
+  href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_Load_
+  commentId: Overload:Votanic.vMedia.MediaPlayer.MediaPlayer360.Load
+  isSpec: "True"
+  fullName: Votanic.vMedia.MediaPlayer.MediaPlayer360.Load
+  nameWithType: MediaPlayer360.Load
 - uid: Votanic.vMedia.MediaPlayer.MediaPlayer360.logo
   name: logo
   href: api/Votanic.vMedia.MediaPlayer.MediaPlayer360.html#Votanic_vMedia_MediaPlayer_MediaPlayer360_logo
@@ -16022,12 +16099,6 @@ references:
   commentId: F:Votanic.vXR.vGear.Advanced.maxStorePoint
   fullName: Votanic.vXR.vGear.Advanced.maxStorePoint
   nameWithType: Advanced.maxStorePoint
-- uid: Votanic.vXR.vGear.Advanced.teleportWaypoint
-  name: teleportWaypoint
-  href: api/Votanic.vXR.vGear.Advanced.html#Votanic_vXR_vGear_Advanced_teleportWaypoint
-  commentId: F:Votanic.vXR.vGear.Advanced.teleportWaypoint
-  fullName: Votanic.vXR.vGear.Advanced.teleportWaypoint
-  nameWithType: Advanced.teleportWaypoint
 - uid: Votanic.vXR.vGear.Advanced.waypointPrefab
   name: waypointPrefab
   href: api/Votanic.vXR.vGear.Advanced.html#Votanic_vXR_vGear_Advanced_waypointPrefab
