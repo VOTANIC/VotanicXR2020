@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Votanic.vIO.VInput
+    <title>Enum SyncAxes
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Votanic.vIO.VInput
+    <meta name="title" content="Enum SyncAxes
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,53 +68,74 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Votanic.vIO.VInput">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vCast.SyncAxes">
   
-  <h1 id="Votanic_vIO_VInput" data-uid="Votanic.vIO.VInput" class="text-break">Namespace Votanic.vIO.VInput
+  
+  <h1 id="Votanic_vXR_vCast_SyncAxes" data-uid="Votanic.vXR.vCast.SyncAxes" class="text-break">Enum SyncAxes
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Sync Axes of the Stabilizer.
+<br> 穩定器的同步軸。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vCast.html">Votanic.vXR.vCast</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
+  <h5 id="Votanic_vXR_vCast_SyncAxes_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public enum SyncAxes</code></pre>
+  </div>
+  <h3 id="fields">Fields
   </h3>
-      <h4><a class="xref" href="Votanic.vIO.VInput.VInputAxes.html">VInputAxes</a></h4>
-      <section><p>The axes class of VInput.
-<br> VInput 軸群類別。</p>
-</section>
-      <h4><a class="xref" href="Votanic.vIO.VInput.VInputButtons.html">VInputButtons</a></h4>
-      <section><p>The buttons class of VInput.
-<br> VInput 按鈕群類別。</p>
-</section>
-      <h4><a class="xref" href="Votanic.vIO.VInput.VInputController.html">VInputController</a></h4>
-      <section><p>The controller class of VInput which contains Buttons and Axes.
-<br> VInput 控制器類別，包含按鈕群及軸群。</p>
-</section>
-      <h4><a class="xref" href="Votanic.vIO.VInput.VInputHandler.html">VInputHandler</a></h4>
-      <section><p>Handling VInput deivces.
-<br> 處理 VInput 裝置。</p>
-</section>
-      <h4><a class="xref" href="Votanic.vIO.VInput.VInputKeyboard.html">VInputKeyboard</a></h4>
-      <section><p>The keyboard class of VInput.
-<br> VInput 鍵盤類別。</p>
-</section>
-      <h4><a class="xref" href="Votanic.vIO.VInput.VInputManager.html">VInputManager</a></h4>
-      <section><p>Managing VInput deivces.
-<br> 管理 VInput 裝置。</p>
-</section>
-      <h4><a class="xref" href="Votanic.vIO.VInput.VInputMouse.html">VInputMouse</a></h4>
-      <section><p>The mouse class of VInput.
-<br> VInput 滑鼠類別。</p>
-</section>
-      <h4><a class="xref" href="Votanic.vIO.VInput.VInputTracker.html">VInputTracker</a></h4>
-      <section><p>The tracker class of VInput.
-<br> VInput 定位器類別。</p>
-</section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="Votanic.vIO.VInput.DPadDirection.html">DPadDirection</a></h4>
-      <section><p>The dpad pressing direction.
-<br> DPad 按住的方向。</p>
-</section>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td id="Votanic_vXR_vCast_SyncAxes_All">All</td>
+        <td><p>Sync all axes. <br> 同步所有軸。</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Votanic_vXR_vCast_SyncAxes_None">None</td>
+        <td><p>Disable stabilizing. <br> 不使用穩定器。</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Votanic_vXR_vCast_SyncAxes_X">X</td>
+        <td><p>Sync X axis of target only. <br> 只同步目標的 X 軸。</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Votanic_vXR_vCast_SyncAxes_XY">XY</td>
+        <td><p>Sync X and Y axes of target only. <br> 只同步目標的 X 及 Y 軸。</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Votanic_vXR_vCast_SyncAxes_XZ">XZ</td>
+        <td><p>Sync X and Z axes of target only. <br> 只同步目標的 X 及 Z 軸。</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Votanic_vXR_vCast_SyncAxes_Y">Y</td>
+        <td><p>Sync Y axis of target only. <br> 只同步目標的 Y 軸。</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Votanic_vXR_vCast_SyncAxes_YZ">YZ</td>
+        <td><p>Sync Y and Z axes of target only. <br> 只同步目標的 Y 及 Z 軸。</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Votanic_vXR_vCast_SyncAxes_Z">Z</td>
+        <td><p>Sync Z axis of target only. <br> 只同步目標的 Z 軸。</p>
+</td>
+      </tr>
+    </tbody>
+  </thead></thead></table>
 </article>
           </div>
           

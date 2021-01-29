@@ -225,6 +225,32 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_numberOfTrackers_" data-uid="Votanic.vIO.VInput.VInputHandler.numberOfTrackers*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_numberOfTrackers" data-uid="Votanic.vIO.VInput.VInputHandler.numberOfTrackers">numberOfTrackers</h4>
+  <div class="markdown level1 summary"><p>Number of virtual trackers. <br> 虛擬定位器數目。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numberOfTrackers { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -1165,6 +1191,18 @@
   </table>
   
   
+  <a id="Votanic_vIO_VInput_VInputHandler_EnableDirectInputMouse_" data-uid="Votanic.vIO.VInput.VInputHandler.EnableDirectInputMouse*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_EnableDirectInputMouse" data-uid="Votanic.vIO.VInput.VInputHandler.EnableDirectInputMouse">EnableDirectInputMouse()</h4>
+  <div class="markdown level1 summary"><p>Enable Direct Input Mouse. This may cause Unity original getting mouse axis value function always return 0.
+<br> 啟用 Direct Input 滑鼠。這可能會導致 Unity 原生獲取滑鼠軸值功能永遠傳回 0。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableDirectInputMouse()</code></pre>
+  </div>
+  
+  
   <a id="Votanic_vIO_VInput_VInputHandler_GetController_" data-uid="Votanic.vIO.VInput.VInputHandler.GetController*"></a>
   <h4 id="Votanic_vIO_VInput_VInputHandler_GetController_System_Int32_" data-uid="Votanic.vIO.VInput.VInputHandler.GetController(System.Int32)">GetController(Int32)</h4>
   <div class="markdown level1 summary"><p>Get a controller by index.
@@ -1232,6 +1270,52 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vIO.VInput.VInputController.html">VInputController</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_GetTracker_" data-uid="Votanic.vIO.VInput.VInputHandler.GetTracker*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_GetTracker_System_Int32_" data-uid="Votanic.vIO.VInput.VInputHandler.GetTracker(System.Int32)">GetTracker(Int32)</h4>
+  <div class="markdown level1 summary"><p>Get a virtual tracker by index.
+<br> 以編號取得虛擬定位器。</p>
+<p> GetTracker(0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VInputTracker GetTracker(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Tracker index <br> 定位器編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vIO.VInput.VInputTracker.html">VInputTracker</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1755,7 +1839,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int MouseAxis(int index, bool reversed = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public float MouseAxis(int index, bool reversed = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1791,7 +1875,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2028,6 +2112,144 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Scan()</code></pre>
   </div>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_TrackerAccessible_" data-uid="Votanic.vIO.VInput.VInputHandler.TrackerAccessible*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_TrackerAccessible_System_Int32_" data-uid="Votanic.vIO.VInput.VInputHandler.TrackerAccessible(System.Int32)">TrackerAccessible(Int32)</h4>
+  <div class="markdown level1 summary"><p>Return true if the tracker is accessible.
+<br> 當定位器可讀取時傳回 true。</p>
+<p> TrackerAccessible(0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TrackerAccessible(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Tracker index  <br> 定位器編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_TrackerPosition_" data-uid="Votanic.vIO.VInput.VInputHandler.TrackerPosition*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_TrackerPosition_System_Int32_" data-uid="Votanic.vIO.VInput.VInputHandler.TrackerPosition(System.Int32)">TrackerPosition(Int32)</h4>
+  <div class="markdown level1 summary"><p>Get the position of tracker in system.
+<br> 取得系統中的定位器位置。</p>
+<p> TrackerPosition(0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 TrackerPosition(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Tracker index  <br> 定位器編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vIO_VInput_VInputHandler_TrackerRotation_" data-uid="Votanic.vIO.VInput.VInputHandler.TrackerRotation*"></a>
+  <h4 id="Votanic_vIO_VInput_VInputHandler_TrackerRotation_System_Int32_" data-uid="Votanic.vIO.VInput.VInputHandler.TrackerRotation(System.Int32)">TrackerRotation(Int32)</h4>
+  <div class="markdown level1 summary"><p>Get the rotation of tracker in system.
+<br> 取得系統中的定位器角度。</p>
+<p> TrackerRotation(0) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion TrackerRotation(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Tracker index  <br> 定位器編號</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Votanic_vIO_VInput_VInputHandler_Update_" data-uid="Votanic.vIO.VInput.VInputHandler.Update*"></a>

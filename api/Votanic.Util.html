@@ -361,7 +361,7 @@
   
   
   <a id="Votanic_Util_Raycast_" data-uid="Votanic.Util.Raycast*"></a>
-  <h4 id="Votanic_Util_Raycast_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Boolean_System_Int32___" data-uid="Votanic.Util.Raycast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean,System.Int32[])">Raycast(Vector3, Vector3, Single, Boolean, Int32[])</h4>
+  <h4 id="Votanic_Util_Raycast_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Boolean_System_Boolean_System_Int32___" data-uid="Votanic.Util.Raycast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean,System.Boolean,System.Int32[])">Raycast(Vector3, Vector3, Single, Boolean, Boolean, Int32[])</h4>
   <div class="markdown level1 summary"><p>Return the RaycastHit from a position and direction.
 <br> 由某個位置及方向傳回 RaycastHit。</p>
 <p> Raycast(transform.position, transform.forward, 3, true, 31) </p>
@@ -369,7 +369,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static RaycastHit Raycast(Vector3 origin, Vector3 direction, float length = InfinityF, bool ignoreLayers = false, params int[] layers)</code></pre>
+    <pre><code class="lang-csharp hljs">public static RaycastHit Raycast(Vector3 origin, Vector3 direction, float length = InfinityF, bool withPriority = false, bool ignoreLayers = false, params int[] layers)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -397,6 +397,12 @@
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">length</span></td>
         <td><p>Ray length <br> 射線長度</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">withPriority</span></td>
+        <td><p>The raycast will be checked by the order of Detect Layers <br> Raycast 將會根據 Detect Layers 的順序檢查</p>
 </td>
       </tr>
       <tr>
