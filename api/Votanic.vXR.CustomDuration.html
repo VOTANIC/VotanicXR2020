@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class CustomDuration
    ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -93,32 +93,6 @@ public class CustomDuration</code></pre>
   </h3>
   
   
-  <h4 id="Votanic_vXR_CustomDuration_customForInteractor" data-uid="Votanic.vXR.CustomDuration.customForInteractor">customForInteractor</h4>
-  <div class="markdown level1 summary"><p>Decide to use custom duration for interactor holding. <br> 決定交互器長按的所需時間是否自定義。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide to use custom duration for interactor holding.\n&#27770;&#23450;&#20132;&#20114;&#22120;&#38263;&#25353;&#30340;&#25152;&#38656;&#26178;&#38291;&#26159;&#21542;&#33258;&#23450;&#32681;&#12290;&quot;)]
-public bool customForInteractor</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <h4 id="Votanic_vXR_CustomDuration_customForVision" data-uid="Votanic.vXR.CustomDuration.customForVision">customForVision</h4>
   <div class="markdown level1 summary"><p>Decide to use custom duration for vision looking. <br> 決定視線望住的所需時間是否自定義。</p>
 </div>
@@ -145,14 +119,40 @@ public bool customForVision</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_CustomDuration_interactorDuration" data-uid="Votanic.vXR.CustomDuration.interactorDuration">interactorDuration</h4>
-  <div class="markdown level1 summary"><p>Custom required duration for interactor. <br> 交互器自定義所需時間。</p>
+  <h4 id="Votanic_vXR_CustomDuration_customForWand" data-uid="Votanic.vXR.CustomDuration.customForWand">customForWand</h4>
+  <div class="markdown level1 summary"><p>Decide to use custom duration for wand holding. <br> 決定操縱桿長按的所需時間是否自定義。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Custom required duration for interactor.\n&#20132;&#20114;&#22120;&#33258;&#23450;&#32681;&#25152;&#38656;&#26178;&#38291;&#12290;&quot;)]
-public float interactorDuration</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Decide to use custom duration for wand holding.\n&#27770;&#23450;&#25805;&#32305;&#26751;&#38263;&#25353;&#30340;&#25152;&#38656;&#26178;&#38291;&#26159;&#21542;&#33258;&#23450;&#32681;&#12290;&quot;)]
+public bool customForWand</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_CustomDuration_holdDuration" data-uid="Votanic.vXR.CustomDuration.holdDuration">holdDuration</h4>
+  <div class="markdown level1 summary"><p>Custom required duration for interactor. <br> 長按自定義所需時間。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Custom required duration for interactor.\n&#38263;&#25353;&#33258;&#23450;&#32681;&#25152;&#38656;&#26178;&#38291;&#12290;&quot;)]
+public float holdDuration</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -171,14 +171,14 @@ public float interactorDuration</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_CustomDuration_visionDuration" data-uid="Votanic.vXR.CustomDuration.visionDuration">visionDuration</h4>
-  <div class="markdown level1 summary"><p>Custom required duration for vision. <br> 視線自定義所需時間。</p>
+  <h4 id="Votanic_vXR_CustomDuration_lookDuration" data-uid="Votanic.vXR.CustomDuration.lookDuration">lookDuration</h4>
+  <div class="markdown level1 summary"><p>Custom required duration for looking. <br> 望住自定義所需時間。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Custom required duration for vision.\n&#35222;&#32218;&#33258;&#23450;&#32681;&#25152;&#38656;&#26178;&#38291;&#12290;&quot;)]
-public float visionDuration</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Custom required duration for looking.\n&#26395;&#20303;&#33258;&#23450;&#32681;&#25152;&#38656;&#26178;&#38291;&#12290;&quot;)]
+public float lookDuration</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -205,7 +205,8 @@ public float visionDuration</code></pre>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

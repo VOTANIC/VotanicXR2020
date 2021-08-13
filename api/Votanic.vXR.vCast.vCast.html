@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class vCast
    ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -151,14 +151,14 @@ public AutoReceiveCommand autoReceiveCommand</code></pre>
   </table>
   
   
-  <h4 id="Votanic_vXR_vCast_vCast_batches" data-uid="Votanic.vXR.vCast.vCast.batches">batches</h4>
-  <div class="markdown level1 summary"><p>The batch files setting for building the project. <br> 建置項目的批次檔設定。</p>
+  <h4 id="Votanic_vXR_vCast_vCast_buildBatches" data-uid="Votanic.vXR.vCast.vCast.buildBatches">buildBatches</h4>
+  <div class="markdown level1 summary"><p>The platforms to run the program. <br> 這個項目會使用的平台。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The batch files setting for building the project.\n&#24314;&#32622;&#38917;&#30446;&#30340;&#25209;&#27425;&#27284;&#35373;&#23450;&#12290;&quot;)]
-public List&lt;Batch&gt; batches</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The platforms to run the program.\n&#36889;&#20491;&#38917;&#30446;&#26371;&#20351;&#29992;&#30340;&#24179;&#21488;&#12290;&quot;)]
+public Platform buildBatches</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -170,7 +170,7 @@ public List&lt;Batch&gt; batches</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Votanic.vXR.vCast.Core.Batch.html">Batch</a>&gt;</td>
+        <td><a class="xref" href="Votanic.vXR.vCast.Core.Platform.html">Platform</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -183,8 +183,7 @@ public List&lt;Batch&gt; batches</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[System]&quot;)]
-[Tooltip(&quot;The path for reading the system config file.\n&#35712;&#21462;&#31995;&#32113;&#37197;&#32622;&#25991;&#20214;&#30340;&#36335;&#24465;&#12290;&quot;)]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The path for reading the system config file.\n&#35712;&#21462;&#31995;&#32113;&#37197;&#32622;&#25991;&#20214;&#30340;&#36335;&#24465;&#12290;&quot;)]
 public string configPath</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -308,6 +307,33 @@ public Essential essential</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vXR_vCast_vCast_fileLocation" data-uid="Votanic.vXR.vCast.vCast.fileLocation">fileLocation</h4>
+  <div class="markdown level1 summary"><p>The relative folder location of all system files. <br> 所有系統檔案的相對文件夾位置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[System]&quot;)]
+[Tooltip(&quot;The relative folder location of all system files.\n&#25152;&#26377;&#31995;&#32113;&#27284;&#26696;&#30340;&#30456;&#23565;&#25991;&#20214;&#22846;&#20301;&#32622;&#12290;&quot;)]
+public FileLocation fileLocation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.FileLocation.html">FileLocation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vXR_vCast_vCast_forceQuality" data-uid="Votanic.vXR.vCast.vCast.forceQuality">forceQuality</h4>
   <div class="markdown level1 summary"><p>The quality setting will be set by setting file. <br> 質素設定將會依據設置文件。</p>
 </div>
@@ -413,6 +439,32 @@ public bool launcherCommand</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vXR_vCast_vCast_mobileGazeInteraction" data-uid="Votanic.vXR.vCast.vCast.mobileGazeInteraction">mobileGazeInteraction</h4>
+  <div class="markdown level1 summary"><p>Enable Mobile Gaze Interaction on start. <br> 在開始時啟用移動裝置凝視互動。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Enable Mobile Gaze Interaction on start.\n&#22312;&#38283;&#22987;&#26178;&#21855;&#29992;&#31227;&#21205;&#35037;&#32622;&#20957;&#35222;&#20114;&#21205;&#12290;&quot;)]
+public bool mobileGazeInteraction</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vXR_vCast_vCast_onStartWatermark" data-uid="Votanic.vXR.vCast.vCast.onStartWatermark">onStartWatermark</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -497,7 +549,7 @@ public string referenceConfig</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Tooltip(&quot;Enable this to save and load scenes in build setting by scene path, not the common setting.\n&#21855;&#29992;&#36889;&#20491;&#23559;&#26371;&#26681;&#25818;&#22580;&#26223;&#36335;&#24465;&#20786;&#23384;&#21450;&#35712;&#21462;&#27083;&#24314;&#22580;&#26223;&#35373;&#23450;&#65292;&#19981;&#20877;&#26159;&#20849;&#29992;&#35373;&#23450;&#12290;&quot;)]
-public bool scenesInBuild</code></pre>
+public ScenesInBuild scenesInBuild</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -509,7 +561,7 @@ public bool scenesInBuild</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="Votanic.vXR.vCast.ScenesInBuild.html">ScenesInBuild</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -961,6 +1013,37 @@ public XRSupport XRSupport</code></pre>
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_EnableMobileGazeInteraction_" data-uid="Votanic.vXR.vCast.vCast.EnableMobileGazeInteraction*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_EnableMobileGazeInteraction_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.EnableMobileGazeInteraction(System.Boolean)">EnableMobileGazeInteraction(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Enable Mobile Platform gaze interaction mode.
+<br> 啟動移動平台凝視互動模式。</p>
+<p> EnableMobileGazeInteraction(true) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EnableMobileGazeInteraction(bool enable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enable</span></td>
+        <td><p>Enable the gaze interaction mode <br> 啟動凝視互動模式</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Votanic_vXR_vCast_vCast_GetCamera_" data-uid="Votanic.vXR.vCast.vCast.GetCamera*"></a>
@@ -2610,6 +2693,37 @@ public XRSupport XRSupport</code></pre>
   </table>
   
   
+  <a id="Votanic_vXR_vCast_vCast_SetMobileGazeDuration_" data-uid="Votanic.vXR.vCast.vCast.SetMobileGazeDuration*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_SetMobileGazeDuration_System_Single_" data-uid="Votanic.vXR.vCast.vCast.SetMobileGazeDuration(System.Single)">SetMobileGazeDuration(Single)</h4>
+  <div class="markdown level1 summary"><p>Enable Mobile Platform gaze interaction mode.
+<br> 啟動移動平台凝視互動模式。</p>
+<p> EnableMobileGazeInteraction(true) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetMobileGazeDuration(float gazeDuration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">gazeDuration</span></td>
+        <td><p>Duration for the gaze action <br> 凝視的所需時間</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vXR_vCast_vCast_SetSoul_" data-uid="Votanic.vXR.vCast.vCast.SetSoul*"></a>
   <h4 id="Votanic_vXR_vCast_vCast_SetSoul_System_Boolean_" data-uid="Votanic.vXR.vCast.vCast.SetSoul(System.Boolean)">SetSoul(Boolean)</h4>
   <div class="markdown level1 summary"><p>Enable or disable soul.
@@ -2822,7 +2936,8 @@ public XRSupport XRSupport</code></pre>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

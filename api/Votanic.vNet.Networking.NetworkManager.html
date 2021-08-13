@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class NetworkManager
    ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -315,7 +315,7 @@ public List&lt;string&gt; messages</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Tooltip(&quot;Network ID of current connection.\n&#30446;&#21069;&#36899;&#32218;&#20351;&#29992;&#30340;&#35672;&#21029;&#30908;&#12290;&quot;)]
-public uint networkID</code></pre>
+public int networkID</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -327,7 +327,7 @@ public uint networkID</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1029,7 +1029,7 @@ public GameObject userPrefab</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NetworkUser GetNetworkUser(uint netID)</code></pre>
+    <pre><code class="lang-csharp hljs">public NetworkUser GetNetworkUser(uint userID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1043,8 +1043,8 @@ public GameObject userPrefab</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.UInt32</span></td>
-        <td><span class="parametername">netID</span></td>
-        <td><p>Network ID of user <br> 使用者網絡識別碼</p>
+        <td><span class="parametername">userID</span></td>
+        <td><p>Connection ID of user <br> 使用者的連線識別碼</p>
 </td>
       </tr>
     </tbody>
@@ -1076,6 +1076,37 @@ public GameObject userPrefab</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Host()</code></pre>
   </div>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_Host_" data-uid="Votanic.vNet.Networking.NetworkManager.Host*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_Host_System_Int32_" data-uid="Votanic.vNet.Networking.NetworkManager.Host(System.Int32)">Host(Int32)</h4>
+  <div class="markdown level1 summary"><p>Start hosting.
+<br> 開始主持。</p>
+<p> Host(7777) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Host(int port = 7777)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">port</span></td>
+        <td><p>Port <br> 連接埠</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Votanic_vNet_Networking_NetworkManager_Initialize_" data-uid="Votanic.vNet.Networking.NetworkManager.Initialize*"></a>
@@ -1265,7 +1296,8 @@ public virtual void Update()</code></pre>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

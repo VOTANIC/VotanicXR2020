@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class vGear_Measurer
    ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -206,6 +206,58 @@ public GameObject linePrefab</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_mode" data-uid="Votanic.vXR.vGear.vGear_Measurer.mode">mode</h4>
+  <div class="markdown level1 summary"><p>Mode of measurement. <br> 測量模式。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Mode of measurement.\n&#28204;&#37327;&#27169;&#24335;&#12290;&quot;)]
+public MeasureMode mode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.MeasureMode.html">MeasureMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_multiplier" data-uid="Votanic.vXR.vGear.vGear_Measurer.multiplier">multiplier</h4>
+  <div class="markdown level1 summary"><p>The scene scale multiplier. <br> 場景大小倍增器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The scene scale multiplier.\n&#22580;&#26223;&#22823;&#23567;&#20493;&#22686;&#22120;&#12290;&quot;)]
+public float multiplier</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vXR_vGear_vGear_Measurer_pointPrefab" data-uid="Votanic.vXR.vGear.vGear_Measurer.pointPrefab">pointPrefab</h4>
   <div class="markdown level1 summary"><p>Prefab for measurement point. <br> 測量點預製件。</p>
 </div>
@@ -227,6 +279,32 @@ public GameObject pointPrefab</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_singleMeasurement" data-uid="Votanic.vXR.vGear.vGear_Measurer.singleMeasurement">singleMeasurement</h4>
+  <div class="markdown level1 summary"><p>The measurer will only keep 1 measure line if true . <br> 當 true 時測量工具只會保留 1 條測量線。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The measurer will only keep 1 measure line.\n&#28204;&#37327;&#24037;&#20855;&#21482;&#26371;&#20445;&#30041; 1 &#26781;&#28204;&#37327;&#32218;&#12290;&quot;)]
+public bool singleMeasurement</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -406,6 +484,37 @@ public MeasureUnit unit</code></pre>
   </table>
   
   
+  <a id="Votanic_vXR_vGear_vGear_Measurer_SetMode_" data-uid="Votanic.vXR.vGear.vGear_Measurer.SetMode*"></a>
+  <h4 id="Votanic_vXR_vGear_vGear_Measurer_SetMode_Votanic_vXR_vGear_MeasureMode_" data-uid="Votanic.vXR.vGear.vGear_Measurer.SetMode(Votanic.vXR.vGear.MeasureMode)">SetMode(MeasureMode)</h4>
+  <div class="markdown level1 summary"><p>Set the measure mode.
+<br> 設定測量模式。</p>
+<p> SetMode(MeasureMode.Points) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMode(MeasureMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.vXR.vGear.MeasureMode.html">MeasureMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>Mode of measurement <br> 測量模式</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vXR_vGear_vGear_Measurer_SetUnit_" data-uid="Votanic.vXR.vGear.vGear_Measurer.SetUnit*"></a>
   <h4 id="Votanic_vXR_vGear_vGear_Measurer_SetUnit_Votanic_vXR_vGear_MeasureUnit_" data-uid="Votanic.vXR.vGear.vGear_Measurer.SetUnit(Votanic.vXR.vGear.MeasureUnit)">SetUnit(MeasureUnit)</h4>
   <div class="markdown level1 summary"><p>Set the display unit.
@@ -445,7 +554,8 @@ public MeasureUnit unit</code></pre>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

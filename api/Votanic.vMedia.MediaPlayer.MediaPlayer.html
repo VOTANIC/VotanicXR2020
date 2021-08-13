@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class MediaPlayer
    ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -357,6 +357,33 @@ public float duration</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_fileLocation" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.fileLocation">fileLocation</h4>
+  <div class="markdown level1 summary"><p>The relative folder location of files. <br> 檔案的相對文件夾位置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
+[Tooltip(&quot;The relative folder location of files.\n&#27284;&#26696;&#30340;&#30456;&#23565;&#25991;&#20214;&#22846;&#20301;&#32622;&#12290;&quot;)]
+public FileLocation fileLocation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Votanic.FileLocation.html">FileLocation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_ignoreList" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.ignoreList">ignoreList</h4>
   <div class="markdown level1 summary"><p>The media list wanted to be ignored in current launch. <br> 在當前啟動中希望被忽略的媒體列表。</p>
 </div>
@@ -598,8 +625,7 @@ public List&lt;Texture2D&gt; loopTexture</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;[Settings]&quot;)]
-[Tooltip(&quot;List of media.\n&#23186;&#39636;&#21015;&#34920;&#12290;&quot;)]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;List of media.\n&#23186;&#39636;&#21015;&#34920;&#12290;&quot;)]
 public List&lt;Media&gt; media</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -1481,6 +1507,37 @@ public List&lt;Text&gt; volumeText</code></pre>
   </table>
   
   
+  <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Open_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Open*"></a>
+  <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Open_System_String_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Open(System.String)">Open(String)</h4>
+  <div class="markdown level1 summary"><p>Clear all loaded media and Load all media in the target path.
+<br> 清除已載入的所有媒體及載入目標路徑中的所有媒體。</p>
+<p> Open(&quot;../Resources/Media&quot;) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Open(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Directory or File path <br> 目錄或檔案路徑</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Votanic_vMedia_MediaPlayer_MediaPlayer_Pause_" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Pause*"></a>
   <h4 id="Votanic_vMedia_MediaPlayer_MediaPlayer_Pause" data-uid="Votanic.vMedia.MediaPlayer.MediaPlayer.Pause">Pause()</h4>
   <div class="markdown level1 summary"><p>Pause the media player.
@@ -2304,7 +2361,8 @@ public List&lt;Text&gt; volumeText</code></pre>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

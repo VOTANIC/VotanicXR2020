@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class vCast.Info
    ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -198,7 +198,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_DebugLog_" data-uid="Votanic.vXR.vCast.vCast.Info.DebugLog*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_DebugLog_System_Object_System_Boolean_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.DebugLog(System.Object,System.Boolean,System.Boolean,System.Int32)">DebugLog(Object, Boolean, Boolean, Int32)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_DebugLog_System_Object_System_Boolean_System_Boolean_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.DebugLog(System.Object,System.Boolean,System.Boolean,System.Boolean,System.Int32)">DebugLog(Object, Boolean, Boolean, Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Add a message to custom debug message at current frame.
 <br> 在當前幀增加一句自訂偵錯訊息。</p>
 <p> DebugLog(&quot;abc&quot;, true) </p>
@@ -206,7 +206,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DebugLog(object message, bool clear = false, bool hideTitle = false, int index = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DebugLog(object message, bool clear = false, bool hideTitle = false, bool debugLog = false, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -234,6 +234,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">hideTitle</span></td>
         <td><p>Hide [Debug] this frame if true once <br> 當 true 時當前幀將隱藏 [Debug]</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">debugLog</span></td>
+        <td><p>Show in Unity Debug Log <br> 在 Unity 的 Debug Log 顯示</p>
 </td>
       </tr>
       <tr>
@@ -589,7 +595,7 @@
   
   
   <a id="Votanic_vXR_vCast_vCast_Info_Print_" data-uid="Votanic.vXR.vCast.vCast.Info.Print*"></a>
-  <h4 id="Votanic_vXR_vCast_vCast_Info_Print_System_Object_System_Boolean_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.Print(System.Object,System.Boolean,System.Boolean,System.Int32)">Print(Object, Boolean, Boolean, Int32)</h4>
+  <h4 id="Votanic_vXR_vCast_vCast_Info_Print_System_Object_System_Boolean_System_Boolean_System_Boolean_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Info.Print(System.Object,System.Boolean,System.Boolean,System.Boolean,System.Int32)">Print(Object, Boolean, Boolean, Boolean, Int32)</h4>
   <div class="markdown level1 summary"><p>Add a message to custom message at current frame.
 <br> 在當前幀增加一句自訂訊息。</p>
 <p> Print(&quot;abc&quot;, true) </p>
@@ -597,7 +603,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Print(object message, bool clear = false, bool hideTitle = false, int index = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Print(object message, bool clear = false, bool hideTitle = false, bool debugLog = false, int index = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -625,6 +631,12 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">hideTitle</span></td>
         <td><p>Hide [Print] this frame if true once <br> 當 true 時當前幀將隱藏 [Print]</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">debugLog</span></td>
+        <td><p>Show in Unity Debug Log <br> 在 Unity 的 Debug Log 顯示</p>
 </td>
       </tr>
       <tr>
@@ -750,7 +762,8 @@
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
