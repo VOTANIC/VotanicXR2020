@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class NetworkManager
    ">
-    <meta name="generator" content="docfx 2.58.2.0">
+    <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -176,6 +176,58 @@ public float connectingBuffer</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vNet_Networking_NetworkManager_defaultSendID" data-uid="Votanic.vNet.Networking.NetworkManager.defaultSendID">defaultSendID</h4>
+  <div class="markdown level1 summary"><p>By default include user ID in sent message. <br> 預設傳送訊息包含使用者編號。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;By default include user ID in sent message.\n&#38928;&#35373;&#20659;&#36865;&#35338;&#24687;&#21253;&#21547;&#20351;&#29992;&#32773;&#32232;&#34399;&#12290;&quot;)]
+public bool defaultSendID</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Votanic_vNet_Networking_NetworkManager_defaultSendName" data-uid="Votanic.vNet.Networking.NetworkManager.defaultSendName">defaultSendName</h4>
+  <div class="markdown level1 summary"><p>By default include user name in sent message. <br> 預設傳送訊息包含使用者名稱。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;By default include user name in sent message.\n&#38928;&#35373;&#20659;&#36865;&#35338;&#24687;&#21253;&#21547;&#20351;&#29992;&#32773;&#21517;&#31281;&#12290;&quot;)]
+public bool defaultSendName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vNet_Networking_NetworkManager_errorLog" data-uid="Votanic.vNet.Networking.NetworkManager.errorLog">errorLog</h4>
   <div class="markdown level1 summary"><p>Error log of connection. <br> 連線錯誤訊息。</p>
 </div>
@@ -282,6 +334,32 @@ public int maxConnections</code></pre>
   </table>
   
   
+  <h4 id="Votanic_vNet_Networking_NetworkManager_messageLog" data-uid="Votanic.vNet.Networking.NetworkManager.messageLog">messageLog</h4>
+  <div class="markdown level1 summary"><p>Display received messages on debug log. <br> 在偵錯日誌顯示已接收的訊息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Display received messages on debug log.\n&#22312;&#20597;&#37679;&#26085;&#35468;&#39023;&#31034;&#24050;&#25509;&#25910;&#30340;&#35338;&#24687;&#12290;&quot;)]
+public bool messageLog</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Votanic_vNet_Networking_NetworkManager_messages" data-uid="Votanic.vNet.Networking.NetworkManager.messages">messages</h4>
   <div class="markdown level1 summary"><p>All received messages. <br> 所有已接收訊息。</p>
 </div>
@@ -315,7 +393,7 @@ public List&lt;string&gt; messages</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Tooltip(&quot;Network ID of current connection.\n&#30446;&#21069;&#36899;&#32218;&#20351;&#29992;&#30340;&#35672;&#21029;&#30908;&#12290;&quot;)]
-public int networkID</code></pre>
+public uint networkID</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -327,7 +405,7 @@ public int networkID</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">System.UInt32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1130,6 +1208,37 @@ public GameObject userPrefab</code></pre>
     <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = true)]
 public virtual void OnDestroy()</code></pre>
   </div>
+  
+  
+  <a id="Votanic_vNet_Networking_NetworkManager_ReturnAuthority_" data-uid="Votanic.vNet.Networking.NetworkManager.ReturnAuthority*"></a>
+  <h4 id="Votanic_vNet_Networking_NetworkManager_ReturnAuthority_UnityEngine_Networking_NetworkIdentity_" data-uid="Votanic.vNet.Networking.NetworkManager.ReturnAuthority(UnityEngine.Networking.NetworkIdentity)">ReturnAuthority(NetworkIdentity)</h4>
+  <div class="markdown level1 summary"><p>Return the authority of a network object to host.
+交還一個網絡物件的控制權給主持。</p>
+<p> ReturnAuthority(gameObject.GetComponent(&quot;NetworkIdentity&quot;)) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReturnAuthority(NetworkIdentity identity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Networking.NetworkIdentity</span></td>
+        <td><span class="parametername">identity</span></td>
+        <td><p>Network identity component <br> 網絡識別器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Votanic_vNet_Networking_NetworkManager_Send_" data-uid="Votanic.vNet.Networking.NetworkManager.Send*"></a>
